@@ -1,10 +1,15 @@
 # Table of contents
 
-* [FAQ](README.md)
+* [Bienvenue !](README.md)
 * [Installation](installation.md)
 * [Configuration](configuration.md)
 
 ## Intéraction
 
 * [Règlement](interaction/reglement.md)
+
+## Autres
+
+* [FAQ](autres/faq.md)
+* [API](autres/api.md)
 

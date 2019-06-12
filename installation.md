@@ -18,7 +18,5 @@ Vous pouvez inviter le DraftBot depuis le site : [www.draftbot.fr](https://www.d
 Félicitations le DraftBot est maintenant invité sur votre serveur !
 {% endhint %}
 
-{% page-ref page="configuration.md" %}
-
 
 

@@ -28,5 +28,3 @@ En retirant la réaction, les membres retirent également leurs rôles !
 
 Afin de profiter au maximum de cet outil, nous vous conseillons de bloquer au rôle **@everyone** l'accès à tout le serveur excepté le salon d'accueil et d'autoriser tout le serveur au rôle de votre règlement !
 
-{% page-ref page="reglement.md" %}
-
