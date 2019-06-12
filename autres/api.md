@@ -47,7 +47,7 @@ Commandes récupérés avec succès.
 
 {% api-method method="get" host="https://api.draftbot.fr" path="/levels/:guild" %}
 {% api-method-summary %}
-
+Niveaux et récompenses
 {% endapi-method-summary %}
 
 {% api-method-description %}
