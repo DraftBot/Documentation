@@ -6,7 +6,7 @@ description: Une api destiné aux développeurs !
 
 {% api-method method="get" host="https://api.draftbot.fr" path="/commands" %}
 {% api-method-summary %}
-Liste de toutes les commandes
+Les commandes
 {% endapi-method-summary %}
 
 {% api-method-description %}
