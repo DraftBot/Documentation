@@ -28,3 +28,30 @@ En retirant la réaction, les membres retirent également leurs rôles !
 
 Afin de profiter au maximum de cet outil, nous vous conseillons de bloquer au rôle **@everyone** l'accès à tout le serveur excepté le salon d'accueil et d'autoriser tout le serveur au rôle de votre règlement !
 
+## Y ajouter des règles !
+
+Un règlement n'est pas un règlement sans règles ! Et afin d'avoir une communauté stable il est inévitable de passer par là !
+
+Et vous pourrez facilement en ajouter grâce à la commande :
+
+```text
+!adminrules
+```
+
+| Arguments | Description |
+| :--- | :--- |
+| argument | L'argument est l'action que vous souhaitez faire : **ajouter** et **retirer** une règle de votre règlement |
+| message | I'argument message représente l'id du message où se trouves le règlement  |
+
+Une fois ces deux arguments renseignés, le **DraftBot** vous demandera le titre de la règle et la description détaillé de cette règle 
+
+Une fois votre règlement crée vous devriez avoir quelque chose comme ça :
+
+
+
+{% hint style="danger" %}
+Ajouter une image de règlement 
+{% endhint %}
+
+
+
