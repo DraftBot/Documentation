@@ -7,6 +7,7 @@
 ## Intéraction
 
 * [Règlement](interaction/reglement.md)
+* [Rôle réaction](interaction/role-reaction.md)
 
 ## Autres
 
