@@ -4,7 +4,7 @@ description: Voici le processus d'invitation et d'installation de DraftBot.
 
 # Installation
 
-## Invitation
+## Invitation de DraftBot
 
 #### Commençons par inviter DraftBot sur le serveur.
 
@@ -18,7 +18,7 @@ Vous pouvez l'inviter depuis le site : [www.draftbot.fr](https://www.draftbot.fr
 Félicitations, le 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 est maintenant ajouté à votre serveur !
 {% endhint %}
 
-## Installation
+## Installation de DraftBot
 
 #### Une fois DraftBot ajouté à votre serveur, il faut lui donner les permissions dont il a besoin.
 
