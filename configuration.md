@@ -1,5 +1,5 @@
 ---
-description: Nous allons à présent configurer le DraftBot !
+description: Nous allons à présent configurer le DraftBot.
 ---
 
 # Configuration
