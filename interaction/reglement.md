@@ -1,34 +1,31 @@
 ---
-description: Mettre en place un système de règlement avec validation.
+description: >-
+  Mettre en place un système de règlement avec validation. Les nouveaux
+  arrivants pourront obtenir un rôle une fois qu'ils auront pris connaissance
+  des règles du serveur.
 ---
 
 # Règlement
 
-## Créez votre règlement
+## Création du règlement
 
-Vous pouvez créer votre règlement en étant totalement libre et ensuite d'ajouter votre balise de règlement en dessous :
+Commencez par créer votre règlement en utilisant la commande `!reglement` ou `@DraftBot#0535 reglement`
 
-```
-!reglement
-```
-
-Par la suite il vous demandera quel est le role que vous souhaitez attribuer aux membres qui ajoutent la réaction !
+Par la suite il vous demandera quel est le rôle que vous souhaitez attribuer aux membres qui attesteront avoir pris connaissance de ce règlement. Répondez alors simplement le nom du rôle que vous souhaitez associer à la validation.
 
 {% hint style="info" %}
-Si vous ne souhaitez pas notifier toutes les personnes qui ont le role destiné au règlement, vous pouvez mettre simplement le nom, ça fonctionnera aussi bien que la mention !
+Si vous ne souhaitez pas notifier toutes les personnes qui ont d'ores et déjà le rôle destiné au règlement, vous pouvez simplement répondre le nom du rôle. Cela fonctionnera tout aussi bien que la mention.
 {% endhint %}
 
-![](../.gitbook/assets/reglement.png)
+![Exemple de r&#xE8;glement apr&#xE8;s cr&#xE9;ation](../.gitbook/assets/reglement.png)
 
-{% hint style="warning" %}
-En retirant la réaction, les membres retirent également leurs rôles !
+{% hint style="danger" %}
+En retirant la réaction ✅ , les membres perdent également le rôle associé.
 {% endhint %}
 
-### Astuce
+**Astuce :** _Afin de profiter au maximum de cet outil, nous vous conseillons d'empêcher le rôle @everyone d'accéder aux principaux salons du serveur, excepter celui d'accueil, et de permettre l'accès à ces salons au rôle qui sera obtenus par le règlement. Ainsi, seules les personnes ayant pris connaissance des règles pourront réellement accéder au serveur._ 
 
-Afin de profiter au maximum de cet outil, nous vous conseillons de bloquer au rôle **@everyone** l'accès à tout le serveur excepté le salon d'accueil et d'autoriser tout le serveur au rôle de votre règlement !
-
-## Ajouter des règles !
+## Ajout de règles
 
 Un règlement n'est pas un règlement sans règles ! Et afin d'avoir une communauté stable il est inévitable de passer par là !
 
