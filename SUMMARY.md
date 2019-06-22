@@ -3,11 +3,15 @@
 * [Bienvenue !](README.md)
 * [Installation](installation.md)
 * [Configuration](configuration.md)
+* [help](help.md)
+* [Commandes complexes](reglement.md)
 
-## Intéraction
+## commandes
 
-* [Règlement](interaction/reglement.md)
-* [Rôle réaction](interaction/role-reaction.md)
+* [Bot](commandes/bot.md)
+* [Musique](commandes/musique.md)
+* [Utilitaire](commandes/utilitaire.md)
+* [Fun](commandes/fun.md)
 
 ## Autres
 
