@@ -30,36 +30,36 @@ Activez les paramètres du rôle dont 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 a besoin 
 
 | Permission | Inutile | Facultative | Essentielle | Recommandée |
 | :--- | :---: | :---: | :---: | :---: |
-| Afficher séparément | X |  |  |  |
-| Mentionner ce rôle |  | X |  |  |
-| Administrateur |  | X |  | 𝗫 |
-| Voir les logs | X |  |  |  |
+| Afficher séparément | ⚪ |  |  |  |
+| Mentionner ce rôle |  | ⚫ |  |  |
+| Administrateur |  | ⚫ |  | 🔴 |
+| Voir les logs | ⚪ |  |  |  |
 | Gérer le serveur |  |  |  |  |
-| Gérer les rôles |  |  | X | 𝗫 |
-| Gérer les salons |  |  | X | 𝗫 |
-| Expulser des membres |  |  | X | 𝗫 |
-| Bannir des membres |  |  | X | 𝗫 |
-| Créer une invitation |  | X |  |  |
-| Changer de pseudo | X |  |  |  |
-| Gérer les pseudos |  | X |  |  |
-| Gérer les émojis | X |  |  |  |
-| Gérer les Webhooks |  |  | X | 𝗫 |
-| Lire & voir les salons |  |  | X | 𝗫 |
-| Envoyer des messages |  |  | X | 𝗫 |
-| Envoyer des TTS | X |  |  |  |
-| Gérer les messages |  |  | X | 𝗫 |
-| Intégrer des liens |  |  | X | 𝗫 |
-| Joindre des fichiers |  |  | X | 𝗫 |
-| Voir les anciens messages |  |  | X | 𝗫 |
-| Mentionner @everyone |  | X |  |  |
-| Utiliser des émojis externes |  |  | X | 𝗫 |
-| Se connecter en vocal |  |  | X | 𝗫 |
-| Parler en vocal |  |  | X | 𝗫 |
-| Couper le micro de membres |  | X |  |  |
-| Mettre en sourdine |  | X |  |  |
-| Déplacer des membres |  | X |  |  |
-| Utiliser la détection de voix |  | X |  | X |
-| Voix prioritaire |  | X |  |  |
+| Gérer les rôles |  |  | ⚫ | 🔴 |
+| Gérer les salons |  |  | ⚫ | 🔴 |
+| Expulser des membres |  |  | ⚫ | 🔴 |
+| Bannir des membres |  |  | ⚫ | 🔴 |
+| Créer une invitation |  | ⚫ |  |  |
+| Changer de pseudo | ⚪ |  |  |  |
+| Gérer les pseudos |  | ⚫ |  |  |
+| Gérer les émojis | ⚪ |  |  |  |
+| Gérer les Webhooks |  |  | ⚫ | 🔴 |
+| Lire & voir les salons |  |  | ⚫ | 🔴 |
+| Envoyer des messages |  |  | ⚫ | 🔴 |
+| Envoyer des TTS | ⚪ |  |  |  |
+| Gérer les messages |  |  | ⚫ | 🔴 |
+| Intégrer des liens |  |  | ⚫ | 🔴 |
+| Joindre des fichiers |  |  | ⚫ | 🔴 |
+| Voir les anciens messages |  |  | ⚫ | 🔴 |
+| Mentionner @everyone |  | ⚫ |  |  |
+| Utiliser des émojis externes |  |  | ⚫ | 🔴 |
+| Se connecter en vocal |  |  | ⚫ | 🔴 |
+| Parler en vocal |  |  | ⚫ | 🔴 |
+| Couper le micro de membres |  | ⚫ |  |  |
+| Mettre en sourdine |  | ⚫ |  |  |
+| Déplacer des membres |  | ⚫ |  |  |
+| Utiliser la détection de voix |  | ⚫ |  | 🔴 |
+| Voix prioritaire |  | ⚫ |  |  |
 
 {% hint style="warning" %}
 Si 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 n'est pas Administrateur, il faudra également penser à lui attribuer les permissions dans les salons où il devra agir.
@@ -71,5 +71,7 @@ Si vous souhaitez que 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 puisse attribuer des rôl
 
 > Dans notre cas par exemple, 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 sera capable d'attribuer les Deuxième, Troisième et Quatrième rôles, mais ne pourras pas donner le Premier rôle.
 
+{% hint style="success" %}
 Grâce à cette installation et si vous avez choisis de faire confiance à 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 en le laissant Administrateur, vous ne devriez pas rencontrer de problème. L'installation primaire est à présent terminée, vous pouvez passer à la « Configuration ».
+{% endhint %}
 
