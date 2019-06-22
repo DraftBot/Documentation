@@ -22,6 +22,14 @@ description: Voici une petite FAQ afin de répondre à aux questions les plus fr
 
 > **DraftBot** est destiné à être utilisé pour la gestion de serveur, en terme de modération, d’interactions des utilisateurs, mais également de divertissement. Il peut notamment servir pour l'attribution de rôles automatiques, l'écoute de musiques, des recherches d'informations, le suivi d'activité des membres, et la modération.
 
+### Comment est née l'idée de DraftBot ?
+
+> ????????
+
+### Quelles sont les principales fonctionnalités typiques de DraftBot ?
+
+> ???????
+
 {% hint style="info" %}
 Faites-nous parvenir vos autres questions via notre [Support Discord](https://discord.gg/BrcH9wz) - Une réponse y sera apporté le plus tôt possible.
 {% endhint %}

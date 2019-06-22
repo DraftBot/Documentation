@@ -8,31 +8,49 @@ description: Nous allons à présent configurer le DraftBot.
 
 Pour démarrer le processus de configuration, utilisez la commande `!config` ou `@DraftBot#0535 config`. Répondez ensuite aux questions suivantes en utilisant les réactions ou en envoyant votre choix par écrit.
 
-![](.gitbook/assets/config1.jpg)
+### Choix du préfixe
 
-### Choix du préfix
+Le premier message vous indiquera le préfixe actuel et vous proposera de le modifier. Cliquez alors sur la réaction correspondant à votre choix :
 
-![](.gitbook/assets/configprefix.jpg)
+* ✅ Pour changer de préfixe selon votre convenance et éviter les conflits avec d'autres bots.
+* ❎ Pour conserver le préfixe actuel.
 
-Cliquez sur la réaction correspondant à votre choix :
+Si vous avez choisis de modifier le préfixe, répondez alors par le caractère que vous souhaitez utiliser.   
+Par exemple : _$ ? % § & ..._
 
-* ✅ Pour changer de préfixe selon votre convenance et éviter les conflits avec les autres bots
-* ❎ Pour conserver le préfixe actuel
+{% hint style="info" %}
+Dans tous les cas, vous pourrez toujours utiliser `@DraftBot#0535` à la place du préfixe pour utiliser une commande.
+{% endhint %}
 
-![](.gitbook/assets/configchoixprefix.jpg)
+### Message de bienvenue
 
-Répondez ici par le préfixe que vous souhaitez utiliser. Dans tous les cas, vous pourrez toujours utiliser `@DraftBot#0535` à la place du préfixe pour utiliser une commande.
-
-### Activation du message automatique de bienvenue
-
-![](.gitbook/assets/config2.jpg)
-
-Pour répondre à cette question vous devrez cliquer sur l'une des deux réaction : 
+Le second message concerne les message automatique de bienvenue. Pour répondre à cette question vous devrez cliquer sur l'une des deux réaction : 
 
 * ✅ Pour activer le message de bienvenue 
 * ❎ Pour désactiver le message de bienvenue
 
-![](.gitbook/assets/configsalonbvn.jpg)
+Si vous choisissez d'activer le message de bienvenue, vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
+Par exemple _\#accueil \#bienvenue \#général ..._
 
-Répondez par le nom du salon dans lequel vous souhaitez que les messages de bienvenue soient envoyés.
+### Rôle automatique
+
+### Logs du bot
+
+### Niveau d'activité
+
+### Invitations Discord externes
+
+### Suppression des commandes
+
+{% hint style="success" %}
+Vous avez terminé la configuration de **DraftBot**
+{% endhint %}
+
+{% hint style="info" %}
+Vous pouvez réitérer cette configuration à tout moment pour modifier vos paramétrages, ou utiliser les commandes individuellement comme détaillées ci-dessous.
+{% endhint %}
+
+## Commandes individuelles
+
+
 
