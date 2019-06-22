@@ -4,14 +4,26 @@ description: Voici une petite FAQ afin de répondre à aux questions les plus fr
 
 # FAQ
 
-## Comment est fait le DraftBot
+## Charte des questions de la FAQ - Titre en H1
 
-Le DraftBot est un bot chat-bot discord développé en NodeJs
+### Question en H2
 
+> Réponse en citation/quote
 
+> Réponse additionelles en citation/quote
+
+## Généralités
+
+### Comment est développé le DraftBot ?
+
+> Le **DraftBot** est un chat-bot Discord développé en NodeJs. Il peut entièrement être configuré via des réponses et réaction dans les salons textuels de Discord, avec en complément un Panel Web.
+
+### Quels sont les domaines d'activité de DraftBot ?
+
+> **DraftBot** est destiné à être utilisé pour la gestion de serveur, en terme de modération, d’interactions des utilisateurs, mais également de divertissement. Il peut notamment servir pour l'attribution de rôles automatiques, l'écoute de musiques, des recherches d'informations, le suivi d'activité des membres, et la modération.
 
 {% hint style="info" %}
-Si vous avez d'autres questions n'hésitez pas à nous les soumettre sur le support [discord](https://discord.gg/BrcH9wz) et elles apparaîtrons surement ici !
+Faites-nous parvenir vos autres questions via notre [Support Discord](https://discord.gg/BrcH9wz) - Une réponse y sera apporté le plus tôt possible.
 {% endhint %}
 
 
