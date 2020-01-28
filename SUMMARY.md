@@ -9,7 +9,6 @@
 ## commandes
 
 * [Bot](commandes/bot.md)
-* [Musique](commandes/musique.md)
 * [Utilitaire](commandes/utilitaire.md)
 * [Fun](commandes/fun.md)
 
