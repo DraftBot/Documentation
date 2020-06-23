@@ -5,12 +5,6 @@
 * [Configuration](configuration.md)
 * [Commandes complexes](reglement.md)
 
-## commandes
-
-* [Bot](commandes/bot.md)
-* [Utilitaire](commandes/utilitaire.md)
-* [Fun](commandes/fun.md)
-
 ## Autres
 
 * [FAQ](autres/faq.md)
