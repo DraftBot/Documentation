@@ -3,7 +3,6 @@
 * [Bienvenue !](README.md)
 * [Installation](installation.md)
 * [Configuration](configuration.md)
-* [help](help.md)
 * [Commandes complexes](reglement.md)
 
 ## commandes
