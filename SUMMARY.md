@@ -12,7 +12,6 @@
 ## Autres
 
 * [Changelog](autres/changelog.md)
-* [FAQ](autres/faq.md)
 * [API](autres/api.md)
 * [Contact](autres/contact.md)
 
