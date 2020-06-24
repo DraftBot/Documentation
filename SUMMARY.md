@@ -5,9 +5,9 @@
 * [Configuration](configuration.md)
 * [Commandes complexes](reglement.md)
 
-## Fonctionnalités
+## Fonctionnalités <a id="features"></a>
 
-* [Interserveurs](fonctionnalites/interserveurs.md)
+* [Interserveurs](features/interserveurs.md)
 
 ## Autres
 
