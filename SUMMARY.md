@@ -5,6 +5,10 @@
 * [Configuration](configuration.md)
 * [Commandes complexes](reglement.md)
 
+## Fonctionnalités
+
+* [Interserveurs](fonctionnalites/interserveurs.md)
+
 ## Autres
 
 * [FAQ](autres/faq.md)
