@@ -15,7 +15,7 @@ Le premier message vous indiquera le préfixe actuel et vous proposera de le mod
 * ✅ Pour changer de préfixe selon votre convenance et éviter les conflits avec d'autres bots.
 * ❎ Pour conserver le préfixe actuel.
 
-Si vous avez choisis de modifier le préfixe, répondez alors par le caractère que vous souhaitez utiliser.   
+Si vous avez choisi de modifier le préfixe, répondez alors par le caractère que vous souhaitez utiliser.   
 Par exemple : _$ ? % § & ..._
 
 {% hint style="info" %}
@@ -24,7 +24,7 @@ Dans tous les cas, vous pourrez toujours utiliser `@DraftBot#0535` à la place d
 
 ### Message de bienvenue
 
-Le second message concerne les message automatique de bienvenue. Pour répondre à cette question vous devrez cliquer sur l'une des deux réaction : 
+La seconde étape concerne les messages automatiques de bienvenue. Pour répondre à cette question vous devrez cliquer sur l'une des deux réactions : 
 
 * ✅ Pour activer le message de bienvenue 
 * ❎ Pour désactiver le message de bienvenue
@@ -104,11 +104,11 @@ Si vous choisissez de modifier le gain d'expérience, en envoyant _Config_, vous
            2⃣ \| Entre 15 et 25 XP par message  
            3⃣ \| Entre 25 et 35 XP par message  
   
-Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction de votre choix, en fonction du taux d'experience que vous voulez à présent faire gagner. 
+Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction de votre choix, en fonction du taux d’expérience que vous voulez à présent faire gagner. 
 
 ### `admininvites`
 
-Vous avez la possibilité d'interdire les invitation Discord sur votre serveur, et de les faire supprimer automatiquement par **DraftBot**, pour éviter que vos membres fassent de la pub. Pour cela, il suffit d'executer la commande `!admininvites` ou `@DraftBot admininvites` afin d'activer ou désactiver cette fonctionnalité.
+Vous avez la possibilité d'interdire les invitations Discord sur votre serveur, et de les faire supprimer automatiquement par **DraftBot**, pour éviter que vos membres fassent de la pub. Pour cela, il suffit d’exécuter la commande `!admininvites` ou `@DraftBot admininvites` afin d'activer ou désactiver cette fonctionnalité.
 
 ### `vanish`
 
