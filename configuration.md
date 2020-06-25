@@ -106,7 +106,7 @@ Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
 * Réinitialiser la fonctionnalité → `reset` \(`!adminxp resetall` pour réinitialiser l'expérience\)
 *  Personnaliser la couleur → `color` \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\)
 
-Si vous choisissez de modifier le gain d'expérience, en envoyant `config`, vous aurez alors le choix entre quatre propositions:
+Si vous choisissez de **modifier le gain d'expérience**, en envoyant `config`, vous aurez alors le choix entre quatre propositions:
 
            0⃣ \| 0 XP par message  
            1⃣ \| Entre 5 et 15 XP par message  
@@ -115,7 +115,7 @@ Si vous choisissez de modifier le gain d'expérience, en envoyant `config`, vous
   
 Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction de votre choix, en fonction du taux d’expérience que vous voulez à présent faire gagner. 
 
-Si vous choisissez de booster un rôle, en envoyant `boosters`, vous aurez alors le choix entre trois propositions : Ajouter un rôle booster \| Supprimer un rôle booster \| Afficher les rôles boosters
+Si vous choisissez de **booster un rôle**, en envoyant `boosters`, vous aurez alors le choix entre trois propositions : Ajouter un rôle booster \| Supprimer un rôle booster \| Afficher les rôles boosters
 
 * Si vous choisissez d’ajouter un rôle booster, vous devrez choisir quel rôle doit
 
@@ -127,12 +127,12 @@ Si vous choisissez de booster un rôle, en envoyant `boosters`, vous aurez alors
 
 * Si vous choisissez d’afficher la liste des rôles boosters, DraftBot vous enverra tous les rôles boostés et le multiplicateur qui leur a été attribué.
 
-Si vous choisissez d’ignorer l’expérience, en envoyant `ignore`, vous aurez le choix entre deux propositions: Ignorer un rôle \| Ignorer un salon 
+Si vous choisissez d’**ignorer l’expérience**, en envoyant `ignore`, vous aurez le choix entre deux propositions: Ignorer un rôle \| Ignorer un salon 
 
 * Si vous choisissez le rôle, vous devez renseigner le rôle qui empêchera les membres l'ayant de gagner de l’expérience. 
 * Si vous choisissez le salon, vous devez renseigner le salon dans lequel l’expérience ne sera pas comptabilisé.
 
-Si vous choisissez de réinitialiser le système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, DraftBot vous supprimera toutes les configurations effectués pour ce système. A savoir:
+Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, DraftBot vous supprimera toutes les configurations effectués pour ce système. A savoir:
 
 * Son statut
 * Le nombre d'expérience gagné a chaque message
@@ -142,6 +142,8 @@ Si vous choisissez de réinitialiser le système de niveaux, en envoyant `reset`
 * Les salons dans les quels le gain d'expérience est désactivé
 * Les rôles qui permettent de multiplier le gain d'expérience
 * La couleur de la fonctionnalité de niveaux \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\)
+
+Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 ### `admininvites`
 
