@@ -80,12 +80,11 @@ La commande `!prefix` ou `@DraftBot#0535 prefix` permet de visualiser ou modifie
 
 ### `welcome`
 
-Utilisez `!welcome` ou `@DraftBot#0535 welcome` pour activer ou désactiver le message de bienvenue. Si vous décidez de l'activer en cliquant sur la réaction ✅ , le bot vous demandera de désigner un salon textuel dans lequel ces messages devront être envoyés.
+Utilisez `!welcome` ou `@DraftBot#0535 welcome` pour activer ou désactiver le message de bienvenue. Suite à quoi vous aurez la possibilité de modifier ou non le texte de bienvenue. En cliquant sur la réaction ✅, il vous sera demandé d’insérer le texte à envoyer lors de l’arrivée d’un nouveau membre.
 
 ### `autorole`
 
-La commande `!autorole` ou `@DraftBot#0535 autorole` permet d'attribuer un rôle automatiquement aux nouveaux arrivants.   
-Dans le cas `!autorole exemple`, le rôle "Exemple" sera donné à toute personne rejoignant le serveur.
+La commande `!autorole` ou `@DraftBot#0535 autorole` permet d'attribuer un rôle automatiquement aux nouveaux arrivants. Comme pour le préfixe, si vous tapez la commande, vous serez renseigné sur le rôle actuellement attribué, autrement dans le cas `!autorole exemple`, le rôle "Exemple" sera donné à toute personne rejoignant le serveur.
 
 ### `logs`
 
@@ -95,16 +94,54 @@ Pour cela, utilisez simplement la commande `!logs` ou `@DraftBot#0535 logs` afin
 
 ### `adminlevel`
 
-Suivez l'activité de vos membres grâce à la fonction de niveaux. Vous pouvez l'activer, la désactiver ou modifier son intensité avec la commande `!adminlevel` ou `@DraftBot#0535 adminlevel`. Un message vous sera envoyé par DraftBot pour savoir si vous voulez :  
-          activer → _On_          -          désactiver → _Off_          -          modifier l'intensité → _Config_  
-Si vous choisissez de modifier le gain d'expérience, en envoyant _Config_, vous aurez alors le choix entre quatre propositions :  
-  
+Suivez l'activité de vos membres grâce à la fonction de niveaux. Vous pouvez l'activer, la désactiver ou modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `!adminlevel` ou `@DraftBot#0535 adminlevel`. 
+
+Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
+
+* L'activer → `on`
+* Le désactiver → `off`
+* Le configurer → `config`
+* Multiplier les gains d’un rôle → `boosters`
+* Ne pas prendre en compte un rôle ou salon → `ignore` 
+* Réinitialiser la fonctionnalité → `reset` \(`!adminxp resetall` pour réinitialiser l'expérience\)
+*  Personnaliser la couleur → `color` \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\)
+
+Si vous choisissez de modifier le gain d'expérience, en envoyant `config`, vous aurez alors le choix entre quatre propositions:
+
            0⃣ \| 0 XP par message  
            1⃣ \| Entre 5 et 15 XP par message  
            2⃣ \| Entre 15 et 25 XP par message  
            3⃣ \| Entre 25 et 35 XP par message  
   
 Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction de votre choix, en fonction du taux d’expérience que vous voulez à présent faire gagner. 
+
+Si vous choisissez de booster un rôle, en envoyant `boosters`, vous aurez alors le choix entre trois propositions : Ajouter un rôle booster \| Supprimer un rôle booster \| Afficher les rôles boosters
+
+* Si vous choisissez d’ajouter un rôle booster, vous devrez choisir quel rôle doit
+
+  être boosté. Vous pourrez ensuite choisir le multiplicateur entre `1.5`, `2.0`, `2.5` ou `3.0`.
+
+* Si vous choisissez de supprimer un rôle booster, DraftBot vous montrera tous
+
+  les rôles boostés et vous devrez alors choisir lequel supprimer.
+
+* Si vous choisissez d’afficher la liste des rôles boosters, DraftBot vous enverra tous les rôles boostés et le multiplicateur qui leur a été attribué.
+
+Si vous choisissez d’ignorer l’expérience, en envoyant `ignore`, vous aurez le choix entre deux propositions: Ignorer un rôle \| Ignorer un salon 
+
+* Si vous choisissez le rôle, vous devez renseigner le rôle qui empêchera les membres l'ayant de gagner de l’expérience. 
+* Si vous choisissez le salon, vous devez renseigner le salon dans lequel l’expérience ne sera pas comptabilisé.
+
+Si vous choisissez de réinitialiser le système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, DraftBot vous supprimera toutes les configurations effectués pour ce système. A savoir:
+
+* Son statut
+* Le nombre d'expérience gagné a chaque message
+* Les messages de récompenses \(statut, salon, message customisé\)
+* Le statut qui empêche les membres invisibles de gagner de l’expérience
+* Les rôles qui empêchent le gain d'expérience
+* Les salons dans les quels le gain d'expérience est désactivé
+* Les rôles qui permettent de multiplier le gain d'expérience
+* La couleur de la fonctionnalité de niveaux \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\)
 
 ### `admininvites`
 
