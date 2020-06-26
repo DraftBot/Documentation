@@ -42,12 +42,6 @@ La troisième étape concerne le rôle automatique qui peut être attribué à l
  Si vous choisissez de mettre en place un rôle automatique, vous devez répondre par le nom du rôle à ajouter aux nouveaux membres.   
 Par exemple @_membre @humain ..._
 
-### Logs du bot
-
-{% hint style="warning" %}
-En cours de réalisation
-{% endhint %}
-
 ### Niveau d'activité
 
 {% hint style="warning" %}
