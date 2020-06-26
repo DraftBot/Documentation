@@ -65,8 +65,13 @@ Cliquez alors sur la réaction de votre choix.
 
 ### Invitations Discord externes
 
-{% hint style="warning" %}
-En cours de réalisation
+La cinquième partie de la configuration concerne l'interdiction à vos membres d'envoyer des invitations vers d'autres serveurs. Pour y répondre, vous devrez choisir une des réaction proposées: 
+
+* ✅ Les invitations ne seront pas interdites aux membres
+* ❎ Les membres ne pourront pas envoyer d'invitations
+
+{% hint style="info" %}
+Les administrateurs pourront envoyer des invitations même si c'est interdit aux membres.
 {% endhint %}
 
 ### Suppression des commandes
