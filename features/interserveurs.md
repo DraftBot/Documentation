@@ -6,7 +6,7 @@ description: >-
 
 # Interserveurs
 
-Ce type de fonctionnalité permet notamment de pouvoir avoir plusieurs serveurs autour d'une même thématique mais également de pouvoir garder un même file de discussion générale.
+Ce type de fonctionnalité permet notamment de pouvoir avoir plusieurs serveurs autour d'une même thématique mais également de pouvoir garder un même fil de discussion générale.
 
 ## Création de la fréquence
 
@@ -16,27 +16,27 @@ La création de l'interserveur se fait simplement à l'aide de la commande suiva
 !interserveur
 ```
 
-Une fréquence vous sera envoyé en message privé.
+Une fréquence vous sera envoyée en message privé.
 
 {% hint style="warning" %}
-Vous devez activez vos messages privés pour recevoir cette fréquence, vous pouvez les ouvrir uniquement sur le serveur en question en passant par l'onglet **Paramètres de confidentialité** de votre serveur discord.
+Vous devez activer vos messages privés pour recevoir cette fréquence, vous pouvez les ouvrir uniquement sur le serveur en question en passant par l'onglet **Paramètres de confidentialité** de votre serveur discord.
 {% endhint %}
 
 {% hint style="success" %}
-Votre fréquence est crée il ne vous reste plus qu'à ajouter un autre salon à cette fréquence !
+Votre fréquence est créée, il ne vous reste plus qu'à ajouter un autre salon à cette fréquence !
 {% endhint %}
 
 ## Relier un salon à un interserveur
 
-Une fois avoir crée votre fréquence, il vous faut maintenant relier un autre serveur a cette fréquence afin que les deux salons puissent communiquer.
+Une fois votre fréquence créée, il vous faut maintenant relier un autre serveur à cette fréquence afin que les deux salons puissent communiquer.
 
-Pour ce faire vous pouvez utiliser la même commande suivi de la fréquence reçu par message privé
+Pour ce faire vous pouvez utiliser la même commande suivie de la fréquence reçue par message privé
 
 ```text
 !interserveur <la fréquence>
 ```
 
-Une fois cette commande exécuté un message de confirmation vous sera envoyé dans le même salon ainsi que dans le salon relié par la fréquence !
+Une fois cette commande exécutée, un message de confirmation vous sera envoyé dans le même salon ainsi que dans le salon relié par la fréquence !
 
 {% hint style="success" %}
 Vous avez crée votre interserveur entre vos deux salons !
