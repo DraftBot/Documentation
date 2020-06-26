@@ -8,6 +8,7 @@
 ## Fonctionnalités <a id="features"></a>
 
 * [Interserveurs](features/interserveurs.md)
+* [Tickets](features/tickets.md)
 
 ## Autres
 
