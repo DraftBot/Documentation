@@ -42,11 +42,23 @@ La troisième étape concerne le rôle automatique qui peut être attribué à l
  Si vous choisissez de mettre en place un rôle automatique, vous devez répondre par le nom du rôle à ajouter aux nouveaux membres.   
 Par exemple @_membre @humain ..._
 
-### Niveau d'activité
+### Système de niveaux
 
-{% hint style="warning" %}
-En cours de réalisation
-{% endhint %}
+La quatrième étape concerne le système de niveaux. Pour y répondre, vous devrez cliquer sur une des deux réactions proposées: 
+
+* ✅ Pour activer le système de niveaux
+* ❎ Pour désactiver le système de niveaux.
+
+Si vous décidez d'activer le système de niveaux, DraftBot vous demande alors si vous souhaitez modifier l'expérience gagnée à chaque message. Vous pouvez choisir une des deux réactions proposées: 
+
+* ✅ Modifier l'expérience gagnée par message
+* ❎ Continuer sans modifier l'expérience gagnée par message
+
+Si vous souhaitez modifier la valeur, DraftBot vous propose alors 4 choix: 
+
+![Les 4 choix disponibles](.gitbook/assets/image%20%285%29.png)
+
+Cliquez alors sur la réaction de votre choix.
 
 ### Invitations Discord externes
 
