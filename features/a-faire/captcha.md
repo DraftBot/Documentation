@@ -1,4 +1,4 @@
 # Captcha
 
-## J'aime pas cette fonctionnalité -\_-
+## J'aime pas cette fonctionnalité -\_- \(x2\)
 
