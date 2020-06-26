@@ -75,3 +75,5 @@ Si vous souhaitez que 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 puisse attribuer des rôl
 Grâce à cette installation et si vous avez choisis de faire confiance à 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 en le laissant Administrateur, vous ne devriez pas rencontrer de problème. L'installation primaire est à présent terminée, vous pouvez passer à la « Configuration ».
 {% endhint %}
 
+
+
