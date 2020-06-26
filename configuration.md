@@ -56,7 +56,10 @@ Si vous décidez d'activer le système de niveaux, DraftBot vous demande alors s
 
 Si vous souhaitez modifier la valeur, DraftBot vous propose alors 4 choix: 
 
-![Les 4 choix disponibles](.gitbook/assets/image%20%285%29.png)
+           0⃣ \| 0 XP par message  
+           1⃣ \| Entre 5 et 15 XP par message  
+           2⃣ \| Entre 15 et 25 XP par message  
+           3⃣ \| Entre 25 et 35 XP par message
 
 Cliquez alors sur la réaction de votre choix.
 
