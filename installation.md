@@ -67,7 +67,7 @@ Si 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 n'est pas Administrateur, il faudra égaleme
 
 Si vous souhaitez que 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 puisse attribuer des rôles, assurez-vous que ceux-ci soient inférieurs dans la hiérarchie des rôles du serveur :
 
-![DraftBot est positionn&#xE9; en dessous du Premier dans la hi&#xE9;rarchie des r&#xF4;les.](.gitbook/assets/draftbot%20%281%29.jpg)
+![DraftBot est positionn&#xE9; en dessous du r&#xF4;le Premier dans la hi&#xE9;rarchie des r&#xF4;les.](.gitbook/assets/draftbot%20%281%29.jpg)
 
 > Dans notre cas par exemple, 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 sera capable d'attribuer les Deuxième, Troisième et Quatrième rôles, mais ne pourras pas donner le Premier rôle.
 
