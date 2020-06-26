@@ -74,11 +74,12 @@ La cinquième partie de la configuration concerne l'interdiction à vos membres 
 Les administrateurs pourront envoyer des invitations même si c'est interdit aux membres.
 {% endhint %}
 
-### Suppression des commandes
+### Suppression des messages de commande
 
-{% hint style="warning" %}
-En cours de réalisation
-{% endhint %}
+La sixième et dernière partie de la configuration concerne la suppression des messages de commande. Pour y répondre, vous devez choisir une des réactions proposées: 
+
+* ✅ Les messages de commande seront supprimés
+* ❎ Les messages de commande seront conservés
 
 {% hint style="success" %}
 Vous avez terminé la configuration de **DraftBot**
