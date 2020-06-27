@@ -27,7 +27,7 @@ En retirant la réaction ✅ les membres perdent également le rôle associé.
 
 ## Ajout de règles
 
-Pour conserver une communauté stable il est nécessaire de mettre en place un système de règles à suivre. Vous pourrez facilement en ajouter à votre règlement grâce à la commande `rules` ou `@DraftBot#0535 arules`
+Pour conserver une communauté stable il est nécessaire de mettre en place un système de règles à suivre. Vous pourrez facilement en ajouter à votre règlement grâce à la commande `rules` ou `@DraftBot#0535 rules`
 
 | Arguments | Description |
 | :--- | :--- |

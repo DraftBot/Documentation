@@ -8,12 +8,7 @@ description: >-
 
 ## Activer le système de tickets
 
-Pour configurer le système de tickets, il vous suffit de faire la commande :
-
-```text
-!ticket config
-```
-
+Pour configurer le système de tickets, il vous suffit de faire la commande `ticket config` ou `@DraftBot#0535 ticket config`  
 Il vous reste plus qu’à configurer le système de tickets suivant vos besoins.
 
 ## Validation des tickets
@@ -36,11 +31,7 @@ Si le ticket a été fermé par le membre, il sera conservé jusqu’à qu’un 
 
 ## Désactiver le système de tickets
 
-Pour désactiver ce système, il vous suffit de faire cette commande :
-
-```text
-!ticket config
-```
+Pour désactiver ce système, il vous suffit de faire cette commande `ticket config` ou `@DraftBot#0535 ticket config`
 
 Lors de la première question **"Souhaitez-vous activer ou désactiver le système de tickets ?"**, il vous suffit de cliquer sur la réaction ❌
 
