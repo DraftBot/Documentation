@@ -6,7 +6,7 @@
 
 ## Fonctionnalités <a id="features"></a>
 
-* [Niveaux](features/niveaux-1.md)
+* [Niveaux](features/niveaux.md)
 * [Règlement](features/reglement.md)
 * [Interserveurs](features/interserveurs.md)
 * [Tickets](features/tickets.md)
