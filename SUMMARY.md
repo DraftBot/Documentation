@@ -6,11 +6,11 @@
 
 ## Fonctionnalités <a id="features"></a>
 
+* [Niveaux](features/niveaux-1.md)
 * [Règlement](features/reglement.md)
 * [Interserveurs](features/interserveurs.md)
 * [Tickets](features/tickets.md)
 * [Prefix](features/prefix.md)
-* [Niveaux](features/niveaux-1.md)
 * [A FAIRE](features/a-faire/README.md)
   * [Economie](features/a-faire/economie.md)
   * [Gestion des messages](features/a-faire/gestion-des-messages.md)
