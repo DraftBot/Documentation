@@ -8,6 +8,7 @@
 
 * [Niveaux](features/niveaux.md)
 * [Règlement](features/reglement.md)
+* [RoleReact](features/rolereact.md)
 * [Interserveurs](features/interserveurs.md)
 * [Tickets](features/tickets.md)
 * [Prefix](features/prefix.md)
@@ -15,7 +16,6 @@
   * [Economie](features/a-faire/economie.md)
   * [Gestion des messages](features/a-faire/gestion-des-messages.md)
   * [WordReact](features/a-faire/wordreact.md)
-  * [RoleReact](features/a-faire/rolereact.md)
   * [RolePerm](features/a-faire/roleperm.md)
   * [Membercount](features/a-faire/membercount.md)
   * [PrivateRoom](features/a-faire/privateroom.md)
