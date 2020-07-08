@@ -6,7 +6,7 @@ description: >-
 
 # Gestion des messages
 
-## Clean/clear \(avec arguments\)
+## Clean/clear <a id="clear"></a>
 
 La commande `clear` \(ou `clean`\) vous permet de supprimer un grand nombre de message.   
 Pour utiliser cette commande, il vous suffit de faire `clear [nombre entre 1 et 100]`
