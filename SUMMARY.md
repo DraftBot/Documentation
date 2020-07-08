@@ -6,13 +6,14 @@
 
 ## Fonctionnalités <a id="features"></a>
 
+* [Prefix](features/prefix.md)
 * [Niveaux](features/niveaux.md)
 * [Règlement](features/reglement.md)
 * [RoleReact](features/rolereact.md)
 * [Interserveurs](features/interserveurs.md)
 * [Tickets](features/tickets.md)
 * [Gestion des messages](features/gestion-des-messages.md)
-* [Prefix](features/prefix.md)
+* [Commandes d'informations](features/commandes-dinformation.md)
 * [A FAIRE](features/a-faire/README.md)
   * [Economie](features/a-faire/economie.md)
   * [WordReact](features/a-faire/wordreact.md)
@@ -22,7 +23,6 @@
   * [Mute](features/a-faire/mute.md)
   * [Modération](features/a-faire/moderation.md)
   * [Captcha](features/a-faire/captcha.md)
-  * [Commandes d'information](features/a-faire/commandes-dinformation.md)
 
 ## Autres
 
