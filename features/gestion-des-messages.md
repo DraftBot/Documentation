@@ -19,7 +19,7 @@ S'il détecte que les messages que vous souhaitez supprimer date de plus de sema
 ## ClearChannel
 
 Cette commande vous permet de cloner le salon et de supprimer l'ancien.   
-Pour utiliser cette fonctionnalité, vous devez utiliser la commande `clearchannel`
+Pour se servir cette fonctionnalité, vous devez utiliser la commande `clearchannel`
 
 {% hint style="info" %}
 Vous pouvez mentionner un salon textuel après la commande pour choisir un autre salon que celui où la commande a été effectué.

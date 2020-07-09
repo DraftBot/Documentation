@@ -11,7 +11,7 @@ description: >-
 La commande `userinfo` indique les informations détaillées d'un utilisateur comme son identifiant, sa date d'arrivée sur le serveur, la date de création de son compte et bien plus encore.
 
 {% hint style="info" %}
-Si aucun membre est indiqué après la commande, vos informations seront affichés.
+Si aucun membre est indiqué après la commande, vos informations seront affichées.
 {% endhint %}
 
 ![Informations obtenu dans la commande userinfo](../.gitbook/assets/image%20%2811%29.png)
