@@ -12,6 +12,7 @@
 * [RoleReact](features/rolereact.md)
 * [Interserveurs](features/interserveurs.md)
 * [Tickets](features/tickets.md)
+* [Mute](features/mute.md)
 * [RolePerms](features/roleperms.md)
 * [WordReact](features/wordreact.md)
 * [PrivateRoom](features/privateroom.md)
@@ -20,7 +21,6 @@
 * [A FAIRE](features/a-faire/README.md)
   * [Economie](features/a-faire/economie.md)
   * [Membercount](features/a-faire/membercount.md)
-  * [Mute](features/a-faire/mute.md)
   * [Modération](features/a-faire/moderation.md)
   * [Captcha](features/a-faire/captcha.md)
 
