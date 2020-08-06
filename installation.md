@@ -10,12 +10,12 @@ description: Voici le processus d'invitation et d'installation de DraftBot.
 
 Vous pouvez l'inviter depuis le site : [www.draftbot.fr](https://www.draftbot.fr)
 
-![Cliquez sur &#xAB; Ajouter &#xE0; discord &#xBB;](.gitbook/assets/home%20%281%29.png)
+![Cliquez sur &#xAB; Ajouter &#xE0; discord &#xBB;](.gitbook/assets/image%20%2827%29.png)
 
-![Connectez-vous si n&#xE9;cessaire puis choisissez votre serveur. Enfin, cliquez sur &#xAB; Autoriser &#xBB;.](.gitbook/assets/invite.png)
+![Connectez-vous si n&#xE9;cessaire puis choisissez votre serveur. Enfin, cliquez sur &#xAB; Autoriser &#xBB;.](.gitbook/assets/image%20%2823%29.png)
 
 {% hint style="success" %}
-Félicitations, le 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 est maintenant ajouté à votre serveur !
+Félicitations, 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 est maintenant ajouté à votre serveur !
 {% endhint %}
 
 ## Installation de DraftBot

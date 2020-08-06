@@ -9,7 +9,9 @@ description: >-
 ## Gestion des permissions
 
 Lors de la première utilisation de la commande `mute` sur un de vos membres, DraftBot créera un rôle nommé **Mute** et interdira la permission "Envoyer des messages" au rôle Mute sur l'ensemble des salons textuels.  
-Si vos membres réduits aux silences peuvent parler malgré ça, suivez cette partie du tutoriel pour corriger le problème.
+Si vos membres réduits aux silences peuvent parler malgré ça, suivez cette partie du tutoriel pour corriger le problème.  
+  
+Vous pouvez aussi utiliser la commande `diagnose mute` sur votre serveur pour corriger les éventuelles problèmes de permissions. 
 
 ### Permissions des rôles
 
