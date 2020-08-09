@@ -17,7 +17,7 @@ Peu importe la méthode que vous choisissez, le rolereact devra être sur un mes
 * **Simple message:** `say [message]`  La commande say permet d'envoyer un simple message Discord.
 
 {% hint style="info" %}
-Vous pourrez modifié ce message dans le futur avec la commande `say [Identifiant du message].`
+Vous pourrez modifier ce message dans le futur avec la commande `say [Identifiant du message].`
 {% endhint %}
 
 * **Embed automatique:** `rolereact create [Titre de l'embed]`  Cette solution vous permet à ce que l'embed soit modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela : 
@@ -39,7 +39,7 @@ Pour ajouter à un rôle à un rolereact, il vous suffit d'utiliser la commande 
 {% hint style="warning" %}
 Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
   
-Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
 {% endhint %}
 
 Ensuite, DraftBot vous demandera quel rôle doit être ajouté. Vous pouvez donner le nom du rôle ou le mentionner, les deux solutions fonctionnent.
@@ -61,7 +61,7 @@ Pour supprimer un rôle d'un rolereact, il vous suffit d'utiliser la commande `r
 {% hint style="warning" %}
 Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
   
-Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
 {% endhint %}
 
 DraftBot vous demandera ensuite quel emoji du rôlereact doit être supprimé, il vous suffit de l'indiquer.
