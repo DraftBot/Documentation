@@ -19,7 +19,7 @@ Afin que votre découverte de **DraftBot** via notre documentation se passe au m
 
 #### [_Si vous souhaitez contacter le Support, retrouvez-nous sur Discord en cliquant ici._](https://discord.com/invite/DrzKVU3)\_\_
 
-#### Si vous participez à l'évent **DraftBot** des 30.000 serveur, vous pourriez avoir besoin de ce code : **`P16YRA01`**
+#### Si vous participez à l'évent **DraftBot** des 30.000 serveur, vous pourriez avoir besoin de ce code : [**P16YRA01**](https://www.draftbot.fr/event/P16YRA01)\*\*\*\*
 
 
 
