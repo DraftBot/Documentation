@@ -6,6 +6,45 @@ description: >-
 
 # Changelog
 
+## 4.11.3 - 02/08/2020
+
+### Ajouts Welcome/Goodbye
+
+* Pouvoir activer et désactiver directement \(`on` ou `off`\)
+* Pouvoir afficher le message actuel
+* Pouvoir reset toute la fonctionnalité
+* Couleur embed \(premium\)
+* Dégradé de fond \(pressets pour non premium\) et custom pour les premium
+* Images de fond \(premium\)
+* Message déplacé dans la description donc possibilité d'ajouter des liens
+* Adaptation de panel pour la visualisation \(description\)
+
+### Changements Tickets
+
+* `!ticket create` devient `!ticket`
+* `!ticket config` devient `!adminticket config`
+* Nouvelles fonctionalités **add** et **remove** pour ajouter un membre au ticket `!adminticket`
+
+### Changements Premium
+
+* Les administrateurs peuvent maintenant ajouter le premium à leur serveurs
+* Le premium est automatiquement après achat et une page propose d'activer à l'achat les serveurs \(toujours modifiable avec la commande\)
+* Fermeture des inscriptions du Patreon
+
+### Jeux
+
+* Amélioration du jeu Pendu \(jambe et édition du message\)
+* Ajout du jeu Morpion
+
+### Autres changements
+
+* Taille du welcome et du goodbye multiplié par deux pour l'affichage des petits téléphones
+* Optimisation du système de level et de l'économie \(pouvait être lent quand les deux systèmes étaient activés\)
+* Suppression du salon \#nouveaux-serveurs sur le support
+* Refonte complète des messages de logs et conclusion des commandes de config
+* Configuration des rôles permissions depuis la page Commandes du panel web avec l’icône ⚙️
+* Ajout de la commande `!diagnose` pour connaître les problèmes de permissions avec le mute
+
 ## 4.11.2 - 23/06/2020
 
 ### Nouvelles fonctionnalités
