@@ -106,13 +106,13 @@ Une récompense peut comporter plusieurs éléments optionnels qui permettent de
 
 ###  Créer une récompense
 
-Vous pouvez créer une récompense avec la commande `!adminlevel add` ou `@DraftBot#0535 adminlevel add`. Une fois exécuté, une série de questions adaptée à chaque décision que vous prendrez vous sera posé.
+Vous pouvez créer une récompense avec la commande `!adminreward add` ou `@DraftBot#0535 adminreward add`. Une fois exécuté, une série de questions adaptée à chaque décision que vous prendrez vous sera posé.
 
 ### Supprimer une récompense
 
-Vous pouvez supprimer une de vos récompenses avec la commande `!adminlevel remove` ou `@DraftBot#0535 adminlevel remove`. Une fois exécuté, le nom de la récompense cible vous sera demandé afin de la supprimer.
+Vous pouvez supprimer une de vos récompenses avec la commande `!adminreward remove` ou `@DraftBot#0535 adminreward remove`. Une fois exécuté, le nom de la récompense cible vous sera demandé afin de la supprimer.
 
 ### Supprimer toutes les récompenses
 
-En cas de problème vous pouvez supprimer l'intégralité de vos récompenses avec la commande `!adminlevel reset` ou `@DraftBot#0535 adminlevel reset`. Une fois exécuté, toutes les récompenses du serveur seront supprimés.
+En cas de problème vous pouvez supprimer l'intégralité de vos récompenses avec la commande `!adminreward reset` ou `@DraftBot#0535 adminreward reset`. Une fois exécuté, toutes les récompenses du serveur seront supprimés.
 
