@@ -2,16 +2,16 @@
 
 ## Voir le préfixe
 
-Si vous ne vous rappelez plus du préfixe de DraftBot, il vous suffit de faire sur votre serveur`@DraftBot#0535 prefix`   
+Si vous ne vous rappelez plus du préfixe de **DraftBot** il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix`   
 Vous obtiendriez alors cette réponse :  
 
-![R&#xE9;ponse de DraftBot &#xE0; @DraftBot\#0535 prefix ](../.gitbook/assets/image%20%286%29.png)
+![ ](../.gitbook/assets/image%20%286%29.png)
 
-Dans notre cas, le préfixe de DraftBot est **!**, soit celui par défaut.
+Dans notre cas, le préfixe de **DraftBot** est **!**, soit celui par défaut.
 
 ## Changer le préfixe
 
-Si vous souhaitez changer le préfix de DraftBot, car il a le préfixe d'un autre bot sur votre serveur par exemple, il vous suffit de faire la commande `prefix <prefix>` ou bien`@DraftBot#0535 prefix <prefix>`  
+Si vous souhaitez changer le préfix de **DraftBot**, car il a le préfixe d'un autre bot sur votre serveur par exemple, il vous suffit de faire la commande `prefix <prefix>` ou bien`@DraftBot#0535 prefix <prefix>`  
   
 Si vous souhaitez rétablir le préfixe par défaut \(!\), vous pouvez aussi faire la commande `prefix default` ou `@DraftBot#0535 prefix default`
 

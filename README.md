@@ -13,13 +13,11 @@ Afin que votre découverte de **DraftBot** via notre documentation se passe au m
 * Les commandes sont classées par groupe, comme dans la liste des [commandes ](https://www.draftbot.fr/commandes)de **DraftBot**
 * Les actions à cliquer seront entre « guillemets »
 * Les commandes seront écrites sous forme de `code`
-* Les rôles seront inscrits en _italique_
+* Les rôles et arguments seront inscrits en _italique_
 
 \_\_
 
 #### [_Si vous souhaitez contacter le Support, retrouvez-nous sur Discord en cliquant ici._](https://discord.com/invite/DrzKVU3)\_\_
-
-#### Si vous participez à l'évent **DraftBot** des 30.000 serveur, vous pourriez avoir besoin de ce code : [**P16YRA01**](https://www.draftbot.fr/event/P16YRA01)\*\*\*\*
 
 
 
