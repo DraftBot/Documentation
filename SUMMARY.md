@@ -6,7 +6,7 @@
 
 ## Fonctionnalités <a id="features"></a>
 
-* [Prefix](features/prefix.md)
+* [Préfixe](features/prefixe.md)
 * [Niveaux](features/niveaux.md)
 * [Règlement](features/reglement.md)
 * [RoleReact](features/rolereact.md)
