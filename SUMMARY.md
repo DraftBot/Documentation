@@ -20,9 +20,12 @@
 * [Gestion des messages](features/gestion-des-messages.md)
 * [Commandes d'informations](features/commandes-dinformation.md)
 * [A FAIRE](features/a-faire/README.md)
+  * [Captcha](features/a-faire/captcha.md)
+  * [Commandes personnalisées](features/a-faire/commandes-personnalisees.md)
   * [Economie](features/a-faire/economie.md)
   * [Membercount](features/a-faire/membercount.md)
-  * [Captcha](features/a-faire/captcha.md)
+  * [Report](features/a-faire/report.md)
+  * [Système de suggestions](features/a-faire/suggestions.md)
 
 ## Autres
 
