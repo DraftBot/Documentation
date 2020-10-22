@@ -36,10 +36,8 @@ Vous pourrez modifier l'embed dans le futur depuis le panel web.
 
 Pour ajouter à un rôle à un rolereact, il vous suffit d'utiliser la commande `rolereact add [Identifiant du message de DraftBot]`
 
-{% hint style="warning" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 Ensuite, DraftBot vous demandera quel rôle doit être ajouté. Vous pouvez donner le nom du rôle ou le mentionner, les deux solutions fonctionnent.
@@ -58,10 +56,8 @@ Si vous souhaitez ajouter un autre rolereact au même message, il vous suffit de
 
 Pour supprimer un rôle d'un rolereact, il vous suffit d'utiliser la commande `rolereact remove [Identifiant du message de DraftBot]`
 
-{% hint style="warning" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 DraftBot vous demandera ensuite quel emoji du rôlereact doit être supprimé, il vous suffit de l'indiquer.
@@ -79,9 +75,7 @@ Vous pouvez configurer cela avec la commande `rolereact mode`
 Après cela, DraftBot vous demandera l'identifiant du message de DraftBot pour le rolereact.
 
 {% hint style="info" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 Ensuite vous aurez le choix entre 5 possibilités, que vous aurez à valider en cliquant sur une des réactions en dessous du message de DraftBot.
@@ -93,6 +87,10 @@ Ensuite vous aurez le choix entre 5 possibilités, que vous aurez à valider en 
 Vous pouvez configurer un rolereact vous permettant ou non à ce que la réaction du membre soit supprimé après que le membre est obtenu le rôle.   
   
 Si vous souhaitez configurer cette option pour un rôlereact, il vous suffit d'utiliser la commande`rolereact config [Identifiant du message de DraftBot]`
+
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+{% endhint %}
 
 * En cliquant sur la réaction ✅, les réactions des membres seront supprimé et ils **ne pourront plus** se retiré le rôle depuis le rolereact.
 * En cliquant sur la réaction ❌, les réactions des membres au rolereact seront conservé et **pourront** se retiré le rôle depuis le rolereact.

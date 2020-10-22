@@ -20,16 +20,17 @@
 * [Gestion des messages](features/gestion-des-messages.md)
 * [Commandes d'informations](features/commandes-dinformation.md)
 * [Système de suggestions](features/suggestions.md)
+* [Report](features/report.md)
 * [Anniversaires](features/birthday.md)
 * [A FAIRE](features/a-faire/README.md)
   * [Captcha](features/a-faire/captcha.md)
   * [Commandes personnalisées](features/a-faire/commandes-personnalisees.md)
   * [Economie](features/a-faire/economie.md)
   * [Membercount](features/a-faire/membercount.md)
-  * [Report](features/a-faire/report.md)
 
 ## Autres
 
+* [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
 * [Changelog](autres/changelog.md)
 * [API](autres/api.md)
 * [Contact](autres/contact.md)

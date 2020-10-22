@@ -30,10 +30,8 @@ Vous pouvez mentionner un salon textuel après la commande pour choisir un autre
 La commande `delconv` vous permet de supprimer une partie des messages dans un salon textuel.  
 Pour cela, vous devez faire`delconv [Identifiant du premier message] [Identifiant du dernier message]` 
 
-{% hint style="warning" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## MoveConv
@@ -41,10 +39,8 @@ Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vou
 La commande `moveconv` vous permet de déplacer une conversation dans un autre salon textuel.  
 Pour ce faire, il vous suffit de faire `moveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
-{% hint style="warning" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## MoveMSG
@@ -52,10 +48,8 @@ Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vou
 La commande `movemsg` permet de déplacer un message dans un autre salon.  
 Pour déplacer un message, il vous suffit de faire `movemsg [Identifiant du message]`
 
-{% hint style="warning" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## SaveConv
@@ -63,10 +57,8 @@ Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vou
 La commande `saveconv` offre la possibilité de sauvegarder une conversation sous la forme d'une page web \(HTML\).   
 Pour ce faire, utiliser la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
-{% hint style="warning" %}
-Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
-  
-Il vous suffira ensuite de **laisser appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% hint style="info" %}
+Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="info" %}
