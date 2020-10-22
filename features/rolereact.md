@@ -86,7 +86,7 @@ Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vou
 
 Ensuite vous aurez le choix entre 5 possibilités, que vous aurez à valider en cliquant sur une des réactions en dessous du message de DraftBot.
 
-![Message obtenu apr&#xE8;s avoir effectu&#xE9; la commande rolereact mode](../.gitbook/assets/image%20%2831%29.png)
+![Message obtenu apr&#xE8;s avoir effectu&#xE9; la commande rolereact mode](../.gitbook/assets/image%20%2832%29.png)
 
 ## Configurer un rolereact <a id="config"></a>
 

@@ -19,6 +19,7 @@
 * [Interserveurs](features/interserveurs.md)
 * [Gestion des messages](features/gestion-des-messages.md)
 * [Commandes d'informations](features/commandes-dinformation.md)
+* [Système de suggestions](features/suggestions.md)
 * [Anniversaires](features/birthday.md)
 * [A FAIRE](features/a-faire/README.md)
   * [Captcha](features/a-faire/captcha.md)
@@ -26,7 +27,6 @@
   * [Economie](features/a-faire/economie.md)
   * [Membercount](features/a-faire/membercount.md)
   * [Report](features/a-faire/report.md)
-  * [Système de suggestions](features/a-faire/suggestions.md)
 
 ## Autres
 
