@@ -4,7 +4,7 @@ description: >-
   informé des prochains à venir !
 ---
 
-# Birthday
+# Anniversaires
 
 ## **Donner sa date de naissance**
 

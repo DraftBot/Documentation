@@ -4,7 +4,7 @@ description: >-
   vocaux qui pourront personnaliser en filtrant l'accès de celui-ci par exemple.
 ---
 
-# PrivateRoom
+# Salons vocaux privés
 
 ## Activer les PrivateRooms <a id="activer"></a>
 
