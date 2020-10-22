@@ -19,6 +19,7 @@
 * [Interserveurs](features/interserveurs.md)
 * [Gestion des messages](features/gestion-des-messages.md)
 * [Commandes d'informations](features/commandes-dinformation.md)
+* [Birthday](features/birthday.md)
 * [A FAIRE](features/a-faire/README.md)
   * [Captcha](features/a-faire/captcha.md)
   * [Commandes personnalisées](features/a-faire/commandes-personnalisees.md)
