@@ -6,6 +6,125 @@ description: >-
 
 # Changelog
 
+## 4.11.5 - 19/10/2020
+
+### Ajouts
+
+* Ajout de la possibilité d'utiliser tous les signes mathématiques ASCII `+﹢⁺₊＋-﹣⁻₋-﹡×÷⁄/`
+* Ajout de la possibilité d'avoir le prefix de DraftBot en le mentionnant
+* Ajout de la fonctionnalité de plage horaire des messages récurrents
+* Ajout de la commandes `!votes` avec comptage des votes dans les webhooks
+* Ajout des infos Appareil et Activité à la commande `userinfo`
+* Ajout de la possibilité de terminer un giveaway
+* Ajouts de modes pour les rolereact
+* Ajout du diagnose support
+* Ajout de la fonctionnalité d'anniversaires
+* Anniversaire ajouté au profile
+* Ajout d'une boucle toutes les 6h pour s'assurer que l'activité de DraftBot s'est pas désactivée
+
+### Modifications
+
+* Mise à jour des titres des embeds des commandes `toplevel` et `topmoney`
+* Sécurisation de la suppression des salons de la commande backup
+* Changement de catégorie la commande wordreact vers interaction
+* Séparation de la commande `userinfo` en deux commandes `userinfo` et `profil`
+* Vérification des messages lors de l'édition \(`admininvites` et `filter`\)
+
+### Résolutions de bugs
+
+* Bug du clearchannel dans un salon communautaire
+* Correction du bug des commandes non désactivées
+* Correction du bug des commandes non désactivées
+* Fix de la commande filter lorsqu'il y a trop de mots a afficher
+
+## 4.11.4 - 27/09/2020
+
+### Nouvelles fonctionnalités 
+
+* Ajout de la fonctionnalité report
+* Ajout de la feature commandes custom \(create, reset, fonctionnement\)
+* Ajout du système de dés complet
+* Refonte totale des autoroles pour en avoir plusieurs \(3 non premiums\) \(5 max\)
+
+### Changements DraftBot
+
+#### Ajouts
+
+* Ajout du vanish a la commande `puissance4`
+* Ajout de la fonctionnalité `diagnose view`
+* Ajout de la fonctionnalité `diagnose rewards`
+* Ajout de la limite des 250 caractères max et 20 min pour la description custom
+* Ajout du temps que le bingo a duré dans le footer de l'embed de fin
+* Ajout de l'xp de l'utilisateur dans les récompenses
+* Ajout de l'argent de l'utilisateur dans le `shop`
+
+#### Général
+
+* Refonte totale des autoroles pour en avoir plusieurs \(3 non premiums - 5 pour les premium\)
+* Nombreuses fautes d'orthographes réglés
+* Design et ergonomie du marché noir retravaillé
+* Messages de captcha supprimés après validation ou dans le cas d'erreurs 6 secondes
+* Salons de la commande diagnose triés
+* Les premiums sont maintenant stackable jusqu'à 5 serveurs
+* Amélioration de l'affichage de la commande groupes
+* Catégorie de la commande admintickets changé
+* Auto-suppression des messages de captcha
+* Fonctionnalité d'import de niveaux de MEE6 dans la commande déplacé de la commande `config` vers`adminlevel`
+* La demande de la description de ticket n'est plus demandé lors de la commande `!ticket` si le système est désactivé
+* Mise à jour des permissions requises pour le `puissance4`
+* Blocage de l'activation du premium si il est déjà activé par quelqu'un d'autre sur le serveur en question
+* Modification Premium : 
+  * Premium à vie passé de 5 serveurs à 1
+  * Premium 1 an passé de 5 serveurs a 3
+* Mise à jour de la page des fonctionnalités premium de la commande `!premium` \(plus de 10 commandes perso, plus de 3 autoroles\)
+* Mise à jour du message qui demande quel message envoyer avec conseil de passer sur l'embed creator avec un lien
+* Amélioration du design du `diagnose mute`
+* Amélioration du message des `privateroom`
+
+### Changements Panel Web
+
+* Sélection des commandes dans le roleperms rendu plus précis.
+* Adminlevel possibilité de sélectionner plusieurs rôles et plusieurs salon à ignorer en une fois
+* Bug au niveau de l'affichage des récompenses supprimés réglé
+* Ajout de la page custom commandes au panel web
+* Ajout de la page messages récurrents
+* Liste des commandes sur le site et sur le panel de config des commandes mise à jour \(customcommand, report, rolldice\)
+* Possibilité de voir des emojis custom animés sur le module d'embeds \(customcommand, embedcreator, repeatmsg\)
+
+### Résolutions de bugs
+
+* Bug de la page levels lorsque l'on est connecté réglé
+* Bug du rabbitmq qui crash réglé
+* Bug du serveur premium qui ne s'active pas après son activation sur le site \(cache non actualisé\) résolu.
+* Bug des participants fantômes réglé pour la commande giveaway
+* Erreur ajouté quand on essaye de clearchannel un salon de la communauté
+* Bug des premiums non retirés réglé
+* Bug des utilisateurs supprimés pour le saveconv réglé
+* Bug de l'icon custom dans le footer du shop réglé
+* Problème avec la taille des raisons dans la commande sanctions résolu \(toutes les raisons sont maintenant limités a 1000 caractères\)
+* Impossible de give plus de 1000 niveaux
+* Bug des autoroles lorsque l'option désactivé était activé sur l'ancienne version
+* Bug du `!report config` lorsqu'un membre s'appelle config résolu
+* Bug du help lorsqu'il n'y a pas de custom commandes \(affiche &gt;&gt;&gt; et n'affiche pas pas la commande `!customcommand`\)
+* Bug du salon par défaut de logs quand un salon vocal s'appelle logs
+* Bug des repeats messages qui se mettent pas à jour après la sauvegarde des modifications
+* Bug des liens déjà visités dans le contenu du message d'un embed creator
+* Blocage des actions des custom commandes sans contenu \(Action message sans message, Ajout ou suppression de rôles sans rôles, Achat d'article sans article\)
+* Lorsque le nombre de custom commandes dépasse les 10 pour les premiums, les commandes restent créables mais sont ignorés, et mis en rouge, si le nombre est de 20 commandes le bouton se grise et la création est limité à 20 commandes
+* Correction du messages de adminlevel ignore qui faisait une erreur
+* Correction du problème de calcul des niveaux dans l'adminxp add
+* Correction du problème du backup avec les salons news
+* Correction du problème des messages invalides qui coupaient le processus des commandes rules et rolereact
+* Correction du problème de giveaway sans fin
+* Mise à jour de la date des timestamps embeds des repeat messages
+* Correction du message de ban qui posait problème si le membre était parti
+* Gestion des problèmes de perms lors de l'ajout de rôles dans les custom commandes
+* Bug des custom-commandes mises en maj dans la config qui fonctionnaient pas
+* Suppression de la suppression des anciens salons lors d'une configuration de la fonctionnalité de tickets
+* Bug des règles sur un message sans embed réglé
+* Bug des autorôles dans la commande config
+* Bug dans le pendu lorsque l'on donnait deux lettres consécutives en même temps
+
 ## 4.11.3 - 02/08/2020
 
 ### Ajouts Welcome/Goodbye

@@ -70,6 +70,24 @@ DraftBot vous demandera ensuite quel emoji du rôlereact doit être supprimé, i
 Si vous souhaitez supprimer un autre rolereact du même message, il vous suffit de répéter la même opération.
 {% endhint %}
 
+## Mode d'un rolereact
+
+Vous pouvez avec DraftBot de chosir un mode pour vos rôles réactions.   
+Cela vous offres la possibilité de pouvoir retirer un rôle lorsqu'un de vos membres clique sur une réaction par exemple.  
+  
+Vous pouvez configurer cela avec la commande `rolereact mode`  
+Après cela, DraftBot vous demandera l'identifiant du message de DraftBot pour le rolereact.
+
+{% hint style="info" %}
+Pour obtenir l'identifiant d'un message, vous devez au préalable activer le mode développeur dans les paramètres utilisateur dans **Apparence** ou **Comportement** suivant votre appareil.   
+  
+Il vous suffira ensuite de **laissé appuyer votre doigt** sur le message si vous êtes sur téléphone ou de faire **clique droit** sur le message si vous êtes sur ordinateur puis ensuite de sélectionner **Copier l'identifiant**.
+{% endhint %}
+
+Ensuite vous aurez le choix entre 5 possibilités, que vous aurez à valider en cliquant sur une des réactions en dessous du message de DraftBot.
+
+![Message obtenu apr&#xE8;s avoir effectu&#xE9; la commande rolereact mode](../.gitbook/assets/image%20%2831%29.png)
+
 ## Configurer un rolereact <a id="config"></a>
 
 Vous pouvez configurer un rolereact vous permettant ou non à ce que la réaction du membre soit supprimé après que le membre est obtenu le rôle.   
