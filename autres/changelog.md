@@ -17,7 +17,7 @@ description: >-
 * Ajout des infos Appareil et Activité à la commande `userinfo`
 * Ajout de la possibilité de terminer un giveaway
 * Ajouts de modes pour les rolereact
-* Ajout du diagnose support
+* Ajout du `diagnose support`
 * Ajout de la fonctionnalité d'anniversaires
 * Anniversaire ajouté au profile
 * Ajout d'une boucle toutes les 6h pour s'assurer que l'activité de DraftBot s'est pas désactivée
@@ -25,26 +25,25 @@ description: >-
 ### Modifications
 
 * Mise à jour des titres des embeds des commandes `toplevel` et `topmoney`
-* Sécurisation de la suppression des salons de la commande backup
-* Changement de catégorie la commande wordreact vers interaction
+* Sécurisation de la suppression des salons de la commande `backup`
+* Changement de catégorie la commande `wordreact` vers interaction
 * Séparation de la commande `userinfo` en deux commandes `userinfo` et `profil`
 * Vérification des messages lors de l'édition \(`admininvites` et `filter`\)
 
 ### Résolutions de bugs
 
-* Bug du clearchannel dans un salon communautaire
+* Bug du `clearchannel` dans un salon communautaire
 * Correction du bug des commandes non désactivées
-* Correction du bug des commandes non désactivées
-* Fix de la commande filter lorsqu'il y a trop de mots a afficher
+* Fix de la commande `filter` lorsqu'il y a trop de mots a afficher
 
 ## 4.11.4 - 27/09/2020
 
 ### Nouvelles fonctionnalités 
 
-* Ajout de la fonctionnalité report
+* Ajout de la fonctionnalité `report`
 * Ajout de la feature commandes custom \(create, reset, fonctionnement\)
 * Ajout du système de dés complet
-* Refonte totale des autoroles pour en avoir plusieurs \(3 non premiums\) \(5 max\)
+* Refonte totale des `autoroles` pour en avoir plusieurs \(3 non premiums\) \(5 max\)
 
 ### Changements DraftBot
 
@@ -64,11 +63,11 @@ description: >-
 * Nombreuses fautes d'orthographes réglés
 * Design et ergonomie du marché noir retravaillé
 * Messages de captcha supprimés après validation ou dans le cas d'erreurs 6 secondes
-* Salons de la commande diagnose triés
+* Salons de la commande `diagnose` triés
 * Les premiums sont maintenant stackable jusqu'à 5 serveurs
-* Amélioration de l'affichage de la commande groupes
-* Catégorie de la commande admintickets changé
-* Auto-suppression des messages de captcha
+* Amélioration de l'affichage de la commande `groupes`
+* Catégorie de la commande `admintickets` changé
+* Auto-suppression des messages de `captcha`
 * Fonctionnalité d'import de niveaux de MEE6 dans la commande déplacé de la commande `config` vers`adminlevel`
 * La demande de la description de ticket n'est plus demandé lors de la commande `!ticket` si le système est désactivé
 * Mise à jour des permissions requises pour le `puissance4`
