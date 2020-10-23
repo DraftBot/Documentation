@@ -8,6 +8,7 @@
 
 * [Préfixe](features/prefixe.md)
 * [Niveaux](features/niveaux.md)
+* [Economie](features/economie.md)
 * [Règlement](features/reglement.md)
 * [RoleReact](features/rolereact.md)
 * [Réactions de mots](features/wordreact.md)
@@ -25,7 +26,6 @@
 * [A FAIRE](features/a-faire/README.md)
   * [Captcha](features/a-faire/captcha.md)
   * [Commandes personnalisées](features/a-faire/commandes-personnalisees.md)
-  * [Economie](features/a-faire/economie.md)
   * [Membercount](features/a-faire/membercount.md)
 
 ## Autres

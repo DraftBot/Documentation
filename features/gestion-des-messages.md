@@ -31,7 +31,7 @@ La commande `delconv` vous permet de supprimer une partie des messages dans un s
 Pour cela, vous devez faire`delconv [Identifiant du premier message] [Identifiant du dernier message]` 
 
 {% hint style="info" %}
-Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## MoveConv
@@ -40,7 +40,7 @@ La commande `moveconv` vous permet de déplacer une conversation dans un autre s
 Pour ce faire, il vous suffit de faire `moveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## MoveMSG
@@ -49,7 +49,7 @@ La commande `movemsg` permet de déplacer un message dans un autre salon.
 Pour déplacer un message, il vous suffit de faire `movemsg [Identifiant du message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## SaveConv
@@ -58,10 +58,10 @@ La commande `saveconv` offre la possibilité de sauvegarder une conversation sou
 Pour ce faire, utiliser la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récuperer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="info" %}
-DraftBot vous demandera après avoir indiquer l'identifiant du premier et du dernier message si vous souhaitez supprimer la conversation après avoir effectué la sauvegarde, cliquer sur la réaction ❌ou ✅selon votre situation et besoins.
+DraftBot vous demandera après avoir indiquer l'identifiant du premier et du dernier message si vous souhaitez supprimer la conversation après avoir effectué la sauvegarde, cliquer sur la réaction ❌ou ✅ selon votre situation et besoins.
 {% endhint %}
 

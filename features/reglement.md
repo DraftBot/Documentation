@@ -34,7 +34,11 @@ Pour conserver une communauté stable il est nécessaire de mettre en place un s
 | argument | L'argument est l'action que vous souhaitez faire : **ajouter** et **retirer** une règle de votre règlement |
 | message | I'argument message représente l'id du message où se trouve le règlement  |
 
-Une fois ces deux arguments renseignés, le **DraftBot** vous demandera le titre de la règle et la description détaillé de cette règle 
+{% hint style="info" %}
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+{% endhint %}
+
+Une fois ces deux arguments renseignés, **DraftBot** vous demandera le titre de la règle et la description détaillé de cette règle 
 
 Une fois votre règlement créé vous devriez avoir quelque chose comme ça :
 
