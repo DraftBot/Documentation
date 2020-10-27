@@ -16,7 +16,7 @@ Vous pouvez afficher le nombre d'argent virtuel d'un membre sous forme d'image.
 * Vous pouvez afficher votre carte à l'aide de la commande `!money` !
 * Dans le cas où vous souhaitez afficher la carte d'un membre il vous suffit de faire la même commande `!money` suivi du membre.
 
-![](../.gitbook/assets/image%20%2839%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
 {% hint style="info" %}
 Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.

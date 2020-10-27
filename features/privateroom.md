@@ -28,5 +28,3 @@ Quand toutes les personnes auront quitté le salon crée par ce système, il ser
 Si vous souhaitez désactiver les privateroom sur votre serveur, il vous suffit de faire la commande `privateroom config`   
 Ensuite, cliqué sur la réaction ❌ lors de la question "Souhaitez-vous activer ou désactiver le système de salons privés ?".
 
-
-

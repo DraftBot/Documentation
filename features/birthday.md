@@ -14,8 +14,10 @@ Si vous n'avez jamais renseigné votre date d'anniversaire, elle vous sera deman
 Si vous ne souhaitez pas que votre âge apparaisse, il vous suffit de ne pas renseigner votre année de naissance. 
 {% endhint %}
 
-{% hint style="danger" %}
-Vous ne pouvez renseigner votre date de naissance qu'à la première utilisation de la commande, et celle ci sera définitive et irréversible. 
+{% hint style="warning" %}
+Vous vous êtes trompés de date de naissance ? Vous pouvez la modifier avec la commande `birthday set`
+
+Attention, il existe un cooldown évolutif, plus vous modifié votre date, plus le temps avant de pouvoir la modifier à nouveau est long.
 {% endhint %}
 
 ## Visibilité de votre date

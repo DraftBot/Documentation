@@ -9,6 +9,7 @@
 * [Préfixe](features/prefixe.md)
 * [Niveaux](features/niveaux.md)
 * [Economie](features/economie.md)
+* [Commandes personnalisées](features/commandes-personnalisees.md)
 * [Règlement](features/reglement.md)
 * [RoleReact](features/rolereact.md)
 * [Réactions de mots](features/wordreact.md)
@@ -25,8 +26,6 @@
 * [Captcha](features/captcha.md)
 * [Report](features/report.md)
 * [Anniversaires](features/birthday.md)
-* [A FAIRE](features/a-faire/README.md)
-  * [Commandes personnalisées](features/a-faire/commandes-personnalisees.md)
 
 ## Autres
 
