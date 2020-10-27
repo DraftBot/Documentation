@@ -41,7 +41,7 @@ Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
 * Multiplier les gains d'expérience d’un rôle → `boosters`
 * Ne pas prendre en compte un rôle ou salon → `ignore` 
 * Réinitialiser la fonctionnalité → `reset` \(`!adminxp resetall` pour réinitialiser l'expérience\)
-* Personnaliser la couleur → `color` \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/donateurs)\)
+* Personnaliser la couleur → `color` \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\)
 
 ### **Modifier le gain d'expérience**
 
@@ -86,11 +86,11 @@ Si vous choisissez de **réinitialiser la configuration** du système de niveaux
 * Les rôles qui empêchent le gain d'expérience
 * Les salons dans les quels le gain d'expérience est désactivé
 * Les rôles qui permettent de multiplier le gain d'expérience
-* La couleur de la fonctionnalité de niveaux \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/donateurs)\)
+* La couleur de la fonctionnalité de niveaux \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\)
 
 ### Modifier la couleur
 
-Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/donateurs)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 ## Récompenses
 

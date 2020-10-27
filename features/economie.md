@@ -16,6 +16,8 @@ Vous pouvez afficher le nombre d'argent virtuel d'un membre sous forme d'image.
 * Vous pouvez afficher votre carte à l'aide de la commande `!money` !
 * Dans le cas où vous souhaitez afficher la carte d'un membre il vous suffit de faire la même commande `!money` suivi du membre.
 
+![](../.gitbook/assets/image%20%2839%29.png)
+
 {% hint style="info" %}
 Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
@@ -60,7 +62,7 @@ Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
 * Multiplier les gains d'expérience d’un rôle → `boosters`
 * Ne pas prendre en compte un rôle ou salon → `ignore` 
 * Réinitialiser la fonctionnalité → `reset` \(`!adminmoney resetall` pour réinitialiser l'expérience\)
-* Personnaliser la couleur → `color` \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/donateurs)\)
+* Personnaliser la couleur → `color` \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\)
 
 ### **Modifier le gain d'argent** <a id="modifier-le-gain-dexperience"></a>
 
@@ -105,11 +107,11 @@ Si vous choisissez de **réinitialiser la configuration** du système de niveaux
 * Les rôles qui empêchent le gain d'argent
 * Les salons dans les quels le gain d'argent est désactivé
 * Les rôles qui permettent de multiplier le gain d'argent
-* La couleur de la fonctionnalité d'argent \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/donateurs)\)
+* La couleur de la fonctionnalité d'argent \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\)
 
 ### Modifier la couleur
 
-Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/donateurs)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 ## Boutique
 
