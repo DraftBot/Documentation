@@ -8,7 +8,7 @@ description: >-
 
 ## Créer le rolereact <a id="create"></a>
 
-Pour créer le rolereact, vous avez le choix entre trois méthodes :
+Pour créer un rolereact, vous avez le choix entre trois méthodes :
 
 {% hint style="warning" %}
 Peu importe la méthode que vous choisissez, le rolereact devra être sur un message de **DraftBot**.
@@ -17,7 +17,7 @@ Peu importe la méthode que vous choisissez, le rolereact devra être sur un mes
 * **Simple message:** `say [message]`  La commande say permet d'envoyer un simple message Discord.
 
 {% hint style="info" %}
-Vous pourrez modifier ce message dans le futur avec la commande `say [Identifiant du message].`
+Vous pourrez modifier ce message dans le futur avec la commande `say` [`[Identifiant du message]`](../autres/recuperer-un-identifiant.md#message) ou depuis le panel web !
 {% endhint %}
 
 * **Embed automatique:** `rolereact create [Titre de l'embed]`  Cette solution vous permet à ce que l'embed soit modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela : 
@@ -29,7 +29,7 @@ Vous pourrez modifier ce message dans le futur avec la commande `say [Identifian
 ![R&#xE9;sultat d&apos;un rolereact utilisant un embed personalis&#xE9;](../.gitbook/assets/image%20%289%29.png)
 
 {% hint style="info" %}
-Vous pourrez modifier l'embed dans le futur depuis le panel web.
+Vous pourrez modifier l'embed dans le futur depuis [le panel web](https://draftbot.fr).
 {% endhint %}
 
 ## Ajouter un rôle à un rolereact <a id="add"></a>
@@ -43,10 +43,10 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 Ensuite, DraftBot vous demandera quel rôle doit être ajouté. Vous pouvez donner le nom du rôle ou le mentionner, les deux solutions fonctionnent.
 
 {% hint style="danger" %}
-Pour que le rolereact fonctionne, DraftBot doit posséder au moins un rôle qui est au dessus du grade que vous souhaitez ajouter au rolereact.
+Pour que le rolereact fonctionne, DraftBot doit posséder au moins un rôle qui est au-dessus du grade que vous souhaitez ajouter au rolereact.
 {% endhint %}
 
-Et pour finir, DraftBot vous demandera quel emoji doit être cliquer pour obtenir ce rôle, il vous suffit de l'écrire.
+Et pour finir, DraftBot vous demandera quel emoji doit être cliqué pour obtenir ce rôle, il vous suffit de l'écrire.
 
 {% hint style="info" %}
 Si vous souhaitez ajouter un autre rolereact au même message, il vous suffit de répéter la même opération.
@@ -60,7 +60,7 @@ Pour supprimer un rôle d'un rolereact, il vous suffit d'utiliser la commande `r
 Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
-DraftBot vous demandera ensuite quel emoji du rôlereact doit être supprimé, il vous suffit de l'indiquer.
+DraftBot vous demandera ensuite quel emoji du rolereact doit être supprimé, indiquez-le !
 
 {% hint style="info" %}
 Si vous souhaitez supprimer un autre rolereact du même message, il vous suffit de répéter la même opération.

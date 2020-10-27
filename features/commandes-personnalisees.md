@@ -11,7 +11,7 @@ description: >-
 ### Depuis Discord
 
 Vous pouvez créer une commande personnalisée avec la commande `customcommand create`  
-DraftBot vous demanderas alors les informations suivantes :
+DraftBot vous demandera alors les informations suivantes :
 
 * Nom de la commande
 * Description de la commande
@@ -28,9 +28,9 @@ DraftBot vous demanderas alors les informations suivantes :
 Vous pouvez configurer les commandes personnalisées depuis le panel web : [draftbot.fr](https://draftbot.fr)  
 Il vous suffira de vous connecter en haut à droite puis de vous rendre dans la catégorie "Vos serveurs"
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2842%29.png)
 
-Ensuite, choisissez un de vos serveurs sur le côté gauche puis sélectionner "**Commandes custom**"
+Ensuite, choisissez un de vos serveurs sur le côté gauche puis sélectionner "**Commandes custom**".
 
 ![](../.gitbook/assets/image%20%2839%29.png)
 
@@ -41,7 +41,7 @@ Besoin de modifier ou de supprimer la commande ?
 Pas de problème ! Cliquer sur Modifier ou Supprimer sur le côté droit.
 {% endhint %}
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../.gitbook/assets/image%20%2841%29.png)
 
 ## Arguments
 

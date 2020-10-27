@@ -8,12 +8,12 @@ description: >-
 
 ## Clean/clear <a id="clear"></a>
 
-La commande `clear` \(ou `clean`\) vous permet de supprimer un grand nombre de message.   
+La commande `clear` \(ou `clean`\) vous permet de supprimer un grand nombre de messages.   
 Pour utiliser cette commande, il vous suffit de faire `clear [nombre entre 1 et 100]`
 
 {% hint style="info" %}
-DraftBot ne peut pas supprimer les messages datant de plus de 14 jours du à une limite de Discord.  
-S'il détecte que les messages que vous souhaitez supprimer date de plus de semaine, DraftBot vous proposera de cloner le salon et de supprimer l'ancien. 
+DraftBot ne peut pas supprimer les messages datant de plus de 14 jours dû à une limite de Discord.  
+S'il détecte que les messages que vous souhaitez supprimer date de plus d'une semaine, DraftBot vous proposera de cloner le salon et de supprimer l'ancien. 
 {% endhint %}
 
 ## ClearChannel
@@ -22,7 +22,7 @@ Cette commande vous permet de cloner le salon et de supprimer l'ancien.
 Pour se servir cette fonctionnalité, vous devez utiliser la commande `clearchannel`
 
 {% hint style="info" %}
-Vous pouvez mentionner un salon textuel après la commande pour choisir un autre salon que celui où la commande a été effectué.
+Vous pouvez mentionner un salon textuel après la commande pour choisir un autre salon que celui où la commande a été effectuée.
 {% endhint %}
 
 ## Delconv
@@ -55,13 +55,13 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 ## SaveConv
 
 La commande `saveconv` offre la possibilité de sauvegarder une conversation sous la forme d'une page web \(HTML\).   
-Pour ce faire, utiliser la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
+Pour ce faire, utilisé la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
 Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="info" %}
-DraftBot vous demandera après avoir indiquer l'identifiant du premier et du dernier message si vous souhaitez supprimer la conversation après avoir effectué la sauvegarde, cliquer sur la réaction ❌ou ✅ selon votre situation et besoins.
+DraftBot vous demandera après avoir indiqué l'identifiant du premier et du dernier message si vous souhaitez supprimer la conversation après avoir effectué la sauvegarde, cliqué sur la réaction ❌ou ✅ selon votre situation et besoins.
 {% endhint %}
 

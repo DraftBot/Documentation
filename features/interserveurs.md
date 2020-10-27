@@ -19,7 +19,7 @@ La création de l'interserveur se fait simplement à l'aide de la commande suiva
 Une fréquence vous sera envoyée en message privé.
 
 {% hint style="warning" %}
-Vous devez activer vos messages privés pour recevoir cette fréquence, vous pouvez les ouvrir uniquement sur le serveur en question en passant par l'onglet **Paramètres de confidentialité** de votre serveur discord.
+Vous devez activer vos messages privés pour recevoir cette fréquence, vous pouvez les ouvrir uniquement sur le serveur en question en passant par l'onglet **Paramètres de confidentialité** de votre serveur Discord.
 {% endhint %}
 
 {% hint style="success" %}
@@ -64,7 +64,7 @@ L'interserveur est bien supprimé du salon !
 {% endtab %}
 
 {% tab title="Supprimer le salon" %}
-DraftBot a été conçu pour être le plus ergonomique et le plus simple a utiliser, **supprimer le salon** supprimera automatiquement l'interserveur du salon.
+DraftBot a été conçu pour être le plus ergonomique et le plus simple a utilisé, **supprimer le salon** supprimera automatiquement l'interserveur du salon.
 {% endtab %}
 {% endtabs %}
 

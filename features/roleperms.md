@@ -14,7 +14,7 @@ Pour **refuser** un rôle d'utiliser une commande, il vous suffit de faire `role
 Pour **autoriser** un rôle d'utiliser une commande, il vous suffit de faire `roleperms allow [commande] [rôle]`
 
 {% hint style="info" %}
-Vous n'êtes pas obligé de mentionner le rôle, vous pouvez uniquement donné son nom.
+Vous n'êtes pas obligé de mentionner le rôle, vous pouvez uniquement donner son nom.
 {% endhint %}
 
 ## Réinitialiser le RolePerms <a id="reinitialiser"></a>

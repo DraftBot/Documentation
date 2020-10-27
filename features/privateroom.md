@@ -1,7 +1,8 @@
 ---
 description: >-
   Les privaterooms offrent la possibilité à vos membres de créer des salons
-  vocaux qui pourront personnaliser en filtrant l'accès de celui-ci par exemple.
+  vocaux temporaires qui pourront personnaliser en filtrant l'accès de celui-ci
+  par exemple.
 ---
 
 # Salons vocaux privés
@@ -13,7 +14,7 @@ DraftBot vous demandera si vous souhaitez **activer ou non** les privaterooms, *
 
 {% hint style="warning" %}
 Choisissez une catégorie qui contient aucun salon vocal crée manuellement !   
-Si une personne quitte un salon vocal qui a été créé manuellement mais qui est dans la catégorie dédié au privateroom, il sera supprimé par DraftBot.
+Si une personne quitte un salon vocal qui a été créé manuellement, mais qui est dans la catégorie dédié au privateroom, il sera supprimé par DraftBot.
 {% endhint %}
 
 ## Créer le salon vocal <a id="create"></a>

@@ -8,8 +8,13 @@ description: >-
 
 ## Configurer le système de tickets
 
-Pour configurer le système de tickets, il vous suffit de faire la commande `admintickets config` ou `@DraftBot#0535 admintickets config`  
-Il vous reste plus qu’à configurer le système de tickets suivant vos besoins.
+Pour configurer le système de tickets, il vous suffit d'utiliser la commande `admintickets config` ou `@DraftBot#0535 admintickets config`  
+Vous pouvez configurer : 
+
+* Si vous souhaitez activer ou désactiver le système de tickets
+* Valider ou non le ticket avant sa création
+* Choisir ou créer la catégorie qui stockera les tickets
+* Si vous voulez, ajouter un rôle qui n'est pas Administrateur à voir les tickets
 
 ### Validation des tickets
 
@@ -19,7 +24,7 @@ Lors de la création d’un nouveau ticket, les membres ayant accès à ce salon
 * Accepter la demande de ticket à l'aide de la réaction ✅
 * Refuser la demande en cliquant sur la réaction 🗑️
 
-Si vous avez refusé la demande, le membre recevra la raison du refus de son ticket en message privée s'il les a activées.
+Si vous avez refusé la demande, le membre recevra la raison du refus de son ticket en message privée s'il les à activé.
 
 ### Désactiver le système de tickets
 
@@ -27,7 +32,7 @@ Pour désactiver ce système, il vous suffit de faire cette commande `adminticke
 Lors de la première question **"Souhaitez-vous activer ou désactiver le système de tickets ?"**, il vous suffit de cliquer sur la réaction ❌
 
 {% hint style="warning" %}
-Si vous souhaitez supprimer tous les tickets crées, cela supprimera **tous les salons** dans la catégorie dédié au tickets. Cette action est irréversible !
+Si vous souhaitez supprimer tous les tickets crées, cela supprimera **tous les salons** dans la catégorie dédiée aux tickets. Cette action est irréversible !
 {% endhint %}
 
 ## Gérer les tickets des membres
@@ -35,14 +40,14 @@ Si vous souhaitez supprimer tous les tickets crées, cela supprimera **tous les 
 ### Ouverture d'un ticket
 
 Pour ouvrir un ticket, vos membres devront utiliser la commande `ticket` dans un salon textuel.  
-Si la validation de tickets est activé sur le serveur, une raison sera nécessaire avant de pouvoir créer le ticket.
+Si la validation de tickets est activée sur le serveur, une raison sera nécessaire avant de pouvoir créer le ticket.
 
 ### Fermeture d'un ticket
 
 Si vous souhaitez supprimer un ticket, vous devez aller au début du salon puis de cliquer sur la réaction 🔒 du premier message de DraftBot dans le ticket \(qui est dans les messages épinglés du ticket\) puis de valider votre action en cliquant sur la réaction ✅.
 
 {% hint style="info" %}
-Si le ticket a été fermé par le membre, il sera conservé jusqu’à qu’un membre de votre équipe le supprime définitivement ou le rouvre à l’aide des réactions.
+Si le ticket à été fermé par le membre, il sera conservé jusqu’à qu’un membre de votre équipe le supprime définitivement ou le rouvre à l’aide des réactions.
 {% endhint %}
 
 ### Ajouter ou retirer un membre à un ticket
@@ -51,7 +56,5 @@ Si le ticket a été fermé par le membre, il sera conservé jusqu’à qu’un 
 Pour utiliser cette fonctionnalité, il vous faut avoir la permission de **Gérer le salon** dans le ticket.
 {% endhint %}
 
-Pour ajouter un membre à un ticket déjà existant, vous pouvez utiliser la commande `admintickets add <Membre>`  
-  
-Si vous souhaitez retirer un membre à un ticket existant, il vous suffit d'utiliser la commande `admintickets remove <Membre>`
+Pour ajouter un membre à un ticket déjà existant, vous pouvez utiliser la commande `admintickets add` ou `admintickets remove` si vous souhaitez retirer un membre du ticket.
 

@@ -11,12 +11,12 @@ Vous pouvez afficher les statistiques de niveaux d'un membre sous forme d'image 
 ### La carte d'un membre
 
 * Vous pouvez afficher votre carte à l'aide de la commande `!level` !
-* Dans le cas où vous souhaitez afficher la carte d'un membre il vous suffit de faire la même commande `!level` suivi du membre.
+* Dans le cas où vous souhaitez afficher la carte d'un membre, il vous suffit de faire la même commande `!level` suivi du membre.
 
 ![](../.gitbook/assets/image%20%287%29.png)
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son [**identifiant**](../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
 
 ### Le classement du serveur

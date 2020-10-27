@@ -16,7 +16,7 @@ Vous pouvez afficher le nombre d'argent virtuel d'un membre sous forme d'image.
 * Vous pouvez afficher votre carte à l'aide de la commande `!money` !
 * Dans le cas où vous souhaitez afficher la carte d'un membre il vous suffit de faire la même commande `!money` suivi du membre.
 
-![](../.gitbook/assets/image%20%2842%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
 {% hint style="info" %}
 Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
@@ -39,7 +39,7 @@ Dans le cas où vous ne faites pas parti du top 3, vous serez tout de même affi
 Vous avez la possibilité de donner de l'argent à un autre membre avec la commande `pay <membre> <nombre> <raison>`
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son [**identifiant**](../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
 
 ### Acheter un article
@@ -79,14 +79,8 @@ Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction d
 
 Si vous choisissez de **booster le gain d'argent d'un rôle**, en envoyant `boosters`, vous aurez alors le choix entre trois propositions : Ajouter un rôle booster \| Supprimer un rôle booster \| Afficher les rôles boosters
 
-* Si vous choisissez d’ajouter un rôle booster, vous devrez choisir quel rôle doit
-
-  être boosté. Vous pourrez ensuite choisir le multiplicateur entre `1.5`, `2.0`, `2.5` ou `3.0`.
-
-* Si vous choisissez de supprimer un rôle booster, DraftBot vous montrera tous
-
-  les rôles boostés et vous devrez alors choisir lequel supprimer.
-
+* Si vous choisissez d’ajouter un rôle booster, vous devrez choisir quel rôle doit être boosté. Vous pourrez ensuite choisir le multiplicateur entre `1.5`, `2.0`, `2.5` ou `3.0`.
+* Si vous choisissez de supprimer un rôle booster, DraftBot vous montrera tous les rôles boostés et vous devrez alors choisir lequel supprimer.
 * Si vous choisissez d’afficher la liste des rôles boosters, DraftBot vous enverra tous les rôles boostés et le multiplicateur qui leur a été attribué.
 
 ### Ignorer un salon ou un rôle
@@ -150,9 +144,9 @@ Si vous choisissez de configurer la boutique, en envoyant `config`, vous aurez l
 
 ### Réinitialiser la boutique
 
-Si vous choisissez de rénitialiser la boutique, en envoyant reset, tous les articles de votre boutique sera réinitialisés.
+Si vous choisissez de réinitialiser la boutique, en envoyant `reset`, tous les articles de votre boutique seront réinitialisés.
 
 {% hint style="warning" %}
-Les récompenses déjà donnés aux membres ayant payé l'article **ne leur seront pas retirés !** 
+Les récompenses déjà données aux membres ayant payé l'article **ne leur seront pas retirées** !
 {% endhint %}
 

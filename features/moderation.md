@@ -27,9 +27,9 @@ Vous pouvez cependant donner la permission à un rôle d'utiliser ces commandes 
 ### Interface de sanction
 
 Vous pouvez sanctionner un membre avec la commande `sanction <membre>`  
-Vous obtiendrait alors cette interface : 
+Vous obtiendriez alors cette interface : 
 
-![Interface de mod&#xE9;ration avec la commande sanction](../.gitbook/assets/image%20%2822%29.png)
+![Interface de mod&#xE9;ration avec la commande sanction](../.gitbook/assets/image%20%2840%29.png)
 
 Il vous restera plus qu'à sélectionner la réaction correspondante à la sanction que vous souhaitez infliger au membre.  
 
@@ -45,7 +45,7 @@ Vous pouvez avertir un membre avec la commande `warn <Membre> <Raison>`
 Le membre recevra un message privé avec le motif de son avertissement.  
   
 Si vous voulez retirer un avertissement d'un membre avec la commande `unwarn`  
-L'avertissement sera retirée de la commande `sanction`
+L'avertissement sera retiré de la commande `sanction`
 
 ### Rendre muet un membre
 
@@ -94,19 +94,19 @@ Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les
 
 DraftBot vous offre la possibilité que les membres qui ne sont pas Administrateur sur votre serveur et qui postent des invitations Discord qu'elles soient supprimées automatiquement.  
   
-Pour activer cette fonctionnalité, il vous suffit de faire la commande `admininvites`
+Pour activer cette fonctionnalité, il vous suffit d'utiliser la commande `admininvites`
 
 {% hint style="warning" %}
-Les personnes qui ont la permission Administrateur de votre serveur sont immunisés par cette fonctionnalité.
+Les personnes qui ont la permission Administrateur de votre serveur sont immunisées par cette fonctionnalité.
 {% endhint %}
 
 ## Interdire certains mots
 
-Vous pouvez, avec DraftBot, lorsque certains mots sont écrits, qu'il soit remplacée par des caractères spéciaux avec la commande `filter`
+Vous pouvez, avec DraftBot, lorsque certains mots sont écrits, qu'ils soient remplacés par des caractères spéciaux avec la commande `filter`
 
 ![Exemple d&apos;un mot interdit remplac&#xE9; par des caract&#xE8;res sp&#xE9;ciaux](../.gitbook/assets/image%20%2825%29.png)
 
-Pour activer le filter, il suffit de faire la commande `filter on`  
+Pour activer le filtre de mots, il suffit de faire la commande `filter on`  
 Vous pouvez ensuite ajouter des mots au filter avec la commande `filter add <mot>`
 
 {% hint style="info" %}

@@ -1,7 +1,7 @@
 ---
 description: >-
   La catégorie de commandes Informations vous permet d'obtenir des informations
-  détaillés sur un sujet précis.
+  détaillées sur un sujet précis.
 ---
 
 # Commandes d'informations
@@ -24,13 +24,13 @@ La commande `botinfo` vous permet d'obtenir des informations sur DraftBot comme 
 
 ## ServerInfo
 
-La commande serverinfo permet d'obtenir des informations détaillées du serveur Discord. 
+La commande `serverinfo` permet d'obtenir des informations détaillées du serveur Discord. 
 
 ![Informations obtenu dans la commande serverinfo](../.gitbook/assets/image%20%2816%29.png)
 
 ## ChannelInfo
 
-La commande `channelinfo` permet d'obtenir des informations sur un salon comme sa catégorie, sa date de création, les permissions de DraftBot dans le salon et plus.
+La commande `channelinfo` permet d'obtenir des informations sur un salon comme sa catégorie, sa date de création, les permissions de DraftBot dans le salon et bien plus.
 
 ![Informations obtenu de la commande channelinfo](../.gitbook/assets/image%20%2813%29.png)
 

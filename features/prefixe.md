@@ -2,7 +2,7 @@
 
 ## Voir le préfixe
 
-Si vous ne vous rappelez plus du préfixe de **DraftBot** il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix`   
+Si vous ne vous rappelez plus du préfixe de **DraftBot**, il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix`   
 Vous obtiendriez alors cette réponse :  
 
 ![ ](../.gitbook/assets/image%20%286%29.png)

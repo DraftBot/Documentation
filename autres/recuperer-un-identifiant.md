@@ -2,7 +2,7 @@
 description: >-
   Chaque message, rôles, membres, serveurs et emojis disposent d'un identifiant
   qui leur est unique et qui peut être utile pour configurer certaines
-  fonctionalités de DraftBot.
+  fonctionnalités de DraftBot.
 ---
 
 # Récupérer un identifiant

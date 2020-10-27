@@ -1,7 +1,7 @@
 ---
 description: >-
-  Le WordReact permettent lorsqu'un mot spécifique est envoyé dans un message,
-  qu'une réaction soit ajouté au message.
+  Le WordReact permet lorsqu'un mot spécifique est envoyé dans un message,
+  qu'une réaction soit ajoutée au message.
 ---
 
 # Réactions de mots
@@ -17,7 +17,7 @@ Pour ajouter une réaction à un mot, il vous suffit de faire la commande `wordr
 DraftBot vous demandera alors quel mot ou début de phrase ainsi que la réaction associé à ce texte.
 
 {% hint style="info" %}
-Si vous ne possédez pas le [premium](https://www.draftbot.fr/donateurs), vous aurez une limite de 10 wordreacts.  
+Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous aurez une limite de 10 wordreacts.  
   
 Pour qu'un wordreact soit pris en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
 {% endhint %}

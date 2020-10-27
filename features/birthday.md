@@ -8,11 +8,7 @@ description: >-
 
 ## **Donner sa date de naissance**
 
-Si vous n'avez jamais renseigné votre date d'anniversaire, elle vous sera demandé lors de votre première activation sur un serveur avec la commande `birthday activate`. Vous devrez la renseigner dans le format français `JJ/MM/AAAA` ou `JJ/MM`. 
-
-{% hint style="info" %}
-Si vous ne souhaitez pas que votre âge apparaisse, il vous suffit de ne pas renseigner votre année de naissance. 
-{% endhint %}
+Si vous n'avez jamais renseigné votre date d'anniversaire, elle vous sera demandée lors de votre première activation sur un serveur avec la commande `birthday activate`. Vous devrez la renseigner dans le format français `JJ/MM/AAAA` ou `JJ/MM`. 
 
 {% hint style="warning" %}
 Vous vous êtes trompés de date de naissance ? Vous pouvez la modifier avec la commande `birthday set`
@@ -22,7 +18,7 @@ Attention, il existe un cooldown évolutif, plus vous modifié votre date, plus 
 
 ## Visibilité de votre date
 
-Votre date d'anniversaire vous appartient, c'est donc à vous de choisir sur quel serveur vous souhaitez qu'elle soit affiché: 
+Votre date d'anniversaire vous appartient, c'est donc à vous de choisir sur quel serveur vous souhaitez qu'elle soit affichée: 
 
 Utilisez  `birthday activate` pour activer votre date et `birthday desactivate` pour la désactiver.
 
@@ -30,7 +26,7 @@ Utilisez  `birthday activate` pour activer votre date et `birthday desactivate` 
 
 Une fois que les membres ont activé leur anniversaire sur le serveur en question, il est possible à tout moment de moment de consulter la liste des anniversaires grâce à la commande `!birthday list`.
 
-Triés par ordre croissant, il vous sera facile de connaitre les prochains anniversaires à venir !
+Triés par ordre croissant, il vous sera facile de connaître les prochains anniversaires à venir !
 
 ![](../.gitbook/assets/image%20%2829%29.png)
 
