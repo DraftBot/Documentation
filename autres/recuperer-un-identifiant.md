@@ -38,8 +38,7 @@ Afin de récupérer l'identifiant d'un rôle, vous devez :
 
 ![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un r&#xF4;le](../.gitbook/assets/rnyfjyyjqw.gif)
 
-Si vous avez besoin de mentionner un rôle \(ex: panel web\), il vous suffit de mettre **&lt;@&** avant l'identifiant et **&gt;** à la fin.  
-Vous devrez obtenir quelque chose comme ça : &lt;@&422208363464753152&gt;
+Si vous avez besoin de mentionner un rôle \(ex: panel web\), il vous suffit de faire &lt;@&ID-Role&gt;
 
 ## Membre
 
@@ -57,8 +56,7 @@ Pour récupérer l'identifiant d'un membre, vous devez :
 
 ![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un membre](../.gitbook/assets/t7pza714ce.gif)
 
-Si vous avez besoin de mentionner un membre \(ex: panel web\), il vous suffit de mettre **&lt;@** avant l'identifiant et **&gt;** à la fin.  
-Vous devrez obtenir quelque chose comme ceci : &lt;@318312854816161792&gt;
+Si vous avez besoin de mentionner un membre \(ex: panel web\), il vous de mettre &lt;@ID-Membre&gt;
 
 ## Emoji
 
@@ -85,8 +83,7 @@ Pour obtenir l'identifiant d'un salon, vous pouvez :
 
 ![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un salon](../.gitbook/assets/dvevuepeid.gif)
 
-Si vous avez besoin de mentionner un salon \(ex: panel web\), il vous suffit de mettre **&lt;\#** avant l'identifiant et **&gt;** à la fin.  
-Vous devrez obtenir quelque chose comme ceci : &lt;\#599942732013764608&gt;
+Si vous avez besoin de mentionner un salon \(ex: panel web\), vous devez mettre &lt;\#ID-Salon&gt;
 
 ## Serveur
 
