@@ -64,9 +64,16 @@ Pour obtenir l'identifiant d'un emoji, il vous suffit :
 
 * D'écrire votre emoji dans un salon textuel
 * Avant l'emoji, mettez un antislash \(\\)
-* Puis envoyer votre message.
+* Puis envoyez votre message.
 
 ![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un emoji](../.gitbook/assets/w08iemnopq.gif)
+
+{% hint style="warning" %}
+Si vous êtes sur **Android**, pour récupérer l'identifiant d'un emoji : 
+
+* Envoyez```:LeNomDeVotreEmoji:``` dans un salon textuel
+* Puis copiez le résultat étant l'identifiant de l'emoji
+{% endhint %}
 
 ## Salon
 
