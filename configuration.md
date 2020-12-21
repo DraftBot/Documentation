@@ -39,7 +39,7 @@ La troisième étape concerne le rôle automatique qui peut être attribué à l
 * ✅ Pour activer le rôle automatique
 * ❎ Pour désactiver le rôle automatique
 
- Si vous choisissez de mettre en place un rôle automatique, vous devez répondre par le nom du rôle à ajouter aux nouveaux membres.   
+Si vous choisissez de mettre en place un rôle automatique, vous devez répondre par le nom du rôle à ajouter aux nouveaux membres.   
 Par exemple @_membre @humain ..._
 
 ### Système de niveaux
@@ -123,7 +123,7 @@ Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
 * Multiplier les gains d’un rôle → `boosters`
 * Ne pas prendre en compte un rôle ou salon → `ignore` 
 * Réinitialiser la fonctionnalité → `reset` \(`!adminxp resetall` pour réinitialiser l'expérience\)
-*  Personnaliser la couleur → `color` \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\)
+*  Personnaliser la couleur → `color` \(fonctionnalité réservée aux [donateurs](https://www.draftbot.fr/premium)\)
 
 Si vous choisissez de **modifier le gain d'expérience**, en envoyant `config`, vous aurez alors le choix entre quatre propositions:
 
@@ -160,9 +160,9 @@ Si vous choisissez de **réinitialiser la configuration** du système de niveaux
 * Les rôles qui empêchent le gain d'expérience
 * Les salons dans les quels le gain d'expérience est désactivé
 * Les rôles qui permettent de multiplier le gain d'expérience
-* La couleur de la fonctionnalité de niveaux \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\)
+* La couleur de la fonctionnalité de niveaux \(fonctionnalité réservée aux [donateurs](https://www.draftbot.fr/premium)\)
 
-Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [donateurs](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservée aux [donateurs](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 ### `admininvites`
 
@@ -170,5 +170,5 @@ Vous avez la possibilité d'interdire les invitations Discord sur votre serveur,
 
 ### `vanish`
 
-Permet d'activer ou de désactiver la suppression automatique des commandes que vous envoyez au bot. Lorsque vous entrez `!vanish` ou `@DraftBot#0535 vanish` le bot vous répondra pour vous informer si vous avez activé ou désactivé cette fonctionnalité.
+Permet d'activer ou de désactiver la suppression automatique des commandes que vous envoyez au bot. Lorsque vous entrez `!vanish` ou `@DraftBot#0535 vanish` le bot activera ou désactivera la fonctionnalité.
 
