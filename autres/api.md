@@ -10,7 +10,7 @@ Les commandes
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Permet de récupérer la liste de toutes les commandes, ainsi que leur description, les aliases ! 
+Permet de récupérer la liste de toutes les commandes, ainsi que leur description, alias, ... ! 
 {% endapi-method-description %}
 
 {% api-method-spec %}
@@ -58,7 +58,7 @@ Permet de récupérer la liste de touts les membres, leurs niveaux et les récom
 {% api-method-request %}
 {% api-method-path-parameters %}
 {% api-method-parameter name="guild" type="integer" required=true %}
-ID de la guild dont vous souhaitez avoir les niveaux, récompenses
+ID de la guilde dont vous souhaitez avoir les niveaux, récompenses
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
