@@ -6,7 +6,7 @@ description: >-
 
 # Membercount
 
-DraftBot vous offre le choix de choisir entre deux designs pour votre compteur de membres :
+**DraftBot** vous offre le choix de choisir entre deux designs pour votre compteur de membres :
 
 * Soit en forme de [salons vocaux](membercount.md#salons-vocaux) qui pourra indiquer le nombre de membres, salons, rôles, etc.
 * Soit en forme de [catégorie](membercount.md#categorie) qui ne pourra contenir que le nombre de membres.
@@ -19,15 +19,15 @@ Les données du compteur de membres sont actualisées au bout de 2 minutes, lors
 
 ## Salons vocaux
 
-Pour configurer le compteur de membre sous forme de salons vocaux, il vous suffit d'utiliser la commande `membercount` puis cliqué sur la réaction **1**  
+Pour configurer le compteur de membres sous forme de salons vocaux, il vous suffit d'utiliser la commande `membercount` puis cliquer sur la réaction **1**  
   
 Vous aurez alors le choix d'activer ou non l'affichage : 
 
 * du nombre de Membres \(Utilisateurs + Bots\)
 * du nombre d'humains
 * du nombre de bots
-* de rôles crées 
-* de salons crées
+* de rôles créés 
+* de salons créés
 * du nombre de membres ayant un rôle spécifique
 
 {% hint style="success" %}
@@ -38,7 +38,7 @@ Une fois que vous avez répondu à l'ensemble de ces questions, votre compteur d
 
 Pour configurer le compteur de membre sous forme de catégorie, il vous suffit d'utiliser la commande `membercount` puis cliqué sur la réaction **2**
 
-Après avoir choisi ou non si les bots sont comptabilisés dans les membres du membercount, votre catégorie sera crée !
+Après avoir choisi ou non si les bots sont comptabilisés dans les membres du membercount, votre catégorie sera créée !
 
 {% hint style="info" %}
 Il vous suffira de remplacer sur le nom de la catégorie **xxxxxx** par ce que vous souhaitez et de mettre les salons voulus dans la catégorie.

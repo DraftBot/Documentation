@@ -20,7 +20,7 @@ Vous aurez alors le choix :
 ## Utilisation du captcha
 
 Lorsqu'un nouveau membre rejoindra votre serveur Discord, un message apparaîtra dans le salon que vous avez défini pour le captcha.  
-Le membre devra alors réécrire les caractères sur l'image qui lui est destiné pour accéder au serveur.
+Le membre devra alors réécrire les caractères sur l'image qui lui est destinée pour accéder au serveur.
 
 ![Message envoy&#xE9; dans le salon d&#xE9;di&#xE9; au captcha lorsqu&apos;un membre rejoint le serveur](../.gitbook/assets/image%20%2838%29.png)
 
