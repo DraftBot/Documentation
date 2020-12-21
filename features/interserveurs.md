@@ -39,7 +39,7 @@ Pour ce faire vous pouvez utiliser la même commande suivie de la fréquence re�
 Une fois cette commande exécutée, un message de confirmation vous sera envoyé dans le même salon ainsi que dans le salon relié par la fréquence !
 
 {% hint style="success" %}
-Vous avez crée votre interserveur entre vos deux salons !
+Vous avez créé votre interserveur entre vos deux salons !
 {% endhint %}
 
 ## Supprimer un interserveur
@@ -59,7 +59,7 @@ Exécutez la commande suivante:
 Sélectionnez l'emoji corbeille 🗑️ pour supprimer l'interserveur du salon
 
 {% hint style="success" %}
-L'interserveur est bien supprimé du salon !
+L'interserveur a bien été supprimé du salon !
 {% endhint %}
 {% endtab %}
 

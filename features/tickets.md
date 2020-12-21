@@ -12,23 +12,23 @@ Pour configurer le système de tickets, il vous suffit d'utiliser la commande `a
 Vous pouvez configurer : 
 
 * Si vous souhaitez activer ou désactiver le système de tickets
-* Valider ou non le ticket avant sa création
+* Si vous souhaitez valider ou non le ticket avant sa création
 * Choisir ou créer la catégorie qui stockera les tickets
 * Si vous voulez, ajouter un rôle qui n'est pas Administrateur à voir les tickets
 
 ### Validation des tickets
 
-Si vous avez activé la validation de tickets et que vous avez demandé à DraftBot de créer le salon dédié à cela, il se nommera **\#demandes-de-tickets**.  
+Si vous avez activé la validation de tickets et que vous avez demandé à **DraftBot** de créer le salon dédié à cela, il se nommera **\#demandes-de-tickets**.  
 Lors de la création d’un nouveau ticket, les membres ayant accès à ce salon pourront soit :
 
 * Accepter la demande de ticket à l'aide de la réaction ✅
-* Refuser la demande en cliquant sur la réaction 🗑️
+* Refuser la demande de ticket en cliquant sur la réaction 🗑️
 
-Si vous avez refusé la demande, le membre recevra la raison du refus de son ticket en message privée s'il les à activé.
+Si vous avez refusé la demande, le membre recevra la raison du refus de son ticket en message privé s'il les à activé.
 
 ### Désactiver le système de tickets
 
-Pour désactiver ce système, il vous suffit de faire cette commande `admintickets config` ou `@DraftBot#0535 admintickets config`  
+Pour désactiver ce système, il vous suffit d'utiliser la commande `admintickets config` ou `@DraftBot#0535 admintickets config`  
 Lors de la première question **"Souhaitez-vous activer ou désactiver le système de tickets ?"**, il vous suffit de cliquer sur la réaction ❌
 
 {% hint style="warning" %}
@@ -44,10 +44,10 @@ Si la validation de tickets est activée sur le serveur, une raison sera nécess
 
 ### Fermeture d'un ticket
 
-Si vous souhaitez supprimer un ticket, vous devez aller au début du salon puis de cliquer sur la réaction 🔒 du premier message de DraftBot dans le ticket \(qui est dans les messages épinglés du ticket\) puis de valider votre action en cliquant sur la réaction ✅.
+Si vous souhaitez supprimer un ticket, vous devez aller au début du salon puis de cliquer sur la réaction 🔒 du premier message de **DraftBot** dans le ticket \(qui est dans les messages épinglés du ticket\) puis de valider votre action en cliquant sur la réaction ✅.
 
 {% hint style="info" %}
-Si le ticket à été fermé par le membre, il sera conservé jusqu’à qu’un membre de votre équipe le supprime définitivement ou le rouvre à l’aide des réactions.
+Si le ticket à été fermé par le membre, il sera conservé jusqu'à ce qu’un membre de votre équipe le supprime définitivement ou le rouvre à l’aide des réactions.
 {% endhint %}
 
 ### Ajouter ou retirer un membre à un ticket
