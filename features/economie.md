@@ -19,7 +19,7 @@ Vous pouvez afficher le nombre d'argent virtuel d'un membre sous forme d'image.
 ![](../.gitbook/assets/image%20%2843%29.png)
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son **id**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
 
 ### Le classement du serveur
@@ -29,7 +29,7 @@ Dans le cas où vous souhaitez afficher le classement d'argent du serveur, il vo
 ![](../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="warning" %}
-Dans le cas où vous ne faites pas parti du top 3, vous serez tout de même affiché en dessous avec votre place.
+Dans le cas où vous ne faites pas partie du top 3, vous serez tout de même affiché en dessous avec votre place.
 {% endhint %}
 
 ## Membre
@@ -39,7 +39,7 @@ Dans le cas où vous ne faites pas parti du top 3, vous serez tout de même affi
 Vous avez la possibilité de donner de l'argent à un autre membre avec la commande `pay <membre> <nombre> <raison>`
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de DraftBot, vous pouvez utiliser son [**identifiant**](../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
 
 ### Acheter un article
@@ -54,7 +54,7 @@ Vous pouvez voir la boutique du serveur avec la commande `shop` !
 
 Vous pouvez l'activer, la désactiver, modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `!admineconomy` ou `@DraftBot#0535 admineconomy`. 
 
-Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
+Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 
 * L'activer → `on`
 * Le désactiver → `off`
@@ -62,7 +62,7 @@ Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
 * Multiplier les gains d'expérience d’un rôle → `boosters`
 * Ne pas prendre en compte un rôle ou salon → `ignore` 
 * Réinitialiser la fonctionnalité → `reset` \(`!adminmoney resetall` pour réinitialiser l'expérience\)
-* Personnaliser la couleur → `color` \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\)
+* Personnaliser la couleur → `color` \(fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium)\)
 
 ### **Modifier le gain d'argent** <a id="modifier-le-gain-dexperience"></a>
 
@@ -92,7 +92,7 @@ Si vous choisissez d’**ignorer le gain d'argent**, en envoyant `ignore`, vous 
 
 ### Réinitialiser la configuration
 
-Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, DraftBot vous supprimera toutes les configurations effectués pour ce système. A savoir:
+Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, **DraftBot** vous supprimera toutes les configurations effectués pour ce système. A savoir:
 
 * Son statut
 * Le nombre d'argent donné lors de l'arrivée d'un membre
@@ -105,13 +105,13 @@ Si vous choisissez de **réinitialiser la configuration** du système de niveaux
 
 ### Modifier la couleur
 
-Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservé aux [premiums](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
 
 ## Boutique
 
 Vous pouvez ajouter, retirer, modifier un article ou encore réinitialiser la boutique avec la commande `!adminshop` ou `@DraftBot#0535 adminshop`. 
 
-Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
+Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 
 * Ajouter un article → `add`
 * Supprimer un article → `remove`

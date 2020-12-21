@@ -49,12 +49,12 @@ La quatrième étape concerne le système de niveaux. Pour y répondre, vous dev
 * ✅ Pour activer le système de niveaux
 * ❎ Pour désactiver le système de niveaux.
 
-Si vous décidez d'activer le système de niveaux, DraftBot vous demande alors si vous souhaitez modifier l'expérience gagnée à chaque message. Vous pouvez choisir une des deux réactions proposées: 
+Si vous décidez d'activer le système de niveaux, **DraftBot** vous demande alors si vous souhaitez modifier l'expérience gagnée à chaque message. Vous pouvez choisir une des deux réactions proposées: 
 
 * ✅ Modifier l'expérience gagnée par message
 * ❎ Continuer sans modifier l'expérience gagnée par message
 
-Si vous souhaitez modifier la valeur, DraftBot vous propose alors 4 choix: 
+Si vous souhaitez modifier la valeur, **DraftBot** vous propose alors 4 choix: 
 
            0⃣ \| 0 XP par message  
            1⃣ \| Entre 5 et 15 XP par message  
@@ -115,7 +115,7 @@ Pour cela, utilisez simplement la commande `!logs` ou `@DraftBot#0535 logs` afin
 
 Suivez l'activité de vos membres grâce à la fonction de niveaux. Vous pouvez l'activer, la désactiver ou modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `!adminlevel` ou `@DraftBot#0535 adminlevel`. 
 
-Un message vous sera envoyé par DraftBot pour savoir si vous voulez :
+Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 
 * L'activer → `on`
 * Le désactiver → `off`
@@ -140,18 +140,18 @@ Si vous choisissez de **booster un rôle**, en envoyant `boosters`, vous aurez a
 
   être boosté. Vous pourrez ensuite choisir le multiplicateur entre `1.5`, `2.0`, `2.5` ou `3.0`.
 
-* Si vous choisissez de supprimer un rôle booster, DraftBot vous montrera tous
+* Si vous choisissez de supprimer un rôle booster, **DraftBot** vous montrera tous
 
   les rôles boostés et vous devrez alors choisir lequel supprimer.
 
-* Si vous choisissez d’afficher la liste des rôles boosters, DraftBot vous enverra tous les rôles boostés et le multiplicateur qui leur a été attribué.
+* Si vous choisissez d’afficher la liste des rôles boosters, **DraftBot** vous enverra tous les rôles boostés et le multiplicateur qui leur a été attribué.
 
 Si vous choisissez d’**ignorer l’expérience**, en envoyant `ignore`, vous aurez le choix entre deux propositions: Ignorer un rôle \| Ignorer un salon 
 
 * Si vous choisissez le rôle, vous devez renseigner le rôle qui empêchera les membres l'ayant de gagner de l’expérience. 
 * Si vous choisissez le salon, vous devez renseigner le salon dans lequel l’expérience ne sera pas comptabilisé.
 
-Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, DraftBot vous supprimera toutes les configurations effectués pour ce système. A savoir:
+Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, **DraftBot** vous supprimera toutes les configurations effectués pour ce système. A savoir:
 
 * Son statut
 * Le nombre d'expérience gagné a chaque message
