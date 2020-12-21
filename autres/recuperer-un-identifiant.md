@@ -1,7 +1,7 @@
 ---
 description: >-
-  Chaque message, rôles, membres, serveurs et emojis disposent d'un identifiant
-  qui leur est unique et qui peut être utile pour configurer certaines
+  Chaque message, rôle, membre, serveur et emoji dispose d'un identifiant qui
+  leur est unique et qui peut être utile pour configurer certaines
   fonctionnalités de DraftBot.
 ---
 
