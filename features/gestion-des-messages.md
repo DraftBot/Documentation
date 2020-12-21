@@ -12,8 +12,8 @@ La commande `clear` \(ou `clean`\) vous permet de supprimer un grand nombre de m
 Pour utiliser cette commande, il vous suffit de faire `clear [nombre entre 1 et 100]`
 
 {% hint style="info" %}
-DraftBot ne peut pas supprimer les messages datant de plus de 14 jours dû à une limite de Discord.  
-S'il détecte que les messages que vous souhaitez supprimer date de plus d'une semaine, DraftBot vous proposera de cloner le salon et de supprimer l'ancien. 
+**DraftBot** ne peut pas supprimer les messages datant de plus de 14 jours dû à une limite de Discord.  
+S'il détecte que les messages que vous souhaitez supprimer date de plus d'une semaine, **DraftBot** vous proposera de cloner le salon et de supprimer l'ancien. 
 {% endhint %}
 
 ## ClearChannel
@@ -62,6 +62,6 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 {% endhint %}
 
 {% hint style="info" %}
-DraftBot vous demandera après avoir indiqué l'identifiant du premier et du dernier message si vous souhaitez supprimer la conversation après avoir effectué la sauvegarde, cliqué sur la réaction ❌ou ✅ selon votre situation et besoins.
+**DraftBot** vous demandera après avoir indiqué l'identifiant du premier et du dernier message si vous souhaitez supprimer la conversation après avoir effectué la sauvegarde, cliquez sur la réaction ❌ou ✅ selon votre situation et besoins.
 {% endhint %}
 
