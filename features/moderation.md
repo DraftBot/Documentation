@@ -9,7 +9,7 @@ description: >-
 ## Permissions des commandes
 
 {% hint style="warning" %}
-Cette liste regroupe les **principales commandes** de modération de DraftBot pouvant être utile à vos modérateurs.  
+Cette liste regroupe les **principales commandes** de modération de **DraftBot** pouvant être utile à vos modérateurs.  
 Vous pouvez cependant donner la permission à un rôle d'utiliser ces commandes malgré qui n'a pas la permission requise en utilisant la commande [`roleperms`](roleperms.md) !
 {% endhint %}
 
@@ -19,8 +19,8 @@ Vous pouvez cependant donner la permission à un rôle d'utiliser ces commandes 
 | mute/tempmute/unmute | Gérer les messages |
 | kick | Expulser des membres |
 | warn/unwarn | Gérer les messages |
-| sanctions \(interface de modération\) | Gérer les messages |
-| sanction \(afficher les sanctions\) | Gérer les messages |
+| sanction \(interface de modération\) | Gérer les messages |
+| sanctions \(afficher les sanctions\) | Gérer les messages |
 
 ## Sanctionner un membre
 
@@ -45,7 +45,7 @@ Vous pouvez avertir un membre avec la commande `warn <Membre> <Raison>`
 Le membre recevra un message privé avec le motif de son avertissement.  
   
 Si vous voulez retirer un avertissement d'un membre avec la commande `unwarn`  
-L'avertissement sera retiré de la commande `sanction`
+L'avertissement sera retiré de la commande `sanctions`
 
 ### Rendre muet un membre
 
@@ -59,7 +59,7 @@ Pour plus d'informations concernant ce type de sanction ainsi que sa configurati
 
 ## Voir les sanctions
 
-Vous pouvez voir les sanctions effectuées sur votre serveur avec la commande `sanction`
+Vous pouvez voir les sanctions effectuées sur votre serveur avec la commande `sanctions`
 
 {% hint style="info" %}
 Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les sanctions d'une personne précise.
@@ -92,7 +92,7 @@ Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les
 
 ## Supprimer les liens d'invitations Discord
 
-DraftBot vous offre la possibilité que les membres qui ne sont pas Administrateur sur votre serveur et qui postent des invitations Discord qu'elles soient supprimées automatiquement.  
+**DraftBot** vous offre la possibilité d'empêcher les membres qui ne sont pas Administrateur sur votre serveur d'envoyer des invitations Discord.  
   
 Pour activer cette fonctionnalité, il vous suffit d'utiliser la commande `admininvites`
 
@@ -102,11 +102,11 @@ Les personnes qui ont la permission Administrateur de votre serveur sont immunis
 
 ## Interdire certains mots
 
-Vous pouvez, avec DraftBot, lorsque certains mots sont écrits, qu'ils soient remplacés par des caractères spéciaux avec la commande `filter`
+Vous pouvez, avec **DraftBot**, lorsque certains mots sont écrits, faire en sorte qu'ils soient remplacés par des caractères spéciaux avec la commande `filter`
 
 ![Exemple d&apos;un mot interdit remplac&#xE9; par des caract&#xE8;res sp&#xE9;ciaux](../.gitbook/assets/image%20%2825%29.png)
 
-Pour activer le filtre de mots, il suffit de faire la commande `filter on`  
+Pour activer le filtre de mots, il suffit d'utiliser la commande `filter on`  
 Vous pouvez ensuite ajouter des mots au filter avec la commande `filter add <mot>`
 
 {% hint style="info" %}

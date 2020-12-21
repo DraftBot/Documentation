@@ -1,17 +1,17 @@
 ---
 description: >-
-  La commande roleperms vous offres la possibilité d'autoriser ou de refuser à
-  un rôle d'utiliser une commande indépendamment des permissions par défaut pour
-  faire la commande.
+  La commande roleperms vous offre la possibilité d'autoriser ou de refuser à un
+  rôle la possibilité d'utiliser une commande indépendamment des permissions par
+  défaut pour faire la commande.
 ---
 
 # Permissions de commandes
 
 ## Autoriser ou refuser à un rôle une commande <a id="allow-or-deny"></a>
 
-Pour **refuser** un rôle d'utiliser une commande, il vous suffit de faire `roleperms deny [commande] [rôle]`  
+Pour **refuser** à un rôle d'utiliser une commande, il vous suffit de faire `roleperms deny [commande] [rôle]`  
   
-Pour **autoriser** un rôle d'utiliser une commande, il vous suffit de faire `roleperms allow [commande] [rôle]`
+Pour **autoriser** à un rôle d'utiliser une commande, il vous suffit de faire `roleperms allow [commande] [rôle]`
 
 {% hint style="info" %}
 Vous n'êtes pas obligé de mentionner le rôle, vous pouvez uniquement donner son nom.
@@ -19,7 +19,7 @@ Vous n'êtes pas obligé de mentionner le rôle, vous pouvez uniquement donner s
 
 ## Réinitialiser le RolePerms <a id="reinitialiser"></a>
 
-Si vous souhaitez réinitialiser les permissions que vous avez ajoutés ou supprimés à l'ensemble des rôles en utilisant cette fonctionnalité, il vous suffit de faire la commande`roleperms reset`
+Si vous souhaitez réinitialiser les permissions que vous avez ajoutées ou supprimées à l'ensemble des rôles en utilisant cette fonctionnalité, il vous suffit d'utiliser la commande`roleperms reset`
 
 ## Hiérarchie du RolePerms <a id="hierarchie"></a>
 
