@@ -11,12 +11,12 @@ description: >-
 
 Le [Support Discord](https://discord.com/invite/DrzKVU3) est notre principale plateforme de communication. Vous pouvez solliciter l'aide d'un _@Helper_ qui répondra à vos questions et vous aidera à résoudre les problèmes liés à **DraftBot**.  
 Nous discutons également de généralités avec nos membres, il s'agit à la fois d'une plateforme d'échange conviviale mais aussi sérieuse pour l'évolution du bot.  
-Pour nous rejoindre, cliquez simplement ici : [Support Discord](http://discord.gg/BrcH9wz/)
+Pour nous rejoindre, cliquez simplement ici : [Support Discord](https://discord.com/invite/DrzKVU3)
 
 ### Twitter :
 
 Twitter est notre réseau social principal, utilisé pour diffuser à la fois des astuces et informations concernant **DraftBot**. Vous y trouverez donc de petits aperçus des nouveautés à venir, quelques conseils d'utilisation, mais également des rappels et notes de mise à jour.   
-Pour nous suivre, cliquez simplement ici : [Twitter DraftBot](https://twitter.com/DraftBotFr)
+Pour nous suivre, cliquez simplement ici : [Twitter DraftBot](https://twitter.com/DraftBot_FR)
 
 ### Mail :
 
