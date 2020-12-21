@@ -11,7 +11,7 @@ description: >-
 
 Commencez par créer votre règlement en utilisant la commande `reglement create` ou `@DraftBot#0535 reglement create`
 
-Par la suite il vous demandera quel est le rôle que vous souhaitez attribuer aux membres qui attesteront avoir pris connaissance de ce règlement. Répondez alors simplement le nom du rôle que vous souhaitez associer à la validation.
+Par la suite **DraftBot** vous demandera quel est le rôle que vous souhaitez attribuer aux membres qui attesteront avoir pris connaissance de ce règlement. Répondez alors simplement le nom du rôle que vous souhaitez associer à la validation.
 
 {% hint style="info" %}
 Si vous ne souhaitez pas notifier toutes les personnes qui ont d'ores et déjà le rôle destiné au règlement, vous pouvez simplement répondre le nom du rôle. Cela fonctionnera tout aussi bien que la mention.
