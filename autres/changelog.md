@@ -6,6 +6,67 @@ description: >-
 
 # Changelog
 
+## 4.11.6 - 24/12/2020
+
+### Nouvelles fonctionnalités
+
+* `event` pour organiser des regroupements de participants
+* Inventaire avec nouveaux items d'inventaire
+  * Ajout d'une nouvelle commande `deal` pour effectuer des échanges d'objets
+* `sondage` avec génération d'image, timer de fin \(optionnel\), statistiques
+* Localité sur le `profil` \(personnalisable avec `locality`\)
+* Commande `panel` pour être redirigé vers son profil ou le panel du serveur
+
+### Améliorations
+
+* Refonte de la fonctionnalité `admininvites`:
+  * Plus de message privée
+  * Détection de toutes les invitations
+  * Fix des liens Discord qui étaient pris pour des invitations
+  * Censuration des invitations
+* La commande `birthday` n'affichera plus que les membres présents sur le server
+* Ajout des logs des transactions d'économie
+* Ajout de la possibilité de customiser le message de confirmation du système de suggestion 
+* Ajout de la possibilité de désactiver un serveur premium même après l'avoir quitté
+* Amélioration du puissance 4 :
+  * Ajout d'une intelligence artificielle \(mentionner DraftBot comme utilisateur\)
+  * Ajout de 2s de délais pour le bot afin d'avoir un jeu plus humanisé
+  * Fix bug quand il y a victoire sur la dernière case de la grille
+* Amélioration de la commande `diagnose support`
+* Augmentation des limites des commandes personnalisées de 10 à 20 de plus pour les non premium et de 20 à 50 de plus pour les premium
+* Amélioration du `saveconv` \(toujours plus réaliste, persistance des images, bug des mentions de membres avec pseudo\)
+* La désactivation du système de ticket ne supprimeras plus, ni la catégorie, ni les salons de tickets
+* Possibilité de mentionner un rôle de la boutique pour l'acheter \(un message sera envoyé à l'utilisateur pour lui dire d'éviter de le mentionner, que cela mentionne tout le monde et qu'il peut juste mettre le nom\)
+* Ajout du nouveau rôle à la commande `wolfy`
+* Limitation à un lancement de commande `bingo` par salon
+* Adaptation du `morpion` au pavé numérique
+* Pour les commandes `sondage`, `giveaway`, `event`, avant demander le salon dans lequel on veut que cela se passe, il demandera si on veut que ça se passe dans le salon actuel
+
+### Panel web
+
+* Suppression de la feature "no xp" pour les membres invisibles
+* Page profil \(anniversaire, description, jeux\)
+* Gestion du Premium
+* Ergonomie globalement amélioré \(déroutant de roles et certains trucs optimisés\)
+* Fix du bug du Embed Creator qui scrollait up s'il estimait que le texte était trop long
+
+### Autres changements
+
+* Lors de l'activation ou la désactivation des commandes, le nom d'une commande aura la priorité sur le nom d'un groupe.
+* Ajout du support de Fortnite Mobile aux stats `fortnite`
+* Optimisation globale du cache des serveurs, nous ne garderons en cache que les infos des serveurs qui ont DraftBot sur leur serveur.
+
+### Résolutions des bugs
+
+* Fix bug des achats d'articles depuis les commandes personnalisées
+* Modification de la commande `userinfo`:
+  * Les éléments status, activité, surnom, et appareil ont été retirés
+* Fix du système de lexique \(les ensemble de mots sont maintenant détectables\)
+* La désactivation du système de ticket ne supprimeras plus, ni la catégorie, ni les salons de tickets \(demande la communauté\)
+* Suppression de la commande translate suite à une inaccessibilité quasi permanente à l'api de traduction
+* Suppression de la fonctionnalité "no xp" pour les membres en mode invisible \(demande de Discord\)
+* Fix bug de top.gg qui n'était plus mis à jour.
+
 ## 4.11.5 - 19/10/2020
 
 ### Ajouts
