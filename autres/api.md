@@ -4,7 +4,7 @@ description: Une api destiné aux développeurs !
 
 # API
 
-{% api-method method="get" host="https://api.draftbot.fr" path="/commands" %}
+{% api-method method="get" host="https://api.draftbot.fr" path="/base/commands" %}
 {% api-method-summary %}
 Les commandes
 {% endapi-method-summary %}
@@ -25,17 +25,19 @@ Commandes récupérés avec succès.
 ```javascript
 [
     {
-        "name": "botinfo",
-        "aliases": ["botinfos", "liens"],
-        "groupID": "bot",
-        "description": "Afficher quelques informations importantes concernant le bot.",
-        "examples": ["botinfo"],
-        "guildOnly": false,
-        "ownerOnly": false,
-        "clientPermissions": ["SEND_MESSAGES", "EMBED_LINKS"],
-        "userPermissions": null,
-        "nsfw": false,
-        ...
+        "id": "bot",
+        "name": "Bot",
+        "description": "Informations par rapport au bot et au discord",
+        "guarded": true,
+        "commands": [
+            {
+                "name": "help",
+                "description": "Afficher la liste des commandes.",
+                "examples": "help, help botinfo",
+                "aliases": "commande, commands, commandes"
+            },
+            ...
+        ],
     },
     ...
 ]
@@ -45,20 +47,20 @@ Commandes récupérés avec succès.
 {% endapi-method-spec %}
 {% endapi-method %}
 
-{% api-method method="get" host="https://api.draftbot.fr" path="/levels/:guild" %}
+{% api-method method="get" host="https://api.draftbot.fr" path="/base/shards" %}
 {% api-method-summary %}
-Niveaux et récompenses
+Shards
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Permet de récupérer la liste de touts les membres, leurs niveaux et les récompenses possibles en fonction des niveaux !
+Permet de récupérer le statu de tous les shards de DraftBot, comprend toutes les informations visibles sur la page status du site.
 {% endapi-method-description %}
 
 {% api-method-spec %}
 {% api-method-request %}
 {% api-method-path-parameters %}
-{% api-method-parameter name="guild" type="integer" required=true %}
-ID de la guilde dont vous souhaitez avoir les niveaux, récompenses
+{% api-method-parameter name="" type="string" required=false %}
+
 {% endapi-method-parameter %}
 {% endapi-method-path-parameters %}
 {% endapi-method-request %}
@@ -70,16 +72,72 @@ ID de la guilde dont vous souhaitez avoir les niveaux, récompenses
 {% endapi-method-response-example-description %}
 
 ```javascript
+[
+    {
+        "shard_id": 0,
+        "guilds": 12,
+        "members": 2772,
+        "ping": 112,
+        "memory": 44.52,
+        "uptime": "2020-12-27T18:33:44.565Z",
+        "lastUpdate": "2020-12-27T23:46:44+01:00",
+        "state": true
+    }
+]
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="get" host="https://api.draftbot.fr" path="/levels" %}
+{% api-method-summary %}
+Niveaux et récompenses
+{% endapi-method-summary %}
+
+{% api-method-description %}
+Permet de récupérer la liste de touts les membres, leurs niveaux et les récompenses possibles en fonction des niveaux !
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-query-parameters %}
+{% api-method-parameter name="guild\_id" type="integer" required=true %}
+ID du serveur dont vous souhaitez recevoir les niveaux ainsi que les récompenses
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="user\_id" type="integer" required=false %}
+ID de l'utilisateur ciblé
+{% endapi-method-parameter %}
+{% endapi-method-query-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```javascript
 {
-    guild: {
+    "guild": {
         "name": "DraftBot™ - Support",
-        "pp": "https://cdn.discordapp.com/icons/422112414964908042/e3e979299d59bb62b664cfb20ea38ae5.webp?size=256"
+        "icon": "https://cdn.discordapp.com/icons/422112414964908042/a_3dd55dadfcbd56d873098b2a2a3601d7.png?size=256"
     },
-    users: [
+    "rewards": [
+        {
+            "level": "10"
+            "reward": "Rôle Actif",
+        },
+        ...
+    ],
+    "totalUsersCount": 2500,
+    "users": [
         {
             "id": "207190782673813504",
             "username": "DraftMan",
-            "pp": "https://cdn.discordapp.com/avatars/207190782673813504/1b5460c9eebe544b57e0cae8b07154a3.webp",
+            "displayName": "DraftMan",
+            "avatar": "https://cdn.discordapp.com/avatars/207190782673813504/1b5460c9eebe544b57e0cae8b07154a3.webp",
             "level": 19,
             "currentLevelXp": 1154,
             "levelXp": 2855,
@@ -87,13 +145,7 @@ ID de la guilde dont vous souhaitez avoir les niveaux, récompenses
         },
         ...
     ],
-    rewards: [
-        {
-            "role": "Actif",
-            "level": "10"
-        },
-        ...
-    ],
+    "page": 0
 }
 ```
 {% endapi-method-response-example %}
