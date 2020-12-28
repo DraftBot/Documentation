@@ -1,5 +1,5 @@
 ---
-description: Une api destiné aux développeurs !
+description: Une api destinée aux développeurs !
 ---
 
 # API
@@ -19,7 +19,7 @@ Permet de récupérer la liste de toutes les commandes, ainsi que leur descripti
 {% api-method-response %}
 {% api-method-response-example httpCode=200 %}
 {% api-method-response-example-description %}
-Commandes récupérés avec succès.
+Commandes récupérées avec succès.
 {% endapi-method-response-example-description %}
 
 ```javascript
@@ -53,7 +53,7 @@ Shards
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Permet de récupérer le statu de tous les shards de DraftBot, comprend toutes les informations visibles sur la page status du site.
+Permet de récupérer le statut de tous les shards de DraftBot, comprend toutes les informations visibles sur la page status du site.
 {% endapi-method-description %}
 
 {% api-method-spec %}
