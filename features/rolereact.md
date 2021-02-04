@@ -82,16 +82,3 @@ Ensuite vous aurez le choix entre 5 possibilités, que vous aurez à valider en 
 
 ![Message obtenu apr&#xE8;s avoir effectu&#xE9; la commande rolereact mode](../.gitbook/assets/image%20%2832%29.png)
 
-## Configurer un rolereact <a id="config"></a>
-
-Vous pouvez configurer un rolereact vous permettant de chosir si ou non à ce que la réaction du membre soit supprimée après que le membre ait obtenu le rôle.   
-  
-Si vous souhaitez configurer cette option pour un rolereact, il vous suffit d'utiliser la commande`rolereact config [Identifiant du message de DraftBot]`
-
-{% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
-{% endhint %}
-
-* En cliquant sur la réaction ✅, les réactions des membres seront supprimé et ils **ne pourront plus** se retiré le rôle depuis le rolereact.
-* En cliquant sur la réaction ❌, les réactions des membres au rolereact seront conservé et **pourront** se retiré le rôle depuis le rolereact.
-

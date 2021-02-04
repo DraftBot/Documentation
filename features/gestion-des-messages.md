@@ -37,7 +37,7 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 ## MoveConv
 
 La commande `moveconv` vous permet de déplacer une conversation dans un autre salon textuel.  
-Pour ce faire, il vous suffit de faire `moveconv [Identifiant du premier message] [Identifiant du dernier message]`
+Pour ce faire, il vous suffit de faire `moveconv [salon] [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
 Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
@@ -46,7 +46,7 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 ## MoveMSG
 
 La commande `movemsg` permet de déplacer un message dans un autre salon.  
-Pour déplacer un message, il vous suffit de faire `movemsg [Identifiant du message]`
+Pour déplacer un message, il vous suffit de faire `movemsg [salon] [Identifiant du message]`
 
 {% hint style="info" %}
 Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
