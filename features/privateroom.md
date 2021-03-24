@@ -5,7 +5,7 @@ description: >-
   celui-ci par exemple.
 ---
 
-# Salons vocaux privés
+# PrivateRoom
 
 ## Activer les PrivateRooms <a id="activer"></a>
 

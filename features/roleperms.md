@@ -5,7 +5,7 @@ description: >-
   défaut pour faire la commande.
 ---
 
-# Permissions de commandes
+# RolePerms
 
 ## Autoriser ou refuser à un rôle une commande <a id="allow-or-deny"></a>
 

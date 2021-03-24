@@ -4,7 +4,7 @@ description: >-
   qu'une réaction soit ajoutée au message.
 ---
 
-# Réactions de mots
+# WordReact
 
 ## Activer et désactiver le système de WordReact <a id="on-off"></a>
 

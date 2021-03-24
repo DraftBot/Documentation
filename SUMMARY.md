@@ -3,6 +3,7 @@
 * [Bienvenue !](README.md)
 * [Installation](installation.md)
 * [Configuration](configuration.md)
+* [Changelog](changelog.md)
 
 ## Fonctionnalités <a id="features"></a>
 
@@ -12,11 +13,11 @@
 * [Commandes personnalisées](features/commandes-personnalisees.md)
 * [Règlement](features/reglement.md)
 * [RoleReact](features/rolereact.md)
-* [Réactions de mots](features/wordreact.md)
+* [WordReact](features/wordreact.md)
 * [Modération](features/moderation.md)
 * [Mute](features/mute.md)
-* [Permissions de commandes](features/roleperms.md)
-* [Salons vocaux privés](features/privateroom.md)
+* [RolePerms](features/roleperms.md)
+* [PrivateRoom](features/privateroom.md)
 * [Tickets](features/tickets.md)
 * [Interserveurs](features/interserveurs.md)
 * [Gestion des messages](features/gestion-des-messages.md)
@@ -30,7 +31,7 @@
 ## Autres
 
 * [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
-* [Changelog](autres/changelog.md)
+* [Equipe](autres/equipe.md)
 * [API](autres/api.md)
 * [Contact](autres/contact.md)
 
