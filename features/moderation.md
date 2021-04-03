@@ -90,33 +90,3 @@ Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les
   </tbody>
 </table>
 
-## Supprimer les liens d'invitations Discord
-
-**DraftBot** vous offre la possibilité d'empêcher les membres qui ne sont pas Administrateur sur votre serveur d'envoyer des invitations Discord.  
-  
-Pour activer cette fonctionnalité, il vous suffit d'utiliser la commande `admininvites`
-
-{% hint style="warning" %}
-Les personnes qui ont la permission Administrateur de votre serveur sont immunisées par cette fonctionnalité.
-{% endhint %}
-
-## Interdire certains mots
-
-Vous pouvez, avec **DraftBot**, lorsque certains mots sont écrits, faire en sorte qu'ils soient remplacés par des caractères spéciaux avec la commande `filter`
-
-![Exemple d&apos;un mot interdit remplac&#xE9; par des caract&#xE8;res sp&#xE9;ciaux](../.gitbook/assets/image%20%2825%29.png)
-
-Pour activer le filtre de mots, il suffit d'utiliser la commande `filter on`  
-Vous pouvez ensuite ajouter des mots au filter avec la commande `filter add <mot>`
-
-{% hint style="info" %}
-Vous pouvez ajouter plusieurs mots en une seule commande en mettent une virgule entre chaque mot.  
-Exemple: mot1, mot2, mot3, mot4
-{% endhint %}
-
-{% hint style="warning" %}
-Le filter se déclenchera uniquement pour les personnes qui **ne sont pas** Administrateur.
-{% endhint %}
-
-
-

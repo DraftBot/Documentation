@@ -1,12 +1,105 @@
 ---
 description: >-
   Voici la liste de tous les changements effectués datés et décris depuis la
-  version 4.11.2
+  version 4.11.2.
 ---
 
 # Changelog
 
-## 4.12 - 24/03/2021
+## 4.12.0 - 25/03/2021
+
+### Nouvelles fonctionnalités
+
+* Auto-Modération \(disponible également sur le panel\)
+  * **Filter:** filtre de mots \(configuration de mots, whitelist de rôles et de salons, possibilité de désactiver la censure\)
+  * **Invites:** Anti invitations discord \(whitelist de rôles et de salons, possibilité de désactiver la censure\)
+  * **Liens:** Anti invitations discord \(possibilité de whitelist des noms de domaines, whitelist de rôles et de salons, possibilité de désactiver la censure\)
+  * **Anti-spam:** Anti spam de messages \(configuration du temps ainsi que du nombre de messages autorisés, whitelist de rôles et de salons\)
+  * **Mentions:** Anti spam de mentions \(\(configuration du temps ainsi que du nombre de mentions autorisés, whitelist de rôles et de salons\) \(spécial car entre messages\)
+  * **Emojis:** Anti spam d'emojis \(\(configuration du pourcentage d'emojis ainsi que du nombre du nombre d'emojis autorisés, whitelist de rôles et de salons\)
+* Auto-Sanctions \(disponible également sur le panel\) : Ajout de règles de sanctions suite aux infractions de l'automodération
+* Sticky roles : Ces rôles seront conservés même après un retour sur le serveur, le rôle mute par exemple.
+
+### Ajouts
+
+* `inventory` : Ajout de la possibilité d'afficher l'inventaire d'un autre membre
+* `customcommand` : Ajout de points de vérification pour que la commande ne continue pas les étapes si l'étape précédente n'a pas été réalisée.
+* `adminreward` : Ajout de la possibilité de changer l'unicité d'un rôle reward depuis l'argument update
+* `rolereact` : Ajout d'une erreur si on dépasse les 20 réactions autorisés par Discord.
+* `ticket` : Ajout d'un message d'erreur si on dépasse les 50 tickets dans la catégorie
+* `puissance4`: Ajout du curseur pour voir quel était le dernier mouvement de l'adversaire
+* `joke` : Ajout de la possibilité de désactiver des types de blagues \(**dark** et **limit** désactivés par défaut\)
+* `wordreact` : Ajout de la possibilité de mettre des débuts de phrases plus uniquement des mots
+* `privateroom`: Ajout de la possibilité de rendre permanents des salons vocaux dans une catégorie de privateroom
+* `logs` : Ajout de la date de création du compte Discord dans les logs d'arrivés systématiquement
+* `suggest` : Ajout de la possibilité de mettre des images dans les suggestions
+* `clear` : Ajout de la possibilité de supprimer les messages d'un membre \(même s'il n'est plus sur le serveur\)
+* `gameprofil` : Ajout du jeu Plato \(disponible également sur le panel web\)
+* Panel web : 
+  * Récupération de la couleur et du pseudo de DraftBot \(Embed Creator & Messages récurrents\)
+  * Commandes personnalisées : 
+    * Ajout de la possibilité de changer l'ordre des étapes en drag-and-drop
+  * Embed Creator : 
+    * Ajout des fields en une ligne
+    * Récupération de la couleur et du pseudo de DraftBot pour l'embed creator ainsi que pour le repeat-message
+* `infractions` : Ajout de la commande pour voir les infractions d'un membre
+* Global : Ajout de la possibilité de sélectionner 332 emojis nouveaux dans les différents systèmes de DraftBot
+
+### Améliorations
+
+* `survey` : Amélioration de l'affichage
+* `birthday` : Amélioration globale de l'affichage de la commande
+* `diagnose mute` : Amélioration de la détection des salons fonctionnels
+* `votes` : Amélioration de la commande
+* `roleperms` : Ajout d'une priorité pour les membres admins \(accès à toutes les commandes\)
+* `adminreward` :
+  * Suppression des récompenses reçues lorsque l'on reset toutes les récompenses afin que les nouvelles récompenses puisses être reçues à nouveau
+  * Suppression automatique des récompenses d'un membre si son xp redescend en dessous du seuil de la récompense
+* `maths` : Gestion de toutes les variantes de caractères mathématiques
+* `autorole` : Ajout d'un avertissement si les rôles ne sont pas accessibles lors de la configuration
+* `logs` : Amélioration des logs de modification et création d'un rôle
+* `giveaway`, `event` & `survey` :
+  * Si le salon cible n'a pas les permissions requises DraftBot vous donne un délai pour en sélectionner un autre ou changer les permissions
+  * Si le rôle à ajouter n'est pas accessible ou ne pourra pas être ajouté, il laisse également un délai supplémentaire pour en sélectionner un autre ou changer la hiérarchie
+* `buy` : Blockage lors de l'achat d'un rôle si la personne l'a déjà
+* `botinfo` : Amélioration de l'affichage des nombres
+* `privateroom` : Affichage des arguments si la personne est admin sinon on affiche le message de présentation
+* `event` : Amélioration de l'affichage des dates
+* `giveaway` : Proposition de l'activation des système de niveaux et d'économie s’ils sont désactivés lors de la création d'un giveaway avec ajout d'xp ou de money
+* Panel web : 
+  * Amélioration du champ anniversaire
+  * Vérification de la faille des images avant l'envoi au serveur afin de prévoir les erreurs en avance
+  * Améliorations sur la popup de création et de mise à jour d'une récompense et des articles
+  * Ajout de la possibilité de réglementer l'accès aux commandes aux rôles Twitch et bots
+
+### Autres changements
+
+* `clearchannel` : vérification des salons de modération et de règlement avant exécution de la fonctionnalité
+* `adminmoney` : addition minimal mise à 0 \(afin d'éviter les ajouts négatifs et suppressions positives\)
+* `adminxp` : Ajout de la vérification des récompenses lors de l'achat d'xp ou modification manuelle de l'xp
+* `inventory` : Ajout de vérifications supplémentaires pour ne pas dépasser le nombre autorisé d'items dans l'inventaire
+* `filter` & `admininvites` : Déplacement de ces deux commandes dans la commande **automoderation** \(commande de rappel en cas d'oubli\)
+* `wordreact` : Le reset du système mettra plus les wordreact par default, il laissera une liste vide et désactivera le système
+* `giveaway` & `event` : Suppression des giveaway & events si le message a été supprimé pour ne plus être limité
+* Global : 
+  * Refonte du fonctionnement d'ajouts de rôles sur tout le bot, si des rôles ne sont pas ajoutables ils seront retirés des rôles à ajouter afin que les rôles n'ayant aucun problème soient ajoutés suivis d'un message d'erreur pour uniquement les rôles concernés
+  * Récupération de tous les membres en cache afin de proposer des données tout le temps complètes
+  * Ajout de raisons détaillées à toutes les actions dans les audit logs de Discord afin de comprendre pourquoi DraftBot à fait tel ou tel action: création de rôles, de salons, de webhooks, attribution de rôle, changement sur le serveur
+  * Ajout et suppression automatique des rôles premium sur le Support Discord
+
+### Résolutions de bugs
+
+* `membercount` : Fix des problèmes de comptes
+* `bingo` : Fix bug avec nombres négatifs
+* `roleperms add` : Fix de bugs
+* `admineconomy` : Fix du bug d'argent de départ dans l'économie
+* `adminrole` : Fix d'une faille
+* `apex` : Fix du bug si le pseudo contient des espaces
+* `birthday` & `description` : Correction des bugs présents sur le système d'anniversaire ainsi que sur le système de description
+* Panel web : 
+  * Fix de la prévisualisation des slots de l'Embed Creator
+  * Fix de l'actualisation des images dans les embeds dans les messages récurrents 
+  * Fix du bug dans le champ qui empêchait la sauvegarde des descriptions
 
 ## 4.11.6 - 24/12/2020
 
@@ -58,7 +151,7 @@ description: >-
 * Ajout du support de Fortnite Mobile aux stats `fortnite`
 * Optimisation globale du cache des serveurs, nous ne garderons en cache que les infos des serveurs qui ont DraftBot sur leur serveur.
 
-### Résolutions des bugs
+### Résolution de bugs
 
 * Fix bug des achats d'articles depuis les commandes personnalisées
 * Modification de la commande `userinfo`:

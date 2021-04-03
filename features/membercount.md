@@ -14,7 +14,11 @@ description: >-
 ![](../.gitbook/assets/image%20%2837%29.png)
 
 {% hint style="warning" %}
-Les données du compteur de membres sont actualisées au bout de 2 minutes, lorsqu'un membre quitte ou rejoint votre serveur Discord.
+Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord au bout de : 
+
+* **3 minutes** si votre serveur a **moins de 1000 membres**.
+* **5 minutes** si votre serveur a **entre 1000 et 5000 membres**.
+* **10 minutes** si votre serveur a **plus de 5000 membres**.
 {% endhint %}
 
 ## Salons vocaux
@@ -43,6 +47,4 @@ Après avoir choisi ou non si les bots sont comptabilisés dans les membres du m
 {% hint style="info" %}
 Il vous suffira de remplacer sur le nom de la catégorie **xxxxxx** par ce que vous souhaitez et de mettre les salons voulus dans la catégorie.
 {% endhint %}
-
-
 
