@@ -12,7 +12,7 @@ description: >-
 | **Panda\#9629** | **Gérant, manager & CoMa** | 11/01/2019 |
 | ShowTake\#1455 | Administrateur | 11/09/2019 |
 | SP4RT4\_\#8788 | Administrateur | 04/01/2020 |
-| Erwan\#0820 | Helper | 09/03/2020 |
+| Erwan\#0820 | Modérateur | 09/03/2020 |
 | NO04SO25\#0513 | Helper | 01/09/2019 |
 | Saphirr\#5293 | Helper | 13/10/2019 |
 | Woomy\#4389 | Helper | 05/05/2020 |
