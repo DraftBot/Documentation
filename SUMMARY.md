@@ -10,6 +10,7 @@
 * [Préfixe](features/prefixe.md)
 * [Niveaux](features/niveaux.md)
 * [Economie](features/economie.md)
+* [Inventaire](features/inventaire.md)
 * [Commandes personnalisées](features/commandes-personnalisees.md)
 * [Règlement](features/reglement.md)
 * [RoleReact](features/rolereact.md)
