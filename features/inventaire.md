@@ -8,7 +8,7 @@ description: >-
 
 ## Obtenir un objet
 
-Vous avez la possibilité d'obtenir un objet de plusieurs manières : 
+Vous avez la possibilité d'obtenir un objet de plusieurs manières :
 
 * [**Récompense de niveau**](niveaux.md#recompenses) : configuration préalable par les administrateurs avec la commande `adminreward` ou via le [panel web](https://draftbot.fr/)
 * \*\*\*\*[**Achat dans la boutique**](economie.md#boutique) ****: configuration préalable par les administrateurs ****avec la commande `adminshop` ou depuis le [panel web](https://draftbot.fr/) puis achat par le membre avec `buy`

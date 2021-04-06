@@ -130,36 +130,6 @@ Pour configurer davantage l'anti-spam d'emojis, vous pouvez cliquer sur l'engren
 
 ![Configuration de l&apos;anti-spam d&apos;emojis via le panel web de DraftBot](../.gitbook/assets/image%20%2855%29.png)
 
-## Auto-Sanctions \(ARCHIVE\)
-
-En complément de [l'auto-modération](moderation.md#auto-moderation) de DraftBot, vous avez la possibilité d'infliger automatiquement une sanction à un membre, en allant de l'avertissement jusqu'au bannissement définitif, si un membre enfreint trop de fois votre configuration de l'auto-modération.
-
-### Configuration via le panel web <a id="autosanctions-panel"></a>
-
-Si vous n'êtes pas sur le panel web de DraftBot, il vous suffit d'aller sur le [site de DraftBot](https://draftbot.fr/) puis de cliquer sur le bouton "Panel".
-
-**📌TODO: GIF ACCES AU PANEL WEB**
-
-Il vous suffira ensuite de cliquer sur votre serveur puis de vous rendre sur la page d'auto-modération.
-
-![Page des auto-sanctions sur le panel web](../.gitbook/assets/image%20%2854%29.png)
-
-Il vous suffira ensuite de compléter les différents champs requis pour créer une auto-sanction :
-
-* **Sanction** : Sanction appliqué au membre ne respectant pas l'auto-sanction configuré
-* **Durée** _\(si ban ou mute temporaire\)_ : Durée de la sanction temporaire
-* **Nombre d'infractions** : Nombre d'infractions commises par le membre dans l'[auto-modération](moderation.md#auto-moderation)
-* **Infraction** : [Type de l'infraction](moderation.md#types-dinfractions) \(_infractions_ signifie n'importe quel type d'infraction\)
-* **Intervalle** : ???
-
-![Ajout d&apos;une auto-sanction via le panel web de DraftBot](../.gitbook/assets/brave_peved9i4nu.png)
-
-### Configuration via Discord <a id="autosanctions-discord"></a>
-
-Si vous souhaitez configurer l'auto-sanction directement depuis Discord, il faut suffit d'utiliser la commande `autosanction`
-
-**📌TODO: COMMANDE AUTOSANCTION**
-
 ## Sanctionner un membre
 
 ### Permissions des commandes
