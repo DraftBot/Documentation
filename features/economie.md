@@ -59,7 +59,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 * L'activer → `on`
 * Le désactiver → `off`
 * Le configurer → `config`
-* Multiplier les gains d'expérience d’un rôle → `boosters`
+* Multiplier les gains d'argent d’un rôle → `boosters`
 * Ne pas prendre en compte un rôle ou salon → `ignore` 
 * Réinitialiser la fonctionnalité → `reset` \(`!adminmoney resetall` pour réinitialiser l'économie\)
 * Personnaliser la couleur → `color` \(fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium)\)
