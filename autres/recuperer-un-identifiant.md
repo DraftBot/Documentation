@@ -12,7 +12,7 @@ description: >-
 {% hint style="info" %}
 Il vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un message.  
   
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence ou Comportement puis d'activer le mode développeur.
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
 {% endhint %}
 
 Pour récupérer l'identifiant d'un message, il vous suffit : 
@@ -25,9 +25,9 @@ Pour récupérer l'identifiant d'un message, il vous suffit :
 ## Rôle
 
 {% hint style="info" %}
-ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un rôle.  
-  
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence ou Comportement puis d'activer le mode développeur.
+ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un rôle.
+
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
 {% endhint %}
 
 Afin de récupérer l'identifiant d'un rôle, vous devez :
@@ -43,9 +43,9 @@ Si vous avez besoin de mentionner un rôle \(ex: panel web\), il vous suffit de 
 ## Membre
 
 {% hint style="info" %}
-ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un membre.  
-  
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence ou Comportement puis d'activer le mode développeur.
+ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un membre.
+
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
 {% endhint %}
 
 Pour récupérer l'identifiant d'un membre, vous devez :
@@ -78,9 +78,9 @@ Si vous êtes sur **Android**, pour récupérer l'identifiant d'un emoji :
 ## Salon
 
 {% hint style="info" %}
-ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un salon.  
-  
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence ou Comportement puis d'activer le mode développeur.
+ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un salon.
+
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
 {% endhint %}
 
 Pour obtenir l'identifiant d'un salon, vous pouvez : 
@@ -95,9 +95,9 @@ Si vous avez besoin de mentionner un salon \(ex: panel web\), vous devez mettre 
 ## Serveur
 
 {% hint style="info" %}
-ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un serveur.  
-  
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence ou Comportement puis d'activer le mode développeur.
+ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un serveur.
+
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
 {% endhint %}
 
 Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
