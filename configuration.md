@@ -32,14 +32,14 @@ La seconde étape concerne les messages automatiques de bienvenue. Pour répondr
 Si vous choisissez d'activer le message de bienvenue, vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
 Par exemple _\#accueil \#bienvenue \#général ..._
 
-### Rôle automatique
+### Rôles automatiques
 
-La troisième étape concerne le rôle automatique qui peut être attribué à l'arrivée d'un nouveau membre. Pour répondre à cette question vous devrez cliquer sur l'une des deux réactions proposées: 
+La troisième étape concerne les rôles automatiques qui peuvent être attribués à l'arrivée d'un nouveau membre. Pour répondre à cette question vous devrez cliquer sur l'une des deux réactions proposées: 
 
 * ✅ Pour activer le rôle automatique
 * ❎ Pour désactiver le rôle automatique
 
-Si vous choisissez de mettre en place un rôle automatique, vous devez répondre par le nom du rôle à ajouter aux nouveaux membres.   
+Si vous choisissez de mettre en place des rôles automatiques, vous devez répondre par le nom du / des rôle\(s\) à ajouter aux nouveaux membres.  
 Par exemple @_membre @humain ..._
 
 ### Système de niveaux
@@ -103,7 +103,14 @@ Utilisez `!welcome` ou `@DraftBot#0535 welcome` pour activer ou désactiver le m
 
 ### `autorole`
 
-La commande `!autorole` ou `@DraftBot#0535 autorole` permet d'attribuer un rôle automatiquement aux nouveaux arrivants. Comme pour le préfixe, si vous tapez la commande, vous serez renseigné sur le rôle actuellement attribué, autrement dans le cas `!autorole exemple`, le rôle "Exemple" sera donné à toute personne rejoignant le serveur.
+La commande `!autorole` ou `@DraftBot#0535 autorole` permet de gérer les rôles attribués aux nouveaux membres.  
+  
+Un message vous sera envoyé par **DraftBot** pour savoir si vous souhaitez :
+
+* Ajouter un / des rôle\(s\) attribués aux nouveaux membres → `add`
+* Retirer un / des rôle\(s\) attribués aux nouveaux membres → `remove`
+* Lister les rôles attribués aux nouveaux membres → `list`
+* Supprimer tout les rôles attribués aux nouveaux membres → `reset`
 
 ### `logs`
 

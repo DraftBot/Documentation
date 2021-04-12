@@ -46,7 +46,7 @@ Activez les paramètres du rôle dont 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 a besoin 
 | Gérer les Webhooks |  |  | ⚫ | 🔴 |
 | Lire & voir les salons |  |  | ⚫ | 🔴 |
 | Envoyer des messages |  |  | ⚫ | 🔴 |
-| Envoyer des TTS | ⚪ |  |  |  |
+| Envoyer des messages de synthèse vocale | ⚪ |  |  |  |
 | Gérer les messages |  |  | ⚫ | 🔴 |
 | Intégrer des liens |  |  | ⚫ | 🔴 |
 | Joindre des fichiers |  |  | ⚫ | 🔴 |
