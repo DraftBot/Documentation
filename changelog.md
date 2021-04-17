@@ -6,9 +6,50 @@ description: >-
 
 # Changelog
 
-## 4.12.0 - 25/03/2021
+## 4.12.1 - 17/04/2021 <a id="4-12-1"></a>
 
-### Nouvelles fonctionnalités
+### ✨ **Nouveautés**
+
+* `dropmoney` & `dropxp` : Ces deux nouvelles commandes vous permettrons de faire gagner une certaine somme d'xp ou d'argent à la première personne cliquant sur la réaction.
+* `admininfraction` & `adminsanction` : Ces deux nouvelles commandes vous permettrons de gérer les infractions et sanctions de vos membres. \(rénitialisation des infractions/sanctions du serveur et le retraît/rénitialisation de sanctions/infractions d'un membre\)
+* `adminticket` : Ajout de la possibilité d'ajouter plusieurs rôles modérateurs à la gestion des tickets.
+* `report` : Possibilité de mentionner un rôle lors d'un signalement d'un de vos membres.
+* `copyconv` : Ajout d'une nouvelle commande vous permettant de copier une conversation à l'image de la commande `copymsg`
+* `welcome`/`goodbye`/`customcommand`/`adminreward`/`adminlevel` : De nouvelles variables sont disponibles \(membre, serveur & salon\)
+* `automoderation filter` : Ajout d'un mode strict \(choisissez si vous souhaitez détecter uniquement les mots exacts\).
+
+### ⚡️Améliorations
+
+* `repeatmsg`: Un message récurent ne s'enverra pas si le dernier message est le même message récurent.
+* `ticket` : Suppression du message de confirmation de création d'un ticket après 10 secondes.
+* `autosanctions` : 
+  * Ajout de la possibilité d'ajouter une durée aux autosanctions qui n'ont comme déclencheur une seule infraction.
+  * Ajout dans les logs du serveur des sanctions effectuées par l'auto-sanction.
+* `brawlhalla` : Ajout des dernières armes & brawlers.
+* `sondage` : Ajout de l'alias `poll`
+* `vocalrole` : Les salons AFK du serveur ne permettront plus le rôle "Vocal".
+* `config` : Ajout d'un message de résumé à la fin de la commande.
+* Global : Amélioration de la découpe des éléments lorsque plusieurs sont attendus dans un message \(retours à la ligne & guillemets d'iPhone\).
+* Commandes utilisant un système de pages : Amélioration du système de pagination.
+* Systèmes utilisant des webhooks : Les webhooks peuvent maintenant supporter des fichiers et les mentions sont tout le temps désactivées.
+* Panel web : 
+  * Auto-Sanction : Amélioration de l'affichage pour une meilleure compréhension.
+  * Economie : Ajout de la limite de l'argent de départ.
+
+### 🐛 Résolutions de bugs
+
+* `brawlhalla` : Si le joueur n'avait pas de clan, la commande tournait en boucle.
+* `privateroom` : Correction du bug d'auto-whitelist des salons.
+* `inventory` : Argent masqué si le système d'économie est désactivé.
+* `automoderation filter` : Ajout d'une limite de 30 caractères par mot dans le filtre de mots.
+* `event` : Correction du bug avec rôles si l'objectif n'était pas atteint.
+* `adminreward` : Correction du bug des récompenses qui s'affichent mal dans les messages depuis la variable **{reward}**
+* Panel web : 
+  * Commandes personalisées : Correction du bug de drag&drop dans les étapes
+
+## 4.12.0 - 25/03/2021 <a id="4-12-0"></a>
+
+### ✨ Nouvelles fonctionnalités
 
 * Auto-Modération \(disponible également sur le panel\)
   * **Filter:** filtre de mots \(configuration de mots, whitelist de rôles et de salons, possibilité de désactiver la censure\)
@@ -20,7 +61,7 @@ description: >-
 * Auto-Sanctions \(disponible également sur le panel\) : Ajout de règles de sanctions suite aux infractions de l'automodération
 * Sticky roles : Ces rôles seront conservés même après un retour sur le serveur, le rôle mute par exemple.
 
-### Ajouts
+### ➕ Ajouts
 
 * `inventory` : Ajout de la possibilité d'afficher l'inventaire d'un autre membre
 * `customcommand` : Ajout de points de vérification pour que la commande ne continue pas les étapes si l'étape précédente n'a pas été réalisée.
@@ -45,7 +86,7 @@ description: >-
 * `infractions` : Ajout de la commande pour voir les infractions d'un membre
 * Global : Ajout de la possibilité de sélectionner 332 emojis nouveaux dans les différents systèmes de DraftBot
 
-### Améliorations
+### ⚡️Améliorations
 
 * `survey` : Amélioration de l'affichage
 * `birthday` : Amélioration globale de l'affichage de la commande
@@ -72,7 +113,7 @@ description: >-
   * Améliorations sur la popup de création et de mise à jour d'une récompense et des articles
   * Ajout de la possibilité de réglementer l'accès aux commandes aux rôles Twitch et bots
 
-### Autres changements
+### ♻️ Autres changements
 
 * `clearchannel` : vérification des salons de modération et de règlement avant exécution de la fonctionnalité
 * `adminmoney` : addition minimal mise à 0 \(afin d'éviter les ajouts négatifs et suppressions positives\)
@@ -87,7 +128,7 @@ description: >-
   * Ajout de raisons détaillées à toutes les actions dans les audit logs de Discord afin de comprendre pourquoi DraftBot à fait tel ou tel action: création de rôles, de salons, de webhooks, attribution de rôle, changement sur le serveur
   * Ajout et suppression automatique des rôles premium sur le Support Discord
 
-### Résolutions de bugs
+### 🐛 Résolutions de bugs
 
 * `membercount` : Fix des problèmes de comptes
 * `bingo` : Fix bug avec nombres négatifs
@@ -101,9 +142,9 @@ description: >-
   * Fix de l'actualisation des images dans les embeds dans les messages récurrents 
   * Fix du bug dans le champ qui empêchait la sauvegarde des descriptions
 
-## 4.11.6 - 24/12/2020
+## 4.11.6 - 24/12/2020 <a id="4-11-6"></a>
 
-### Nouvelles fonctionnalités
+### ✨ Nouvelles fonctionnalités
 
 * `event` pour organiser des regroupements de participants
 * Inventaire avec nouveaux items d'inventaire
@@ -112,7 +153,7 @@ description: >-
 * Localité sur le `profil` \(personnalisable avec `locality`\)
 * Commande `panel` pour être redirigé vers son profil ou le panel du serveur
 
-### Améliorations
+### ⚡️Améliorations
 
 * Refonte de la fonctionnalité `admininvites`:
   * Plus de message privée
@@ -137,7 +178,7 @@ description: >-
 * Adaptation du `morpion` au pavé numérique
 * Pour les commandes `sondage`, `giveaway`, `event`, avant demander le salon dans lequel on veut que cela se passe, il demandera si on veut que ça se passe dans le salon actuel
 
-### Panel web
+### 🌐 Panel web
 
 * Suppression de la feature "no xp" pour les membres invisibles
 * Page profil \(anniversaire, description, jeux\)
@@ -145,13 +186,13 @@ description: >-
 * Ergonomie globalement amélioré \(déroutant de roles et certains trucs optimisés\)
 * Fix du bug du Embed Creator qui scrollait up s'il estimait que le texte était trop long
 
-### Autres changements
+### ♻️ Autres changements
 
 * Lors de l'activation ou la désactivation des commandes, le nom d'une commande aura la priorité sur le nom d'un groupe.
 * Ajout du support de Fortnite Mobile aux stats `fortnite`
 * Optimisation globale du cache des serveurs, nous ne garderons en cache que les infos des serveurs qui ont DraftBot sur leur serveur.
 
-### Résolution de bugs
+### 🐛 Résolution de bugs
 
 * Fix bug des achats d'articles depuis les commandes personnalisées
 * Modification de la commande `userinfo`:
@@ -162,9 +203,9 @@ description: >-
 * Suppression de la fonctionnalité "no xp" pour les membres en mode invisible \(demande de Discord\)
 * Fix bug de top.gg qui n'était plus mis à jour.
 
-## 4.11.5 - 19/10/2020
+## 4.11.5 - 19/10/2020 <a id="4-11-5"></a>
 
-### Ajouts
+### ➕ Ajouts
 
 * Ajout de la possibilité d'utiliser tous les signes mathématiques ASCII `+﹢⁺₊＋-﹣⁻₋-﹡×÷⁄/`
 * Ajout de la possibilité d'avoir le prefix de DraftBot en le mentionnant
@@ -178,7 +219,7 @@ description: >-
 * Anniversaire ajouté au profile
 * Ajout d'une boucle toutes les 6h pour s'assurer que l'activité de DraftBot s'est pas désactivée
 
-### Modifications
+### ♻️ Modifications
 
 * Mise à jour des titres des embeds des commandes `toplevel` et `topmoney`
 * Sécurisation de la suppression des salons de la commande `backup`
@@ -186,24 +227,24 @@ description: >-
 * Séparation de la commande `userinfo` en deux commandes `userinfo` et `profil`
 * Vérification des messages lors de l'édition \(`admininvites` et `filter`\)
 
-### Résolutions de bugs
+### 🐛 Résolutions de bugs
 
 * Bug du `clearchannel` dans un salon communautaire
 * Correction du bug des commandes non désactivées
 * Fix de la commande `filter` lorsqu'il y a trop de mots a afficher
 
-## 4.11.4 - 27/09/2020
+## 4.11.4 - 27/09/2020 <a id="4-11-4"></a>
 
-### Nouvelles fonctionnalités 
+### ✨ Nouvelles fonctionnalités 
 
 * Ajout de la fonctionnalité `report`
 * Ajout de la feature commandes custom \(create, reset, fonctionnement\)
 * Ajout du système de dés complet
 * Refonte totale des `autoroles` pour en avoir plusieurs \(3 non premiums\) \(5 max\)
 
-### Changements DraftBot
+### ♻️ Changements DraftBot
 
-#### Ajouts
+#### ✨ Ajouts
 
 * Ajout du vanish a la commande `puissance4`
 * Ajout de la fonctionnalité `diagnose view`
@@ -213,7 +254,7 @@ description: >-
 * Ajout de l'xp de l'utilisateur dans les récompenses
 * Ajout de l'argent de l'utilisateur dans le `shop`
 
-#### Général
+#### 🔧 Général
 
 * Refonte totale des autoroles pour en avoir plusieurs \(3 non premiums - 5 pour les premium\)
 * Nombreuses fautes d'orthographes réglés
@@ -236,7 +277,7 @@ description: >-
 * Amélioration du design du `diagnose mute`
 * Amélioration du message des `privateroom`
 
-### Changements Panel Web
+### 🌐 Changements Panel Web
 
 * Sélection des commandes dans le roleperms rendu plus précis.
 * Adminlevel possibilité de sélectionner plusieurs rôles et plusieurs salon à ignorer en une fois
@@ -246,7 +287,7 @@ description: >-
 * Liste des commandes sur le site et sur le panel de config des commandes mise à jour \(customcommand, report, rolldice\)
 * Possibilité de voir des emojis custom animés sur le module d'embeds \(customcommand, embedcreator, repeatmsg\)
 
-### Résolutions de bugs
+### 🐛 Résolutions de bugs
 
 * Bug de la page levels lorsque l'on est connecté réglé
 * Bug du rabbitmq qui crash réglé
@@ -282,7 +323,7 @@ description: >-
 
 ## 4.11.3 - 02/08/2020
 
-### Ajouts Welcome/Goodbye
+### ➕ Ajouts Welcome/Goodbye
 
 * Pouvoir activer et désactiver directement \(`on` ou `off`\)
 * Pouvoir afficher le message actuel
@@ -293,24 +334,24 @@ description: >-
 * Message déplacé dans la description donc possibilité d'ajouter des liens
 * Adaptation de panel pour la visualisation \(description\)
 
-### Changements Tickets
+### ✉️ Changements Tickets
 
 * `!ticket create` devient `!ticket`
 * `!ticket config` devient `!adminticket config`
 * Nouvelles fonctionalités **add** et **remove** pour ajouter un membre au ticket `!adminticket`
 
-### Changements Premium
+### 💎 Changements Premium
 
 * Les administrateurs peuvent maintenant ajouter le premium à leur serveurs
 * Le premium est automatiquement après achat et une page propose d'activer à l'achat les serveurs \(toujours modifiable avec la commande\)
 * Fermeture des inscriptions du Patreon
 
-### Jeux
+### 🎮 Jeux
 
 * Amélioration du jeu Pendu \(jambe et édition du message\)
 * Ajout du jeu Morpion
 
-### Autres changements
+### ♻️ Autres changements
 
 * Taille du welcome et du goodbye multiplié par deux pour l'affichage des petits téléphones
 * Optimisation du système de level et de l'économie \(pouvait être lent quand les deux systèmes étaient activés\)
@@ -319,15 +360,15 @@ description: >-
 * Configuration des rôles permissions depuis la page Commandes du panel web avec l’icône ⚙️
 * Ajout de la commande `!diagnose` pour connaître les problèmes de permissions avec le mute
 
-## 4.11.2 - 23/06/2020
+## 4.11.2 - 23/06/2020 <a id="4-11-2"></a>
 
-### Nouvelles fonctionnalités
+### ✨ Nouvelles fonctionnalités
 
 * Nouvelle commande `!saveconv` permet de sauvegarder une conversation sous forme de page web
 * Nouvelle commande `!qrcode` permet de générer un QRCode avec votre photo de profile au milieu 
 * Nouvelle commande `!description` permet d'ajouter une description à votre profil globalement ou sur un serveur précis
 
-### Changements DraftBot
+### ⚡️Améliorations
 
 * Pagination de la commande sanctions pouvant aller jusqu'à 50 sanctions
 * Message en privé lorsqu'un donateur reçoit son premium
@@ -335,7 +376,7 @@ description: >-
 * Amélioration du design des messages de questions avec choix d'emojis
 * Emojis customisés pour les commandes captcha, privateroom, ticket, interserveur, description
 
-### Changements Panel Web
+### 🌐 Panel Web
 
 * Refonte des afficheurs de messages de bienvenue, d’au-revoir, de niveaux et de récompenses avec un support complet du markdown de discord
 * Ajout des emojis custom du serveur au sélecteur d'emojis des champs de texte
@@ -343,7 +384,7 @@ description: >-
 * Ajout de la fonctionnalité Niveau maximum au panel \(réservé aux premiums\)
 * Amélioration globale des pages de configuration pour les appareils mobiles
 
-### Résolutions de bugs
+### 🐛 Résolutions de bugs
 
 * Problème due à une mise à jour du jeu League of Legends résolu
 * Problèmes avec quelques diagonales de puissance 4 résolus
