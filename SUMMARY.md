@@ -8,6 +8,7 @@
 ## Fonctionnalités <a id="features"></a>
 
 * [Préfixe](features/prefixe.md)
+* [Messages de bienvenue](features/messages-de-bienvenue.md)
 * [Niveaux](features/niveaux.md)
 * [Economie](features/economie.md)
 * [Inventaire](features/inventaire.md)
