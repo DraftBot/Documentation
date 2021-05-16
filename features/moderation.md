@@ -19,7 +19,7 @@ Si vous souhaitez configurer l'auto-modération via Discord directement, vous po
 Vous aurez alors le choix entre plusieurs infractions : 
 
 * \*\*\*\*[**filter**](moderation.md#filter) : Filtre de vocabulaire interdit
-* \*\*\*\*[**invites**](moderation.md#invites) : Anti-invitation Discord
+* \*\*\*\*[**invites**](moderation.md#invites) : Anti-invitations Discord
 * \*\*\*\*[**links**](moderation.md#links) : Anti-liens externes
 * \*\*\*\*[**spam**](moderation.md#spam) : Anti-spam
 * \*\*\*\*[**mentions**](moderation.md#mentions) : Anti-spam de mentions
@@ -27,7 +27,7 @@ Vous aurez alors le choix entre plusieurs infractions :
 
 ### Configuration via le panel web <a id="automoderation-panel"></a>
 
-DraftBot possède un panel web accessible en allant sur [draftbot.fr](https://draftbot.fr/) et qui vous permets notamment de configurer facilement le système d'auto-modération.
+DraftBot possède un panel web accessible en allant sur [draftbot.fr](https://draftbot.fr/) et qui vous permet notamment de configurer facilement le système d'auto-modération.
 
 ![Acc&#xE9;der au panel web de DraftBot via draftbot.fr](../.gitbook/assets/sans-titre-output.gif)
 
@@ -39,12 +39,12 @@ Il vous suffira ensuite de cliquer sur votre serveur Discord puis d'accéder à 
 
 #### Filtre de vocabulaire <a id="filter"></a>
 
-Le filtre de vocabulaire vous permet de supprimer ou de censurer les messages contenants des mots interdits sur votre serveur Discord.   
+Le filtre de vocabulaire vous permet de supprimer ou de censurer les messages contenant des mots interdits sur votre serveur Discord.   
   
 Pour le configurer, il vous suffit d'utiliser la commande `automoderation filter config` ou alors depuis le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2&response_type=token&access_type&client_id=318312854816161792&redirect_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser&scope=identify%20guilds&state=P2CBWjkz5yl2sDdwMsZNO&code_challenge_method=implicit) en cliquant sur l'engrenage de cette infraction. Vous aurez alors accès à ces paramètres : 
 
-* Rôles immunisés 
-* Salons immunisés 
+* Rôles immunisés
+* Salons immunisés
 * Message censuré ou supprimé
 
 ![Configuration du filtre de vocabulaire sur le panel web de DraftBot](../.gitbook/assets/image%20%2856%29.png)
@@ -53,11 +53,11 @@ Pour le configurer, il vous suffit d'utiliser la commande `automoderation filter
 Si vous souhaitez bloquer les mots interdits sur votre serveur, pensez à activer cette fonctionnalité via le bouton en haut à droite sur le panel web ou avec la commande `automoderation filter on` 
 {% endhint %}
 
-Une fois configuré, vous pouvez ajouter un mot à ce filtre via la commande `automoderation filter add` ou via l'interface dédié sur le panel web.
+Une fois configuré, vous pouvez ajouter un mot à ce filtre via la commande `automoderation filter add` ou via l'interface dédiée sur le panel web.
 
 #### Anti-invitation Discord <a id="invites"></a>
 
-L'anti-invitation Discord vous permet, si activée, de supprimer ou de censurer les messages qui contiennent une invitation Discord.  
+L'anti-invitation Discord vous permet, si activé, de supprimer ou de censurer les messages qui contiennent une invitation Discord.  
   
 Pour activer ce système, vous pouvez utiliser la commande `automoderation invites on` ou via le bouton en haut à droite dédié aux invitations Discord sur le panel web dans la page de l'auto-modération.  
   
@@ -73,7 +73,7 @@ Vous pourrez si vous le souhaitez, configurer davantage le système d'invitation
 
 L'anti liens externes vous permet de supprimer ou de censurer les messages qui contiennent des liens qui ne sont pas autorisés sur votre serveur \(hormis les invitations vers des serveurs Discord\).  
   
-Si vous souhaitez l'activer, vous pouvez exécuter la commande `automoderation links on` sur votre serveur ou bien utiliser le panel web, sur le bouton en haut à droite de l'onglet **Liens externes** sur la page dédié à l'auto-modération.  
+Si vous souhaitez l'activer, vous pouvez exécuter la commande `automoderation links on` sur votre serveur ou bien utiliser le panel web, sur le bouton en haut à droite de l'onglet **Liens externes** sur la page dédiée à l'auto-modération.  
   
 Pour le configurer davantage, vous pouvez utiliser la commande `automoderation links config` ou bien depuis le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2&response_type=token&access_type&client_id=318312854816161792&redirect_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser&scope=identify%20guilds&state=P2CBWjkz5yl2sDdwMsZNO&code_challenge_method=implicit) en cliquant sur l'engrenage des liens externes. Vous aurez alors accès à ces paramètres :
 
@@ -86,9 +86,9 @@ Pour le configurer davantage, vous pouvez utiliser la commande `automoderation l
 
 #### Anti-spam de messages <a id="spam"></a>
 
-L'anti-spam de DraftBot vous permet de lutter l'envoie massif de messages d'un membre en les supprimant automatiquement.  
+L'anti-spam de DraftBot vous permet de lutter contre l'envoi massif de messages d'un membre en les supprimant automatiquement.  
   
-Vous pouvez activer l'auto-modération de cette infraction sur votre serveur Discord à l'aide de la commande `automoderation spam on` ou bien depuis le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2&response_type=token&access_type&client_id=318312854816161792&redirect_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser&scope=identify%20guilds&state=P2CBWjkz5yl2sDdwMsZNO&code_challenge_method=implicit) de DraftBot en cliquant sur le bouton qui se situe en haut à droite de la partie consacré au spam de messages.   
+Vous pouvez activer l'auto-modération de cette infraction sur votre serveur Discord à l'aide de la commande `automoderation spam on` ou bien depuis le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2&response_type=token&access_type&client_id=318312854816161792&redirect_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser&scope=identify%20guilds&state=P2CBWjkz5yl2sDdwMsZNO&code_challenge_method=implicit) de DraftBot, en cliquant sur le bouton qui se situe en haut à droite de la partie consacrée au spam de messages.   
   
 Si vous le voulez, vous pouvez configurer l'anti-spam avec la commande `automoderation spam config` ou en cliquant sur l'engrenage de cette infraction sur la page de l'auto-modération de votre serveur. Vous aurez alors accès à ces options : 
 
@@ -119,7 +119,7 @@ Si vous souhaitez configurer davantage l'anti-spam de mentions pour votre serveu
 
 L'anti-spam d'emojis vous permet de supprimer les messages contenant trop d'emojis sur votre serveur Discord.  
   
-Si vous souhaitez activer l'anti-spam d'emojis, vous pouvez aller sur le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2&response_type=token&access_type&client_id=318312854816161792&redirect_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser&scope=identify%20guilds&state=P2CBWjkz5yl2sDdwMsZNO&code_challenge_method=implicit) de DraftBot en l'activant via le bouton dédié au spam d'emojis ou bien d'utiliser la commande `automoderation emojis on`  
+Si vous souhaitez activer l'anti-spam d'emojis, vous pouvez aller sur le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2&response_type=token&access_type&client_id=318312854816161792&redirect_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser&scope=identify%20guilds&state=P2CBWjkz5yl2sDdwMsZNO&code_challenge_method=implicit) de DraftBot en l'activant via le bouton dédié au spam d'emojis ou bien d'utiliser la commande `automoderation emojis on`.  
   
 Pour configurer davantage l'anti-spam d'emojis, vous pouvez cliquer sur l'engrenage à cette infraction sur le panel ou bien utiliser la commande `automoderation emojis config` sur votre serveur. Vous aurez alors la possibilité de changer ses paramètres : 
 
@@ -159,16 +159,16 @@ Il vous restera plus qu'à sélectionner la réaction correspondante à la sanct
 
 ### Bannir un membre
 
-Vous pouvez bannir un membre avec la commande `ban` ou alors `tempban` si vous souhaitez bannir temporairement le membre.  
+Vous pouvez bannir un membre avec la commande `ban` ou `tempban` si vous souhaitez bannir temporairement un membre.  
   
-Si vous souhaitez retirer le bannissement d'un membre par la suite, vous pouvez le débannir avec la commande `unban` ou depuis l'onglet Bannissement de votre serveur Discord.
+Si vous souhaitez révoquer le bannissement d'un membre par la suite, vous pouvez le débannir avec la commande `unban` ou depuis l'onglet Bannissement de votre serveur Discord.
 
 ### Avertir un membre
 
 Vous pouvez avertir un membre avec la commande `warn <Membre> <Raison>`  
 Le membre recevra un message privé avec le motif de son avertissement.  
   
-Si vous voulez retirer un avertissement d'un membre avec la commande `unwarn`  
+Si vous voulez retirer un avertissement d'un membre avec la commande `adminsanction remove`.  
 L'avertissement sera retiré de la commande `sanctions`
 
 ### Rendre muet un membre
@@ -213,4 +213,6 @@ Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les
     </tr>
   </tbody>
 </table>
+
+
 

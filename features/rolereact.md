@@ -1,43 +1,39 @@
 ---
 description: >-
-  Un rolereact permet à vos membres d'obtenir eux-même un rôle en cliquant sur
-  une réaction.
+  Un rolereact permet à vos membres d'obtenir eux-mêmes un rôle en cliquant sur
+  la réaction d'un message de DraftBot.
 ---
 
 # RoleReact
 
 ## Créer le rolereact <a id="create"></a>
 
-Pour créer un rolereact, vous avez le choix entre trois méthodes :
+Pour créer un `rolereact`, vous avez le choix entre trois méthodes :
 
 {% hint style="warning" %}
 Peu importe la méthode que vous choisissez, le rolereact devra être sur un message de **DraftBot**.
 {% endhint %}
 
-* **Simple message:** `say [message]`  La commande say permet d'envoyer un simple message Discord.
+* **Simple message :** `say [message]`  La commande `say` permet d'envoyer un simple message Discord depuis DraftBot.
 
 {% hint style="info" %}
 Vous pourrez modifier ce message dans le futur avec la commande `say` [`[Identifiant du message]`](../autres/recuperer-un-identifiant.md#message) ou depuis le panel web !
 {% endhint %}
 
-* **Embed automatique:** `rolereact create [Titre de l'embed]`  Cette solution vous permet de créer un  embed  qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela : 
+* **Embed automatique :** `rolereact create [Titre de l'embed]`  Cette solution vous permet de créer un  embed qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela : 
 
 ![R&#xE9;sultat d&apos;un rolereact utilisant un embed automatique](../.gitbook/assets/image%20%2810%29.png)
 
-* **Embed personnalisé:** `embed` ou [depuis le panel web](https://www.draftbot.fr/dashboard) dans l'onglet **Embeds** de votre serveur. Cette méthode vous permet de créer un embed totalement personnalisable à votre goût.  Voici un exemple de cette méthode :  
+* **Embed personnalisé :** `embed` ou [depuis le panel web](https://www.draftbot.fr/dashboard) dans l'onglet **Embeds** de votre serveur. Cette méthode vous permet de créer un embed totalement personnalisable à votre goût. Voici un exemple de cette méthode :  
 
 ![R&#xE9;sultat d&apos;un rolereact utilisant un embed personalis&#xE9;](../.gitbook/assets/image%20%289%29.png)
-
-{% hint style="info" %}
-Vous pourrez modifier l'embed dans le futur depuis [le panel web](https://draftbot.fr).
-{% endhint %}
 
 ## Ajouter un rôle à un rolereact <a id="add"></a>
 
 Pour ajouter à un rôle à un rolereact, il vous suffit d'utiliser la commande `rolereact add [Identifiant du message de DraftBot]`
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 Ensuite, **DraftBot** vous demandera quel rôle doit être ajouté. Vous pouvez donner le nom du rôle ou le mentionner, les deux solutions fonctionnent.
@@ -57,7 +53,7 @@ Si vous souhaitez ajouter un autre rolereact au même message, il vous suffit de
 Pour supprimer un rôle d'un rolereact, il vous suffit d'utiliser la commande `rolereact remove [Identifiant du message de DraftBot]`
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 **DraftBot** vous demandera ensuite quel emoji du rolereact doit être supprimé, indiquez-le !
@@ -68,10 +64,10 @@ Si vous souhaitez supprimer un autre rolereact du même message, il vous suffit 
 
 ## Mode d'un rolereact
 
-Vous pouvez avec **DraftBot** de chosir un mode pour vos rôles réactions.   
-Cela vous offres la possibilité de pouvoir retirer un rôle lorsqu'un de vos membres clique sur une réaction par exemple.  
+Vous pouvez avec **DraftBot** choisir un mode pour vos rôles réactions.   
+Cela vous offre la possibilité de pouvoir retirer un rôle lorsqu'un de vos membres clique sur une réaction par exemple.  
   
-Vous pouvez configurer cela avec la commande `rolereact mode`  
+Vous pouvez configurer cela avec la commande `rolereact mode`.  
 Après cela, DraftBot vous demandera l'identifiant du message de **DraftBot** pour le rolereact.
 
 {% hint style="info" %}
