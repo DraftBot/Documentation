@@ -1,6 +1,6 @@
 ---
 description: >-
-  Obtenez des objets via différents systèmes de DraftBot et afficher les aux
+  Obtenez des objets via différents systèmes de DraftBot et affichez-les aux
   autres membres  !
 ---
 
@@ -10,13 +10,13 @@ description: >-
 
 Vous avez la possibilité d'obtenir un objet de plusieurs manières :
 
-* [**Récompense de niveau**](niveaux.md#recompenses) : configuration préalable par les administrateurs avec la commande `adminreward` ou via le [panel web](https://draftbot.fr/)
-* \*\*\*\*[**Achat dans la boutique**](economie.md#boutique) ****: configuration préalable par les administrateurs ****avec la commande `adminshop` ou depuis le [panel web](https://draftbot.fr/) puis achat par le membre avec `buy`
-* Échange entre membres : avec la commande `deal`
+* [**Récompense de niveau**](niveaux.md#recompenses) : configuration préalable par les administrateurs avec la commande `adminreward` ou via le [panel web](https://draftbot.fr/).
+* \*\*\*\*[**Achat dans la boutique**](economie.md#boutique) ****: configuration préalable par les administrateurs ****avec la commande `adminshop` ou depuis le [panel web](https://draftbot.fr/), puis achat par le membre avec `buy`.
+* **Échange entre membres** : avec la commande `deal`.
 
 ## Gérer l'inventaire d'un membre
 
-En tant qu'administrateur par défaut, vous avez la possibilité de gérer l'inventaire d'un membre de votre serveur Discord à l'aide de la commande `admininventory`  
+En tant qu'administrateur par défaut, vous avez la possibilité de gérer l'inventaire d'un membre de votre serveur Discord à l'aide de la commande `admininventory`.  
   
 Vous aurez alors le choix entre plusieurs options : 
 
@@ -26,8 +26,8 @@ Vous aurez alors le choix entre plusieurs options :
 
 ## Afficher son inventaire
 
-Les membres de votre serveur Discord peuvent accéder à leur inventaire avec la commande `inventory`  
-Si le membre possède des objets dans son inventaire, ils seront affichés ainsi que l'argent qu'il possède dans le [système d'économie](economie.md) de DraftBot.
+Les membres de votre serveur Discord peuvent accéder à leur inventaire avec la commande `inventory`.  
+Si le membre possède des objets dans son inventaire, ils seront affichés, ainsi que l'argent qu'il possède dans le [système d'économie](economie.md) de DraftBot.
 
 {% hint style="info" %}
 Vous avez la possibilité de voir l'inventaire d'un autre membre en le mentionnant ou en indiquant son pseudonyme par exemple après la commande `inventory`

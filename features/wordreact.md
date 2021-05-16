@@ -8,13 +8,13 @@ description: >-
 
 ## Activer et désactiver le système de WordReact <a id="on-off"></a>
 
-Pour **activer** le système de WordReact, il vous suffit de faire la commande `wordreact on`  
-Pour le **désactiver**, il vous faudra utiliser la commande `wordreact off`
+Pour **activer** le système de WordReact, il vous suffit de faire la commande `wordreact on`.  
+Pour le **désactiver**, il vous faudra utiliser la commande `wordreact off`.
 
 ## Ajouter un WordReact <a id="add"></a>
 
-Pour ajouter une réaction à un mot, il vous suffit de faire la commande `wordreact add`  
-**DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associé à ce texte.
+Pour ajouter une réaction à un mot, il vous suffit de faire la commande `wordreact add`.  
+**DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte.
 
 {% hint style="info" %}
 Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous aurez une limite de 10 wordreacts.  
@@ -34,7 +34,7 @@ Aucune confirmation ne vous sera envoyée, faites donc attention en utilisant ce
 
 ## Voir les WordReacts  <a id="view"></a>
 
-Vous pouvez voir les wordreacts d'un serveur avec la commande `wordreact list` 
+Vous pouvez voir les wordreacts d'un serveur avec la commande `wordreact list`.
 
 
 

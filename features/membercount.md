@@ -23,24 +23,24 @@ Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou
 
 ## Salons vocaux
 
-Pour configurer le compteur de membres sous forme de salons vocaux, il vous suffit d'utiliser la commande `membercount` puis cliquer sur la réaction **1**  
+Pour configurer le compteur de membres sous forme de salons vocaux, il vous suffit d'utiliser la commande `membercount` puis cliquer sur la réaction **1**.  
   
 Vous aurez alors le choix d'activer ou non l'affichage : 
 
-* du nombre de Membres \(Utilisateurs + Bots\)
-* du nombre d'humains
-* du nombre de bots
-* de rôles créés 
-* de salons créés
-* du nombre de membres ayant un rôle spécifique
+* Du nombre de Membres \(Utilisateurs + Bots\)
+* Du nombre d'humains
+* Du nombre de bots
+* De rôles créés 
+* De salons créés
+* Du nombre de membres ayant un rôle spécifique
 
 {% hint style="success" %}
-Une fois que vous avez répondu à l'ensemble de ces questions, votre compteur de membres en forme de salon vocaux est prêt !
+Une fois que vous avez répondu à l'ensemble de ces questions, votre compteur de membres en forme de salon vocaux sera prêt !
 {% endhint %}
 
 ## Catégorie
 
-Pour configurer le compteur de membre sous forme de catégorie, il vous suffit d'utiliser la commande `membercount` puis cliqué sur la réaction **2**
+Pour configurer le compteur de membre sous forme de catégorie, il vous suffit d'utiliser la commande `membercount` puis de cliquer sur la réaction **2**.
 
 Après avoir choisi ou non si les bots sont comptabilisés dans les membres du membercount, votre catégorie sera créée !
 

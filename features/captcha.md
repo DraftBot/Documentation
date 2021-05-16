@@ -8,14 +8,14 @@ description: >-
 
 ## Configuration
 
-Vous pouvez configurer le système de captcha sur votre serveur à l'aide de la commande `captcha`  
+Vous pouvez configurer le système de captcha sur votre serveur à l'aide de la commande `captcha`.  
 Vous aurez alors le choix : 
 
 * D'activer ou non le captcha
 * Choisir entre 4 niveaux de sécurité \(facile, moyen, complexe et très complexe\)
 * Créer ou choisir le salon de vérification ou seront envoyés les captchas
 * Créer ou utiliser un rôle déjà existant qui sera donné aux personnes n'ayant pas validé le captcha
-* Sélectionner ou non un rôle qui sera donné aux membres qui ont passé le captcha
+* Sélectionner ou non un rôle qui sera donné aux membres qui ont rempli le captcha
 
 ## Utilisation du captcha
 

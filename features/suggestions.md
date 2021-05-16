@@ -8,8 +8,8 @@ description: >-
 
 ## Configuration
 
-Vous pouvez configurer le système de suggestions grâce à la commande `suggest config`  
-Vous aurez alors la possibilité : 
+Vous pouvez configurer le système de suggestions grâce à la commande `suggest config`.  
+Vous aurez alors les possibilités : 
 
 * D'activer ou de désactiver les suggestions sur votre serveur
 * De choisir le salon qui recevra les suggestions de vos membres

@@ -9,7 +9,7 @@ description: >-
 ## Clean/clear <a id="clear"></a>
 
 La commande `clear` \(ou `clean`\) vous permet de supprimer un grand nombre de messages.   
-Pour utiliser cette commande, il vous suffit de faire `clear [nombre entre 1 et 100]`
+Pour utiliser cette commande, il vous suffit de faire `clear [nombre entre 1 et 99]`
 
 {% hint style="info" %}
 **DraftBot** ne peut pas supprimer les messages datant de plus de 14 jours dû à une limite de Discord.  
@@ -31,7 +31,7 @@ La commande `delconv` vous permet de supprimer une partie des messages dans un s
 Pour cela, vous devez faire`delconv [Identifiant du premier message] [Identifiant du dernier message]` 
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## MoveConv
@@ -40,25 +40,25 @@ La commande `moveconv` vous permet de déplacer une conversation dans un autre s
 Pour ce faire, il vous suffit de faire `moveconv [salon] [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
-## MoveMSG
+## MoveMsg
 
 La commande `movemsg` permet de déplacer un message dans un autre salon.  
-Pour déplacer un message, il vous suffit de faire `movemsg [salon] [Identifiant du message]`
+Pour déplacer un message, il vous suffit de faire `movemsg [salon] [Identifiant du message]`.
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## SaveConv
 
 La commande `saveconv` offre la possibilité de sauvegarder une conversation sous la forme d'une page web \(HTML\).   
-Pour ce faire, utilisé la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
+Pour ce faire, utilisez la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="info" %}

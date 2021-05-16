@@ -13,15 +13,15 @@ Vous avez la possibilité de configurer le système de signalement sur votre ser
 
 Vous aurez alors la possibilité :
 
-* d'activer ou de désactiver le système de reports
-* de choisir le salon qui recevra les signalements de vos membres
-* d'ajouter ou non une réaction sur un message signalé par vos membres
+* D'activer ou de désactiver le système de reports
+* De choisir le salon qui recevra les signalements de vos membres
+* D'ajouter ou non une réaction sur un message signalé par vos membres
 
 ## Utilisation
 
 ### Signalement d'un membre
 
-Vos membres peuvent signaler un membre via la commande `report <membre> <descriptif>`  
+Vos membres peuvent signaler un membre via la commande `report <membre> <descriptif>`.  
   
 L'équipe du serveur recevra alors un message dans le salon destiné aux signalements avec la raison du report.
 

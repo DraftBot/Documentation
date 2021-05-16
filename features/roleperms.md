@@ -9,9 +9,9 @@ description: >-
 
 ## Autoriser ou refuser à un rôle une commande <a id="allow-or-deny"></a>
 
-Pour **refuser** à un rôle d'utiliser une commande, il vous suffit de faire `roleperms deny [commande] [rôle]`  
+Pour **refuser** à un rôle d'utiliser une commande, il vous suffit de faire `roleperms deny [commande] [rôle]`.  
   
-Pour **autoriser** à un rôle d'utiliser une commande, il vous suffit de faire `roleperms allow [commande] [rôle]`
+Pour **autoriser** à un rôle d'utiliser une commande, il vous suffit de faire `roleperms allow [commande] [rôle]`.
 
 {% hint style="info" %}
 Vous n'êtes pas obligé de mentionner le rôle, vous pouvez uniquement donner son nom.
@@ -27,7 +27,7 @@ Le grade le plus haut de la personne sera pris en compte pour le `roleperms`.
 
 {% hint style="info" %}
 Prenons un exemple, vous avez deux grades : **Helper** et **Modérateur** qui ont tout deux la permission **Gérer les messages**.  
-Le grade Modérateur est plus haut que celui du grade Helper dans la hiérarchie dans la liste des rôles de votre serveur Discord.  
+Le grade Modérateur est plus haut que celui du grade Helper dans la hiérarchie de la liste des rôles de votre serveur Discord.  
   
 Pour utiliser la commande **warn**, il faut par défaut obtenir la permission Gérer les messages.   
 Si vous n’utilisez pas la commande `roleperms`, les deux grades auront tout deux accès à cette commande.   

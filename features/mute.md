@@ -17,7 +17,7 @@ Vous pouvez aussi utiliser la commande `diagnose mute` sur votre serveur pour co
 
 ### Permissions des rôles
 
-L'ensemble de vos rôles devront avoir la permission "**Envoyer des messages**" dans les permissions de **leurs rôles** pour que le mute fonctionne correctement dans les salons textuels. De plus, si vous souhaitez instaurer le système de mute dans les salons vocaux, l'ensemble de vos rôles doit avoir la permission "**Parler**".  
+L'ensemble de vos rôles devront avoir la permission "**Envoyer des messages**" dans leurs permissions pour que le mute fonctionne correctement dans les salons textuels. De plus, si vous souhaitez instaurer le système de mute dans les salons vocaux, l'ensemble de vos rôles doit avoir la permission "**Parler**".  
   
 **DraftBot** doit être aussi **plus haut dans la hiérarchie** que le grade Mute.
 

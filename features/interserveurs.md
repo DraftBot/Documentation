@@ -10,7 +10,7 @@ Ce type de fonctionnalité permet notamment de pouvoir avoir plusieurs serveurs 
 
 ## Création de la fréquence
 
-La création de l'interserveur se fait simplement à l'aide de la commande suivante dans le salon de votre choix:
+La création de l'interserveur se fait simplement à l'aide de la commande suivante dans le salon de votre choix :
 
 ```
 !interserveur
@@ -30,7 +30,7 @@ Votre fréquence est créée, il ne vous reste plus qu'à ajouter un autre salon
 
 Une fois votre fréquence créée, il vous faut maintenant relier un autre serveur à cette fréquence afin que les deux salons puissent communiquer.
 
-Pour ce faire vous pouvez utiliser la même commande suivie de la fréquence reçue par message privé
+Pour ce faire, vous pouvez utiliser la même commande suivie de la fréquence reçue par message privé :
 
 ```text
 !interserveur <la fréquence>

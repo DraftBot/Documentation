@@ -10,7 +10,7 @@ description: >-
 
 ### Depuis Discord
 
-Vous pouvez créer une commande personnalisée avec la commande `customcommand create`  
+Vous pouvez créer une commande personnalisée avec la commande `customcommand create`.  
 DraftBot vous demandera alors les informations suivantes :
 
 * Nom de la commande
@@ -25,7 +25,7 @@ DraftBot vous demandera alors les informations suivantes :
 
 ### Depuis le panel web
 
-Vous pouvez configurer les commandes personnalisées depuis le panel web : [draftbot.fr](https://draftbot.fr)  
+Vous pouvez configurer les commandes personnalisées depuis le panel web : [draftbot.fr](https://draftbot.fr).  
 Il vous suffira de vous connecter en haut à droite puis de vous rendre dans la catégorie "Vos serveurs"
 
 ![](../.gitbook/assets/image%20%2842%29.png)
@@ -34,11 +34,11 @@ Ensuite, choisissez un de vos serveurs sur le côté gauche puis sélectionner "
 
 ![](../.gitbook/assets/image%20%2839%29.png)
 
-Pour créer une commande, cliquer sur le bouton "**Créer une commande**" en haut à droite et de remplir les divers champs \(nom, description, actions, etc.\).
+Pour créer une commande, cliquez sur le bouton "**Créer une commande**" en haut à droite et remplissez les divers champs \(nom, description, actions, etc.\).
 
 {% hint style="info" %}
 Besoin de modifier ou de supprimer la commande ?   
-Pas de problème ! Cliquer sur Modifier ou Supprimer sur le côté droit.
+Pas de problème ! Cliquez sur Modifier ou Supprimer sur le côté droit.
 {% endhint %}
 
 ![](../.gitbook/assets/image%20%2841%29.png)
@@ -57,8 +57,8 @@ Réponse de DraftBot: @Jules _est maintenant_ fort et beau
 
 Voici quelques exemples de variables d'arguments:  
   
-$1 = première valeur saisi après la commande  
-$2 = deuxième valeur saisi après la commande  
+$1 = première valeur saisie après la commande  
+$2 = deuxième valeur saisie après la commande  
 $1+ = tout ce qui est saisi après la commande  
 $2+ = tout ce qui est saisi après la commande sauf la première valeur
 

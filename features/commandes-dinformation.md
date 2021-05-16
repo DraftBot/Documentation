@@ -18,7 +18,7 @@ Si aucun membre est indiqué après la commande, vos informations seront affich�
 
 ## BotInfo
 
-La commande `botinfo` vous permet d'obtenir des informations sur **DraftBot** comme son nombre de serveurs, de nombres ainsi que des liens utiles.
+La commande `botinfo` vous permet d'obtenir des informations sur **DraftBot** comme son nombre de serveurs, d'utilisateurs, sa version, des liens utiles, etc.
 
 ![Informations obtenues dans la commande botinfo](../.gitbook/assets/image%20%2814%29.png)
 

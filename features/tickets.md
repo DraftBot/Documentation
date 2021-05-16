@@ -8,7 +8,7 @@ description: >-
 
 ## Configurer le système de tickets
 
-Pour configurer le système de tickets, il vous suffit d'utiliser la commande `admintickets config` ou `@DraftBot#0535 admintickets config`  
+Pour configurer le système de tickets, il vous suffit d'utiliser la commande `admintickets config` ou `@DraftBot#0535 admintickets config`.  
 Vous pouvez configurer : 
 
 * Si vous souhaitez activer ou désactiver le système de tickets
@@ -24,7 +24,7 @@ Lors de la création d’un nouveau ticket, les membres ayant accès à ce salon
 * Accepter la demande de ticket à l'aide de la réaction ✅
 * Refuser la demande de ticket en cliquant sur la réaction 🗑️
 
-Si vous avez refusé la demande, le membre recevra la raison du refus de son ticket en message privé s'il les à activé.
+Si vous avez refusé la demande, le membre recevra la raison du refus de son ticket en messages privés s'il les a activés.
 
 ### Désactiver le système de tickets
 
@@ -44,7 +44,7 @@ Si la validation de tickets est activée sur le serveur, une raison sera nécess
 
 ### Fermeture d'un ticket
 
-Si vous souhaitez supprimer un ticket, vous devez aller au début du salon puis de cliquer sur la réaction 🔒 du premier message de **DraftBot** dans le ticket \(qui est dans les messages épinglés du ticket\) puis de valider votre action en cliquant sur la réaction ✅.
+Si vous souhaitez supprimer un ticket, vous devez aller au début du salon puis cliquer sur la réaction 🔒 du premier message de **DraftBot** dans le ticket \(qui est dans les messages épinglés du ticket\) puis à valider votre action en cliquant sur la réaction ✅.
 
 {% hint style="info" %}
 Si le ticket à été fermé par le membre, il sera conservé jusqu'à ce qu’un membre de votre équipe le supprime définitivement ou le rouvre à l’aide des réactions.

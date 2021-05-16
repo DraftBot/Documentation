@@ -9,12 +9,12 @@ description: >-
 
 ## Activer les PrivateRooms <a id="activer"></a>
 
-Pour activer les privaterooms, il vous suffit d'utiliser la commande `privateroom config`  
+Pour activer les privaterooms, il vous suffit d'utiliser la commande `privateroom config`.  
 **DraftBot** vous demandera si vous souhaitez **activer ou non** les privaterooms, **la catégorie** ou seront stockés les salons vocaux ainsi que le **salon vocal** qui permettra la création de leur salon.
 
 {% hint style="warning" %}
 Choisissez une catégorie qui contient aucun salon vocal créé manuellement !   
-Si une personne quitte un salon vocal qui a été créé manuellement, mais qui est dans la catégorie dédié au privateroom, il sera supprimé par **DraftBot**.
+Si une personne quitte un salon vocal qui a été créé manuellement, mais qui est dans la catégorie dédié au privateroom, il sera supprimé par **DraftBot,** sauf s'il a été sauvegardé avec la commande `privateroom permanent`.
 {% endhint %}
 
 ## Créer le salon vocal <a id="create"></a>
@@ -26,6 +26,6 @@ Quand toutes les personnes auront quitté le salon crée par ce système, il ser
 
 ## Désactiver les PrivateRooms <a id="desactiver"></a>
 
-Si vous souhaitez désactiver les privateroom sur votre serveur, il vous suffit d'utiliser la commande `privateroom config`   
+Si vous souhaitez désactiver les privateroom sur votre serveur, il vous suffit d'utiliser la commande `privateroom config`.  
 Ensuite, cliquez sur la réaction ❌ lors de la question "Souhaitez-vous activer ou désactiver le système de salons privés ?".
 
