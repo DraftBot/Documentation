@@ -96,7 +96,7 @@ Niveaux et récompenses
 {% endapi-method-summary %}
 
 {% api-method-description %}
-Permet de récupérer la liste de touts les membres, leurs niveaux et les récompenses possibles en fonction des niveaux !
+Permet de récupérer la liste de tous les membres, leurs niveaux et les récompenses possibles en fonction des niveaux !
 {% endapi-method-description %}
 
 {% api-method-spec %}
