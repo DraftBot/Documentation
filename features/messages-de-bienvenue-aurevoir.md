@@ -44,7 +44,7 @@ Le message de bienvenue permet aussi de mentionner le membre qui vient d'arriver
 Cette commande permet de modifier le fond de la carte du message de bienvenue, c'est à dire le fond de l'image qui est intégrée à l'embed du message de bienvenue.  
 Dans la capture d'écran ci-dessous, le fond de carte est en orange.
 
-![](../.gitbook/assets/image%20%2858%29.png)
+![Image du message de bienvenue](../.gitbook/assets/image%20%2858%29.png)
 
 Pour changer la couleur du fond de carte, il faudra exécuter la commande `!welcome back`.  
 Par la suite, un message s'affichera, vous permettant de :  

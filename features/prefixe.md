@@ -1,3 +1,9 @@
+---
+description: >-
+  Changez le préfixe de DraftBot afin qu'il ne rentre pas en conflit avec
+  d'autres de vos bots.
+---
+
 # Préfixe
 
 ## Voir le préfixe
@@ -5,7 +11,7 @@
 Si vous ne vous rappelez plus du préfixe de **DraftBot**, il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix`   
 Vous obtiendrez alors cette réponse :  
 
-![ ](../.gitbook/assets/image%20%286%29.png)
+![ Image de la commande !prefix](../.gitbook/assets/image%20%286%29.png)
 
 Dans notre cas, le préfixe de **DraftBot** est **!**, soit celui par défaut.
 

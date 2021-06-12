@@ -16,7 +16,7 @@ Vous pouvez afficher le nombre d'argent virtuelle d'un membre sous forme d'image
 * Vous pouvez afficher votre carte à l'aide de la commande `!money`.
 * Dans le cas où vous souhaitez afficher la carte d'un membre, il vous suffit de faire la même commande `!money` suivi du membre.
 
-![](../.gitbook/assets/image%20%2843%29.png)
+![Image de la carte d&apos;&#xE9;conomie ](../.gitbook/assets/image%20%2843%29.png)
 
 {% hint style="info" %}
 Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son **identifiant**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
@@ -26,7 +26,7 @@ Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous
 
 Dans le cas où vous souhaitez afficher le classement d'argent du serveur, il vous suffit de faire la commande `!topmoney`.
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![Image du classement d&apos;&#xE9;conomie](../.gitbook/assets/image%20%2836%29.png)
 
 {% hint style="warning" %}
 Dans le cas où vous ne faites pas partie du top 5, vous serez tout de même affiché en dessous avec votre place.
