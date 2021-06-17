@@ -21,6 +21,8 @@ description: >-
 | MlleEsther\#7795 | Helper | 26/11/2020 |
 | Pavlos\#6829 | Helper | 26/11/2020 |
 | Shkalliis\#7184 | Rédactrice | 07/06/2020 |
+| Tisertyx\#2875 | Helper | 05/05/2021 |
+| imperialiste\#0001 | Helper \(essai\) | 05/06/2021 |
 
 ## 
 
