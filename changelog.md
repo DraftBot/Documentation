@@ -6,12 +6,97 @@ description: >-
 
 # Changelog
 
+## 4.13.0 - 06/07/2021
+
+### ✨ **Nouveautés**
+
+* **🎂 Nouveau système d'anniversaire :**
+  * Annonces d'anniversaire : 
+    * Heure d'envoi personnalisée
+    * Whitelist/Blacklist de rôles autorisés
+    * Mention d'un rôle
+    * Choix du salon
+  * Rôle d'anniversaire temporaire le jour de l'anniversaire :
+    * Rôle donné et retiré à minuit
+      * Whitelist/Blacklist de rôles autorisés
+    * Cadeaux d'anniversaires. \(Rôle, Xp, Argent, Item, Custom\) \(2 sans premium et 5 avec le premium\)
+  * Annonces ciblées illimitées : \(premium\)
+    * Membre ou rôles
+    * Création du message avec l'Embed Creator
+      * Blocage de la possibilité de voir le message pour la personne ciblée.
+* **📂 Nouveau système de logs :**
+  * Logs catégorisés
+  * Logs des actions du panel
+  * Logs avec des Webhooks
+  * Logs pour les infractions
+  * Refonte du design de tous les logs
+  * Couleur de l'embed personnalisé
+  * Possibilité d'ignorer des salons dans les logs
+  * Salon personnalisé pour chaque type de logs
+    * Avatar personnalisé pour chaque type de logs \(premium\)
+    * Couleur personnalisée de l'embed pour chaque type de logs \(premium\)
+
+
+
+* Ajout de Minecraft dans le gameprofil
+* Ajout de la fonctionnalité channelperms pour interdire les commandes à certains salons
+* Ajout des commandes `!react` & `!rappel`
+* Ajout de la possibilité d'accepter ou de refuser une suggestion \(`suggest accept`/`suggest refuse`\)
+
+### 🌐 Panel web
+
+* Ajout du système d'onglets sur l'Embed Creator \(2 ou 5, si le serveur est premium ou non\)
+* Ajout de la page communautaire \(suggestions & signalements\)
+* Ajout du badge "Premium" sur le panel pour les serveurs qui le sont
+* Invitation de DraftBot dans une fenêtre popup avec redirection vers le panel sans rechargement de page
+* Ajout du choix de la devise depuis le panel pour les serveurs premiums
+* Amélioration du sélecteur d'emojis sur le panel
+* Correction d'une faille avec le CTRL+V dans les champs
+* Embed Creator : 
+  * Correction d'un bug qui cachait les \`codes\` dans les fields de l'Embed Creator
+  * Augmentation jusqu'à 4096 caractères pour la description d'un embed
+* Limite de modifications de la date d'anniversaire \(avec affichage du temps restant avant la prochaine modification\)
+* Accessibilité aux serveurs des shards, même lorsque d'autres ont crash ou sont pas encore lancés
+* Optimisation du site en chargeant Stripe que sur la page premium
+* Amélioration des sélecteurs de rôles, ils sont maintenant sélectionnables avec les flèches directionnelles du clavier
+* Possibilité de modifier les rôles & salons interdits/autorisés des commandes par groupe
+* Augmentation du nombre de caractères dans l'Embed
+
+### ♻️ Autres changements
+
+* Ajout des nouveautés premium à la commande et à la [page premium](https://www.draftbot.fr/premium)
+* Possibilité de doubler l'xp et/ou l'argent si le message fait plus de 250 caractères
+* Possibilité de réinitialiser l'xp ou l'argent d'un membre lorsqu'il quitte le serveur
+* Possibilité de demander à l'utilisateur une confirmation avant l'envoi de sa suggestion
+* Augmentation des commandes personnalisées de 50 à 100 pour les serveurs premiums
+* Amélioration du mute :
+  * Texte : ❌ Réactions & envoyer des messages
+  * Vocal : ❌ Se connecter & parler
+  * Conférence : ❌ Demande de parole
+* Réécriture de tous les logs
+* Réattribution des rôles récompenses au retour d'un membre sur le serveur
+* Possibilité en tant que modérateur des tickets d'ouvrir un ticket pour un membre \(`adminticket open`\) 
+* Possibilité d'ajouter des images aux reports \(de membres\) et récupération des images des messages \(pour les reports de messages\)
+* Activation automatique du slowmode lors de l'activation d'un interserveur
+* Refonte et optimisation du système de giveaways
+* Refonte et optimisation du système d'inventaires
+* Correction de la pagination du shop, des récompenses, des commandes personnalisées
+* Pré-shot de la fonctionnalité "Niveau de suretée" sur la commande `!guildinfo`
+* Ajout d'un message de confirmation après la création d'un ticket
+* Amélioration du système d'anti-spam d'emojis, \(les variantes d'émojis ne sont plus comptés comme des émojis à part entière\)
+* Ajout de nombres au système de sondage afin de s'y retrouver plus simplement
+* Augmentation de la limite de caractères pour la question des sondages: 100 =&gt; 250
+* Ajout du temps restant avant de pouvoir refaire la commande `backup restore`
+* Ajout des bots du serveur dans la commande `diagnose support`
+* Lorsqu'un modérateur des tickets ferme un ticket, le salon ne sera plus obligatoirement supprimé
+* Possibilité d'échapper les variables dans les messages \(pour faire des exemples\) \(`\<user.username>`\)
+
 ## 4.12.1 - 17/04/2021 <a id="4-12-1"></a>
 
 ### ✨ **Nouveautés**
 
 * `dropmoney` & `dropxp` : Ces deux nouvelles commandes vous permettrons de faire gagner une certaine somme d'xp ou d'argent à la première personne cliquant sur la réaction.
-* `admininfraction` & `adminsanction` : Ces deux nouvelles commandes vous permettrons de gérer les infractions et sanctions de vos membres. \(rénitialisation des infractions/sanctions du serveur et le retraît/rénitialisation de sanctions/infractions d'un membre\)
+* `admininfraction` & `adminsanction` : Ces deux nouvelles commandes vous permettrons de gérer les infractions et sanctions de vos membres. \(réinitialisation des infractions/sanctions du serveur et le retrait/réinitialisation de sanctions/infractions d'un membre\)
 * `adminticket` : Ajout de la possibilité d'ajouter plusieurs rôles modérateurs à la gestion des tickets.
 * `report` : Possibilité de mentionner un rôle lors d'un signalement d'un de vos membres.
 * `copyconv` : Ajout d'une nouvelle commande vous permettant de copier une conversation à l'image de la commande `copymsg`
@@ -45,7 +130,7 @@ description: >-
 * `event` : Correction du bug avec rôles si l'objectif n'était pas atteint.
 * `adminreward` : Correction du bug des récompenses qui s'affichent mal dans les messages depuis la variable **{reward}**
 * Panel web : 
-  * Commandes personalisées : Correction du bug de drag&drop dans les étapes
+  * Commandes personnalisées : Correction du bug de drag&drop dans les étapes
 
 ## 4.12.0 - 25/03/2021 <a id="4-12-0"></a>
 
@@ -102,7 +187,7 @@ description: >-
 * `giveaway`, `event` & `survey` :
   * Si le salon cible n'a pas les permissions requises DraftBot vous donne un délai pour en sélectionner un autre ou changer les permissions
   * Si le rôle à ajouter n'est pas accessible ou ne pourra pas être ajouté, il laisse également un délai supplémentaire pour en sélectionner un autre ou changer la hiérarchie
-* `buy` : Blockage lors de l'achat d'un rôle si la personne l'a déjà
+* `buy` : Blocage lors de l'achat d'un rôle si la personne l'a déjà
 * `botinfo` : Amélioration de l'affichage des nombres
 * `privateroom` : Affichage des arguments si la personne est admin sinon on affiche le message de présentation
 * `event` : Amélioration de l'affichage des dates
@@ -159,7 +244,7 @@ description: >-
   * Plus de message privée
   * Détection de toutes les invitations
   * Fix des liens Discord qui étaient pris pour des invitations
-  * Censuration des invitations
+  * Censure des invitations
 * La commande `birthday` n'affichera plus que les membres présents sur le server
 * Ajout des logs des transactions d'économie
 * Ajout de la possibilité de customiser le message de confirmation du système de suggestion 
@@ -180,10 +265,10 @@ description: >-
 
 ### 🌐 Panel web
 
-* Suppression de la feature "no xp" pour les membres invisibles
+* Suppression de la fonctionnalité "no xp" pour les membres invisibles
 * Page profil \(anniversaire, description, jeux\)
 * Gestion du Premium
-* Ergonomie globalement amélioré \(déroutant de roles et certains trucs optimisés\)
+* Ergonomie globalement amélioré \(déroutant de rôles et certains trucs optimisés\)
 * Fix du bug du Embed Creator qui scrollait up s'il estimait que le texte était trop long
 
 ### ♻️ Autres changements
@@ -238,7 +323,7 @@ description: >-
 ### ✨ Nouvelles fonctionnalités 
 
 * Ajout de la fonctionnalité `report`
-* Ajout de la feature commandes custom \(create, reset, fonctionnement\)
+* Ajout de la fonctionnalité de commandes personnalisées \(create, reset, fonctionnement\)
 * Ajout du système de dés complet
 * Refonte totale des `autoroles` pour en avoir plusieurs \(3 non premiums\) \(5 max\)
 
@@ -261,7 +346,7 @@ description: >-
 * Design et ergonomie du marché noir retravaillé
 * Messages de captcha supprimés après validation ou dans le cas d'erreurs 6 secondes
 * Salons de la commande `diagnose` triés
-* Les premiums sont maintenant stackable jusqu'à 5 serveurs
+* Les premiums sont maintenant stockable jusqu'à 5 serveurs
 * Amélioration de l'affichage de la commande `groupes`
 * Catégorie de la commande `admintickets` changé
 * Auto-suppression des messages de `captcha`
@@ -338,7 +423,7 @@ description: >-
 
 * `!ticket create` devient `!ticket`
 * `!ticket config` devient `!adminticket config`
-* Nouvelles fonctionalités **add** et **remove** pour ajouter un membre au ticket `!adminticket`
+* Nouvelles fonctionnalités **add** et **remove** pour ajouter un membre au ticket `!adminticket`
 
 ### 💎 Changements Premium
 
