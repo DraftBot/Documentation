@@ -6,7 +6,62 @@ description: >-
 
 # Changelog
 
-## 4.13.0 - 06/07/2021
+## 4.13.3 - 12/07/2021
+
+### **✨ Améliorations**
+
+* Optimisation du temps requis pour le lancement de tous les shards: `25` =&gt; `15` minutes. 
+* Amélioration du sélecteur de salons sur le panel \(nom de la catégorie, icones en fonction du type, salons vocaux, stages, catégories, message lorsqu'il n'y a pas résultats lors d'une recherche\)
+* Amélioration des logs de pseudos en ajoutant l'ancien pseudo.
+* Ajout d'une rétrogression des rôles uniques lors d'une suppression d'expérience manuelle avec la commande `adminxp`.
+* Optimisation des questions demandant un ou plusieurs salons.
+
+### ♻️ **Corrections**
+
+* Correction d'un problème avec les rôles évolutifs lorsque l'on quitte et rejoint à nouveau un serveur.
+* Correction d'un bug présent dans la restauration de la fonctionnalité backup.
+* Correction d'un problème de permissions présent dans la fonctionnalité d'acceptation de suggestions \(`suggest accept`\).
+* Correction d'un problème lors de l'utilisation de l'argument français `accepte` de la fonctionnalité de suggestions.
+* Correction d'un problème présent lorsque les limites de webhooks sont atteintes pour les logs.
+* Correction d'un bug après le délais des 30s à la question du rôle d'anniversaire.
+
+## 4.13.2 - 08/07/2021
+
+### ♻️ **Changements**
+
+* Correction du système de sondages dans le résumé.
+* Correction du bug présent dans le saveconv.
+* Amélioration de la récupération des participants du giveaway.
+* Correction d'un bug présent dans les logs de changements de permission d'un salon si aucune permission n'est ajoutée au rôle ou membre sélectionné.
+* Amélioration du captcha. \(plus précis & arrêt du système si le membre quitte le serveur\)
+* Correction de l'emoji qui ne s'affiche pas dans les commentaires des suggest accept & refuse.
+* Réécriture et optimisations des systèmes supportant les réactions. \(events, rôle réactions, tickets\)
+* Correction d'un bug présent dans les autoroles.
+* Correction d'un bug de génération des images d'annonces de réception de récompenses.
+* Correction des bugs dans les messages d'infractions bloquant aussi les auto-sanctions.
+* Correction d'un bug présent dans les dates d'anniversaire.
+* Correction de l'authentification sur le panel depuis la commande panel + redirection après avoir invité DraftBot.
+* Ajout de l'accès à la page serveurs aux serveurs premium même lorsqu'ils ont moins de 100 membres.
+* Correction de tous les logs provenant des actions du panel.
+* Correction des logs de sanctions temporaires.
+
+## 4.13.1 - 06/07/2021
+
+### ♻️ Corrections
+
+* Correction du bug présent lors de l'affichage de la commande `!welcome show`. 
+* Ajout de l'aide des commandes \(`suggest accept` & `suggest refuse`\) dans la page communautaire sur le panel pour l'option de modération.
+* Correction du bug des logs d'invitations lorsqu'il n'y en avait pas.
+* Correction du bug présent dans l'affichage des anniversaires du jour dans la commande `!birthday`. 
+* Correction du bug présent dans les embeds des commandes personnalisées lorsqu'il n'y avait qu'un seul embed.
+* Correction d'un bug présent avec les webhooks des commandes de conversations.
+* Correction d'un bug au niveau de la commande `suggest <accept/refuse>` lorsqu'il n'y avait pas de raison.
+* Mise en privé de la liste des serveurs sur le userinfo \(réservée aux membres de l'équipe de DraftBot\). 
+* Correction du lock des serveurs premium sur le panel.
+* Correction d'un bug présent lors de l'activation de la mention dans le système de reports.
+* Correction d'un bug de mentions lors de messages d'annonces d'anniversaire.
+
+## 4.13.0 - 05/07/2021
 
 ### ✨ **Nouveautés**
 
