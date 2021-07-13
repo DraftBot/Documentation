@@ -11,7 +11,7 @@ description: >-
 | **DraftMan\#0042** | **Fondateur, développeur & gérant** | 10/04/2018 |
 | **Panda\#9629** | **Gérant, manager & CoMa** | 11/01/2019 |
 |  |  |  |
-| ShowTake\#1455 | Administrateur | 11/09/2019 |
+| ShowTaKe\#1455 | Administrateur | 11/09/2019 |
 | SP4RT4\_\#8788 | Administrateur | 04/01/2020 |
 |  |  |  |
 | Erwan\#0820 | Modérateur | 09/03/2020 |
