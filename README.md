@@ -7,17 +7,18 @@ description: >-
 
 # Bienvenue !
 
-Afin que votre découverte de **DraftBot** via notre documentation se passe au mieux, voici quelques détails concernant la rédaction :
+#### Afin que votre découverte de **DraftBot** via notre documentation se passe au mieux, voici quelques détails concernant la rédaction :
 
 * Les chapitres sont organisés par ordre de simplicités et vous permettront les uns après les autres d'appréhender au mieux le bot, de manière claire et intuitive.
 * Les commandes sont classées par groupe, comme dans la liste des [commandes ](https://www.draftbot.fr/commandes)de **DraftBot**
-* Les actions à cliquer seront entre « guillemets »
-* Les commandes seront écrites sous forme de `code`
-* Les rôles et arguments seront inscrits en _italique_
 
-\_\_
+### Pour vous y retrouver :
+
+* Les **commandes** seront écrites sous forme de `code`
+* Les actions ou réactions à **cliquer** seront entre guillemets " "
+* La **mention** de membre ou de rôle sera indiquée par l'utilisation d'un @
+* Les **arguments** seront indiqués entre crochets et séparés par un slash \[ / \]
+* Les **paramètres** de commandes seront indiqué entre parenthèses \( \)  _Par exemple :_ `!adminmoney [add/remove/set] @membre (nombre) !adminmoney set @DraftBot#0535 100`
 
 #### [_Si vous souhaitez contacter le Support, retrouvez-nous sur Discord en cliquant ici._](https://discord.com/invite/DrzKVU3)\_\_
-
-
 
