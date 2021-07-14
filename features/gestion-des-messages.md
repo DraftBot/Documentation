@@ -13,13 +13,13 @@ Pour utiliser cette commande, il vous suffit de faire `clear [nombre entre 1 et 
 
 {% hint style="info" %}
 **DraftBot** ne peut pas supprimer les messages datant de plus de 14 jours dû à une limite de Discord.  
-S'il détecte que les messages que vous souhaitez supprimer date de plus d'une semaine, **DraftBot** vous proposera de cloner le salon et de supprimer l'ancien. 
+S'il détecte que les messages que vous souhaitez supprimer datent de plus de deux semaines, **DraftBot** vous proposera de cloner le salon et de supprimer l'ancien. 
 {% endhint %}
 
 ## ClearChannel
 
 Cette commande vous permet de cloner le salon et de supprimer l'ancien.   
-Pour se servir cette fonctionnalité, vous devez utiliser la commande `clearchannel`
+Pour vous servir de cette fonctionnalité, vous devez utiliser la commande `clearchannel`
 
 {% hint style="info" %}
 Vous pouvez mentionner un salon textuel après la commande pour choisir un autre salon que celui où la commande a été effectuée.
