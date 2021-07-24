@@ -6,17 +6,92 @@ description: >-
 
 # Changelog
 
-## 4.13.3 - 12/07/2021
+## 4.13.7 - 24/07/2021 <a id="4-13-7"></a>
 
-### **✨ Améliorations**
+### ✨ Nouveautés
 
+*  Nouvelle commande `!temprole` pour ajouter un rôle temporairement à un membre.
+* Intégration des rôles temporaires à l'ensemble de l'écosystème de DraftBot :
+  * Commandes personnalisées
+  * Récompenses de niveaux
+  * Articles d'économie
+  * Récompense de giveaway
+* Ajout de la possibilité à DraftBot de jouer au morpion.
+* Ajout de difficultés aux jeux `puissance4` & `morpion`.
+* Ajout de 3 nouvelles variables : **{date}**, **{time}** et **{timestamp}** qui permettent respectivement d'afficher la date et l'heure et le timestamp en secondes.
+* Amélioration du sélecteur d'émojis \(émojis personnalisés en haut de liste\) et du sélecteur de rôles multiples sur le panel.
+* Amélioration de le commande `userinfo` \(badge pour les membres de l'équipe et suppression du tag qui était déjà dans la description\).
+* Optimisation de la commande `admininventory`.
+
+### ♻️ **Corrections**
+
+* Nombreuses optimisations ayant pour objectif de réduire les problèmes de déconnexion causés par la latence l'API de Discord.
+* Bug au niveau de la couleur des rôles dans le champ de sélection des rôles boosters.
+* Bug présent lors d'un envoi de message d'erreur pour le captcha.
+* Bug présent lors de la création de messages d'anniversaires personnalisés avec le mode lock \(depuis la commande\).
+* Bug présent lors d'un `adminreward update` d'un rôle supprimé.
+* Bug présent lors du relancement d'une action temporaire.
+* Bug présent dans la sélection de durée qui prenait l'unité mois par défaut au lieu de minutes.
+
+## 4.13.6 - 15/07/2021 <a id="4-13-6"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Nouvelle commande `sell` vous permettant de vendre vos items d'inventaire aux autres membres \(avec logs\).
+* Possibilité de désactiver la suppression du ticket s'il est fermé par un admin \(`admintickets config`\).
+* Ajout de la commande `!diagnose commande` pour afficher le statut, les rôlesperms et les channelperms d'une commande.
+
+### ♻️ **Corrections** <a id="corrections"></a>
+
+*  Ajout d'un délais de 15 minutes par 10 utilisations de la commande `say` afin d’éviter le spam.
+* Correction d'un bug avec l'envoi des webhooks lors d'un `moveconv` d'un message de bot.
+* Correction d'un bug présent dans les logs de récompenses de niveau au retour d'un membre.
+* Correction des vérifications de permissions pour le système de messages récurrents.
+* Quelques corrections sur la page de niveaux \(espacement + ordre des récompenses\).
+* Correction du problème avec la position du salon avec le `clearchannel` lorsque le salon se trouve dans une catégorie.
+* Correction de la liste de toutes les permissions nécessaires à la commande `!help <commande>`.
+* Correction d'un bug présent au niveau du changement de salon pour les logs.
+* Tri des permissions lors de leur affichage sur l'ensemble des fonctionnalités.
+* Ajout de l'alias "game" pour la commande de jeux Discord.
+
+## 4.13.5 - 14/07/2021 <a id="4-13-5"></a>
+
+### ♻️ **Changements**
+
+*  Correction du message de confirmation de mise à jour d'un rôle de la boutique lorsque l'ancien rôle est supprimé \(`adminshop update`\).
+* Ajout d'un message d'erreur dans la commande `level` & `money` lorsqu'une photo de profil est invalide.
+* Ajout d'un message d'erreur approprié lorsque le plateau de jeu du puissance4 ou du morpion est supprimé juste avant le tour suivant.
+* Ajout d'un message d'erreur dans la commande de règlement lorsque le règlement est supprimé pendant l'ajout d'une règle.
+* Ajout d'un message d'erreur \(et émojis remis par défaut\) dans le système de suggestions si l'un des émojis perso a été supprimé.
+* Correction d'un bug présent dans la commande `adminlevel ignore` \(message pour la demande du salon\)
+* Correction d'un bug présent dans les commandes custom lorsque le rôle voulant être ajouté/retiré est déjà possédé ou non par le membre.
+* Messages d'xp ou d'argent ignorés si le membre n'est pas encore en cache afin d'éviter de futurs erreurs ou ratelimits \(max 10min d'attente après un redémarrage\)
+* Correction d'un bug présent dans la commande `adminxp` qui permet d'avoir un niveau négatif.
+* Correction d'un bug présent lors de la génération des images sur le panel lorsque l'utilisateur n'a pas de photo de profil.
+
+## 4.13.4 - 12/07/2021 <a id="4-13-4"></a>
+
+### ♻️ **Changements** <a id="changements"></a>
+
+* Correction d'un bug présent lors de l'utilisation de la fonctionnalité ban dans le cas où le membre est au dessus de DraftBot.
+* Correction d'un bug présent dans l'autorole lorsque tous les rôles ont été supprimés.
+* Correction du problème présent lors d'un changement de salon pour les logs.
+* Multiples vérifications ajoutés au système de captcha afin d'assurer son bon fonctionnement.
+* Ajout des salons vocaux et stages dans le sélecteur du panel web.
+* Correction d'un bug présent dans le système d'administration des tickets.
+
+## 4.13.3 - 12/07/2021 <a id="4-13-3"></a>
+
+### **✨ Ajouts & Améliorations** <a id="ajouts-ameliorations"></a>
+
+* Ajout de la commande `games` pour jouer aux applications de Discord \(Fishington, Échecs, YouTube, Betrayal & Poker\).
 * Optimisation du temps requis pour le lancement de tous les shards: `25` =&gt; `15` minutes. 
 * Amélioration du sélecteur de salons sur le panel \(nom de la catégorie, icones en fonction du type, salons vocaux, stages, catégories, message lorsqu'il n'y a pas résultats lors d'une recherche\)
 * Amélioration des logs de pseudos en ajoutant l'ancien pseudo.
 * Ajout d'une rétrogression des rôles uniques lors d'une suppression d'expérience manuelle avec la commande `adminxp`.
 * Optimisation des questions demandant un ou plusieurs salons.
 
-### ♻️ **Corrections**
+### ♻️ **Corrections** <a id="corrections"></a>
 
 * Correction d'un problème avec les rôles évolutifs lorsque l'on quitte et rejoint à nouveau un serveur.
 * Correction d'un bug présent dans la restauration de la fonctionnalité backup.
@@ -25,9 +100,9 @@ description: >-
 * Correction d'un problème présent lorsque les limites de webhooks sont atteintes pour les logs.
 * Correction d'un bug après le délais des 30s à la question du rôle d'anniversaire.
 
-## 4.13.2 - 08/07/2021
+## 4.13.2 - 08/07/2021 <a id="4-13-2"></a>
 
-### ♻️ **Changements**
+### ♻️ **Changements** <a id="changements"></a>
 
 * Correction du système de sondages dans le résumé.
 * Correction du bug présent dans le saveconv.
@@ -47,7 +122,7 @@ description: >-
 
 ## 4.13.1 - 06/07/2021
 
-### ♻️ Corrections
+### ♻️ Corrections <a id="corrections"></a>
 
 * Correction du bug présent lors de l'affichage de la commande `!welcome show`. 
 * Ajout de l'aide des commandes \(`suggest accept` & `suggest refuse`\) dans la page communautaire sur le panel pour l'option de modération.
@@ -63,7 +138,7 @@ description: >-
 
 ## 4.13.0 - 05/07/2021
 
-### ✨ **Nouveautés**
+### ✨ **Nouveautés** <a id="nouveautes"></a>
 
 * **🎂 Nouveau système d'anniversaire :**
   * Annonces d'anniversaire : 
@@ -148,7 +223,7 @@ description: >-
 
 ## 4.12.1 - 17/04/2021 <a id="4-12-1"></a>
 
-### ✨ **Nouveautés**
+### ✨ **Nouveautés** <a id="nouveautes"></a>
 
 * `dropmoney` & `dropxp` : Ces deux nouvelles commandes vous permettrons de faire gagner une certaine somme d'xp ou d'argent à la première personne cliquant sur la réaction.
 * `admininfraction` & `adminsanction` : Ces deux nouvelles commandes vous permettrons de gérer les infractions et sanctions de vos membres. \(réinitialisation des infractions/sanctions du serveur et le retrait/réinitialisation de sanctions/infractions d'un membre\)
@@ -226,7 +301,7 @@ description: >-
 * `infractions` : Ajout de la commande pour voir les infractions d'un membre
 * Global : Ajout de la possibilité de sélectionner 332 emojis nouveaux dans les différents systèmes de DraftBot
 
-### ⚡️Améliorations
+### ⚡️Améliorations <a id="ameliorations"></a>
 
 * `survey` : Amélioration de l'affichage
 * `birthday` : Amélioration globale de l'affichage de la commande
@@ -253,7 +328,7 @@ description: >-
   * Améliorations sur la popup de création et de mise à jour d'une récompense et des articles
   * Ajout de la possibilité de réglementer l'accès aux commandes aux rôles Twitch et bots
 
-### ♻️ Autres changements
+### ♻️ Autres changements <a id="autres-changements"></a>
 
 * `clearchannel` : vérification des salons de modération et de règlement avant exécution de la fonctionnalité
 * `adminmoney` : addition minimal mise à 0 \(afin d'éviter les ajouts négatifs et suppressions positives\)
@@ -268,7 +343,7 @@ description: >-
   * Ajout de raisons détaillées à toutes les actions dans les audit logs de Discord afin de comprendre pourquoi DraftBot à fait tel ou tel action: création de rôles, de salons, de webhooks, attribution de rôle, changement sur le serveur
   * Ajout et suppression automatique des rôles premium sur le Support Discord
 
-### 🐛 Résolutions de bugs
+### 🐛 Résolutions de bugs <a id="resolutions-de-bugs"></a>
 
 * `membercount` : Fix des problèmes de comptes
 * `bingo` : Fix bug avec nombres négatifs
@@ -284,7 +359,7 @@ description: >-
 
 ## 4.11.6 - 24/12/2020 <a id="4-11-6"></a>
 
-### ✨ Nouvelles fonctionnalités
+### ✨ Nouvelles fonctionnalités <a id="nouvelles-fonctionnalites"></a>
 
 * `event` pour organiser des regroupements de participants
 * Inventaire avec nouveaux items d'inventaire
@@ -293,7 +368,7 @@ description: >-
 * Localité sur le `profil` \(personnalisable avec `locality`\)
 * Commande `panel` pour être redirigé vers son profil ou le panel du serveur
 
-### ⚡️Améliorations
+### ⚡️Améliorations <a id="ameliorations"></a>
 
 * Refonte de la fonctionnalité `admininvites`:
   * Plus de message privée
@@ -318,7 +393,7 @@ description: >-
 * Adaptation du `morpion` au pavé numérique
 * Pour les commandes `sondage`, `giveaway`, `event`, avant demander le salon dans lequel on veut que cela se passe, il demandera si on veut que ça se passe dans le salon actuel
 
-### 🌐 Panel web
+### 🌐 Panel web <a id="panel-web"></a>
 
 * Suppression de la fonctionnalité "no xp" pour les membres invisibles
 * Page profil \(anniversaire, description, jeux\)
@@ -326,7 +401,7 @@ description: >-
 * Ergonomie globalement amélioré \(déroutant de rôles et certains trucs optimisés\)
 * Fix du bug du Embed Creator qui scrollait up s'il estimait que le texte était trop long
 
-### ♻️ Autres changements
+### ♻️ Autres changements <a id="autres-changements"></a>
 
 * Lors de l'activation ou la désactivation des commandes, le nom d'une commande aura la priorité sur le nom d'un groupe.
 * Ajout du support de Fortnite Mobile aux stats `fortnite`
@@ -345,7 +420,7 @@ description: >-
 
 ## 4.11.5 - 19/10/2020 <a id="4-11-5"></a>
 
-### ➕ Ajouts
+### ➕ Ajouts <a id="ajouts"></a>
 
 * Ajout de la possibilité d'utiliser tous les signes mathématiques ASCII `+﹢⁺₊＋-﹣⁻₋-﹡×÷⁄/`
 * Ajout de la possibilité d'avoir le prefix de DraftBot en le mentionnant
@@ -367,7 +442,7 @@ description: >-
 * Séparation de la commande `userinfo` en deux commandes `userinfo` et `profil`
 * Vérification des messages lors de l'édition \(`admininvites` et `filter`\)
 
-### 🐛 Résolutions de bugs
+### 🐛 Résolutions de bugs <a id="resolutions-de-bugs"></a>
 
 * Bug du `clearchannel` dans un salon communautaire
 * Correction du bug des commandes non désactivées
@@ -375,7 +450,7 @@ description: >-
 
 ## 4.11.4 - 27/09/2020 <a id="4-11-4"></a>
 
-### ✨ Nouvelles fonctionnalités 
+### ✨ Nouvelles fonctionnalités  <a id="nouvelles-fonctionnalites"></a>
 
 * Ajout de la fonctionnalité `report`
 * Ajout de la fonctionnalité de commandes personnalisées \(create, reset, fonctionnement\)
@@ -384,7 +459,7 @@ description: >-
 
 ### ♻️ Changements DraftBot
 
-#### ✨ Ajouts
+#### ✨ Ajouts <a id="ajouts"></a>
 
 * Ajout du vanish a la commande `puissance4`
 * Ajout de la fonctionnalité `diagnose view`
@@ -420,16 +495,16 @@ description: >-
 ### 🌐 Changements Panel Web
 
 * Sélection des commandes dans le roleperms rendu plus précis.
-* Adminlevel possibilité de sélectionner plusieurs rôles et plusieurs salon à ignorer en une fois
+* Possibilité de sélectionner plusieurs rôles et plusieurs salon à ignorer en une fois dans la page dédié aux niveaux
 * Bug au niveau de l'affichage des récompenses supprimés réglé
 * Ajout de la page custom commandes au panel web
 * Ajout de la page messages récurrents
 * Liste des commandes sur le site et sur le panel de config des commandes mise à jour \(customcommand, report, rolldice\)
-* Possibilité de voir des emojis custom animés sur le module d'embeds \(customcommand, embedcreator, repeatmsg\)
+* Possibilité de voir des emojis custom animés sur le module d'embeds \(commandes personnalisées, embed creator, message récurrents\)
 
 ### 🐛 Résolutions de bugs
 
-* Bug de la page levels lorsque l'on est connecté réglé
+* Bug de la page de niveaux lorsque l'on est connecté
 * Bug du rabbitmq qui crash réglé
 * Bug du serveur premium qui ne s'active pas après son activation sur le site \(cache non actualisé\) résolu.
 * Bug des participants fantômes réglé pour la commande giveaway
@@ -438,7 +513,7 @@ description: >-
 * Bug des utilisateurs supprimés pour le saveconv réglé
 * Bug de l'icon custom dans le footer du shop réglé
 * Problème avec la taille des raisons dans la commande sanctions résolu \(toutes les raisons sont maintenant limités a 1000 caractères\)
-* Impossible de give plus de 1000 niveaux
+* Impossible de donner plus de 1000 niveaux
 * Bug des autoroles lorsque l'option désactivé était activé sur l'ancienne version
 * Bug du `!report config` lorsqu'un membre s'appelle config résolu
 * Bug du help lorsqu'il n'y a pas de custom commandes \(affiche &gt;&gt;&gt; et n'affiche pas pas la commande `!customcommand`\)
@@ -461,7 +536,7 @@ description: >-
 * Bug des autorôles dans la commande config
 * Bug dans le pendu lorsque l'on donnait deux lettres consécutives en même temps
 
-## 4.11.3 - 02/08/2020
+## 4.11.3 - 02/08/2020 <a id="4-11-3"></a>
 
 ### ➕ Ajouts Welcome/Goodbye
 
@@ -518,7 +593,7 @@ description: >-
 
 ### 🌐 Panel Web
 
-* Refonte des afficheurs de messages de bienvenue, d’au-revoir, de niveaux et de récompenses avec un support complet du markdown de discord
+* Refonte des afficheurs de messages de bienvenue, d’au revoir, de niveaux et de récompenses avec un support complet du markdown de discord
 * Ajout des emojis custom du serveur au sélecteur d'emojis des champs de texte
 * Ajout des rôles boosters au panel web pour les niveaux et l'économie
 * Ajout de la fonctionnalité Niveau maximum au panel \(réservé aux premiums\)
@@ -531,5 +606,5 @@ description: >-
 * Problèmes avec certains emojis pour la devise personnalisée résolus
 * Problèmes avec la réinitialisation du système de niveaux résolus
 * Problème avec l'argent de départ après une réinitialisation de l'argent
-* Problème avec la virgule du filter qui créait un bug, résolu
+* Problème avec la virgule du filter qui créait un bug
 
