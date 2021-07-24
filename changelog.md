@@ -10,7 +10,7 @@ description: >-
 
 ### ✨ Nouveautés
 
-*  Nouvelle commande `!temprole` pour ajouter un rôle temporairement à un membre.
+*  Nouvelle commande `temprole` pour ajouter un rôle temporairement à un membre.
 * Intégration des rôles temporaires à l'ensemble de l'écosystème de DraftBot :
   * Commandes personnalisées
   * Récompenses de niveaux
