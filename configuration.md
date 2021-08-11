@@ -8,78 +8,90 @@ description: Nous allons à présent configurer DraftBot.
 
 Pour démarrer le processus de configuration, utilisez la commande `!config` ou `@DraftBot#0535 config`. Répondez ensuite aux questions suivantes en utilisant les réactions ou en envoyant votre choix par écrit.
 
+{% hint style="info" %}
+Vous pouvez également utiliser le panneau de configuration sur le site accessible via la commande [`panel`](https://draftbot.fr/dashboard)ou à l'adresse : [https://draftbot.fr/dashboard](https://draftbot.fr/dashboard)
+{% endhint %}
+
 ### Choix du préfixe
 
-Le premier message vous indiquera le préfixe actuel et vous proposera de le modifier. Cliquez alors sur la réaction correspondant à votre choix :
+Le premier message vous indiquera le préfixe actuel et vous proposera de le modifier. Cliquez alors sur la réaction correspondante à votre choix :
 
 * ✅ Pour changer de préfixe selon votre convenance et éviter les conflits avec d'autres bots.
-* ❎ Pour conserver le préfixe actuel.
+* ❌ Pour conserver le préfixe actuel.
 
-Si vous avez choisi de modifier le préfixe, répondez alors par le caractère que vous souhaitez utiliser.   
+Si vous avez choisi de modifier le préfixe \(✅\), répondez alors par le caractère que vous souhaitez utiliser.   
 Par exemple : _$ ? % § & ..._
 
 {% hint style="info" %}
-Dans tous les cas, vous pourrez toujours utiliser `@DraftBot#0535` à la place du préfixe pour utiliser une commande.
+Dans tous les cas, vous pourrez toujours utiliser `@DraftBot#0535` à la place du préfixe pour utiliser une commande.  
+Si vous vous trompez dans votre choix, vous pourrez donc toujours faire :  
+`@DraftBot#0535 prefix` pour le modifier.
 {% endhint %}
 
 ### Message de bienvenue
 
-La seconde étape concerne les messages automatiques de bienvenue. Pour répondre à cette question vous devrez cliquer sur l'une des deux réactions : 
+La seconde étape concerne le message automatique de bienvenue lorsqu'un membre rejoint le serveur. Le message vous proposera d'activer ce système et pour y répondre vous devrez cliquer sur l'une des deux réactions : 
 
 * ✅ Pour activer le message de bienvenue 
-* ❎ Pour désactiver le message de bienvenue
+* ❌ Pour désactiver le message de bienvenue
 
-Si vous choisissez d'activer le message de bienvenue, vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
-Par exemple _\#accueil \#bienvenue \#général ..._
+Si vous choisissez d'activer le message de bienvenue \(✅\) , vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
+Par exemple _\#accueil, \#bienvenue, \#général ..._
+
+### Message d'au-revoir
+
+La troisième étape concerne le message automatique d'au-revoir lorsqu'un membre quitte le serveur. Le message vous proposera d'activer ce système et pour y répondre vous devrez cliquer sur l'une des deux réactions : 
+
+* ✅ Pour activer le message d'au-revoir
+* ❌ Pour désactiver le message d'au-revoir
+
+Si vous choisissez d'activer le message d'au-revoir \(✅\), vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
+Par exemple _\#accueil, \#bienvenue, \#général ..._
 
 ### Rôles automatiques
 
-La troisième étape concerne les rôles automatiques qui peuvent être attribués à l'arrivée d'un nouveau membre. Pour répondre à cette question vous devrez cliquer sur l'une des deux réactions proposées: 
+La quatrième étape concerne les rôles automatiques qui peuvent être attribués à l'arrivée d'un nouveau membre. Le message vous proposera d'ajouter des rôles automatiques et pour y répondre vous devrez cliquer sur l'une des deux réactions proposées: 
 
-* ✅ Pour activer le rôle automatique
-* ❎ Pour désactiver le rôle automatique
+* ✅ Pour ajouter des rôles automatiques
+* ❌ Pour ne pas ajouter de rôle automatique
 
-Si vous choisissez de mettre en place des rôles automatiques, vous devez répondre par le nom du / des rôle\(s\) à ajouter aux nouveaux membres.  
+Si vous choisissez de mettre en place des rôles automatiques \(✅\), vous devrez répondre par le nom du / des rôle\(s\) à ajouter aux nouveaux membres et les séparer d'espaces si il y a plusieurs rôles.  
 Par exemple @_membre @humain ..._
 
 ### Système de niveaux
 
-La quatrième étape concerne le système de niveaux. Pour y répondre, vous devrez cliquer sur une des deux réactions proposées: 
+La cinquième étape concerne le système de niveaux. Le premier message vous proposera de l'activer et pour y répondre, vous devrez cliquer sur une des deux réactions proposées: 
 
 * ✅ Pour activer le système de niveaux
-* ❎ Pour désactiver le système de niveaux.
+* ❌ Pour désactiver le système de niveaux.
 
-Si vous décidez d'activer le système de niveaux, **DraftBot** vous demande alors si vous souhaitez modifier l'expérience gagnée à chaque message. Vous pouvez choisir une des deux réactions proposées: 
-
-* ✅ Modifier l'expérience gagnée par message
-* ❎ Continuer sans modifier l'expérience gagnée par message
-
-Si vous souhaitez modifier la valeur, **DraftBot** vous propose alors 4 choix: 
+Si vous décidez d'activer le système de niveaux \(✅\), **DraftBot** vous demandera alors quelles quantités d’expérience vos membres pourront recevoir à chaque message et vous devrez cliquer sur une des quatre réactions proposées: 
 
            0⃣ \| 0 XP par message  
            1⃣ \| Entre 5 et 15 XP par message  
            2⃣ \| Entre 15 et 25 XP par message  
            3⃣ \| Entre 25 et 35 XP par message
 
-Cliquez alors sur la réaction de votre choix.
+### Système d'économie
 
-### Invitations Discord externes
+La sixième partie de la configuration concerne le système d'économie virtuelle. Le message vous proposera de l'activer et pour y répondre, vous devrez choisir une des réaction proposées: 
 
-La cinquième partie de la configuration concerne l'interdiction à vos membres d'envoyer des invitations vers d'autres serveurs. Pour y répondre, vous devrez choisir une des réaction proposées: 
+* ✅ Activer le système d'économie
+* ❌ Désactiver le système d'économie
 
-* ✅ Les invitations ne seront pas interdites aux membres
-* ❎ Les membres ne pourront pas envoyer d'invitations
+Si vous décidez d'activer le système d'économie \(✅\), **DraftBot** vous demandera alors quelles quantités d'argent vos membres pourront recevoir à chaque message et vous devrez cliquer sur une des quatre réactions proposées: 
 
-{% hint style="info" %}
-Les administrateurs pourront envoyer des invitations même si c'est interdit aux membres.
-{% endhint %}
+           0⃣ \| 0 $ par message  
+           1⃣ \| Entre 5 et 15 $ par message  
+           2⃣ \| Entre 15 et 25 $ par message  
+           3⃣ \| Entre 25 et 35 $ par message
 
 ### Suppression des messages de commande
 
-La sixième et dernière partie de la configuration concerne la suppression des messages de commande. Pour y répondre, vous devez choisir une des réactions proposées: 
+La septième et dernière partie de la configuration concerne la suppression des messages de commandes. Le message vous proposera de supprimer les messages de commandes et pour y répondre, vous devrez choisir une des deux réactions proposées: 
 
 * ✅ Les messages de commande seront supprimés
-* ❎ Les messages de commande seront conservés
+* ❌ Les messages de commande seront conservés
 
 {% hint style="success" %}
 Vous avez terminé la configuration de **DraftBot**
@@ -95,28 +107,54 @@ Afin de personnaliser au mieux le comportement qu'adoptera le bot sur votre serv
 
 ### `prefix`
 
-La commande `!prefix` ou `@DraftBot#0535 prefix` permet de visualiser ou modifier le préfixe utilisé par **DraftBot**. Si vous saisissez le caractère de votre choix à la suite de cette commande, le préfixe sera alors modifié. Par exemple, en envoyant `!prefix ?` le préfixe sera modifié par `?`.
+La commande `!prefix` ou `@DraftBot#0535 prefix` permet de visualiser ou modifier le préfixe utilisé par **DraftBot**. Si vous saisissez le caractère de votre choix à la suite de cette commande, le préfixe sera alors modifié. 
+
+{% hint style="info" %}
+Par exemple, en envoyant `!prefix ?` le préfixe sera modifié en `?`.
+{% endhint %}
 
 ### `welcome`
 
-Utilisez `!welcome` ou `@DraftBot#0535 welcome` pour activer ou désactiver le message de bienvenue. Suite à quoi vous aurez la possibilité de modifier ou non le texte de bienvenue. En cliquant sur la réaction ✅, il vous sera demandé d’insérer le texte à envoyer lors de l’arrivée d’un nouveau membre.
+Utilisez `!welcome` ou `@DraftBot#0535 welcome` pour paramétrer le message de bienvenue. **DraftBot** vous proposera de choisir ce que vous voulez configurer à propos du message de bienvenue et vous devrez répondre par le mot correspondant à ce que vous souhaitez faire:
+
+* `on` → Activer le message de bienvenue 
+* `off` → Désactiver le message de bienvenue 
+* `show` → Afficher le message de bienvenue 
+* `config` → Configurer le message de bienvenue 
+* `reset` → Réinitialiser la configuration du système de bienvenue 
+* `back` → Changer la couleur du fond du message de bienvenue 
+* `color` → Changer la couleur de l'embed du message de bienvenue _\(_[_fonctionnalité premium_](https://www.draftbot.fr/premium)_\)_ 
+* `image` → Mettre une image de fond au message de bienvenue _\(_[_fonctionnalité premium_](https://www.draftbot.fr/premium)_\)_
+
+`confg`, `back`, `color` et `image`, demanderons d'autres paramètres. Il suffit de répondre aux questions comme dans la commande `config`.
 
 ### `autorole`
 
 La commande `!autorole` ou `@DraftBot#0535 autorole` permet de gérer les rôles attribués aux nouveaux membres.  
   
-Un message vous sera envoyé par **DraftBot** pour savoir si vous souhaitez :
+Si vous exécutez la commande, un message vous sera envoyé par **DraftBot** pour savoir ce que vous souhaitez faire. Répondez par le `mot` correspondant à ce que vous voulez faire :
 
-* Ajouter un / des rôle\(s\) attribués aux nouveaux membres → `add`
-* Retirer un / des rôle\(s\) attribués aux nouveaux membres → `remove`
-* Lister les rôles attribués aux nouveaux membres → `list`
-* Supprimer tout les rôles attribués aux nouveaux membres → `reset`
+*  `add` → Ajouter un / des rôle\(s\) attribués aux nouveaux membres
+* `remove` → Retirer un / des rôle\(s\) attribués aux nouveaux membres
+* `list` → Afficher la liste des rôles attribués aux nouveaux membres
+* `reset` → Supprimer tout les rôles attribués aux nouveaux membres 
+
+`add` nécessite un rôle à attribuer aux nouveaux membres et `remove` nécessite un rôle déjà attribué aux nouveaux membres.
 
 ### `logs`
 
-Vous pouvez activer les logs de **DraftBot** afin d'être tenu informé de ses activités :   
-Arrivée et départ d'utilisateurs, modification de la configuration, modification des rôles, du lexique...  
-Pour cela, utilisez simplement la commande `!logs` ou `@DraftBot#0535 logs` afin d'activer ou désactiver les logs. Vous pouvez choisir le salon textuel où seront envoyés ces messages en précisant le nom de ce salon à la suite de la commande, par exemple : `!logs logschannel`
+La commande `!logs` ou `@DraftBot#0535 logs` permet de paramétrer les logs DraftBot, ce qui une fois activé et configuré pourra envoyer dans le salon configuré un message lorsque quelque chose se passe sur votre serveur en fonction des différents modules de logs _\(modération, auto-modération, configuration, arrivées et départs, salons, rôles, émojis, pseudos, transactions, événements, vocal et messages\)_.
+
+Si vous exécutez la commande, un message vous sera envoyé par **DraftBot** pour savoir ce que vous souhaitez faire. Répondez par le `mot` correspondant à ce que vous voulez faire :
+
+*  `on` → Activer le système de logs
+* `off` → Désactiver le système de logs
+* `channel` → Ajouter un salon par défaut où seront envoyés les logs sans salon individuel
+* `color` → Changer la couleurs par défaut des messages de logs
+* `modules` → Configurer un module de logs individuellement
+* `ignore` → Ajouter un salon que les logs ignoreront \(si une action se passe dans le salon\)
+
+`channel` et `ignore` nécessitent le nom d'un salon, `color` nécessite une [couleur en code hex](https://htmlcolorcodes.com/) \(exemple: _\#00000_\) et pour `modules` il faut répondre aux questions comme avec la commande `config`
 
 ### `adminlevel`
 
@@ -124,13 +162,14 @@ Suivez l'activité de vos membres grâce à la fonction de niveaux. Vous pouvez 
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 
-* L'activer → `on`
-* Le désactiver → `off`
-* Le configurer → `config`
-* Multiplier les gains d’un rôle → `boosters`
-* Ne pas prendre en compte un rôle ou salon → `ignore` 
-* Réinitialiser la fonctionnalité → `reset` \(`!adminxp resetall` pour réinitialiser l'expérience\)
-*  Personnaliser la couleur → `color` \(fonctionnalité réservée aux [donateurs](https://www.draftbot.fr/premium)\)
+* `on` → Activer le système de niveaux
+* `off` → Désactiver le système de niveaux
+* `config` → Configure le système de niveaux
+* `boosters` → Multiplier les gains d’un rôle
+* `ignore` → Ne pas prendre en compte un rôle ou salon pour le gain d'expérience
+* `reset` → Réinitialiser la fonctionnalité  \(`!adminxp resetall` pour réinitialiser l'expérience\)
+* `import` → Importer les niveaux du bot MEE6
+* `color` → Personnaliser la couleur des embeds du système  \([fonctionnalité premium](https://www.draftbot.fr/premium)\)
 
 Si vous choisissez de **modifier le gain d'expérience**, en envoyant `config`, vous aurez alors le choix entre quatre propositions:
 
@@ -139,7 +178,7 @@ Si vous choisissez de **modifier le gain d'expérience**, en envoyant `config`, 
            2⃣ \| Entre 15 et 25 XP par message  
            3⃣ \| Entre 25 et 35 XP par message  
   
-Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction de votre choix, en fonction du taux d’expérience que vous voulez à présent faire gagner. 
+Le taux actuel est indiqué par un symbole ✅. Cliquez alors sur la réaction de votre choix, en fonction du taux d’expérience que vous voulez à présent faire gagner par messages. 
 
 Si vous choisissez de **booster un rôle**, en envoyant `boosters`, vous aurez alors le choix entre trois propositions : Ajouter un rôle booster \| Supprimer un rôle booster \| Afficher les rôles boosters
 
@@ -155,8 +194,8 @@ Si vous choisissez de **booster un rôle**, en envoyant `boosters`, vous aurez a
 
 Si vous choisissez d’**ignorer l’expérience**, en envoyant `ignore`, vous aurez le choix entre deux propositions: Ignorer un rôle \| Ignorer un salon 
 
-* Si vous choisissez le rôle, vous devez renseigner le rôle qui empêchera les membres l'ayant de gagner de l’expérience. 
-* Si vous choisissez le salon, vous devez renseigner le salon dans lequel l’expérience ne sera pas comptabilisé.
+* Si vous choisissez le rôle \(1️⃣\), vous devrez renseigner le rôle qui empêchera les membres l'ayant de gagner de l’expérience. 
+* Si vous choisissez le salon \(2️⃣\), vous devrez renseigner le salon dans lequel l’expérience ne sera pas comptabilisé.
 
 Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, **DraftBot** vous supprimera toutes les configurations effectués pour ce système. A savoir:
 
@@ -167,13 +206,38 @@ Si vous choisissez de **réinitialiser la configuration** du système de niveaux
 * Les rôles qui empêchent le gain d'expérience
 * Les salons dans les quels le gain d'expérience est désactivé
 * Les rôles qui permettent de multiplier le gain d'expérience
-* La couleur de la fonctionnalité de niveaux \(fonctionnalité réservée aux [donateurs](https://www.draftbot.fr/premium)\)
+* La couleur de la fonctionnalité de niveaux \([fonctionnalité premium](https://www.draftbot.fr/premium)\)
 
-Si vous choisissez de **modifier la couleur**, en envoyant `color`. \(fonctionnalité réservée aux [donateurs](https://www.draftbot.fr/premium)\) Ensuite il vous suffira de renseigner un code hexadécimal \(il s’agit d’une série de 6 chiffre représentant une couleur\) voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+Si vous choisissez de **modifier la couleur**, en envoyant `color` \([fonctionnalité premium](https://www.draftbot.fr/premium)\) il vous suffira de renseigner un code hexadécimal dont voici un sélecteur pour choisir vos couleurs: [htmlcolorcodes.com](https://htmlcolorcodes.com/)  
+Ces codes sont les mêmes que ceux que vous utilisez pour la couleur de vos rôles.
 
-### `admininvites`
+### `automoderation`
 
-Vous avez la possibilité d'interdire les invitations Discord sur votre serveur, et de les faire supprimer automatiquement par **DraftBot**, pour éviter que vos membres fassent de la pub. Pour cela, il suffit d’exécuter la commande `!admininvites` ou `@DraftBot admininvites` afin d'activer ou désactiver cette fonctionnalité.
+La commande `!automoderation` ou `@DraftBot#0535 automoderation` permet de paramétrer la détection et suppression de messages indésirables sur votre serveur \(_mots interdits, invitations discord, liens externes, spam de messages, mentions excessives, émojis excessifs_\).
+
+Si vous exécutez la commande, un message vous sera envoyé par **DraftBot** pour savoir ce que vous souhaitez faire. Répondez par le `mot` correspondant à ce que vous voulez faire :
+
+* `filter` → Paramétrer la liste de mots interdits
+* `invites` → Paramétrer la détection et suppression d'invitations discord
+* `links` → Paramétrer la détection et suppression de liens externes
+* `spam` → Paramétrer la détection et suppression de spam de messages
+* `mentions` → Paramétrer la détection et suppression de mentions excessives 
+* `emojis` → Paramétrer la détection et suppression d'émojis excessifs
+
+Par la suite vous devrez répondre aux questions posées par **DraftBot** comme dans les autres commandes y compris `config`.
+
+### `autosanctions`
+
+La commande `!autosanction` ou `@DraftBot#0535 autosanction` permet de paramétrer les sanctions automatiques en fonction des infractions attribuées grâce à la détection de messages indésirables du système `automoderation` lié aux différentes catégories d’infractions \(_mots interdits, invitations discord, liens externes, spam de messages, mentions excessives, émojis excessifs_\).
+
+Si vous exécutez la commande, un message vous sera envoyé par **DraftBot** pour savoir ce que vous souhaitez faire. Répondez par le `mot` correspondant à ce que vous voulez faire :
+
+* `create` → Créer une sanction automatique en fonction des infractions
+* `delete` → Supprimer une sanction automatique en fonction des infractions
+* `list` → Afficher la liste des sanctions automatiques
+* `reset` → Réinitialiser les sanctions automatiques
+
+Puis vous devrez répondre aux questions posées par **DraftBot** comme avec les autres commandes dont `config`.
 
 ### `vanish`
 
