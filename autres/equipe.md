@@ -116,8 +116,7 @@ description: >-
     <tr>
       <td style="text-align:center"><a href="https://discordapp.com/users/667362944606273576">Hugo-broc#2021</a>
       </td>
-      <td style="text-align:center"><em>Entretiens en cours</em>
-      </td>
+      <td style="text-align:center">Helper</td>
       <td style="text-align:center"><em>Entretiens en cours</em>
       </td>
     </tr>
