@@ -9,7 +9,7 @@ description: Nous allons à présent configurer DraftBot.
 Pour démarrer le processus de configuration, utilisez la commande `!config` ou `@DraftBot#0535 config`. Répondez ensuite aux questions suivantes en utilisant les réactions ou en envoyant votre choix par écrit.
 
 {% hint style="info" %}
-Vous pouvez également utiliser le panneau de configuration sur le site accessible via la commande [`panel`](https://draftbot.fr/dashboard)ou à l'adresse : [https://draftbot.fr/dashboard](https://draftbot.fr/dashboard)
+Vous pouvez également utiliser le panneau de configuration sur le site accessible via la commande [`panel`](https://draftbot.fr/dashboard)ou à l'adresse suivante : [https://draftbot.fr/dashboard](https://draftbot.fr/dashboard)
 {% endhint %}
 
 ### Choix du préfixe
@@ -30,39 +30,39 @@ Si vous vous trompez dans votre choix, vous pourrez donc toujours faire :
 
 ### Message de bienvenue
 
-La seconde étape concerne le message automatique de bienvenue lorsqu'un membre rejoint le serveur. Le message vous proposera d'activer ce système et pour y répondre vous devrez cliquer sur l'une des deux réactions : 
+La seconde étape concerne le message automatique de bienvenue envoyé lorsqu'un membre rejoint le serveur. Le message vous proposera d'activer ce système et pour y répondre vous devrez cliquer sur l'une des deux réactions : 
 
-* ✅ Pour activer le message de bienvenue 
-* ❌ Pour désactiver le message de bienvenue
+* ✅ Pour activer le message de bienvenue. 
+* ❌ Pour désactiver le message de bienvenue.
 
 Si vous choisissez d'activer le message de bienvenue \(✅\) , vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
 Par exemple _\#accueil, \#bienvenue, \#général ..._
 
-### Message d'au-revoir
+### Message d'au revoir
 
-La troisième étape concerne le message automatique d'au-revoir lorsqu'un membre quitte le serveur. Le message vous proposera d'activer ce système et pour y répondre vous devrez cliquer sur l'une des deux réactions : 
+La troisième étape concerne le message automatique d'au revoir envoyé lorsqu'un membre quitte le serveur. Le message vous proposera d'activer ce système et pour y répondre vous devrez cliquer sur l'une des deux réactions : 
 
-* ✅ Pour activer le message d'au-revoir
-* ❌ Pour désactiver le message d'au-revoir
+* ✅ Pour activer le message d'au revoir.
+* ❌ Pour désactiver le message d'au revoir.
 
-Si vous choisissez d'activer le message d'au-revoir \(✅\), vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
-Par exemple _\#accueil, \#bienvenue, \#général ..._
+Si vous choisissez d'activer le message d'au revoir \(✅\), vous devrez répondre par le nom du salon dans lequel vous souhaitez que les messages soient envoyés.   
+Par exemple : _\#accueil, \#bienvenue, \#général ..._
 
 ### Rôles automatiques
 
-La quatrième étape concerne les rôles automatiques qui peuvent être attribués à l'arrivée d'un nouveau membre. Le message vous proposera d'ajouter des rôles automatiques et pour y répondre vous devrez cliquer sur l'une des deux réactions proposées: 
+La quatrième étape concerne les rôles automatiques qui peuvent être attribués à l'arrivée d'un nouveau membre. Le message vous proposera d'ajouter des rôles automatiques et pour y répondre vous devrez cliquer sur l'une des deux réactions proposées : 
 
-* ✅ Pour ajouter des rôles automatiques
-* ❌ Pour ne pas ajouter de rôle automatique
+* ✅ Pour ajouter des rôles automatiques.
+* ❌ Pour ne pas ajouter de rôle automatique.d
 
-Si vous choisissez de mettre en place des rôles automatiques \(✅\), vous devrez répondre par le nom du / des rôle\(s\) à ajouter aux nouveaux membres et les séparer d'espaces si il y a plusieurs rôles.  
-Par exemple @_membre @humain ..._
+Si vous choisissez de mettre en place des rôles automatiques \(✅\), vous devrez répondre par le nom du / des rôle\(s\) à ajouter aux nouveaux membres et les séparer d'espaces s'il y a plusieurs rôles.  
+Par exemple : @_membre @humain ..._
 
 ### Système de niveaux
 
-La cinquième étape concerne le système de niveaux. Le premier message vous proposera de l'activer et pour y répondre, vous devrez cliquer sur une des deux réactions proposées: 
+La cinquième étape concerne le système de niveaux. Le premier message vous proposera de l'activer et pour y répondre, vous devrez cliquer sur l'une des deux réactions proposées : 
 
-* ✅ Pour activer le système de niveaux
+* ✅ Pour activer le système de niveaux.
 * ❌ Pour désactiver le système de niveaux.
 
 Si vous décidez d'activer le système de niveaux \(✅\), **DraftBot** vous demandera alors quelles quantités d’expérience vos membres pourront recevoir à chaque message et vous devrez cliquer sur une des quatre réactions proposées: 
@@ -72,29 +72,34 @@ Si vous décidez d'activer le système de niveaux \(✅\), **DraftBot** vous dem
            2⃣ \| Entre 15 et 25 XP par message  
            3⃣ \| Entre 25 et 35 XP par message
 
+Par défaut, l'option pour ajouter entre 15 et 25 XP par messages est sélectionnée.
+
 ### Système d'économie
 
-La sixième partie de la configuration concerne le système d'économie virtuelle. Le message vous proposera de l'activer et pour y répondre, vous devrez choisir une des réaction proposées: 
+La sixième partie de la configuration concerne le système d'économie virtuel. Le message vous proposera de l'activer et pour y répondre, vous devrez choisir une des réaction proposées : 
 
-* ✅ Activer le système d'économie
-* ❌ Désactiver le système d'économie
+* ✅ Activer le système d'économie.
+* ❌ Désactiver le système d'économie.
 
-Si vous décidez d'activer le système d'économie \(✅\), **DraftBot** vous demandera alors quelles quantités d'argent vos membres pourront recevoir à chaque message et vous devrez cliquer sur une des quatre réactions proposées: 
+Si vous décidez d'activer le système d'économie \(✅\), **DraftBot** vous demandera alors quelles quantités d'argent vos membres pourront recevoir à chaque message et vous devrez cliquer sur une des quatre réactions proposées : 
 
            0⃣ \| 0 $ par message  
-           1⃣ \| Entre 5 et 15 $ par message  
-           2⃣ \| Entre 15 et 25 $ par message  
-           3⃣ \| Entre 25 et 35 $ par message
+           1⃣ \| Entre 5 et 15 💰 par message  
+           2⃣ \| Entre 15 et 25 💰 par message  
+           3⃣ \| Entre 25 et 35 💰 par message
+
+Par défaut, l'option pour ajouter entre 15 et 25 💰 par messages est sélectionnée.
 
 ### Suppression des messages de commande
 
-La septième et dernière partie de la configuration concerne la suppression des messages de commandes. Le message vous proposera de supprimer les messages de commandes et pour y répondre, vous devrez choisir une des deux réactions proposées: 
+La septième et dernière partie de la configuration concerne la suppression des messages de commandes. Le message vous proposera de supprimer les messages de commandes et pour y répondre, vous devrez choisir une des deux réactions proposées : 
 
 * ✅ Les messages de commande seront supprimés
 * ❌ Les messages de commande seront conservés
 
 {% hint style="success" %}
-Vous avez terminé la configuration de **DraftBot**
+Vous avez terminé la configuration de **DraftBot** !  
+Vous recevrez également un message de confirmation vous récapitulant toutes les configurations effectuées.
 {% endhint %}
 
 {% hint style="info" %}
@@ -110,7 +115,7 @@ Afin de personnaliser au mieux le comportement qu'adoptera le bot sur votre serv
 La commande `!prefix` ou `@DraftBot#0535 prefix` permet de visualiser ou modifier le préfixe utilisé par **DraftBot**. Si vous saisissez le caractère de votre choix à la suite de cette commande, le préfixe sera alors modifié. 
 
 {% hint style="info" %}
-Par exemple, en envoyant `!prefix ?` le préfixe sera modifié en `?`.
+Par exemple, en envoyant `!prefix ?`, le préfixe sera modifié en `?`.
 {% endhint %}
 
 ### `welcome`
