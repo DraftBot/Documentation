@@ -26,7 +26,7 @@ description: >-
         <td style="text-align:center">10/04/2018</td>
     </tr>
     <tr>
-      <td style="text-align:center">&lt;b&gt;&lt;/b&gt;<a href="https://discordapp.com/users/164738865649811457"><b>Panda#9629</b></a>&lt;b&gt;&lt;/b&gt;</td>
+      <td style="text-align:center">&lt;b&gt;&lt;/b&gt;<a href="https://discordapp.com/users/164738865649811457"><b>SagiPierre#9629</b></a>&lt;b&gt;&lt;/b&gt;</td>
       <td
       style="text-align:center">
         <p><b>G&#xE9;rant</b>
