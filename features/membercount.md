@@ -16,9 +16,9 @@ description: >-
 {% hint style="warning" %}
 Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord au bout de : 
 
-* **3 minutes** si votre serveur a **moins de 1000 membres**.
-* **5 minutes** si votre serveur a **entre 1000 et 5000 membres**.
-* **10 minutes** si votre serveur a **plus de 5000 membres**.
+* **2 minutes** si votre serveur a **moins de 250 membres**.
+* **5 minutes** si votre serveur a **moins de 1000 membres**.
+* **10 minutes** si votre serveur a **plus de 1000 membres**.
 {% endhint %}
 
 ## Salons vocaux

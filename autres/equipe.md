@@ -96,7 +96,7 @@ description: >-
       <td style="text-align:center">26/11/2020</td>
     </tr>
     <tr>
-      <td style="text-align:center"><a href="https://discordapp.com/users/691659049569222677">Pavlos#6829</a>
+      <td style="text-align:center"><a href="https://discordapp.com/users/691659049569222677">Pavlos#7087</a>
       </td>
       <td style="text-align:center">Helper r&#xE9;f&#xE9;rent</td>
       <td style="text-align:center">26/11/2020</td>
@@ -114,11 +114,10 @@ description: >-
       <td style="text-align:center">05/06/2021</td>
     </tr>
     <tr>
-      <td style="text-align:center"><a href="https://discordapp.com/users/667362944606273576">Hugo-broc#2021</a>
+      <td style="text-align:center"><a href="https://discordapp.com/users/667362944606273576">Hugo-broc#0998</a>
       </td>
       <td style="text-align:center">Helper</td>
-      <td style="text-align:center"><em>Entretiens en cours</em>
-      </td>
+      <td style="text-align:center">14/08/2021</td>
     </tr>
     <tr>
       <td style="text-align:center"></td>
