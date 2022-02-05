@@ -5,10 +5,9 @@
 * [Configuration](configuration.md)
 * [Changelog](changelog.md)
 
-## Fonctionnalités <a id="features"></a>
+## Fonctionnalités <a href="#features" id="features"></a>
 
-* [Préfixe](features/prefixe/README.md)
-  * [Untitled](features/prefixe/untitled.md)
+* [Préfixe](features/prefixe.md)
 * [Messages de bienvenue/au revoir](features/messages-de-bienvenue-aurevoir.md)
 * [RoleReact](features/rolereact.md)
 * [Niveaux](features/niveaux.md)
@@ -37,4 +36,3 @@
 * [Equipe](autres/equipe.md)
 * [API](autres/api.md)
 * [Contact](autres/contact.md)
-

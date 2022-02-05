@@ -11,10 +11,10 @@ description: >-
 * Soit en forme de [salons vocaux](membercount.md#salons-vocaux) qui pourra indiquer le nombre de membres, salons, rôles, etc.
 * Soit en forme de [catégorie](membercount.md#categorie) qui ne pourra contenir que le nombre de membres.
 
-![](../.gitbook/assets/image%20%2837%29.png)
+![](<../.gitbook/assets/image (37).png>)
 
 {% hint style="warning" %}
-Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord au bout de : 
+Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord au bout de :&#x20;
 
 * **2 minutes** si votre serveur a **moins de 250 membres**.
 * **5 minutes** si votre serveur a **moins de 1000 membres**.
@@ -23,14 +23,14 @@ Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou
 
 ## Salons vocaux
 
-Pour configurer le compteur de membres sous forme de salons vocaux, il vous suffit d'utiliser la commande `membercount` puis cliquer sur la réaction **1**.  
-  
-Vous aurez alors le choix d'activer ou non l'affichage : 
+Pour configurer le compteur de membres sous forme de salons vocaux, il vous suffit d'utiliser la commande `membercount` puis cliquer sur la réaction **1**.\
+\
+Vous aurez alors le choix d'activer ou non l'affichage :&#x20;
 
-* Du nombre de Membres \(Utilisateurs + Bots\)
+* Du nombre de Membres (Utilisateurs + Bots)
 * Du nombre d'humains
 * Du nombre de bots
-* De rôles créés 
+* De rôles créés&#x20;
 * De salons créés
 * Du nombre de membres ayant un rôle spécifique
 
@@ -47,4 +47,3 @@ Après avoir choisi ou non si les bots sont comptabilisés dans les membres du m
 {% hint style="info" %}
 Il vous suffira de remplacer sur le nom de la catégorie **xxxxxx** par ce que vous souhaitez et de mettre les salons voulus dans la catégorie.
 {% endhint %}
-

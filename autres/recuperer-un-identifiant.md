@@ -7,27 +7,27 @@ description: >-
 
 # Récupérer un identifiant
 
-## Message <a id="message"></a>
+## Message <a href="#message" id="message"></a>
 
 {% hint style="info" %}
-Il vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un message.  
-  
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
+Il vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un message.\
+\
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
 
-Pour récupérer l'identifiant d'un message, il vous suffit : 
+Pour récupérer l'identifiant d'un message, il vous suffit :&#x20;
 
 * de laisser appuyer ou de faire clique droit sur un message
 * Puis d'appuyer sur **Copier l'identifiant.**
 
-![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un message](../.gitbook/assets/xvevycnhr2.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvevycnhr2.gif)
 
 ## Rôle
 
 {% hint style="info" %}
 ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un rôle.
 
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
 
 Afin de récupérer l'identifiant d'un rôle, vous devez :
@@ -36,16 +36,16 @@ Afin de récupérer l'identifiant d'un rôle, vous devez :
 * Puis appuyer ou faire clique droit sur le rôle
   * Si vous êtes sur ordinateur, cliquer sur **Copier l'identifiant**.
 
-![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un r&#xF4;le](../.gitbook/assets/rnyfjyyjqw.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un rôle](../.gitbook/assets/rnyfjyyjqw.gif)
 
-Si vous avez besoin de mentionner un rôle \(ex: panel web\), il vous suffit de faire &lt;@&ID-Role&gt;
+Si vous avez besoin de mentionner un rôle (ex: panel web), il vous suffit de faire <@\&ID-Role>
 
 ## Membre
 
 {% hint style="info" %}
 ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un membre.
 
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
 
 Pour récupérer l'identifiant d'un membre, vous devez :
@@ -54,24 +54,24 @@ Pour récupérer l'identifiant d'un membre, vous devez :
   * Si vous êtes sur smartphone, cliquer sur les trois petits points en haut à droite
 * Puis appuyer sur **Copier l'identifiant**.
 
-![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un membre](../.gitbook/assets/t7pza714ce.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un membre](../.gitbook/assets/t7pza714ce.gif)
 
-Si vous avez besoin de mentionner un membre \(ex: panel web\), il vous de mettre &lt;@ID-Membre&gt;
+Si vous avez besoin de mentionner un membre (ex: panel web), il vous de mettre <@ID-Membre>
 
 ## Emoji
 
-Pour obtenir l'identifiant d'un emoji, il vous suffit : 
+Pour obtenir l'identifiant d'un emoji, il vous suffit :&#x20;
 
 * D'écrire votre emoji dans un salon textuel
-* Avant l'emoji, mettez un antislash \(\\)
+* Avant l'emoji, mettez un antislash (\\)
 * Puis envoyez votre message.
 
-![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un emoji](../.gitbook/assets/w08iemnopq.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un emoji](../.gitbook/assets/w08iemnopq.gif)
 
 {% hint style="warning" %}
-Si vous êtes sur **Android**, pour récupérer l'identifiant d'un emoji : 
+Si vous êtes sur **Android**, pour récupérer l'identifiant d'un emoji :&#x20;
 
-* Envoyez```:LeNomDeVotreEmoji:``` dans un salon textuel
+* Envoyez`` `:LeNomDeVotreEmoji:` `` dans un salon textuel
 * Puis copiez le résultat étant l'identifiant de l'emoji
 {% endhint %}
 
@@ -80,24 +80,24 @@ Si vous êtes sur **Android**, pour récupérer l'identifiant d'un emoji :
 {% hint style="info" %}
 ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un salon.
 
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
 
-Pour obtenir l'identifiant d'un salon, vous pouvez : 
+Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
 
 * Appuyer ou faire clique droit sur le nom d'un salon
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un salon](../.gitbook/assets/dvevuepeid.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un salon](../.gitbook/assets/dvevuepeid.gif)
 
-Si vous avez besoin de mentionner un salon \(ex: panel web\), vous devez mettre &lt;\#ID-Salon&gt;
+Si vous avez besoin de mentionner un salon (ex: panel web), vous devez mettre <#ID-Salon>
 
 ## Serveur
 
 {% hint style="info" %}
 ll vous faut au préalable activer le mode développeur pour récupérer l'identifiant d'un serveur.
 
-Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence \(iOS\), Comportement \(Android\) ou Avancés \(ordinateur\) puis d'activer le mode développeur.
+Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
 
 Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
@@ -105,7 +105,5 @@ Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
 * De faire un clique droit ou appuyer sur l'image/nom du serveur
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de r&#xE9;cup&#xE9;ration sur ordinateur de l&apos;identifiant d&apos;un serveur](../.gitbook/assets/qxtda18qko%20%281%29.gif)
-
-
+![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](<../.gitbook/assets/qxtda18qko (1).gif>)
 

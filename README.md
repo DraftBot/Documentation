@@ -17,8 +17,11 @@ description: >-
 * Les **commandes** seront écrites sous forme de `code`
 * Les actions ou réactions à **cliquer** seront entre guillemets " "
 * La **mention** de membre ou de rôle sera indiquée par l'utilisation d'un @
-* Les **arguments** seront indiqués entre crochets et séparés par un slash \[ / \]
-* Les **paramètres** de commandes seront indiqués entre parenthèses \( \)  _Par exemple :_ `!adminmoney [add/remove/set] @membre (nombre) !adminmoney set @DraftBot#0535 100`
+* Les **arguments** seront indiqués entre crochets et séparés par un slash \[ / ]
+* Les **paramètres** de commandes seront indiqués entre parenthèses ( )\
+  \
+  _Par exemple :_\
+  __`!adminmoney [add/remove/set] @membre (nombre)`\
+  `!adminmoney set @DraftBot#0535 100`
 
-#### [_Si vous souhaitez contacter le Support, retrouvez-nous sur Discord en cliquant ici._](https://discord.com/invite/DrzKVU3)\_\_
-
+#### [_Si vous souhaitez contacter le Support, retrouvez-nous sur Discord en cliquant ici._](https://discord.com/invite/DrzKVU3)__

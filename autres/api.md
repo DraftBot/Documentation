@@ -4,24 +4,12 @@ description: Une api destinée aux développeurs !
 
 # API
 
-{% api-method method="get" host="https://api.draftbot.fr" path="/base/commands" %}
-{% api-method-summary %}
-Les commandes
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.draftbot.fr" path="/base/commands" method="get" summary="Les commandes" %}
+{% swagger-description %}
 Permet de récupérer la liste de toutes les commandes, ainsi que leur description, alias, ... ! 
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-Commandes récupérées avec succès.
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="Commandes récupérées avec succès." %}
 ```javascript
 [
     {
@@ -42,35 +30,19 @@ Commandes récupérées avec succès.
     ...
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.draftbot.fr" path="/base/shards" %}
-{% api-method-summary %}
-Shards
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.draftbot.fr" path="/base/shards" method="get" summary="Shards" %}
+{% swagger-description %}
 Permet de récupérer le statut de tous les shards de DraftBot, comprend toutes les informations visibles sur la page status du site.
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-path-parameters %}
-{% api-method-parameter name="" type="string" required=false %}
+{% swagger-parameter in="path" name="" type="string" %}
 
-{% endapi-method-parameter %}
-{% endapi-method-path-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 [
     {
@@ -85,39 +57,23 @@ Permet de récupérer le statut de tous les shards de DraftBot, comprend toutes 
     }
 ]
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
+{% endswagger-response %}
+{% endswagger %}
 
-{% api-method method="get" host="https://api.draftbot.fr" path="/levels" %}
-{% api-method-summary %}
-Niveaux et récompenses
-{% endapi-method-summary %}
-
-{% api-method-description %}
+{% swagger baseUrl="https://api.draftbot.fr" path="/levels" method="get" summary="Niveaux et récompenses" %}
+{% swagger-description %}
 Permet de récupérer la liste de tous les membres, leurs niveaux et les récompenses possibles en fonction des niveaux !
-{% endapi-method-description %}
+{% endswagger-description %}
 
-{% api-method-spec %}
-{% api-method-request %}
-{% api-method-query-parameters %}
-{% api-method-parameter name="guild\_id" type="integer" required=true %}
+{% swagger-parameter in="query" name="guild_id" type="integer" %}
 ID du serveur dont vous souhaitez recevoir les niveaux ainsi que les récompenses
-{% endapi-method-parameter %}
+{% endswagger-parameter %}
 
-{% api-method-parameter name="user\_id" type="integer" required=false %}
+{% swagger-parameter in="query" name="user_id" type="integer" %}
 ID de l'utilisateur ciblé
-{% endapi-method-parameter %}
-{% endapi-method-query-parameters %}
-{% endapi-method-request %}
+{% endswagger-parameter %}
 
-{% api-method-response %}
-{% api-method-response-example httpCode=200 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="200" description="" %}
 ```javascript
 {
     "guild": {
@@ -148,21 +104,14 @@ ID de l'utilisateur ciblé
     "page": 0
 }
 ```
-{% endapi-method-response-example %}
+{% endswagger-response %}
 
-{% api-method-response-example httpCode=404 %}
-{% api-method-response-example-description %}
-
-{% endapi-method-response-example-description %}
-
+{% swagger-response status="404" description="" %}
 ```javascript
 {
     "status": 404,
     "statusText": "NOT FOUND"
 }
 ```
-{% endapi-method-response-example %}
-{% endapi-method-response %}
-{% endapi-method-spec %}
-{% endapi-method %}
-
+{% endswagger-response %}
+{% endswagger %}

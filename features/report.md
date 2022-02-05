@@ -21,11 +21,11 @@ Vous aurez alors la possibilité :
 
 ### Signalement d'un membre
 
-Vos membres peuvent signaler un membre via la commande `report <membre> <descriptif>`.  
-  
+Vos membres peuvent signaler un membre via la commande `report <membre> <descriptif>`.\
+\
 L'équipe du serveur recevra alors un message dans le salon destiné aux signalements avec la raison du report.
 
-![Message type d&apos;un membre signal&#xE9; sur le serveur re&#xE7;u dans le salon d&#xE9;di&#xE9; aux reports](../.gitbook/assets/image%20%2833%29.png)
+![Message type d'un membre signalé sur le serveur reçu dans le salon dédié aux reports](<../.gitbook/assets/image (33).png>)
 
 ### Signalement d'un message
 
@@ -37,5 +37,4 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 
 L'équipe du serveur recevra alors dans le salon dédié aux signalements ce message type.
 
-![Message type d&apos;un message signal&#xE9; sur le serveur re&#xE7;u dans le salon d&#xE9;di&#xE9; aux reports](../.gitbook/assets/image%20%2834%29.png)
-
+![Message type d'un message signalé sur le serveur reçu dans le salon dédié aux reports](<../.gitbook/assets/image (34).png>)

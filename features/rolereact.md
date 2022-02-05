@@ -6,7 +6,7 @@ description: >-
 
 # RoleReact
 
-## Créer le rolereact <a id="create"></a>
+## Créer le rolereact <a href="#create" id="create"></a>
 
 Pour créer un `rolereact`, vous avez le choix entre trois méthodes :
 
@@ -14,21 +14,25 @@ Pour créer un `rolereact`, vous avez le choix entre trois méthodes :
 Peu importe la méthode que vous choisissez, le rolereact devra être sur un message de **DraftBot**.
 {% endhint %}
 
-* **Simple message :** `say [message]`  La commande `say` permet d'envoyer un simple message Discord depuis DraftBot.
+* **Simple message :** `say [message]` \
+  La commande `say` permet d'envoyer un simple message Discord depuis DraftBot.
 
 {% hint style="info" %}
 Vous pourrez modifier ce message dans le futur avec la commande `say` [`[Identifiant du message]`](../autres/recuperer-un-identifiant.md#message) ou depuis le panel web !
 {% endhint %}
 
-* **Embed automatique :** `rolereact create [Titre de l'embed]`  Cette solution vous permet de créer un  embed qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela : 
+* **Embed automatique :** `rolereact create [Titre de l'embed]` \
+  Cette solution vous permet de créer un  embed qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela :&#x20;
 
-![R&#xE9;sultat d&apos;un rolereact utilisant un embed automatique](../.gitbook/assets/image%20%2810%29.png)
+![Résultat d'un rolereact utilisant un embed automatique](<../.gitbook/assets/image (10).png>)
 
-* **Embed personnalisé :** `embed` ou [depuis le panel web](https://www.draftbot.fr/dashboard) dans l'onglet **Embeds** de votre serveur. Cette méthode vous permet de créer un embed totalement personnalisable à votre goût. Voici un exemple de cette méthode :  
+* **Embed personnalisé :** `embed` ou [depuis le panel web](https://www.draftbot.fr/dashboard) dans l'onglet **Embeds** de votre serveur.\
+  Cette méthode vous permet de créer un embed totalement personnalisable à votre goût.\
+  Voici un exemple de cette méthode : &#x20;
 
-![R&#xE9;sultat d&apos;un rolereact utilisant un embed personalis&#xE9;](../.gitbook/assets/image%20%289%29.png)
+![Résultat d'un rolereact utilisant un embed personalisé](<../.gitbook/assets/image (9).png>)
 
-## Ajouter un rôle à un rolereact <a id="add"></a>
+## Ajouter un rôle à un rolereact <a href="#add" id="add"></a>
 
 Pour ajouter à un rôle à un rolereact, il vous suffit d'utiliser la commande `rolereact add [Identifiant du message de DraftBot]`
 
@@ -48,7 +52,7 @@ Et pour finir, **DraftBot** vous demandera quel emoji doit être cliqué pour ob
 Si vous souhaitez ajouter un autre rolereact au même message, il vous suffit de répéter la même opération.
 {% endhint %}
 
-## Supprimer un rôle à un rolereact <a id="delete"></a>
+## Supprimer un rôle à un rolereact <a href="#delete" id="delete"></a>
 
 Pour supprimer un rôle d'un rolereact, il vous suffit d'utiliser la commande `rolereact remove [Identifiant du message de DraftBot]`
 
@@ -64,10 +68,10 @@ Si vous souhaitez supprimer un autre rolereact du même message, il vous suffit 
 
 ## Mode d'un rolereact
 
-Vous pouvez avec **DraftBot** choisir un mode pour vos rôles réactions.   
-Cela vous offre la possibilité de pouvoir retirer un rôle lorsqu'un de vos membres clique sur une réaction par exemple.  
-  
-Vous pouvez configurer cela avec la commande `rolereact mode`.  
+Vous pouvez avec **DraftBot** choisir un mode pour vos rôles réactions. \
+Cela vous offre la possibilité de pouvoir retirer un rôle lorsqu'un de vos membres clique sur une réaction par exemple.\
+\
+Vous pouvez configurer cela avec la commande `rolereact mode`.\
 Après cela, DraftBot vous demandera l'identifiant du message de **DraftBot** pour le rolereact.
 
 {% hint style="info" %}
@@ -76,5 +80,4 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../a
 
 Ensuite vous aurez le choix entre 5 possibilités, que vous aurez à valider en cliquant sur une des réactions en dessous du message de **DraftBot**.
 
-![Message obtenu apr&#xE8;s avoir effectu&#xE9; la commande rolereact mode](../.gitbook/assets/image%20%2832%29.png)
-
+![Message obtenu après avoir effectué la commande rolereact mode](<../.gitbook/assets/image (32).png>)
