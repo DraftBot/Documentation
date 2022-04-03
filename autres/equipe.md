@@ -27,5 +27,6 @@ description: >-
 |          [Tisertyx#1256](https://discord.com/users/622078849857093633)         |                                Helper                                |               05/05/2021               |
 |           [JigSaw#6666](https://discord.com/users/587271930797752321)          |                                Helper                                |               05/06/2021               |
 |        [Hugo-broc#0998](https://discordapp.com/users/667362944606273576)       |                                Helper                                |               14/08/2021               |
+|         [Philippe#3547](https://discordapp.com/users/738713574003834941)       |                                Helper                                |               16/03/2022               |
 |                                                                                |                                                                      |                                        |
 |        [Shkalliis#7184](https://discordapp.com/users/364869974730211329)       |                              Rédactrice                              |               07/06/2020               |
