@@ -10,16 +10,16 @@ description: >-
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
-- Ajout de la commande !youtube.
-- Optimisation de la vitesse de chargement de la liste des serveurs sur le panel.
-- Ajout de la possibilité de supprimer l'image de fond des messages d'arrivée et de départ.
-- Suppression du salon #shards (pour une question de performances), préférez utiliser la page status du site web.
-- Ajout de sécurités supplémentaires concernant les permissions des membercount.
-- Grosse amélioration du système de gestion des shards (devrait permettre de réduire les problèmes causés par la latence de Discord).
+* Ajout de la commande `!youtube`.
+* Optimisation de la vitesse de chargement de la liste des serveurs sur le panel.
+* Ajout de la possibilité de supprimer l'image de fond des messages d'arrivée et de départ.
+* Suppression du salon `#shards` (pour une question de performances), préférez utiliser la page status du site web.
+* Ajout de sécurités supplémentaires concernant les permissions des membercount.
+* Grosse amélioration du système de gestion des shards (devrait permettre de réduire les problèmes causés par la latence de Discord).
 
 ### ♻️ Corrections <a id="corrections"></a>
 
-- Correction d'un bug au niveau de la commande clearchannel qui déplaçait progressivement le salon vers le haut.
+* Correction d'un bug au niveau de la commande `clearchannel` qui déplaçait progressivement le salon vers le haut.
 
 ## 4.13.17 - 02/09/2021 <a id="4-13-17"></a>
 
@@ -28,14 +28,13 @@ description: >-
 * Correction d'un bug au niveau des statistiques du jeu Rainbow Six Siège.
 * Correction d'un bug dans le gameprofil lorsque la plateforme était rentrée en majuscules.
 * Correction d'un bug d'affichage dans la boutique quand un rôle temporaire était supprimé.
-* Ajout d'une sécurité à la commande !8ball lorsqu'un sticker ou une image est envoyé en guise de question.
+* Ajout d'une sécurité à la commande `!8ball` lorsqu'un sticker ou une image est envoyé en guise de question.
 * Ajout de sécurités supplémentaires lors de la création d'un ticket.
 * Ajout de logs d'erreurs lors d'erreurs lorsque l'attribution des cadeaux d'anniversaire échoue.
 * Ajout de sécurités dans le système de rôle en vocal.
 * Correction d'un bug dans le système d'interserveurs lorsqu'une liaison est coupée.
 * Correction d'un bug au niveau de la désactivation de serveurs premiums sous certaines conditions.
-* Correction d'un bug au niveau du délais de 60 secondes dans la commande !rappel.
-
+* Correction d'un bug au niveau du délais de 60 secondes dans la commande `!rappel`.
 
 ## 4.13.16 - 25/08/2021 <a id="4-13-16"></a>
 
@@ -43,10 +42,10 @@ description: >-
 
 * Ajout de la question d'affichage de l'âge à chaque changement de date d'anniversaire.
 * Amélioration du système de messages de bienvenue et d'au revoir pour que les messages soient tout de même envoyés lorsque l'image ne peut pas être générée.
-* Optimisation du changement des images sur le panel et pour les systèmes avec fond personnalisé (!welcome, !goodbye).
+* Optimisation du changement des images sur le panel et pour les systèmes avec fond personnalisé (`!welcome`, `!goodbye`).
 * Réécriture complète du système de captcha avec permettant d'ajout d'erreurs plus précises concernant chaque cas d'erreur.
-* Déplacement de la commande !quote vers la catégorie Conversations
-* Ajout de sécurité au niveau de la validation des pseudos dans la commande !paladins.
+* Déplacement de la commande `!quote` vers la catégorie Conversations
+* Ajout de sécurité au niveau de la validation des pseudos dans la commande `!paladins`.
 
 ### ♻️ Corrections <a id="corrections"></a>
 
@@ -61,7 +60,7 @@ description: >-
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
-* Ajout de l'argument delete à la commande !description.
+* Ajout de l'argument `delete` à la commande `!description`.
 * Ajout d'une sécurité au système de giveaway lorsque l'embed est supprimé.
 * Optimisation du système de captcha.
 * Ajout de sécurités lors de la modification des permissions de salons lorsqu'ils sont créés pour les systèmes de captcha & mute.
@@ -71,16 +70,16 @@ description: >-
 ### ♻️ Corrections <a id="corrections"></a>
 
 * Correction d'un bug qui empêchait l'affichage des statistiques Wolfy d'un utilisateur qui avait pour rôle favori l'héritier.
-* Correction de la commande !adminrole clear.
-* Correction des priorités des messages d'erreurs de la commande !moveconv.
-* Correction d'un problème avec la commande !paladins qui indique que le joueur est introuvable alors qu'il existe bel et bien.
+* Correction de la commande `!adminrole clear`.
+* Correction des priorités des messages d'erreurs de la commande `!moveconv`.
+* Correction d'un problème avec la commande `!paladins` qui indique que le joueur est introuvable alors qu'il existe bel et bien.
 
 ## 4.13.14 - 16/08/2021 <a id="4-13-14"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
 * Optimisation de la commande de configuration du captcha.
-* Optimisation de la rapidité de la commande !buy.
+* Optimisation de la rapidité de la commande `!buy`.
 * Amélioration du clearchannel, le salon est maintenant supprimé avant sa duplication afin d'éviter les problèmes de limites de salons.
 * Ajout d'une sécurité qui permet de vérifier les permissions avant le lancement de la normalisation d'un pseudo.
 * Ajout d'une sécurité à la suppression du rôle de captcha lors de la désactivation du système.
@@ -99,7 +98,7 @@ description: >-
 * Bug au niveau des récompenses de niveaux uniques.
 * Bug au niveau des logs de ratio depuis le panel.
 * Bug au niveau des logs de salons et de rôles lors de l'affichage des permissions.
-* Bug dans la commande !moveconv lorsque les messages étaient plus vieux que de 2 semaines.
+* Bug dans la commande `!moveconv` lorsque les messages étaient plus vieux que de 2 semaines.
 
 ## 4.13.13 - 15/08/2021 <a id="4-13-13"></a>
 
@@ -111,14 +110,14 @@ description: >-
 * Vérification des permissions avant de supprimer les messages dans l'automod.
 * Ajout de la permission "Attacher des fichiers" aux permissions requises par défaut pour l'execution de toutes les commandes.
 * Ajout de sécurités aux commandes de statistiques et de jeux lorsque le message de base est supprimé.
-* Ajout d'une sécurité à la commande normalize si la normalisation n'est pas possible.
-* Ajout de sécurités aux commandes games, suggest, react, membercount et giveaway dans le cas où DraftBot n'aurait pas les permissions requises
+* Ajout d'une sécurité à la commande `normalize` si la normalisation n'est pas possible.
+* Ajout de sécurités aux commandes `games`, `suggest`, `react`, `membercount` et `giveaway` dans le cas où DraftBot n'aurait pas les permissions requises
 * Ajout de 10 shards supplémentaires.
 
 ### ♻️ Corrections <a id="corrections"></a>
 
 * Une erreur de conception dans le système de récompenses
-* Plusieurs bugs concernant la commande de statistiques paladins
+* Plusieurs bugs concernant la commande de statistiques `paladins`
 * Mentions des interserveurs provoquant un affichage moins propre sur téléphone
 * Problème d'affichage des logs de modifications de permissions pour les salons
 * Un glitch qui permettait de rentrer des nombres à virgules sur le panel
@@ -139,6 +138,7 @@ description: >-
 * Bug présent dans la suppression des messages du moveconv.
 * Bug présent dans la commande de statistiques du jeu Rainbow Six Siège.
 * Bug présent qui provoquait des spam des mp lors d'un glitch de dépassement de limite de serveurs premium avec des serveurs supprimés.
+
 ## 4.13.11 - 12/08/2021 <a id="4-13-11"></a>
 
 ### ✨ Changements <a id="changements"></a>
@@ -150,24 +150,25 @@ description: >-
 * Bug d'affichage de noms de l'infractions dans certains cas dans le système d'auto-modération.
 * Plusieurs fautes d'orthographe.
 
+
 ## 4.13.10 - 05/08/2021 <a id="4-13-10"></a>
 
 ### ✨ Changements <a id="changements"></a>
 
 * Optimisation du chargement de la page premium.
 * Optimisation du chargement de DraftBot.fr en ne chargeant Stripe que dans la page premium.
-* Amélioration de la liste des liens dans la commande !help
-* Changement des arguments desactivate en deactivate dans les commandes !birthday et !premium.
+* Amélioration de la liste des liens dans la commande `!help`
+* Changement des arguments `desactivate` en `deactivate` dans les commandes `!birthday` et `!premium`.
 * Nombre de brawlers dans la commande de statistiques de Brawlstars.
-* Ajout des nouvelles variables manquantes au système d'anniversaire ({date}, {time}, {timestamp})
+* Ajout des nouvelles variables manquantes au système d'anniversaire (`{date}`, `{time}`, `{timestamp}`)
 * Désactivation des messages de bienvenue lorsque DraftBot n'a pas les permissions nécessaires.
-* Logs d'Arrivés & départs renommés en Arrivées & départs.
+* Logs d'`Arrivés & départs` renommés en `Arrivées & départs`.
 
 ### ♻️ Corrections <a id="corrections"></a>
 
 * Bug présent lors d’une commande personnalisée avec une image seulement.
 * Bug au niveau de la backup avec les salons stage et threads.
-* Bug de duplication d'images dans la commande suggest accept/refuse.
+* Bug de duplication d'images dans la commande `suggest accept/refuse`.
 * Bug dans le sélectionneur de rôles qui prenait un rôle aléatoire lorsqu'un Sticker ou Fichier était donné.
 * Quelques fautes d'orthographe.
 
@@ -182,27 +183,27 @@ description: >-
 
 ### ♻️ **Corrections** <a id="corrections"></a>
 
-* Correction d'un bug d'affichage au niveau de la variable {time}.
+* Correction d'un bug d'affichage au niveau de la variable `{time}`.
 
 ## 4.13.8 - 26/07/2021 <a id="4-13-8"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
 * Amélioration du système du système anti-invites afin de bloquer toutes les invitations non officielles.
-(discord.io, dsc.gg, dsc.ink, dsc.lol, discord.limited, discord.homes, discord.fyi)
+(`discord.io`, `dsc.gg`, `dsc.ink`, `dsc.lol`, `discord.limited`, `discord.homes`, `discord.fyi`)
 
 ### ♻️ **Corrections** <a id="corrections"></a>
 
-* Bug d'affichage de couleur dans la commande !adminlogs lors qu’aucune couleur n'a été définie.
+* Bug d'affichage de couleur dans la commande `!adminlogs` lors qu’aucune couleur n'a été définie.
 * Bug du nombre d'items dans dans la commande de création d'un item pour les récompenses.
-* Bug présent dans la commande say lorsqu'une image est envoyé sans contenu.
+* Bug présent dans la commande `say` lorsqu'une image est envoyé sans contenu.
 * Bug présent au niveau de la fonctionnalité d'évents qui empêchait son arrêt.
 * Bug au niveau des rôles temporaires en conflits avec la suppression manuelle du rôle.
 * Bug lors de l'affichage des noms de rôles avec les récompenses de niveau.
 * Bug présent lors de la récupération de rôles uniques au retour d'un membre sur le serveur.
 * Bug des membres non comptabilisés dans les fonctionnalités event et giveaway.
 * Bug présent lorsque l'on sélectionne plusieurs rôles/salons.
-* Bug présent au niveau de la variable {time}.
+* Bug présent au niveau de la variable `**{time}**`.
 
 ## 4.13.7 - 24/07/2021 <a id="4-13-7"></a>
 
