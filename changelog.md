@@ -6,6 +6,30 @@ description: >-
 
 # Changelog
 
+## 4.13.13 - 15/08/2021 <a id="4-13-13"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Amélioration de la gestion des erreurs afin de mieux gérer les futurs problèmes et interventions.
+* Amélioration de tous les messages d'erreurs, ils apportent maintenant la solution exacte pour chaque cas spécifique.
+* Amélioration des fréquences d'actualisation des compteurs de membres.
+* Vérification des permissions avant de supprimer les messages dans l'automod.
+* Ajout de la permission "Attacher des fichiers" aux permissions requises par défaut pour l'execution de toutes les commandes.
+* Ajout de sécurités aux commandes de statistiques et de jeux lorsque le message de base est supprimé.
+* Ajout d'une sécurité à la commande normalize si la normalisation n'est pas possible.
+* Ajout de sécurités aux commandes games, suggest, react, membercount et giveaway dans le cas où DraftBot n'aurait pas les permissions requises
+* Ajout de 10 shards supplémentaires.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Une erreur de conception dans le système de récompenses
+* Plusieurs bugs concernant la commande de statistiques paladins
+* Mentions des interserveurs provoquant un affichage moins propre sur téléphone
+* Problème d'affichage des logs de modifications de permissions pour les salons
+* Un glitch qui permettait de rentrer des nombres à virgules sur le panel
+* Un problème d'édition des messages sur l'embed creator sous certaines conditions
+* Bug retirant l'image des logs sur le Panel lorsque le salon choisit était modifié
+
 ## 4.13.12 - 13/08/2021 <a id="4-13-12"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
