@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## 4.13.9 - 28/07/2021 <a id="4-13-9"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Ajout des 3 nouveaux brawlers sur les statistiques: Squeak, Buzz et Griff.
+* Changement de la valeur minimale du bingo (1 - 10000).
+* Blocage de la création d'une commande personnalisée lorsque le nom est déjà utilisé par une commande.
+* La commande delconv permet maintenant de supprimer des messages ayant été envoyés avant les 100 derniers messages.
+
+### ♻️ **Corrections** <a id="corrections"></a>
+
+* Correction d'un bug d'affichage au niveau de la variable {time}.
+
 ## 4.13.8 - 26/07/2021 <a id="4-13-8"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
