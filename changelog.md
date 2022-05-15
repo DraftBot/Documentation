@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## 4.13.16 - 25/08/2021 <a id="4-13-16"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de la question d'affichage de l'âge à chaque changement de date d'anniversaire.
+* Amélioration du système de messages de bienvenue et d'au revoir pour que les messages soient tout de même envoyés lorsque l'image ne peut pas être générée.
+* Optimisation du changement des images sur le panel et pour les systèmes avec fond personnalisé (!welcome, !goodbye).
+* Réécriture complète du système de captcha avec permettant d'ajout d'erreurs plus précises concernant chaque cas d'erreur.
+* Déplacement de la commande !quote vers la catégorie Conversations
+* Ajout de sécurité au niveau de la validation des pseudos dans la commande !paladins.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction de l'importation de la version pour le système de release dans Sentry
+* Correction d'un problème au niveau de la création du rôle mute.
+* Correction d'un bug au niveau de l'affichage d'un giveaway avec comme récompense un rôle supprimé.
+* Correction d'un bug au niveau du suivi des actions temporaires.
+* Correction d'un bug présent sur le panel au niveau du sélecteur de couleurs de l'Embed Creator.
+* Correction de plusieurs fautes d’orthographe sur le panel et sur le bot.
+
 ## 4.13.15 - 24/08/2021 <a id="4-13-15"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
