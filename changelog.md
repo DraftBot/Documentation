@@ -6,6 +6,22 @@ description: >-
 
 # Changelog
 
+## 4.13.17 - 02/09/2021 <a id="4-13-17"></a>
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction d'un bug au niveau des statistiques du jeu Rainbow Six Siège.
+* Correction d'un bug dans le gameprofil lorsque la plateforme était rentrée en majuscules.
+* Correction d'un bug d'affichage dans la boutique quand un rôle temporaire était supprimé.
+* Ajout d'une sécurité à la commande !8ball lorsqu'un sticker ou une image est envoyé en guise de question.
+* Ajout de sécurités supplémentaires lors de la création d'un ticket.
+* Ajout de logs d'erreurs lors d'erreurs lorsque l'attribution des cadeaux d'anniversaire échoue.
+* Ajout de sécurités dans le système de rôle en vocal.
+* Correction d'un bug dans le système d'interserveurs lorsqu'une liaison est coupée.
+* Correction d'un bug au niveau de la désactivation de serveurs premiums sous certaines conditions.
+* Correction d'un bug au niveau du délais de 60 secondes dans la commande !rappel.
+
+
 ## 4.13.16 - 25/08/2021 <a id="4-13-16"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
