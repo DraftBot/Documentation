@@ -6,6 +6,26 @@ description: >-
 
 # Changelog
 
+## 4.13.8 - 26/07/2021 <a id="4-13-8"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* - Amélioration du système du système anti-invites afin de bloquer toutes les invitations non officielles.
+(discord.io, dsc.gg, dsc.ink, dsc.lol, discord.limited, discord.homes, discord.fyi)
+
+### ♻️ **Corrections** <a id="corrections"></a>
+
+* Bug d'affichage de couleur dans la commande !adminlogs lors qu’aucune couleur n'a été définie.
+* Bug du nombre d'items dans dans la commande de création d'un item pour les récompenses.
+* Bug présent dans la commande say lorsqu'une image est envoyé sans contenu.
+* Bug présent au niveau de la fonctionnalité d'évents qui empêchait son arrêt.
+* Bug au niveau des rôles temporaires en conflits avec la suppression manuelle du rôle.
+* Bug lors de l'affichage des noms de rôles avec les récompenses de niveau.
+* Bug présent lors de la récupération de rôles uniques au retour d'un membre sur le serveur.
+* Bug des membres non comptabilisés dans les fonctionnalités event et giveaway.
+* Bug présent lorsque l'on sélectionne plusieurs rôles/salons.
+* Bug présent au niveau de la variable {time}.
+
 ## 4.13.7 - 24/07/2021 <a id="4-13-7"></a>
 
 ### ✨ Nouveautés
