@@ -188,7 +188,7 @@ description: >-
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
-* - Amélioration du système du système anti-invites afin de bloquer toutes les invitations non officielles.
+* Amélioration du système du système anti-invites afin de bloquer toutes les invitations non officielles.
 (discord.io, dsc.gg, dsc.ink, dsc.lol, discord.limited, discord.homes, discord.fyi)
 
 ### ♻️ **Corrections** <a id="corrections"></a>
