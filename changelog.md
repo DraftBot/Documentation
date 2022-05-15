@@ -6,6 +6,32 @@ description: >-
 
 # Changelog
 
+## 4.13.14 - 16/08/2021 <a id="4-13-14"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Optimisation de la commande de configuration du captcha.
+* Optimisation de la rapidité de la commande !buy.
+* Amélioration du clearchannel, le salon est maintenant supprimé avant sa duplication afin d'éviter les problèmes de limites de salons.
+* Ajout d'une sécurité qui permet de vérifier les permissions avant le lancement de la normalisation d'un pseudo.
+* Ajout d'une sécurité à la suppression du rôle de captcha lors de la désactivation du système.
+* Ajout d'une sécurité au niveau des permissions d'envoi des messages récurrents.
+* Ajout de sécurités au système de salons privés lorsque DraftBot n'a pas les permissions nécessaires.
+* Ajout de sécurités au niveau des requêtes des images d'émotions.
+* Ajout de nombreuses sécurités lors de l'envoi de messages d'erreurs.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug présent dans le système de channelperms une fois les 30 secondes d'attente dépassées.
+* Bug présent au niveau de la mise à jour des permissions des salons pour le mute et le captcha si DraftBot n'avait pas la permission administrateur.
+* Bug dans le userinfo lorsque l'utilisateur n'a aucun badge.
+* Bug au niveau des statistiques qui permettait dans certaines conditions d'envoyer la plate-forme dans un mauvais format.
+* Bug au niveau du système de logs de rôles lors de la création d'un rôle sans permission.
+* Bug au niveau des récompenses de niveaux uniques.
+* Bug au niveau des logs de ratio depuis le panel.
+* Bug au niveau des logs de salons et de rôles lors de l'affichage des permissions.
+* Bug dans la commande !moveconv lorsque les messages étaient plus vieux que de 2 semaines.
+
 ## 4.13.13 - 15/08/2021 <a id="4-13-13"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
