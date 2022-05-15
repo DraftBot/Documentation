@@ -6,6 +6,31 @@ description: >-
 
 # Changelog
 
+## 4.13.12 - 13/08/2021 <a id="4-13-12"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Amélioration de la gestion de problèmes dans le système de giveaway.
+* Amélioration de la gestion des erreurs au niveau des actions temporaires (tempmute, tempban, temprole, rappel).
+* Optimisation du système de votes.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug présent dans le système de logs de salons lors de l'affichage des permissions.
+* Bug présent dans la suppression des messages du moveconv.
+* Bug présent dans la commande de statistiques du jeu Rainbow Six Siège.
+* Bug présent qui provoquait des spam des mp lors d'un glitch de dépassement de limite de serveurs premium avec des serveurs supprimés.
+## 4.13.11 - 12/08/2021 <a id="4-13-11"></a>
+
+### ✨ Changements <a id="changements"></a>
+
+* Refonte du système de détection des infractions (il gagne en rapidité et en réactivité)
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug d'affichage de noms de l'infractions dans certains cas dans le système d'auto-modération.
+* Plusieurs fautes d'orthographe.
+
 ## 4.13.10 - 05/08/2021 <a id="4-13-10"></a>
 
 ### ✨ Changements <a id="changements"></a>
