@@ -6,6 +6,27 @@ description: >-
 
 # Changelog
 
+## 4.13.10 - 05/08/2021 <a id="4-13-10"></a>
+
+### ✨ Changements <a id="changements"></a>
+
+* Optimisation du chargement de la page premium.
+* Optimisation du chargement de DraftBot.fr en ne chargeant Stripe que dans la page premium.
+* Amélioration de la liste des liens dans la commande !help
+* Changement des arguments desactivate en deactivate dans les commandes !birthday et !premium.
+* Nombre de brawlers dans la commande de statistiques de Brawlstars.
+* Ajout des nouvelles variables manquantes au système d'anniversaire ({date}, {time}, {timestamp})
+* Désactivation des messages de bienvenue lorsque DraftBot n'a pas les permissions nécessaires.
+* Logs d'Arrivés & départs renommés en Arrivées & départs.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug présent lors d’une commande personnalisée avec une image seulement.
+* Bug au niveau de la backup avec les salons stage et threads.
+* Bug de duplication d'images dans la commande suggest accept/refuse.
+* Bug dans le sélectionneur de rôles qui prenait un rôle aléatoire lorsqu'un Sticker ou Fichier était donné.
+* Quelques fautes d'orthographe.
+
 ## 4.13.9 - 28/07/2021 <a id="4-13-9"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
