@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## 4.13.18 - 14/09/2021 <a id="4-13-18"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+- Ajout de la commande !youtube.
+- Optimisation de la vitesse de chargement de la liste des serveurs sur le panel.
+- Ajout de la possibilité de supprimer l'image de fond des messages d'arrivée et de départ.
+- Suppression du salon #shards (pour une question de performances), préférez utiliser la page status du site web.
+- Ajout de sécurités supplémentaires concernant les permissions des membercount.
+- Grosse amélioration du système de gestion des shards (devrait permettre de réduire les problèmes causés par la latence de Discord).
+
+### ♻️ Corrections <a id="corrections"></a>
+
+- Correction d'un bug au niveau de la commande clearchannel qui déplaçait progressivement le salon vers le haut.
+
 ## 4.13.17 - 02/09/2021 <a id="4-13-17"></a>
 
 ### ♻️ Corrections <a id="corrections"></a>
