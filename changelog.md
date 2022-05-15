@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## 4.13.15 - 24/08/2021 <a id="4-13-15"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de l'argument delete à la commande !description.
+* Ajout d'une sécurité au système de giveaway lorsque l'embed est supprimé.
+* Optimisation du système de captcha.
+* Ajout de sécurités lors de la modification des permissions de salons lorsqu'ils sont créés pour les systèmes de captcha & mute.
+* Ajout de la permission voir le salon aux permissions requises de DraftBot pour l’exécution des commandes de déplacement de conversations.
+* Passage de 250 à 200 caractères pour le nom d'un article dans la boutique afin d'éviter une erreur de longueur.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction d'un bug qui empêchait l'affichage des statistiques Wolfy d'un utilisateur qui avait pour rôle favori l'héritier.
+* Correction de la commande !adminrole clear.
+* Correction des priorités des messages d'erreurs de la commande !moveconv.
+* Correction d'un problème avec la commande !paladins qui indique que le joueur est introuvable alors qu'il existe bel et bien.
+
 ## 4.13.14 - 16/08/2021 <a id="4-13-14"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
