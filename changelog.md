@@ -92,7 +92,7 @@ description: >-
 * Interaction: `interserver`, `remindme`, `report`, `restrictemoji`, `rules`, `suggest` et `ticket`.
 
 ### ✨ Nouveau module open-source pour la météo 
- (DraftBot/weather-js) (typescript, promesses, parsing xml rapide, suppression des dépendances dépréciées : request, xml2js etc...)
+ [(DraftBot/weather-js)](https://github.com/DraftBot/weather) (typescript, promesses, parsing xml rapide, suppression des dépendances dépréciées : request, xml2js etc...)
 
 
 ## 4.15.6 - 13/04/2022 <a id="4-15-6-1"></a>
@@ -601,7 +601,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Utilisation de l'avatar du membre sur le serveur dans le `userinfo`
 * Ajout des icônes de rôles dans le `roleinfo`
 * Ajout du nombre de threads dans la commande `serverinfo`
-* Ajout de boutons pour passer à l'étape d'ajout dans les commandes `socialnotif youtube/twitch/reddi`, `automod filter` et `wordreact`
+* Ajout de boutons pour passer à l'étape d'ajout dans les commandes `socialnotif youtube/twitch/reddit`, `automod filter` et `wordreact`
 * Ajout de la possibilité de reset toute la configuration de logs d'un serveur
 * Ajout de messages dans le salon du ticket lorsqu'une action le concernant est réalisée 
 
