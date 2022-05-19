@@ -164,6 +164,7 @@ description: >-
 * Niveaux : `level`, `toplevel`, `rewards`, `dropxp` et `updatexp`.
 * Émotions : `cuddle`, `feed`, `hug`, `kiss`, `pat`, `poke`, `slap` et `tickle`.
 * Statistiques : /stats `apex`, `brawlhalla`, `brawlstars`, `clashofclans`, `clashroyale`, `division2`, `fortnite`, `lol`, `osu`, `overwatch`, `paladins`, `r6` et `wolfy`.
+
 ## 4.15.4 - 18/03/2022 <a id="4-15-4"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
@@ -436,14 +437,14 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 
 ### 🐛 Corrections <a id="corrections"></a>
 
-- Bug qui empêchait la suppression d'une case de calendrier de l'avent lorsqu'il n'y avait qu'une seule case.
-- Bug qui empêchait d'utiliser la commande `!quote` sur un message envoyé par un webhook.
-- Bug qui pouvait parfois empêcher le gain d'argent dans les fils Discord.
-- Amélioration globale des messages informant que le premium est requis pour certaines options (message moins imposant).
-- Bug qui pouvait survenir lors du dépassement du délais de 60 secondes dans la configuration des `!channelsperms`.
-- Bug qui empêchait l'envoi des logs de la commande (`!pay`) si la raison était une image.
-- Bug qui pouvait faire apparaitre un id incorrect dans la commande `!sanctions` si le modérateur ayant fait la sanction n'était plus sur le serveur.
-- Plusieurs fautes d'orthographe.
+* Bug qui empêchait la suppression d'une case de calendrier de l'avent lorsqu'il n'y avait qu'une seule case.
+* Bug qui empêchait d'utiliser la commande `!quote` sur un message envoyé par un webhook.
+* Bug qui pouvait parfois empêcher le gain d'argent dans les fils Discord.
+* Amélioration globale des messages informant que le premium est requis pour certaines options (message moins imposant).
+* Bug qui pouvait survenir lors du dépassement du délais de 60 secondes dans la configuration des `!channelsperms`.
+* Bug qui empêchait l'envoi des logs de la commande (`!pay`) si la raison était une image.
+* Bug qui pouvait faire apparaitre un id incorrect dans la commande `!sanctions` si le modérateur ayant fait la sanction n'était plus sur le serveur.
+* Plusieurs fautes d'orthographe.
 
 ## 4.14.4 - 30/11/2021 <a id="4-14-4-1"></a>
 
@@ -943,7 +944,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction de tous les logs provenant des actions du panel.
 * Correction des logs de sanctions temporaires.
 
-## 4.13.1 - 06/07/2021
+## 4.13.1 - 06/07/2021 <a id="4-13-1"></a>
 
 ### ♻️ Corrections <a id="corrections"></a>
 
@@ -959,7 +960,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug présent lors de l'activation de la mention dans le système de reports.
 * Correction d'un bug de mentions lors de messages d'annonces d'anniversaire.
 
-## 4.13.0 - 05/07/2021
+## 4.13.0 - 05/07/2021 <a id="4-13-0"></a>
 
 ### ✨ **Nouveautés** <a id="nouveautes"></a>
 
