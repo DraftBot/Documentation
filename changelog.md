@@ -229,7 +229,7 @@ description: >-
 * Correction d'un bug qui empêchait de valider les nombres écrits avec les points à chaque centaine (`100.000`)
 * Correction d'un bug qui empêchait d'exécuter la commande profil en mp.
 
-## 4.15.0 -09/03/2022 <a id="4-15-0"></a>
+## 4.15.0 - 09/03/2022 <a id="4-15-0"></a>
 
 ### **✨ Slash commands** <a id="slash-commands"></a>
 Comme imposé par Discord, les commandes Slash vont petit à petit faire leur apparition dans cette version. 
@@ -476,7 +476,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Désactivation des commandes d'émotions en messages privés.
 * Correction d'un bug dans le système de sélection des catégories Dealabs depuis la commande.
 
-## 4.14.3 12/11/2021 <a id="4-14-3-1"></a>
+## 4.14.3 - 12/11/2021 <a id="4-14-3-1"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
