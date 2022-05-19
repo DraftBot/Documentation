@@ -18,11 +18,11 @@ description: >-
 
 ### 🐛 Corrections <a id="corrections"></a>
 
-- Il y avait un bug dans la matrice de l'IA de DraftBot qui le rendait nul au morpion. 🤯
-- Correction d'un bug qui prévalait l'égalité en cas de victoire.
-- Le rôle "Live" sera de nouveau retiré correctement lors de la fin d'un live via présence.
-- Il est de nouveau possible d'ajouter une chaîne Twitch, YouTube ou un Subreddit via la commande `!socialnotif`.
-- Un bug a été corrigé dans les annonces EpicGames, empêchant leur envoi sur vos serveurs.
+* Il y avait un bug dans la matrice de l'IA de DraftBot qui le rendait nul au morpion. 🤯
+* Correction d'un bug qui prévalait l'égalité en cas de victoire.
+* Le rôle "Live" sera de nouveau retiré correctement lors de la fin d'un live via présence.
+* Il est de nouveau possible d'ajouter une chaîne Twitch, YouTube ou un Subreddit via la commande `!socialnotif`.
+* Un bug a été corrigé dans les annonces EpicGames, empêchant leur envoi sur vos serveurs.
 
 ## 4.15.8 - 03/05/2022 <a id="4-15-8"></a>
 
@@ -185,15 +185,15 @@ description: >-
 
 ### 🗒️ Changements <a id="changements"></a>
 
-- Correction d'un bug qui empêchait de créer un rôle réaction à partir d'un message d'utilisateur sur le panel.
-- Augmentation des limites de tailles des settings autorisés afin d'éviter à certains gros serveurs de dépasser cette limite.
-- Ajout d'un message d'erreur lorsque la commande `clearchannel` est exécutée dans un fil.
-- Ajout d'un message personnalisé si le membre ne peut être mute pour un problème de permissions.
-- Correction d'un bug d'affichage de la date de fin dans les rappels.
-- Correction d'un bug, principalement dans la commande `shop`, en cas de changement de page après un achat
-- Correction d'un bug d'affichage de certains messages d'erreurs du système de tickets.
-- Correction d'un bug avec la commande `quote` lors de l'utilisation de liens de messages.
-- Correction d'un bug au niveau du `rolereact remove` pour la suppression de boutons.
+* Correction d'un bug qui empêchait de créer un rôle réaction à partir d'un message d'utilisateur sur le panel.
+* Augmentation des limites de tailles des settings autorisés afin d'éviter à certains gros serveurs de dépasser cette limite.
+* Ajout d'un message d'erreur lorsque la commande `clearchannel` est exécutée dans un fil.
+* Ajout d'un message personnalisé si le membre ne peut être mute pour un problème de permissions.
+* Correction d'un bug d'affichage de la date de fin dans les rappels.
+* Correction d'un bug, principalement dans la commande `shop`, en cas de changement de page après un achat
+* Correction d'un bug d'affichage de certains messages d'erreurs du système de tickets.
+* Correction d'un bug avec la commande `quote` lors de l'utilisation de liens de messages.
+* Correction d'un bug au niveau du `rolereact remove` pour la suppression de boutons.
 
 ## 4.15.2 - 14/03/2022 <a id="4-15-2"></a>
 
@@ -509,12 +509,12 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 
 ### 🐛 Corrections <a id="corrections"></a>
 
-- Problèmes de statuts dans la commande `shards` ainsi que sur la page `/statuts`.
-- Panne globale présente sur le panel depuis plus d'une semaine.
-- Bug permettant de participer à un `dropxp` ou `dropmoney` lorsque l'on a atteint la limite.
-- Problème avec certaines preview d'images/vidéos d'annonces Reddit.
-- Conflits entre les lives présence et les annonces YouTube.
-- Bugs dans les commandes `adminshop` et `adminsanctions`.
+* Problèmes de statuts dans la commande `shards` ainsi que sur la page `/statuts`.
+* Panne globale présente sur le panel depuis plus d'une semaine.
+* Bug permettant de participer à un `dropxp` ou `dropmoney` lorsque l'on a atteint la limite.
+* Problème avec certaines preview d'images/vidéos d'annonces Reddit.
+* Conflits entre les lives présence et les annonces YouTube.
+* Bugs dans les commandes `adminshop` et `adminsanctions`.
 
 ## 4.14.2 - 30/10/2021 <a id="4-14-2"></a>
 
@@ -1430,4 +1430,3 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Problèmes avec la réinitialisation du système de niveaux résolus
 * Problème avec l'argent de départ après une réinitialisation de l'argent
 * Problème avec la virgule du filter qui créait un bug
-
