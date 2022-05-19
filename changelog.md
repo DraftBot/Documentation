@@ -6,7 +6,7 @@ description: >-
 
 # Changelog
 
-## 4.15.9 - 06/05/2022 <a id="4-15-9"></a>
+## [4.15.9 - 06/05/2022](https://discord.com/channels/422112414964908042/599942732559024138/971917384124362762) <a id="4-15-9"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -24,7 +24,7 @@ description: >-
 * Il est de nouveau possible d'ajouter une chaîne Twitch, YouTube ou un Subreddit via la commande `!socialnotif`.
 * Un bug a été corrigé dans les annonces EpicGames, empêchant leur envoi sur vos serveurs.
 
-## 4.15.8 - 03/05/2022 <a id="4-15-8"></a>
+## [4.15.8 - 03/05/2022](https://discord.com/channels/422112414964908042/599942732559024138/970862861054267454) <a id="4-15-8"></a>
 
 ### 🐛 Corrections <a id="corrections"></a>
 
@@ -32,7 +32,7 @@ description: >-
 * Correction d'un bug présent lors de la création d'un message récurrent via la commande `!repeatmsg`.
 * Correction de la description de certaines commandes slash.
 
-## 4.15.8 - 02/05/2022 <a id="4-15-8"></a>
+## [4.15.8 - 02/05/2022](https://discord.com/channels/422112414964908042/599942732559024138/970484865092960347) <a id="4-15-8"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -53,7 +53,7 @@ description: >-
 * Ajout d'un avertissement si un rôle ayant la permission "admin" est en train d'être ajouté aux rôlereact.
 * Correction d'un bug présent dans le système de configuration d'un sélecteur pour le message d'ouverture de tickets.
 
-## 4.15.7 - 29/04/2022 <a id="4-15-7"></a>
+## [4.15.7 - 29/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/969370128091336734) <a id="4-15-7"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
@@ -95,7 +95,7 @@ description: >-
  [(DraftBot/weather-js)](https://github.com/DraftBot/weather) (typescript, promesses, parsing xml rapide, suppression des dépendances dépréciées : request, xml2js etc...)
 
 
-## 4.15.6 - 13/04/2022 <a id="4-15-6-1"></a>
+## [4.15.6 - 13/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/963607891615559680) <a id="4-15-6-1"></a>
 
 ### 🗒️ Corrections  <a id="corrections"></a>
 
@@ -104,7 +104,7 @@ description: >-
 * Grosse amélioration des messages d'erreurs lis à la création de webhooks pour toutes les fonctionnalités les utilisant (logs, modération, commandes de conversations, inter-serveurs).
 * Correction d'un problème présent dans plusieurs systèmes liés aux webhooks.
 
-## 4.15.6 - 12/04/2022 <a id="4-15-6"></a>
+## [4.15.6 - 12/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/963246541852774510) <a id="4-15-6"></a>
 
 ### ✨ Nouveautés  <a id="nouveautes"></a>
 
@@ -129,7 +129,7 @@ description: >-
 * Inventaire : `inventory`, `give`, `updateinventory`.
 * Conversations : `clear channel`, `clear conversation`, `clear messages`, `copy`, `move`, `quote` et `save conversation`.
 
-## 4.15.5 - 01/04/2022 <a id="4-15-5"></a>
+## [4.15.5 - 01/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/959225660742701116) <a id="4-15-5"></a>
 
 ### ✨ Nouveautés  <a id="nouveautes"></a>
 
@@ -165,7 +165,7 @@ description: >-
 * Émotions : `cuddle`, `feed`, `hug`, `kiss`, `pat`, `poke`, `slap` et `tickle`.
 * Statistiques : /stats `apex`, `brawlhalla`, `brawlstars`, `clashofclans`, `clashroyale`, `division2`, `fortnite`, `lol`, `osu`, `overwatch`, `paladins`, `r6` et `wolfy`.
 
-## 4.15.4 - 18/03/2022 <a id="4-15-4"></a>
+## [4.15.4 - 18/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/954169560670560286) <a id="4-15-4"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -182,7 +182,7 @@ description: >-
 * Correction d'un bug présent dans le système d'anniversaire lorsque DraftBot n'a pas les permissions requises.
 * Désactivation de la commande `!apps` dans les messages privés.
 
-## 4.15.3 - 17/03/2022 <a id="4-15-3"></a>
+## [4.15.3 - 17/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/953831121131565076) <a id="4-15-3"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -196,7 +196,7 @@ description: >-
 * Correction d'un bug avec la commande `quote` lors de l'utilisation de liens de messages.
 * Correction d'un bug au niveau du `rolereact remove` pour la suppression de boutons.
 
-## 4.15.2 - 14/03/2022 <a id="4-15-2"></a>
+## [4.15.2 - 14/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/952738228883038279) <a id="4-15-2"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -213,7 +213,7 @@ description: >-
 * Correction de plusieurs bugs d'affichage présents sur la page de rôle-réactions.
 * Correction d'un bug au niveau de la suppression d'un émoji dans le sélecteur d'émojis sur le panel.
 
-## 4.15.1 - 10/03/2022 <a id="4-15-1"></a>
+## [4.15.1 - 10/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/951318493003911218) <a id="4-15-1"></a>
 
 ### 🐛 Corrections <a id="corrections"></a>
 
@@ -229,7 +229,7 @@ description: >-
 * Correction d'un bug qui empêchait de valider les nombres écrits avec les points à chaque centaine (`100.000`)
 * Correction d'un bug qui empêchait d'exécuter la commande profil en mp.
 
-## 4.15.0 - 09/03/2022 <a id="4-15-0"></a>
+## [4.15.0 - 09/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/950919931065692241) <a id="4-15-0"></a>
 
 ### **✨ Slash commands** <a id="slash-commands"></a>
 Comme imposé par Discord, les commandes Slash vont petit à petit faire leur apparition dans cette version. 
@@ -301,7 +301,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Suppression du message de confirmation du !clearchannel après 10 secondes d'affichage.
 * Suppression des questions qui sont annulées via cancel.
 
-## 4.14.11 - 16/02/2022 <a id="4-14-11"></a>
+## [4.14.11 - 16/02/2022](https://discord.com/channels/422112414964908042/599942732559024138/943311130200272956) <a id="4-14-11"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -313,7 +313,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Retrait du message d'alerte lorsque le délai de 60 secondes pour acheter un article dans la boutique est écoulé ; le sélecteur est désactivé.
 * Correction de quelques fautes d'orthographe. 
 
-## 4.14.10 - 06/02/2022 <a id="4-14-10"></a>
+## [4.14.10 - 06/02/2022](https://discord.com/channels/422112414964908042/599942732559024138/939676492986736641) <a id="4-14-10"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -331,7 +331,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug qui empêchait de dépasser 72h dans le système de messages récurrents. (depuis le panel uniquement)
 * Correction d'un bug qui empêchait de citer un message d'un autre salon. (`quote`)
 
-## 4.14.9 - 31/01/2022 <a id="4-14-9"></a>
+## [4.14.9 - 31/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/937512009258373170) <a id="4-14-9"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -342,7 +342,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug qui empêchait l'envoi d'un log quand un message récurrent était supprimé en raison de la suppression de son salon.
 * Correction de plusieurs fautes d'orthographe.
 
-## 4.14.8 - 25/01/2022 <a id="4-14-8"></a>
+## [4.14.8 - 25/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/935318155360866374) <a id="4-14-8"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -355,7 +355,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug au niveau de la modification d'un social notif subreddit sur le panel.
 * Correction de plusieurs fautes d'orthographe.
 
-## 4.14.7 - 10/01/2022 <a id="4-14-7-1"></a>
+## [4.14.7 - 10/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/930233341070934056) <a id="4-14-7-1"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -370,7 +370,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Amélioration du design des récompenses sur la page de niveaux.
 * Amélioration des systèmes de questions afin qu'il ne prenne pas les réponses à d'autres messages.
 
-## 4.14.7 - 09/01/2022 <a id="4-14-7"></a>
+## [4.14.7 - 09/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/929868856237883462) <a id="4-14-7"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -389,7 +389,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug qui pouvait faire afficher un nombre de serveurs incorrect lors d'un double achat de premiums.
 * Correction d'un bug au niveau de la fermeture de tickets avec les boutons lorsque le membre a quitté le serveur.
 
-## 4.14.6 - 28/12/2021 <a id="4-14-6"></a>
+## [4.14.6 - 28/12/2021](https://discord.com/channels/422112414964908042/599942732559024138/925515616687890462) <a id="4-14-6"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -406,7 +406,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug dans les logs de threads si l'option "Tout le monde peut le désarchiver" était modifiée.
 * Correction de fautes d'orthographes.
 
-## 4.14.5 - 18/12/2021 <a id="4-14-5"></a>
+## [4.14.5 - 18/12/2021](https://discord.com/channels/422112414964908042/599942732559024138/921559912063066162) <a id="4-14-5"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -427,7 +427,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug au niveau des webhooks lorsque les membres n'étaient pas encore en cache.
 * Correction de nombreuses fautes d'orthographe.
 
-## 4.14.4 - 03/12/2021 <a id="4-14-4-2"></a>
+## [4.14.4 - 03/12/2021](https://discord.com/channels/422112414964908042/599942732559024138/916117302418767893) <a id="4-14-4-2"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -446,7 +446,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug qui pouvait faire apparaitre un id incorrect dans la commande `!sanctions` si le modérateur ayant fait la sanction n'était plus sur le serveur.
 * Plusieurs fautes d'orthographe.
 
-## 4.14.4 - 30/11/2021 <a id="4-14-4-1"></a>
+## [4.14.4 - 30/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/915021997778542653) <a id="4-14-4-1"></a>
 
 ### 🐛 Corrections <a id="corrections"></a>
 
@@ -457,7 +457,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug au niveau de la sauvegarde de son profil Rainbow Six Siège dans le gameprofil. 
 * Amélioration du message d'erreur dans la commande `!vocalrole`.
 
-## 4.14.4 - 26/11/2021 <a id="4-14-4"></a>
+## [4.14.4 - 26/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/913813896480063549) <a id="4-14-4"></a>
 
 ### ✨ Nouveautés pour la fonctionnalité de calendrier de l'avent <a id="nouveautes"></a>
 
@@ -476,7 +476,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Désactivation des commandes d'émotions en messages privés.
 * Correction d'un bug dans le système de sélection des catégories Dealabs depuis la commande.
 
-## 4.14.3 - 12/11/2021 <a id="4-14-3-1"></a>
+## [4.14.3 - 12/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/908848082781892678) <a id="4-14-3-1"></a>
 
 ### 🗒️ Changements <a id="changements"></a>
 
@@ -490,7 +490,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug au niveau de la restauration de backup
 * Ajout lors des backup, la sauvegarde de: bannières d'invitations, de serveurs, de l'onglet découverte
 
-## 4.14.3 - 06/11/2021 <a id="4-14-3"></a>
+## [4.14.3 - 06/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/906331726719103047) <a id="4-14-3"></a>
 
 ### 🎟️ Tickets <a id="tickets"></a>
 
@@ -517,7 +517,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Conflits entre les lives présence et les annonces YouTube.
 * Bugs dans les commandes `adminshop` et `adminsanctions`.
 
-## 4.14.2 - 30/10/2021 <a id="4-14-2"></a>
+## [4.14.2 - 30/10/2021](https://discord.com/channels/422112414964908042/599942732559024138/903780072467595275) <a id="4-14-2"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -539,7 +539,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug lors de la sélection du message dans le système de sondages
 * Bug dans le système de sélection de texte dans plusieurs commandes
 
-## 4.14.1 - 26/10/2021 <a id="4-14-1"></a>
+## [4.14.1 - 26/10/2021](https://discord.com/channels/422112414964908042/599942732559024138/902547817640366100) <a id="4-14-1"></a>
 
 ### 🐛 Corrections <a id="corrections"></a>
 
@@ -563,7 +563,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug au niveau des interserveurs
 * Bug dans la commande `quote` lors d'une recherche avec l'identifiant d'un message
 
-## 4.14.0 - 26/10/2021 <a id="4-14-0"></a>
+## [4.14.0 - 26/10/2021](https://discord.com/channels/422112414964908042/599942732559024138/902346531628273664) <a id="4-14-0"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
@@ -631,7 +631,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Ajout d'un tri des serveurs dans la barre latérale en fonction du nombre de membres.
 * Ajout d'une transition lors de l'affichage des boutons de connexion sur le panel 
 
-## 4.13.18 - 14/09/2021 <a id="4-13-18"></a>
+## [4.13.18 - 14/09/2021](https://discord.com/channels/422112414964908042/599942732559024138/887127715965177876) <a id="4-13-18"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -646,7 +646,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 
 * Correction d'un bug au niveau de la commande `clearchannel` qui déplaçait progressivement le salon vers le haut.
 
-## 4.13.17 - 02/09/2021 <a id="4-13-17"></a>
+## [4.13.17 - 02/09/2021](https://discord.com/channels/422112414964908042/599942732559024138/882793415744581693) <a id="4-13-17"></a>
 
 ### ♻️ Corrections <a id="corrections"></a>
 
@@ -661,7 +661,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug au niveau de la désactivation de serveurs premiums sous certaines conditions.
 * Correction d'un bug au niveau du délais de 60 secondes dans la commande `!rappel`.
 
-## 4.13.16 - 25/08/2021 <a id="4-13-16"></a>
+## [4.13.16 - 25/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/879873667499192330) <a id="4-13-16"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -681,7 +681,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug présent sur le panel au niveau du sélecteur de couleurs de l'Embed Creator.
 * Correction de plusieurs fautes d’orthographe sur le panel et sur le bot.
 
-## 4.13.15 - 24/08/2021 <a id="4-13-15"></a>
+## [4.13.15 - 24/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/879495954565308506) <a id="4-13-15"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -699,7 +699,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction des priorités des messages d'erreurs de la commande `!moveconv`.
 * Correction d'un problème avec la commande `!paladins` qui indique que le joueur est introuvable alors qu'il existe bel et bien.
 
-## 4.13.14 - 16/08/2021 <a id="4-13-14"></a>
+## [4.13.14 - 16/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/876830777453727744) <a id="4-13-14"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -725,7 +725,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug au niveau des logs de salons et de rôles lors de l'affichage des permissions.
 * Bug dans la commande `!moveconv` lorsque les messages étaient plus vieux que de 2 semaines.
 
-## 4.13.13 - 15/08/2021 <a id="4-13-13"></a>
+## [4.13.13 - 15/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/876244147776913458) <a id="4-13-13"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -749,7 +749,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Un problème d'édition des messages sur l'embed creator sous certaines conditions
 * Bug retirant l'image des logs sur le Panel lorsque le salon choisit était modifié
 
-## 4.13.12 - 13/08/2021 <a id="4-13-12"></a>
+## [4.13.12 - 13/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/875809308573589534) <a id="4-13-12"></a>
 
 ### ✨ Améliorations <a id="ameliorations"></a>
 
@@ -764,7 +764,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug présent dans la commande de statistiques du jeu Rainbow Six Siège.
 * Bug présent qui provoquait des spam des mp lors d'un glitch de dépassement de limite de serveurs premium avec des serveurs supprimés.
 
-## 4.13.11 - 12/08/2021 <a id="4-13-11"></a>
+## [4.13.11 - 12/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/875189320527527956) <a id="4-13-11"></a>
 
 ### ✨ Changements <a id="changements"></a>
 
@@ -776,7 +776,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Plusieurs fautes d'orthographe.
 
 
-## 4.13.10 - 05/08/2021 <a id="4-13-10"></a>
+## [4.13.10 - 05/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/872613706696130580) <a id="4-13-10"></a>
 
 ### ✨ Changements <a id="changements"></a>
 
@@ -797,7 +797,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug dans le sélectionneur de rôles qui prenait un rôle aléatoire lorsqu'un Sticker ou Fichier était donné.
 * Quelques fautes d'orthographe.
 
-## 4.13.9 - 28/07/2021 <a id="4-13-9"></a>
+## [4.13.9 - 28/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/869715964403519578) <a id="4-13-9"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
@@ -810,7 +810,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 
 * Correction d'un bug d'affichage au niveau de la variable `{time}`.
 
-## 4.13.8 - 26/07/2021 <a id="4-13-8"></a>
+## [4.13.8 - 26/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/869011100082003988) <a id="4-13-8"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
@@ -830,7 +830,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug présent lorsque l'on sélectionne plusieurs rôles/salons.
 * Bug présent au niveau de la variable `**{time}**`.
 
-## 4.13.7 - 24/07/2021 <a id="4-13-7"></a>
+## [4.13.7 - 24/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/868274024986312704) <a id="4-13-7"></a>
 
 ### ✨ Nouveautés
 
@@ -857,7 +857,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug présent lors du relancement d'une action temporaire.
 * Bug présent dans la sélection de durée qui prenait l'unité mois par défaut au lieu de minutes.
 
-## 4.13.6 - 15/07/2021 <a id="4-13-6"></a>
+## [4.13.6 - 15/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/865345866026188830) <a id="4-13-6"></a>
 
 ### ✨ Nouveautés <a id="nouveautes"></a>
 
@@ -878,7 +878,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Tri des permissions lors de leur affichage sur l'ensemble des fonctionnalités.
 * Ajout de l'alias "game" pour la commande de jeux Discord.
 
-## 4.13.5 - 14/07/2021 <a id="4-13-5"></a>
+## [4.13.5 - 14/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/864627722562830356) <a id="4-13-5"></a>
 
 ### ♻️ **Changements**
 
@@ -893,7 +893,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug présent dans la commande `adminxp` qui permet d'avoir un niveau négatif.
 * Correction d'un bug présent lors de la génération des images sur le panel lorsque l'utilisateur n'a pas de photo de profil.
 
-## 4.13.4 - 12/07/2021 <a id="4-13-4"></a>
+## [4.13.4 - 12/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/863922198565879819) <a id="4-13-4"></a>
 
 ### ♻️ **Changements** <a id="changements"></a>
 
@@ -904,7 +904,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Ajout des salons vocaux et stages dans le sélecteur du panel web.
 * Correction d'un bug présent dans le système d'administration des tickets.
 
-## 4.13.3 - 12/07/2021 <a id="4-13-3"></a>
+## [4.13.3 - 12/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/863922198565879819) <a id="4-13-3"></a>
 
 ### **✨ Ajouts & Améliorations** <a id="ajouts-ameliorations"></a>
 
@@ -924,7 +924,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un problème présent lorsque les limites de webhooks sont atteintes pour les logs.
 * Correction d'un bug après le délais des 30s à la question du rôle d'anniversaire.
 
-## 4.13.2 - 08/07/2021 <a id="4-13-2"></a>
+## [4.13.2 - 08/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/862487688057847828) <a id="4-13-2"></a>
 
 ### ♻️ **Changements** <a id="changements"></a>
 
@@ -944,7 +944,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction de tous les logs provenant des actions du panel.
 * Correction des logs de sanctions temporaires.
 
-## 4.13.1 - 06/07/2021 <a id="4-13-1"></a>
+## [4.13.1 - 06/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/861773314578055168) <a id="4-13-1"></a>
 
 ### ♻️ Corrections <a id="corrections"></a>
 
@@ -960,7 +960,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction d'un bug présent lors de l'activation de la mention dans le système de reports.
 * Correction d'un bug de mentions lors de messages d'annonces d'anniversaire.
 
-## 4.13.0 - 05/07/2021 <a id="4-13-0"></a>
+## [4.13.0 - 05/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/861667820970704946) <a id="4-13-0"></a>
 
 ### ✨ **Nouveautés** <a id="nouveautes"></a>
 
@@ -1045,7 +1045,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Lorsqu'un modérateur des tickets ferme un ticket, le salon ne sera plus obligatoirement supprimé
 * Possibilité d'échapper les variables dans les messages \(pour faire des exemples\) \(`\<user.username>`\)
 
-## 4.12.1 - 17/04/2021 <a id="4-12-1"></a>
+## [4.12.1 - 17/04/2021](https://discord.com/channels/422112414964908042/599942732559024138/832926338842492928) <a id="4-12-1"></a>
 
 ### ✨ **Nouveautés** <a id="nouveautes"></a>
 
@@ -1086,7 +1086,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Panel web : 
   * Commandes personnalisées : Correction du bug de drag&drop dans les étapes
 
-## 4.12.0 - 25/03/2021 <a id="4-12-0"></a>
+## [4.12.0 - 25/03/2021](https://discord.com/channels/422112414964908042/599942732559024138/824600432503685120) <a id="4-12-0"></a>
 
 ### ✨ Nouvelles fonctionnalités
 
@@ -1181,7 +1181,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
   * Fix de l'actualisation des images dans les embeds dans les messages récurrents 
   * Fix du bug dans le champ qui empêchait la sauvegarde des descriptions
 
-## 4.11.6 - 24/12/2020 <a id="4-11-6"></a>
+## [4.11.6 - 24/12/2020](https://discord.com/channels/422112414964908042/599942732559024138/791726801915084800) <a id="4-11-6"></a>
 
 ### ✨ Nouvelles fonctionnalités <a id="nouvelles-fonctionnalites"></a>
 
@@ -1242,7 +1242,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Suppression de la fonctionnalité "no xp" pour les membres en mode invisible \(demande de Discord\)
 * Fix bug de top.gg qui n'était plus mis à jour.
 
-## 4.11.5 - 19/10/2020 <a id="4-11-5"></a>
+## [4.11.5 - 19/10/2020](https://discord.com/channels/422112414964908042/599942732559024138/769006813194092574) <a id="4-11-5"></a>
 
 ### ➕ Ajouts <a id="ajouts"></a>
 
@@ -1272,7 +1272,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Correction du bug des commandes non désactivées
 * Fix de la commande `filter` lorsqu'il y a trop de mots a afficher
 
-## 4.11.4 - 27/09/2020 <a id="4-11-4"></a>
+## [4.11.4 - 27/09/2020](https://discord.com/channels/422112414964908042/599942732559024138/759890185008840736) <a id="4-11-4"></a>
 
 ### ✨ Nouvelles fonctionnalités  <a id="nouvelles-fonctionnalites"></a>
 
@@ -1360,7 +1360,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Bug des autorôles dans la commande config
 * Bug dans le pendu lorsque l'on donnait deux lettres consécutives en même temps
 
-## 4.11.3 - 02/08/2020 <a id="4-11-3"></a>
+## [4.11.3 - 02/08/2020](https://discord.com/channels/422112414964908042/599942732559024138/740500989265707039) <a id="4-11-3"></a>
 
 ### ➕ Ajouts Welcome/Goodbye
 
@@ -1399,7 +1399,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 * Configuration des rôles permissions depuis la page Commandes du panel web avec l’icône ⚙️
 * Ajout de la commande `!diagnose` pour connaître les problèmes de permissions avec le mute
 
-## 4.11.2 - 23/06/2020 <a id="4-11-2"></a>
+## [4.11.2 - 24/06/2020](https://discord.com/channels/422112414964908042/599942732559024138/725133760386957385) <a id="4-11-2"></a>
 
 ### ✨ Nouvelles fonctionnalités
 
