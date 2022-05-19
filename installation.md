@@ -39,6 +39,7 @@ Activez les paramètres du rôle dont 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 a besoin 
 | Gérer les salons                        |                 |                 | :black\_circle: | :red\_circle: |
 | Expulser des membres                    |                 |                 | :black\_circle: | :red\_circle: |
 | Bannir des membres                      |                 |                 | :black\_circle: | :red\_circle: |
+| Exclure temporairement des membres      |                 |                 | :black\_circle: | :red\_circle: |
 | Créer une invitation                    |                 | :black\_circle: |                 |               |
 | Changer de pseudo                       | :white\_circle: |                 |                 |               |
 | Gérer les pseudos                       |                 | :black\_circle: |                 |               |
