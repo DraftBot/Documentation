@@ -8,32 +8,36 @@ description: >-
 
 ## Auto-Modération
 
-Le système d'auto-modération de DraftBot vous permet d'automatiser certaines actions de modérations telles que l'envoi d'invitations Discord, de spam, de liens externes et bien d'autres choses.
+Le système d'auto-modération, avec l'auto-sanctions de DraftBot vous permettent d'automatiser certaines actions de modération tels que la censure et l'attribution de sanctions pour l'envoi d'invitations Discord, de spam, de liens externes et bien d'autres choses.
+
+**L'auto-modération** de DraftBot va s'occuper de censurer le message si besoin et d'attribuer une infraction. Pour l'attribution des sanctions en fonction des infractions, c'est [l'auto-sanctions](moderation.md#undefined) qui s'en occupe.
 
 ### Configuration via Discord <a href="#automoderation-discord" id="automoderation-discord"></a>
 
-Si vous souhaitez configurer l'auto-modération via Discord directement, vous pouvez utiliser la commande `automoderation` sur votre serveur :&#x20;
+Si vous souhaitez configurer l'auto-modération via Discord directement, vous pouvez utiliser la commande `automoderation` ou `automod` sur votre serveur :&#x20;
 
-![Exécution de la commande automoderation sur un serveur Discord](<../.gitbook/assets/image (46).png>)
+![Exécution de la commande automoderation sur un serveur Discord](<../.gitbook/assets/image (47).png>)
 
 Vous aurez alors le choix entre plusieurs infractions :&#x20;
 
 * ****[**filter**](moderation.md#filter) : Filtre de vocabulaire interdit
 * ****[**invites**](moderation.md#invites) : Anti-invitations Discord
 * ****[**links**](moderation.md#links) : Anti-liens externes
-* ****[**spam**](moderation.md#spam) : Anti-spam
+* ****[**spam**](moderation.md#spam) : Anti-spam de messages
 * ****[**mentions**](moderation.md#mentions) : Anti-spam de mentions
 * ****[**emojis**](moderation.md#emojis) : Anti-spam d'emojis
+
+Pour activer la détection et la censure des différents types d'infractions, vous devrez ensuite choisir l'argument `on` et pour configurer, ce sera avec l'argument `config.`
 
 ### Configuration via le panel web <a href="#automoderation-panel" id="automoderation-panel"></a>
 
 DraftBot possède un panel web accessible en allant sur [draftbot.fr](https://draftbot.fr/) et qui vous permet notamment de configurer facilement le système d'auto-modération.
 
-![Accéder au panel web de DraftBot via draftbot.fr](<../.gitbook/assets/Sans titre-output.gif>)
+![Accéder au panel web de DraftBot via draftbot.fr](../.gitbook/assets/sans-titre-output.gif)
 
 Il vous suffira ensuite de cliquer sur votre serveur Discord puis d'accéder à la page "Auto-Modération".
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../.gitbook/assets/image (51).png>)
 
 ### Types d'infractions
 
@@ -49,6 +53,8 @@ Pour le configurer, il vous suffit d'utiliser la commande `automoderation filter
 * Mode stricte (interdit seulement les mots correspondants exactement aux mots interdits avec des espaces au début et à la fin)
 
 ![Configuration dedu filtre de vocabulaire sur le panel web de DraftBot](../.gitbook/assets/image\_2021-11-16\_102443.png)
+
+![Configuration du filtre de vocabulaire interdit via le panel DraftBot](../.gitbook/assets/image\_2022-01-15\_155007.png)
 
 {% hint style="warning" %}
 Si vous souhaitez bloquer les mots interdits sur votre serveur, pensez à activer cette fonctionnalité via le bouton en haut à droite sur le panel web ou avec la commande `automoderation filter on`&#x20;
@@ -77,14 +83,16 @@ L'anti liens externes vous permet de supprimer ou de censurer les messages qui c
 \
 Si vous souhaitez l'activer, vous pouvez exécuter la commande `automoderation links on` sur votre serveur ou bien utiliser le panel web, sur le bouton en haut à droite de l'onglet **Liens externes** sur la page dédiée à l'auto-modération.\
 \
-Pour le configurer davantage, vous pouvez utiliser la commande `automoderation links config` ou bien depuis le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2\&response\_type=token\&access\_type\&client\_id=318312854816161792\&redirect\_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser\&scope=identify%20guilds\&state=P2CBWjkz5yl2sDdwMsZNO\&code\_challenge\_method=implicit) en cliquant sur l'engrenage des liens externes. Vous aurez alors accès à ces paramètres :
 
-* Noms de domaines autorisés
+
+Vous pourrez si vous le souhaitez, configurer davantage le système de restriction d'invitations à l'aide de la commande `automoderation invites config` ou via le [panel web](https://discord.com/oauth2/authorize?protocol=oauth2\&response\_type=token\&access\_type\&client\_id=318312854816161792\&redirect\_uri=https%3A%2F%2Fwww.draftbot.fr%2Flogin%2Fuser\&scope=identify%20guilds\&state=P2CBWjkz5yl2sDdwMsZNO\&code\_challenge\_method=implicit) de DraftBot avec comme paramètres possibles :&#x20;
+
+* Invitations autorisées
+* Liens d'invitation censurés ou non
 * Rôles ignorés
 * Salons ignorés
-* Message censuré ou supprimé
 
-![Configuration des liens externes via le panel web](<../.gitbook/assets/image (54).png>)
+![Configuration de l'anti-invitations Discord depuis le panel web](../.gitbook/assets/image\_2022-01-15\_155505.png)
 
 #### Anti-spam de messages <a href="#spam" id="spam"></a>
 
@@ -99,7 +107,7 @@ Si vous le voulez, vous pouvez configurer l'anti-spam avec la commande `automode
 * Rôles immunisés par le spam
 * Salons immunisés par le spam de messages
 
-![Configuration de l'anti-spam de messages sur le panel web de DraftBot](<../.gitbook/assets/image (55).png>)
+![Configuration de l'anti-spam de messages sur le panel web de DraftBot](<../.gitbook/assets/image (50).png>)
 
 #### Anti-spam de mentions <a href="#mentions" id="mentions"></a>
 
@@ -113,9 +121,9 @@ Si vous souhaitez configurer davantage l'anti-spam de mentions pour votre serveu
 * Limite de mentions durant l'intervalle de temps
 * Rôles ignorés
 * Salons ignorés
-* Messages contenant les mentions excessives supprimés ou non
+* Supprimer les messages contenant les mentions excessives ou non
 
-![Configuration de l'anti-spam de mentions via le panel web](<../.gitbook/assets/image (56).png>)
+![Configuration de l'anti-spam de mentions via le panel web](<../.gitbook/assets/image (53).png>)
 
 #### Anti-spam d'emojis <a href="#emojis" id="emojis"></a>
 
@@ -130,7 +138,36 @@ Pour configurer davantage l'anti-spam d'emojis, vous pouvez cliquer sur l'engren
 * Rôles ignorés
 * Salons ignorés
 
-![Configuration de l'anti-spam d'emojis via le panel web de DraftBot](<../.gitbook/assets/image (57).png>)
+![Configuration de l'anti-spam d'emojis via le panel web de DraftBot](<../.gitbook/assets/image (55).png>)
+
+### Gestion des infractions
+
+Chaque infraction détectée par l'auto-modération est comptée afin de permettre les sanctions automatiques par nombre d'infractions catégorisées. Deux commandes sont à disposition pour les gérer et les afficher:
+
+* La commande `infractions <membres>` permet d'afficher les infractions d'un membre ![](<../.gitbook/assets/Capture d’écran (110).png>)
+* Et la commande `admininfractions` permet de gérer les infractions d'un membre ou de tout le serveur. Plusieurs arguments sont proposés:
+  * `remove` : Pour retirer des infractions à un membre&#x20;
+  * `reset` : Pour supprimer toutes les infractions d'un membre&#x20;
+  * `resetall` : Pour réinitialiser les infractions du serveur (admin)
+
+Ensuite vous n'aurez qu'à suivre les instructions du bot
+
+## Auto-sanctions
+
+L'auto-sanctions permet de sanctionner automatiquement les membres à partir d'un certain nombre d'infractions, d'une catégorie spécifique ou non. Les infractions sont attribuées automatiquement par catégories si [l'auto-modération](moderation.md#auto-moderation) est activé pour les catégories précises.
+
+#### Configurer des sanctions automatiques
+
+Sur le panel, il vous suffit d'ajouter la sanction à attribuer automatiquement, le nombre d'infraction qu'il faut pour que la sanction soit attribuée et le type d'infraction. Vous pourrez sauvegarder la sanction automatique puis la modifier ensuite depuis la liste des sanctions automatiques.
+
+![Configuration des sanctions automatiques depuis le panel DraftBot](../.gitbook/assets/image\_2022-01-15\_211428.png)
+
+Sinon vous pouvez utiliser la commande `autosanctions` :
+
+* `create` pour créer une sanction automatique&#x20;
+* `delete` Pour supprimer une sanction automatique&#x20;
+* `list` Pour afficher la liste des sanctions automatiques&#x20;
+* `reset` Pour réinitialiser la liste des sanctions automatiques&#x20;
 
 ## Sanctionner un membre
 
@@ -138,27 +175,27 @@ Pour configurer davantage l'anti-spam d'emojis, vous pouvez cliquer sur l'engren
 
 {% hint style="warning" %}
 Cette liste regroupe les **principales commandes** de modération de **DraftBot** pouvant être utile à vos modérateurs.\
-Vous pouvez cependant donner la permission à un rôle d'utiliser ces commandes malgré qui n'a pas la permission requise en utilisant la commande [`roleperms`](roleperms.md) ou depuis la catégorie "Commandes" sur le panel web !
+Vous pouvez cependant donner la permission à un rôle d'utiliser ces commandes malgré qui n'a pas la permission requise en utilisant la commande[`roleperms`](roleperms.md) ou depuis la catégorie "Commandes" sur le [panel](https://draftbot.fr/dashboard) !
 {% endhint %}
 
-| Commandes                          | Permissions requises par défaut |
-| ---------------------------------- | :-----------------------------: |
-| ban/tempban/unban                  |        Bannir des membres       |
-| mute/tempmute/unmute               |        Gérer les messages       |
-| kick                               |       Expulser des membres      |
-| warn/unwarn                        |        Gérer les messages       |
-| note                               |        Gérer les messages       |
-| sanction (interface de modération) |        Gérer les messages       |
-| sanctions (afficher les sanctions) |        Gérer les messages       |
+| C**ommandes**                      | P**ermissions requises par défaut** |
+| ---------------------------------- | :---------------------------------: |
+| ban/tempban/unban                  |          Bannir des membres         |
+| mute/tempmute/unmute               |          Gérer les messages         |
+| kick                               |         Expulser des membres        |
+| warn/unwarn                        |          Gérer les messages         |
+| note                               |          Gérer les messages         |
+| sanction (interface de modération) |          Gérer les messages         |
+| sanctions (afficher les sanctions) |          Gérer les messages         |
 
 ### Interface de sanction
 
 Vous pouvez sanctionner un membre avec la commande `sanction <membre>`\
 Vous obtiendriez alors cette interface :&#x20;
 
-![Interface de modération avec la commande sanction](<../.gitbook/assets/image (44).png>)
+![Interface de modération avec la commande sanction](<../.gitbook/assets/Capture d’écran (104).png>)
 
-Il vous restera plus qu'à sélectionner la réaction correspondante à la sanction que vous souhaitez infliger au membre. &#x20;
+Il vous restera plus qu'à sélectionner le bouton correspondant à la sanction que vous souhaitez infliger au membre. &#x20;
 
 ### Bannir un membre
 
@@ -169,10 +206,7 @@ Si vous souhaitez révoquer le bannissement d'un membre par la suite, vous pouve
 ### Avertir un membre
 
 Vous pouvez avertir un membre avec la commande `warn <Membre> <Raison>`\
-Le membre recevra un message privé avec le motif de son avertissement.\
-\
-Si vous voulez retirer un avertissement d'un membre avec la commande `adminsanction remove`.\
-L'avertissement sera retiré de la commande `sanctions`
+Le membre recevra un message privé avec le motif de son avertissement.
 
 ### Ajouter une note à un membre
 
@@ -182,13 +216,28 @@ Vous pouvez ajouter une note à un membre dans son historique de sanction (comma
 
 Vous pourrez retirer une note d'un membre avec la commande \`adminsanction remove\`
 
+{% hint style="info" %}
+Vous pouvez retirer un avertissement d'un membre avec la commande`adminsanction remove`.\
+L'avertissement sera retiré de la commande `sanctions`
+{% endhint %}
+
+### Noter un membre
+
+Vous pouvez ajouter une note à un membre dans son historique de sanctions (commande `sanctions`) avec la commande `note`.
+
+Cela permet de donner une note visible par les modérateur à un membre sans l'avertir en message privé.
+
+{% hint style="info" %}
+Vous pourrez retirer une note d'un membre avec la commande `adminsanction remove`
+{% endhint %}
+
 ### Rendre muet un membre
 
 Vous pouvez rendre muet un membre avec la commande `mute` ou `tempmute` si la sanction est temporaire.\
 \
 Vous pourrez, si vous le souhaitez, retirer le mute de cette personne avec la commande `unmute`
 
-Pour plus d'informations concernant ce type de sanction ainsi que sa configuration, vous pouvez vous rendre sur l'article dédié au mute:&#x20;
+Pour plus d'informations concernant le mute ainsi que sa configuration, vous pouvez vous rendre sur l'article dédié:&#x20;
 
 {% content-ref url="mute.md" %}
 [mute.md](mute.md)
@@ -202,7 +251,7 @@ Vous pouvez voir les sanctions effectuées sur votre serveur avec la commande `s
 Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les sanctions d'une personne précise.
 {% endhint %}
 
-|                      `sanctions` sans argument                     |                                  `sanctions` \<Membre>                                  |
-| :----------------------------------------------------------------: | :-------------------------------------------------------------------------------------: |
-| <p></p><p><img src="../.gitbook/assets/image (25).png" alt=""></p> | <p></p><p><img src="../.gitbook/assets/image (27).png" alt="" data-size="original"></p> |
+|       `sanctions` sans argument       |              `sanctions` \<Membre>             |
+| :-----------------------------------: | :--------------------------------------------: |
+| ![](../.gitbook/assets/sanctions.png) | ![](<../.gitbook/assets/sanctions membre.png>) |
 

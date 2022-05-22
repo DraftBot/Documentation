@@ -27,12 +27,12 @@ En retirant la réaction :white\_check\_mark: les membres perdent également le 
 
 ## Ajout de règles
 
-Pour conserver une communauté stable, il est nécessaire de mettre en place un système de règles à suivre. Vous pourrez facilement en ajouter à votre règlement grâce à la commande `rules` ou `@DraftBot#0535 rules`
+Pour conserver une communauté stable, il est nécessaire de mettre en place un système de règles à suivre. Vous pourrez facilement en ajouter à votre règlement grâce à la commande `rules <argument> <message>` ou `@DraftBot#0535 rules <argument> <message>`.
 
-| Arguments | Description                                                                                                |
-| --------- | ---------------------------------------------------------------------------------------------------------- |
-| argument  | L'argument est l'action que vous souhaitez faire : **ajouter** et **retirer** une règle de votre règlement |
-| message   | L'argument message représente l'ID du message où se trouve le règlement                                    |
+| Arguments | Description                                                                                                               |
+| --------- | ------------------------------------------------------------------------------------------------------------------------- |
+| argument  | L'argument est l'action que vous souhaitez faire : **ajouter (add)** et **retirer (remove)** une règle de votre règlement |
+| message   | L'argument message représente l'ID du message où se trouve le règlement                                                   |
 
 {% hint style="info" %}
 Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)

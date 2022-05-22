@@ -9,14 +9,14 @@ description: >-
 
 ## Afficher le nombre d'argent
 
-Vous pouvez afficher le nombre d'argent virtuelle d'un membre sous forme d'image.
+Vous pouvez afficher le nombre d'argent virtuel d'un membre sous forme d'image.
 
 ### La carte d'un membre
 
-* Vous pouvez afficher votre carte à l'aide de la commande `!money`.
-* Dans le cas où vous souhaitez afficher la carte d'un membre, il vous suffit de faire la même commande `!money` suivi du membre.
+* Vous pouvez afficher votre carte à l'aide de la commande `money`.
+* Dans le cas où vous souhaitez afficher la carte d'un membre, il vous suffit de faire la même commande `money` suivi du membre.
 
-![Image de la carte d'économie ](<../.gitbook/assets/image (37).png>)
+![Image de la carte d'économie ](../.gitbook/assets/Money.png)
 
 {% hint style="info" %}
 Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son **identifiant**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
@@ -26,7 +26,7 @@ Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous
 
 Dans le cas où vous souhaitez afficher le classement d'argent du serveur, il vous suffit de faire la commande `!topmoney`.
 
-![Image du classement d'économie](<../.gitbook/assets/image (36).png>)
+![Image du classement d'économie](../.gitbook/assets/Topmoney.png)
 
 {% hint style="warning" %}
 Dans le cas où vous ne faites pas partie du top 5, vous serez tout de même affiché en dessous avec votre place.
@@ -44,11 +44,7 @@ Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous
 
 ### Acheter un article
 
-Vous pouvez acheter un article présent dans la boutique du serveur avec la commande `buy <article>`.
-
-{% hint style="info" %}
-Vous pouvez voir la boutique du serveur avec la commande `!shop` !
-{% endhint %}
+Vous pouvez acheter un article présent dans la boutique du serveur avec la commande `shop`. Cela affichera la boutique du serveur et vous aurez la possibilité d'acheter un article via le sélecteur en-dessous du message.
 
 ## Configuration
 
@@ -56,24 +52,19 @@ Vous pouvez l'activer, la désactiver, modifier son intensité, l’ignorer, la 
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 
-* L'activer → `on`
-* Le désactiver → `off`
-* Le configurer → `config`
-* Multiplier les gains d'argent d’un rôle → `boosters`
-* Ne pas prendre en compte un rôle ou salon → `ignore`&#x20;
-* Réinitialiser la fonctionnalité → `reset` (`!adminmoney resetall` pour réinitialiser l'économie)
-* Personnaliser la couleur → `color` (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium))
+* `on` → Activer le système
+* `off` → Désactiver le système
+* `config` → Le configurer
+* `boosters` → Multiplier les gains d'argent d’un rôle
+* `ignore` → Ne pas prendre en compte un rôle ou salon&#x20;
+* `reset` → Réinitialiser la fonctionnalité (`adminmoney resetall` pour réinitialiser l'économie)
+* `color` → Personnaliser la couleur (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium))
 
 ### **Modifier le gain d'argent** <a href="#modifier-le-gain-dexperience" id="modifier-le-gain-dexperience"></a>
 
-Si vous choisissez de **modifier le gain d'argent**, en envoyant `config`, vous aurez alors le choix entre quatre propositions :
-
-&#x20;          :zero: | 0 💰 par message\
-&#x20;          :one: | Entre 5 et 15 💰 par message\
-&#x20;          :two: | Entre 15 et 25 💰 par message\
-&#x20;          :three: | Entre 25 et 35 💰 par message\
+Si vous choisissez de **modifier le gain d'argent**, en envoyant `config`, vous aurez alors le choix entre quatre propositions : 0, entre 5 et 15, entre 15 et 25 et entre 25 et 35.\
 \
-Le taux actuel est indiqué par un symbole :white\_check\_mark:. Cliquez alors sur la réaction de votre choix, en fonction du taux d’expérience que vous voulez à présent faire gagner.&#x20;
+Le taux actuel est symbolisé par le bouton en vert. Cliquez alors sur le bouton de votre choix, en fonction du taux d’expérience que vous souhaitez à présent faire gagner.&#x20;
 
 ### **Multiplier le gain d’un rôle** <a href="#multiplier-le-gain-dun-role" id="multiplier-le-gain-dun-role"></a>
 
@@ -113,19 +104,20 @@ Vous pouvez ajouter, retirer, modifier un article ou encore réinitialiser la bo
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 
-* Ajouter un article → `add`
-* Supprimer un article → `remove`
-* Modifier un article → `update`
-* Configurer la boutique → `config`
-* La réinitialiser → `reset`
+* `add` → Ajouter un article
+* `remove` → Supprimer un article
+* `update` → Modifier un article
+* `config` → Configurer la boutique
+* `reset` → Réinitialiser la boutique
 
 ### Ajouter un article
 
 Si vous choisissez d'ajouter un article à votre boutique, en envoyant `add`, vous aurez la possibilité d'ajouter :&#x20;
 
-* Un rôle
+* Un rôle / rôle temporaire
 * De l'expérience (niveaux)
 * Récompense personnalisée (envoie un message à l'administrateur)
+* Objet d'inventaire
 
 Vous aurez ensuite la possibilité d'ajouter une description et un prix à votre article.
 
@@ -139,8 +131,8 @@ Vous pourrez alors modifier l'article, la description ou le prix de l'objet.
 
 Si vous choisissez de configurer la boutique, en envoyant `config`, vous aurez la possibilité de choisir entre deux types de boutique :&#x20;
 
-* Boutique normale : le message du `!shop` est conservé
-* Marché noir : le message du `!shop` est supprimé au bout de 60 secondes.
+* Boutique normale : le message du `shop` est conservé.
+* Marché noir : le message du `shop` est supprimé au bout de 60 secondes.
 
 ### Réinitialiser la boutique
 

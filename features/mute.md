@@ -8,8 +8,8 @@ description: >-
 
 ## Gestion des permissions
 
-Lors de la première utilisation de la commande `mute` sur un de vos membres, **DraftBot** créera un rôle nommé **Mute** et interdira la permission "Envoyer des messages" au rôle Mute sur l'ensemble des salons textuels.\
-Si vos membres réduits aux silences peuvent parler malgré ça, suivez cette partie du tutoriel pour corriger le problème.
+Lors de la première utilisation de la commande `mute` sur un de vos membres, **DraftBot** créera un rôle nommé **Mute** et interdira les permissions "Envoyer des messages", "Se connecter" et "Parler" au rôle Mute sur l'ensemble des salons textuels et vocaux.\
+Si vos membres réduits au silence peuvent parler malgré çela, suivez cette partie du tutoriel pour corriger le problème.
 
 {% hint style="info" %}
 Vous pouvez aussi utiliser la commande `diagnose mute` sur votre serveur pour corriger les éventuels problèmes de permissions.&#x20;
@@ -28,14 +28,14 @@ Dans vos salons textuels, il vous faudra gérer les permissions de cette manièr
 | **Grades**                | Permissions                                                             |
 | ------------------------- | ----------------------------------------------------------------------- |
 | **Mute**                  | ❌                                                                       |
-| **Tous les autres rôles** | <img src="../.gitbook/assets/image (20).png" alt="qa" data-size="line"> |
+| **Tous les autres rôles** | <img src="../.gitbook/assets/image (21).png" alt="qa" data-size="line"> |
 
 Dans vos salons vocaux, il vous faudra gérer les permissions de cette manière pour la permission **Parler** :
 
 | **Grades**                | Permissions                                                             |
 | ------------------------- | ----------------------------------------------------------------------- |
 | **Mute**                  | ❌                                                                       |
-| **Tous les autres rôles** | <img src="../.gitbook/assets/image (20).png" alt="qa" data-size="line"> |
+| **Tous les autres rôles** | <img src="../.gitbook/assets/image (21).png" alt="qa" data-size="line"> |
 
 ## Rendre muet un membre
 

@@ -1,7 +1,7 @@
 ---
 description: >-
   Un rolereact permet à vos membres d'obtenir eux-mêmes un rôle en cliquant sur
-  la réaction d'un message de DraftBot.
+  la réaction, le bouton ou le sélecteur d'un message de DraftBot.
 ---
 
 # RoleReact
@@ -22,15 +22,15 @@ Vous pourrez modifier ce message dans le futur avec la commande `say` [`[Identif
 {% endhint %}
 
 * **Embed automatique :** `rolereact create [Titre de l'embed]` \
-  Cette solution vous permet de créer un  embed qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin, cela ressemble à cela :&#x20;
+  Cette solution vous permet de créer un  embed qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin de la configuration, l'embed ressemblera à cela :&#x20;
 
-![Résultat d'un rolereact utilisant un embed automatique](<../.gitbook/assets/image (9).png>)
+![Résultat d'un rolereact utilisant un embed automatique](<../.gitbook/assets/image (10).png>)
 
 * **Embed personnalisé :** `embed` ou [depuis le panel web](https://www.draftbot.fr/dashboard) dans l'onglet **Embeds** de votre serveur.\
   Cette méthode vous permet de créer un embed totalement personnalisable à votre goût.\
   Voici un exemple de cette méthode : &#x20;
 
-![Résultat d'un rolereact utilisant un embed personalisé](<../.gitbook/assets/image (10).png>)
+![Résultat d'un rolereact utilisant un embed personalisé](<../.gitbook/assets/image (9).png>)
 
 ## Ajouter un rôle à un rolereact <a href="#add" id="add"></a>
 
@@ -46,7 +46,7 @@ Ensuite, **DraftBot** vous demandera quel rôle doit être ajouté. Vous pouvez 
 Pour que le rolereact fonctionne, **DraftBot** doit posséder au moins un rôle qui est au-dessus du grade que vous souhaitez ajouter au rolereact.
 {% endhint %}
 
-Et pour finir, **DraftBot** vous demandera quel emoji doit être cliqué pour obtenir ce rôle, il vous suffit de l'écrire.
+Et pour finir, **DraftBot** vous demandera quel émoji doit être cliqué pour obtenir ce rôle, il vous suffit de l'écrire.
 
 {% hint style="info" %}
 Si vous souhaitez ajouter un autre rolereact au même message, il vous suffit de répéter la même opération.
@@ -68,7 +68,7 @@ Si vous souhaitez supprimer un autre rolereact du même message, il vous suffit 
 
 ## Mode d'un rolereact
 
-Vous pouvez avec **DraftBot** choisir un mode pour vos rôles réactions. \
+Vous pouvez choisir un mode pour vos rôles réactions. \
 Cela vous offre la possibilité de pouvoir retirer un rôle lorsqu'un de vos membres clique sur une réaction par exemple.\
 \
 Vous pouvez configurer cela avec la commande `rolereact mode`.\
@@ -78,6 +78,6 @@ Après cela, DraftBot vous demandera l'identifiant du message de **DraftBot** po
 Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
-Ensuite, vous aurez le choix entre 5 possibilités, que vous aurez à valider en cliquant sur une des réactions en dessous du message de **DraftBot**.
+Ensuite vous aurez le choix entre cinq possibilités, que vous aurez à valider en cliquant sur un des boutons en dessous du message de **DraftBot**.
 
-![Message obtenu après avoir effectué la commande rolereact mode](<../.gitbook/assets/image (31).png>)
+![Message obtenu après avoir effectué la commande rolereact mode](<../.gitbook/assets/Mode rolereact.png>)

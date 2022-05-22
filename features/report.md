@@ -16,6 +16,8 @@ Vous aurez alors la possibilité :
 * D'activer ou de désactiver le système de reports
 * De choisir le salon qui recevra les signalements de vos membres
 * D'ajouter ou non une réaction sur un message signalé par vos membres
+* D'ajouter un rôle à mentionner lors du signalement
+* De changer le message de confirmation de l'envoi du report
 
 ## Utilisation
 

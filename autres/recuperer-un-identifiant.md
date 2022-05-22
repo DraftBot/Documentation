@@ -17,10 +17,10 @@ Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparen
 
 Pour récupérer l'identifiant d'un message, il vous suffit :&#x20;
 
-* de laisser appuyer ou de faire clique droit sur un message
+* De laisser appuyer ou de faire clique droit sur un message
 * Puis d'appuyer sur **Copier l'identifiant.**
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvEVyCNhr2.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvevycnhr2.gif)
 
 ## Rôle
 
@@ -33,10 +33,9 @@ Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparen
 Afin de récupérer l'identifiant d'un rôle, vous devez :
 
 * Appuyer ou cliquer sur un membre qui possède le rôle dont vous souhaitez récupérer l'identifiant
-* Puis appuyer ou faire clique droit sur le rôle
-  * Si vous êtes sur ordinateur, cliquer sur **Copier l'identifiant**.
+* Puis appuyer longtemps sur le rôle (smartphone) ou bien cliquer droit sur le rôle et sur **Copier l'identifiant** (ordinateur).
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un rôle](../.gitbook/assets/RNyFjYYJqw.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un rôle](../.gitbook/assets/rnyfjyyjqw.gif)
 
 Si vous avez besoin de mentionner un rôle (ex: panel web), il vous suffit de faire <@\&ID-Role>
 
@@ -51,10 +50,10 @@ Pour ce faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparen
 Pour récupérer l'identifiant d'un membre, vous devez :
 
 * Faire clique droit/cliquer sur la personne dont vous souhaitez récupérer l'identifiant
-  * Si vous êtes sur smartphone, cliquer sur les trois petits points en haut à droite
-* Puis appuyer sur **Copier l'identifiant**.
+  * Si vous êtes sur smartphone, cliquez sur les trois petits points en haut à droite
+* Puis appuyez sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un membre](../.gitbook/assets/T7pzA714cE.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un membre](../.gitbook/assets/t7pza714ce.gif)
 
 Si vous avez besoin de mentionner un membre (ex: panel web), il vous de mettre <@ID-Membre>
 
@@ -66,7 +65,7 @@ Pour obtenir l'identifiant d'un emoji, il vous suffit :&#x20;
 * Avant l'emoji, mettez un antislash (\\)
 * Puis envoyez votre message.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un emoji](../.gitbook/assets/w08iEMNoPq.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un emoji](../.gitbook/assets/w08iemnopq.gif)
 
 {% hint style="warning" %}
 Si vous êtes sur **Android**, pour récupérer l'identifiant d'un emoji :&#x20;
@@ -88,7 +87,7 @@ Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
 * Appuyer ou faire clique droit sur le nom d'un salon
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un salon](../.gitbook/assets/DVeVuEPEid.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un salon](../.gitbook/assets/dvevuepeid.gif)
 
 Si vous avez besoin de mentionner un salon (ex: panel web), vous devez mettre <#ID-Salon>
 
@@ -105,5 +104,5 @@ Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
 * De faire un clique droit ou appuyer sur l'image/nom du serveur
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](<../.gitbook/assets/qxtdA18QKo (1).gif>)
+![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](<../.gitbook/assets/qxtda18qko (1).gif>)
 

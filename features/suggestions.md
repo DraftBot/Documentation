@@ -4,7 +4,7 @@ description: >-
   votre serveur.
 ---
 
-# Système de suggestions
+# Suggestions
 
 ## Configuration
 
@@ -20,13 +20,14 @@ Vous aurez alors les possibilités :&#x20;
 * De changer le message de confirmation de l'envoi des suggestions
 * D'activer la demande de confirmation avant l'envoi des suggestions
 * De permettre aux membres ayant la permission **Gérer les messages** d'accepter ou de refuser les suggestions (avec les commandes `suggest accept` et `suggest refuse`)
+* De permettre l'ouverture d'un thread pour les nouvelles suggestions
 
 ## Utilisation
 
 Pour que vos membres puissent envoyer leurs suggestions sur votre serveur, ils devront utiliser la commande `suggest` suivie de leur suggestion.\
 Les membres de votre serveur pourront ensuite voter aux suggestions à l'aide des réactions que vous avez définies dans la configuration.
 
-![Message envoyé dans votre salon dédié aux suggestions après qu'une suggestion ait été proposée.](<../.gitbook/assets/image (32).png>)
+![Message envoyé dans votre salon dédié aux suggestions après qu'une suggestion ait été proposée.](<../.gitbook/assets/image (30).png>)
 
 ## Gestion
 

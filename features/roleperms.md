@@ -17,6 +17,10 @@ Pour **autoriser** à un rôle l'utilisation d'une commande, il vous suffit de f
 Vous n'êtes pas obligé de mentionner le rôle, vous pouvez uniquement donner son nom.
 {% endhint %}
 
+## Remettre par défaut les permissions d'une commande
+
+Pour **remettre par défaut** les permissions d'une commande, il vous suffit de faire `roleperms default [commande]`.
+
 ## Réinitialiser le RolePerms <a href="#reinitialiser" id="reinitialiser"></a>
 
 Si vous souhaitez réinitialiser les permissions que vous avez ajoutées ou supprimées à l'ensemble des rôles en utilisant cette fonctionnalité, il vous suffit d'utiliser la commande`roleperms reset`

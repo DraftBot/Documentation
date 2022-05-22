@@ -22,5 +22,5 @@ Pour nous suivre, cliquez simplement ici : [Twitter DraftBot](https://twitter.co
 
 Le contact par adresse mail est réservé pour des demandes professionnelles de partenariat, ou pour répondre à l'une de nos annonces. Nous tâcherons de vous répondre dès que nous aurons pris connaissance de votre message. \
 **Attention** toutefois, les demandes d'aide qui devraient être consultées par le Support Discord ne seront ni consultées ni prises en compte.\
-Si vous souhaitez nous contacter pour l'une des raisons sus mentionnées, vous pouvez nous écrire à l'adresse : _contact@draftbot.fr_
+Si vous souhaitez nous contacter pour l'une des raisons mentionnées, vous pouvez nous écrire à l'adresse : _contact@draftbot.fr_
 

@@ -8,12 +8,12 @@ description: >-
 
 ## Voir le préfixe
 
-Si vous ne vous rappelez plus du préfixe de **DraftBot**, il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix` \
+Si vous ne vous rappelez plus du préfixe de **DraftBot**, il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix` ou bien seulement de mentionner `@DraftBot#0535`.\
 Vous obtiendrez alors cette réponse : &#x20;
 
-![ Image de la commande !prefix](<../.gitbook/assets/image (6).png>)
+![](../.gitbook/assets/image\_2022-01-08\_205352.png)
 
-Dans notre cas, le préfixe de **DraftBot** est **!**, soit celui par défaut.
+Dans notre cas, le préfixe par défaut de **DraftBot** est **!**
 
 ## Changer le préfixe
 

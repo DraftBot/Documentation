@@ -10,11 +10,7 @@ Ce type de fonctionnalité permet notamment de pouvoir avoir plusieurs serveurs 
 
 ## Création de la fréquence
 
-La création de l'interserveur se fait simplement à l'aide de la commande suivante dans le salon de votre choix :
-
-```
-!interserveur
-```
+La création de l'interserveur se fait simplement à l'aide de la commande `interserver` dans le salon de votre choix.
 
 Une fréquence vous sera envoyée en message privé.
 
@@ -30,11 +26,11 @@ Votre fréquence est créée, il ne vous reste plus qu'à ajouter un autre salon
 
 Une fois votre fréquence créée, il vous faut maintenant relier un autre serveur à cette fréquence afin que les deux salons puissent communiquer.
 
-Pour ce faire, vous pouvez utiliser la même commande suivie de la fréquence reçue par message privé :
+Pour ce faire, vous pouvez utiliser la même commande suivie de la fréquence reçue par message privé : `interserver <fréquence>`
 
-```
-!interserveur <la fréquence>
-```
+{% hint style="warning" %}
+Lorsque vous faites la commande pour relier un salon à un interserveur, n'oubliez pas d'inclure le `#` dans la fréquence.
+{% endhint %}
 
 Une fois cette commande exécutée, un message de confirmation vous sera envoyé dans le même salon ainsi que dans le salon relié par la fréquence !
 
@@ -44,26 +40,22 @@ Vous avez créé votre interserveur entre vos deux salons !
 
 ## Supprimer un interserveur
 
-Pour supprimer la fréquence d'un salon, deux options s'offrent à vous:
+Pour supprimer la fréquence d'un salon, deux options s'offrent à vous :
 
 {% tabs %}
 {% tab title="Supprimer l'interserveur du salon" %}
-Exécutez la commande suivante:
+Exécutez la commande `interserver` :
 
-```
-!interserveur
-```
+![](../.gitbook/assets/Interserveur.png)
 
-![Réponse de DraftBot à la commande](<../.gitbook/assets/image (3).png>)
-
-Sélectionnez l'emoji corbeille 🗑️ pour supprimer l'interserveur du salon
+Sélectionnez le bouton "Supprimer" pour supprimer l'interserveur du salon
 
 {% hint style="success" %}
-L'interserveur a bien été supprimé du salon !
+L'interserveur du salon a été supprimé avec succès !
 {% endhint %}
 {% endtab %}
 
 {% tab title="Supprimer le salon" %}
-DraftBot a été conçu pour être le plus ergonomique et le plus simple a utilisé, **supprimer le salon** supprimera automatiquement l'interserveur du salon.
+DraftBot a été conçu pour être le plus ergonomique et le plus simple à utiliser, **supprimer le salon** supprimera automatiquement l'interserveur du salon.
 {% endtab %}
 {% endtabs %}

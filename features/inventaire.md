@@ -11,7 +11,7 @@ description: >-
 Vous avez la possibilité d'obtenir un objet de plusieurs manières :
 
 * [**Récompense de niveau**](niveaux.md#recompenses) : configuration préalable par les administrateurs avec la commande `adminreward` ou via le [panel web](https://draftbot.fr/).
-* ****[**Achat dans la boutique**](economie.md#boutique) **** : configuration préalable par les administrateurs **** avec la commande `adminshop` ou depuis le [panel web](https://draftbot.fr/), puis achat par le membre avec `buy`.
+* ****[**Achat dans la boutique**](economie.md#boutique) **** : configuration préalable par les administrateurs **** avec la commande `adminshop` ou depuis le [panel web](https://draftbot.fr/), puis achat par le membre avec le sélecteur de `shop`.
 * **Échange entre membres** : avec la commande `deal`.
 
 ## Gérer l'inventaire d'un membre
@@ -27,10 +27,14 @@ Vous aurez alors le choix entre plusieurs options :&#x20;
 ## Afficher son inventaire
 
 Les membres de votre serveur Discord peuvent accéder à leur inventaire avec la commande `inventory`.\
-Si le membre possède des objets dans son inventaire, ils seront affichés, ainsi que l'argent qu'il possède dans le [système d'économie](economie.md) de DraftBot.
+Si le membre possède des objets dans son inventaire, ils seront affichés, ainsi que l'argent qu'il possède, dans le [système d'économie](economie.md) de DraftBot.
 
 {% hint style="info" %}
-Vous avez la possibilité de voir l'inventaire d'un autre membre en le mentionnant ou en indiquant son pseudonyme par exemple après la commande `inventory`
+Vous avez la possibilité de voir l'inventaire d'un autre membre en le mentionnant ou en indiquant son pseudonyme par exemple après la commande `inventory`.
 {% endhint %}
 
-![Inventaire d'un membre](<../.gitbook/assets/image (47).png>)
+![Inventaire d'un membre](<../.gitbook/assets/image (46).png>)
+
+## Vendre un objet
+
+Les membres de votre serveur Discord peuvent vendre certains de leur objet à d'autres membres en utilisant la commande `sell`.

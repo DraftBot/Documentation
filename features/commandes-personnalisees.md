@@ -20,28 +20,29 @@ DraftBot vous demandera alors les informations suivantes :
 * Type(s) d'action(s)&#x20;
   * Envoyer un message
   * Ajouter/Retirer des rôles
+  * Ajouter un rôle temporaire
   * Faire un achat dans la boutique
 * Si vous souhaitez ou non que la commande soit affichée dans le `help`
 
 ### Depuis le panel web
 
 Vous pouvez configurer les commandes personnalisées depuis le panel web : [draftbot.fr](https://draftbot.fr).\
-Il vous suffira de vous connecter en haut à droite puis de vous rendre dans la catégorie "Vos serveurs"
+Il vous suffira de vous connecter en haut à droite puis de vous rendre dans la catégorie "Vos serveurs".
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/Commandes personnalisées\_accueil site.png>)
 
-Ensuite, choisissez un de vos serveurs sur le côté gauche puis sélectionner "**Commandes custom**".
+Ensuite, choisissez un de vos serveurs sur le côté gauche puis sélectionner "**Commandes personnalisées**".
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/Commandes personnalisées\_commandes personnalisées.png>)
 
-Pour créer une commande, cliquez sur le bouton "**Créer une commande**" en haut à droite et remplissez les divers champs (nom, description, actions, etc.).
+Pour créer une commande, remplissez les divers champs (nom, description, actions, etc.) puis cliquez sur le bouton "**Créer**" en bas à droite de votre commande personnalisée.
 
 {% hint style="info" %}
 Besoin de modifier ou de supprimer la commande ? \
 Pas de problème ! Cliquez sur Modifier ou Supprimer sur le côté droit.
 {% endhint %}
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/Commandes personnalisées\_modifier une commande.png>)
 
 ## Arguments
 
@@ -49,13 +50,13 @@ Les commandes personnalisées vous offrent la possibilité d'ajouter des argumen
 
 {% hint style="info" %}
 **Exemple de commandes personnalisées avec des arguments**\
-****_Message configuré: $1 est maintenant $2+_\
+****_Message configuré : `$1 est maintenant $2+`_\
 \
 Commande de l'utilisateur : `!adjectif @Jules fort et beau`\
-Réponse de DraftBot: @Jules _est maintenant_ fort et beau
+Réponse de DraftBot : @Jules _est maintenant_ fort et beau
 {% endhint %}
 
-Voici quelques exemples de variables d'arguments:\
+Voici les différentes variables d'arguments possibles avec **DraftBot** :\
 \
 $1 = première valeur saisie après la commande\
 $2 = deuxième valeur saisie après la commande\
