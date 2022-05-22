@@ -28,38 +28,38 @@ Commencez par vous rendre dans les paramètres de votre serveur, dans la catégo
 
 Activez les paramètres du rôle dont 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 a besoin pour exécuter les commandes que vous voudrez utiliser. Le plus simple étant de lui donner la permission « Administrateur » :
 
-| Permission                              |     Inutile     |   Facultative   |   Essentielle   |  Recommandée  |
-| --------------------------------------- | :-------------: | :-------------: | :-------------: | :-----------: |
-| Afficher séparément                     | :white\_circle: |                 |                 |               |
-| Mentionner ce rôle                      |                 | :black\_circle: |                 |               |
-| Administrateur                          |                 | :black\_circle: |                 | :red\_circle: |
-| Voir les logs                           | :white\_circle: |                 |                 |               |
-| Gérer le serveur                        |                 |                 |                 |               |
-| Gérer les rôles                         |                 |                 | :black\_circle: | :red\_circle: |
-| Gérer les salons                        |                 |                 | :black\_circle: | :red\_circle: |
-| Expulser des membres                    |                 |                 | :black\_circle: | :red\_circle: |
-| Bannir des membres                      |                 |                 | :black\_circle: | :red\_circle: |
-| Créer une invitation                    |                 | :black\_circle: |                 |               |
-| Changer de pseudo                       | :white\_circle: |                 |                 |               |
-| Gérer les pseudos                       |                 | :black\_circle: |                 |               |
-| Gérer les émojis                        | :white\_circle: |                 |                 |               |
-| Gérer les Webhooks                      |                 |                 | :black\_circle: | :red\_circle: |
-| Lire & voir les salons                  |                 |                 | :black\_circle: | :red\_circle: |
-| Envoyer des messages                    |                 |                 | :black\_circle: | :red\_circle: |
-| Envoyer des messages de synthèse vocale | :white\_circle: |                 |                 |               |
-| Gérer les messages                      |                 |                 | :black\_circle: | :red\_circle: |
-| Intégrer des liens                      |                 |                 | :black\_circle: | :red\_circle: |
-| Joindre des fichiers                    |                 |                 | :black\_circle: | :red\_circle: |
-| Voir les anciens messages               |                 |                 | :black\_circle: | :red\_circle: |
-| Mentionner @everyone                    |                 | :black\_circle: |                 |               |
-| Utiliser des émojis externes            |                 |                 | :black\_circle: | :red\_circle: |
-| Se connecter en vocal                   |                 |                 | :black\_circle: | :red\_circle: |
-| Parler en vocal                         |                 |                 | :black\_circle: | :red\_circle: |
-| Couper le micro de membres              |                 | :black\_circle: |                 |               |
-| Mettre en sourdine                      |                 | :black\_circle: |                 |               |
-| Déplacer des membres                    |                 | :black\_circle: |                 |               |
-| Utiliser la détection de voix           |                 | :black\_circle: |                 | :red\_circle: |
-| Voix prioritaire                        |                 | :black\_circle: |                 |               |
+| Permissions                             |   Facultatives  |   Essentielles  |  Recommandées |
+| --------------------------------------- | :-------------: | :-------------: | :-----------: |
+| Afficher séparément                     | :white\_circle: |                 |               |
+| Mentionner ce rôle                      | :white\_circle: |                 |               |
+| Administrateur                          | :white\_circle: |                 | :red\_circle: |
+| Voir les logs                           | :white\_circle: |                 |               |
+| Gérer le serveur                        |                 |                 |               |
+| Gérer les rôles                         |                 | :black\_circle: | :red\_circle: |
+| Gérer les salons                        |                 | :black\_circle: | :red\_circle: |
+| Expulser des membres                    |                 | :black\_circle: | :red\_circle: |
+| Bannir des membres                      |                 | :black\_circle: | :red\_circle: |
+| Créer une invitation                    | :white\_circle: |                 |               |
+| Changer de pseudo                       | :white\_circle: |                 |               |
+| Gérer les pseudos                       |                 | :black\_circle: | :red\_circle: |
+| Gérer les émojis                        | :white\_circle: |                 |               |
+| Gérer les Webhooks                      |                 | :black\_circle: | :red\_circle: |
+| Lire & voir les salons                  |                 | :black\_circle: | :red\_circle: |
+| Envoyer des messages                    |                 | :black\_circle: | :red\_circle: |
+| Envoyer des messages de synthèse vocale | :white\_circle: |                 |               |
+| Gérer les messages                      |                 | :black\_circle: | :red\_circle: |
+| Intégrer des liens                      |                 | :black\_circle: | :red\_circle: |
+| Joindre des fichiers                    |                 | :black\_circle: | :red\_circle: |
+| Voir les anciens messages               |                 | :black\_circle: | :red\_circle: |
+| Mentionner @everyone                    | :white\_circle: |                 |               |
+| Utiliser des émojis externes            |                 | :black\_circle: | :red\_circle: |
+| Se connecter en vocal                   |                 | :black\_circle: | :red\_circle: |
+| Parler en vocal                         |                 | :black\_circle: | :red\_circle: |
+| Couper le micro de membres              | :white\_circle: |                 |               |
+| Mettre en sourdine                      | :white\_circle: |                 |               |
+| Déplacer des membres                    | :white\_circle: |                 |               |
+| Utiliser la détection de voix           | :white\_circle: |                 |               |
+| Voix prioritaire                        | :white\_circle: |                 |               |
 
 {% hint style="warning" %}
 Si 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 n'est pas Administrateur, il faudra également penser à lui attribuer les permissions dans les salons où il devra agir.

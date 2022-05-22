@@ -5,7 +5,7 @@ description: >-
   n'hésitez pas à contacter le support.
 ---
 
-# Bienvenue !
+# 🙂 Bienvenue !
 
 #### Afin que votre découverte de **DraftBot** via notre documentation se passe au mieux, voici quelques détails concernant la rédaction :
 

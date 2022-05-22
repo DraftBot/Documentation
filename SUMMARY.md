@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Bienvenue !](README.md)
+* [🙂 Bienvenue !](README.md)
 * [Installation](installation.md)
 * [Configuration](configuration.md)
 * [Changelog](changelog.md)

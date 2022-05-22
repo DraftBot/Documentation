@@ -14,7 +14,7 @@ La commande `userinfo` indique les informations détaillées d'un utilisateur co
 Si aucun membre est indiqué après la commande, vos informations seront affichées.
 {% endhint %}
 
-![Informations obtenues à l'aide de la commande userinfo](../.gitbook/assets/Userinfo.png)
+![Informations obtenues à l'aide de la commande userinfo](../.gitbook/assets/2020-12-21\_18-56.png)
 
 ## BotInfo
 
