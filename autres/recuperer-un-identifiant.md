@@ -104,5 +104,5 @@ Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
 * De faire un clique droit ou appuyer sur l'image/nom du serveur
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](<../.gitbook/assets/qxtda18qko (1).gif>)
+![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](../.gitbook/assets/qxtda18qko.gif)
 

@@ -17,7 +17,7 @@ Par la suite **DraftBot** vous demandera quel est le rôle que vous souhaitez at
 Si vous ne souhaitez pas notifier toutes les personnes qui ont d'ores et déjà le rôle destiné au règlement, vous pouvez simplement répondre le nom du rôle. Cela fonctionnera tout aussi bien que la mention.
 {% endhint %}
 
-![Exemple de règlement après création](../.gitbook/assets/reglement.png)
+![Exemple de règlement après création](https://raw.githubusercontent.com/DraftBot/Documentation/8fcb724f18dad6c490ae316c6a61ceeee1f1dd94/.gitbook/assets/reglement.png)
 
 {% hint style="danger" %}
 En retirant la réaction :white\_check\_mark: les membres perdent également le rôle associé.
@@ -42,4 +42,4 @@ Une fois ces deux arguments renseignés, **DraftBot** vous demandera le titre de
 
 Une fois votre règlement créé vous devriez avoir quelque chose de ce type :
 
-![](../.gitbook/assets/rules.png)
+![](https://raw.githubusercontent.com/DraftBot/Documentation/8fcb724f18dad6c490ae316c6a61ceeee1f1dd94/.gitbook/assets/rules.png)

@@ -33,7 +33,7 @@ Pour activer la détection et la censure des différents types d'infractions, vo
 
 DraftBot possède un panel web accessible en allant sur [draftbot.fr](https://draftbot.fr/) et qui vous permet notamment de configurer facilement le système d'auto-modération.
 
-![Accéder au panel web de DraftBot via draftbot.fr](../.gitbook/assets/sans-titre-output.gif)
+![Accéder au panel web de DraftBot via draftbot.fr](<../.gitbook/assets/Connexion DraftBot panel.gif>)
 
 Il vous suffira ensuite de cliquer sur votre serveur Discord puis d'accéder à la page "Auto-Modération".
 
@@ -52,9 +52,9 @@ Pour le configurer, il vous suffit d'utiliser la commande `automoderation filter
 * Mots censurés ou message supprimé
 * Mode stricte (interdit seulement les mots correspondants exactement aux mots interdits avec des espaces au début et à la fin)
 
-![Configuration dedu filtre de vocabulaire sur le panel web de DraftBot](../.gitbook/assets/image\_2021-11-16\_102443.png)
+![Configuration dedu filtre de vocabulaire sur le panel web de DraftBot](../.gitbook/assets/image\_2021-11-16\_102425.png)
 
-![Configuration du filtre de vocabulaire interdit via le panel DraftBot](../.gitbook/assets/image\_2022-01-15\_155007.png)
+![Configuration du filtre de vocabulaire interdit via le panel DraftBot](<../.gitbook/assets/image\_2022-01-15\_155007 (1).png>)
 
 {% hint style="warning" %}
 Si vous souhaitez bloquer les mots interdits sur votre serveur, pensez à activer cette fonctionnalité via le bouton en haut à droite sur le panel web ou avec la commande `automoderation filter on`&#x20;
@@ -92,7 +92,7 @@ Vous pourrez si vous le souhaitez, configurer davantage le système de restricti
 * Rôles ignorés
 * Salons ignorés
 
-![Configuration de l'anti-invitations Discord depuis le panel web](../.gitbook/assets/image\_2022-01-15\_155505.png)
+![Configuration de l'anti-invitations Discord depuis le panel web](../.gitbook/assets/image\_2022-01-15\_155437.png)
 
 #### Anti-spam de messages <a href="#spam" id="spam"></a>
 
@@ -251,7 +251,7 @@ Vous pouvez voir les sanctions effectuées sur votre serveur avec la commande `s
 Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les sanctions d'une personne précise.
 {% endhint %}
 
-|       `sanctions` sans argument       |              `sanctions` \<Membre>             |
-| :-----------------------------------: | :--------------------------------------------: |
-| ![](../.gitbook/assets/sanctions.png) | ![](<../.gitbook/assets/sanctions membre.png>) |
+|          `sanctions` sans argument          |              `sanctions` \<Membre>             |
+| :-----------------------------------------: | :--------------------------------------------: |
+| ![](<../.gitbook/assets/sanctions (1).png>) | ![](<../.gitbook/assets/sanctions membre.png>) |
 
