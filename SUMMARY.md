@@ -25,6 +25,7 @@
 * [Anniversaires](features/birthday.md)
 * [Membercount](features/membercount.md)
 * [RolePerms](features/roleperms.md)
+* [ChannelPerms](features/channelperms.md)
 * [Gestion des messages](features/gestion-des-messages.md)
 * [Commandes d'informations](features/commandes-dinformation.md)
 * [Commandes personnalisées](features/commandes-personnalisees.md)
