@@ -6,7 +6,831 @@ description: >-
 
 # Changelog
 
-## 4.13.7 - 24/07/2021 <a href="#4-13-7" id="4-13-7"></a>
+## [4.15.9 - 06/05/2022](https://discord.com/channels/422112414964908042/599942732559024138/971917384124362762) <a id="4-15-9"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de la possibilité dans tous les systèmes de @DraftBot de cibler une catégorie au lieu d'un salon afin de sélectionner tous les salons enfants.
+* Ajout de la possibilité dans tous les social-notifs d'envoyer les annonces dans les fils (même lorsque les fils sont archivés).
+* Ajout de la possibilité de supprimer une récompense dont le rôle a été supprimé depuis le panel.
+* L'affichage de la commande `!shards` a été améliorée afin d'afficher tous les shards de @DraftBot.
+* Amélioration de l'interface du panel sur Safari IOS.
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Il y avait un bug dans la matrice de l'IA de DraftBot qui le rendait nul au morpion. 🤯
+* Correction d'un bug qui prévalait l'égalité en cas de victoire.
+* Le rôle "Live" sera de nouveau retiré correctement lors de la fin d'un live via présence.
+* Il est de nouveau possible d'ajouter une chaîne Twitch, YouTube ou un Subreddit via la commande `!socialnotif`.
+* Un bug a été corrigé dans les annonces EpicGames, empêchant leur envoi sur vos serveurs.
+
+## [4.15.8 - 03/05/2022](https://discord.com/channels/422112414964908042/599942732559024138/970862861054267454) <a id="4-15-8"></a>
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Correction d'un bug présent dans les commandes de jeux `!puissance4` & `!morpion` qui pouvait empêchait leur bon fonctionnement.
+* Correction d'un bug présent lors de la création d'un message récurrent via la commande `!repeatmsg`.
+* Correction de la description de certaines commandes slash.
+
+## [4.15.8 - 02/05/2022](https://discord.com/channels/422112414964908042/599942732559024138/970484865092960347) <a id="4-15-8"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Fusion des deux commandes `/send embed` & `/send say` en `/send`
+* Changement de la structure des commandes réservées aux modérateurs (suggest & ticket) :
+`/suggest send` => `/suggest`
+`/suggest ****` => `/suggestmod ****`
+* Déplacement de toutes les commandes d'émotions dans la commande slash `/interact` suite à l'accès aux slash-commandes via leur sous-commande.
+* Optimisation du cache de Discord.
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Corrections de bugs qui empêchaient le changement de catégories dans le help.
+* Correction d'un bug présent dans la suppression de tous les stickyroles d'un membre. 
+* Correction d'un bug présent lors de l'enregistrement des slash commandes pour les privateroom.
+* Correction d'un bug présent dans le `/gameprofil` qui empêchait l'enregistrement des profils sans plateforme.
+* Correction d'un bug qui empêchait l'affichage de certaines URL d'annonces Epic-Games.
+* Ajout d'un avertissement si un rôle ayant la permission "admin" est en train d'être ajouté aux rôlereact.
+* Correction d'un bug présent dans le système de configuration d'un sélecteur pour le message d'ouverture de tickets.
+
+## [4.15.7 - 29/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/969370128091336734) <a id="4-15-7"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Une amélioration des onglets de l'Embed Creator sur le panel fait son apparition dans cette version. 10 onglets au total, un nouveau design (desktop + mobile) et un scroll de la barre !
+* Ajout de deux nouveaux jeux à la commande `/games` et `!apps` (Land-io et Putt Party).
+* Très grosse réduction du délai établi pour les annonces Epic Games de 6h à moins de 10min.
+* Il est désormais possible de ne sélectionner uniquement les domaines de liens interdits (bot + panel).
+* Il est maintenant possible d'éditer le nom des rôle-reactions via un simple clic (au lieu d'un double précédemment).
+* Ajout de la possibilité de coller une liste de mots clés sur le panel (pour les champs de mots clés) et tout sera ajouté.
+* Ajout de la possibilité de choisir parmi plusieurs résultats dans la commande de `météo` et `tv`.
+* Amélioration de tous les sélecteurs sur le panel afin que le déroulant s'ouvre en haut quand il n'y a pas de place en bas.
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* L'affichage de la commande `daily` a été repris dans la version Slash de cette commande.
+* Les images présentes dans les intégrations de liens pouvaient parfois être ré-upload lors de la censure.
+* Le nombre de membres dans les commandes `serverinfo` est désormais plus lisible pour les serveurs ayant un certain nombre de membres.
+* Certains problèmes d'affichages concernant des boutons qui sont toujours affichés, malgré que la commande ait été annulée, ont été corrigés.
+* Des problèmes lors de la sauvegarde de plus de 100 messages dans un ticket ont été corrigés.
+* Il est maintenant possible de définir l'argent de départ à 0 dans la commande `admineconomy config`.
+* Correction du bug dans l'URL des jeux gratuits d'Epic-Games.
+* Ajout de la somme totale d'argent dans le footer de l'embed du `daily`.
+* Support de tous les émojis avec couleurs de peau, genrés et non genrés.
+* Il est à présent possible d'avoir des émojis sous la forme `:emoji:` dans la boutique et dans le sélecteur.
+- Changement de l'émoji utilisé lorsqu'il n'est pas possible d'afficher un émoji personnalisé pour la devise de l'économie `$` de `💰`.
+* Ajout de la possibilité de lancer une commande de `/stats` sans pseudo afin de prendre l'exécuteur de la commande comme membre par défaut.
+* Suppression des émojis dans le nom du serveur pour la génération du token d'interserveur.
+* Correction d'un bug qui empêchait la suppression des récompenses et articles depuis le panel.
+* Correction du bug qui empêchait de scroll jusqu'aux boutons de validation.
+
+### ✨ Nouvelle slash-commands <a id="slash-commands"></a>
+(Premium accès anticipé) (`!slash` pour les activer)
+
+* Utilitaires : `backup`, `qrcode`, `send message`, `send embed`, `avatar`, `color`, `maths`, `react` et `weather` .
+* Fun : `birthday`, `giveaway`, `survey`, `joke`, `love`, `rolldice`, `tv` et `youtube`.
+* Interaction: `interserver`, `remindme`, `report`, `restrictemoji`, `rules`, `suggest` et `ticket`.
+
+### ✨ Nouveau module open-source pour la météo 
+ [(DraftBot/weather-js)](https://github.com/DraftBot/weather) (typescript, promesses, parsing xml rapide, suppression des dépendances dépréciées : request, xml2js etc...)
+
+
+## [4.15.6 - 13/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/963607891615559680) <a id="4-15-6-1"></a>
+
+### 🗒️ Corrections  <a id="corrections"></a>
+
+* Correction du bug critique qui désactivait certains serveurs premium (dans le cache uniquement) à 18h lors de la ronde de vérification des serveurs premiums.
+* Correction d'un bug global sur le bot qui pouvait altérer certains gestionnaires de cache et donc ralentir certaines actions.
+* Grosse amélioration des messages d'erreurs lis à la création de webhooks pour toutes les fonctionnalités les utilisant (logs, modération, commandes de conversations, inter-serveurs).
+* Correction d'un problème présent dans plusieurs systèmes liés aux webhooks.
+
+## [4.15.6 - 12/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/963246541852774510) <a id="4-15-6"></a>
+
+### ✨ Nouveautés  <a id="nouveautes"></a>
+
+* Nouvelle fonctionnalité de stock d'articles (premium).
+* Nouvelles commandes Slash: `Économie`, `Inventaire` ainsi que `Conversations`.
+
+### 🗒️ Améliorations  <a id="ameliorations"></a>
+
+* Amélioration du `!clear <search>` qui vérifie maintenant le contenu des embeds et ne tient plus compte des minuscules & majuscules.
+* Refonte complète de la commande de statistiques `!overwatch` (présentation, émojis de héros + ranked).
+* Refonte complète de la commande `/updatexp` pour une meilleure expérience utilisateur.
+* Ajout de la possibilité de parler pendant une partie de `!pendu` en répondant aux messages.
+* Correction de l'affichage de tous les liens pour les différentes versions (prod, ptb, canary, dev)
+* Correction d'un bug au niveau des cooldowns des slash-commandes.
+* Correction d'un bug au niveau de la sauvegarde du placeholder des sélecteurs de Rôles-Réactions sur le panel.
+* Correction d'un bug qui empêchait les commandes de déplacement et de copie de messages de traiter les messages issus de slash-commandes.
+
+### ✨ Nouvelle slash-commands <a id="slash-commands"></a>
+(Premium accès anticipé) (`!slash` pour les activer)
+
+* Economie : `money`, `topmoney`, `shop`, `daily`, `pay`, `dropmoney` et `updatemoney`.
+* Inventaire : `inventory`, `give`, `updateinventory`.
+* Conversations : `clear channel`, `clear conversation`, `clear messages`, `copy`, `move`, `quote` et `save conversation`.
+
+## [4.15.5 - 01/04/2022](https://discord.com/channels/422112414964908042/599942732559024138/959225660742701116) <a id="4-15-5"></a>
+
+### ✨ Nouveautés  <a id="nouveautes"></a>
+
+* Ajout d'une toute nouvelle page de classement de l'économie.
+
+### 🗒️ Corrections  <a id="corrections"></a>
+
+* Le message confirmant la création d'un ticket via un bouton est de nouveau affiché uniquement à l'utilisateur concerné.
+* Un utilisateur spammant lors d'une partie de `pendu` ne retournera plus "undefined" dans la liste des lettres.
+* Une meilleure expérience utilisateur (UX) est dorénavant disponible dans la commande `/gameprofil` pour la sélection de la plateforme de jeu.
+* Il est de nouveau possible de supprimer une commande personnalisée via la commande `!customcommand delete`.
+* Le nombre d'expérience ou d'argent maximum que peut avoir un utilisateur a été corrigé, le nombre affiché était supérieur au nombre réellement maximum.
+* Un problème d'affichage dans la commande `/dropxp` a été corrigé si le nombre indiqué était supérieur à un million.
+* Un problème présent dans le sélecteur de rôles du panel a été corrigé, il provoquait des problèmes dans le cas où il n'y avait pas de valeur.
+* Un souci lors de l'ajout de rolereacts sous forme de réactions a été corrigé, les rôles seront de nouveaux correctement attribués.
+* Les logs de suppression de messages envoyés par des bots ne seront plus envoyés afin d'éviter des logs indésirables.
+* La commande `!channelinfo` est de nouveau utilisable avec tous les salons.
+* Le bouton de sauvegarde sur le panel possède maintenant une animation de chargement afin d'éviter tout spam menant à plusieurs envois consécutifs de la même requête.
+* La reconfiguration du système de captcha se fait à présent sans accroche, il pouvait arriver que certaines vérifications d'accès aux salons échouent.
+* Ajout de sécurités afin de ne pas pouvoir dupliquer les tickets lors de leur validation.
+* Les rôles récompenses étaient réattribués à l'utilisateur dès son retour, même lorsque son expérience était réinitialisée.
+* Les logs ne devraient plus se désactiver sans raison et la raison de la désactivation est maintenant plus complète.
+* Ajout d'une sécurité dans le cas où un ticket ne peut pas être créé et ajout d'une file d'attente afin d'éviter le spam.
+* Amélioration des messages de confirmation d'activation d'anniversaire avec l'ajout de la date et de l'âge.
+* Ajout de messages d'erreurs afin d'empêcher les interserveurs dans les fils.
+* Les Live-Presence peuvent à nouveau fonctionner normalement, les variables de la description personnalisée se remplaçaient et empêchaient le bon fonctionnement de la fonctionnalité.
+* Correction de plusieurs fautes d'orthographe et améliorations de nombreuses phrases.
+
+### ✨ Nouvelle slash-commands <a id="slash-commands"></a>
+(Premium accès anticipé) (`!slash` pour les activer)
+
+* Niveaux : `level`, `toplevel`, `rewards`, `dropxp` et `updatexp`.
+* Émotions : `cuddle`, `feed`, `hug`, `kiss`, `pat`, `poke`, `slap` et `tickle`.
+* Statistiques : /stats `apex`, `brawlhalla`, `brawlstars`, `clashofclans`, `clashroyale`, `division2`, `fortnite`, `lol`, `osu`, `overwatch`, `paladins`, `r6` et `wolfy`.
+
+## [4.15.4 - 18/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/954169560670560286) <a id="4-15-4"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Amélioration de l'affichage globale des rôle-réactions de boutons & sélecteur
+* Correction d'un bug présent dans la commande Clash Royale lorsque l'api de Supercell ne nous fournit pas le deck du joueur.
+* Correction d'un bug présent lors de la suppression d'un rôle-réaction avec la commande.
+* Correction d'un bug présent lors du lancement d'un échange d'items.
+* Correction d'un bug empêchant les commandes d'informations de s'exécuter en mp.
+* Correction d'un bug qui empêchait la commande `!rules` de fonctionner lorsque le règlement avait été modifié avec l'Embed Creator.
+* Correction d'un bug présent dans les rôle-réactions de boutons & sélecteur lorsque le rôle était supprimé.
+* Correction d'un bug interne présent lors de la validation d'ouverture d'un ticket.
+* Correction d'un bug présent dans le système chargé de demander l'identifiant ou le lien d'un message dans certains systèmes.
+* Correction d'un bug présent dans le système d'importation des niveaux de MEE6.
+* Correction d'un bug présent dans le système d'anniversaire lorsque DraftBot n'a pas les permissions requises.
+* Désactivation de la commande `!apps` dans les messages privés.
+
+## [4.15.3 - 17/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/953831121131565076) <a id="4-15-3"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Correction d'un bug qui empêchait de créer un rôle réaction à partir d'un message d'utilisateur sur le panel.
+* Augmentation des limites de tailles des settings autorisés afin d'éviter à certains gros serveurs de dépasser cette limite.
+* Ajout d'un message d'erreur lorsque la commande `clearchannel` est exécutée dans un fil.
+* Ajout d'un message personnalisé si le membre ne peut être mute pour un problème de permissions.
+* Correction d'un bug d'affichage de la date de fin dans les rappels.
+* Correction d'un bug, principalement dans la commande `shop`, en cas de changement de page après un achat
+* Correction d'un bug d'affichage de certains messages d'erreurs du système de tickets.
+* Correction d'un bug avec la commande `quote` lors de l'utilisation de liens de messages.
+* Correction d'un bug au niveau du `rolereact remove` pour la suppression de boutons.
+
+## [4.15.2 - 14/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/952738228883038279) <a id="4-15-2"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Refonte du message de confirmation de réception de la commande `!daily` (amélioration globale + ajout de la couleur personnalisée de l'économie)
+* Refonte complète de la commande de statistiques Brawlhalla (Ranked 1v1 & 2v2 , émojis pour les rangs :platinum:, les légendes :artemis:  et les armes :scythe:, prévision des glories :glories:, ect...).
+* Ajout de 6 nouveaux brawlers à la commande de statistiques Brawlstars (:M_:, :A_:, :L_:, :F_:, :E_:, :G_:).
+* Nombreuses corrections au niveau des modes uniques sur les rôle-reactions.
+* Correction d'un bug qui empêchait de supprimer un interserveur.
+* Correction d'un bug dans  la commande `!sell` qui empêchait l'échange.
+* Correction d'un bug dans la commande `!shop` qui empêchait l'achat d'un article.
+* Correction d'un bug au niveau de la restriction des rôles des annonces de lives via présence.
+* Correction d'un soucis au niveau de la saisie de date (dans la commande `!birthday` notamment).
+* Correction de la taille de la fenêtre popup du site suite à l'ajout de la permission de créer des slash-commandes.
+* Correction de plusieurs bugs d'affichage présents sur la page de rôle-réactions.
+* Correction d'un bug au niveau de la suppression d'un émoji dans le sélecteur d'émojis sur le panel.
+
+## [4.15.1 - 10/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/951318493003911218) <a id="4-15-1"></a>
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Correction d'un bug au niveau des logs de changement de description de salon
+* Correction du bug d'affichage de la page de niveaux
+* Correction d'un bug au niveau de la commande warn
+* Correction d'un bug qui empêchais d'exécuter des commandes personnalisées.
+* Correction d'affichage des textes dans certains messages des tickets.
+* Correction d'un bug au niveau de l'édition des messages depuis l'embed creator.
+* Correction de fautes d'orthographe oubliées.
+* Correction d'un bug au niveau d'une vérification de sécurité dans la commande backup.
+* Correction d'un bug présent lors de l'annulation de la commande d'interserver
+* Correction d'un bug qui empêchait de valider les nombres écrits avec les points à chaque centaine (`100.000`)
+* Correction d'un bug qui empêchait d'exécuter la commande profil en mp.
+
+## [4.15.0 - 09/03/2022](https://discord.com/channels/422112414964908042/599942732559024138/950919931065692241) <a id="4-15-0"></a>
+
+### **✨ Slash commands** <a id="slash-commands"></a>
+Comme imposé par Discord, les commandes Slash vont petit à petit faire leur apparition dans cette version. 
+Elles seront dans un premier temps restreint aux serveurs premiums jusqu'à ce que leur développement soit finalisé.
+
+Dans cette version, nous vous proposons les principales commandes des catégories de commandes **"Bot"** et **"Informations"**.
+D'autres commandes arriveront dans les prochaines sous-versions.
+
+Pour les configurer, vous devrez utiliser la commande `!slash`.
+DraftBot vous proposera alors de les activer en cliquant sur le bouton "Activer".
+### **Rôle Réactions :**<a id="role-reactions"></a>
+
+Refonte complète du système de rôles réactions permettant l'ajout des boutons et sélecteurs.
+
+**Boutons:**
+ * Personnaliser la couleur du bouton.
+ * Personnaliser l'émoji présent dans le bouton.
+ * Personnaliser le nom du bouton.
+
+**Sélecteur:**
+ * Personnaliser le texte du sélecteur.
+ * Personnaliser l'émoji de l'option de chaque rôle présent dans le sélecteur.
+ * Personnaliser le nom de l'option de chaque rôle présent dans le sélecteur.
+ * Personnaliser la description de l'option de chaque rôle présent dans le sélecteur.
+
+**Modes:**
+ * Ajout du mode exclusif permettant de limiter l'utilisateur à un seul rôle du sélecteur ou des boutons.
+
+### **Panel Web :** <a id="panel-web"></a>
+
+* Ajout de l'interface de Rôles Réactions (avec toutes les nouveautés).
+* Ajout de la possibilité de choisir la couleur du système de niveaux et d'économie sur le panel.
+* Ajout de la fonctionnalité vocalrole au panel.
+* Ajout de la fonctionnalité localité au panel.
+* Amélioration de l'ergonomie et de l'accessibilité des sélecteurs du panel (pointeur, raccourcis clavier, curseur adaptatif à la recherche, optimisation de l'espace disponible).
+* Amélioration de l'animation d'ouverture et de fermeture des options sur le panel.
+* Amélioration de l'affichage des notifications et de la barre de sauvegarde sur le panel.
+* Correction d'un bug au niveau du chargement des utilisateurs après la place 100 des systèmes de niveaux et d'économie sur le panel.
+* Désactivation des boutons de sauvegarde en cas d'erreurs et affichage de ces dernières au survol des boutons.
+* Désactivation et ajout d'une animation chargement sur les boutons lorsque la requête est en cours afin d'éviter de spammer le bouton.
+* Configuration de la somme d'argent de la commande !daily
+
+### **Captcha :** <a id="captcha"></a>
+
+* Mention du membre dans le message du captcha.
+* Ajout d'un log en cas d'exclusion du captcha.
+* Ajout d'un warning dans le footer du captcha quand il y a des majuscules et des minuscules.
+
+### **Mute :** <a id="mute"></a>
+
+* Utilisation du mute de Discord pour la commande `!mute`.
+* Modification de la permission par défaut de la commande !mute de `Gérer les messages` à `Exclure temporairement des membres`
+* Suppression des auto-sanctions mute définitif ainsi que les mutes supérieurs à 28 jours dû à l'introduction du mute de Discord qui limite à 28 jours.
+
+### **Autres gros changements :** <a id="changements"></a>
+
+* Augmentation des limites de social notifs pour les serveurs premiums : YouTube: 5, Twitch: 5, Reddit: 10
+* Ajout de la fonctionnalité de Mention des modérateurs au système de tickets (nécessite une reconfiguration).
+* Ajout de la commande !daily qui permet à vos utilisateurs de recevoir un montant configuré chaque jour.
+* Ajout de la possibilité de mettre des social-notifs dans des threads.
+* Amélioration du système de création de règlement (système interactif).
+* Amélioration du système de backup avec l'ajout de messages de confirmation pour toutes les actions de restauration ou de suppression et ajout de l'argument delete pour supprimer une sauvegarde.
+* Amélioration de l'ergonomie du système de règlement + passage à un bouton pour les nouveaux règlements.
+* Amélioration des règles d'acceptations des supercell ID (4 à 8 caractères)
+* Augmentation de l'affichage de la boutique en mode dark de 30 à 60s.
+* Optimisation des performances des systèmes d'économie & niveaux.
+* Refonte de toutes les descriptions et details dans le !help <commande>.
+* Correction d'un bug qui permettait de garder l'image de bienvenue et d'aurevoir après l'expiration du premium.
+* Suppression du message de confirmation du !clearchannel après 10 secondes d'affichage.
+* Suppression des questions qui sont annulées via cancel.
+
+## [4.14.11 - 16/02/2022](https://discord.com/channels/422112414964908042/599942732559024138/943311130200272956) <a id="4-14-11"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Amélioration de l'affichage du coût d'un article dans le sélecteur de la boutique.
+* Correction d'un problème au niveau du comptage des membres dans le système membercount quand celui-ci est sous la forme d'une catégorie.
+* Ajout de la possibilité de choisir si l'on souhaite comptabiliser les bots dans le membercount quand celui-ci est sous la forme d'une catégorie.
+* Renforcement de la vérification des jeux Epic-Games dans la fonctionnalité socialnotif.
+* Correction d'un souci au niveau de l'actualisation des jeux dans les messages d'annonces des Lives Présence (socialnotif presence).
+* Retrait du message d'alerte lorsque le délai de 60 secondes pour acheter un article dans la boutique est écoulé ; le sélecteur est désactivé.
+* Correction de quelques fautes d'orthographe. 
+
+## [4.14.10 - 06/02/2022](https://discord.com/channels/422112414964908042/599942732559024138/939676492986736641) <a id="4-14-10"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Refonte du système d'auto-modération de liens, les domaines ignorés ignoreront également tous les sous domaines.
+* Ajout de la possibilité d'ajouter une note à un utilisateur ayant quitté le serveur.
+* Changement des durées des offres de premium: un mois de premium correspond aujourd'hui à 30 jours et plus au nombre de jours présent dans le mois actuel.
+* Correction d'un bug bloquant les liens provenant de Discord lorsqu'ils avaient un sous domaine (exemple : `support.discord.com`)
+* Correction d'un bug au niveau des logs de stickers qui empêchait leur envoi.
+* Correction d'un bug au niveau des messages récurrents qui laissait passer les messages avec un contenu de plus de 2000 caractères menant directement à la suppression du message récurrent.
+* Correction d'un bug au niveau des embeds des social-notifs presence.
+* Correction d'un bug au niveau des interserveurs lors de l'envoi d'un sticker.
+* Correction d'un bug qui menait à l'arrêt de la restauration d'une sauvegarde dès son lancement (`backup`).
+* Correction d'un bug au niveau de la configuration du système de captcha et du rôle Mute.
+* Correction d'un bug qui menait à la désactivation du système de logs après un redémarrage sous certaines conditions.
+* Correction d'un bug qui empêchait de dépasser 72h dans le système de messages récurrents. (depuis le panel uniquement)
+* Correction d'un bug qui empêchait de citer un message d'un autre salon. (`quote`)
+
+## [4.14.9 - 31/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/937512009258373170) <a id="4-14-9"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Ajout de la possibilité d'accepter/refuser une suggestion depuis un autre salon que le salon réceptacle. (`suggestion accept/refuse`)
+* Réduction du délai minimum d'`une heure` à `30min` avant la republication d'une annonce de live. (`socialnotif présence`)
+* Correction d'un bug qui empêchait la création/mise en place du système de captcha.
+* Correction d'un bug qui permettait de mettre des valeurs décimales en dessous d'une heure pour les messages récurrents.
+* Correction d'un bug qui empêchait l'envoi d'un log quand un message récurrent était supprimé en raison de la suppression de son salon.
+* Correction de plusieurs fautes d'orthographe.
+
+## [4.14.8 - 25/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/935318155360866374) <a id="4-14-8"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Ajout du nouveau jeu de Uno (Ocho) à la commande `!apps`.
+* Ajout de la possibilité de citer des messages venant de fils (`!quote`).
+* Ajout d'un message lorsque le message du plateau de jeu est supprimé (`puissance4`, `morpion`, `chifumi`).
+* Correction d'un problème dans le système d'annonces de jeux gratuits Epic-Games qui menait à une ratelimit à 17:00.
+* Correction d'un bug au niveau du système de présence sur le panel.
+* Correction d'un bug qui permettait de garder les images de bienvenue et d'au revoir même lorsque l'on avait plus le premium.
+* Correction d'un bug au niveau de la modification d'un social notif subreddit sur le panel.
+* Correction de plusieurs fautes d'orthographe.
+
+## [4.14.7 - 10/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/930233341070934056) <a id="4-14-7-1"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Ajout de la possibilité de modifier la couleur du système de niveau sur le panel.
+* Ajout d'un message informatif lorsque aucune sauvegarde n'a été faite pour faire une restoration.
+* Correction d'un bug lors de la création de récompenses et d'articles sur le panel. 
+* Correction d'un bug au niveau des commandes `!adminreward update` & `!adminshop update`.
+* Correction d'un bug au niveau du bouton Annuler présent dans la pagination des inventaires.
+* Correction d'un bug qui empêchait d'utiliser des tags Supercell anciens qui ne font que 6 caractères.
+* Correction d'un bug qui réinitialisait l'icône de l'économie lorsque l'icône était un émoji non personnalisé.
+* Correction d'un bug au niveau de l'affichage des personnes ayant pris le premium sur la page `/premium`.
+* Amélioration du design des récompenses sur la page de niveaux.
+* Amélioration des systèmes de questions afin qu'il ne prenne pas les réponses à d'autres messages.
+
+## [4.14.7 - 09/01/2022](https://discord.com/channels/422112414964908042/599942732559024138/929868856237883462) <a id="4-14-7"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Ajout de messages détaillés au-dessus du bouton de sauvegarde lors de la création de récompenses ou d'articles sur le panel.
+* Ajout de l'âge dans la commande `profil` lorsqu'il est disponible dans la commande `birthday`
+* Ajout de questions supplémentaires à la commande `membercount` afin de créer les compteurs à l'endroit qui vous intéresse + Optimisation de l'ergonomie globale de la commande.
+* Ajout de la possibilité de choisir si l'on souhaite que le message récurrent soit envoyé lorsque le dernier message est déjà ce même message.
+* Amélioration de la détection des émojis dans tous les sélecteurs (`shop`, `sell`, `adminshop`, `admininventory`, `adminbirthday`, `adminreward`).
+* Amélioration des messages d'erreur dans les systèmes de social-notifs.
+* Refonte complète de l'API permettant la communication avec DraftBot.
+* Mise en place d'un système permettant l'introduction d'un panel-web futur pour les rôles-réactions.
+* Correction d'un bug qui empêchait de modifier son social-notif YouTube si l'on n'était pas premium.
+* Correction d'un bug critique qui pouvait empêcher le chargement de votre serveur sur le panel.
+* Correction d'un bug au niveau des messages récurrents qui pouvaient se supprimer dans le cas où personne n'avait parlé dans le salon depuis le redémarrage.
+* Correction d'un problème au niveau du champ d'upvotes minimum requis pour le social notif Reddit.
+* Correction d'un bug qui pouvait faire afficher un nombre de serveurs incorrect lors d'un double achat de premiums.
+* Correction d'un bug au niveau de la fermeture de tickets avec les boutons lorsque le membre a quitté le serveur.
+
+## [4.14.6 - 28/12/2021](https://discord.com/channels/422112414964908042/599942732559024138/925515616687890462) <a id="4-14-6"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Ajout d'informations à propos du fonctionnement de la commande `streamrole` sur le fait qu'il ne prenne pas en compte les partages d'écrans sur les serveurs.
+* Ajout des logs de suppressions d'embeds et de fichiers sur un message existant.
+* Correction de la prévisualisation des commandes `admincalendar` et `calendar` & disparition de ces commandes dans la commande `help` puisque la période de Noël est terminée.
+* Ajout d'une sécurité si @DraftBot n'a pas la permission d'envoyer un message dans le salon permettant d'accepter ou non un ticket.
+* Correction d'un bug dans la commande `adminticket message` si la raison ajoutée est déjà présente dans le sélecteur permettant d'ouvrir un ticket.
+* Affichage des messages supprimés & modifiés dans les logs des messages cités.
+* Correction de bugs avec les notifications sociales CommitStrip, EpicGames & Reddit.
+* Correction d'un soucis dans la commande `adminsanctions` si une sanction n'avait pas de raison.
+* Correction d'un bug si un bouton dépassait les 80 caractères (notamment dans la commande `admintickets message`)
+* Correction d'un bug important dans le système d'auto-modération qui permettait de le contourner.
+* Correction d'un bug dans les logs de threads si l'option "Tout le monde peut le désarchiver" était modifiée.
+* Correction de fautes d'orthographes.
+
+## [4.14.5 - 18/12/2021](https://discord.com/channels/422112414964908042/599942732559024138/921559912063066162) <a id="4-14-5"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout du nombre de votes sur l'affichage des résultats de la commande `!survey`.
+* Amélioration des explications concernant le fonctionnement de la commande `!liverole`.
+* Ajout des émojis personnalisés dans les sélecteurs des systèmes `!adminbirthday`, `!admininventory`, `!adminshop`, `!sell`, `!adminreward`.
+* Ajout d'une confirmation de l'exécution des commandes `clearconv`/`delconv`/`copyconv`/`moveconv`.
+* Ajout de nombreux émojis à la liste autorisée dans les systèmes de DraftBot.
+* Amélioration du message de confirmation de la suppression d'un message récurrent.
+* Amélioration du système de détection de messages récurrents similaires qui permet d'éviter un repost du même message.
+* Changement de la fréquence de mise à jour du `!membercount` suite à une limitation de Discord qui est de 10min.
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Correction d'un bug au niveau de l'enregistrement de chaines Twitch inexistantes qui pouvait dans certains cas ne pas renvoyer de message d'erreur.
+* Correction d'un bug qui empêchait l'enregistrement des limites de messages récurrents lors de leur création avec la commande.
+* Correction d'un bug au niveau de l'option `all` du roleperms sur les anciens serveurs.
+* Correction d'un bug au niveau des webhooks lorsque les membres n'étaient pas encore en cache.
+* Correction de nombreuses fautes d'orthographe.
+
+## [4.14.4 - 03/12/2021](https://discord.com/channels/422112414964908042/599942732559024138/916117302418767893) <a id="4-14-4-2"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Amélioration des rôles temporaires dans le calendrier de l'avent, un rôle temporaire ne fera plus retirer le rôle aux personnes qui l'avaient de manière permanente. 
+* Optimisation de l'ergonomie de la configuration de la commande `!socialnotif presence`.
+* Optimisation de l'ergonomie de la commande `!rolereact`
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Bug qui empêchait la suppression d'une case de calendrier de l'avent lorsqu'il n'y avait qu'une seule case.
+* Bug qui empêchait d'utiliser la commande `!quote` sur un message envoyé par un webhook.
+* Bug qui pouvait parfois empêcher le gain d'argent dans les fils Discord.
+* Amélioration globale des messages informant que le premium est requis pour certaines options (message moins imposant).
+* Bug qui pouvait survenir lors du dépassement du délais de 60 secondes dans la configuration des `!channelsperms`.
+* Bug qui empêchait l'envoi des logs de la commande (`!pay`) si la raison était une image.
+* Bug qui pouvait faire apparaitre un id incorrect dans la commande `!sanctions` si le modérateur ayant fait la sanction n'était plus sur le serveur.
+* Plusieurs fautes d'orthographe.
+
+## [4.14.4 - 30/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/915021997778542653) <a id="4-14-4-1"></a>
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Amélioration des boutons d'activation et de désactivation dans les systèmes `!suggest` & `!report`.
+* Problème lors de la création d'un message récurrent à partir d'un message d'utilisateur (`!repeatmsg`).
+* Bug au niveau du message de confirmation du système de tickets.
+* Bug présent au lancement de certaines commandes de manière aléatoire.
+* Bug au niveau de la sauvegarde de son profil Rainbow Six Siège dans le gameprofil. 
+* Amélioration du message d'erreur dans la commande `!vocalrole`.
+
+## [4.14.4 - 26/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/913813896480063549) <a id="4-14-4"></a>
+
+### ✨ Nouveautés pour la fonctionnalité de calendrier de l'avent <a id="nouveautes"></a>
+
+* Nouveau Design
+* Utilisation du sélecteur pour la suppression de plusieurs cases en même temps
+* Ajout de deux nouvelles surprises possibles : Rôle temporaire & Item d'inventaire
+* Accessibilité à la commande `!admincalendar` à partir du 26 novembre (une annonce bientôt
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Acceptation des url de chaines Twitch partagées depuis un mobile: (`m.twitch.tv`).
+* Ajout de plus de détails dans les raisons accompagnants certaines actions faites sur les serveurs Discord afin de mieux comprendre leurs origines dans les logs.
+* Plusieurs corrections d'orthographe dans la commande `!admintickets`.
+* Ajout des nouvelles permissions de Discord aux commandes affichant des permissions.
+* Correction d'un bug dans la commande sondage bloquant parfois le processus de fin manuelle du sondage.
+* Désactivation des commandes d'émotions en messages privés.
+* Correction d'un bug dans le système de sélection des catégories Dealabs depuis la commande.
+
+## [4.14.3 - 12/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/908848082781892678) <a id="4-14-3-1"></a>
+
+### 🗒️ Changements <a id="changements"></a>
+
+* Correction d'un soucis qui n'envoyait pas les images dans l'interserver
+* Correction d'un problème si un post Reddit n'a pas de description
+* Correction d'un problème dans la commande `quote` ou il n'était pas possible d'utiliser la variable <salon>
+* Correction d'un bug au niveau du captcha si on choisissait un salon existant lors de sa configuration
+* Ajout d'un avertissement dans la commande `adminticket` message à propos d'une description trop grande pour une raison dans un sélecteur pour ouvrir un ticket. 
+* Certains appareils (ex: PC) n'affiche pas la description du sélecteur en totalité.
+* Correction de fautes d'orthographes
+* Correction d'un bug au niveau de la restauration de backup
+* Ajout lors des backup, la sauvegarde de: bannières d'invitations, de serveurs, de l'onglet découverte
+
+## [4.14.3 - 06/11/2021](https://discord.com/channels/422112414964908042/599942732559024138/906331726719103047) <a id="4-14-3"></a>
+
+### 🎟️ Tickets <a id="tickets"></a>
+
+* Ajout de l'ouverture des tickets avec un bouton ou un sélecteur !
+* Remplacement des réactions par des boutons pour la gestion des tickets.
+* Ajout de la possibilité de sauvegarder jusqu'à 300 messages d'un ticket lors de sa fermeture.
+* Ajout de la possibilité de personnaliser les messages d'ouverture et de confirmation de ticket.
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Ajout de la commande `emojirestrict` : permet de limiter des émojis à certains rôles uniquement.
+* Ajout de la possibilité d'indiquer le lien d'un message au lieu de son identifiant.
+* Ajout de la possibilité de modifier le nombre de membres max dans les salons privés.
+* Ajout d'un nouveau jeu dans la commande `apps` : Checkers In The Park (jeu de Dames).
+* Amélioration du design des annonces Epic Games.
+* Suppression de tous les messages de confirmations du captcha au profit d'un message résumé en fin de configuration.
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Problèmes de statuts dans la commande `shards` ainsi que sur la page `/statuts`.
+* Panne globale présente sur le panel depuis plus d'une semaine.
+* Bug permettant de participer à un `dropxp` ou `dropmoney` lorsque l'on a atteint la limite.
+* Problème avec certaines preview d'images/vidéos d'annonces Reddit.
+* Conflits entre les lives présence et les annonces YouTube.
+* Bugs dans les commandes `adminshop` et `adminsanctions`.
+
+## [4.14.2 - 30/10/2021](https://discord.com/channels/422112414964908042/599942732559024138/903780072467595275) <a id="4-14-2"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de la possibilité de jouer contre quelqu'un aléatoirement aux jeux `puissance4`, `morpion`, `chifumi` + amélioration globale des interfaces
+* Les threads ne sont plus comptabilisés dans le système de membercount
+* Les rôles gérés par des intégrations Twitch ne faussent plus le nombre de bots sur le serveur
+* Ajout de la possibilité de choisir créer un message récurrent depuis un autre salon
+* Transformation de l'option Annuler des sélecteur en bouton
+* Suppression de la possibilité de créer un message récurrent dans un thread
+* Amélioration de l'affichage des articles dans le sélecteur du shop avec les émojis lorsqu'ils sont au début du nom
+* Amélioration des explications dans de nombreux messages nécessitant une réponse de l'utilisateur
+* Amélioration de nombreux boutons et options de sélecteurs sur l'ensemble du bot + amélioration des systèmes de paginations
+* Remplacement de tous les derniers affichages de photo de profile d'utilisateurs par ceux définis sur le serveur
+* Optimisation des requêtes entre le panel et DraftBot afin de réduire la latence des petites connexions
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Bug dans la génération des sauvegarde de conversations
+* Bug lors de la sélection du message dans le système de sondages
+* Bug dans le système de sélection de texte dans plusieurs commandes
+
+## [4.14.1 - 26/10/2021](https://discord.com/channels/422112414964908042/599942732559024138/902547817640366100) <a id="4-14-1"></a>
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Sélection des rôles dans la commande `socialnotif twitch` & `streamrole` (possibilité désormais de sélectionner les rôles gérés et au-dessus du membre)
+* Avatar dans certaines commandes pour supporter les photos de profil sur le serveur
+* Fautes d'orthographes dans les commandes `rappel` et `socialnotif`
+* Retrait du sélecteur dans la commande `quote` si un seul résultat est trouvé parmi le champ de recherche
+* Réintégration du `help here`
+* Lien de Twitch dans la liste des chaines enregistré
+* Soucis avec les commandes personnalisées qui empêchait l'envoie si le message défini n'avait pas d'embed
+* Soucis dans les privateroom lors de la configuration si le serveur n'est pas premium
+* Soucis dans la commande `morpion` qui empêchait le second joueur de jouer
+* Soucis dans la commande `help` si le serveur a configuré une icône d'économie personnalisée et qu'elle n'existe plus
+* Soucis dans la commande `socialnotif reddit` et le panel web qui ignorait la valeur du nombre minimum d'upvotes
+* Bug au niveau du reset d'xp
+* Bug au niveau du reset des récompenses
+* Bug lors la création du `vocalrole`
+* Bug au niveau des boosters d'argent
+* Bug au niveau de la commande ban lorsqu'elle n'était pas exécutée en une fois.
+* Bug au niveau de la récupération des membres
+* Bug au niveau des interserveurs
+* Bug dans la commande `quote` lors d'une recherche avec l'identifiant d'un message
+
+## [4.14.0 - 26/10/2021](https://discord.com/channels/422112414964908042/599942732559024138/902346531628273664) <a id="4-14-0"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Ajout de la commande `chifumi`
+* Ajout des notifications sociales : YouTube, Twitch, Lives, Reddit, Epic Games, CommitStrip & Dealabs (`socialnotif`)
+* Ajout de boutons/sélecteurs pour l'ensemble des commandes de DraftBot
+* Support des Threads pour l’auto-modération, commandes de conversations et plus
+* Ajout de la commande `note` pour ajouter des notes à l’historique de sanctions d’un utilisateur sans le notifier
+* Ajout de la commande `tv` pour obtenir des informations sur un film ou une série
+* Refonte du `vocalrole`
+* Ajout de la possibilité de modifier le nom des salons issus du `privateroom`
+* Ajout d’une option au système de suggestion permettant d’ouvrir un thread lors d’une nouvelle suggestion
+* Ajout des logs de conférence, de création, d'autocollants et de threads
+* Ajout des logs d'actions sur le panel pour les nouvelles fonctionnalités (welcome, goodbye, social-notifs, suggestions)
+
+### ♻️ Améliorations <a id="ameliorations"></a>
+
+* Refonte de la commande help avec un nouveau design et groupe "Jeux"
+* Ajout des logs de threads, autocollants et conférences
+* Les salons des compteurs de membres sont maintenant ignorés dans les logs
+* Ajout de "Call Of Duty" au profil de jeux
+* Amélioration du message lorsque @DraftBot est mentionné
+* Ajout de la possibilité d'ignorer des threads pour le gain d'expérience ou d'argent
+* Réinstauration des commandes dans les messages privés de DraftBot
+* Amélioration de la commande `qrcode` : Ajout d'un mode lien & Wi-Fi
+* Refonte des commandes `sanctions`, `premium` et `shop` avec de nouveaux designs
+* Retrait de la commande `buy` suite à la refonte de la commande `shop` avec un sélecteur
+* Augmentation du temps d'affichage des messages d'erreurs de permissions de 6s à 15s
+* Ajout de la possibilité de ne pas supprimer le rôle « Non validé » du captcha lors de sa désactivation
+* Amélioration du système de logs afin qu'il ne logue plus les suppressions de messages de commandes.
+* Le tag des utilisateurs sanctionnés sera toujours affiché dans l'historique des sanctions et sera toujours affiché, même lorsque l'utilisateur n'aura plus de lien avec DraftBot
+* Création ou réutilisation d'un salon pour les logs urgents
+* Traduction des arguments de commandes en français
+* Ajout de la possibilité de remplacer un `temprole`
+* Blocage de l'achat d'un rôle dans le `shop` si le membre le possède déjà
+* Utilisation de l'avatar du membre sur le serveur dans le `userinfo`
+* Ajout des icônes de rôles dans le `roleinfo`
+* Ajout du nombre de threads dans la commande `serverinfo`
+* Ajout de boutons pour passer à l'étape d'ajout dans les commandes `socialnotif youtube/twitch/reddit`, `automod filter` et `wordreact`
+* Ajout de la possibilité de reset toute la configuration de logs d'un serveur
+* Ajout de messages dans le salon du ticket lorsqu'une action le concernant est réalisée 
+
+### 🐛 Corrections <a id="corrections"></a>
+
+* Correction d’un souci dans l’interserver pour les images de plus de 8 Mo ou de plus de 2000 caractères 
+* Correction d’un bug qui ne donnait pas les objets d’inventaires dans certaines situations (giveaway, cadeaux d’anniversaires)
+* Correction d'un bug de duplication des logs d'`unban`
+* Correction d'un bug au niveau des messages récurrents, qui envoyait un message récurrent quand le dernier message en était aussi un.
+* Correction d'un bug dans la commande `birthday` au niveau de l'affichage
+* Correction d'un bug qui permettait d'accéder au leaderboard d'un serveur lorsque les niveaux étaient désactivés
+* Correction d'une faille de sécurité dans le système d'anti-invitations Discord où un simple `\` ou `//` avant le code permettait de brouiller le système.
+* Correction d'un bug au niveau de la création des webhooks de logs
+* Correction d'un bug qui peut survenir au niveau du `ban`/`tempban` lorsque le membre n'est pas sur le serveur.
+
+### 🌐  Panel <a id="panel"></a>
+
+* Ajout de la possibilité de personnaliser le message de bienvenue et d'au revoir : couleur de l'embed, couleur de fond, image de fond, recadrage de l'image
+* Ajout de la possibilité de configurer les notifications sociales (social-notifs) : YouTube, Twitch, Présences, Reddit, Epic Games, Dealabs, CommitStrip.
+* Support des nouveaux salons pour l'ensemble des fonctionnalités : Threads publics, threads privés, threads de news, salons de conférence.
+* Ajout d'une pastille d'info afin d'informer l'utilisateur de la raison d'une limitation.
+* Ajout d'un message d'avertissement en cas de réactions déjà utilisés dans le système de suggestions.
+* Ajout de la fonctionnalité ouverture de thread pour les suggestions.
+* Changement de l'icône pour le changement de couleur des fonctionnalités.
+* Amélioration de l'interface du panel sur téléphone.
+* Ajout d'un tri des serveurs dans la barre latérale en fonction du nombre de membres.
+* Ajout d'une transition lors de l'affichage des boutons de connexion sur le panel 
+
+## [4.13.18 - 14/09/2021](https://discord.com/channels/422112414964908042/599942732559024138/887127715965177876) <a id="4-13-18"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de la commande `!youtube`.
+* Optimisation de la vitesse de chargement de la liste des serveurs sur le panel.
+* Ajout de la possibilité de supprimer l'image de fond des messages d'arrivée et de départ.
+* Suppression du salon `#shards` (pour une question de performances), préférez utiliser la page status du site web.
+* Ajout de sécurités supplémentaires concernant les permissions des membercount.
+* Grosse amélioration du système de gestion des shards (devrait permettre de réduire les problèmes causés par la latence de Discord).
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction d'un bug au niveau de la commande `clearchannel` qui déplaçait progressivement le salon vers le haut.
+
+## [4.13.17 - 02/09/2021](https://discord.com/channels/422112414964908042/599942732559024138/882793415744581693) <a id="4-13-17"></a>
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction d'un bug au niveau des statistiques du jeu Rainbow Six Siège.
+* Correction d'un bug dans le gameprofil lorsque la plateforme était rentrée en majuscules.
+* Correction d'un bug d'affichage dans la boutique quand un rôle temporaire était supprimé.
+* Ajout d'une sécurité à la commande `!8ball` lorsqu'un sticker ou une image est envoyé en guise de question.
+* Ajout de sécurités supplémentaires lors de la création d'un ticket.
+* Ajout de logs d'erreurs lors d'erreurs lorsque l'attribution des cadeaux d'anniversaire échoue.
+* Ajout de sécurités dans le système de rôle en vocal.
+* Correction d'un bug dans le système d'interserveurs lorsqu'une liaison est coupée.
+* Correction d'un bug au niveau de la désactivation de serveurs premiums sous certaines conditions.
+* Correction d'un bug au niveau du délais de 60 secondes dans la commande `!rappel`.
+
+## [4.13.16 - 25/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/879873667499192330) <a id="4-13-16"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de la question d'affichage de l'âge à chaque changement de date d'anniversaire.
+* Amélioration du système de messages de bienvenue et d'au revoir pour que les messages soient tout de même envoyés lorsque l'image ne peut pas être générée.
+* Optimisation du changement des images sur le panel et pour les systèmes avec fond personnalisé (`!welcome`, `!goodbye`).
+* Réécriture complète du système de captcha avec permettant d'ajout d'erreurs plus précises concernant chaque cas d'erreur.
+* Déplacement de la commande `!quote` vers la catégorie Conversations
+* Ajout de sécurité au niveau de la validation des pseudos dans la commande `!paladins`.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction de l'importation de la version pour le système de release dans Sentry
+* Correction d'un problème au niveau de la création du rôle mute.
+* Correction d'un bug au niveau de l'affichage d'un giveaway avec comme récompense un rôle supprimé.
+* Correction d'un bug au niveau du suivi des actions temporaires.
+* Correction d'un bug présent sur le panel au niveau du sélecteur de couleurs de l'Embed Creator.
+* Correction de plusieurs fautes d’orthographe sur le panel et sur le bot.
+
+## [4.13.15 - 24/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/879495954565308506) <a id="4-13-15"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Ajout de l'argument `delete` à la commande `!description`.
+* Ajout d'une sécurité au système de giveaway lorsque l'embed est supprimé.
+* Optimisation du système de captcha.
+* Ajout de sécurités lors de la modification des permissions de salons lorsqu'ils sont créés pour les systèmes de captcha & mute.
+* Ajout de la permission voir le salon aux permissions requises de DraftBot pour l’exécution des commandes de déplacement de conversations.
+* Passage de 250 à 200 caractères pour le nom d'un article dans la boutique afin d'éviter une erreur de longueur.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Correction d'un bug qui empêchait l'affichage des statistiques Wolfy d'un utilisateur qui avait pour rôle favori l'héritier.
+* Correction de la commande `!adminrole clear`.
+* Correction des priorités des messages d'erreurs de la commande `!moveconv`.
+* Correction d'un problème avec la commande `!paladins` qui indique que le joueur est introuvable alors qu'il existe bel et bien.
+
+## [4.13.14 - 16/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/876830777453727744) <a id="4-13-14"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Optimisation de la commande de configuration du captcha.
+* Optimisation de la rapidité de la commande `!buy`.
+* Amélioration du clearchannel, le salon est maintenant supprimé avant sa duplication afin d'éviter les problèmes de limites de salons.
+* Ajout d'une sécurité qui permet de vérifier les permissions avant le lancement de la normalisation d'un pseudo.
+* Ajout d'une sécurité à la suppression du rôle de captcha lors de la désactivation du système.
+* Ajout d'une sécurité au niveau des permissions d'envoi des messages récurrents.
+* Ajout de sécurités au système de salons privés lorsque DraftBot n'a pas les permissions nécessaires.
+* Ajout de sécurités au niveau des requêtes des images d'émotions.
+* Ajout de nombreuses sécurités lors de l'envoi de messages d'erreurs.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug présent dans le système de channelperms une fois les 30 secondes d'attente dépassées.
+* Bug présent au niveau de la mise à jour des permissions des salons pour le mute et le captcha si DraftBot n'avait pas la permission administrateur.
+* Bug dans le userinfo lorsque l'utilisateur n'a aucun badge.
+* Bug au niveau des statistiques qui permettait dans certaines conditions d'envoyer la plate-forme dans un mauvais format.
+* Bug au niveau du système de logs de rôles lors de la création d'un rôle sans permission.
+* Bug au niveau des récompenses de niveaux uniques.
+* Bug au niveau des logs de ratio depuis le panel.
+* Bug au niveau des logs de salons et de rôles lors de l'affichage des permissions.
+* Bug dans la commande `!moveconv` lorsque les messages étaient plus vieux que de 2 semaines.
+
+## [4.13.13 - 15/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/876244147776913458) <a id="4-13-13"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Amélioration de la gestion des erreurs afin de mieux gérer les futurs problèmes et interventions.
+* Amélioration de tous les messages d'erreurs, ils apportent maintenant la solution exacte pour chaque cas spécifique.
+* Amélioration des fréquences d'actualisation des compteurs de membres.
+* Vérification des permissions avant de supprimer les messages dans l'automod.
+* Ajout de la permission "Attacher des fichiers" aux permissions requises par défaut pour l'execution de toutes les commandes.
+* Ajout de sécurités aux commandes de statistiques et de jeux lorsque le message de base est supprimé.
+* Ajout d'une sécurité à la commande `normalize` si la normalisation n'est pas possible.
+* Ajout de sécurités aux commandes `games`, `suggest`, `react`, `membercount` et `giveaway` dans le cas où DraftBot n'aurait pas les permissions requises
+* Ajout de 10 shards supplémentaires.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Une erreur de conception dans le système de récompenses
+* Plusieurs bugs concernant la commande de statistiques `paladins`
+* Mentions des interserveurs provoquant un affichage moins propre sur téléphone
+* Problème d'affichage des logs de modifications de permissions pour les salons
+* Un glitch qui permettait de rentrer des nombres à virgules sur le panel
+* Un problème d'édition des messages sur l'embed creator sous certaines conditions
+* Bug retirant l'image des logs sur le Panel lorsque le salon choisit était modifié
+
+## [4.13.12 - 13/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/875809308573589534) <a id="4-13-12"></a>
+
+### ✨ Améliorations <a id="ameliorations"></a>
+
+* Amélioration de la gestion de problèmes dans le système de giveaway.
+* Amélioration de la gestion des erreurs au niveau des actions temporaires (tempmute, tempban, temprole, rappel).
+* Optimisation du système de votes.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug présent dans le système de logs de salons lors de l'affichage des permissions.
+* Bug présent dans la suppression des messages du moveconv.
+* Bug présent dans la commande de statistiques du jeu Rainbow Six Siège.
+* Bug présent qui provoquait des spam des mp lors d'un glitch de dépassement de limite de serveurs premium avec des serveurs supprimés.
+
+## [4.13.11 - 12/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/875189320527527956) <a id="4-13-11"></a>
+
+### ✨ Changements <a id="changements"></a>
+
+* Refonte du système de détection des infractions (il gagne en rapidité et en réactivité)
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug d'affichage de noms de l'infractions dans certains cas dans le système d'auto-modération.
+* Plusieurs fautes d'orthographe.
+
+
+## [4.13.10 - 05/08/2021](https://discord.com/channels/422112414964908042/599942732559024138/872613706696130580) <a id="4-13-10"></a>
+
+### ✨ Changements <a id="changements"></a>
+
+* Optimisation du chargement de la page premium.
+* Optimisation du chargement de DraftBot.fr en ne chargeant Stripe que dans la page premium.
+* Amélioration de la liste des liens dans la commande `!help`
+* Changement des arguments `desactivate` en `deactivate` dans les commandes `!birthday` et `!premium`.
+* Nombre de brawlers dans la commande de statistiques de Brawlstars.
+* Ajout des nouvelles variables manquantes au système d'anniversaire (`{date}`, `{time}`, `{timestamp}`)
+* Désactivation des messages de bienvenue lorsque DraftBot n'a pas les permissions nécessaires.
+* Logs d'`Arrivés & départs` renommés en `Arrivées & départs`.
+
+### ♻️ Corrections <a id="corrections"></a>
+
+* Bug présent lors d’une commande personnalisée avec une image seulement.
+* Bug au niveau de la backup avec les salons stage et threads.
+* Bug de duplication d'images dans la commande `suggest accept/refuse`.
+* Bug dans le sélectionneur de rôles qui prenait un rôle aléatoire lorsqu'un Sticker ou Fichier était donné.
+* Quelques fautes d'orthographe.
+
+## [4.13.9 - 28/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/869715964403519578) <a id="4-13-9"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Ajout des 3 nouveaux brawlers sur les statistiques: Squeak, Buzz et Griff.
+* Changement de la valeur minimale du bingo (1 - 10000).
+* Blocage de la création d'une commande personnalisée lorsque le nom est déjà utilisé par une commande.
+* La commande delconv permet maintenant de supprimer des messages ayant été envoyés avant les 100 derniers messages.
+
+### ♻️ **Corrections** <a id="corrections"></a>
+
+* Correction d'un bug d'affichage au niveau de la variable `{time}`.
+
+## [4.13.8 - 26/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/869011100082003988) <a id="4-13-8"></a>
+
+### ✨ Nouveautés <a id="nouveautes"></a>
+
+* Amélioration du système du système anti-invites afin de bloquer toutes les invitations non officielles.
+(`discord.io`, `dsc.gg`, `dsc.ink`, `dsc.lol`, `discord.limited`, `discord.homes`, `discord.fyi`)
+
+### ♻️ **Corrections** <a id="corrections"></a>
+
+* Bug d'affichage de couleur dans la commande `!adminlogs` lors qu’aucune couleur n'a été définie.
+* Bug du nombre d'items dans dans la commande de création d'un item pour les récompenses.
+* Bug présent dans la commande `say` lorsqu'une image est envoyé sans contenu.
+* Bug présent au niveau de la fonctionnalité d'évents qui empêchait son arrêt.
+* Bug au niveau des rôles temporaires en conflits avec la suppression manuelle du rôle.
+* Bug lors de l'affichage des noms de rôles avec les récompenses de niveau.
+* Bug présent lors de la récupération de rôles uniques au retour d'un membre sur le serveur.
+* Bug des membres non comptabilisés dans les fonctionnalités event et giveaway.
+* Bug présent lorsque l'on sélectionne plusieurs rôles/salons.
+* Bug présent au niveau de la variable `**{time}**`.
+
+## [4.13.7 - 24/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/868274024986312704) <a id="4-13-7"></a>
 
 ### ✨ Nouveautés
 
@@ -33,7 +857,7 @@ description: >-
 * Bug présent lors du relancement d'une action temporaire.
 * Bug présent dans la sélection de durée qui prenait l'unité mois par défaut au lieu de minutes.
 
-## 4.13.6 - 15/07/2021 <a href="#4-13-6" id="4-13-6"></a>
+## [4.13.6 - 15/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/865345866026188830) <a id="4-13-6"></a>
 
 ### ✨ Nouveautés <a href="#nouveautes" id="nouveautes"></a>
 
@@ -54,7 +878,7 @@ description: >-
 * Tri des permissions lors de leur affichage sur l'ensemble des fonctionnalités.
 * Ajout de l'alias "game" pour la commande de jeux Discord.
 
-## 4.13.5 - 14/07/2021 <a href="#4-13-5" id="4-13-5"></a>
+## [4.13.5 - 14/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/864627722562830356) <a id="4-13-5"></a>
 
 ### ♻️ **Changements**
 
@@ -69,7 +893,7 @@ description: >-
 * Correction d'un bug présent dans la commande `adminxp` qui permet d'avoir un niveau négatif.
 * Correction d'un bug présent lors de la génération des images sur le panel lorsque l'utilisateur n'a pas de photo de profil.
 
-## 4.13.4 - 12/07/2021 <a href="#4-13-4" id="4-13-4"></a>
+## [4.13.4 - 12/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/863922198565879819) <a id="4-13-4"></a>
 
 ### ♻️ **Changements** <a href="#changements" id="changements"></a>
 
@@ -80,7 +904,7 @@ description: >-
 * Ajout des salons vocaux et stages dans le sélecteur du panel web.
 * Correction d'un bug présent dans le système d'administration des tickets.
 
-## 4.13.3 - 12/07/2021 <a href="#4-13-3" id="4-13-3"></a>
+## [4.13.3 - 12/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/863922198565879819) <a id="4-13-3"></a>
 
 ### **✨ Ajouts & Améliorations** <a href="#ajouts-ameliorations" id="ajouts-ameliorations"></a>
 
@@ -100,7 +924,7 @@ description: >-
 * Correction d'un problème présent lorsque les limites de webhooks sont atteintes pour les logs.
 * Correction d'un bug après le délais des 30s à la question du rôle d'anniversaire.
 
-## 4.13.2 - 08/07/2021 <a href="#4-13-2" id="4-13-2"></a>
+## [4.13.2 - 08/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/862487688057847828) <a id="4-13-2"></a>
 
 ### ♻️ **Changements** <a href="#changements" id="changements"></a>
 
@@ -120,7 +944,7 @@ description: >-
 * Correction de tous les logs provenant des actions du panel.
 * Correction des logs de sanctions temporaires.
 
-## 4.13.1 - 06/07/2021
+## [4.13.1 - 06/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/861773314578055168) <a id="4-13-1"></a>
 
 ### ♻️ Corrections <a href="#corrections" id="corrections"></a>
 
@@ -136,7 +960,7 @@ description: >-
 * Correction d'un bug présent lors de l'activation de la mention dans le système de reports.
 * Correction d'un bug de mentions lors de messages d'annonces d'anniversaire.
 
-## 4.13.0 - 05/07/2021
+## [4.13.0 - 05/07/2021](https://discord.com/channels/422112414964908042/599942732559024138/861667820970704946) <a id="4-13-0"></a>
 
 ### ✨ **Nouveautés** <a href="#nouveautes" id="nouveautes"></a>
 
@@ -165,8 +989,6 @@ description: >-
   * Salon personnalisé pour chaque type de logs
     * Avatar personnalisé pour chaque type de logs (premium)
     * Couleur personnalisée de l'embed pour chaque type de logs (premium)
-
-
 
 * Ajout de Minecraft dans le gameprofil
 * Ajout de la fonctionnalité channelperms pour interdire les commandes à certains salons
@@ -221,7 +1043,7 @@ description: >-
 * Lorsqu'un modérateur des tickets ferme un ticket, le salon ne sera plus obligatoirement supprimé
 * Possibilité d'échapper les variables dans les messages (pour faire des exemples) (`\<user.username>`)
 
-## 4.12.1 - 17/04/2021 <a href="#4-12-1" id="4-12-1"></a>
+## [4.12.1 - 17/04/2021](https://discord.com/channels/422112414964908042/599942732559024138/832926338842492928) <a id="4-12-1"></a>
 
 ### ✨ **Nouveautés** <a href="#nouveautes" id="nouveautes"></a>
 
@@ -262,7 +1084,7 @@ description: >-
 * Panel web :&#x20;
   * Commandes personnalisées : Correction du bug de drag\&drop dans les étapes
 
-## 4.12.0 - 25/03/2021 <a href="#4-12-0" id="4-12-0"></a>
+## [4.12.0 - 25/03/2021](https://discord.com/channels/422112414964908042/599942732559024138/824600432503685120) <a id="4-12-0"></a>
 
 ### ✨ Nouvelles fonctionnalités
 
@@ -357,7 +1179,7 @@ description: >-
   * Fix de l'actualisation des images dans les embeds dans les messages récurrents&#x20;
   * Fix du bug dans le champ qui empêchait la sauvegarde des descriptions
 
-## 4.11.6 - 24/12/2020 <a href="#4-11-6" id="4-11-6"></a>
+## [4.11.6 - 24/12/2020](https://discord.com/channels/422112414964908042/599942732559024138/791726801915084800) <a id="4-11-6"></a>
 
 ### ✨ Nouvelles fonctionnalités <a href="#nouvelles-fonctionnalites" id="nouvelles-fonctionnalites"></a>
 
@@ -418,7 +1240,7 @@ description: >-
 * Suppression de la fonctionnalité "no xp" pour les membres en mode invisible (demande de Discord)
 * Fix bug de top.gg qui n'était plus mis à jour.
 
-## 4.11.5 - 19/10/2020 <a href="#4-11-5" id="4-11-5"></a>
+## [4.11.5 - 19/10/2020](https://discord.com/channels/422112414964908042/599942732559024138/769006813194092574) <a id="4-11-5"></a>
 
 ### ➕ Ajouts <a href="#ajouts" id="ajouts"></a>
 
@@ -448,7 +1270,7 @@ description: >-
 * Correction du bug des commandes non désactivées
 * Fix de la commande `filter` lorsqu'il y a trop de mots a afficher
 
-## 4.11.4 - 27/09/2020 <a href="#4-11-4" id="4-11-4"></a>
+## [4.11.4 - 27/09/2020](https://discord.com/channels/422112414964908042/599942732559024138/759890185008840736) <a id="4-11-4"></a>
 
 ### ✨ Nouvelles fonctionnalités  <a href="#nouvelles-fonctionnalites" id="nouvelles-fonctionnalites"></a>
 
@@ -536,7 +1358,7 @@ description: >-
 * Bug des autorôles dans la commande config
 * Bug dans le pendu lorsque l'on donnait deux lettres consécutives en même temps
 
-## 4.11.3 - 02/08/2020 <a href="#4-11-3" id="4-11-3"></a>
+## [4.11.3 - 02/08/2020](https://discord.com/channels/422112414964908042/599942732559024138/740500989265707039) <a id="4-11-3"></a>
 
 ### ➕ Ajouts Welcome/Goodbye
 
@@ -575,7 +1397,7 @@ description: >-
 * Configuration des rôles permissions depuis la page Commandes du panel web avec l’icône ⚙️
 * Ajout de la commande `!diagnose` pour connaître les problèmes de permissions avec le mute
 
-## 4.11.2 - 23/06/2020 <a href="#4-11-2" id="4-11-2"></a>
+## [4.11.2 - 24/06/2020](https://discord.com/channels/422112414964908042/599942732559024138/725133760386957385) <a id="4-11-2"></a>
 
 ### ✨ Nouvelles fonctionnalités
 
