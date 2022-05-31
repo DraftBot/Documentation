@@ -60,17 +60,11 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
 * `reset` → Réinitialiser la fonctionnalité (`adminmoney resetall` pour réinitialiser l'économie)
 * `color` → Personnaliser la couleur (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium))
 
-### **Modifier le gain d'argent et configurer l'argent quotidien** <a href="#modifier-le-gain-dexperience" id="modifier-le-gain-dexperience"></a>
+### **Modifier le gain d'argent** <a href="#modifier-le-gain-dexperience" id="modifier-le-gain-dexperience"></a>
 
-Si vous choisissez de **modifier le gain d'argent et configurer l'argent quotidien**, en envoyant `config`, vous aurez alors le choix pour **modifier le gain d'argent** entre quatre propositions : 0, entre 5 et 15, entre 15 et 25 et entre 25 et 35.\
+Si vous choisissez de **modifier le gain d'argent**, en envoyant `config`, vous aurez alors le choix entre quatre propositions : 0, entre 5 et 15, entre 15 et 25 et entre 25 et 35.\
 \
 Le taux actuel est symbolisé par le bouton en vert. Cliquez alors sur le bouton de votre choix, en fonction du taux d’expérience que vous souhaitez à présent faire gagner.&#x20;
-
-Pour **configurer l'argent quotidien,** vous aurez le choix de l'argent à faire gagner lors de l'exécution de la commande `daily`.
-
-{% hint style="info" %}
-Si vous ne souhaitez pas activer cette fonctionnalité, il vous suffira d'envoyer 0 pendant la configuration de l'argent quotidien.
-{% endhint %}
 
 ### **Multiplier le gain d’un rôle** <a href="#multiplier-le-gain-dun-role" id="multiplier-le-gain-dun-role"></a>
 
