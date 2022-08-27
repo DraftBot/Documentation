@@ -31,6 +31,7 @@
 * [Commandes personnalisées](features/commandes-personnalisees.md)
 * [Notifications sociales](features/notifications-sociales.md)
 * [RoleReact](features/rolereact.md)
+* [Rappel](features/rappel.md)
 
 ## Autres
 

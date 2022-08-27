@@ -8,7 +8,7 @@ description: >-
 
 ## Rendre muet un membre
 
-Pour rendre muet un membre pendant une durée définie, vous pouvez utiliser la commande `mute <Membre> <Temps> <Raison>`.\
+Pour rendre muet un membre pendant une durée définie, vous pouvez utiliser la commande `mute @Membre (Temps) (Raison)`.\
 \
 Le membre ne sera plus réduit au silence lorsque le temps de sa sanction sera écoulé.
 
@@ -24,5 +24,5 @@ DraftBot doit avoir son rôle au-dessus des autres rôles pour rendre muet un me
 
 Pour retirer le mute d'un membre, vous avez deux possibilités :
 
-* Utiliser la commande `unmute <Membre>`
+* Utiliser la commande `unmute @membre`
 * Enlever son exclusion en fessant un clic droit sur le membre et en appuyant sur "Arrêter d'exclure \<Membre>"
