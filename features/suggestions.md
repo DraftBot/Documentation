@@ -27,7 +27,7 @@ Vous aurez alors les possibilités :&#x20;
 Pour que vos membres puissent envoyer leurs suggestions sur votre serveur, ils devront utiliser la commande `suggest` suivie de leur suggestion.\
 Les membres de votre serveur pourront ensuite voter aux suggestions à l'aide des réactions que vous avez définies dans la configuration.
 
-![Message envoyé dans votre salon dédié aux suggestions après qu'une suggestion ait été proposée.](<../.gitbook/assets/image (30).png>)
+![Message envoyé dans votre salon dédié aux suggestions après qu'une suggestion ait été proposée.](<../.gitbook/assets/image (5).png>)
 
 ## Gestion
 

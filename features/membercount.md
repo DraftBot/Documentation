@@ -11,7 +11,7 @@ description: >-
 * Soit en forme de [salons vocaux](membercount.md#salons-vocaux) qui pourra indiquer le nombre de membres, salons, rôles, etc.
 * Soit en forme de [catégorie](membercount.md#categorie) qui ne pourra contenir que le nombre de membres.
 
-![](<../.gitbook/assets/image (37).png>)
+![](<../.gitbook/assets/image (17).png>)
 
 {% hint style="warning" %}
 Les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord au bout de **10 minutes**, peu importe le nombre de membres sur votre serveur.

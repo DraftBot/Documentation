@@ -33,7 +33,7 @@ Si le membre possède des objets dans son inventaire, ils seront affichés, ains
 Vous avez la possibilité de voir l'inventaire d'un autre membre en le mentionnant ou en indiquant son pseudonyme par exemple après la commande `inventory`.
 {% endhint %}
 
-![Inventaire d'un membre](<../.gitbook/assets/image (46).png>)
+![Inventaire d'un membre](<../.gitbook/assets/image (10).png>)
 
 ## Vendre un objet
 
