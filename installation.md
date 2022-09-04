@@ -8,9 +8,9 @@ description: Voici le processus d'invitation et d'installation de DraftBot.
 
 Commençons par inviter **DraftBot** sur le serveur en allant sur la page d'accueil du site : [www.draftbot.fr](https://www.draftbot.fr)
 
-![Cliquez sur « Ajouter à Discord »](.gitbook/assets/invitationdraftbot.jpg)
+![Cliquez sur « Ajouter à Discord »](.gitbook/assets/InvitationDraftBot.jpg)
 
-![Connectez-vous si nécessaire puis choisissez votre serveur. Enfin, cliquez sur « Autoriser ».](.gitbook/assets/ajoutdraftbot.jpg)
+![Connectez-vous si nécessaire puis choisissez votre serveur. Enfin, cliquez sur « Autoriser ».](.gitbook/assets/AjoutDraftBot.jpg)
 
 {% hint style="success" %}
 Félicitations, 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 est maintenant ajouté à votre serveur !
@@ -27,7 +27,7 @@ S'il n'en dispose pas, il faudra impérativement penser à lui attribuer les [pe
 
 Si vous souhaitez que **DraftBot** puisse attribuer des rôles, assurez-vous que ceux-ci soient inférieurs dans la hiérarchie du serveur. Vous pouvez modifier l'ordre en faisant glisser les rôles de haut en bas :
 
-![DraftBot est positionné en dessous du rôle Premier dans la hiérarchie des rôles.](<.gitbook/assets/draftbot (1).jpg>)
+![DraftBot est positionné en dessous du rôle Premier dans la hiérarchie des rôles.](.gitbook/assets/DraftBot.jpg)
 
 {% hint style="info" %}
 Dans notre cas par exemple, **DraftBot** sera capable d'attribuer les Deuxième, Troisième et Quatrième rôles, mais ne pourra pas donner le Premier rôle.
@@ -50,6 +50,6 @@ Dans notre cas par exemple, **DraftBot** sera capable d'attribuer les Deuxième,
 |                                    |                Déplacer des membres                |
 
 {% hint style="success" %}
-Grâce à cette installation et si vous avez choisi de faire confiance à 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 en le laissant <mark style="color:red;">Administrateur</mark>, vous ne devriez pas rencontrer de problème. L'installation primaire est à présent terminée. La prochaine étape est la « [Configuration ](prefix/prefixe/config.md)».
+Grâce à cette installation et si vous avez choisi de faire confiance à 𝗗𝗿𝗮𝗳𝘁𝗕𝗼𝘁 en le laissant <mark style="color:red;">Administrateur</mark>, vous ne devriez pas rencontrer de problème. L'installation primaire est à présent terminée. La prochaine étape est la « [Configuration ](slash/configuration/)».
 {% endhint %}
 

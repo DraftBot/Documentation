@@ -114,7 +114,7 @@ Si vous décidez de modifier des boutons, vous pourrez modifier le <mark style="
 {% endtab %}
 {% endtabs %}
 
-### <mark style="color:blue;">Supprimer</mark> un rôle-réaction
+#### <mark style="color:blue;">Supprimer</mark> un rôle-réaction
 
-### Changer le <mark style="color:blue;">mode</mark> du message
+#### Changer le <mark style="color:blue;">mode</mark> du message
 

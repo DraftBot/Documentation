@@ -22,7 +22,7 @@ Vous aurez alors le choix :&#x20;
 Lorsqu'un nouveau membre rejoindra votre serveur Discord, un message apparaîtra dans le salon que vous avez défini pour le captcha.\
 Le membre devra alors réécrire les caractères sur l'image qui lui est destinée pour accéder au serveur.
 
-![Message envoyé dans le salon dédié au captcha lorsqu'un membre rejoint le serveur](<../../.gitbook/assets/image (38).png>)
+![Message envoyé dans le salon dédié au captcha lorsqu'un membre rejoint le serveur](<../../.gitbook/assets/image (44).png>)
 
 {% hint style="warning" %}
 Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au captcha, il sera automatiquement expulsé !

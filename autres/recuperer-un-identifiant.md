@@ -20,7 +20,7 @@ Pour récupérer l'identifiant d'un message, vous devez :&#x20;
 * Laisser appuyer ou cliquer droit sur un message
 * Puis appuyer sur **Copier l'identifiant.**
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvevycnhr2.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvEVyCNhr2.gif)
 
 ## <mark style="color:purple;">Identifiant d'un rôle</mark>
 
@@ -33,7 +33,7 @@ Afin de récupérer l'identifiant d'un rôle, vous devez :
 * Appuyer ou cliquer sur un membre qui possède le rôle dont vous souhaitez récupérer l'identifiant
 * Puis appuyer longtemps sur le rôle (smartphone) ou bien cliquer droit sur le rôle et sur **Copier l'identifiant** (ordinateur).
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un rôle](../.gitbook/assets/rnyfjyyjqw.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un rôle](../.gitbook/assets/RNyFjYYJqw.gif)
 
 Si vous avez besoin de mentionner un rôle (ex: panel web), il vous suffit de faire <@\&ID-Role>
 
@@ -49,7 +49,7 @@ Pour récupérer l'identifiant d'un membre, vous devez :
   * Si vous êtes sur smartphone, cliquez sur les trois petits points en haut à droite
 * Puis appuyez sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un membre](../.gitbook/assets/t7pza714ce.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un membre](../.gitbook/assets/T7pzA714cE.gif)
 
 Si vous avez besoin de mentionner un membre (ex: panel web), il vous de mettre <@ID-Membre>
 
@@ -61,7 +61,7 @@ Pour obtenir l'identifiant d'un émoji, il vous suffit :&#x20;
 * Avant l’émoji, mettez un antislash \\
 * Puis envoyez votre message.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un émoji](../.gitbook/assets/w08iemnopq.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un émoji](../.gitbook/assets/w08iEMNoPq.gif)
 
 {% hint style="info" %}
 Si vous êtes sur **Android**, pour récupérer l'identifiant d'un émoji :&#x20;
@@ -81,7 +81,7 @@ Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
 * Appuyer ou faire clique droit sur le nom d'un salon
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un salon](../.gitbook/assets/dvevuepeid.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un salon](../.gitbook/assets/DVeVuEPEid.gif)
 
 Si vous avez besoin de mentionner un salon (ex: panel web), vous devez mettre <#ID-Salon>
 
@@ -96,4 +96,4 @@ Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
 * De faire un clique droit ou appuyer sur l'image/nom du serveur
 * Puis d'appuyer sur **Copier l'identifiant**.
 
-![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](../.gitbook/assets/qxtda18qko.gif)
+![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](<../.gitbook/assets/qxtdA18QKo (1).gif>)

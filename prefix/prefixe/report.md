@@ -27,7 +27,7 @@ Vos membres peuvent signaler un membre via la commande `report <membre> <descrip
 \
 L'équipe du serveur recevra alors un message dans le salon destiné aux signalements avec la raison du report.
 
-![Message type d'un membre signalé sur le serveur reçu dans le salon dédié aux reports](<../../.gitbook/assets/image (33).png>)
+![Message type d'un membre signalé sur le serveur reçu dans le salon dédié aux reports](<../../.gitbook/assets/image (18).png>)
 
 ### Signalement d'un message
 
@@ -39,4 +39,4 @@ Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquer ici !](../.
 
 L'équipe du serveur recevra alors dans le salon dédié aux signalements ce message type.
 
-![Message type d'un message signalé sur le serveur reçu dans le salon dédié aux reports](<../../.gitbook/assets/image (34).png>)
+![Message type d'un message signalé sur le serveur reçu dans le salon dédié aux reports](<../../.gitbook/assets/image (45).png>)

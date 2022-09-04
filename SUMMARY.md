@@ -70,5 +70,3 @@
 * [Equipe](autres/equipe.md)
 * [Mises à jour](autres/changelog.md)
 * [Contact](autres/contact.md)
-
-## 📦 Archive
