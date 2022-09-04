@@ -6,10 +6,18 @@ description: >-
 
 # 🏷 Rôles automatiques
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Rôles automatiques.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">A l'arrivée</mark>
+### <mark style="color:purple;">A l'arrivée</mark>
 
-### <mark style="color:blue;">En vocal</mark>
 
-### <mark style="color:blue;">En live</mark>
+
+### <mark style="color:purple;">En vocal</mark>
+
+
+
+### <mark style="color:purple;">En live</mark>

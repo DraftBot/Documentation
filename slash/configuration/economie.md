@@ -7,8 +7,15 @@ description: >-
 
 # 💰 Économie
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Economie.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Configuration de l'économie</mark>
+### <mark style="color:purple;">Configuration de l'économie</mark>
 
-### <mark style="color:blue;">Configuration de la boutique</mark>
+
+
+### <mark style="color:purple;">Configuration de la boutique</mark>
+

@@ -6,19 +6,35 @@ description: >-
 
 # 📣 Notifications sociales
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Notifications sociales.png" alt=""><figcaption></figcaption></figure>
 
-### YouTube
+### <mark style="color:purple;">YouTube</mark>
 
-### Twitch
 
-### Live Présence
 
-### Reddit
+### <mark style="color:purple;">Twitch</mark>
 
-### Epic Games
 
-### Dealabs
 
-### CommitStrip
+### <mark style="color:purple;">Live Présence</mark>
+
+
+
+### <mark style="color:purple;">Reddit</mark>
+
+
+
+### <mark style="color:purple;">Epic Games</mark>
+
+
+
+### <mark style="color:purple;">Dealabs</mark>
+
+
+
+### <mark style="color:purple;">CommitStrip</mark>
 

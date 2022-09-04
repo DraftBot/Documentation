@@ -7,20 +7,39 @@ description: >-
 
 # 💡 Suggestions
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Suggestions.png" alt=""><figcaption></figcaption></figure>
 
-### Activer le système
+### <mark style="color:purple;">Activer le système</mark>
 
-### Réactions
 
-### Salon
 
-### <mark style="color:green;">Demande de confirmation activée</mark>
+### <mark style="color:purple;">Réactions</mark>
 
-### Message de confirmation
 
-### <mark style="color:green;">Modération des suggestions activée</mark>
 
-### Activer l'ouverture d'un fil
+### <mark style="color:purple;">Salon</mark>
 
-### Modifier le nom du fil
+
+
+### <mark style="color:purple;">Demande de confirmation activée</mark>
+
+
+
+### <mark style="color:purple;">Message de confirmation</mark>
+
+
+
+### <mark style="color:purple;">Modération des suggestions activée</mark>
+
+
+
+### <mark style="color:purple;">Activer l'ouverture d'un fil</mark>
+
+
+
+### <mark style="color:purple;">Modifier le nom du fil</mark>
+

@@ -7,12 +7,16 @@ description: >-
 
 # 🔨 Modération
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Modération.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Auto-Modération</mark>
+### <mark style="color:purple;">Auto-Modération</mark>
 
 Le système d'auto-modération, avec l'auto-sanctions de DraftBot vous permet d'automatiser certaines actions de modération tels que la censure et l'attribution de sanctions pour l'envoi d'invitations Discord, de spam, de liens externes et bien d'autres choses.
 
 **L'auto-modération** de DraftBot va s'occuper de censurer le message si besoin et d'attribuer une infraction. Pour l'attribution des sanctions en fonction des infractions, c'est l'auto-sanctions qui s'en occupe.
 
-### <mark style="color:blue;">Auto-Sanctions</mark>
+### <mark style="color:purple;">Auto-Sanctions</mark>

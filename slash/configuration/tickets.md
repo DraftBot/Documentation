@@ -6,22 +6,26 @@ description: >-
 
 # 🎟 Tickets
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Tickets.png" alt=""><figcaption></figcaption></figure>
 
-### Catégorie
+### <mark style="color:purple;">Catégorie</mark>
 
-### Salon de réception
+### <mark style="color:purple;">Salon de réception</mark>
 
-### <mark style="color:red;">Supprimer le système</mark>
+### <mark style="color:purple;">Supprimer le système</mark>
 
-### Demande de confirmation
+### <mark style="color:purple;">Demande de confirmation</mark>
 
-### <mark style="color:green;">Demande du motif d'ouverture</mark>
+### <mark style="color:purple;">Demande du motif d'ouverture</mark>
 
-### Rôles modérateurs
+### <mark style="color:purple;">Rôles modérateurs</mark>
 
-### Mentionner les modérateurs
+### <mark style="color:purple;">Mentionner les modérateurs</mark>
 
-### Suppression admin
+### <mark style="color:purple;">Suppression admin</mark>
 
-### Message d'ouverture
+### <mark style="color:purple;">Message d'ouverture</mark>

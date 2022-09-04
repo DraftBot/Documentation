@@ -6,6 +6,17 @@ description: >-
 
 # Mises à jour
 
+![✨](https://discord.com/assets/e820a306c732b90515989dada9995a97.svg) **Utilisation des salons vocaux textuels :** Depuis peu, il restait une zone d'ombre dans laquelle @DraftBot ne pouvait pas faire son job, le chat écrit des salons vocaux. Dès à présent, retrouvez y :
+
+> \- Toutes les commandes Slash - Toutes les commandes à préfixe - L'auto-modération - Le gain d'expérience (niveaux) - Le gain d'argent (économie)
+
+![🐛](https://discord.com/assets/370f5af37229902609dec50690ec5f99.svg) **Corrections :**
+
+> \- L'auto-complétion de la commande `/aide` a été corrigé ainsi que l'affichage de la description d'une commande Slash affichée via la commande `/aide <commande>`. - L'affichage de la commande `/sanctions list` a été corrigé sur mobile. - L'affichage du résultat de la commande visible uniquement pour l'auteur de la commande a été retirée des commandes `/adminmoney` et `/adminxp`. - L'auto-complétion de la commande `/admininventory remove` a été corrigé. - L'annulation de la commande `/puissance4` n'affichera plus de message d'erreur si la personne ne répond pas à la demande de jeu. - Un problème au niveau de l'exécution des commandes `/config Niveaux` & `/config Économie` a été corrigé si trop de salons et rôles ignorés ainsi que de rôles boosters ont été configurés sur le serveur. - Corrections de fautes d'orthographe (merci @❕Ibey)
+
+\
+
+
 ## ****[**4.16.4 - 28/08/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1013561250745159842)****
 
 ****:sparkles: **Commandes Slash sur tous les serveurs :**
@@ -25,7 +36,7 @@ description: >-
 
 > Ajout d'un sélecteur de jours à la fonctionnalité des messages récurrents (commandes prefix/slash & panel).
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
 ### ****:bug: **Corrections :**
 

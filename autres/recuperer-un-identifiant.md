@@ -1,16 +1,16 @@
 ---
 description: >-
-  Chaque message, rôle, membre, serveur et emoji dispose d'un identifiant qui
+  Chaque message, rôle, membre, serveur et émoji dispose d'un identifiant qui
   leur est unique et qui peut être utile pour configurer certaines
   fonctionnalités de DraftBot.
 ---
 
 # Récupérer un identifiant
 
-## Message <a href="#message" id="message"></a>
+## <mark style="color:purple;">Identifiant d'un message</mark> <a href="#message" id="message"></a>
 
 {% hint style="warning" %}
-Il vous faut au préalable activer le <mark style="color:yellow;">mode développeur</mark> pour récupérer des identifiants.\
+Il vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.\
 \
 Pour se faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
@@ -22,10 +22,10 @@ Pour récupérer l'identifiant d'un message, vous devez :&#x20;
 
 ![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvevycnhr2.gif)
 
-## Rôle
+## <mark style="color:purple;">Identifiant d'un rôle</mark>
 
 {% hint style="warning" %}
-Il vous faut au préalable activer le <mark style="color:yellow;">mode développeur</mark> pour récupérer des identifiants.
+Il vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Afin de récupérer l'identifiant d'un rôle, vous devez :
@@ -37,10 +37,10 @@ Afin de récupérer l'identifiant d'un rôle, vous devez :
 
 Si vous avez besoin de mentionner un rôle (ex: panel web), il vous suffit de faire <@\&ID-Role>
 
-## Membre
+## <mark style="color:purple;">Identifiant d'un membre</mark>
 
 {% hint style="warning" %}
-ll vous faut au préalable activer le <mark style="color:yellow;">mode développeur</mark> pour récupérer des identifiants.
+ll vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Pour récupérer l'identifiant d'un membre, vous devez :
@@ -53,7 +53,7 @@ Pour récupérer l'identifiant d'un membre, vous devez :
 
 Si vous avez besoin de mentionner un membre (ex: panel web), il vous de mettre <@ID-Membre>
 
-## Émoji
+## <mark style="color:purple;">Identifiant d'un émoji</mark>
 
 Pour obtenir l'identifiant d'un émoji, il vous suffit :&#x20;
 
@@ -67,13 +67,13 @@ Pour obtenir l'identifiant d'un émoji, il vous suffit :&#x20;
 Si vous êtes sur **Android**, pour récupérer l'identifiant d'un émoji :&#x20;
 
 * Envoyez`` `:LeNomDeVotreEmoji:` `` dans un salon textuel
-* Puis copiez le résultat étant l'identifiant de l'emoji
+* Puis copiez le résultat étant l'identifiant de l’émoji
 {% endhint %}
 
-## Salon
+## <mark style="color:purple;">Identifiant d'un salon</mark>
 
 {% hint style="warning" %}
-ll vous faut au préalable activer le <mark style="color:yellow;">mode développeur</mark> pour récupérer des identifiants.
+ll vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
@@ -85,10 +85,10 @@ Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
 
 Si vous avez besoin de mentionner un salon (ex: panel web), vous devez mettre <#ID-Salon>
 
-## Serveur
+## <mark style="color:purple;">Identifiant d'un serveur</mark>
 
 {% hint style="warning" %}
-ll vous faut au préalable activer le <mark style="color:yellow;">mode développeur</mark> pour récupérer des identifiants.
+ll vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
@@ -97,4 +97,3 @@ Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :
 * Puis d'appuyer sur **Copier l'identifiant**.
 
 ![Exemple de récupération sur ordinateur de l'identifiant d'un serveur](../.gitbook/assets/qxtda18qko.gif)
-

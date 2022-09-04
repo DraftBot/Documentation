@@ -7,10 +7,19 @@ description: >-
 
 # 🔉 Salons vocaux temporaires
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Salons vocaux temporaires.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:blue;">Créer un hub</mark>
+### <mark style="color:purple;">Créer un hub</mark>
 
-### Modifier un hub
 
-### <mark style="color:red;">Supprimer un hub</mark>
+
+### <mark style="color:purple;">Modifier un hub</mark>
+
+
+
+### <mark style="color:purple;">Supprimer un hub</mark>
+

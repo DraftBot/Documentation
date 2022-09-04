@@ -6,12 +6,23 @@ description: >-
 
 # 👀 Réactions de mots
 
+{% hint style="danger" %}
+Cette page est en train d'être mise à jour...
+{% endhint %}
+
 <figure><img src="../../.gitbook/assets/Réactions de mots.png" alt=""><figcaption></figcaption></figure>
 
-### Activer le système
+### <mark style="color:purple;">Activer le système</mark>
 
-### Ajouter
 
-### Retirer
 
-### <mark style="color:red;">Réinitialiser</mark>
+### <mark style="color:purple;">Ajouter</mark>
+
+
+
+### <mark style="color:purple;">Retirer</mark>
+
+
+
+### <mark style="color:purple;">Réinitialiser</mark>
+
