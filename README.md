@@ -21,7 +21,7 @@ coverY: 0
 Vous aurez aussi des indications au fil des chapitres, vous permettant d'avoir des astuces, ou de mettre l'accent sur des éléments importants.
 {% endhint %}
 
-#### __:warning: [_Si vous souhaitez contacter le <mark style="color:yellow;">Support</mark>, retrouvez-nous sur Discord en <mark style="color:blue;">cliquant ici</mark>._](https://discordapp.com/invite/DrzKVU3)
+#### __:warning: [_Si vous souhaitez contacter le <mark style="color:purple;">Support</mark>, retrouvez-nous sur Discord en <mark style="color:purple;">cliquant ici</mark>._](https://discord.com/invite/DrzKVU3)__
 
 <details>
 

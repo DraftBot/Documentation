@@ -12,29 +12,29 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Notifications sociales.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">YouTube</mark>
+### YouTube
 
 
 
-### <mark style="color:purple;">Twitch</mark>
+### Twitch
 
 
 
-### <mark style="color:purple;">Live Présence</mark>
+### Live Présence
 
 
 
-### <mark style="color:purple;">Reddit</mark>
+### Reddit
 
 
 
-### <mark style="color:purple;">Epic Games</mark>
+### Epic Games
 
 
 
-### <mark style="color:purple;">Dealabs</mark>
+### Dealabs
 
 
 
-### <mark style="color:purple;">CommitStrip</mark>
+### CommitStrip
 

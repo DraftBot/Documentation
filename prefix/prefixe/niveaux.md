@@ -13,17 +13,17 @@ Vous pouvez afficher les statistiques de niveaux d'un membre sous forme d'image 
 * Vous pouvez afficher votre carte à l'aide de la commande `level` !
 * Dans le cas où vous souhaitez afficher la carte d'un membre, il vous suffit de faire la même commande `level` suivi du membre.
 
-![Image de la carte de niveaux](../.gitbook/assets/Level.png)
+![Image de la carte de niveaux](../../.gitbook/assets/Level.png)
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
 
 ### Le classement du serveur
 
 Dans le cas où vous souhaitez afficher les niveaux du serveur, il vous suffit de faire la commande`toplevel` .&#x20;
 
-![Image du classement de niveaux](../.gitbook/assets/Toplevel.png)
+![Image du classement de niveaux](../../.gitbook/assets/Toplevel.png)
 
 {% hint style="warning" %}
 Dans le cas où vous ne faites pas partie du top 3, vous serez tout de même affiché en dessous avec votre place.

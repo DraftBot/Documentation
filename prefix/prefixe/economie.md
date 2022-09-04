@@ -16,7 +16,7 @@ Vous pouvez afficher le nombre d'argent virtuel d'un membre sous forme d'image.
 * Vous pouvez afficher votre carte à l'aide de la commande `money`.
 * Dans le cas où vous souhaitez afficher la carte d'un membre, il vous suffit de faire la même commande `money` suivi du membre.
 
-![Image de la carte d'économie ](../.gitbook/assets/Money.png)
+![Image de la carte d'économie ](../../.gitbook/assets/Money.png)
 
 {% hint style="info" %}
 Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son **identifiant**, son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
@@ -26,7 +26,7 @@ Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous
 
 Dans le cas où vous souhaitez afficher le classement d'argent du serveur, il vous suffit de faire la commande `!topmoney`.
 
-![Image du classement d'économie](../.gitbook/assets/Topmoney.png)
+![Image du classement d'économie](../../.gitbook/assets/Topmoney.png)
 
 {% hint style="warning" %}
 Dans le cas où vous ne faites pas partie du top 5, vous serez tout de même affiché en dessous avec votre place.
@@ -39,7 +39,7 @@ Dans le cas où vous ne faites pas partie du top 5, vous serez tout de même aff
 Vous avez la possibilité de donner de l'argent à un autre membre avec la commande `!pay <membre> <nombre> <raison>`
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
 {% endhint %}
 
 ### Acheter un article

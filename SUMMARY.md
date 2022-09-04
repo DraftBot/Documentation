@@ -5,39 +5,32 @@
 
 ## Commandes préfix <a href="#prefix" id="prefix"></a>
 
-* [Configuration](prefix/config.md)
-* [Préfixe](prefix/prefixe.md)
-* [Messages de bienvenue/au revoir](prefix/messages-de-bienvenue-aurevoir.md)
-* [Niveaux](prefix/niveaux.md)
-* [Economie](prefix/economie.md)
-* [Règlement](prefix/reglement.md)
-* [Captcha](prefix/captcha.md)
-* [Modération](prefix/moderation.md)
-* [Mute](prefix/mute.md)
-* [Report](prefix/report.md)
-* [Tickets](prefix/tickets.md)
-* [Inventaire](prefix/inventaire.md)
-* [Suggestions](prefix/suggestions.md)
-* [Interserveurs](prefix/interserveurs.md)
-* [PrivateRoom](prefix/privateroom.md)
-* [WordReact](prefix/wordreact.md)
-* [Anniversaires](prefix/birthday.md)
-* [Membercount](prefix/membercount.md)
-* [RolePerms](prefix/roleperms.md)
-* [ChannelPerms](prefix/channelperms.md)
-* [Gestion des messages](prefix/gestion-des-messages.md)
-* [Commandes d'informations](prefix/commandes-dinformation.md)
-* [Commandes personnalisées](prefix/commandes-personnalisees.md)
-* [Notifications sociales](prefix/notifications-sociales.md)
-* [RoleReact](prefix/rolereact.md)
-* [Rappel](prefix/rappel.md)
-
-## Autres
-
-* [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
-* [Equipe](autres/equipe.md)
-* [Mises à jour](autres/changelog.md)
-* [Contact](autres/contact.md)
+* [DraftBot avec Préfix](prefix/prefixe/README.md)
+  * [Configuration](prefix/prefixe/config.md)
+  * [Messages de bienvenue/au revoir](prefix/prefixe/messages-de-bienvenue-aurevoir.md)
+  * [Niveaux](prefix/prefixe/niveaux.md)
+  * [Economie](prefix/prefixe/economie.md)
+  * [Règlement](prefix/prefixe/reglement.md)
+  * [Captcha](prefix/prefixe/captcha.md)
+  * [Modération](prefix/prefixe/moderation.md)
+  * [Mute](prefix/prefixe/mute.md)
+  * [Report](prefix/prefixe/report.md)
+  * [Tickets](prefix/prefixe/tickets.md)
+  * [Inventaire](prefix/prefixe/inventaire.md)
+  * [Suggestions](prefix/prefixe/suggestions.md)
+  * [Interserveurs](prefix/prefixe/interserveurs.md)
+  * [PrivateRoom](prefix/prefixe/privateroom.md)
+  * [WordReact](prefix/prefixe/wordreact.md)
+  * [Anniversaires](prefix/prefixe/birthday.md)
+  * [Membercount](prefix/prefixe/membercount.md)
+  * [RolePerms](prefix/prefixe/roleperms.md)
+  * [ChannelPerms](prefix/prefixe/channelperms.md)
+  * [Gestion des messages](prefix/prefixe/gestion-des-messages.md)
+  * [Commandes d'informations](prefix/prefixe/commandes-dinformation.md)
+  * [Commandes personnalisées](prefix/prefixe/commandes-personnalisees.md)
+  * [Notifications sociales](prefix/prefixe/notifications-sociales.md)
+  * [RoleReact](prefix/prefixe/rolereact.md)
+  * [Rappel](prefix/prefixe/rappel.md)
 
 ## Commandes Slash ➖⚠️ EN COURS DE REDACTION <a href="#slash" id="slash"></a>
 
@@ -70,5 +63,12 @@
 * [(Gestion des permissions)](slash/gestion-des-permissions.md)
 * [Commandes personnalisées](slash/commandes-personnalisees.md)
 * [Divers](slash/divers.md)
+
+## Autres
+
+* [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
+* [Equipe](autres/equipe.md)
+* [Mises à jour](autres/changelog.md)
+* [Contact](autres/contact.md)
 
 ## 📦 Archive

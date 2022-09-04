@@ -13,21 +13,21 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Anniversaires.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Annonces</mark>
+### <mark style="color:blue;">Annonces</mark>
 
 
 
-### <mark style="color:purple;">Rôle</mark>
+### <mark style="color:blue;">Rôle</mark>
 
 
 
-### <mark style="color:purple;">Cadeaux</mark>
+### <mark style="color:blue;">Cadeaux</mark>
 
 
 
-### <mark style="color:purple;"></mark>:sparkles: <mark style="color:purple;">Messages personnalisés</mark>
+### <mark style="color:purple;"></mark>:sparkles: <mark style="color:purple;"></mark> <mark style="color:blue;">Messages personnalisés</mark>
 
 
 
-### <mark style="color:purple;">Réinitialiser</mark>
+### <mark style="color:red;">Réinitialiser</mark>
 

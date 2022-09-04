@@ -36,7 +36,7 @@ description: >-
 
 > Ajout d'un sélecteur de jours à la fonctionnalité des messages récurrents (commandes prefix/slash & panel).
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ### ****:bug: **Corrections :**
 

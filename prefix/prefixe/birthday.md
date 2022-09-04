@@ -32,7 +32,7 @@ Une fois que les membres ont activé leur anniversaire sur le serveur en questio
 
 Triés par ordre croissant, il vous sera facile de connaître les prochains anniversaires à venir !
 
-![](../.gitbook/assets/Birthday.png)
+![](../../.gitbook/assets/Birthday.png)
 
 ## Message d'annonce
 

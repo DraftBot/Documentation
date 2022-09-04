@@ -16,7 +16,7 @@ Le système d'auto-modération, avec l'auto-sanctions de DraftBot vous permetten
 
 Si vous souhaitez configurer l'auto-modération via Discord directement, vous pouvez utiliser la commande `automoderation` ou `automod` sur votre serveur :&#x20;
 
-![Exécution de la commande automoderation sur un serveur Discord](<../.gitbook/assets/image (47).png>)
+![Exécution de la commande automoderation sur un serveur Discord](<../../.gitbook/assets/image (47).png>)
 
 Vous aurez alors le choix entre plusieurs infractions :&#x20;
 
@@ -33,11 +33,11 @@ Pour activer la détection et la censure des différents types d'infractions, vo
 
 DraftBot possède un panel web accessible en allant sur [draftbot.fr](https://draftbot.fr/) et qui vous permet notamment de configurer facilement le système d'auto-modération.
 
-![Accéder au panel web de DraftBot via draftbot.fr](<../.gitbook/assets/Connexion DraftBot panel.gif>)
+![Accéder au panel web de DraftBot via draftbot.fr](<../../.gitbook/assets/Connexion DraftBot panel.gif>)
 
 Il vous suffira ensuite de cliquer sur votre serveur Discord puis d'accéder à la page "Auto-Modération".
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (51).png>)
 
 ### Types d'infractions
 
@@ -52,9 +52,9 @@ Pour le configurer, il vous suffit d'utiliser la commande `automoderation filter
 * Mots censurés ou message supprimé
 * Mode stricte (interdit seulement les mots correspondants exactement aux mots interdits avec des espaces au début et à la fin)
 
-![Configuration dedu filtre de vocabulaire sur le panel web de DraftBot](../.gitbook/assets/image\_2021-11-16\_102425.png)
+![Configuration dedu filtre de vocabulaire sur le panel web de DraftBot](../../.gitbook/assets/image\_2021-11-16\_102425.png)
 
-![Configuration du filtre de vocabulaire interdit via le panel DraftBot](<../.gitbook/assets/image\_2022-01-15\_155007 (1).png>)
+![Configuration du filtre de vocabulaire interdit via le panel DraftBot](<../../.gitbook/assets/image\_2022-01-15\_155007 (1).png>)
 
 {% hint style="warning" %}
 Si vous souhaitez bloquer les mots interdits sur votre serveur, pensez à activer cette fonctionnalité via le bouton en haut à droite sur le panel web ou avec la commande `automoderation filter on`&#x20;
@@ -75,7 +75,7 @@ Vous pourrez si vous le souhaitez, configurer davantage le système de restricti
 * Rôles ignorés
 * Salons ignorés
 
-![Configuration des restrictions d'invitations discord sur le panel web de DraftBot](../.gitbook/assets/image\_2021-11-16\_103516.png)
+![Configuration des restrictions d'invitations discord sur le panel web de DraftBot](../../.gitbook/assets/image\_2021-11-16\_103516.png)
 
 #### Anti-liens externes <a href="#links" id="links"></a>
 
@@ -92,7 +92,7 @@ Vous pourrez si vous le souhaitez, configurer davantage le système de restricti
 * Rôles ignorés
 * Salons ignorés
 
-![Configuration de l'anti-invitations Discord depuis le panel web](../.gitbook/assets/image\_2022-01-15\_155437.png)
+![Configuration de l'anti-invitations Discord depuis le panel web](../../.gitbook/assets/image\_2022-01-15\_155437.png)
 
 #### Anti-spam de messages <a href="#spam" id="spam"></a>
 
@@ -107,7 +107,7 @@ Si vous le voulez, vous pouvez configurer l'anti-spam avec la commande `automode
 * Rôles immunisés par le spam
 * Salons immunisés par le spam de messages
 
-![Configuration de l'anti-spam de messages sur le panel web de DraftBot](<../.gitbook/assets/image (50).png>)
+![Configuration de l'anti-spam de messages sur le panel web de DraftBot](<../../.gitbook/assets/image (50).png>)
 
 #### Anti-spam de mentions <a href="#mentions" id="mentions"></a>
 
@@ -123,7 +123,7 @@ Si vous souhaitez configurer davantage l'anti-spam de mentions pour votre serveu
 * Salons ignorés
 * Supprimer les messages contenant les mentions excessives ou non
 
-![Configuration de l'anti-spam de mentions via le panel web](<../.gitbook/assets/image (53).png>)
+![Configuration de l'anti-spam de mentions via le panel web](<../../.gitbook/assets/image (53).png>)
 
 #### Anti-spam d'emojis <a href="#emojis" id="emojis"></a>
 
@@ -138,7 +138,7 @@ Pour configurer davantage l'anti-spam d'emojis, vous pouvez cliquer sur l'engren
 * Rôles ignorés
 * Salons ignorés
 
-![Configuration de l'anti-spam d'emojis via le panel web de DraftBot](<../.gitbook/assets/image (55).png>)
+![Configuration de l'anti-spam d'emojis via le panel web de DraftBot](<../../.gitbook/assets/image (55).png>)
 
 ### Gestion des infractions
 
@@ -193,7 +193,7 @@ Vous pouvez cependant donner la permission à un rôle d'utiliser ces commandes 
 Vous pouvez sanctionner un membre avec la commande `sanction <membre>`\
 Vous obtiendriez alors cette interface :&#x20;
 
-![Interface de modération avec la commande sanction](<../.gitbook/assets/Capture d’écran (104).png>)
+![Interface de modération avec la commande sanction](<../../.gitbook/assets/Capture d’écran (104).png>)
 
 Il vous restera plus qu'à sélectionner le bouton correspondant à la sanction que vous souhaitez infliger au membre. &#x20;
 
@@ -251,7 +251,7 @@ Vous pouvez voir les sanctions effectuées sur votre serveur avec la commande `s
 Vous pouvez compléter cette commande par un pseudo ou une mention pour voir les sanctions d'une personne précise.
 {% endhint %}
 
-|          `sanctions` sans argument          | `sanctions` \<Membre> |
-| :-----------------------------------------: | :-------------------: |
-| ![](<../.gitbook/assets/sanctions (1).png>) | ![](broken-reference) |
+|            `sanctions` sans argument           | `sanctions` \<Membre> |
+| :--------------------------------------------: | :-------------------: |
+| ![](<../../.gitbook/assets/sanctions (1).png>) | ![](broken-reference) |
 

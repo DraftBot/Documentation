@@ -12,8 +12,8 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Compteur de membres.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Désactiver le compteur</mark>
+### <mark style="color:red;">Désactiver le compteur</mark>
 
-### <mark style="color:purple;">Design</mark>
+### Design
 
-### <mark style="color:purple;">Bots comptabilisés</mark>
+### <mark style="color:green;">Bots comptabilisés</mark>

@@ -35,7 +35,7 @@ Pour conserver une communauté stable, il est nécessaire de mettre en place un 
 | message   | L'argument message représente l'ID du message où se trouve le règlement                                                   |
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 Une fois ces deux arguments renseignés, **DraftBot** vous demandera le titre de la règle et la description détaillée de cette règle.&#x20;

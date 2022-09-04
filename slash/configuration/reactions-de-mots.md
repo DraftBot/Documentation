@@ -12,17 +12,17 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Réactions de mots.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Activer le système</mark>
+### Activer le système
 
 
 
-### <mark style="color:purple;">Ajouter</mark>
+### Ajouter
 
 
 
-### <mark style="color:purple;">Retirer</mark>
+### Retirer
 
 
 
-### <mark style="color:purple;">Réinitialiser</mark>
+### <mark style="color:red;">Réinitialiser</mark>
 

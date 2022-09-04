@@ -12,9 +12,9 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Arrivées &#x26; départs.png" alt=""><figcaption><p>Menu d'accueil de la configuration des arrivées &#x26; départs</p></figcaption></figure>
 
-### <mark style="color:purple;">Messages de bienvenue</mark>
+### <mark style="color:blue;">Messages de bienvenue</mark>
 
 
 
-### <mark style="color:purple;">Messages d'au revoir</mark>
+### <mark style="color:blue;">Messages d'au revoir</mark>
 

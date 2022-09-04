@@ -13,33 +13,33 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Suggestions.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Activer le système</mark>
+### Activer le système
 
 
 
-### <mark style="color:purple;">Réactions</mark>
+### Réactions
 
 
 
-### <mark style="color:purple;">Salon</mark>
+### Salon
 
 
 
-### <mark style="color:purple;">Demande de confirmation activée</mark>
+### <mark style="color:green;">Demande de confirmation</mark>
 
 
 
-### <mark style="color:purple;">Message de confirmation</mark>
+### Message de confirmation
 
 
 
-### <mark style="color:purple;">Modération des suggestions activée</mark>
+### <mark style="color:green;">Modération des suggestions</mark>
 
 
 
-### <mark style="color:purple;">Activer l'ouverture d'un fil</mark>
+### Activer l'ouverture d'un fil
 
 
 
-### <mark style="color:purple;">Modifier le nom du fil</mark>
+### Modifier le nom du fil
 

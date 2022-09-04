@@ -13,19 +13,19 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Signalements.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Activer le système</mark>
+### Activer le système
 
 Vous pouvez activer le système de signalement avec la slash commande <mark style="color:orange;">/config</mark>. Sélectionnez ensuite "Signalements".
 
 Pour activer le système, il vous suffit d'appuyer sur le bouton "Activer le système". Le bouton passera alors en couleur verte. Si le bouton <mark style="color:green;">"Système activé"</mark> est déjà en couleur verte, cela signifie que le système est déjà activé.
 
-### <mark style="color:purple;">Réaction</mark> :rotating\_light: <mark style="color:purple;">activée</mark>
+### <mark style="color:green;">Réaction</mark> :rotating\_light: <mark style="color:green;">activée</mark>
 
 Dans ce système de signalement, vous avez aussi la possibilité d'activer une option qui permet d'ajouter un émoji :rotating\_light:sous le message signalé. Cela peut permettre de montrer aux membres que le message est offensant et qu'il a été signalé à l'équipe du serveur.
 
 Pour activer cette option, il vous suffit d'appuyer sur le bouton "Activer la réaction :rotating\_light:". Le bouton passera ensuite en vert pour signifier que le système est bien activé.
 
-### <mark style="color:purple;">Rôle mentionné</mark>
+### Rôle mentionné
 
 Vous avez également la possibilité de mentionner un rôle lors du signalement, pour une réaction encore plus rapide de la part de votre équipe.
 
@@ -33,11 +33,9 @@ Pour ajouter un rôle qui sera mentionné, vous pouvez dans la configuration du 
 
 Si vous avez déjà configuré un rôle à mentionner, vous pouvez toujours le modifier ou l'enlever en appuyant sur le bouton "Rôle mentionné".
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Salon</mark>
+### <mark style="color:blue;">Salon</mark>
 
-
-
-### <mark style="color:purple;">Message de confirmation</mark>
+### Message de confirmation
 

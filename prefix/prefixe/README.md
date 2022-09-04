@@ -4,14 +4,14 @@ description: >-
   d'autres de vos bots.
 ---
 
-# Préfixe
+# DraftBot avec Préfix
 
 ## Voir le préfixe
 
 Si vous ne vous rappelez plus du préfixe de **DraftBot**, il vous suffit d'envoyer sur votre serveur`@DraftBot#0535 prefix` ou bien seulement de mentionner `@DraftBot#0535`.\
 Vous obtiendrez alors cette réponse : &#x20;
 
-![](../.gitbook/assets/image\_2022-01-08\_205352.png)
+![](../../.gitbook/assets/image\_2022-01-08\_205352.png)
 
 Dans notre cas, le préfixe par défaut de **DraftBot** est **!**
 
@@ -26,22 +26,8 @@ Si vous souhaitez rétablir le préfixe par défaut (!), vous pouvez aussi faire
 Vous avez aussi la possibilité de supprimer le préfixe de **DraftBot** sur votre serveur. Pour exécuter une commande, vous devrez faire `@DraftBot#0535 commande`\
 Si vous souhaitez laisser uniquement la mention de **DraftBot** pour faire une commande, vous pouvez utiliser la commande `prefix none` ou `@DraftBot#0535 prefix none`
 
-## Les Slash commandes
+## <mark style="color:purple;">Les Slash commandes</mark>
 
-{% hint style="warning" %}
-Les commandes Slash requièrent beaucoup de travail et sont en stade expérimental, elles sont donc actuellement réservées aux [serveurs premium](https://www.draftbot.fr/premium).
-
-Même si les Slash commandes sont activées, le préfixe est toujours accessible sauf si la suppression du préfixe a été fait alors seule la mention marchera.
+{% hint style="danger" %}
+<mark style="color:red;">**L**</mark>[<mark style="color:red;">**es**</mark>** commandes Slash **<mark style="color:red;">**sont disponibles et remplaceront bientôt les commandes à préfixe. Nous vous invitons fortement à vous familiariser avec ces nouveaux fonctionnements.**</mark>](../../slash/configuration/)<mark style="color:red;">****</mark>
 {% endhint %}
-
-### Activer les Slash commandes
-
-Vous pouvez activer les Slash commandes sur votre serveur en exécutant la commande `slash` et appuyer sur "Activer".
-
-{% hint style="info" %}
-Après l'ajout de fonctionnalité en Slash commande, pour les rajouter à votre serveur, il vous suffit de re exécuter la commande `slash` et appuyer sur "Mettre à jour".
-{% endhint %}
-
-### Désactiver les Slash commandes
-
-Vous pouvez désactiver les Slash commandes sur votre serveur en exécutant la commande `slash` et appuyer sur "Désactiver".&#x20;

@@ -46,7 +46,7 @@ Pour supprimer la fréquence d'un salon, deux options s'offrent à vous :
 {% tab title="Supprimer l'interserveur du salon" %}
 Exécutez la commande `interserver` :
 
-![](../.gitbook/assets/Interserveur.png)
+![](../../.gitbook/assets/Interserveur.png)
 
 Sélectionnez le bouton "Supprimer" pour supprimer l'interserveur du salon
 

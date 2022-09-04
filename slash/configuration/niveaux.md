@@ -13,13 +13,13 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Niveaux.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Configuration des niveaux</mark>
+### <mark style="color:blue;">Configuration des niveaux</mark>
 
 
 
-### <mark style="color:purple;">Annonce d'un nouveau niveau</mark>
+### <mark style="color:blue;">Annonce d'un nouveau niveau</mark>
 
 
 
-### <mark style="color:purple;">Récompenses de niveaux</mark>
+### <mark style="color:blue;">Récompenses de niveaux</mark>
 

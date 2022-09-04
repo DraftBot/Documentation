@@ -12,20 +12,20 @@ Cette page est en train d'être mise à jour...
 
 <figure><img src="../../.gitbook/assets/Tickets.png" alt=""><figcaption></figcaption></figure>
 
-### <mark style="color:purple;">Catégorie</mark>
+### Catégorie
 
-### <mark style="color:purple;">Salon de réception</mark>
+### Salon de réception
 
-### <mark style="color:purple;">Supprimer le système</mark>
+### <mark style="color:red;">Supprimer le système</mark>
 
-### <mark style="color:purple;">Demande de confirmation</mark>
+### Demande de confirmation
 
-### <mark style="color:purple;">Demande du motif d'ouverture</mark>
+### <mark style="color:green;">Demande du motif d'ouverture</mark>
 
-### <mark style="color:purple;">Rôles modérateurs</mark>
+### Rôles modérateurs
 
-### <mark style="color:purple;">Mentionner les modérateurs</mark>
+### Mentionner les modérateurs
 
-### <mark style="color:purple;">Suppression admin</mark>
+### Suppression admin
 
-### <mark style="color:purple;">Message d'ouverture</mark>
+### Message d'ouverture

@@ -35,7 +35,7 @@ La commande `delconv` vous permet de supprimer des messages à partir d'un messa
 Pour cela, vous devez faire `delconv [Identifiant du premier message] [Identifiant du dernier message]`&#x20;
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -48,7 +48,7 @@ La commande `moveconv` vous permet de déplacer une conversation dans un autre s
 Pour ce faire, il vous suffit de faire `moveconv [salon] [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="warning" %}
@@ -61,7 +61,7 @@ La commande `movemsg` permet de déplacer un message dans un autre salon.\
 Pour déplacer un message, il vous suffit de faire `movemsg [salon] [Identifiant du message]`.
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 ## SaveConv
@@ -70,7 +70,7 @@ La commande `saveconv` offre la possibilité de sauvegarder une conversation sou
 Pour ce faire, utilisez la commande `saveconv [Identifiant du premier message] [Identifiant du dernier message]`
 
 {% hint style="info" %}
-Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../autres/recuperer-un-identifiant.md#message)
+Besoin d'aide pour récupérer l'identifiant d'un message ? [Cliquez ici !](../../autres/recuperer-un-identifiant.md#message)
 {% endhint %}
 
 {% hint style="info" %}
