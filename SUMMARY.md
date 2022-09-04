@@ -53,7 +53,6 @@
   * [🪄 Commandes personnalisées](slash/configuration/commandes-personnalisees.md)
   * [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
   * [🗃 Logs](slash/configuration/logs.md)
-* [✨ Premium](slash/premium.md)
 * [Modération](slash/moderation.md)
 * [Gestion des rôles](slash/gestion-des-roles.md)
 * [Gestion des messages](slash/gestion-des-messages.md)
