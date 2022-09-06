@@ -53,7 +53,7 @@ __Le message de bienvenue permet aussi de mentionner le membre qui vient d'arriv
 Cette commande permet de modifier le fond de la carte du message de bienvenue, c'est à dire le fond de l'image qui est intégrée à l'embed du message de bienvenue.\
 Dans la capture d'écran ci-dessous, le fond de carte est en orange.
 
-![Image du message de bienvenue](<../../.gitbook/assets/image (14).png>)
+![Image du message de bienvenue](<../../.gitbook/assets/image (58) (1).png>)
 
 Pour changer la couleur du fond de carte, il faudra exécuter la commande `welcome back`.\
 Par la suite, un message s'affichera, vous permettant de :\
@@ -122,7 +122,7 @@ __Le message de bienvenue permet aussi de mentionner le membre qui vient d'arriv
 Cette commande permet de modifier le fond de la carte du message de bienvenue, c'est à dire le fond de l'image qui est intégrée à l'embed du message de bienvenue.\
 Dans la capture d'écran ci-dessous, le fond de carte est en orange.
 
-![Image du message de bienvenue](<../../.gitbook/assets/image (14).png>)
+![Image du message de bienvenue](<../../.gitbook/assets/image (58) (1).png>)
 
 Pour changer la couleur du fond de carte, il faudra exécuter la commande `!welcome back`.\
 Par la suite, un message s'affichera, vous permettant de :\
@@ -183,7 +183,7 @@ _Astuce : le markdown_ (gras, italique...) _est autorisé !_
 Cette commande permet de modifier le fond de la carte du message d'au revoir, c'est à dire le fond de l'image qui est intégrée à l'embed du message.\
 Dans la capture d'écran ci-dessous, le fond de carte est en orange.
 
-![Image du message de bienvenue](<../../.gitbook/assets/image (14).png>)
+![Image du message de bienvenue](<../../.gitbook/assets/image (58) (1).png>)
 
 Pour changer la couleur du fond de carte, il faudra exécuter la commande `!welcome back`\
 Par la suite, un message s'affichera, vous permettant de :\

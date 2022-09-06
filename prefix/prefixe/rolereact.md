@@ -24,13 +24,13 @@ Vous pourrez modifier ce message dans le futur avec la commande `say` [`[Identif
 * **Embed automatique :** `rolereact create [Titre de l'embed]` \
   Cette solution vous permet de créer un  embed qui sera modifié lors de l'ajout ou le retrait d'un rôle dans le rolereact. À la fin de la configuration, l'embed ressemblera à cela :&#x20;
 
-![Résultat d'un rolereact utilisant un embed automatique](<../../.gitbook/assets/image (25).png>)
+![Résultat d'un rolereact utilisant un embed automatique](<../../.gitbook/assets/image (10).png>)
 
 * **Embed personnalisé :** `embed` ou [depuis le panel web](https://www.draftbot.fr/dashboard) dans l'onglet **Embeds** de votre serveur.\
   Cette méthode vous permet de créer un embed totalement personnalisable à votre goût.\
   Voici un exemple de cette méthode : &#x20;
 
-![Résultat d'un rolereact utilisant un embed personalisé](<../../.gitbook/assets/image (40).png>)
+![Résultat d'un rolereact utilisant un embed personalisé](<../../.gitbook/assets/image (9).png>)
 
 ## Ajouter un rôle à un rolereact <a href="#add" id="add"></a>
 
