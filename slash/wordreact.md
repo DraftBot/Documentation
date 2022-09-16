@@ -24,7 +24,7 @@ Pour ajouter une réaction à un mot, il vous suffit de faire la commande `/conf
 **DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte.\
 \
 ![exemple de la réaction](https://github.com/Tellvex/Documentation/blob/main/.gitbook/assets/Capture2.PNG)
-\
+
 
 {% hint style="warning" %}
 Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous aurez une limite de 10 wordreacts.\
