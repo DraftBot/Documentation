@@ -9,7 +9,9 @@ description: >-
 ## Activer et désactiver le système de WordReact <a href="#on-off" id="on-off"></a>
 
 Pour **activer** le système de WordReact, il vous suffit de faire la commande `/config`, puis d'aller sur la catégorie `réaction de mot` et d'`activer le système`.\
-Pour le **désactiver**, il vous faudra utiliser la commande `/config`, puis aller sur `réaction de mot` et de `désactiver le système`.
+Pour le **désactiver**, il vous faudra utiliser la commande `/config`, puis aller sur `réaction de mot` et de `désactiver le système`.\
+![Exemple d'activation/désactivation](https://github.com/Tellvex/Documentation/blob/main/.gitbook/assets/Capture1.PNG)
+\
 
 {% hint style="info" %}
 Vous pouvez également utiliser `/config système:Réactions de mots` pour afficher directement la page.
@@ -18,7 +20,8 @@ Vous pouvez également utiliser `/config système:Réactions de mots` pour affic
 ## Ajouter un WordReact <a href="#add" id="add"></a>
 
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande `/config`, aller sur `réaction de mot` puis `ajouter`.\
-**DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte.
+**DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte.\
+![exemple de la réaction](https://github.com/Tellvex/Documentation/blob/main/.gitbook/assets/Capture2.PNG)
 
 {% hint style="warning" %}
 Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous aurez une limite de 10 wordreacts.\
