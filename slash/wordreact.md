@@ -23,7 +23,7 @@ Vous pouvez également utiliser `/config système:Réactions de mots` pour affic
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande `/config`, aller sur `réaction de mot` puis `ajouter`.\
 **DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte.\
 \
-![exemple de la réaction](https://github.com/Tellvex/Documentation/blob/main/.gitbook/assets/Capture2.PNG)
+![exemple de la réaction](../.gitbook/assets/Capture2.PNG)
 
 
 {% hint style="warning" %}
