@@ -1,7 +1,6 @@
 ---
 description: >-
-  Le WordReact permet de faire en sorte que lorsqu'un mot spécifique est envoyé
-  dans un message, une réaction soit ajoutée au message.
+  Le WordReact permet de faire en sorte que lorsqu'un mot spécifique est envoyé dans un message, une réaction soit ajoutée au message.
 ---
 
 # WordReact
