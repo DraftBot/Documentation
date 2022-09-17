@@ -17,7 +17,7 @@ Pour le **désactiver**, il vous faudra utiliser la commande `/config`, puis all
 Vous pouvez également utiliser `/config système:Réactions de mots` pour afficher directement la page.
 {% endhint %}
 
-## Ajouter un WordReact <a href="#add" id="add"></a>
+## Ajouter des réactions de mots <a href="#add" id="add"></a>
 
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande `/config`, aller sur `réaction de mot` puis `ajouter`.\
 **DraftBot** vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte.\
