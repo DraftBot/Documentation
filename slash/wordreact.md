@@ -31,7 +31,7 @@ Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous aurez u
 Pour qu'un wordreact soit pris en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
 {% endhint %}
 
-## Supprimer des WordReacts <a href="#delete" id="delete"></a>
+## Supprimer de réactions de mots <a href="#delete" id="delete"></a>
 
 Si vous souhaitez supprimer **un WordReact en particulier**, il vous suffira d'utiliser la commande `/config` puis aller sur `réaction de mot` et enfin `retirer`.\
 Un sélecteur s'affichera et vous permettra de choisir le wordreact a supprimer.\
