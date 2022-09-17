@@ -47,7 +47,7 @@ Si vous souhaitez supprimer **tous les WordReacts**, vous pouvez utiliser la com
 Une fois effectuée, une réinitialisation est irréversible.
 {% endhint %}
 
-## Voir les WordReacts  <a href="#view" id="view"></a>
+## Lister les réactions de mots<a href="#view" id="view"></a>
 
 Vous pouvez voir les wordreacts d'un serveur avec la commande `/config` et aller sur `réaction de mot`.
 Une liste s'affichera alors, contenant tous vos mots avec la réaction qui leur est associée.
