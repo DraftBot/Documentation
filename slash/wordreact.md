@@ -11,7 +11,7 @@ description: >-
 Pour **activer** le système de WordReact, il vous suffit de faire la commande `/config`, puis d'aller sur la catégorie `réaction de mot` et d'`activer le système`.\
 Pour le **désactiver**, il vous faudra utiliser la commande `/config`, puis aller sur `réaction de mot` et de `désactiver le système`.\
 \
-![Exemple d'activation/désactivation](https://github.com/Tellvex/Documentation/blob/main/.gitbook/assets/Capture1.PNG)
+![Exemple d'activation/désactivation](../.gitbook/assets/Capture1.PNG)
 
 
 {% hint style="info" %}
