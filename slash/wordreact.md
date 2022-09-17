@@ -3,7 +3,7 @@ description: >-
   Le WordReact permet de faire en sorte que lorsqu'un mot spécifique est envoyé dans un message, une réaction soit ajoutée au message.
 ---
 
-# WordReact
+# Réactions de mots
 
 ## Activer et désactiver le système de WordReact <a href="#on-off" id="on-off"></a>
 
