@@ -28,7 +28,7 @@ Dans le cas où vous souhaitez afficher le classement d'argent du serveur, il vo
 
 ![Image du classement d'économie](../../.gitbook/assets/Topmoney.png)
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Dans le cas où vous ne faites pas partie du top 5, vous serez tout de même affiché en dessous avec votre place.
 {% endhint %}
 
@@ -36,21 +36,23 @@ Dans le cas où vous ne faites pas partie du top 5, vous serez tout de même aff
 
 ### Donner de l'argent
 
-Vous avez la possibilité de donner de l'argent à un autre membre avec la commande `!pay <membre> <nombre> <raison>`
+Vous avez la possibilité de donner de l'argent à un autre membre avec la commande `/payer membre:<membre> montant:<montant> raison:<raison>`
 
 {% hint style="info" %}
-Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../../autres/recuperer-un-identifiant.md#membre), son **pseudo**, son **tag**, son **pseudo sur le serveur**, son **pseudo partiellement**, et sa **mention**.
+Pour représenter un membre pour n'importe quelle commande de **DraftBot**, vous pouvez utiliser son [**identifiant**](../../autres/recuperer-un-identifiant.md#membre) et sa **mention**.
 {% endhint %}
 
 ### Acheter un article
 
-Vous pouvez acheter un article présent dans la boutique du serveur avec la commande `shop`. Cela affichera la boutique du serveur et vous aurez la possibilité d'acheter un article via le sélecteur en-dessous du message.
+Vous pouvez acheter un article présent dans la boutique du serveur avec la commande `/boutique`. Cela affichera la boutique du serveur et vous aurez la possibilité d'acheter un article via le sélecteur en-dessous du message.
 
 ## Configuration
 
-Vous pouvez l'activer, la désactiver, modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `!admineconomy` ou `@DraftBot#0535 admineconomy`.&#x20;
+Vous pouvez l'activer, la désactiver, modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `/config`, puis la catégorie `Economie` ou `/config système:Économie`.&#x20;
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
+
+* `Configurer l'économie` → Commandes liées à la configuration de l'économie
 
 * `on` → Activer le système
 * `off` → Désactiver le système
