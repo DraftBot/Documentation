@@ -67,6 +67,8 @@ Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Con
 * `Activer les longs messages comptant double argent` → Activer/Désactiver le double d'argent attribué lors d'un long message
 * `Activer le gain d'argent dans les threads` → Activer/Désactiver le gain d'argent dans les fils Discord
 
+[Interface économie](../.gitbook/assets/Capture5.png)
+
 {% hint style="warning" %}
 Les fonctions possédant l'émoji ✨ sont réservées aux membres [premiums](https://www.draftbot.fr/premium).
 {% endhint %}
@@ -89,3 +91,4 @@ Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Con
 * `Type de la boutique` → Choisir la boutique : classique ou marché noir (suppression auto au bout de 60s)
 * `Réinitialiser` → Réinitialiser la boutique
 
+[Interface shop](../.gitbook/assets/Capture6.png)
