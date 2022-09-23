@@ -57,36 +57,14 @@ Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Con
 * `Activer le système` ou `Système activé` → Permet d'activer/désactiver la fonction
 * `✨ Devise` → Configuer l'icône (emoji) de l'argent
 * `✨ Couleur` → Changer la couleur des embeds de l'économie
-* `ignore` → Ne pas prendre en compte un rôle ou salon&#x20;
-* `reset` → Réinitialiser la fonctionnalité (`adminmoney resetall` pour réinitialiser l'économie)
-* `color` → Personnaliser la couleur (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium))
-
-### **Modifier le gain d'argent et configurer l'argent quotidien** <a href="#modifier-le-gain-dexperience" id="modifier-le-gain-dexperience"></a>
-
-Si vous choisissez de **modifier le gain d'argent et configurer l'argent quotidien**, en envoyant `config`, vous aurez alors le choix pour **modifier le gain d'argent** entre quatre propositions : 0, entre 5 et 15, entre 15 et 25 et entre 25 et 35.\
-\
-Le taux actuel est symbolisé par le bouton en vert. Cliquez alors sur le bouton de votre choix, en fonction du taux d’expérience que vous souhaitez à présent faire gagner.&#x20;
-
-Pour **configurer l'argent quotidien,** vous aurez le choix de l'argent à faire gagner lors de l'exécution de la commande `daily`.
-
-{% hint style="info" %}
-Si vous ne souhaitez pas activer cette fonctionnalité, il vous suffira d'envoyer 0 pendant la configuration de l'argent quotidien.
-{% endhint %}
-
-### **Multiplier le gain d’un rôle** <a href="#multiplier-le-gain-dun-role" id="multiplier-le-gain-dun-role"></a>
-
-Si vous choisissez de **booster le gain d'argent d'un rôle**, en envoyant `boosters`, vous aurez alors le choix entre trois propositions : Ajouter un rôle booster | Supprimer un rôle booster | Afficher les rôles boosters
-
-* Si vous choisissez d’ajouter un rôle booster, vous devrez choisir quel rôle doit être boosté. Vous pourrez ensuite choisir le multiplicateur entre `1.5`, `2.0`, `2.5` ou `3.0`.
-* Si vous choisissez de supprimer un rôle booster, DraftBot vous montrera tous les rôles boostés et vous devrez alors choisir lequel supprimer.
-* Si vous choisissez d’afficher la liste des rôles boosters, DraftBot vous enverra tous les rôles boostés et le multiplicateur qui leur a été attribué.
-
-### Ignorer un salon ou un rôle
-
-Si vous choisissez d’**ignorer le gain d'argent**, en envoyant `ignore`, vous aurez le choix entre deux propositions : Ignorer un rôle | Ignorer un salon&#x20;
-
-* Si vous choisissez le rôle, vous devez renseigner le rôle qui empêchera les membres l'ayant de gagner de l’argent.&#x20;
-* Si vous choisissez le salon, vous devez renseigner le salon dans lequel le gain d'argent ne sera pas comptabilisé.
+* `Argent Journalier` → Définir la quantité d'argent à donner via la commande `/daily`
+* `Argent de départ` → Définir l'argent attribué à un membre lors de son arrivée
+* `Ratio d'argent` → Définr la quantité d'argent attribué à un membre à chaque message (choix via des boutons)
+* `Rôle sans gain d'argent` → Définir les rôles sans gains d'argent
+* `Salons sans gains d'argent` → Définir les salons sans gains d'argent
+* `Rôle Boosters` → Définir un multiplicateur d'argent sur un rôle (choix via des boutons)
+* `Activer le reset d'argent lors du départ` → Activer/Désactiver le reset de l'argent d'un membre lorsqu'il quitte le serveur
+* `Activer les longs messages comptant double argent` → Activer/Désactiver le double d'argent attribué lors d'un long message
 
 ### Réinitialiser la configuration
 
