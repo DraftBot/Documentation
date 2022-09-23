@@ -56,7 +56,7 @@ Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Con
 
 * `Activer le système` ou `Système activé` → Permet d'activer/désactiver la fonction
 * `✨ Devise` → Configuer l'icône (emoji) de l'argent
-* `✨ Couleur` → Changer la couleur des embeds de l'économie
+* `✨ Couleur` → Changer la couleur des embeds de l'économie **(Couleur en héxadécimale)**
 * `Argent Journalier` → Définir la quantité d'argent à donner via la commande `/daily`
 * `Argent de départ` → Définir l'argent attribué à un membre lors de son arrivée
 * `Ratio d'argent` → Définr la quantité d'argent attribué à un membre à chaque message (choix via des boutons)
@@ -65,64 +65,27 @@ Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Con
 * `Rôle Boosters` → Définir un multiplicateur d'argent sur un rôle (choix via des boutons)
 * `Activer le reset d'argent lors du départ` → Activer/Désactiver le reset de l'argent d'un membre lorsqu'il quitte le serveur
 * `Activer les longs messages comptant double argent` → Activer/Désactiver le double d'argent attribué lors d'un long message
+* `Activer le gain d'argent dans les threads` → Activer/Désactiver le gain d'argent dans les fils Discord
+
+{% hint style="warning" %}
+Les fonctions possédant l'émoji ✨ sont réservées aux membres [premiums](https://www.draftbot.fr/premium).
+{% endhint %}
 
 ### Réinitialiser la configuration
 
-Si vous choisissez de **réinitialiser la configuration** du système de niveaux, en envoyant `reset`, vous n’aurez rien à faire de plus, **DraftBot** vous supprimera toutes les configurations effectuées pour ce système, à savoir :
-
-* Son statut
-* Le nombre d'argent donné lors de l'arrivée d'un membre
-* Le nombre d'argent gagné à chaque message
-* Le statut qui empêche les membres invisibles de gagner de l’expérience
-* Les rôles qui empêchent le gain d'argent
-* Les salons dans lesquels le gain d'argent est désactivé
-* Les rôles qui permettent de multiplier le gain d'argent
-* La couleur de la fonctionnalité d'argent (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium))
-
-### Modifier la couleur
-
-Si vous choisissez de **modifier la couleur**, en envoyant `color` (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium)), il vous suffira de renseigner un code hexadécimal (il s’agit d’une série de 6 chiffres et lettres représentant une couleur). Voici un sélecteur pour choisir vos couleurs : [htmlcolorcodes.com](https://htmlcolorcodes.com/)
+{% hint style="warning" %}
+La réinitialisation du système n'existe plus en slash commands, il faudra donc effectuer `admineconomy remove`. Attention cepandant car cette méthode disparaitra bientôt.
+{% endhint %}
 
 ## Boutique
 
-Vous pouvez ajouter, retirer, modifier un article ou encore réinitialiser la boutique avec la commande `!adminshop` ou `@DraftBot#0535 adminshop`.&#x20;
+Vous pouvez l'activer, la désactiver, modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `/config`, puis la catégorie `Economie` ou `/config système:Économie`.&#x20;
 
-Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
+Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Configuration de l'économie` :
 
-* `add` → Ajouter un article
-* `remove` → Supprimer un article
-* `update` → Modifier un article
-* `config` → Configurer la boutique
-* `reset` → Réinitialiser la boutique
+* `Créer` → Créer un article en vente
+* `Modifier` → Modifier un article existant
+* `Supprimer` → Supprimer un article existant
+* `Type de la boutique` → Choisir la boutique : classique ou marché noir (suppression auto au bout de 60s)
+* `Réinitialiser` → Réinitialiser la boutique
 
-### Ajouter un article
-
-Si vous choisissez d'ajouter un article à votre boutique, en envoyant `add`, vous aurez la possibilité d'ajouter :&#x20;
-
-* Un rôle / rôle temporaire
-* De l'expérience (niveaux)
-* Récompense personnalisée (envoie un message à l'administrateur)
-* Objet d'inventaire
-
-Vous aurez ensuite la possibilité d'ajouter une description et un prix à votre article.
-
-### Modifier un article
-
-Si vous choisissez de modifier un article déjà existant, en envoyant `update`, vous devrez alors choisir un article parmi la liste envoyée.\
-\
-Vous pourrez alors modifier l'article, la description ou le prix de l'objet.
-
-### Configurer la boutique
-
-Si vous choisissez de configurer la boutique, en envoyant `config`, vous aurez la possibilité de choisir entre deux types de boutique :&#x20;
-
-* Boutique normale : le message du `shop` est conservé.
-* Marché noir : le message du `shop` est supprimé au bout de 60 secondes.
-
-### Réinitialiser la boutique
-
-Si vous choisissez de réinitialiser la boutique, en envoyant `reset`, tous les articles de votre boutique seront réinitialisés.
-
-{% hint style="warning" %}
-Les récompenses déjà données aux membres ayant payé l'article **ne leur seront pas retirées** !
-{% endhint %}
