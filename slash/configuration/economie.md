@@ -50,14 +50,13 @@ Vous pouvez acheter un article présent dans la boutique du serveur avec la comm
 
 Vous pouvez l'activer, la désactiver, modifier son intensité, l’ignorer, la booster, la personnaliser ou encore la réinitialiser avec la commande `/config`, puis la catégorie `Economie` ou `/config système:Économie`.&#x20;
 
-Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez :
+Lorsque **DraftBot** affichera l'interface d'économie, vous devrez choisir `Configuration de l'économie`
 
-* `Configurer l'économie` → Commandes liées à la configuration de l'économie
+À ce moment là, des options s'afficheront
 
-* `on` → Activer le système
-* `off` → Désactiver le système
-* `config` → Le configurer
-* `boosters` → Multiplier les gains d'argent d’un rôle
+* `Activer le système` ou `Système activé` → Permet d'activer/désactiver la fonction
+* `✨ Devise` → Configuer l'icône (emoji) de l'argent
+* `✨ Couleur` → Changer la couleur des embeds de l'économie
 * `ignore` → Ne pas prendre en compte un rôle ou salon&#x20;
 * `reset` → Réinitialiser la fonctionnalité (`adminmoney resetall` pour réinitialiser l'économie)
 * `color` → Personnaliser la couleur (fonctionnalité réservée aux [premiums](https://www.draftbot.fr/premium))
