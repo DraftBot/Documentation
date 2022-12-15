@@ -50,9 +50,9 @@ Commande de l'utilisateur : `!adjectif @Jules fort et beau`\
 Réponse de DraftBot : @Jules _est maintenant_ fort et beau
 {% endhint %}
 
-Voici les différentes variables d'arguments possibles avec **DraftBot** :\
-\
-$1 = première valeur saisie après la commande\
+Voici les différentes variables d'arguments possibles avec **DraftBot** :
+
+>$1 = première valeur saisie après la commande\
 $2 = deuxième valeur saisie après la commande\
 $1+ = tout ce qui est saisi après la commande\
 $2+ = tout ce qui est saisi après la commande sauf la première valeur
