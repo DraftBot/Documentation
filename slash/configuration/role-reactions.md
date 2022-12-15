@@ -19,7 +19,7 @@ Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par
 
 #### <mark style="color:blue;">Nouveau message</mark>
 
-* Indiquez le **titre** du du rôle-réaction qui apparaîtra en haut de l'embed.
+* Indiquez le **titre** du rôle-réaction qui apparaîtra en haut de l'embed.
 * Précisez ou mentionnez le **rôle** que vous souhaiter ajouter lorsqu'un membre interagit avec le message.
 * Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction" "Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>
 * L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
