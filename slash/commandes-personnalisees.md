@@ -4,7 +4,7 @@
 
 ### Depuis Discord
 
-Vous pouvez créer une commande personnalisée avec la commande `/config`, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
+Vous pouvez créer une commande personnalisée avec la commande <span style="color: #cd6e57"> /config </span>, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
 DraftBot vous demandera alors les informations suivantes :
 
 * Nom de la commande
@@ -16,7 +16,11 @@ DraftBot vous demandera alors les informations suivantes :
   * Ajouter ou retirer un ou des rôle(s)
   * Ajouter un rôle temporaire 
   * Faire un achat dans la boutique
-* Si vous souhaitez ou non que la commande soit affichée dans le `/aide`
+* Si vous souhaitez ou non que la commande soit affichée dans le <span style="color: #cd6e57"> /aide </span>
+
+{% hint style="info" %}
+Lorsque vous exécutez une commande personnalisée, votre texte de déclenchement de commande reste dans le salon. Si vous souhaitez que **DraftBot** supprime votre commande, vous pouvez activer l'option correspondante dans <span style="color: #cd6e57"> /config </span>, en vous rendant dans l'onglet "Commandes personnalisées" du sélecteur, puis en activant le bouton "Activer la suppression des commandes".
+{% endhint %}
 
 ### Depuis le panel web
 
@@ -43,7 +47,7 @@ Pas de problème ! Cliquez sur Modifier ou Supprimer sur le côté droit.
 Les commandes personnalisées vous offrent la possibilité d'ajouter des arguments dans vos messages.
 
 {% hint style="info" %}
-**Exemple de commandes personnalisées avec des arguments**\
+**Exemple de commande personnalisée avec des arguments**\
 ➜ _Message configuré : `$1 est maintenant $2+`_\
 \
 Commande de l'utilisateur : `!adjectif @Jules fort et beau`\
