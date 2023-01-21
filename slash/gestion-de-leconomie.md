@@ -8,7 +8,7 @@ Afin d'obtenir de l'argent, il faut que [https://docs.draftbot.fr/slash/gestion-
 
 ### <mark style="color:purple;">Topmonnaie</mark>
 
-Grâce à la commande <mark style="color:orange;"> /topargent</mark>\ vous avez accès aux leaderboard économique du serveur. 
+Grâce à la commande <mark style="color:orange;"> /topargent</mark>\ vous avez accès au leaderboard économique du serveur. 
 Vous verrez uniquement les cinq premiers du serveur ainsi que votre position, pour voir l'ensemble du classement, cliquer sur le bouton situé sous l'embed.
 
 
