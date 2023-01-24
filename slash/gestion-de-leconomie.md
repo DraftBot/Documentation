@@ -36,4 +36,4 @@ Ceci se fait également via <mark style="color:orange;"> /echanger \[utilisateur
 ### <mark style="color:purple;">Rôle booster</mark>
 
 
-Tu peux, lors de [https://docs.draftbot.fr/slash/configuration/economie](la configuration), choisir un rôle booster. L'utilité ? Si une personne boost ton serveur, tu pourras faire qu'elle reçoive 1.5, 2, 2.5 ou 3 fois plus d'argent qu'un membre normal.
+Tu peux, lors de [https://docs.draftbot.fr/slash/configuration/economie](la configuration), choisir un rôle booster. L'utilité ? Si une personne boost ton serveur, tu pourras faire qu'elle reçoive 1.5 / 2 / 2.5 ou 3 fois plus d'argent qu'un membre normal.
