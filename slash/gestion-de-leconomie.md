@@ -24,7 +24,7 @@ Le marché noir est une variante de la boutique, la différence est que l'embed 
 
 ### <mark style="color:purple;">Echange</mark>
 
-La commande <mark style="color:orange;">/echanger \[utilisateur]</mark>\ a pour but de pouvoir échanger des objets d'inventaire gratuitement (ou contre de l'argent), ou tout simplement contre un autre objet d'inventaire !
+La commande <mark style="color:orange;">/échanger \[utilisateur]</mark> a pour but de pouvoir échanger des objets d'inventaire gratuitement (ou contre de l'argent), ou tout simplement contre un autre objet d'inventaire !
 
 
 ### <mark style="color:purple;">Don</mark>
