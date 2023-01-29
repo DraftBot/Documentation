@@ -9,13 +9,15 @@ description: >-
 
 Vous pouvez voir votre somme d'argent ainsi que celle des autres membres en indiquant leur pseudo sous "membre" avec <mark style="color:orange;">/argent \[membre]</mark>.\
 Afin d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
-![Alt text](../.gitbook/assets/Money_slash.png)
+
+![Carte d'économie](../.gitbook/assets/Money_slash.png)
 
 
 ### <mark style="color:purple;">Classement de monnaie</mark>
 
 Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous verrez uniquement les cinq premiers du serveur ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot**.
-![Alt text](../.gitbook/assets/Topmoney_slash.png)
+
+![Classement d'argent des membres du serveur](../.gitbook/assets/Topmoney_slash.png)
 
 
 ### <mark style="color:purple;">Boutique</mark>
@@ -26,7 +28,8 @@ Vous pouvez y acheter un rôle (temporaire ou non), de l'expérience, un objet d
 {% hint style="info" %}
 Le marché noir est une variante de la boutique. La différence est que la boutique se supprimera au bout de 30 secondes, ni vu ni connu !
 {% endhint %}
-![Alt text](../.gitbook/assets/Boutique_slash.png)
+
+![Boutique de DraftBot](../.gitbook/assets/Boutique_slash.png)
 
 
 ### <mark style="color:purple;">Objets d'inventaire</mark>
