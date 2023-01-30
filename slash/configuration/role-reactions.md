@@ -8,10 +8,10 @@ description: >-
 # 🔘 Rôle réactions
 
 {% hint style="info" %}
-Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages avec la commande <mark style="color:orange;">/envoyer</mark>, <mark style="color:orange;">/send</mark>, directement la configuration <mark style="color:orange;">/config système: Rôles réactions</mark> ou le [PanelWeb](https://www.draftbot.fr/dashboard) qui permet une personnalisation plus facile et complète.
+Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages avec la commande <mark style="color: #cd6e57">/envoyer</mark>, <mark style="color: #cd6e57">/send</mark>, directement la configuration <mark style="color: #cd6e57">/config système: Rôles réactions</mark> ou le [PanelWeb](https://www.draftbot.fr/dashboard) qui permet une personnalisation plus facile et complète.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Rôles réactions.png" alt=""><figcaption><p>Commande <mark style="color:orange;">/config système: Rôles-Réactions</mark></p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Rôles réactions.png" alt=""><figcaption><p>Commande <mark style="color: #cd6e57">/config système: Rôles-Réactions</mark></p></figcaption></figure>
 
 ### <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
 
