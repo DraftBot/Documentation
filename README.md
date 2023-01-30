@@ -13,7 +13,7 @@ coverY: 0
 
 * Les chapitres sont organisés par ordre logique et regroupent les [commandes](https://www.draftbot.fr/commandes) d'une même utilité, vous permettant ainsi les uns après les autres d'appréhender au mieux le bot, de manière claire et intuitive. Si vous souhaitez directement rejoindre une commande en particulier, vous pouvez utiliser la fonction **Recherche** ou le Sommaire situé plus bas.
 * Les commandes seront écrites avec un / et en <mark style="color: #cd6e57;">orange</mark>
-* Si la commande contient du texte, il sera en italique <mark style="color: #cd6e57;">/exemple</mark> <mark style="color: #cd6e57;"></mark>_<mark style="color: #cd6e57;">Ceci est du texte</mark>_
+* Si la commande contient du texte, il sera en italique <mark style="color: #cd6e57;">/exemple</mark> _<mark style="color: #cd6e57;">Ceci est du texte</mark>_
 * Les mentions de rôles et membres seront indiquées par @ et les salons par # <mark style="color: #cd6e57;">/exemple @Rôle</mark>
 * Les actions à réaliser, comme les boutons à cliquer, seront écrits entre guillemets, et avec leur couleur associée. Par exemple <mark style="color:green;">"Oui"</mark> et <mark style="color:red;">"Non"</mark>
 

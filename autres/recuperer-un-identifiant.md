@@ -7,7 +7,7 @@ description: >-
 
 # Récupérer un identifiant
 
-## <mark style="color: #cd6e57;">Identifiant d'un message</mark> <a href="#message" id="message"></a>
+## Identifiant d'un message <a href="#message" id="message"></a>
 
 {% hint style="warning" %}
 Il vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.\
@@ -22,7 +22,7 @@ Pour récupérer l'identifiant d'un message, vous devez :&#x20;
 
 ![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvevycnhr2.gif)
 
-## <mark style="color: #cd6e57;">Identifiant d'un rôle</mark>
+## Identifiant d'un rôle
 
 {% hint style="warning" %}
 Il vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
@@ -37,7 +37,7 @@ Afin de récupérer l'identifiant d'un rôle, vous devez :
 
 Si vous avez besoin de mentionner un rôle (ex: panel web), il vous suffit de faire <@\&ID-Role>
 
-## <mark style="color: #cd6e57;">Identifiant d'un membre</mark>
+## Identifiant d'un membre
 
 {% hint style="warning" %}
 ll vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
@@ -53,7 +53,7 @@ Pour récupérer l'identifiant d'un membre, vous devez :
 
 Si vous avez besoin de mentionner un membre (ex: panel web), il vous de mettre <@ID-Membre>
 
-## <mark style="color: #cd6e57;">Identifiant d'un émoji</mark>
+## Identifiant d'un émoji
 
 Pour obtenir l'identifiant d'un émoji, il vous suffit :&#x20;
 
@@ -70,7 +70,7 @@ Si vous êtes sur **Android**, pour récupérer l'identifiant d'un émoji :&#x20
 * Puis copiez le résultat étant l'identifiant de l’émoji
 {% endhint %}
 
-## <mark style="color: #cd6e57;">Identifiant d'un salon</mark>
+## Identifiant d'un salon
 
 {% hint style="warning" %}
 ll vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
@@ -85,7 +85,7 @@ Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
 
 Si vous avez besoin de mentionner un salon (ex: panel web), vous devez mettre <#ID-Salon>
 
-## <mark style="color: #cd6e57;">Identifiant d'un serveur</mark>
+## Identifiant d'un serveur
 
 {% hint style="warning" %}
 ll vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.

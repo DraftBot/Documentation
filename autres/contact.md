@@ -9,7 +9,7 @@ description: >-
 
 ### Discord :
 
-Le <mark style="color: #cd6e57;"></mark> [<mark style="color: #cd6e57;">Support Discord</mark>](https://discord.com/invite/DrzKVU3) <mark style="color: #cd6e57;"></mark> est notre principale plateforme de communication. Vous pouvez solliciter l'aide d'un membre expert de DraftBot en mentionnant le rôle <mark style="color:green;">@Aide</mark> qui répondra à vos questions et vous aidera à résoudre les problèmes liés à **DraftBot**. En cas de besoin, un membre de l'<mark style="color:yellow;">@Equipe</mark> pourra également intervenir.
+Le  [<mark style="color: #cd6e57;">Support Discord</mark>](https://discord.com/invite/DrzKVU3)  est notre principale plateforme de communication. Vous pouvez solliciter l'aide d'un membre expert de DraftBot en mentionnant le rôle <mark style="color:green;">@Aide</mark> qui répondra à vos questions et vous aidera à résoudre les problèmes liés à **DraftBot**. En cas de besoin, un membre de l'<mark style="color:yellow;">@Equipe</mark> pourra également intervenir.
 
 \
 Nous discutons également de généralités avec nos membres, il s'agit à la fois d'une plateforme d'échange conviviale mais aussi sérieuse pour l'évolution du bot. Notre communauté est grandissante et active, avec de l'entraîde mais aussi des amitié, des activités et évènements.\

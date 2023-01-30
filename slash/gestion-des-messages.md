@@ -6,7 +6,7 @@ description: >-
 
 # Gestion des messages
 
-### <mark style="color: #cd6e57;">Supprimer des messages</mark>
+### Supprimer des messages
 
 Vous pouvez effacer des messages avec la commande <mark style="color: #cd6e57;">/effacer messages \[nombre]</mark>. Cela supprimera alors le nombre de messages que vous aurez renseigné dans la slash commande.
 
@@ -19,9 +19,9 @@ Vous avez aussi 2 options à votre disposition :
 **DraftBot** peut supprimer des messages uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
-### <mark style="color: #cd6e57;">Supprimer tous les messages d'un salon</mark>
+### Supprimer tous les messages d'un salon
 
-#### <mark style="color: #cd6e57;"></mark>:warning: Attention, cette action est <mark style="color:red;">**irréversible**</mark> !
+#### :warning: Attention, cette action est <mark style="color:red;">**irréversible**</mark> !
 
 La méthode pour supprimer tous les messages d'un salon est de supprimer le salon pour recréer exactement le même avec les mêmes permissions, nom, description... mais sans les messages.
 
@@ -31,7 +31,7 @@ Pour faire cela, vous pouvez utiliser la slash commande <mark style="color: #cd6
 **DraftBot** peut supprimer tous les messages d'un salon uniquement s'il dispose des permissions "_Gérer les messages_" et "_Gérer les salons_" sur votre serveur.
 {% endhint %}
 
-### <mark style="color: #cd6e57;">Supprimer les messages d'une conversation</mark>
+### Supprimer les messages d'une conversation
 
 Si vous avez une discussion indésirable sur votre serveur, nul besoin de supprimer tous les messages jusqu'à cette conversation. Vous pouvez alors utiliser la slash commande de **DraftBot** <mark style="color: #cd6e57;">/effacer conversation \[premier\_message] \[dernier\_message]</mark>.
 
@@ -41,7 +41,7 @@ Si vous avez une discussion indésirable sur votre serveur, nul besoin de suppri
 **DraftBot** peut supprimer une conversation uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
-### <mark style="color: #cd6e57;">Copier un ou des messages</mark>
+### Copier un ou des messages
 
 Si vous souhaitez copier un message venant d'un utilisateur dans un autre salon (ou dans le même salon), vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/copier \[salon] \[premier\_message]</mark>.
 
@@ -53,7 +53,7 @@ Si vous voulez copier plusieurs messages à la fois, alors vous pouvez utiliser 
 **DraftBot** peut copier un ou des messages uniquement s'il dispose des permissions "_Gérer les webhooks_" et "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
-### <mark style="color: #cd6e57;">Déplacer un ou des messages</mark>
+### Déplacer un ou des messages
 
 Il est possible avec **DraftBot** de déplacer un message dans un autre salon s'il n'est pas à sa place. Pour cela, vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/move \[salon] \[premier\_message]</mark>.
 
@@ -65,7 +65,7 @@ Si vous voulez déplacer plusieurs messages à la fois, alors vous pouvez utilis
 **DraftBot** peut copier un ou des messages uniquement s'il dispose des permissions "_Gérer les webhooks_" et "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
-### <mark style="color: #cd6e57;">Citer un message</mark>
+### Citer un message
 
 Si vous devez répéter plusieurs fois votre message sur votre serveur, alors **DraftBot** dispose d'une fonctionnalité faite pour vous ! Vous pouvez alors citer un message avec <mark style="color: #cd6e57;">/citer \[message]</mark>.
 
@@ -77,7 +77,7 @@ Si vous voulez citer un message d'un autre salon, vous pourrez alors utiliser l'
 **DraftBot** peut citer un message uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
-### <mark style="color: #cd6e57;">Sauvegarder une conversation</mark>
+### Sauvegarder une conversation
 
 Vous pouvez sauvegarder une conversation avec la slash commande <mark style="color: #cd6e57;">/sauvegarder conversation \[premier\_message] \[dernier\_message]</mark>.
 
