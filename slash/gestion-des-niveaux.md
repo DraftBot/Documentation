@@ -18,7 +18,13 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 
 <details>
 <summary>Système de niveaux</summary>
-![Alt text](../.gitbook/assets/ajoutdraftbot.jpg)
+Plusieurs possibilités s'offrent à vous pour configurer le système de niveaux :
+- **Activer le système** : permet d'activer ou de désactiver le système
+- **Activer l'xp en vocal** : 
+- **Niveau maximum** : permet de mettre un niveau maximal à atteindre sur le serveur. Une fois ce niveau atteint, les membres seront bloqués à ce niveau et ne passerons pas au suppérieur.
+
+
+![Alt text](../.gitbook/assets/config_niveaux_syst%C3%A8me%20de%20niveaux.png)
 </details>
 
 ### Multiplier le gain d'un rôle
