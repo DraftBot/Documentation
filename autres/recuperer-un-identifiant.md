@@ -7,10 +7,10 @@ description: >-
 
 # Récupérer un identifiant
 
-## <mark style="color:purple;">Identifiant d'un message</mark> <a href="#message" id="message"></a>
+## Identifiant d'un message <a href="#message" id="message"></a>
 
 {% hint style="warning" %}
-Il vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.\
+Il vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.\
 \
 Pour se faire, il vous suffit d'aller dans les paramètres utilisateurs, Apparence (iOS), Comportement (Android) ou Avancés (ordinateur) puis d'activer le mode développeur.
 {% endhint %}
@@ -22,10 +22,10 @@ Pour récupérer l'identifiant d'un message, vous devez :&#x20;
 
 ![Exemple de récupération sur ordinateur de l'identifiant d'un message](../.gitbook/assets/xvevycnhr2.gif)
 
-## <mark style="color:purple;">Identifiant d'un rôle</mark>
+## Identifiant d'un rôle
 
 {% hint style="warning" %}
-Il vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
+Il vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Afin de récupérer l'identifiant d'un rôle, vous devez :
@@ -37,10 +37,10 @@ Afin de récupérer l'identifiant d'un rôle, vous devez :
 
 Si vous avez besoin de mentionner un rôle (ex: panel web), il vous suffit de faire <@\&ID-Role>
 
-## <mark style="color:purple;">Identifiant d'un membre</mark>
+## Identifiant d'un membre
 
 {% hint style="warning" %}
-ll vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
+ll vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Pour récupérer l'identifiant d'un membre, vous devez :
@@ -53,7 +53,7 @@ Pour récupérer l'identifiant d'un membre, vous devez :
 
 Si vous avez besoin de mentionner un membre (ex: panel web), il vous de mettre <@ID-Membre>
 
-## <mark style="color:purple;">Identifiant d'un émoji</mark>
+## Identifiant d'un émoji
 
 Pour obtenir l'identifiant d'un émoji, il vous suffit :&#x20;
 
@@ -70,10 +70,10 @@ Si vous êtes sur **Android**, pour récupérer l'identifiant d'un émoji :&#x20
 * Puis copiez le résultat étant l'identifiant de l’émoji
 {% endhint %}
 
-## <mark style="color:purple;">Identifiant d'un salon</mark>
+## Identifiant d'un salon
 
 {% hint style="warning" %}
-ll vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
+ll vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
@@ -85,10 +85,10 @@ Pour obtenir l'identifiant d'un salon, vous pouvez :&#x20;
 
 Si vous avez besoin de mentionner un salon (ex: panel web), vous devez mettre <#ID-Salon>
 
-## <mark style="color:purple;">Identifiant d'un serveur</mark>
+## Identifiant d'un serveur
 
 {% hint style="warning" %}
-ll vous faut au préalable activer le <mark style="color:purple;">mode développeur</mark> pour récupérer des identifiants.
+ll vous faut au préalable activer le <mark style="color: #cd6e57;">mode développeur</mark> pour récupérer des identifiants.
 {% endhint %}
 
 Si vous souhaitez récupérer l'identifiant d'un serveur, il vous suffit :

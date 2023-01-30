@@ -4,17 +4,17 @@
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-### <mark style="color:purple;">Niveaux</mark>
+### Niveaux
 
 
 
-### <mark style="color:purple;">Top niveaux</mark>
+### Top niveaux
 
 
 
-### <mark style="color:purple;">Récompenses</mark>
+### Récompenses
 
 
 
-### <mark style="color:purple;">Rôle boosters</mark>
+### Rôle boosters
 

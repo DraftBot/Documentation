@@ -5,7 +5,7 @@ description: >-
 
 # Gestion de l'économie
 
-### <mark style="color:purple;">Monnaie</mark>
+### Monnaie
 
 Vous pouvez voir votre somme d'argent ainsi que celle des autres membres en indiquant leur pseudo sous "membre" avec <mark style="color:orange;">/argent \[membre]</mark>.\
 Afin d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
@@ -13,14 +13,14 @@ Afin d'obtenir de l'argent, il faut que [le système d'économie](https://docs.d
 ![Carte d'économie](../.gitbook/assets/Money_slash.png)
 
 
-### <mark style="color:purple;">Classement de monnaie</mark>
+### Topmonnaie
 
-Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot** ("Voir l'ensemble du classement"). 
+Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot** ("Voir l'ensemble du classement").
 
 ![Classement d'argent des membres du serveur](../.gitbook/assets/Topmoney_slash.png)
 
 
-### <mark style="color:purple;">Boutique</mark>
+### Boutique
 
 La boutique est l'endroit où vous pouvez acheter les articles qui composeront votre inventaire *(voir ci-dessous)*.\
 Vous pouvez y acheter un rôle (temporaire ou non), de l'expérience, un objet d'inventaire et plein d'autres choses ! Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
@@ -32,7 +32,7 @@ Le marché noir est une variante de la boutique. La différence est que la bouti
 ![Boutique de DraftBot](../.gitbook/assets/Boutique_slash.png)
 
 
-### <mark style="color:purple;">Objets d'inventaire</mark>
+### Objets d'inventaire
 
 Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur avec des objets d'inventaire. Une fois achetés ou gagnés, vous pouvez faire :
 - <mark style="color:orange;">/item echanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de votre choix.
@@ -44,11 +44,11 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 
 {% hint style="info" %}
 **Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'ID de celui-ci en mettant un antislash (\\) devant celui-ci.
-*Exemple : "🍒 Cerises"* 
+*Exemple : "🍒 Cerises"*
 {% endhint %}
 
 
-### <mark style="color:purple;">Rôle booster</mark>
+### Rôle booster
 
 Tu peux, lors de [la configuration](https://docs.draftbot.fr/slash/configuration/economie), choisir un rôle booster.\
 Quand une personne a un rôle booster, elle pourra gagner 1,5 / 2 / 2,5 ou 3 fois plus d'argent qu'un membre normal.

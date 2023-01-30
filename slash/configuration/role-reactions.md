@@ -8,18 +8,18 @@ description: >-
 # 🔘 Rôle réactions
 
 {% hint style="info" %}
-Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages avec la commande <mark style="color:orange;">/envoyer</mark>, <mark style="color:orange;">/send</mark>, directement la configuration <mark style="color:orange;">/config système: Rôles réactions</mark> ou le [PanelWeb](https://www.draftbot.fr/dashboard) qui permet une personnalisation plus facile et complète.
+Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages avec la commande <mark style="color: #cd6e57;">/envoyer</mark>, <mark style="color: #cd6e57;">/send</mark>, directement la configuration <mark style="color: #cd6e57;">/config système: Rôles réactions</mark> ou le [PanelWeb](https://www.draftbot.fr/dashboard) qui permet une personnalisation plus facile et complète.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Rôles réactions.png" alt=""><figcaption><p>Commande <mark style="color:orange;">/config système: Rôles-Réactions</mark></p></figcaption></figure>
+![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
 
 ### <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
 
-<figure><img src="../../.gitbook/assets/Créer un rôle-réaction.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/rolereact/question.png>)
 
 #### <mark style="color:blue;">Nouveau message</mark>
 
-* Indiquez le **titre** du du rôle-réaction qui apparaîtra en haut de l'embed.
+* Indiquez le **titre** du rôle-réaction qui apparaîtra en haut de l'embed.
 * Précisez ou mentionnez le **rôle** que vous souhaiter ajouter lorsqu'un membre interagit avec le message.
 * Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction" "Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>
 * L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
