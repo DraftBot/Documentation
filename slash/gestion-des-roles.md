@@ -4,37 +4,37 @@
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-### <mark style="color:purple;">Stickyroles</mark>
+### Stickyroles
 
 
 
-### <mark style="color:purple;">Temprole</mark>
+### Temprole
 
 
 
-### <mark style="color:purple;">Rolereact --> Config</mark>
+### Rolereact --> Config
 
 
 
-### <mark style="color:purple;">Rôle anniversaire --> Anniversaire</mark>
+### Rôle anniversaire --> Anniversaire
 
 
 
-### <mark style="color:purple;">Autorole --> Config autoroles (arrivée, vocal, live)</mark>
+### Autorole --> Config autoroles (arrivée, vocal, live)
 
 
 
-### <mark style="color:purple;">Streamrole --> Config Social notif</mark>
+### Streamrole --> Config Social notif
 
 
 
-### <mark style="color:purple;">Rôle booster</mark>
+### Rôle booster
 
 
 
-### <mark style="color:purple;">Ticket (accès et réglages) --> Config ticket</mark>
+### Ticket (accès et réglages) --> Config ticket
 
 
 
-### <mark style="color:purple;">Custom Command</mark>
+### Custom Command
 
