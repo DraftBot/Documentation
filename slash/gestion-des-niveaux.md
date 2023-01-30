@@ -1,20 +1,25 @@
-# Gestion des niveaux
 ---
 description: >-
  Suivez l'activité de vos membres grâce à la fonctionnalité de niveaux.
 ---
+# Gestion des niveaux
 
-## <mark style="color:purple;">Configuration</mark>
+
+## Configuration
 Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <span style="color: #cd6e57">/config</span>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
 
-Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer :
+Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer...
 
 - Le système de niveaux
 - Les récompenses de niveau
 - L'annonce d'un nouveau niveau
 - L'annonce d'une récompense gagnée
 
-### Modifier le gain d'expérience
+
+<details>
+<summary>Système de niveaux</summary>
+![Alt text](../.gitbook/assets/ajoutdraftbot.jpg)
+</details>
 
 ### Multiplier le gain d'un rôle
 
@@ -24,14 +29,19 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 
 ### Modifier la couleur
 
-### Annonce d'un nouveau niveau
-> *Nouveau*
+### Annonces
+{% tabs %}
+{% tab title="Nouveau niveau" %}
 
-### Annonce d'une récompense gagnée
-> *Nouveau*
+{% endtab %}
 
----
-## <mark style="color:purple;">Afficher les niveaux</mark>
+{% tab title="Récompense gagnée" %}
+
+{% endtab %}
+{% endtabs %}
+
+
+## Afficher les niveaux
 
 ### La carte d'un membre
 
@@ -39,7 +49,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 
 
 ---
-## <mark style="color:purple;">Récompenses</mark>
+## Récompenses
 
 ### Créer une récompense
 
