@@ -15,7 +15,7 @@ Afin d'obtenir de l'argent, il faut que [le système d'économie](https://docs.d
 
 ### <mark style="color:purple;">Classement de monnaie</mark>
 
-Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous verrez uniquement les cinq premiers du serveur ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot**.
+Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot** ("Voir l'ensemble du classement"). 
 
 ![Classement d'argent des membres du serveur](../.gitbook/assets/Topmoney_slash.png)
 
@@ -34,17 +34,17 @@ Le marché noir est une variante de la boutique. La différence est que la bouti
 
 ### <mark style="color:purple;">Objets d'inventaire</mark>
 
-Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur avec des objets d'inventaire. Une fois achetés ou gagnés, voici les possibilités que vous avez pour utiliser vos objets d'inventaire :
-- <mark style="color:orange;">/item echanger</mark> : échanger un de ses objets d'inventaire avec la personne de votre choix
-- <mark style="color:orange;">/item donner</mark> : donner un de ses objets d'inventaire à la personne de votre choix
-- <mark style="color:orange;">/item drop</mark> : offrir un de ses items à la personne qui appuiera sur le bouton en premier
-- <mark style="color:orange;">/item vendre</mark> : vendre un de ses objets d'inventaire à la personne de son choix
-- <mark style="color:orange;">/concours créer item</mark> : faire gagner un item via un giveaway
-- <mark style="color:orange;">/dropitem</mark> : offrir un item à la personne qui appuiera sur le bouton en premier
+Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur avec des objets d'inventaire. Une fois achetés ou gagnés, vous pouvez faire :
+- <mark style="color:orange;">/item echanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de votre choix.
+- <mark style="color:orange;">/item donner</mark> ➜ Donner un de ses objets d'inventaire à la personne de votre choix.
+- <mark style="color:orange;">/item drop</mark> ➜ Offrir un de ses items à la personne qui appuiera sur le bouton en premier.
+- <mark style="color:orange;">/item vendre</mark> ➜ Vendre un de ses objets d'inventaire à la personne de son choix.
+- <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
+- <mark style="color:orange;">/dropitem</mark> ➜ Offrir un item à la personne qui appuiera sur le bouton en premier.
 
 {% hint style="info" %}
-**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.\
-*Exemple : "🍒 Cerises"*
+**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'ID de celui-ci en mettant un antislash (\\) devant celui-ci.
+*Exemple : "🍒 Cerises"* 
 {% endhint %}
 
 
