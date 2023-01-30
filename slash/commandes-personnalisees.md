@@ -4,7 +4,7 @@
 
 ### Depuis Discord
 
-Vous pouvez créer une commande personnalisée avec la commande <span style="color: #cd6e57"> /config </span>, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
+Vous pouvez créer une commande personnalisée avec la commande <span style="color: #cd6e57;"> /config </span>, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
 DraftBot vous demandera alors les informations suivantes :
 
 * Nom de la commande
@@ -16,10 +16,10 @@ DraftBot vous demandera alors les informations suivantes :
   * Ajouter ou retirer un ou des rôle(s)
   * Ajouter un rôle temporaire 
   * Faire un achat dans la boutique
-* Si vous souhaitez ou non que la commande soit affichée dans le <span style="color: #cd6e57"> /aide </span>
+* Si vous souhaitez ou non que la commande soit affichée dans le <span style="color: #cd6e57;"> /aide </span>
 
 {% hint style="info" %}
-Lorsque vous exécutez une commande personnalisée, votre texte de déclenchement de commande reste dans le salon. Si vous souhaitez que **DraftBot** supprime votre commande, vous pouvez activer l'option correspondante dans <span style="color: #cd6e57"> /config </span>, en vous rendant dans l'onglet "Commandes personnalisées" du sélecteur, puis en activant le bouton "Activer la suppression des commandes".
+Lorsque vous exécutez une commande personnalisée, votre texte de déclenchement de commande reste dans le salon. Si vous souhaitez que **DraftBot** supprime votre commande, vous pouvez activer l'option correspondante dans <span style="color: #cd6e57;"> /config </span>, en vous rendant dans l'onglet "Commandes personnalisées" du sélecteur, puis en activant le bouton "Activer la suppression des commandes".
 {% endhint %}
 
 ### Depuis le panel web

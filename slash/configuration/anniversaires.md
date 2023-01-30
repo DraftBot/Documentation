@@ -25,7 +25,7 @@ Cette page est en train d'être mise à jour...
 
 
 
-### <mark style="color: #cd6e57"></mark>:sparkles: <mark style="color: #cd6e57"></mark> <mark style="color:blue;">Messages personnalisés</mark>
+### <mark style="color: #cd6e57;"></mark>:sparkles: <mark style="color: #cd6e57;"></mark> <mark style="color:blue;">Messages personnalisés</mark>
 
 
 

@@ -15,7 +15,7 @@ Cette page est en train d'être mise à jour...
 
 ### Activer le système
 
-Vous pouvez activer le système de signalement avec la commande slash <mark style="color: #cd6e57">/config</mark>. Sélectionnez ensuite "Signalements".
+Vous pouvez activer le système de signalement avec la commande slash <mark style="color: #cd6e57;">/config</mark>. Sélectionnez ensuite "Signalements".
 
 Pour activer le système, il vous suffit d'appuyer sur le bouton "Activer le système". Le bouton passera alors en couleur verte. Si le bouton <mark style="color:green;">"Système activé"</mark> est déjà en couleur verte, cela indique que le système est déjà activé.
 
