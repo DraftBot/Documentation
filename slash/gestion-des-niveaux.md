@@ -30,15 +30,17 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 ### Modifier la couleur
 
 ### Annonces
-{% tabs %}
-{% tab title="Nouveau niveau" %}
 
+{% tabs %}
+{% tab title="First Tab" %}
+Texte
 {% endtab %}
 
-{% tab title="Récompense gagnée" %}
-
+{% tab title="Second Tab" %}
+Texte
 {% endtab %}
 {% endtabs %}
+
 
 
 ## Afficher les niveaux
