@@ -26,7 +26,7 @@ La boutique est l'endroit où vous pouvez acheter les articles qui composeront v
 Vous pouvez y acheter un rôle (temporaire ou non), de l'expérience, un objet d'inventaire et plein d'autres choses ! Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique. La différence est que la boutique se supprimera au bout de 30 secondes, ni vu ni connu !
+Le marché noir est une variante de la boutique. La différence est que la boutique se supprimera au bout de 60 secondes, ni vu ni connu !
 {% endhint %}
 
 ![Boutique de DraftBot](../.gitbook/assets/Boutique_slash.png)
@@ -43,7 +43,7 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 - <mark style="color:orange;">/dropitem</mark> ➜ Offrir un item à la personne qui appuiera sur le bouton en premier.
 
 {% hint style="info" %}
-**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'ID de celui-ci en mettant un antislash (\\) devant celui-ci.
+**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'identifiant de celui-ci en mettant un antislash (\\) devant celui-ci.
 *Exemple : "🍒 Cerises"*
 {% endhint %}
 
