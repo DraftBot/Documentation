@@ -14,7 +14,7 @@ DraftBot vous demandera alors les informations suivantes :
 * Type(s) d'action(s)&#x20;
   * Envoyer un message
   * Ajouter ou retirer un ou des rôle(s)
-  * Ajouter un rôle temporaire 
+  * Ajouter un rôle temporaire
   * Faire un achat dans la boutique
 * Si vous souhaitez ou non que la commande soit affichée dans le <span style="color: #cd6e57;"> /aide </span>
 
@@ -27,11 +27,11 @@ Lorsque vous exécutez une commande personnalisée, votre texte de déclenchemen
 Vous pouvez configurer les commandes personnalisées depuis le panel web : [draftbot.fr](https://draftbot.fr).\
 Il vous suffira de vous connecter en haut à droite puis de vous rendre dans la catégorie "Vos serveurs".
 
-![](<./../.gitbook/assets/Commandes personnalisées_accueil site.png>)
+![](<../.gitbook/assets/custom-commands/home.png>)
 
 Ensuite, choisissez un de vos serveurs sur le côté gauche puis sélectionnez "**Commandes personnalisées**".
 
-![](<./../.gitbook/assets/Commandes personnalisées\_commandes personnalisées.png>)
+![](<../.gitbook/assets/custom-commands/view.png>)
 
 Pour créer une commande, remplissez les divers champs (nom, description, actions, etc.) puis cliquez sur le bouton "**Créer**" en bas à droite de votre commande personnalisée.
 
@@ -40,7 +40,7 @@ Besoin de modifier ou de supprimer la commande ? \
 Pas de problème ! Cliquez sur Modifier ou Supprimer sur le côté droit.
 {% endhint %}
 
-![](<./../.gitbook/assets/Commandes personnalisées\_modifier une commande.png>)
+![](<../.gitbook/assets/custom-commands/edit-command.png>)
 
 ## Arguments
 
