@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Rôles automatiques.png" alt=""><figcaption><p>Menu d'accueil de la configuration des Rôles automatiques</p></figcaption></figure>
+![Menu d'accueil de la configuration des Rôles automatiques](<../../.gitbook/assets/autorole/view.png>)
 
 ## <mark style="color:blue;">A l'arrivée</mark>
 

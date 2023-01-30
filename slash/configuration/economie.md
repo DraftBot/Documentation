@@ -11,7 +11,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Economie.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/economy/view.png>)
 
 ### <mark style="color:blue;">Configuration de l'économie</mark>
 

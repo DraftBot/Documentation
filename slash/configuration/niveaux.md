@@ -11,7 +11,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Niveaux.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/levels/view.png>)
 
 ### <mark style="color:blue;">Configuration des niveaux</mark>
 
