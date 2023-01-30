@@ -11,7 +11,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Signalements.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/report/view.png>)
 
 ### Activer le système
 

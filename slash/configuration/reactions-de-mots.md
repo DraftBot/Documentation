@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Réactions de mots.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/wordreact/view.png>)
 
 ### Activer le système
 

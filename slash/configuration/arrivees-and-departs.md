@@ -6,7 +6,7 @@ description: >-
 
 # 👋 Arrivées & départs
 
-<figure><img src="../../.gitbook/assets/Arrivées &#x26; départs.png" alt=""><figcaption><p>Menu d'accueil de la configuration des arrivées &#x26; départs</p></figcaption></figure>
+![Menu d'accueil de la configuration des arrivées & départs](<../../.gitbook/assets/welcome/view.png>)
 
 ## <mark style="color:blue;">Messages de bienvenue</mark>
 

@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Captcha.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/captcha/view.png>)
 
 ### Activer le système
 
