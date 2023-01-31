@@ -82,12 +82,52 @@ Texte 2
 {% endtabs %}
 {% endtab %}
 
-{% tab title="Récompense gagnée" %}
-Texte
+
+{% tab title="Récompenses de niveaux" %}
+{% tabs %}
+{% tab title="Via les commandes sur Discord" %}
+Texte 1
+{% endtab %}
+
+{% tab title="Via le panel" %}
+Texte 2
+{% endtab %}
+{% endtabs %}
 {% endtab %}
 {% endtabs %}
 
+<details>
 
+<summary>Nouveau niveau</summary>
+
+{% tabs %}
+{% tab title="Nouveau niveau" %}
+{% tabs %}
+{% tab title="Via les commandes sur Discord" %}
+Texte 1
+{% endtab %}
+
+{% tab title="Via le panel" %}
+Texte 2
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+
+{% tab title="Récompenses de niveaux" %}
+{% tabs %}
+{% tab title="Via les commandes sur Discord" %}
+Texte 1
+{% endtab %}
+
+{% tab title="Via le panel" %}
+Texte 2
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+{% endtabs %}
+
+</details>
 
 ## Afficher les niveaux
 
