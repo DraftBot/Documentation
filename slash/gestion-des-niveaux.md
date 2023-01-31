@@ -15,7 +15,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 - L'annonce d'un nouveau niveau
 - L'annonce d'une récompense gagnée -->
 
-### Système de niveaux
+* ### Système de niveaux
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
 * *Activer le système* : permet d'activer ou désactiver le système
@@ -59,7 +59,7 @@ Malgré toute la configuration via les slash commandes ou le panel, d'autres com
 * *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : permet de réinitialiser l'xp et les niveaux de tous les membres du serveur
 * *<mark style="color:orange;">/adminxp retirer</mark>* : permet de retirer de l'xp ou des niveaux à un membre
 
-### Les récompenses de niveau
+* ### Les récompenses de niveau
 #### Créer une récompense
 
 #### Supprimer une récompense
@@ -68,66 +68,28 @@ Malgré toute la configuration via les slash commandes ou le panel, d'autres com
 #### Afficher les récompenses 
 
 
-### Annonces
-{% tabs %}
-{% tab title="Nouveau niveau" %}
-{% tabs %}
-{% tab title="Via les commandes sur Discord" %}
-Texte 1
-{% endtab %}
-
-{% tab title="Via le panel" %}
-Texte 2
-{% endtab %}
-{% endtabs %}
-{% endtab %}
-
-
-{% tab title="Récompenses de niveaux" %}
+* ### Annonces
+#### Nouveau niveau
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
 Texte 1
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Texte 2
+Texte b
 {% endtab %}
 {% endtabs %}
-{% endtab %}
-{% endtabs %}
 
-<details>
-
-<summary>Nouveau niveau</summary>
-
-{% tabs %}
-{% tab title="Nouveau niveau" %}
+#### Récompense gagnée
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
-Texte 1
+Texte 2
 {% endtab %}
 
 {% tab title="Via le panel" %}
 Texte 2
 {% endtab %}
 {% endtabs %}
-{% endtab %}
-
-
-{% tab title="Récompenses de niveaux" %}
-{% tabs %}
-{% tab title="Via les commandes sur Discord" %}
-Texte 1
-{% endtab %}
-
-{% tab title="Via le panel" %}
-Texte 2
-{% endtab %}
-{% endtabs %}
-{% endtab %}
-{% endtabs %}
-
-</details>
 
 ## Afficher les niveaux
 
