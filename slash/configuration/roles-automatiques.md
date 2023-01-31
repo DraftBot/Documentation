@@ -6,20 +6,54 @@ description: >-
 
 # 🏷 Rôles automatiques
 
-{% hint style="danger" %}
-Cette page est en train d'être mise à jour...
-{% endhint %}
-
 ![Menu d'accueil de la configuration des Rôles automatiques](<../../.gitbook/assets/autorole/view.png>)
 
 ## <mark style="color:blue;">A l'arrivée</mark>
 
 #### Ajouter ou retirer un rôle attribuer à l'arrivée
 
-Pour ajouter un rôle à l'arrivée d'un membre vous pouvez cliquer sur "Ajouter"
+Après avoir cliqué sur le bouton "À l'arrivée".
+
+Pour ajouter un rôle automatique à l'arrivée d'un membre vous pouvez cliquer sur "Ajouter".
+Pour retirer un rôle automatique à l'arrivée d'un membre vous pouvez cliquer sur "Retirer".
+Si vous souhaitez par contre retirer **tous** les rôles automatiques à l'arrivée, cliquer sur "Réinitialiser".
+
+{% hint style="info" %}
+**Info hints** Si vous n'êtes pas pas premium, vous pouvez ajouter un maximum de 3 rôles.
+{% endhint %}
+
+![Menu d'accueil de la configuration des Rôles automatiques à l'arrivée](../../.gitbook/assets/Role_a_l'arrivee.png)
 
 ## <mark style="color:blue;">En vocal</mark>
 
+#### Ajouter ou retirer un rôle attribuer lorsqu'un membre est en vocal
 
+Après avoir cliqué sur le bouton "En vocal".
+
+Pour ajouter un rôle automatique en vocal d'un membre vous pouvez cliquer sur "Configurer".
+*Vous avez la possibilité de sélectionner un rôle déjà existant ou d'en créer un directement.*
+
+Pour retirer un rôle automatique à l'arrivée d'un membre vous pouvez cliquer sur "Modifier".
+*Vous avez la possibilitée de supprimer le rôle du serveur une fois le système désactivé.
+
+#### Restreindre des salons aux membres en vocal
+
+Pour restreindre des salons aux membres en vocal, cliquer sur "Restreindre des salons aux membres en vocal" puis sélectionné le salon que uniquement les membres possédants ce rôle verront.
+
+![Menu d'accueil de la configuration des Rôles automatiques en vocal](../../.gitbook/assets/Role_en_vocal.png)
 
 ## <mark style="color:blue;">En live</mark>
+
+Après avoir cliqué sur le bouton "En live".
+
+Pour ajouter un rôle automatique en vocal d'un membre vous pouvez cliquer sur "Configurer".
+*Vous avez la possibilité de sélectionner un rôle déjà existant ou d'en créer un directement.*
+
+#### Restreindre ce rôle à uniquement certains utilisateurs
+
+Pour Restreindre ce rôle à certains rôles, cliquer sur le bouton "Restreindre le rôle" puis choisis un rôle.
+
+Si vous souhaitez cependant les retirer, cliquer de nouveau sur "Restreindre le rôle" puis "retirer".
+*Vous pouvez aussi les réinitialiser.*
+
+![Menu d'accueil de la configuration des Rôles automatiques en live](../../.gitbook/assets/R%C3%B4le_en_Live.png)
