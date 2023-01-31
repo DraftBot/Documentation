@@ -22,7 +22,7 @@ Si vous souhaitez par contre retirer **tous** les rôles automatiques à l'arriv
 Si vous n'êtes pas pas premium, vous pouvez ajouter un maximum de 3 rôles.
 {% endhint %}
 
-![Menu d'accueil de la configuration des Rôles automatiques à l'arrivée](../../.gitbook/assets/Role_a_l'arrivee.png)
+![Menu d'accueil de la configuration des Rôles automatiques à l'arrivée](../../.gitbook/assets/autorole/join.png)
 
 ## <mark style="color:blue;">En vocal</mark>
 
@@ -40,7 +40,7 @@ Pour retirer un rôle automatique à l'arrivée d'un membre vous pouvez cliquer 
 
 Pour restreindre des salons aux membres en vocal, cliquer sur "Restreindre des salons aux membres en vocal" puis sélectionné le salon que uniquement les membres possédants ce rôle verront.
 
-![Menu d'accueil de la configuration des Rôles automatiques en vocal](../../.gitbook/assets/Role_en_vocal.png)
+![Menu d'accueil de la configuration des Rôles automatiques en vocal](../../.gitbook/assets/autorole/voice.png)
 
 ## <mark style="color:blue;">En live</mark>
 
@@ -58,4 +58,4 @@ Vous pouvez également limiter ce rôle à certaines personnes en possédant un 
 Si vous souhaitez cependant les retirer, cliquer de nouveau sur "Restreindre le rôle" puis "retirer".
 *Vous pouvez aussi les réinitialiser.*
 
-[Menu d'accueil de la configuration des Rôles automatiques en live](roles-automatiques.md)
+[Menu d'accueil de la configuration des Rôles automatiques en live](../../.gitbook/assets/autorole/live.png)
