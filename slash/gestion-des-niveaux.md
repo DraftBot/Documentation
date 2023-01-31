@@ -6,7 +6,7 @@ description: >-
 
 
 ## Configuration
-Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <span style="color: #cd6e57">/config</span>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
+Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer...
 <!-- 
@@ -15,7 +15,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 - L'annonce d'un nouveau niveau
 - L'annonce d'une récompense gagnée -->
 
-* ### Système de niveaux
+### Système de niveaux
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
 * *Activer le système* : permet d'activer ou désactiver le système
@@ -52,23 +52,37 @@ Pour configurer le système de niveau, accédez au panel via le lien ci-dessus e
 {% endtab %}
 {% endtabs %}
 
+#### Autres commandes de configuration
+Malgré toute la configuration via les slash commandes ou le panel, d'autres commandes sont également disponibles :
+* *<mark style="color:orange;">/adminxp définir</mark>* : permet de définir le nombre d'xp ou de niveaux d'un membre
+* *<mark style="color:orange;">/adminxp ajouter</mark>* : permet d'ajouter de l'xp ou des niveaux à un membre
+* *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : permet de réinitialiser l'xp et les niveaux de tous les membres du serveur
+* *<mark style="color:orange;">/adminxp retirer</mark>* : permet de retirer de l'xp ou des niveaux à un membre
 
-### Multiplier le gain d'un rôle
+### Les récompenses de niveau
+#### Créer une récompense
 
-### Ignorer un salon ou un rôle
+#### Supprimer une récompense
+> *Ajouter avec ici : Supprimer toutes les récompenses*
 
-### Réinitialiser la configuration
+#### Afficher les récompenses 
 
-### Modifier la couleur
 
 ### Annonces
-
 {% tabs %}
-{% tab title="First Tab" %}
-Texte
+{% tab title="Nouveau niveau" %}
+{% tabs %}
+{% tab title="Via les commandes sur Discord" %}
+Texte 1
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Via le panel" %}
+Texte 2
+{% endtab %}
+{% endtabs %}
+{% endtab %}
+
+{% tab title="Récompense gagnée" %}
 Texte
 {% endtab %}
 {% endtabs %}
@@ -77,17 +91,16 @@ Texte
 
 ## Afficher les niveaux
 
-### La carte d'un membre
+### Niveau
+Vous pouvez voir votre niveau ainsi que celui des autres membres en indiquant leur pseudo sous "membre" avec <mark style="color:orange;">/niveau \[membre]</mark>.
+
+{% hint style="info" %}
+Afin d'obtenir de l'xp et ainsi gagner en niveaux, il faut que le système de niveaux soit activé sur le serveur.
+{% endhint %}
+
+![Carte de niveau](../.gitbook/assets/niveau.png)
 
 ### Le classement du serveur
+Grâce à la commande <mark style="color:orange;">/topniveau</mark> vous avez accès au classement des niveaux du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot** ("Voir l'ensemble du classement").
 
-
----
-## Récompenses
-
-### Créer une récompense
-
-### Supprimer une récompense
-> *Ajouter avec ici : Supprimer toutes les récompenses*
-
-### Afficher les récompenses 
+![Classement des niveaux des membres du serveur](../.gitbook/assets/topniveau.png)
