@@ -43,7 +43,7 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 - <mark style="color:orange;">/dropitem</mark> ➜ Offrir un item à la personne qui appuiera sur le bouton en premier.
 
 {% hint style="info" %}
-**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'identifiant de celui-ci en mettant un antislash (\\) devant celui-ci.
+**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji) de celui-ci en mettant un antislash (\\) devant celui-ci.
 *Exemple : "🍒 Cerises"*
 {% endhint %}
 
