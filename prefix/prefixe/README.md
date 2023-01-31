@@ -26,7 +26,7 @@ Si vous souhaitez rétablir le préfixe par défaut (!), vous pouvez aussi faire
 Vous avez aussi la possibilité de supprimer le préfixe de **DraftBot** sur votre serveur. Pour exécuter une commande, vous devrez faire `@DraftBot#0535 commande`\
 Si vous souhaitez laisser uniquement la mention de **DraftBot** pour faire une commande, vous pouvez utiliser la commande `prefix none` ou `@DraftBot#0535 prefix none`
 
-## <mark style="color:purple;">Les Slash commandes</mark>
+## Les Slash commandes
 
 {% hint style="danger" %}
 <mark style="color:red;">**L**</mark>[<mark style="color:red;">**es**</mark>** commandes Slash **<mark style="color:red;">**sont disponibles et remplaceront bientôt les commandes à préfixe. Nous vous invitons fortement à vous familiariser avec ces nouveaux fonctionnements.**</mark>](../../slash/configuration/)<mark style="color:red;">****</mark>

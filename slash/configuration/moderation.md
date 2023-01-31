@@ -11,7 +11,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Modération.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/moderation/view.png>)
 
 ### <mark style="color:blue;">Auto-Modération</mark>
 

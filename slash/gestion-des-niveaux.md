@@ -9,7 +9,7 @@ description: >-
 Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer...
-<!-- 
+<!--
 - Le système de niveaux
 - Les récompenses de niveau
 - L'annonce d'un nouveau niveau
@@ -69,7 +69,7 @@ La commande *<mark style="color:orange;">/adminxp réinitialiser server</mark>* 
 #### Supprimer une récompense
 > *Ajouter avec ici : Supprimer toutes les récompenses*
 
-#### Afficher les récompenses 
+#### Afficher les récompenses
 
 
 * ### Annonces

@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Compteur de membres.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/membercount/view.png>)
 
 ### <mark style="color:red;">Désactiver le compteur</mark>
 

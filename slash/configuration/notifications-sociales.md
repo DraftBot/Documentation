@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Notifications sociales.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/socialnotifs/view.png>)
 
 ### YouTube
 

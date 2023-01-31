@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Tickets.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/tickets/view.png>)
 
 ### Catégorie
 

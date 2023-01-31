@@ -11,7 +11,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Salons vocaux temporaires.png" alt=""><figcaption></figcaption></figure>
+![](<../../.gitbook/assets/privateroom/view.png>)
 
 ### <mark style="color:blue;">Créer un hub</mark>
 
