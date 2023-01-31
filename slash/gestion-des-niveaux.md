@@ -59,6 +59,10 @@ Malgré toute la configuration via les slash commandes ou le panel, d'autres com
 * *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : permet de réinitialiser l'xp et les niveaux de tous les membres du serveur
 * *<mark style="color:orange;">/adminxp retirer</mark>* : permet de retirer de l'xp ou des niveaux à un membre
 
+{% hint style="warning" %}
+La commande *<mark style="color:orange;">/adminxp réinitialiser server</mark>* est irréversible : aucun moyen de revenir en arrière si vous vous trompez de membre.
+{% endhint %}
+
 * ### Les récompenses de niveau
 #### Créer une récompense
 
