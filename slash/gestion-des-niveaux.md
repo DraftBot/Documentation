@@ -9,31 +9,26 @@ description: >-
 Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
 
 Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer...
-<!--
-- Le système de niveaux
-- Les récompenses de niveau
-- L'annonce d'un nouveau niveau
-- L'annonce d'une récompense gagnée -->
 
 * ### Système de niveaux
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
-* *Activer le système* : permet d'activer ou désactiver le système
-* *Activer l'xp en vocal* : une fois activé, les membres pourront gagnés de l'xp en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(premium)***
-* *Niveau maximum* : permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint ***(premium)***
-* *Couleur* : paramétrer une couleur pour tout le système d'économie ***(premium)***
-* *Ratio d'xp* : définir le nombre d'xp gagné par message
-* *Rôles / Salons sans gain d'xp* : permet de ne pas donner d'xp à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon
-* *Rôles / Salons boosters* : permet de donner plus d'xp à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon
-* *Activer le reset des niveaux lors du départ* : une fois activé, les membres perdront tout leur xp s'ils quittent le serveur
-* *Activer les longs messages comptent double xp* : une fois activé, les longs messages gagneront plus d'xp qu'à la normale
-* *Activer le gain d'xp dans les threads* : permet de gagner ou non de l'xp dans les threads du serveur.
+* ***Activer le système*** ⇒ permet d'activer ou désactiver le système
+* ***Activer l'xp en vocal*** ⇒ une fois activé, les membres pourront gagnés de l'xp en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(premium)***
+* ***Niveau maximum*** ⇒ permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint ***(premium)***
+* ***Couleur*** ⇒ paramétrer une couleur pour tout le système d'économie ***(premium)***
+* ***Ratio d'xp*** ⇒ définir le nombre d'xp gagné par message
+* ***Rôles / Salons sans gain d'xp*** ⇒ permet de ne pas donner d'xp à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon
+* ***Rôles / Salons boosters*** ⇒ permet de donner plus d'xp à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon
+* ***Activer le reset des niveaux lors du départ*** ⇒ une fois activé, les membres perdront tout leur xp s'ils quittent le serveur
+* ***Activer les longs messages comptent double xp*** ⇒ une fois activé, les longs messages gagneront plus d'xp qu'à la normale
+* ***Activer le gain d'xp dans les threads*** ⇒ permet de gagner ou non de l'xp dans les threads du serveur.
 
 {% hint style="warning" %}
 Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'xp que pour les messages ayant été envoyés 30 secondes après le message précédent du membre.
 {% endhint %}
 
-![Message de configuration des niveaux](../.gitbook/assets/levels/view_levels.png)
+![Message de configuration des niveaux](../.gitbook/assets/config_niveaux_syst%C3%A8me%20de%20niveaux.png)
 
 {% endtab %}
 
@@ -47,7 +42,7 @@ Sur le panel, vous avez les mêmes possibilités de configuration que les slash 
 
 Pour configurer le système de niveau, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Niveaux" sur le serveur de votre choix.
 
-![Panel de configuration des niveaux](../.gitbook/assets/levels/dashboard.png)
+![Panel de configuration des niveaux](../.gitbook/assets/config_niveaux_syst%C3%A8me%20de%20niveaux_panel.png)
 
 {% endtab %}
 {% endtabs %}
@@ -60,7 +55,7 @@ Malgré toute la configuration via les slash commandes ou le panel, d'autres com
 * *<mark style="color:orange;">/adminxp retirer</mark>* : permet de retirer de l'xp ou des niveaux à un membre
 
 {% hint style="warning" %}
-La commande *<mark style="color:orange;">/adminxp réinitialiser server</mark>* est irréversible : aucun moyen de revenir en arrière si vous vous trompez de membre.
+La commande *<mark style="color:orange;">/adminxp réinitialiser server</mark>* est irréversible : impossible d'annuler l'action et de redonner l'xp à tous les membres du serveur.
 {% endhint %}
 
 * ### Les récompenses de niveau
@@ -69,7 +64,7 @@ La commande *<mark style="color:orange;">/adminxp réinitialiser server</mark>* 
 #### Supprimer une récompense
 > *Ajouter avec ici : Supprimer toutes les récompenses*
 
-#### Afficher les récompenses
+#### Afficher les récompenses 
 
 
 * ### Annonces
