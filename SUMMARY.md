@@ -67,5 +67,4 @@
 
 * [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
 * [Équipe](https://www.draftbot.fr/equipe)
-* [Mises à jour](autres/changelog.md)
 * [Contact](autres/contact.md)
