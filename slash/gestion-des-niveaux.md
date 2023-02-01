@@ -28,7 +28,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'xp que pour les messages ayant été envoyés 30 secondes après le message précédent du membre.
 {% endhint %}
 
-![Message de configuration des niveaux](../.gitbook/assets/config_niveaux_syst%C3%A8me%20de%20niveaux.png)
+![Message de configuration des niveaux](../.gitbook/assets/levels/view_levels.png)
 
 {% endtab %}
 
@@ -42,7 +42,7 @@ Sur le panel, vous avez les mêmes possibilités de configuration que les slash 
 
 Pour configurer le système de niveau, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Niveaux" sur le serveur de votre choix.
 
-![Panel de configuration des niveaux](../.gitbook/assets/config_niveaux_syst%C3%A8me%20de%20niveaux_panel.png)
+![Panel de configuration des niveaux](../.gitbook/assets/levels/dashboard.png)
 
 {% endtab %}
 {% endtabs %}
