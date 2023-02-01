@@ -12,7 +12,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 
 * ### Système de niveaux
 {% tabs %}
-{% tab title="Via la commande <mark style="color:orange;">/config</mark>" %}
+{% tab title="Via la commande `/config`" %}
 * ***Activer le système*** ⇒ permet d'activer ou désactiver le système
 * ***Activer l'xp en vocal*** ⇒ une fois activé, les membres pourront gagnés de l'xp en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(premium)***
 * ***Niveau maximum*** ⇒ permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint ***(premium)***
