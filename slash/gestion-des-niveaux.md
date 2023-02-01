@@ -8,7 +8,13 @@ description: >-
 ## Configuration
 Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
 
-Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer...
+Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configurer :
+* Le système de niveaux
+* Les récompenses de niveau
+* Les annonces d'un nouveau niveau
+* Les annonces d'une récompense gagnée
+
+*Retrouvez le détail de configuration de chacun de ces boutons ci-dessous.*
 
 * ### Système de niveaux
 {% tabs %}
@@ -100,23 +106,65 @@ Pour afficher les récompenses sur votre serveur, vous pouvez faire la commande 
 * ### Annonces
 #### Nouveau niveau
 {% tabs %}
-{% tab title="Via les commandes sur Discord" %}
-Texte 1
+{% tab title="Via la commande /config" %}
+Pour créer une annonce de nouveau niveau, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Annonce d'un nouveau niveau".
+
+Vous avez ensuite la possibilité de :
+* ***Activer les annonces*** ⇒ activer le système d'annonce des nouveaux niveaux
+* ***Salon*** ⇒ choisir le salon dans lequel les annonces de nouveau niveau seront envoyées
+* ***Message personnalisé*** ⇒ changer le message par défaut envoyé lors d'un passage de niveau
+
+![Configuration annonce de nouveau niveau](../.gitbook/assets/levels/announcement_config_new%20level.png)
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Texte b
+{% embed url="https://draftbot.fr/dashboard" %}
+Accéder au panel de DraftBot
+{% endembed %}
+
+Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
+
+Par défaut, le système est désactivé alors il faut l'activer en choisissant le mode d'envoi dans "Annonce d'un nouveau niveau".
+
+Vous avez alors la possibilité de configurer le message d'annonce et le salon (où le niveau est passé ou dans un salon personnalisé).
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
+![Panel de configuration des annonces de nouveau niveau](../.gitbook/assets/levels/dashboard_announcement_config_new%20level_.png)
+
 {% endtab %}
 {% endtabs %}
 
 #### Récompense gagnée
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
-Texte 2
+Pour créer une annonce de nouveau niveau, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Annonce d'une récompense".
+
+Vous avez ensuite la possibilité de :
+* ***Activer les annonces*** ⇒ activer le système d'annonce de récompenses gagnées
+* ***Salon*** ⇒ choisir le salon dans lequel les annonces de récompenses gagnées seront envoyées
+* ***Message personnalisé*** ⇒ changer le message par défaut envoyé lors d'une récompense gagnée
+
+![Configuration annonce d'une récompense gagnée](../.gitbook/assets/levels/announcement_config_new%20reward.png)
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Texte 2
+{% embed url="https://draftbot.fr/dashboard" %}
+Accéder au panel de DraftBot
+{% endembed %}
+
+Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous dans la page "Niveaux".
+
+Par défaut, le système est désactivé alors il faut l'activer en choisissant le mode d'envoi dans "Annonce d'une récompense gagnée".
+
+Vous avez alors la possibilité de configurer le message d'annonce et le salon (où la récompense est gagnée ou dans un salon personnalisé).
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
+![Panel de configuration des annonces de récompenses gagnées](../.gitbook/assets/levels/dashboard_announcement_config_new%20reward.png)
+
 {% endtab %}
 {% endtabs %}
 
