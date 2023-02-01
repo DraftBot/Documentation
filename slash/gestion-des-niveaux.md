@@ -41,7 +41,7 @@ Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'xp que pour
 {% tab title="Via le panel" %}
 
 {% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de DraftBot
+Accéder au panel de **DraftBot**
 {% endembed %}
 
 Sur le panel, vous avez les mêmes possibilités de configuration que les slash commandes mais vous avez ici tout sur la même page.
@@ -86,10 +86,10 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 
 {% tab title="Via le panel" %}
 {% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de DraftBot
+Accéder au panel de **DraftBot**
 {% endembed %}
 
-Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
+Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
 Pour créer une récompense, appuyez sur le bouton "Créer une récompense" sur la droite de la page. Une pop-up s'ouvrira et vous proposera des champs à compléter en fonction de la récompense voulue : type de récompense à donner, niveau requis...
 
@@ -120,10 +120,10 @@ Vous avez ensuite la possibilité de :
 
 {% tab title="Via le panel" %}
 {% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de DraftBot
+Accéder au panel de **DraftBot**
 {% endembed %}
 
-Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
+Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
 Par défaut, le système est désactivé alors il faut l'activer en choisissant le mode d'envoi dans "Annonce d'un nouveau niveau".
 
@@ -152,10 +152,10 @@ Vous avez ensuite la possibilité de :
 
 {% tab title="Via le panel" %}
 {% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de DraftBot
+Accéder au panel de **DraftBot**
 {% endembed %}
 
-Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous dans la page "Niveaux".
+Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous dans la page "Niveaux".
 
 Par défaut, le système est désactivé alors il faut l'activer en choisissant le mode d'envoi dans "Annonce d'une récompense gagnée".
 
