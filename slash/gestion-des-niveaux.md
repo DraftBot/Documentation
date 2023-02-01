@@ -12,7 +12,7 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 
 * ### Système de niveaux
 {% tabs %}
-{% tab title="Via la commande `/config`" %}
+{% tab title="Via la commande /config" %}
 * ***Activer le système*** ⇒ permet d'activer ou désactiver le système
 * ***Activer l'xp en vocal*** ⇒ une fois activé, les membres pourront gagnés de l'xp en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(premium)***
 * ***Niveau maximum*** ⇒ permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint ***(premium)***
@@ -42,6 +42,8 @@ Sur le panel, vous avez les mêmes possibilités de configuration que les slash 
 
 Pour configurer le système de niveau, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Niveaux" sur le serveur de votre choix.
 
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
 ![Panel de configuration des niveaux](../.gitbook/assets/levels/dashboard.png)
 
 {% endtab %}
@@ -59,13 +61,40 @@ La commande *<mark style="color:orange;">/adminxp réinitialiser server</mark>* 
 {% endhint %}
 
 * ### Les récompenses de niveau
-#### Créer une récompense
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Pour créer une récompense, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Récompenses de niveaux". 
 
-#### Supprimer une récompense
-> *Ajouter avec ici : Supprimer toutes les récompenses*
+Une fois fait, vous aurez accès au menu de création de récompenses :
+* ***Créer*** ⇒ créer une nouvelle récompense
+* ***Modifier*** ⇒ modifier une récompense existante
+* ***Supprimer*** ⇒ supprimer une récompense existante
+* ***Réinitialiser*** ⇒ supprimer toutes les récompenses du serveur.
+{% hint style="warning" %}
+Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer les récompenses du serveur.
+{% endhint %}
+
+![Configuration des récompenses via /config](../.gitbook/assets/levels/view_rewards.png)
+{% endtab %}
+
+{% tab title="Via le panel" %}
+{% embed url="https://draftbot.fr/dashboard" %}
+Accéder au panel de DraftBot
+{% endembed %}
+
+Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
+
+Pour créer une récompense, appuyez sur le bouton "Créer une récompense" à droite de la page. Une pop-up s'ouvrira et vous proposera des champs à compléter en fonction de la récompense voulue : type de récompense à donner, niveau requis...
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
+![Panel de configuration des récompenses](../.gitbook/assets/levels/dashboard_rewards.png)
+
+{% endtab %}
+{% endtabs %}
 
 #### Afficher les récompenses 
-
+Pour afficher les récompenses sur votre serveur, vous pouvez faire la commande <mark style="color:orange;">/recompenses</mark>.
 
 * ### Annonces
 #### Nouveau niveau
