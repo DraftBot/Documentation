@@ -75,6 +75,7 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 {% endhint %}
 
 ![Configuration des récompenses via /config](../.gitbook/assets/levels/view_rewards.png)
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
