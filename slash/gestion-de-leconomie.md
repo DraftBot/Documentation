@@ -1,6 +1,6 @@
 ---
 description: >-
-  Envie d'égayer un peu la vie sur votre serveur ? Alors activez le système d'économie et laissez-vous guider par DraftBot !
+  Envie d'égayer davantage la vie sur votre serveur ? Alors activez le système d'économie et laissez-vous guider par DraftBot !
 ---
 
 # Gestion de l'économie
@@ -26,7 +26,7 @@ La boutique est l'endroit où vous pouvez acheter les articles qui composeront v
 Vous pouvez y acheter un rôle (temporaire ou non), de l'expérience, un objet d'inventaire et plein d'autres choses ! Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique. La différence est que la boutique se supprimera au bout de 60 secondes, ni vu ni connu !
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
 {% endhint %}
 
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
@@ -34,16 +34,16 @@ Le marché noir est une variante de la boutique. La différence est que la bouti
 
 ### Objets d'inventaire
 
-Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur avec des objets d'inventaire. Une fois achetés ou gagnés, vous pouvez faire :
-- <mark style="color:orange;">/item echanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de votre choix.
-- <mark style="color:orange;">/item donner</mark> ➜ Donner un de ses objets d'inventaire à la personne de votre choix.
+Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur avec des objets d'inventaire. Une fois achetés ou gagnés, vous pouvez effectuer les commandes :
+- <mark style="color:orange;">/item échanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de son choix.
+- <mark style="color:orange;">/item donner</mark> ➜ Donner un de ses objets d'inventaire à la personne de son choix.
 - <mark style="color:orange;">/item drop</mark> ➜ Offrir un de ses items à la personne qui appuiera sur le bouton en premier.
 - <mark style="color:orange;">/item vendre</mark> ➜ Vendre un de ses objets d'inventaire à la personne de son choix.
 - <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
-- <mark style="color:orange;">/dropitem</mark> ➜ Offrir un item à la personne qui appuiera sur le bouton en premier.
+- <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
 
 {% hint style="info" %}
-**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji) de celui-ci en mettant un antislash (\\) devant celui-ci.
+**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'<mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> de celui-ci en mettant un antislash (\\) devant celui-ci.
 *Exemple : "🍒 Cerises"*
 {% endhint %}
 
