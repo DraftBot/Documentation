@@ -56,7 +56,7 @@ Pour configurer le système de niveau, accédez au panel via le lien ci-dessus e
 {% endtabs %}
 
 #### Autres commandes de configuration
-Malgré toute la configuration via les slash commandes ou le panel, d'autres commandes sont également disponibles :
+Malgré toute la configuration via la commande <mark style="color:orange;">/config</mark> ou le panel, d'autres commandes sont également disponibles :
 * *<mark style="color:orange;">/adminxp définir</mark>* : permet de définir le nombre d'xp ou de niveaux d'un membre
 * *<mark style="color:orange;">/adminxp ajouter</mark>* : permet d'ajouter de l'xp ou des niveaux à un membre
 * *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : permet de réinitialiser l'xp et les niveaux de tous les membres du serveur
@@ -91,7 +91,7 @@ Accéder au panel de DraftBot
 
 Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
-Pour créer une récompense, appuyez sur le bouton "Créer une récompense" à droite de la page. Une pop-up s'ouvrira et vous proposera des champs à compléter en fonction de la récompense voulue : type de récompense à donner, niveau requis...
+Pour créer une récompense, appuyez sur le bouton "Créer une récompense" sur la droite de la page. Une pop-up s'ouvrira et vous proposera des champs à compléter en fonction de la récompense voulue : type de récompense à donner, niveau requis...
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
@@ -173,11 +173,11 @@ Vous avez alors la possibilité de configurer le message d'annonce et le salon (
 ### Niveau
 Vous pouvez voir votre niveau ainsi que celui des autres membres en indiquant leur pseudo sous "membre" avec <mark style="color:orange;">/niveau \[membre]</mark>.
 
+![Carte de niveau](../.gitbook/assets/niveau.png)
+
 {% hint style="info" %}
 Afin d'obtenir de l'xp et ainsi gagner en niveaux, il faut que le système de niveaux soit activé sur le serveur.
 {% endhint %}
-
-![Carte de niveau](../.gitbook/assets/niveau.png)
 
 ### Le classement du serveur
 Grâce à la commande <mark style="color:orange;">/topniveau</mark> vous avez accès au classement des niveaux du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot** ("Voir l'ensemble du classement").
