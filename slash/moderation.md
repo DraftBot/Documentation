@@ -9,8 +9,10 @@ description: >-
 ## Note
 
 Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>\
-Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.\
+Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
+
 ![Note donnée à un membre](../.gitbook/assets/moderation/note.png)
+
 Vous pourrez retirer une note à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
@@ -20,8 +22,10 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 ## Avertissement
 
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
-Le membre recevra un message privé avec le motif de son avertissement.\
+Le membre recevra un message privé avec le motif de son avertissement.
+
 ![Avertissement donné à un membre](../.gitbook/assets/moderation/avertir.png)
+
 Vous pourrez retirer un avertissement à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
@@ -30,8 +34,10 @@ Vous pourrez retirer un avertissement à un membre avec la commande <mark style=
 
 ## Mute
 
-Vous pouvez rendre muet un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>. La durée d'un mute ne peut pas dépasser 28 jours.\
+Vous pouvez rendre muet un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>. La durée d'un mute ne peut pas dépasser 28 jours.
+
 ![Rendre muet un membre](../.gitbook/assets/moderation/mute.png)
+
 Vous pourrez, si vous le souhaitez, retirer le mute du membre avec la commande <mark style="color:orange;">/demute \[membre]</mark>.
 
 {% hint style="warning" %}
@@ -42,8 +48,9 @@ Vous pourrez, si vous le souhaitez, retirer le mute du membre avec la commande <
 
 ## Exclusion
 
-Le fait d'exclure un membre fera quitter le membre du serveur mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le [bannissement](moderation.md#bannissement).\
+Le fait d'exclure un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le [bannissement](moderation.md#bannissement).\
 Vous pouvez exclure un membre de votre serveur avec la commande <mark style="color:orange;">/expulser \[membre] \[raison]</mark>.
+
 ![Exclusion d'un membre](../.gitbook/assets/moderation/expulser.png)
 
 {% hint style="warning" %}
@@ -53,12 +60,13 @@ Vous pouvez exclure un membre de votre serveur avec la commande <mark style="col
 ## Bannissement
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'[expulsion](moderation.md#exclusion). \
-Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>. Deux options s'offrent alors à vous en plus :
+En plus de pouvoir bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>, deux options s'offrent à vous :
 
 * <mark style="color:orange;">\[temps]</mark> pour définir un temps de bannissement
 * <mark style="color:orange;">\[messages\_supprimés]</mark> pour savoir depuis combien de temps les messages du membre doivent être supprimés (maximum 7 jours).
 
 ![Bannissement d'un utilisateur](../.gitbook/assets/moderation/ban.png)
+
 Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le dé bannir avec la commande <mark style="color:orange;">/deban \[utilisateur]</mark> ou depuis l'onglet "_Bannissement_" de votre serveur Discord.
 
 {% hint style="warning" %}
@@ -78,10 +86,8 @@ De même, si vous souhaitez enlever toutes les sanctions de tous les membres de 
 Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">serveur</mark> sont irréversibles : impossible de redonner les sanctions aux membres du serveur si la commande a été faite et validée.
 {% endhint %}
 
-{% hint style="info" %}
-Vous pouvez retrouver la configuration de l'**autosanction** de **DraftBot** sur cette page :
+### Vous pouvez retrouver la configuration de l'**auto-sanction** de **DraftBot** sur cette page :
 
 {% content-ref url="configuration/moderation.md" %}
 [moderation.md](configuration/moderation.md)
 {% endcontent-ref %}
-{% endhint %}
