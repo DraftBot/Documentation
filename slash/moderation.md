@@ -59,8 +59,8 @@ Vous pouvez exclure un membre de votre serveur avec la commande <mark style="col
 
 ## Bannissement
 
-Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'[expulsion](moderation.md#exclusion). \
-En plus de pouvoir bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>, deux options s'offrent à vous :
+Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'[expulsion](moderation.md#exclusion).\
+Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>. Deux options s'offrent à vous :
 
 * <mark style="color:orange;">\[temps]</mark> pour définir un temps de bannissement
 * <mark style="color:orange;">\[messages\_supprimés]</mark> pour savoir depuis combien de temps les messages du membre doivent être supprimés (maximum 7 jours).
@@ -75,7 +75,9 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le dé bann
 
 ## Historique de sanctions
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
- Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
+Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
+
+![Historique de sanctions d'un membre](../.gitbook/assets/moderation/historique.png)
 
 Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer \[membre]</mark>.
 
@@ -87,7 +89,6 @@ Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</
 {% endhint %}
 
 ### Vous pouvez retrouver la configuration de l'**auto-sanction** de **DraftBot** sur cette page :
-
 {% content-ref url="configuration/moderation.md" %}
 [moderation.md](configuration/moderation.md)
 {% endcontent-ref %}
