@@ -114,7 +114,7 @@ Vous avez ensuite la possibilité de :
 * ***Salon*** ⇒ choisir le salon dans lequel les annonces de nouveau niveau seront envoyées
 * ***Message personnalisé*** ⇒ changer le message par défaut envoyé lors d'un passage de niveau
 
-![Configuration annonce de nouveau niveau](../.gitbook/assets/levels/announcement_config_new%20level.png)
+![Configuration annonce de nouveau niveau](../.gitbook/assets/levels/announcement_config_new_level.png)
 
 {% endtab %}
 
@@ -131,7 +131,7 @@ Vous avez alors la possibilité de configurer le message d'annonce et le salon (
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Panel de configuration des annonces de nouveau niveau](../.gitbook/assets/levels/dashboard_announcement_config_new%20level_.png)
+![Panel de configuration des annonces de nouveau niveau](../.gitbook/assets/levels/dashboard_announcement_config_new_level_.png)
 
 {% endtab %}
 {% endtabs %}
@@ -146,7 +146,7 @@ Vous avez ensuite la possibilité de :
 * ***Salon*** ⇒ choisir le salon dans lequel les annonces de récompenses gagnées seront envoyées
 * ***Message personnalisé*** ⇒ changer le message par défaut envoyé lors d'une récompense gagnée
 
-![Configuration annonce d'une récompense gagnée](../.gitbook/assets/levels/announcement_config_new%20reward.png)
+![Configuration annonce d'une récompense gagnée](../.gitbook/assets/levels/announcement_config_new_reward.png)
 
 {% endtab %}
 
@@ -163,7 +163,7 @@ Vous avez alors la possibilité de configurer le message d'annonce et le salon (
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Panel de configuration des annonces de récompenses gagnées](../.gitbook/assets/levels/dashboard_announcement_config_new%20reward.png)
+![Panel de configuration des annonces de récompenses gagnées](../.gitbook/assets/levels/dashboard_announcement_config_new_reward.png)
 
 {% endtab %}
 {% endtabs %}
