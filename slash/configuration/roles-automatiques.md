@@ -10,9 +10,11 @@ description: >-
 
 ## <mark style="color:blue;">A l'arrivée</mark>
 
-#### Ajouter ou retirer un rôle attribuer à l'arrivée
+#### Ajouter ou retirer un rôle attribué à l'arrivée
 
-Après avoir cliqué sur le bouton "À l'arrivée".
+{% tabs %}
+{% tab title="Via la commande `/config`" %}
+Veuillez d'abord vous rendre dans `/config` ➜ 🏷️Rôles Automatiques ➜ "À l'arrivée".
 
 Pour ajouter un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur "Ajouter".
 Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur "Retirer".
@@ -23,6 +25,20 @@ Si vous n'êtes pas premium, vous pouvez ajouter un maximum de 3 rôles.
 {% endhint %}
 
 ![Menu d'accueil de la configuration des Rôles automatiques à l'arrivée](../../.gitbook/assets/autorole/join.png)
+{% endtab %}
+
+{% tab title="Via le panel" %}
+Veuillez d'abord vous rendre sur le [<mark style="color:orange;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Arrivées & départs ➜ Bas de la page.
+
+Séléctionner ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
+
+{% hint style="info" %}
+Si les rôles apparaissent en rouge, cela veut dire que soit DraftBot n'a pas les permissions de donner ce rôle soit qu'il n'est pas suffisament haut dans la hiérarchie des rôles.
+
+![Dashboard Rôles Automatiques à l'arrivée](../../.gitbook/assets/autorole/dashboard_join.png)
+{% endhint %}
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:blue;">En vocal</mark>
 
