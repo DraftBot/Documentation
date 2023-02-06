@@ -13,30 +13,35 @@ description: >-
 #### Ajouter ou retirer un rôle attribué à l'arrivée
 
 {% tabs %}
-{% tab title="Via la commande `/config`" %}
-Veuillez d'abord vous rendre dans `/config` ➜ 🏷️Rôles Automatiques ➜ "À l'arrivée".
+{% tab title="Via la commande /config" %}
+Veuillez d'abord vous rendre dans `/config` ➜ 🏷️ Rôles Automatiques ➜ <mark style="color:blue;">"À l'arrivée"</mark>.
 
 Pour ajouter un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur "Ajouter".
-Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur "Retirer".
+
+Par contre si souhaitez retirer un rôle donné lors qu'un membre rejoint votre serveur, vous pouvez cliquer sur "Retirer".
+
 Si vous souhaitez par contre retirer **tous** les rôles automatiques à l'arrivée, cliquez sur "Réinitialiser".
 
+![Menu d'accueil de la configuration des rôles automatiques à l'arrivée](../../.gitbook/assets/autorole/join.png)
+
 {% hint style="info" %}
-Si vous n'êtes pas premium, vous pouvez ajouter un maximum de 3 rôles.
+Si vous n'êtes pas premium, vous pouvez ajouter un maximum de 3 rôles. Si c'est le cas, le maximum est de 10.
 {% endhint %}
 
-![Menu d'accueil de la configuration des Rôles automatiques à l'arrivée](../../.gitbook/assets/autorole/join.png)
+![Menu d'accueil de la configuration des rôles automatiques à l'arrivée](../../.gitbook/assets/autorole/join.png)
 {% endtab %}
 
 {% tab title="Via le panel" %}
 Veuillez d'abord vous rendre sur le [<mark style="color:orange;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Arrivées & départs ➜ Bas de la page.
 
-Séléctionner ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
+Sélectionner ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
 
 {% hint style="info" %}
-Si les rôles apparaissent en rouge, cela veut dire que soit DraftBot n'a pas les permissions de donner ce rôle soit qu'il n'est pas suffisament haut dans la hiérarchie des rôles.
+Si les rôles apparaissent en rouge, cela signifie que DraftBot n'a pas les permissions de donner ce rôle ou bien que ce dernier est en dessous des rôles que l'on souhaite attribuer.
+{% endhint %}
 
 ![Dashboard Rôles Automatiques à l'arrivée](../../.gitbook/assets/autorole/dashboard_join.png)
-{% endhint %}
+
 {% endtab %}
 {% endtabs %}
 
