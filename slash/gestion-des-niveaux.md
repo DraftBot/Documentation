@@ -19,15 +19,15 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 * ### Système de niveaux
 {% tabs %}
 {% tab title="Via la commande /config" %}
-* ***Activer le système*** ⇒ Permet d'activer ou désactiver le système
-* ***Activer l'xp en vocal*** ⇒ Une fois activé, les membres pourront gagner de l'expérience en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(premium)***
-* ***Niveau maximum*** ⇒ Permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint ***(premium)***
-* ***Couleur*** ⇒ Paramétrer une couleur pour tout le système d'économie ***(premium)***
-* ***Ratio d'xp*** ⇒ Définir le nombre d'expérience gagnée par message
-* ***Rôles / Salons sans gain d'xp*** ⇒ Permet de ne pas donner d'expérience à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon
-* ***Rôles / Salons boosters*** ⇒ Permet de donner plus d'expérience à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon
-* ***Activer le reset des niveaux lors du départ*** ⇒ Une fois activé, les membres perdront toute leur expérience s'ils quittent le serveur
-* ***Activer les longs messages comptent double xp*** ⇒ Une fois activé, les longs messages gagneront plus d'expérience qu'à la normale
+* ***Activer le système*** ⇒ Permet d'activer ou désactiver le système.
+* ***Activer l'xp en vocal*** ⇒ Une fois activé, les membres pourront gagner de l'expérience en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(premium)***.
+* ***Niveau maximum*** ⇒ Permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint ***(premium)***.
+* ***Couleur*** ⇒ Paramétrer une couleur pour tout le système d'économie ***(premium)***.
+* ***Ratio d'xp*** ⇒ Définir le nombre d'expérience gagnée par message.
+* ***Rôles / Salons sans gain d'xp*** ⇒ Permet de ne pas donner d'expérience à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon.
+* ***Rôles / Salons boosters*** ⇒ Permet de donner plus d'expérience à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon.
+* ***Activer le reset des niveaux lors du départ*** ⇒ Une fois activé, les membres perdront toute leur expérience s'ils quittent le serveur.
+* ***Activer les longs messages comptent double xp*** ⇒ Une fois activé, les longs messages gagneront plus d'expérience qu'à la normale.
 * ***Activer le gain d'xp dans les threads*** ⇒ Permet de gagner ou non de l'expérience dans les threads du serveur.
 
 {% hint style="warning" %}
@@ -56,10 +56,10 @@ Pour configurer le système de niveau, accédez au panel via le lien ci-dessus e
 
 #### Autres commandes de configuration
 Malgré toute la configuration via la commande <mark style="color:orange;">/config</mark> ou le panel, d'autres commandes sont également disponibles :
-* *<mark style="color:orange;">/adminxp définir</mark>* : Permet de définir le nombre d'expérience ou de niveaux d'un membre
-* *<mark style="color:orange;">/adminxp ajouter</mark>* : Permet d'ajouter de l'expérience ou des niveaux à un membre
-* *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : Permet de réinitialiser l'expérience et les niveaux de tous les membres du serveur
-* *<mark style="color:orange;">/adminxp retirer</mark>* : Permet de retirer de l'expérience ou des niveaux à un membre
+* *<mark style="color:orange;">/adminxp définir</mark>* : Permet de définir le nombre d'expérience ou de niveaux d'un membre.
+* *<mark style="color:orange;">/adminxp ajouter</mark>* : Permet d'ajouter de l'expérience ou des niveaux à un membre.
+* *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : Permet de réinitialiser l'expérience et les niveaux de tous les membres du serveur.
+* *<mark style="color:orange;">/adminxp retirer</mark>* : Permet de retirer de l'expérience ou des niveaux à un membre.
 
 {% hint style="warning" %}
 La commande *<mark style="color:orange;">/adminxp réinitialiser serveur</mark>* est irréversible : impossible d'annuler l'action et de redonner l'expérience à tous les membres du serveur.
@@ -71,9 +71,9 @@ La commande *<mark style="color:orange;">/adminxp réinitialiser serveur</mark>*
 Pour créer une récompense, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Récompenses de niveaux". 
 
 Une fois fait, vous aurez accès au menu de création de récompenses :
-* ***Créer*** ⇒ Créer une nouvelle récompense
-* ***Modifier*** ⇒ Modifier une récompense existante
-* ***Supprimer*** ⇒ Supprimer une récompense existante
+* ***Créer*** ⇒ Créer une nouvelle récompense.
+* ***Modifier*** ⇒ Modifier une récompense existante.
+* ***Supprimer*** ⇒ Supprimer une récompense existante.
 * ***Réinitialiser*** ⇒ Supprimer toutes les récompenses du serveur.
 {% hint style="warning" %}
 Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer les récompenses du serveur.
