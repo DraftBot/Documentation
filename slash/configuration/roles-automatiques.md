@@ -18,7 +18,7 @@ Veuillez d'abord vous rendre dans `/config` ➜ 🏷️ Rôles Automatiques ➜ 
 
 Pour ajouter un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur "Ajouter".
 
-Par contre si souhaitez retirer un rôle donné lors qu'un membre rejoint votre serveur, vous pouvez cliquer sur "Retirer".
+Par contre si souhaitez retirer un rôle donné lorsqu'un membre rejoint votre serveur, vous pouvez cliquer sur "Retirer".
 
 Si vous souhaitez par contre retirer **tous** les rôles automatiques à l'arrivée, cliquez sur "Réinitialiser".
 
@@ -82,7 +82,7 @@ Si les rôles apparaissent en rouge, cela signifie que DraftBot n'a pas les perm
 
 Les rôles automatiques en **Live** sont utiles lorsque vos membres sont en direct sur YouTube ou encore Twitch.
 
-Après avoir cliqué sur le bouton "En live".
+Veuillez d'abord vous rendre dans `/config` ➜ 🏷️ Rôles Automatiques ➜ <mark style="color:blue;">"En live"</mark>.
 
 Pour ajouter un rôle automatique en vocal d'un membre, vous pouvez cliquer sur "Configurer".
 *Vous avez la possibilité de sélectionner un rôle déjà existant ou d'en créer un directement.*
