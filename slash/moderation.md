@@ -24,7 +24,7 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
 
-![Avertissement donné à un membre](../.gitbook/assets/moderation/avertir.png)
+![Avertissement donné à un membre](../.gitbook/assets/moderation/warn.png)
 
 Vous pourrez retirer un avertissement à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
@@ -51,7 +51,7 @@ Vous pourrez, si vous le souhaitez, retirer le mute du membre avec la commande <
 Le fait d'exclure un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le [bannissement](moderation.md#bannissement).\
 Vous pouvez exclure un membre de votre serveur avec la commande <mark style="color:orange;">/expulser \[membre] \[raison]</mark>.
 
-![Exclusion d'un membre](../.gitbook/assets/moderation/expulser.png)
+![Exclusion d'un membre](../.gitbook/assets/moderation/kick.png)
 
 {% hint style="warning" %}
 **DraftBot** peut exclure un membre uniquement s'il dispose de la permission "_Expulser des membres_" sur votre serveur.
@@ -77,7 +77,7 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le dé bann
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
 Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
 
-![Historique de sanctions d'un membre](../.gitbook/assets/moderation/historique.png)
+![Historique de sanctions d'un membre](../.gitbook/assets/moderation/history.png)
 
 Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer \[membre]</mark>.
 
