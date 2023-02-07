@@ -12,6 +12,22 @@ Afin d'obtenir de l'argent, il faut que [le système d'économie](https://docs.d
 
 ![Carte d'économie](../.gitbook/assets/economy/money.png)
 
+- <mark style="color:orange;">/journalier\[membre]</mark> ➜ Commande journalière permettant de gagner un montant défini au préalable par les administrateurs.
+
+{% hint style="info" %}
+Il vous faut d'abord configurer ce système.
+{% endhint %}
+
+
+__**Commandes pour les administrateurs - Argent**__
+
+Il existe plusieurs commandes pour gérer l'argent de vos membres :
+
+- <mark style="color:orange;">/adminargent ajouter\[membre]</mark> ➜ Ajouter de l'argent à un membre en plus de son montant actuel.
+- <mark style="color:orange;">/adminargent définir\[membre]</mark> ➜ Définir l'argent d'un membre en ne tenant pas compte de son montant actuel.
+- <mark style="color:orange;">/adminargent retirer\[membre]</mark> ➜ Retirer de l'argent à un membre en se basant sur le montant actuel.
+- <mark style="color:orange;">/adminargent réinitialiser serveur\[membre]</mark> ➜ Remettre à zéro l'argent de tout le serveur.
+- <mark style="color:orange;">/dropargent\[membre]</mark> ➜ Créer un message qui offre de l'argent au premier qui clique sur le bouton.
 
 ### Classement
 
@@ -43,8 +59,10 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 - <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
 
 {% hint style="info" %}
-**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis. Vous devez par contre récupérer l'<mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> de celui-ci en mettant un antislash (\\) devant celui-ci.
+**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
 *Exemple : "🍒 Cerises"*
+
+Si vous créez par contre vos items depuis le <mark style="color:orange;">[Panel](https://draftbot.fr/dashboard/)</mark>, vous devez par contre récupérer l'<mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> de celui-ci en mettant un antislash (\\) devant celui-ci.
 {% endhint %}
 
 
