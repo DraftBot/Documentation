@@ -45,7 +45,7 @@ Si les rôles apparaissent en rouge, cela signifie que DraftBot n'a pas les perm
 
 ## <mark style="color:blue;">En vocal</mark>
 
-#### #### Ajouter ou retirer un rôle attribué lorsqu'un membre est en vocal
+#### Ajouter ou retirer un rôle attribué lorsqu'un membre est en vocal
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
