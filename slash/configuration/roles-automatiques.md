@@ -21,9 +21,11 @@ Si souhaitez retirer un rôle de cette liste, cliquez sur "Retirer".
 
 Pour retirer **tous** les rôles automatiques, cliquez sur "Réinitialiser".
 
+
 {% hint style="info" %}
 La limite des rôles automatiques est de 3 pour les serveurs non-premium et de 10 pour les serveurs premiums.
 {% endhint %}
+
 
 ![Menu d'accueil de la configuration des rôles automatiques à l'arrivée](../../.gitbook/assets/autorole/join.png)
 {% endtab %}
@@ -33,6 +35,7 @@ Veuillez d'abord vous rendre sur le [<mark style="color:orange;">panel</mark>](h
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
 
+
 {% hint style="warning" %}
 Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ DraftBot n'a pas les permissions de gérer les rôles.\
@@ -40,6 +43,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ Le rôle de l'utilisateur est en dessous des rôles qu'il souhaite attribuer.\
 ➜ Le rôle est géré par un bot ou par Discord.
 {% endhint %}
+
 
 ![Configuration des rôles automatiques à l'arrivée sur le panel](../../.gitbook/assets/autorole/dashboard_join.png)
 
@@ -73,6 +77,7 @@ Veuillez d'abord vous rendre sur le [<mark style="color:orange;">panel</mark>](h
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique lorsqu'un membre rejoint un salon vocal.
 
 
+
 {% hint style="warning" %}
 Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ DraftBot n'a pas les permissions de gérer les rôles.\
@@ -80,6 +85,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ Le rôle de l'utilisateur est en dessous des rôles qu'il souhaite attribuer.\
 ➜ Le rôle est géré par un bot ou par Discord.
 {% endhint %}
+
 
 ![Configuration des rôles automatiques de vocal, sur le panel](../../.gitbook/assets/autorole/dashboard_voice.png)
 
