@@ -69,5 +69,5 @@ Si vous créez par contre vos items depuis le <mark style="color:orange;">[panel
 
 ### Rôle booster
 
-Tu peux, lors de [la configuration](https://docs.draftbot.fr/slash/configuration/economie), choisir un rôle booster.\
+Vous pouvez, lors de [la configuration](https://docs.draftbot.fr/slash/configuration/economie), choisir un rôle booster.\
 Quand une personne a un rôle booster, elle pourra gagner **1,5** / **2** / **2,5** ou **3** fois plus d'argent qu'un membre normal.
