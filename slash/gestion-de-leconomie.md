@@ -5,10 +5,9 @@ description: >-
 
 # Gestion de l'économie
 
-### Argent
+### Votre Argent
 
-Vous pouvez voir votre somme d'argent ainsi que celle des autres membres en indiquant leur pseudo sous "membre" avec <mark style="color:orange;">/argent \[membre]</mark>.\
-Afin d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
+Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "membre" avec <mark style="color:orange;">/argent \[membre]</mark>. Pour d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
 
 ![Carte d'économie](../.gitbook/assets/economy/money.png)
 
@@ -32,7 +31,7 @@ Il existe plusieurs commandes pour gérer l'argent de vos membres :
 
 ### Classement
 
-Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton situé sous le message de **DraftBot** ("Voir l'ensemble du classement").
+Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton **"Voir l'ensemble du classement"** situé sous le message de **DraftBot**.
 
 ![Classement d'argent des membres du serveur](../.gitbook/assets/economy/topmoney.png)
 
