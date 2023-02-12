@@ -31,6 +31,7 @@ Pour mentionner un membre à son arrivé, il vous suffit de cliquer sur "Mention
 #### Changer la couleur de fond du message de bienvenue
 
 Pour changer la couleur de fond, il vous suffit de cliquer sur "Couleur de fond", vous aurez alors ensuite le choix entre 3 couleurs ainsi que celui par défaut avec le bouton <mark style="color:red;">"Aucune"</mark>.
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
@@ -41,7 +42,6 @@ Veuillez d'abord vous rendre sur le <mark style="color:orange;">"[Panel](https:/
 Pour activer le système, il vous faut cliquer sur le bouton d'activation du module. Si vous voulez le désactiver, recliquer sur ce même bouton.
 
 ![Activation du système de bienvenue](../../.gitbook/assets/welcome/dashboard-active.png)
-{% endtab %}
 
 #### Envoyer le message de bienvenue dans un salon précis
 
