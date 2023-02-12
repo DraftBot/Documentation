@@ -57,13 +57,18 @@ Pour modifier le message de bienvenue rendez - vous dans <mark style="color:oran
 Les variables pour personnaliser vos messages peuvent être utilisées. Votre message doit faire au maxiumum 1200 caractères.
 {% endhint %}
 ㅤ
+
+
 ![Modifier le texte du message de bienvenue](../../.gitbook/assets/welcome/dashboard-texte-welcome.png)
+
+
 
 #### Activer et désactiver la mention du membre à son arrivé
 
 Pour mentionner automatiquement un membre à son arrivé, il vous faut activer le module "Mentionner le membre dans son message de bienvenue".
 
 ![Mention automatique lors de l'arrivée d'un nouveau membre](../../.gitbook/assets/welcome/dashboard-mention-automatique.png)
+
 
 #### Changer la couleur de fond du message de bienvenue
 
@@ -73,7 +78,10 @@ Si vous voulez modifier la couleur de fond de votre message de bienvenue, allez 
 Si vous souhaitez mettre une couleur de votre choix ou avoir la possibilitée d'upload une image de votre choix, il vous faut être <mark style="color:orange;">"[premium](https://draftbot.fr/premium)"</mark>.
 {% endhint %}
 ㅤ
+
 ![Modifier la couleur de fond du message de bienvenue](../../.gitbook/assets/welcome/dashboard-couleur-de-fond.gif)
+
+
 {% endtab %}
 
 {% tab title="✨Fonctionnalités Premium" %}
