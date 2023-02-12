@@ -78,8 +78,6 @@ Si vous souhaitez mettre une couleur de votre choix ou avoir la possibilitée d'
 
 {% tab title="✨Fonctionnalités Premium" %}
 
-{% tabs %}
-{% tab title="Via la commande /config" %}
 #### Changer la couleur de la barre de l'embed
 
 Pour changer la couleur de la barre de l'embed, il vous suffit de cliquer sur le bouton "Couleur (premium)" et ensuite indiquer la couleur en format <mark style="color:orange;">"[HEX](https://htmlcolorcodes.com/)"</mark> : #XXXXXX
@@ -92,8 +90,6 @@ Pour ajouter une image de fond, il vous suffit de cliquer sur "Image (premium)" 
 (Dimensions optimales de l'image : 1000 x 300 pixels)
 {% endhint %}
 ㅤ
-{% endtab %}
-{% tab title="Via le panel" %}
 #### Changer la couleur de la barre de l'embed
 
 Pour changer la couleur de la barre de l'embed, vous devez survoler la barre de couleur sur la prévisualisation de cliquer sur l'icône rechercher.
@@ -103,8 +99,7 @@ Pour changer la couleur de la barre de l'embed, vous devez survoler la barre de 
 Pour ajouter une image de fond à votre message de bienvenue, allez dans la prévisalisation puis lorsque vous êtes sur l'image, cliquer sur le bouton "Modifier" 
 {% endtab %}
 {% endtabs %}
-{% endtab %}
-{% endtabs %}
+
 
 ## <mark style="color:blue;">Messages d'au revoir</mark>
 
