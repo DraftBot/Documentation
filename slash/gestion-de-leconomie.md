@@ -19,7 +19,7 @@ Il vous faut d'abord configurer ce système.
 {% endhint %}
 
 
-__**Commandes pour les administrateurs - Argent**__
+### Modifier l'argent des utilisateurs
 
 Il existe plusieurs commandes pour gérer l'argent de vos membres :
 
@@ -38,14 +38,21 @@ Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez ac
 
 ### Boutique
 
-La boutique est l'endroit où vous pouvez acheter les articles qui composeront votre inventaire *(voir ci-dessous)*.\
-Vous pouvez y acheter un rôle (temporaire ou non), de l'expérience, un objet d'inventaire et plein d'autres choses ! Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
+Vous pouvez y acheter des rôles (temporaire ou non), de l'expérience, des objets d'inventaire ou des articles personnalisés.
+Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
 
 {% hint style="info" %}
 Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
 {% endhint %}
 
-![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
+![Boutique de DraftBot](../.gitbook/assets/economy/marche-noir.png)
+
+{% hint style="info" %}
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
+
+![Marché Noir de DraftBot](../.gitbook/assets/economy/shop.png)
+
+{% endhint %}
 
 
 ### Objets d'inventaire
@@ -62,7 +69,7 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 **Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
 *Exemple : "🍒 Cerises"*
 
-Si vous créez par contre vos items depuis le <mark style="color:orange;">[panel](https://draftbot.fr/dashboard/)</mark>, vous devez par contre récupérer l'<mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> de celui-ci en mettant un antislash (\\) devant celui-ci.
+Si vous créez vos items depuis le <mark style="color:orange;">[panel](https://draftbot.fr/dashboard/)</mark>, vous devrez récupérer l'affichage de l'émoji avec <mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark>. (en mettant un antislash (\\) devant celui-ci).
 {% endhint %}
 
 
