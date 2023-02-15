@@ -86,6 +86,10 @@ Si vous souhaitez mettre une couleur de votre choix ou avoir la possibilitée d'
 
 {% tab title="✨Fonctionnalités Premium" %}
 
+Si vous souhaitez vous souscrire à l'abonnement premium, rendez vous sur <mark style="color:orange;">[cette page](https://draftbot.fr/premium)</mark> !
+
+{%tabs%}
+{% tab title="Via la commande /config" %}
 #### Changer la couleur de la barre de l'embed
 
 Pour changer la couleur de la barre de l'embed, il vous suffit de cliquer sur le bouton "Couleur (premium)" et ensuite indiquer la couleur en format <mark style="color:orange;">"[HEX](https://htmlcolorcodes.com/)"</mark> : #XXXXXX
@@ -105,6 +109,11 @@ Pour changer la couleur de la barre de l'embed, vous devez survoler la barre de 
 #### Ajouter ou retirer une image de fond
 
 Pour ajouter une image de fond à votre message de bienvenue, allez dans la prévisalisation puis lorsque vous êtes sur l'image, cliquer sur le bouton "Modifier" 
+{% endtab %}
+{% tab title="Via le panel" %}
+exemple
+{% endtab %}
+{% endtabs %}
 {% endtab %}
 {% endtabs %}
 
