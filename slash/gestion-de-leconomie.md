@@ -41,16 +41,12 @@ Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez ac
 Vous pouvez y acheter des rôles (temporaire ou non), de l'expérience, des objets d'inventaire ou des articles personnalisés.
 Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
 
-{% hint style="info" %}
-Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
-{% endhint %}
-
-![Boutique de DraftBot](../.gitbook/assets/economy/marche-noir.png)
+![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
 
 {% hint style="info" %}
 Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
 
-![Marché Noir de DraftBot](../.gitbook/assets/economy/shop.png)
+![Marché Noir de DraftBot](../.gitbook/assets/economy/shop-dark.png)
 
 {% endhint %}
 
