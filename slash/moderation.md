@@ -16,7 +16,7 @@ Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs,
 Vous pourrez retirer une note à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
-**DraftBot** peut donner une note à un membre uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
+**DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
 ## Avertissement
@@ -29,26 +29,26 @@ Le membre recevra un message privé avec le motif de son avertissement.
 Vous pourrez retirer un avertissement à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
-**DraftBot** peut donner un avertissement à un membre uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
+**DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
 ## Mute
 
-Vous pouvez rendre muet un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>. La durée d'un mute ne peut pas dépasser 28 jours.
+Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>. La durée d'un mute ne peut pas dépasser **28 jours**.
 
 ![Rendre muet un membre](../.gitbook/assets/moderation/mute.png)
 
-Vous pourrez, si vous le souhaitez, retirer le mute du membre avec la commande <mark style="color:orange;">/demute \[membre]</mark>.
+Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au silence avec la commande <mark style="color:orange;">/demute \[membre]</mark>.
 
 {% hint style="warning" %}
-**DraftBot** peut donner un mute à un membre uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
+**DraftBot** peut donner un mute à un membre uniquement s'il dispose de la permission "_Exclure temporairement des membres_" sur votre serveur.
 
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour rendre muet un membre.
 {% endhint %}
 
 ## Exclusion
 
-Le fait d'exclure un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le [bannissement](moderation.md#bannissement).\
+Le fait d'exclure un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le <mark style="color:orange;">[bannissement](moderation.md#bannissement)</mark>.\
 Vous pouvez exclure un membre de votre serveur avec la commande <mark style="color:orange;">/expulser \[membre] \[raison]</mark>.
 
 ![Exclusion d'un membre](../.gitbook/assets/moderation/kick.png)
@@ -59,7 +59,7 @@ Vous pouvez exclure un membre de votre serveur avec la commande <mark style="col
 
 ## Bannissement
 
-Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'[expulsion](moderation.md#exclusion).\
+Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#exclusion)</mark>.\
 Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>. Deux options s'offrent à vous :
 
 * <mark style="color:orange;">\[temps]</mark> pour définir un temps de bannissement
@@ -67,7 +67,7 @@ Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \
 
 ![Bannissement d'un utilisateur](../.gitbook/assets/moderation/ban.png)
 
-Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le dé bannir avec la commande <mark style="color:orange;">/deban \[utilisateur]</mark> ou depuis l'onglet "_Bannissement_" de votre serveur Discord.
+Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débannir avec la commande <mark style="color:orange;">/deban \[utilisateur]</mark> ou depuis l'onglet "_Bannissement_" de votre serveur Discord.
 
 {% hint style="warning" %}
 **DraftBot** peut bannir un membre uniquement s'il dispose de la permission "_Bannir des membres_" sur votre serveur.
@@ -88,7 +88,7 @@ De même, si vous souhaitez enlever toutes les sanctions de tous les membres de 
 Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">serveur</mark> sont irréversibles : impossible de redonner les sanctions aux membres du serveur si la commande a été faite et validée.
 {% endhint %}
 
-### Vous pouvez retrouver la configuration de l'**auto-sanction** de **DraftBot** sur cette page :
+**Vous pouvez retrouver la configuration de l'auto-sanction de DraftBot sur cette page :**
 {% content-ref url="configuration/moderation.md" %}
 [moderation.md](configuration/moderation.md)
 {% endcontent-ref %}
