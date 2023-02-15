@@ -80,8 +80,7 @@ Si vous souhaitez mettre une couleur de votre choix ou avoir la possibilitée d'
 {% endhint %}
 ㅤ
 
-![Modifier la couleur de fond du message de bienvenue](../../.gitbook/assets/welcome/dashboard-couleur-de-fond.gif)
-
+![Modifier la couleur de fond du message de bienvenue](../../.gitbook/assets/welcome/dashboard-imagefond.gif)
 
 {% endtab %}
 
