@@ -1,5 +1,43 @@
+---
+description: >-
+ Rendez public votre activité sur les autres réseaux sociaux !
+---
 # Notifications sociales
 
-{% hint style="danger" %}
-Cette page est en train d'être mise à jour...
+## Youtube
+
+* Ce module permet **d'afficher** un message lors de la ***publication d'une vidéo <mark style="color:orange;">[Youtube](https://www.youtube.com/?themeRefresh=1)</mark>.**
+
+![SocialNotif Youtube](../.gitbook/assets/socialnotifs/SocialNotif_Youtube.jpg)
+
+* Le message sera entièrement **customisable** par les administrateurs, permettant (en général) d'avoir accès a un rôle de notifications pour **la sortie des vidéos**.
+
+*  Il peut y avoir **une seule notification <mark style="color:orange;">[Youtube](https://www.youtube.com/?themeRefresh=1)</mark> maximum** pour les serveurs **non-premiums**.
+
+    Il peut y avoir 5 notifications sociales Youtube maximales sur un serveur premium.
+
+## Twitch
+
+{% hint style="info" %}
+Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>
 {% endhint %}
+
+* **Les notifications sociales Twitch** permettent d'envoyer un message **customisable** lors du **lancement d'un live**.
+
+* Il peut y avoir au maximum **5 notifications sociales Twitch différentes**.
+
+* Illustration du module : 
+
+    ![SocialNotif Twitch](../.gitbook/assets/socialnotifs/SocialNotif_Twitch.jpg)
+
+## Live Presence
+
+
+
+## Reddit
+
+## Epic Games
+
+## CommitStrip
+
+## Dealabs
