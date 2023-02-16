@@ -99,9 +99,7 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 {% endtab %}
 
 {% tab title="Via le panel" %}
-{% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de **DraftBot**
-{% endembed %}
+[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
@@ -129,9 +127,7 @@ Vous avez ensuite la possibilité de :
 {% endtab %}
 
 {% tab title="Via le panel" %}
-{% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de **DraftBot**
-{% endembed %}
+[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
@@ -165,9 +161,7 @@ Vous avez ensuite la possibilité de :
 {% endtab %}
 
 {% tab title="Via le panel" %}
-{% embed url="https://draftbot.fr/dashboard" %}
-Accéder au panel de **DraftBot**
-{% endembed %}
+[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous dans la page "Niveaux".
 
