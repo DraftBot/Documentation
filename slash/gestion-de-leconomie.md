@@ -65,7 +65,7 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 **Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
 *Exemple : "🍒 Cerises"*
 
-Si vous créez vos items depuis le <mark style="color:orange;">[panel](https://draftbot.fr/dashboard/)</mark>, vous devrez récupérer l'affichage de l'émoji avec <mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark>. (en mettant un antislash (\\) devant celui-ci).
+Si vous créez vos items depuis le <mark style="color:orange;">[panel](https://draftbot.fr/dashboard/)</mark>, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark>. (en mettant un antislash (\\) devant celui-ci).
 {% endhint %}
 
 
@@ -73,3 +73,49 @@ Si vous créez vos items depuis le <mark style="color:orange;">[panel](https://d
 
 Vous pouvez, lors de [la configuration](https://docs.draftbot.fr/slash/configuration/economie), choisir un rôle booster.\
 Quand une personne a un rôle booster, elle pourra gagner **1,5** / **2** / **2,5** ou **3** fois plus d'argent qu'un membre normal.
+
+# Configuration
+
+Depuis le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>, vous pouvez configurer le système d'économie. 
+
+Vous aurez la possibilité de configurer :
+
+- Le système d'économie
+- La configuration de la boutique
+
+*Retrouvez le détail de configuration de chacun de ces boutons ci-dessous.*
+
+## Système d'économie
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+
+- "**Activer le système**" ➜ Permet d'activer ou désactiver le système.
+- "**✨Activer l'argent en vocal**" ➜ Une fois activé, les membres pourront gagner de l'argent en vocal.
+ㅤ
+{% hint style="info" %}
+Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK" ; avoir un micro actif.
+{% endhint %}
+ㅤ
+- "**✨Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur.
+- "**✨Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie.
+- "**Argent journalier**" ➜ Permet de définir l'argent que vos membres pourront gagner chaque jour via la commande <mark style="color:orange;">/journalier</mark>
+- "**Argent de départ**" ➜ Permet de définir l'argent qu'auront vos membres à leurs arrivé sur le serveur.
+- "**Ratio d'argent**" ➜ Permet de définir la quantité d'argent gagnée par message.
+- "**Rôles sans gain d'argent**" ➜ Permet de définir
+- "**Salons sans gain d'argent**" ➜ Permet de définir les salons où les membres ne gagneront pas d'argent.
+- "**Rôles boosters**" ➜ Permet de donner plus d'argent à un membre s'il possède un certain rôle.
+- "**Salons boosters**" ➜ Permet de donner plus d'argent à un membre si il envoie son message dans un certain salon.
+- "**Activer le reset de l'argent lors du départ**" ➜ Une fois activé, les membres perdront toute leur argent s'ils quittent le serveur.
+- "**Activer les longs messages comptent double argent**" ➜ Si un de vos membres fait un message 
+- "**Activer le gain d'argent dans les fils**" ➜ 
+
+*Les boutons étant précédés d'un "✨" indiquent que le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> est nécéssaire.*
+{% endtab %}
+
+
+
+{% tab title="Via le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
