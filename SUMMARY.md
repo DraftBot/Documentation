@@ -34,11 +34,12 @@
 
 ## Commandes Slash ➖⚠️ EN COURS DE REDACTION <a href="#slash" id="slash"></a>
 
-* [Configuration guidée](slash/configuration/README.md)
+* [📉 Niveaux](slash/niveaux.md)
+
+* [Ancienne configuration](slash/configuration/README.md)
   * [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
   * [🏷 Rôles automatiques](slash/configuration/roles-automatiques.md)
   * [💰 Économie](slash/configuration/economie.md)
-  * [📉 Niveaux](slash/configuration/niveaux.md)
   * [🔨 Modération](slash/configuration/moderation.md)
   * [🔒 Captcha](slash/configuration/captcha.md)
   * [🎂 Anniversaires](slash/configuration/anniversaires.md)
@@ -53,10 +54,10 @@
   * [🪄 Commandes personnalisées](slash/configuration/commandes-personnalisees.md)
   * [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
   * [🗃 Logs](slash/configuration/logs.md)
+  
 * [Modération](slash/moderation.md)
 * [Gestion des rôles](slash/gestion-des-roles.md)
 * [Gestion des messages](slash/gestion-des-messages.md)
-* [Gestion des niveaux](slash/gestion-des-niveaux.md)
 * [Gestion de l'économie](slash/gestion-de-leconomie.md)
 * [Notifications sociales](slash/notifications-sociales.md)
 * [(Gestion des permissions)](slash/gestion-des-permissions.md)

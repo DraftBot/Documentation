@@ -4,6 +4,34 @@ description: >-
 ---
 # Gestion des niveaux
 
+## Votre niveau
+Vous pouvez voir votre niveau, ainsi que celui des autres membres en indiquant leur pseudo dans l'argument "membre" avec <mark style="color:orange;">/niveau \[membre]</mark>.
+
+![Carte de niveau](../.gitbook/assets/niveau.png)
+
+{% hint style="info" %}
+Afin d'obtenir de l'expérience et ainsi gagner en niveaux, il faut que le système de niveaux soit activé sur le serveur.
+{% endhint %}
+
+## Classement du serveur
+Grâce à la commande <mark style="color:orange;">/topniveau</mark>, vous avez accès au classement des niveaux du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton **"Voir l'ensemble du classement"** situé sous le message de **DraftBot**.
+
+![Classement des niveaux des membres du serveur](../.gitbook/assets/levels/view_topniveau.png)
+
+## Récompenses du serveur
+
+Pour afficher les récompenses sur votre serveur, vous pouvez faire la commande <mark style="color:orange;">/recompenses</mark>.
+
+## Gérer les niveaux des membres
+Plusieurs commandes sont disponibles pour gérer l'expérience de vos membres :
+* *<mark style="color:orange;">/adminxp définir</mark>* : Permet de définir le nombre d'expérience ou de niveaux d'un membre.
+* *<mark style="color:orange;">/adminxp ajouter</mark>* : Permet d'ajouter de l'expérience ou des niveaux à un membre.
+* *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : Permet de réinitialiser l'expérience et les niveaux de tous les membres du serveur.
+* *<mark style="color:orange;">/adminxp retirer</mark>* : Permet de retirer de l'expérience ou des niveaux à un membre.
+
+{% hint style="warning" %}
+La commande *<mark style="color:orange;">/adminxp réinitialiser serveur</mark>* est irréversible : il sera impossible d'annuler la réinitialisation et de redonner l'expérience à vos membres.
+{% endhint %}
 
 ## Configuration
 Vous pouvez activer les niveaux, les désactiver, modifier leur intensité, ignorer des rôles et/ou des salons, les booster, les personnaliser ou encore les réinitialiser avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Niveaux" du sélecteur.
@@ -52,18 +80,7 @@ Pour configurer le système de niveau, accédez au panel via le lien ci-dessus e
 {% endtab %}
 {% endtabs %}
 
-#### Gérer les niveaux des membres
-Plusieurs commandes sont disponibles pour gérer l'expérience de vos membres :
-* *<mark style="color:orange;">/adminxp définir</mark>* : Permet de définir le nombre d'expérience ou de niveaux d'un membre.
-* *<mark style="color:orange;">/adminxp ajouter</mark>* : Permet d'ajouter de l'expérience ou des niveaux à un membre.
-* *<mark style="color:orange;">/adminxp réinitialiser server</mark>* : Permet de réinitialiser l'expérience et les niveaux de tous les membres du serveur.
-* *<mark style="color:orange;">/adminxp retirer</mark>* : Permet de retirer de l'expérience ou des niveaux à un membre.
-
-{% hint style="warning" %}
-La commande *<mark style="color:orange;">/adminxp réinitialiser serveur</mark>* est irréversible : il sera impossible d'annuler la réinitialisation et de redonner l'expérience à vos membres.
-{% endhint %}
-
-### Les récompenses de niveau
+### Récompenses de niveau
 {% tabs %}
 {% tab title="Via la commande /config" %}
 Pour créer une récompense, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Récompenses de niveaux". 
@@ -97,11 +114,7 @@ Pour créer une récompense, appuyez sur le bouton **"Créer une récompense"** 
 {% endtab %}
 {% endtabs %}
 
-#### Afficher les récompenses 
-Pour afficher les récompenses sur votre serveur, vous pouvez faire la commande <mark style="color:orange;">/recompenses</mark>.
-
-### Annonces
-#### Passages de niveaux
+### Passages de niveaux
 {% tabs %}
 {% tab title="Via la commande /config" %}
 Pour configurer les annonces de passages de niveaux, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis cliquez sur "Annonce d'un nouveau niveau".
@@ -132,12 +145,12 @@ Notez qu'il est possible de voir la liste des variables disponibles en entrant l
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Panel de configuration des annonces de nouveau niveau](../.gitbook/assets/levels/dashboard_announcement_config_new_level.png
+![Panel de configuration des annonces de nouveau niveau](../.gitbook/assets/levels/dashboard_announcement_config_new_level.png)
 
 {% endtab %}
 {% endtabs %}
 
-#### Récompenses reçues
+### Réception de récompenses
 {% tabs %}
 {% tab title="Via les commandes sur Discord" %}
 Pour créer une annonce de nouveau niveau, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Annonce d'une récompense".
@@ -172,19 +185,3 @@ Notez qu'il est possible de voir la liste des variables disponibles en entrant l
 
 {% endtab %}
 {% endtabs %}
-
-## Afficher les niveaux
-
-### Votre niveau
-Vous pouvez voir votre niveau, ainsi que celui des autres membres en indiquant leur pseudo dans l'argument "membre" avec <mark style="color:orange;">/niveau \[membre]</mark>.
-
-![Carte de niveau](../.gitbook/assets/niveau.png)
-
-{% hint style="info" %}
-Afin d'obtenir de l'expérience et ainsi gagner en niveaux, il faut que le système de niveaux soit activé sur le serveur.
-{% endhint %}
-
-### Classement du serveur
-Grâce à la commande <mark style="color:orange;">/topniveau</mark>, vous avez accès au classement des niveaux du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton **"Voir l'ensemble du classement"** situé sous le message de **DraftBot**.
-
-![Classement des niveaux des membres du serveur](../.gitbook/assets/levels/view_topniveau.png)
