@@ -148,7 +148,7 @@ Notez qu'il est possible de voir la liste des variables disponibles en entrant l
 
 ### Réception de récompenses
 {% tabs %}
-{% tab title="Via les commandes sur Discord" %}
+{% tab title="Via la commande /config" %}
 Pour créer une annonce de nouveau niveau, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Annonce d'une récompense".
 
 Vous avez ensuite la possibilité de :
