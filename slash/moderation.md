@@ -24,17 +24,23 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
 
+{% hint style="warning" %}
+Le membre recevra son avertissement par message privé uniquement s'il accepte les messages privés venant du serveur.
+{% endhint %}
+
 ![Avertissement donné à un membre](../.gitbook/assets/moderation/warn.png)
 
 Vous pourrez retirer un avertissement à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
-**DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" sur votre serveur.
+**DraftBot** peut donner un avertissement à un membre uniquement si vous disposez de la permission "_Gérer les messages_" sur votre serveur.
+
 {% endhint %}
 
 ## Mute
 
-Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>. La durée d'un mute ne peut pas dépasser **28 jours**.
+Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>.\
+La durée d'un mute ne peut pas dépasser **28 jours**.
 
 ![Rendre muet un membre](../.gitbook/assets/moderation/mute.png)
 
@@ -60,7 +66,7 @@ Vous pouvez exclure un membre de votre serveur avec la commande <mark style="col
 ## Bannissement
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#exclusion)</mark>.\
-Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>. Deux options s'offrent à vous :
+Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>. Deux options facultatives supplémentaires s'offrent à vous :
 
 * <mark style="color:orange;">\[temps]</mark> pour définir un temps de bannissement
 * <mark style="color:orange;">\[messages\_supprimés]</mark> pour savoir depuis combien de temps les messages du membre doivent être supprimés (maximum 7 jours).
