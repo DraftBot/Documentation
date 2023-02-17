@@ -100,22 +100,27 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 - "**✨Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur.
 - "**✨Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie.
 - "**Argent journalier**" ➜ Permet de définir l'argent que vos membres pourront gagner chaque jour via la commande <mark style="color:orange;">/journalier</mark>
-- "**Argent de départ**" ➜ Permet de définir l'argent qu'auront vos membres à leurs arrivé sur le serveur.
+- "**Argent de départ**" ➜ Une fois activé, vous pourrez de définir l'argent qu'auront vos membres à leurs arrivé sur le serveur.
 - "**Ratio d'argent**" ➜ Permet de définir la quantité d'argent gagnée par message.
-- "**Rôles sans gain d'argent**" ➜ Permet de définir
+- "**Rôles sans gain d'argent**" ➜ Permet de définir les rôles qui ne gagneront pas d'argent.
 - "**Salons sans gain d'argent**" ➜ Permet de définir les salons où les membres ne gagneront pas d'argent.
 - "**Rôles boosters**" ➜ Permet de donner plus d'argent à un membre s'il possède un certain rôle.
 - "**Salons boosters**" ➜ Permet de donner plus d'argent à un membre si il envoie son message dans un certain salon.
 - "**Activer le reset de l'argent lors du départ**" ➜ Une fois activé, les membres perdront toute leur argent s'ils quittent le serveur.
-- "**Activer les longs messages comptent double argent**" ➜ Si un de vos membres fait un message 
-- "**Activer le gain d'argent dans les fils**" ➜ 
+- "**Activer les longs messages comptent double argent**" ➜ Si un de vos membres fait un message de plus de 250 caractères, il gagnera le double d'expérience.
+- "**Activer le gain d'argent dans les fils**" ➜ Une fois cette option activée, vos membres pourront gagner de l'argent dans les fils et posts de **forum**.
 
-*Les boutons étant précédés d'un "✨" indiquent que le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> est nécéssaire.*
+*Les boutons précédés d'un "✨" indiquent que le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> est nécéssaire.*
+
+![Menu de configuration du système d'économie](../.gitbook/assets/economy/config-systeme-economie.png)
+
 {% endtab %}
 
-
-
 {% tab title="Via le panel" %}
-Here is second tab content.
+
+
+{% hint style="warning" %}
+Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+{% endhint %}
 {% endtab %}
 {% endtabs %}
