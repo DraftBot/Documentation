@@ -5,7 +5,6 @@ description: >-
 ---
 
 # 🏷 Rôles automatiques
-![Menu d'accueil de la configuration des rôles automatiques](../../.gitbook/assets/autorole/view.png)
 
 ## <mark style="color:blue;">A l'arrivée</mark>
 
@@ -23,7 +22,7 @@ Pour retirer **tous** les rôles automatiques, cliquez sur "Réinitialiser".
 
 ㅤ
 {% hint style="info" %}
-La limite des rôles automatiques est de 3 pour les serveurs non-premium et de 10 pour les serveurs premiums.
+La limite des rôles automatiques est de 3 pour les serveurs non-premiums et de 10 pour les serveurs premiums.
 {% endhint %}
 ㅤ
 
@@ -31,7 +30,7 @@ La limite des rôles automatiques est de 3 pour les serveurs non-premium et de 1
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le [<mark style="color:orange;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Arrivées & départs ➜ Bas de la page.
+Veuillez d'abord vous rendre sur le [<mark style="color:blur;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Arrivées & départs ➜ Bas de la page.
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
 
@@ -72,7 +71,7 @@ Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le [<mark style="color:orange;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Communautaire ➜ Bas de la page.
+Veuillez d'abord vous rendre sur le [<mark style="color:blue;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Communautaire ➜ Bas de la page.
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique lorsqu'un membre rejoint un salon vocal.
 
