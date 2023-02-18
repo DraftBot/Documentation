@@ -44,7 +44,7 @@ Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations [ici](https://docs.draftbot.fr/slash/economie#typedelaboutique)
 
 ![Marché Noir de DraftBot](../.gitbook/assets/economy/shop-dark.png)
 
@@ -69,11 +69,6 @@ Si vous créez vos items depuis le <mark style="color:orange;">[panel](https://d
 {% endhint %}
 
 
-### Rôle booster
-
-Vous pouvez, lors de [la configuration](https://docs.draftbot.fr/slash/configuration/economie), choisir un rôle booster.\
-Quand une personne a un rôle booster, elle pourra gagner **1,5** / **2** / **2,5** ou **3** fois plus d'argent qu'un membre normal.
-
 # Configuration
 
 Depuis le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>, vous pouvez configurer le système d'économie. 
@@ -89,6 +84,8 @@ Vous aurez la possibilité de configurer :
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
+
+Voici les différants boutons ainsi que leurs utilités :
 
 - "**Activer le système**" ➜ Permet d'activer ou désactiver le système.
 - "**✨Activer l'argent en vocal**" ➜ Une fois activé, les membres pourront gagner de l'argent en vocal.
@@ -118,7 +115,45 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 
 {% tab title="Via le panel" %}
 
+<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de DraftBot</mark>.
 
+Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous sur la page <mark style="color:orange;">Économie</mark>.
+
+Si vous ne voyez aucune option, c'est normal car il vous faut activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
+
+![Activation du système d'économie](../.gitbook/assets/economy/dashboard-activation-systeme.png)
+
+Comme vous l'avez peut être remarqué, les sous-catégories (voir image) sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour comparer les options de configuration.
+
+![Sous-catégories](../.gitbook/assets/economy/dashboard-sous-categories.png)
+
+{% hint style="warning" %}
+Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+{% endhint %}
+
+![Menu de configuration](../.gitbook/assets/economy/dashboard-view.png)
+
+{% endtab %}
+{% endtabs %}
+
+
+## Configuration de la boutique
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+
+Pour créer un ****article** dans votre boutique, rendez-vous dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>.
+Vous avez ensuite la possibilité de :
+
+
+### Type de la boutique
+
+- <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
+- <mark style="color:blue;">"Noir"</mark> ➜ Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
+
+{% endtab %}
+
+{% tab title="Via le panel" %}
 {% hint style="warning" %}
 Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 {% endhint %}
