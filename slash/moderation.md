@@ -61,6 +61,8 @@ Vous pouvez expulser un membre de votre serveur avec la commande <mark style="co
 
 {% hint style="warning" %}
 **DraftBot** peut expulser un membre uniquement si vous disposez de la permission "_Expulser des membres_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/expulser</mark> sur votre serveur.
+
+**DraftBot** doit avoir son rôle au-dessus des autres rôles pour expulser un membre.
 {% endhint %}
 
 ## Bannissement
@@ -77,6 +79,8 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débanni
 
 {% hint style="warning" %}
 **DraftBot** peut bannir un membre uniquement si vous disposez de la permission "_Bannir des membres_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/ban</mark> sur votre serveur.
+
+**DraftBot** doit avoir son rôle au-dessus des autres rôles pour bannir un membre.
 {% endhint %}
 
 ## Historique de sanctions
