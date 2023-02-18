@@ -12,7 +12,7 @@ description: >-
 
 * Le message sera entièrement **customisable** par les administrateurs, permettant (en général) d'avoir accès a un rôle de notifications pour **la sortie des vidéos**.
 
-*  Il peut y avoir **une seule notification <mark style="color:orange;">[Youtube](https://www.youtube.com/?themeRefresh=1)</mark> maximum** pour les serveurs **non-premiums**.
+*  Il peut y avoir **une seule notification <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> maximum** pour les serveurs **non-premiums**.
 
     Il peut y avoir 5 notifications sociales Youtube maximales sur un serveur premium.
 
