@@ -6,9 +6,11 @@ description: >-
 
 # 🏷 Rôles automatiques
 
-## <mark style="color:blue;">A l'arrivée</mark>
+# Configuration
 
-#### Ajouter ou retirer un rôle attribué à l'arrivée
+## A l'arrivée
+
+### Ajouter ou retirer un rôle attribué à l'arrivée
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
@@ -49,9 +51,9 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 {% endtab %}
 {% endtabs %}
 
-## <mark style="color:blue;">En vocal</mark>
+## En vocal
 
-#### Ajouter ou retirer un rôle automatique lorsqu'un membre est en vocal
+### Ajouter ou retirer un rôle automatique lorsqu'un membre est en vocal
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
@@ -63,7 +65,7 @@ Pour ajouter un rôle automatique à un membre en vocal, vous pouvez cliquer sur
 Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur **"Modifier"**.
 *Vous avez la possibilité de supprimer le rôle du serveur une fois le système désactivé.*
 
-#### Restreindre des salons aux membres en vocal
+### Restreindre des salons aux membres en vocal
 
 Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des salons aux membres en vocal"** puis sélectionnez le salon en question. Seuls les membres possédant ce rôle pourront le voir.
 
@@ -90,7 +92,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 {% endtab %}
 {% endtabs %}
 
-## <mark style="color:blue;">En live</mark>
+## En live
 
 Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
 
@@ -99,7 +101,7 @@ Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜
 Pour ajouter un rôle automatique à un membre en live, cliquez sur **"Configurer"**.
 *Vous avez la possibilité de sélectionner un rôle déjà existant sur votre serveur ou de demander la création automatique d'un nouveau.*
 
-#### Restreindre un rôle en live à certains utilisateurs
+### Restreindre un rôle en live à certains utilisateurs
 
 Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres possédant un rôle spécifique défini. Pour cela, cliquez sur le bouton **"Restreindre le rôle"**.
 
