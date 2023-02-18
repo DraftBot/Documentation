@@ -6,7 +6,7 @@ description: >-
 
 ## Youtube
 
-* Ce module permet **d'afficher** un message lors de la ***publication d'une vidéo <mark style="color:orange;">[Youtube](https://www.youtube.com/?themeRefresh=1)</mark>.**
+* Ce module permet **d'afficher** un message lors de la **publication d'une vidéo <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>.**
 
 ![SocialNotif Youtube](../.gitbook/assets/socialnotifs/SocialNotif_Youtube.jpg)
 
