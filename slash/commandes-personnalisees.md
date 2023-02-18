@@ -1,3 +1,8 @@
+---
+description: >-
+  Avec DraftBot, vous avez la possibilité de créer vos propres commandes !
+---
+
 # Commandes personnalisées
 
 ## Configuration
