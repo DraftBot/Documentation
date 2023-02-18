@@ -14,7 +14,7 @@ description: >-
 
 *  Il peut y avoir **une seule notification <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> maximum** pour les serveurs **non-premiums**.
 
-    Il peut y avoir 5 notifications sociales Youtube maximales sur un serveur premium.
+    Il peut y avoir 5 notifications sociales YouTube maximales sur un serveur premium.
 
 ## Twitch
 
