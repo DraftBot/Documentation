@@ -4,8 +4,6 @@ description: >-
   membre rejoint le serveur, un salon vocal, ou lance un stream sur YouTube ou Twitch.
 ---
 
-# 🏷 Rôles automatiques
-
 # Configuration
 
 ## A l'arrivée
