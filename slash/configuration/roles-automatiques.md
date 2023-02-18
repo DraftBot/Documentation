@@ -4,11 +4,10 @@ description: >-
   membre rejoint le serveur, un salon vocal, ou lance un stream sur YouTube ou Twitch.
 ---
 
+
 # Configuration
 
 ## A l'arrivée
-
-### Ajouter ou retirer un rôle attribué à l'arrivée
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
@@ -51,8 +50,6 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 
 ## En vocal
 
-### Ajouter ou retirer un rôle automatique lorsqu'un membre est en vocal
-
 {% tabs %}
 {% tab title="Via la commande /config" %}
 Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜ 🏷️ Rôles Automatiques ➜ <mark style="color:blue;">"En vocal"</mark>.
@@ -63,11 +60,13 @@ Pour ajouter un rôle automatique à un membre en vocal, vous pouvez cliquer sur
 Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur **"Modifier"**.
 *Vous avez la possibilité de supprimer le rôle du serveur une fois le système désactivé.*
 
+
 ### Restreindre des salons aux membres en vocal
 
 Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des salons aux membres en vocal"** puis sélectionnez le salon en question. Seuls les membres possédant ce rôle pourront le voir.
 
-![![Menu d'accueil de la configuration des rôles automatiques en vocal](../../.gitbook/assets/autorole/voice.png)](../../.gitbook/assets/autorole/voice.png)
+![Menu d'accueil de la configuration des rôles automatiques en vocal](../../.gitbook/assets/autorole/voice.png)
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
