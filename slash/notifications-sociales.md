@@ -35,6 +35,18 @@ Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twit
 
 
 ## Reddit
+ 
+* Ce module permet d'afficher une notification lors d'une publication dans un subreddit.
+
+* Ce message est entièrement customisable, il peut être envoyé sous forme de **message classique ou sous forme d'embed**
+
+*  Il peut y avoir **une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**.
+
+    Il peut y avoir 10 notifications sociales Reddit maximales sur un serveur premium.
+
+* Voici un exemple de message de notification :
+
+    ![Illustration Reddit](../.gitbook/assets/socialnotifs/SocialNotif_Reddit.jpg)
 
 ## Epic Games
 
