@@ -23,9 +23,13 @@ Vous aurez aussi des indications au fil des chapitres, vous permettant d'avoir d
 
 #### __:warning: [_Si vous souhaitez contacter le <mark style="color: #cd6e57;">Support</mark>, retrouvez-nous sur Discord en <mark style="color: #cd6e57;">cliquant ici</mark>._](https://discord.com/invite/DrzKVU3)__
 
+{% embed url="https://draftbot.fr/commandes" %}
+Accéder aux commandes de **DraftBot**
+{% endembed %}
+
 <details>
 
-<summary>Liste des commandes</summary>
+<summary>Sommaire des commandes</summary>
 
 <mark>**Bot :**</mark> aide - botinfo - [config ](slash/configuration/)- panel - ping - premium - shards - support - votes
 
