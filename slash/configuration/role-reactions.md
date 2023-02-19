@@ -94,6 +94,8 @@ Vous devez d'abord choisir si vous voulez modifier des <mark style="color:blue;"
 
 {% tabs %}
 {% tab title="Réactions" %}
+
+<!-- Mettre dans la section de tout en bas -->
 Si vous choisissez de modifier des réactions, vous ne pouvez modifier **que le rôle qu'attribue la réaction**, et **pas la réaction elle-même**. Suivez alors les instructions du bot qui vous demandera de choisir le rôle-réaction que vous souhaitez modfier, puis d'indiquer par quel rôle vous souhaitez le remplacer.\
 
 
