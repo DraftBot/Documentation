@@ -2,13 +2,13 @@
 description: >-
   Avec le système de rôle réactions, vos membres pourront facilement choisir des
   rôles parmi une liste définie, que ce soit par un sélecteur, des boutons, ou
-  des émojis
+  des émojis.
 ---
 
 # 🔘 Rôle réactions
 
 {% hint style="info" %}
-Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages avec la commande <mark style="color: #cd6e57;">/envoyer</mark>, <mark style="color: #cd6e57;">/send</mark>, directement la configuration <mark style="color: #cd6e57;">/config système: Rôles réactions</mark> ou le [PanelWeb](https://www.draftbot.fr/dashboard) qui permet une personnalisation plus facile et complète.
+Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages avec la commande <mark style="color: #cd6e57;">/envoyer</mark>, <mark style="color: #cd6e57;">/send</mark>, directement la configuration <mark style="color: #cd6e57;">/config système: Rôles réactions</mark> ou le [PanelWeb](https://www.draftbot.fr/dashboard) qui permet une personnalisation plus facile et complète.
 {% endhint %}
 
 ![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
@@ -21,12 +21,12 @@ Les rôles-réactions ne peuvent être ajouté que sur des messages envoyés par
 
 * Indiquez le **titre** du rôle-réaction qui apparaîtra en haut de l'embed.
 * Précisez ou mentionnez le **rôle** que vous souhaiter ajouter lorsqu'un membre interagit avec le message.
-* Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction" "Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>
+* Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction" "Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>.
 * L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
 
 #### <mark style="color:blue;">Message existant de DraftBot</mark>
 
-SI vous décidez de choisir un message de DraftBot crée au préalable, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message) auquel vous souhaitez ajouter des rôles. Ensuite, **DraftBot** vous guidera pour la configuration des rôles-réactions.
+Si vous décidez de choisir un message de DraftBot créé au préalable, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message) auquel vous souhaitez ajouter un ou plusieurs rôles-réactions. Ensuite, **DraftBot** vous guidera pour la configuration des rôles-réactions.
 
 
 
