@@ -16,7 +16,7 @@ Il peut y avoir **une seule notification sociale <mark style="color:orange;">[Yo
 
 ## Twitch
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>.
 Si vous n'avez pas le premium, il existe une alternative appellée le <mark style="color:orange;">[Live Presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
 {% endhint %}
@@ -29,7 +29,21 @@ Voici une illustration du module :
 
 ## Live Presence
 
+Le module **Live Presence** consiste a envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (Symbolisé par la bulle violette et le triangle).
+
 ![Notification sociale de live presence](../.gitbook/assets/socialnotifs/view_presence.png)
+
+En fonction de la configuration du module sur ce serveur, **n'importe quel membre** peut avoir sa notification lorsqu'il est en stream.
+
+**Le nombre de notifications de Live Presence est illimité**, cela dit l'administrateur de votre serveur peut restreindre l'envoi de la notification à certains rôles. 
+
+{% hint style="info" %}
+L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch ou Youtube lié à Discord**. Plus d'information ci-dessous.
+{% endhint %}
+
+### Comment lier son compte Twitch ou Youtube à Discord
+
+Je vous invite à suivre <mark style="color:orange;">[ce tuto réalisé par Discord](https://support.discord.com/hc/fr/articles/8063233404823-Connexions-et-r%C3%B4les-li%C3%A9s-pour-les-membres-de-la-communaut%C3%A9)</mark> qui explique globalement comment ajouter des connexions ainsi que l'obtention des rôles liés sur un serveur.
 
 ## Reddit
  
