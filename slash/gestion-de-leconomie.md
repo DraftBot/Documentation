@@ -75,10 +75,10 @@ Depuis le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard)</mark
 
 Vous aurez la possibilité de configurer :
 
-- Le système d'économie
-- La configuration de la boutique
+- [Le système d'économie](https://docs.draftbot.fr/modules/configuration/economie#systeme-deconomie)
+- [La configuration de la boutique](https://docs.draftbot.fr/modules/configuration/economie#configuration-de-la-boutique)
 
-*Retrouvez le détail de configuration de chacun de ces boutons ci-dessous.*
+*Retrouvez le détail de la configuration ci-dessous.*
 
 ## Système d'économie
 
@@ -96,7 +96,7 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 ㅤ
 - "**✨Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur.
 - "**✨Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie.
-- "**Argent journalier**" ➜ Permet de définir l'argent que vos membres pourront gagner chaque jour via la commande <mark style="color:orange;">/journalier</mark>
+- "**Argent journalier**" ➜ Permet de définir l'argent que vos membres pourront gagner chaque jour via la commande <mark style="color:orange;">/journalier</mark>.
 - "**Argent de départ**" ➜ Une fois activé, vous pourrez de définir l'argent qu'auront vos membres à leurs arrivé sur le serveur.
 - "**Ratio d'argent**" ➜ Permet de définir la quantité d'argent gagnée par message.
 - "**Rôles sans gain d'argent**" ➜ Permet de définir les rôles qui ne gagneront pas d'argent.
@@ -113,9 +113,9 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 
 {% endtab %}
 
-{% tab title="Via le panel" %}
+{% tab title="Depuis le panel" %}
 
-<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de DraftBot</mark>.
+<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de DraftBot</mark>
 
 Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous sur la page <mark style="color:orange;">Économie</mark>.
 
@@ -142,18 +142,97 @@ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enr
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
-Pour créer un ****article** dans votre boutique, rendez-vous dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>.
-Vous avez ensuite la possibilité de :
+Rendez-vous d'abord dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>
 
+### Créer un article dans votre boutique
+Une fois le bouton <mark style="color:blue;">"Créer"</mark> cliquez un menu va s'ouvrir :
+
+- <mark style="color:blue;">"Rôle"</mark> ➜ Vos membres pourront acheter un rôle prédéfini.
+- <mark style="color:blue;">"Rôle temporaire"</mark> ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
+- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'expérience plus d'information [ici](https://docs.draftbot.fr/modules/niveaux)
+- <mark style="color:blue;">"Personnaliser"</mark> ➜ Vous pouvez vous même décidé de A à Z comment sera votre article (le titre ainsi que la description).
+ㅤ
+{% hint style="info" %}
+Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la récompense.
+{% endhint %}
+ㅤ
+- <mark style="color:blue;">"Objet"</mark> ➜ Un objet ou un item d'inventaire est un titre qui sera affiché dans la commande <mark style="color:orange;">/config</mark>
+
+{% hint style="info" %}
+Concernant le stock de vos articles, vous devez être <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> pour pouvoir modifier celui-ci. Si ce n'est pas le cas, le stock est **illimité**.
+{% endhint %}
+
+![Créer un article](../.gitbook/assets/economy/creer-artcile-boutique.png)
+
+### Modifier un article dans votre boutique
+Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton <mark style="color:blue;">"Modifier"</mark> :
+
+- <mark style="color:blue;">"Article"</mark> ➜ Modifier le nom de l'article.
+- <mark style="color:blue;">"Description"</mark> ➜ Modifier la description de l'article.
+- <mark style="color:blue;">"Prix"</mark> ➜ Modifier le prix de l'article.
+- <mark style="color:blue;">"✨Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique.
+
+
+*Les boutons précédés d'un "✨" indiquent que le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> est nécéssaire.*
+
+![Modifier un article](../.gitbook/assets/economy/modifer-article-boutique.png)
+
+{% hint style="warning" %}
+Si vous avez plusieurs articles dans votre boutique, vous devrez dans le sélecteur, sélectionner quel article vous souhaitez modifer.
+{% endhint %}
+ㅤ
+### Supprimer un article dans votre boutique
+Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color:blue;">"Supprimer"</mark> puis,  sélectionnez celui que vous souhaitez supprimer (dans le sélecteur).
+
+![Supprimer un article](../.gitbook/assets/economy/supprimer-article-boutique.png)
+
+### Réinitialiser votre boutique
+Si vous souhaitez réinitialiser votre boutique, cliquez sur le bouton <mark style="color:blue;">"Réinitialiser"</mark>
+
+{% hint style="warning" %}
+Une fois la boutique réinitiallisée, il vous sera impossible de récupérer ce que vouzs aviez fait.
+{% endhint %}
 
 ### Type de la boutique
+Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark style="color:blue;">"Type de la boutique"</mark>
 
 - <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
-- <mark style="color:blue;">"Noir"</mark> ➜ Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu !
+- <mark style="color:blue;">"Noir"</mark> ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
 
 {% endtab %}
+{% tab title="Depuis le panel" %}
+<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de DraftBot</mark>
+Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Économie".
 
-{% tab title="Via le panel" %}
+### Créer un article dans votre boutique
+Pour créer un article, cliquez sur le gros bouton <mark style="color:orange;">Créer un article</mark>
+
+![Créer un article](../.gitbook/assets/economy/dashboard-creer-article.png)
+
+Une pop-up s'ouvrira dans laquelle vous pourrez configurer votre article. 
+
+![Pop-up création d'un article](../.gitbook/assets/economy/dashboard-pop-up-creer-article.png)
+
+Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
+
+### Modifier un article dans votre boutique
+Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton nommé ci-dessus dans la liste de vos articles.
+
+![Modifier un article](../.gitbook/assets/economy/dashboard-modifier-article.png)
+
+### Supprimer un article dans votre boutique
+Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color:red;">"Supprimer"</mark>
+
+![Supprimer un article](../.gitbook/assets/economy/dashboard-supprimer-article.png)
+
+### Type de la boutique
+Pour modifier le type de la boutique, rendez vous sur le sélecteur (voir image) puis sélectionnez le modèle voulu.
+
+- <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
+- <mark style="color:blue;">"Noir"</mark> ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
+
+![Type de boutique](../.gitbook/assets/economy/dashboard-type-de-boutique.png)
+
 {% hint style="warning" %}
 Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 {% endhint %}
