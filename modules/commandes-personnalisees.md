@@ -7,8 +7,9 @@ description: >-
 
 ## Configuration
 
-<!-- Depuis Discord -->
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Vous pouvez créer une commande personnalisée avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
 DraftBot vous demandera alors les informations suivantes :

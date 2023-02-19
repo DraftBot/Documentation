@@ -35,7 +35,7 @@
 ## Commandes Slash ➖⚠️ EN COURS DE REDACTION <a href="#slash" id="slash"></a>
 
 - [📉 Niveaux](modules/niveaux.md)
-- [✏️ Commandes personnalisées](slash/commandes-personnalisees.md)
+- [✏️ Commandes personnalisées](modules/commandes-personnalisees.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
