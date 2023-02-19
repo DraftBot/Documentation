@@ -39,7 +39,7 @@ En fonction de la configuration du module sur ce serveur, **n'importe quel membr
 L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch ou Youtube lié à Discord**. Plus d'information ci-dessous.
 {% endhint %}
 
-### Comment lier son compte Twitch ou Youtube à Discord
+### Comment lier son compte Twitch ou YouTube à Discord
 
 Voici <mark style="color:orange;">[ce tuto réalisé par Discord](https://support.discord.com/hc/fr/articles/8063233404823-Connexions-et-r%C3%B4les-li%C3%A9s-pour-les-membres-de-la-communaut%C3%A9)</mark> qui explique globalement comment ajouter des connexions ainsi que l'obtention des rôles liés sur un serveur.
 
