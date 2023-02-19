@@ -8,7 +8,7 @@ description: >-
 
 * Ce module permet **d'afficher** un message lors de la **publication d'une vidéo <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>.**
 
-![SocialNotif Youtube](../.gitbook/assets/socialnotifs/SocialNotif_Youtube.jpg)
+![Notification sociale YouTube](../.gitbook/assets/socialnotifs/view_youtube.png)
 
 * Le message sera entièrement **customisable** par les administrateurs, permettant (en général) d'avoir accès a un rôle de notifications pour **la sortie des vidéos**.
 
@@ -28,11 +28,11 @@ Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twit
 
 * Illustration du module : 
 
-    ![SocialNotif Twitch](../.gitbook/assets/socialnotifs/SocialNotif_Twitch.jpg)
+    ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
 ## Live Presence
 
-
+![Notification sociale de live presence](../.gitbook/assets/socialnotifs/view_presence.png)
 
 ## Reddit
  
@@ -46,7 +46,7 @@ Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twit
 
 * Voici un exemple de message de notification :
 
-    ![Illustration Reddit](../.gitbook/assets/socialnotifs/SocialNotif_Reddit.jpg)
+    ![Notification sociale Reddit](../.gitbook/assets/socialnotifs/view_reddit.png)
 
 ## Epic Games
 
