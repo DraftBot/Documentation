@@ -31,7 +31,7 @@ Voici une illustration du module :
 
 Le module **Live Presence** consiste a envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (Symbolisé par la bulle violette et le triangle).
 
-![Notification sociale de live presence](../.gitbook/assets/socialnotifs/view_presence.png)
+![Notification sociale de Live Presence](../.gitbook/assets/socialnotifs/view_presence.png)
 
 En fonction de la configuration du module sur ce serveur, **n'importe quel membre** peut avoir sa notification lorsqu'il est en stream.
 
