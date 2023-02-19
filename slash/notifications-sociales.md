@@ -4,7 +4,7 @@ description: >-
 ---
 # Notifications sociales
 
-## Youtube
+## YouTube
 
 Ce module permet **d'afficher** un message lors de la **publication d'une vidéo <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>.**
 
