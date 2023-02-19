@@ -47,7 +47,7 @@ Je vous invite à suivre <mark style="color:orange;">[ce tuto réalisé par Disc
 
 ## Reddit
  
-Ce module permet d'afficher une notification lors d'une publication dans un subreddit.Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed**
+Ce module permet d'afficher une notification lors d'une publication dans un subreddit. Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed.**
 
 Il peut y avoir **une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**, contrairement aux serveurs premiums qui pourront avoir jusqu'à 10 notifications sociales Reddit.
 
