@@ -10,9 +10,9 @@ Ce module permet **d'afficher** un message lors de la **publication d'une vidéo
 
 ![Notification sociale YouTube](../.gitbook/assets/socialnotifs/view_youtube.png)
 
-Le message sera entièrement **customisable** par les administrateurs, permettant (en général) d'avoir accès a un rôle de notifications pour **la sortie des vidéos**.
+L'annonce est entièrement **customisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur les autres serveurs**, etc...
 
-Il peut y avoir **une seule notification sociale <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> maximum** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir 5 notifications sociales YouTube maximales.
+Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> différente** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir jusqu'à 5 chaînes YouTube différentes.
 
 ## Twitch
 
