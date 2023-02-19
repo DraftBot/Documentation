@@ -17,7 +17,7 @@ Il peut y avoir **une seule notification sociale <mark style="color:orange;">[Yo
 ## Twitch
 
 {% hint style="warning" %}
-Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>.
+Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>.
 Si vous n'avez pas le premium, il existe une alternative appellée le <mark style="color:orange;">[Live Presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
 {% endhint %}
 
