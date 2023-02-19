@@ -41,50 +41,51 @@ Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer
 
 ## <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
 
-* Envoyez le nom du rôle que vous souhaitez attribuer à l’interaction du rôle-réactions
-* Puis sélectionnez le type du rôle-réaction: [<mark style="color:blue;">"Réaction"</mark>](role-reactions.md#reaction) [<mark style="color:blue;">"Bouton"</mark>](role-reactions.md#bouton) <mark style="color:blue;">ou</mark> [<mark style="color:blue;">"Sélecteur"</mark>](role-reactions.md#selecteur)<mark style="color:blue;"></mark>
+* Envoyez le nom du rôle que vous souhaitez attribuer à l’interaction du rôle-réaction.
+* Puis sélectionnez le type du rôle-réaction : [<mark style="color:blue;">"Réaction"</mark>](role-reactions.md#reaction) [<mark style="color:blue;">"Bouton"</mark>](role-reactions.md#bouton) <mark style="color:blue;">ou</mark> [<mark style="color:blue;">"Sélecteur"</mark>](role-reactions.md#selecteur)<mark style="color:blue;"></mark>
 
 {% tabs %}
 {% tab title="Réaction" %}
 {% hint style="warning" %}
-Les émojis venants d'autres serveurs ne fonctionnent pas
+Les émojis venants d'autres serveurs ne fonctionnent pas !
 {% endhint %}
 
 \
-Indiquez simplement l'émoji que vous aimeriez ajouter en réaction. \
+Indiquez simplement l'émoji que vous aimeriez ajouter en réaction.
+\
 
 
 {% hint style="success" %}
-Et votre rôle-réaction, réaction Discord est crée avec succès !
+Et votre réaction de rôle-réaction est créé avec succès !
 {% endhint %}
 {% endtab %}
 
 {% tab title="Bouton" %}
-1. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> si vous souhaitez que votre bouton contienne un émoji. \
-   Si <mark style="color:green;">"Oui"</mark>, alors envoyez l'émoji que vous souhaitez afficher sur votre bouton
-2. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> si vous souhaitez afficher un texte parsonnalisé sur le bouton à la place du nom du rôle. \
+1. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez que votre bouton contienne un émoji ou non. \
+   Si <mark style="color:green;">"Oui"</mark>, alors envoyez l'émoji que vous souhaitez afficher sur votre bouton.
+2. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez afficher un texte personnalisé sur le bouton à la place du nom du rôle ou non. \
    Si <mark style="color:green;">"Oui"</mark>, envoyez le texte que vous souhaitez afficher.
-3. Sélectionnez la couleur du bouton que vous souhaitez créer entre <mark style="color:blue;">"Bleu"</mark>, "Gris" <mark style="color:green;">"Vert"</mark> et <mark style="color:red;">"Rouge"</mark>.\
+3. Sélectionnez la couleur du bouton que vous souhaitez créer entre <mark style="color:blue;">"Bleu"</mark>, "Gris", <mark style="color:green;">"Vert"</mark> et <mark style="color:red;">"Rouge"</mark>.\
 
 
 {% hint style="success" %}
-Et votre bouton rôle-réaction est bien crée avec les paramètres que vous avez defini&#x20;
+Et votre bouton de rôle-réaction est bien créé avec les paramètres que vous avez definis !
 {% endhint %}
 {% endtab %}
 
 {% tab title="Sélécteur" %}
-Le sélecteur dispose de plusieurs lignes, correspondants chacune à un rôle qui sera attribué lors de leur sélection.
+Le sélecteur dispose de plusieurs lignes, correspondant chacune à un rôle qui sera attribué lors de leur sélection.
 
-1. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> si vous souhaitez que votre ligne contienne un émoji. \
+1. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez que votre ligne contienne un émoji ou non. \
    Si <mark style="color:green;">"Oui"</mark>, alors envoyez l'émoji que vous souhaitez afficher au début de celle-ci.
-2. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> si vous souhaitez afficher un texte personnalisé à la place du nom du rôle. \
+2. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez afficher un texte personnalisé à la place du nom du rôle ou non. \
    Si <mark style="color:green;">"Oui"</mark>, envoyez le texte que vous souhaitez afficher.
-3. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> si vous souhaitez ajouter une description au rôle dans le sélecteur\
-   Si <mark style="color:green;">"Oui"</mark>, envoyez la description que vous voulez donner au rôle dans le sélecteur\
+3. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez ajouter une description au rôle dans le sélecteur ou non.\
+   Si <mark style="color:green;">"Oui"</mark>, envoyez la description que vous voulez donner au rôle dans le sélecteur.\
 
 
 {% hint style="success" %}
-Et votre sélécteur de rôle Discord est crée avec succès !
+Et votre sélécteur de rôle-réaction est créé avec succès !
 {% endhint %}
 {% endtab %}
 {% endtabs %}
@@ -95,7 +96,7 @@ Vous devez d'abord choisir si vous voulez modifier des <mark style="color:blue;"
 
 {% tabs %}
 {% tab title="Réactions" %}
-Si vous choisissez de modifier des réactions, **vous ne pouvez modifier que le rôle qu'attribue la réaction**. Suivez alors les instructions du bot qui vous demandera de choisir le rôle-réaction que vous souhaitez modfier pour ensuite indiquer par quel rôle vous voulez le remplacer.\
+Si vous choisissez de modifier des réactions, vous ne pouvez modifier **que le rôle qu'attribue la réaction**, et **pas la réaction elle-même**. Suivez alors les instructions du bot qui vous demandera de choisir le rôle-réaction que vous souhaitez modfier, puis d'indiquer par quel rôle vous souhaitez le remplacer.\
 
 
 {% hint style="success" %}
@@ -104,9 +105,9 @@ Et voilà, un message de confirmation vous dira que le rôle qu'attribue la réa
 {% endtab %}
 
 {% tab title="Boutons" %}
-Si vous décidez de modifier des boutons, vous pourrez modifier le <mark style="color:blue;">"Rôle"</mark>, L'<mark style="color:blue;">"Émoji"</mark>, le <mark style="color:blue;">"Nom"</mark> (texte) ou alors la <mark style="color:blue;">"couleur du bouton"</mark>.
+Si vous décidez de modifier des boutons, vous pourrez modifier le <mark style="color:blue;">"Rôle"</mark>, l'<mark style="color:blue;">"Émoji"</mark>, le <mark style="color:blue;">"Nom"</mark> (texte) ou alors la <mark style="color:blue;">"couleur"</mark> du bouton.
 
-* Lorsque vous avez choisi ce que vous souhaitez modifier, choisissez le rôle-réaction concerné
+* Lorsque vous avez choisi ce que vous souhaitez modifier, choisissez le rôle-réaction concerné.
 {% endtab %}
 
 {% tab title="Sélécteurs" %}
