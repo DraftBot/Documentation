@@ -23,8 +23,6 @@ Si vous n'avez pas le premium, il existe une alternative appellée le <mark styl
 
 **Les notifications sociales Twitch** permettent d'envoyer un message **customisable** lors du **lancement d'un live**. Il peut y avoir au maximum **5 notifications sociales Twitch différentes** par serveur.
 
-Voici une illustration du module : 
-
 ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
 ## Live Presence
