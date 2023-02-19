@@ -52,7 +52,6 @@ Les émojis venants d'autres serveurs ne fonctionnent pas !
 Indiquez simplement l'émoji que vous aimeriez ajouter en réaction.
 \
 
-
 {% hint style="success" %}
 Et votre réaction de rôle-réaction est créé avec succès !
 {% endhint %}
@@ -80,8 +79,7 @@ Le sélecteur dispose de plusieurs lignes, correspondant chacune à un rôle qui
    Si <mark style="color:green;">"Oui"</mark>, envoyez le texte que vous souhaitez afficher.
 3. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez ajouter une description au rôle dans le sélecteur ou non. \
    Si <mark style="color:green;">"Oui"</mark>, envoyez la description que vous voulez donner au rôle dans le sélecteur. \
-
-
+s
 {% hint style="success" %}
 Et votre sélécteur de rôle-réaction est créé avec succès !
 {% endhint %}
@@ -97,7 +95,6 @@ Vous devez d'abord choisir si vous voulez modifier des <mark style="color:blue;"
 
 <!-- Mettre dans la section de tout en bas -->
 Si vous choisissez de modifier des réactions, vous ne pouvez modifier **que le rôle qu'attribue la réaction**, et **pas la réaction elle-même**. Suivez alors les instructions du bot qui vous demandera de choisir le rôle-réaction que vous souhaitez modfier, puis d'indiquer par quel rôle vous souhaitez le remplacer.\
-
 
 {% hint style="success" %}
 Et voilà, un message de confirmation vous dira que le rôle qu'attribue la réaction a bien été modifié !
@@ -118,4 +115,3 @@ Si vous décidez de modifier des boutons, vous pourrez modifier le <mark style="
 ## <mark style="color:blue;">Supprimer</mark> un rôle-réaction
 
 ## Changer le <mark style="color:blue;">mode</mark> du message
-
