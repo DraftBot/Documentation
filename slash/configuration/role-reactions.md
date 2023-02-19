@@ -108,6 +108,9 @@ Si vous décidez de modifier des boutons, vous pourrez modifier le <mark style="
 {% endtab %}
 
 {% tab title="Sélécteurs" %}
+Si vous décidez de modifier un sélecteur, vous pourrez modifier le <mark style="color:blue;">"Texte du sélecteur"</mark> (qui s'affiche par défaut), le <mark style="color:blue;">"Rôle"</mark>, l'<mark style="color:blue;">"Émoji"</mark>, le <mark style="color:blue;">"Nom"</mark> ou la <mark style="color:blue;">"Description"</mark> d'un rôle.
+
+<!-- Ajouter une image ? -->
 
 {% endtab %}
 {% endtabs %}
