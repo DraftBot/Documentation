@@ -13,24 +13,24 @@ Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés pa
 
 ![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
 
-### <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
+## <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
 
 ![](<../../.gitbook/assets/rolereact/question.png>)
 
-#### <mark style="color:blue;">Nouveau message</mark>
+### <mark style="color:blue;">Nouveau message</mark>
 
 * Indiquez le **titre** du rôle-réaction qui apparaîtra en haut de l'embed.
 * Précisez ou mentionnez le **rôle** que vous souhaiter ajouter lorsqu'un membre interagit avec le message.
 * Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction" "Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>.
 * L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
 
-#### <mark style="color:blue;">Message existant de DraftBot</mark>
+### <mark style="color:blue;">Message existant de DraftBot</mark>
 
 Si vous décidez de choisir un message de DraftBot créé au préalable, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message) auquel vous souhaitez ajouter un ou plusieurs rôles-réactions. Ensuite, **DraftBot** vous guidera pour la configuration des rôles-réactions.
 
 
 
-### <mark style="color:blue;">Gérer un rôle-réaction existant</mark>
+## <mark style="color:blue;">Gérer un rôle-réaction existant</mark>
 
 Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message), ou le lien vers celui-ci. Vous aurez ensuite la possibilité de gérer les rôles-réactions du message de différentes façons :
 
@@ -39,7 +39,7 @@ Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer
 * <mark style="color:blue;"></mark>[<mark style="color:blue;">"Supprimer"</mark>](role-reactions.md#supprimer-un-role-reaction) un rôle-réaction.
 * Ou changer le [<mark style="color:blue;">"mode"</mark>](role-reactions.md#changer-le-mode-du-message) des rôles-réactions.
 
-#### <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
+## <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
 
 * Envoyez le nom du rôle que vous souhaitez attribuer à l’interaction du rôle-réactions
 * Puis sélectionnez le type du rôle-réaction: [<mark style="color:blue;">"Réaction"</mark>](role-reactions.md#reaction) [<mark style="color:blue;">"Bouton"</mark>](role-reactions.md#bouton) <mark style="color:blue;">ou</mark> [<mark style="color:blue;">"Sélecteur"</mark>](role-reactions.md#selecteur)<mark style="color:blue;"></mark>
@@ -89,7 +89,7 @@ Et votre sélécteur de rôle Discord est crée avec succès !
 {% endtab %}
 {% endtabs %}
 
-#### <mark style="color:blue;">Modifier</mark> un rôle réaction
+## <mark style="color:blue;">Modifier</mark> un rôle réaction
 
 Vous devez d'abord choisir si vous voulez modifier des <mark style="color:blue;"></mark> [<mark style="color:blue;">"Réactions"</mark>](role-reactions.md#emoji), des <mark style="color:blue;"></mark> [<mark style="color:blue;">"Boutons"</mark>](role-reactions.md#nom) ou des [<mark style="color:blue;">"Sélecteurs"</mark>](role-reactions.md#couleur-du-bouton).
 
@@ -114,7 +114,7 @@ Si vous décidez de modifier des boutons, vous pourrez modifier le <mark style="
 {% endtab %}
 {% endtabs %}
 
-#### <mark style="color:blue;">Supprimer</mark> un rôle-réaction
+## <mark style="color:blue;">Supprimer</mark> un rôle-réaction
 
-#### Changer le <mark style="color:blue;">mode</mark> du message
+## Changer le <mark style="color:blue;">mode</mark> du message
 
