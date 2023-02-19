@@ -32,7 +32,7 @@
   - [RoleReact](prefix/prefixe/rolereact.md)
   - [Rappel](prefix/prefixe/rappel.md)
 
-## Commandes Slash ➖⚠️ EN COURS DE REDACTION <a href="#slash" id="slash"></a>
+## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
 - [📉 Niveaux](modules/niveaux.md)
 - [✏️ Commandes personnalisées](modules/commandes-personnalisees.md)
