@@ -46,6 +46,8 @@ Un message vous sera envoyé par **DraftBot** pour savoir si vous voulez configu
 
 ### Système de niveaux
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 * ***Activer le système*** ➜ Permet d'activer ou désactiver le système.
 * ***Activer l'xp en vocal*** ➜ Une fois activé, les membres pourront gagner de l'expérience en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") ***(✨ premium)***.
@@ -65,6 +67,7 @@ Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'expérience
 
 {% endtab %}
 
+<!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
@@ -82,6 +85,8 @@ Pour configurer le système de niveau, accédez au panel via le lien ci-dessus e
 
 ### Récompenses de niveau
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Pour créer une récompense, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Récompenses de niveaux". 
 
@@ -98,6 +103,7 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 
 {% endtab %}
 
+<!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
@@ -114,6 +120,8 @@ Pour créer une récompense, appuyez sur le bouton **"Créer une récompense"** 
 
 ### Passages de niveaux
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Pour configurer les annonces de passages de niveaux, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis cliquez sur "Annonce d'un nouveau niveau".
 
@@ -126,6 +134,7 @@ Vous avez ensuite la possibilité de :
 
 {% endtab %}
 
+<!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
@@ -148,6 +157,8 @@ Notez qu'il est possible de voir la liste des variables disponibles en entrant l
 
 ### Réception de récompenses
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Pour créer une annonce de nouveau niveau, rendez-vous dans la catégorie "Niveaux" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Annonce d'une récompense".
 
@@ -160,6 +171,7 @@ Vous avez ensuite la possibilité de :
 
 {% endtab %}
 
+<!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 

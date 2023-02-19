@@ -1,9 +1,15 @@
+---
+description: >-
+  Avec DraftBot, vous avez la possibilité de créer vos propres commandes !
+---
+
 # Commandes personnalisées
 
 ## Configuration
 
-<!-- Depuis Discord -->
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Vous pouvez créer une commande personnalisée avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
 DraftBot vous demandera alors les informations suivantes :
@@ -25,7 +31,6 @@ Lorsque vous exécutez une commande personnalisée, votre texte de déclenchemen
 {% endtab %}
 
 <!-- Depuis le panel web -->
-{% tabs %}
 {% tab title="Depuis le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
@@ -55,8 +60,8 @@ Voici les différentes variables d'arguments possibles avec **DraftBot** :
 >`$2+` ➜ Tout ce qui est saisi après la commande sauf la première valeur.
 
 {% hint style="info" %}
-**Exemple de commande personnalisée avec des arguments :**\
-* Message configuré : `$1 est maintenant $2+`\
-* Commande de l'utilisateur : `!adjectif @Jules fort et beau`\
+**Exemple de commande personnalisée avec des arguments :**
+* Message configuré : `$1 est maintenant $2+`
+* Commande de l'utilisateur : `!adjectif @Jules fort et beau`
 * Réponse de DraftBot : @Jules _est maintenant_ fort et beau
 {% endhint %}
