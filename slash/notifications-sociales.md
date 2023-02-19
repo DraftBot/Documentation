@@ -27,7 +27,7 @@ Si vous n'avez pas le premium, il existe une alternative appellée le <mark styl
 
 ## Live Presence
 
-Le module **Live Presence** consiste a envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (Symbolisé par la bulle violette et le triangle).
+Le module **Live Presence** consiste à envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (symbolisé par la bulle violette et le triangle).
 
 ![Notification sociale de Live Presence](../.gitbook/assets/socialnotifs/view_presence.png)
 
