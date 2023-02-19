@@ -6,29 +6,26 @@ description: >-
 
 ## Youtube
 
-* Ce module permet **d'afficher** un message lors de la **publication d'une vidéo <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>.**
+Ce module permet **d'afficher** un message lors de la **publication d'une vidéo <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>.**
 
 ![Notification sociale YouTube](../.gitbook/assets/socialnotifs/view_youtube.png)
 
-* Le message sera entièrement **customisable** par les administrateurs, permettant (en général) d'avoir accès a un rôle de notifications pour **la sortie des vidéos**.
+Le message sera entièrement **customisable** par les administrateurs, permettant (en général) d'avoir accès a un rôle de notifications pour **la sortie des vidéos**.
 
-*  Il peut y avoir **une seule notification <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> maximum** pour les serveurs **non-premiums**.
-
-    Il peut y avoir 5 notifications sociales YouTube maximales sur un serveur premium.
+Il peut y avoir **une seule notification sociale <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> maximum** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir 5 notifications sociales YouTube maximales.
 
 ## Twitch
 
 {% hint style="info" %}
-Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>
+Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>.
+Si vous n'avez pas le premium, il existe une alternative appellée le <mark style="color:orange;">[Live Presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
 {% endhint %}
 
-* **Les notifications sociales Twitch** permettent d'envoyer un message **customisable** lors du **lancement d'un live**.
+**Les notifications sociales Twitch** permettent d'envoyer un message **customisable** lors du **lancement d'un live**. Il peut y avoir au maximum **5 notifications sociales Twitch différentes** par serveur.
 
-* Il peut y avoir au maximum **5 notifications sociales Twitch différentes**.
+Voici une illustration du module : 
 
-* Illustration du module : 
-
-    ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
+![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
 ## Live Presence
 
@@ -36,17 +33,13 @@ Les Notifications Sociales <mark style="color:orange;">[Twitch](https://www.twit
 
 ## Reddit
  
-* Ce module permet d'afficher une notification lors d'une publication dans un subreddit.
+Ce module permet d'afficher une notification lors d'une publication dans un subreddit.Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed**
 
-* Ce message est entièrement customisable, il peut être envoyé sous forme de **message classique ou sous forme d'embed**
+Il peut y avoir **une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**, contrairement aux serveurs premiums qui pourront avoir jusqu'à 10 notifications sociales Reddit.
 
-*  Il peut y avoir **une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**.
+Voici un exemple de message de notification :
 
-    Il peut y avoir 10 notifications sociales Reddit maximales sur un serveur premium.
-
-* Voici un exemple de message de notification :
-
-    ![Notification sociale Reddit](../.gitbook/assets/socialnotifs/view_reddit.png)
+![Notification sociale Reddit](../.gitbook/assets/socialnotifs/view_reddit.png)
 
 ## Epic Games
 
