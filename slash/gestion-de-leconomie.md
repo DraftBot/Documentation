@@ -61,12 +61,6 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 - <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
 - <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
 
-{% hint style="info" %}
-**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
-*Exemple : "🍒 Cerises"*
-{% endhint %}
-
-
 # Configuration
 
 Depuis le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>, vous pouvez configurer le système d'économie. 
@@ -117,7 +111,7 @@ Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), ren
 
 Si vous ne voyez aucune option, c'est normal car il vous faut activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
-![Activation du système d'économie](../.gitbook/assets/economy/dashboard-activation-systeme.png)
+![Activation du système d'économie](../.gitbook/assets/economy/dashboard-activate-system.png)
 
 Comme vous l'avez peut être remarqué, les sous-catégories (voir image) sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour comparer les options de configuration.
 
@@ -147,7 +141,7 @@ Une fois le bouton <mark style="color:blue;">"Créer"</mark> cliqué un menu va 
 - <mark style="color:blue;">"Rôle temporaire"</mark> ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
 - <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'expérience (plus d'information [ici](https://docs.draftbot.fr/modules/niveaux))
 - <mark style="color:blue;">"Personnaliser"</mark> ➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
-ㅤ
+ㅤ 
 {% hint style="info" %}
 Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la récompense.
 {% endhint %}
@@ -155,7 +149,12 @@ Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la 
 - <mark style="color:blue;">"Objet"</mark> ➜ Un objet ou un item d'inventaire est un titre qui sera affiché dans la commande <mark style="color:orange;">/config</mark>
 
 - <mark style="color:blue;">"Objet"</mark> ➜ Créer un item qui sera affiché dans votre <mark style="color:orange;">/inventaire</mark>.
-
+ㅤ 
+{% hint style="info" %}
+**Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
+*Exemple : "🍒 Cerises"*
+{% endhint %}
+ㅤ 
 ### Modifier un article dans votre boutique
 Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton <mark style="color:blue;">"Modifier"</mark> :
 
@@ -197,12 +196,13 @@ Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-
 ### Créer un article dans votre boutique
 Pour créer un article, cliquez sur le bouton <mark style="color:orange;">Créer un article</mark>
 
-![Créer un article](../.gitbook/assets/economy/dashboard-creer-article.png)
+![Créer un article](../.gitbook/assets/economy/dashboard-create-article.png)
 
 Une pop-up s'ouvrira dans laquelle vous pourrez configurer votre article. 
 
-![Pop-up création d'un article](../.gitbook/assets/economy/dashboard-pop-up-creer-article.png)
-Pour créer un article, cliquez sur le bouton <mark style="color:orange;">Créer un article</mark>Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
+![Pop-up création d'un article](../.gitbook/assets/economy/dashboard-pop-up-create-article.png)
+
+Pour créer un article, cliquez sur le bouton <mark style="color:orange;">Créer un article</mark>. Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
 ㅤ 
 {% hint style="info" %}
 Si vous souhaitez mettre des emojies sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
