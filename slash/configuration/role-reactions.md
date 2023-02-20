@@ -14,11 +14,29 @@ Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés pa
 * *Depuis l'Embed Creator du [panel web](https://www.draftbot.fr/dashboard)* : Permet la création complète et facile d'un message ou d'un embed entièrement personnalisable (description, champs, image...).
 {% endhint %}
 
-![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
+## Accéder à la configuration
 
-Pour accéder au menu des rôles-réactions, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>. Deux choix s'offrent alors à vous :
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>. Deux choix s'offrent alors à vous :
 * ***Créer un nouveau rôle-réaction*** ➜ Accède au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
 * ***Gérer un rôle-réaction existant*** ➜ Permet de [gérer un rôle-réaction existant](role-reactions.md#gérer-un-rôle-réaction-existant) sur le message dont vous renseignez l'identifiant.
+
+![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
+{% endtab %}
+
+{% tab title="Via le panel" %}
+
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
+Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Rôles-Réactions" sur le serveur de votre choix.
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
+<!-- Inclure un screen -->
+
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
 
@@ -40,7 +58,7 @@ Pour accéder au menu des rôles-réactions, rendez-vous dans la catégorie "Rô
 
 ## <mark style="color:blue;">Gérer un rôle-réaction existant</mark>
 
-Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message), ou le lien vers celui-ci. Vous aurez ensuite accès au menu de gestion de rôle-réaction :
+Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer le lien ou l'[identifiant du message](../../autres/recuperer-un-identifiant.md#identifiant-dun-message). Vous aurez ensuite accès au menu de gestion de rôle-réaction :
 * ***Ajouter*** ➜ [Ajouter](role-reactions.md#ajouter-un-nouveau-rôle-reaction) un nouveau rôle-réaction.
 * ***Modifier*** ➜ [Modifier](role-reactions.md#modifier-un-rôle-réaction) un rôle-réaction.
 * ***Supprimer*** ➜ [Supprimer](role-reactions.md#supprimer-un-rôle-réaction) un rôle-réaction.
