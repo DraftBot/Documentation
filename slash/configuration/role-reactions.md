@@ -16,6 +16,10 @@ Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés pa
 
 ![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
 
+En entrant la commande <mark style="color:orange;">/config système:Rôles-Réactions</mark>, ou en sélectionnant **"🔘 Rôles-Réactions"** dans le menu déroulant de l'embed de la commande <mark style="color:orange;">/config</mark>, vous accédez au menu ci-dessus. Deux choix s'offrent alors à vous :
+* ***Créer un nouveau rôle-réaction*** ➜ Accède au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
+* ***Gérer un rôle-réaction existant*** ➜ Permet de [gérer un rôle-réaction existant](role-reactions.md#gérer-un-rôle-réaction-existant) sur le message dont vous renseignez l'identifiant.
+
 ## <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
 
 ![](<../../.gitbook/assets/rolereact/question.png>)
