@@ -8,7 +8,7 @@ description: >-
 
 ## Note
 
-Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>\
+Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
 
 ![Note donnée à un membre](../.gitbook/assets/moderation/note.png)
