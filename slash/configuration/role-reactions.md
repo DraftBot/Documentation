@@ -36,7 +36,7 @@ Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer
 * ***Supprimer*** ➜ [Supprimer](role-reactions.md#supprimer-un-rôle-réaction) un rôle-réaction.
 * ***Mode*** ➜ [Changer le mode](role-reactions.md#changer-le-mode-du-message) des rôles-réactions présents sur le message.
 
-## <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
+### <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
 
 * Envoyez le nom du rôle que vous souhaitez attribuer à l’interaction du rôle-réaction.
 * Puis sélectionnez le type du rôle-réaction : [<mark style="color:blue;">"Réaction"</mark>](role-reactions.md#reaction) [<mark style="color:blue;">"Bouton"</mark>](role-reactions.md#bouton) <mark style="color:blue;">ou</mark> [<mark style="color:blue;">"Sélecteur"</mark>](role-reactions.md#selecteur)<mark style="color:blue;"></mark>
@@ -85,7 +85,7 @@ Et votre sélécteur de rôle-réaction est créé avec succès !
 {% endtab %}
 {% endtabs %}
 
-## <mark style="color:blue;">Modifier</mark> un rôle réaction
+### <mark style="color:blue;">Modifier</mark> un rôle réaction
 
 Vous devez d'abord choisir si vous voulez modifier des <mark style="color:blue;"></mark> [<mark style="color:blue;">"Réactions"</mark>](role-reactions.md#emoji), des <mark style="color:blue;"></mark> [<mark style="color:blue;">"Boutons"</mark>](role-reactions.md#nom) ou des [<mark style="color:blue;">"Sélecteurs"</mark>](role-reactions.md#couleur-du-bouton).
 
@@ -114,6 +114,6 @@ Si vous décidez de modifier un sélecteur, vous pourrez modifier le <mark style
 {% endtab %}
 {% endtabs %}
 
-## <mark style="color:blue;">Supprimer</mark> un rôle-réaction
+### <mark style="color:blue;">Supprimer</mark> un rôle-réaction
 
-## Changer le <mark style="color:blue;">mode</mark> du message
+### Changer le <mark style="color:blue;">mode</mark> du message
