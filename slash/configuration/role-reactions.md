@@ -24,16 +24,19 @@ Pour accéder au menu des rôles-réactions, rendez-vous dans la catégorie "Rô
 
 ![](<../../.gitbook/assets/rolereact/question.png>)
 
-### <mark style="color:blue;">Nouveau message</mark>
-
+{% tabs %}
+{% tab title="Nouveau message" %}
 * Indiquez le **titre** du rôle-réaction qui apparaîtra en haut de l'embed.
 * Précisez ou mentionnez le **rôle** que vous souhaiter ajouter lorsqu'un membre interagit avec le message.
 * Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction"</mark>, <mark style="color:blue;">"Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>.
 * L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
+{% endtab %}
 
-### <mark style="color:blue;">Message existant de DraftBot</mark>
-
-Si vous décidez de choisir un message de DraftBot créé au préalable, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message) auquel vous souhaitez ajouter un ou plusieurs rôles-réactions. Ensuite, **DraftBot** vous guidera pour la configuration des rôles-réactions.
+{% tab title="Message existant de DraftBot" %}
+* Indiquez le lien ou l'[**identifiant du message**](../../autres/recuperer-un-identifiant.md#identifiant-dun-message) auquel vous souhaitez ajouter un ou plusieurs rôles-réactions.
+* L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
+{% endtab %}
+{% endtabs %}
 
 ## <mark style="color:blue;">Gérer un rôle-réaction existant</mark>
 
