@@ -30,12 +30,11 @@ Si vous décidez de choisir un message de DraftBot créé au préalable, vous de
 
 ## <mark style="color:blue;">Gérer un rôle-réaction existant</mark>
 
-Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message), ou le lien vers celui-ci. Vous aurez ensuite la possibilité de gérer les rôles-réactions du message de différentes façons :
-
-* <mark style="color:blue;"></mark>[<mark style="color:blue;">"Ajouter"</mark>](role-reactions.md#ajouter-un-nouveau-role-reaction) un rôle-réaction.
-* <mark style="color:blue;"></mark>[<mark style="color:blue;">"Modifier"</mark>](role-reactions.md#modifier-un-role-reaction) un rôle-réaction.
-* <mark style="color:blue;"></mark>[<mark style="color:blue;">"Supprimer"</mark>](role-reactions.md#supprimer-un-role-reaction) un rôle-réaction.
-* Ou changer le [<mark style="color:blue;">"mode"</mark>](role-reactions.md#changer-le-mode-du-message) des rôles-réactions.
+Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer l'[identifiant du message](../../autres/recuperer-un-identifiant.md#message), ou le lien vers celui-ci. Vous aurez ensuite accès au menu de gestion de rôle-réaction :
+* ***Ajouter*** ➜ [Ajouter](role-reactions.md#ajouter-un-nouveau-rôle-reaction) un nouveau rôle-réaction.
+* ***Modifier*** ➜ [Modifier](role-reactions.md#modifier-un-rôle-réaction) un rôle-réaction.
+* ***Supprimer*** ➜ [Supprimer](role-reactions.md#supprimer-un-rôle-réaction) un rôle-réaction.
+* ***Mode*** ➜ [Changer le mode](role-reactions.md#changer-le-mode-du-message) des rôles-réactions présents sur le message.
 
 ## <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
 
@@ -79,7 +78,7 @@ Le sélecteur dispose de plusieurs lignes, correspondant chacune à un rôle qui
    Si <mark style="color:green;">"Oui"</mark>, envoyez le texte que vous souhaitez afficher.
 3. Sélectionnez <mark style="color:green;">"Oui"</mark> ou <mark style="color:red;">"Non"</mark> selon si vous souhaitez ajouter une description au rôle dans le sélecteur ou non. \
    Si <mark style="color:green;">"Oui"</mark>, envoyez la description que vous voulez donner au rôle dans le sélecteur. \
-s
+
 {% hint style="success" %}
 Et votre sélécteur de rôle-réaction est créé avec succès !
 {% endhint %}
