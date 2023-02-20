@@ -5,9 +5,9 @@ description: >-
 
 # Gestion de l'économie
 
-### Votre Argent
+## Votre Argent
 
-Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "membre" avec <mark style="color:orange;">/argent \[membre]</mark>. Pour d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
+Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[membre]</mark>. Pour d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
 
 ![Carte d'économie](../.gitbook/assets/economy/money.png)
 
@@ -19,7 +19,7 @@ Il vous faut d'abord configurer ce système.
 {% endhint %}
 
 
-### Modifier l'argent des utilisateurs
+## Modifier l'argent des utilisateurs
 
 Il existe plusieurs commandes pour gérer l'argent de vos membres :
 
@@ -29,16 +29,16 @@ Il existe plusieurs commandes pour gérer l'argent de vos membres :
 - <mark style="color:orange;">/adminargent réinitialiser serveur</mark> ➜ Remettre à zéro l'argent de tout le serveur.
 - <mark style="color:orange;">/dropargent</mark> ➜ Créer un message qui offre de l'argent au premier qui clique sur le bouton.
 
-### Classement
+## Classement
 
 Grâce à la commande <mark style="color:orange;">/topargent</mark> vous avez accès au classement économique du serveur. Vous y verrez les cinq premiers membres ainsi que votre position. Pour voir l'ensemble du classement, cliquez sur le bouton **"Voir l'ensemble du classement"** situé sous le message de **DraftBot**.
 
 ![Classement d'argent des membres du serveur](../.gitbook/assets/economy/topmoney.png)
 
 
-### Boutique
+## Boutique
 
-Vous pouvez y acheter des rôles (temporaire ou non), de l'expérience, des objets d'inventaire ou des articles personnalisés.
+Vous pouvez dans la boutique acheter des rôles (temporaire ou non), de l'expérience, des objets d'inventaire ou des articles personnalisés.
 Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark>\.
 
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
@@ -51,7 +51,7 @@ Le marché noir est une variante de la boutique consistant à se supprimer au bo
 {% endhint %}
 
 
-### Objets d'inventaire
+## Objets d'inventaire
 
 Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur avec des objets d'inventaire. Une fois achetés ou gagnés, vous pouvez effectuer les commandes :
 - <mark style="color:orange;">/item échanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de son choix.
@@ -64,8 +64,6 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie du serveur 
 {% hint style="info" %}
 **Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
 *Exemple : "🍒 Cerises"*
-
-Si vous créez vos items depuis le <mark style="color:orange;">[panel](https://draftbot.fr/dashboard/)</mark>, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:orange;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark>. (en mettant un antislash (\\) devant celui-ci).
 {% endhint %}
 
 
@@ -85,29 +83,27 @@ Vous aurez la possibilité de configurer :
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
-Voici les différants boutons ainsi que leurs utilités :
+Voici les différents boutons ainsi que leurs utilités :
 
 - "**Activer le système**" ➜ Permet d'activer ou désactiver le système.
-- "**✨Activer l'argent en vocal**" ➜ Une fois activé, les membres pourront gagner de l'argent en vocal.
+- "**Activer l'argent en vocal**" ➜ Une fois activé, les membres pourront gagner de l'argent en vocal. ***(✨ premium)***
 ㅤ
 {% hint style="info" %}
 Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK" ; avoir un micro actif.
 {% endhint %}
 ㅤ
-- "**✨Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur.
-- "**✨Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie.
+- "**Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur. ***(✨ premium)***
+- "**Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie. ***(✨ premium)***
 - "**Argent journalier**" ➜ Permet de définir l'argent que vos membres pourront gagner chaque jour via la commande <mark style="color:orange;">/journalier</mark>.
-- "**Argent de départ**" ➜ Une fois activé, vous pourrez de définir l'argent qu'auront vos membres à leurs arrivé sur le serveur.
+- "**Argent de départ**" ➜ Une fois activé, vous pourrez de définir l'argent qu'auront vos membres à leur arrivée sur le serveur.
 - "**Ratio d'argent**" ➜ Permet de définir la quantité d'argent gagnée par message.
 - "**Rôles sans gain d'argent**" ➜ Permet de définir les rôles qui ne gagneront pas d'argent.
 - "**Salons sans gain d'argent**" ➜ Permet de définir les salons où les membres ne gagneront pas d'argent.
 - "**Rôles boosters**" ➜ Permet de donner plus d'argent à un membre s'il possède un certain rôle.
-- "**Salons boosters**" ➜ Permet de donner plus d'argent à un membre si il envoie son message dans un certain salon.
+- "**Salons boosters**" ➜ Permet de donner plus d'argent à un membre s'il envoie son message dans un certain salon.
 - "**Activer le reset de l'argent lors du départ**" ➜ Une fois activé, les membres perdront toute leur argent s'ils quittent le serveur.
 - "**Activer les longs messages comptent double argent**" ➜ Si un de vos membres fait un message de plus de 250 caractères, il gagnera le double d'expérience.
-- "**Activer le gain d'argent dans les fils**" ➜ Une fois cette option activée, vos membres pourront gagner de l'argent dans les fils et posts de **forum**.
-
-*Les boutons précédés d'un "✨" indiquent que le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> est nécéssaire.*
+- "**Activer le gain d'argent dans les fils**" ➜ Une fois cette option activée, vos membres pourront gagner de l'argent dans les fils et posts.
 
 ![Menu de configuration du système d'économie](../.gitbook/assets/economy/config-systeme-economie.png)
 
@@ -115,9 +111,9 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 
 {% tab title="Depuis le panel" %}
 
-<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de DraftBot</mark>
+<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de **DraftBot**</mark>
 
-Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous sur la page <mark style="color:orange;">Économie</mark>.
+Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page <mark style="color:orange;">"Économie"</mark>.
 
 Si vous ne voyez aucune option, c'est normal car il vous faut activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
@@ -145,12 +141,12 @@ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enr
 Rendez-vous d'abord dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>
 
 ### Créer un article dans votre boutique
-Une fois le bouton <mark style="color:blue;">"Créer"</mark> cliquez un menu va s'ouvrir :
+Une fois le bouton <mark style="color:blue;">"Créer"</mark> cliqué un menu va s'ouvrir :
 
 - <mark style="color:blue;">"Rôle"</mark> ➜ Vos membres pourront acheter un rôle prédéfini.
 - <mark style="color:blue;">"Rôle temporaire"</mark> ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
-- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'expérience plus d'information [ici](https://docs.draftbot.fr/modules/niveaux)
-- <mark style="color:blue;">"Personnaliser"</mark> ➜ Vous pouvez vous même décidé de A à Z comment sera votre article (le titre ainsi que la description).
+- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'expérience (plus d'information [ici](https://docs.draftbot.fr/modules/niveaux))
+- <mark style="color:blue;">"Personnaliser"</mark> ➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
 ㅤ
 {% hint style="info" %}
 Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la récompense.
@@ -158,11 +154,7 @@ Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la 
 ㅤ
 - <mark style="color:blue;">"Objet"</mark> ➜ Un objet ou un item d'inventaire est un titre qui sera affiché dans la commande <mark style="color:orange;">/config</mark>
 
-{% hint style="info" %}
-Concernant le stock de vos articles, vous devez être <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> pour pouvoir modifier celui-ci. Si ce n'est pas le cas, le stock est **illimité**.
-{% endhint %}
-
-![Créer un article](../.gitbook/assets/economy/creer-artcile-boutique.png)
+- <mark style="color:blue;">"Objet"</mark> ➜ Créer un item qui sera affiché dans votre <mark style="color:orange;">/inventaire</mark>.
 
 ### Modifier un article dans votre boutique
 Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton <mark style="color:blue;">"Modifier"</mark> :
@@ -170,10 +162,8 @@ Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles,
 - <mark style="color:blue;">"Article"</mark> ➜ Modifier le nom de l'article.
 - <mark style="color:blue;">"Description"</mark> ➜ Modifier la description de l'article.
 - <mark style="color:blue;">"Prix"</mark> ➜ Modifier le prix de l'article.
-- <mark style="color:blue;">"✨Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique.
+- <mark style="color:blue;">"Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique. ***(✨ premium)***
 
-
-*Les boutons précédés d'un "✨" indiquent que le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> est nécéssaire.*
 
 ![Modifier un article](../.gitbook/assets/economy/modifer-article-boutique.png)
 
@@ -182,7 +172,7 @@ Si vous avez plusieurs articles dans votre boutique, vous devrez dans le sélect
 {% endhint %}
 ㅤ
 ### Supprimer un article dans votre boutique
-Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color:blue;">"Supprimer"</mark> puis,  sélectionnez celui que vous souhaitez supprimer (dans le sélecteur).
+Si vous avez plusieurs articles dans votre boutique, vous devrez, dans le sélecteur, sélectionner l'article que vous voulez modifier.
 
 ![Supprimer un article](../.gitbook/assets/economy/supprimer-article-boutique.png)
 
@@ -190,7 +180,7 @@ Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color
 Si vous souhaitez réinitialiser votre boutique, cliquez sur le bouton <mark style="color:blue;">"Réinitialiser"</mark>
 
 {% hint style="warning" %}
-Une fois la boutique réinitiallisée, il vous sera impossible de récupérer ce que vouzs aviez fait.
+ne fois la boutique réinitialisée, il vous sera impossible de récupérer ce que vous aviez fait.
 {% endhint %}
 
 ### Type de la boutique
@@ -201,19 +191,23 @@ Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark s
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
-<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de DraftBot</mark>
+<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de **DraftBot**</mark>
 Une fois sur le panel de DraftBot (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Économie".
 
 ### Créer un article dans votre boutique
-Pour créer un article, cliquez sur le gros bouton <mark style="color:orange;">Créer un article</mark>
+Pour créer un article, cliquez sur le bouton <mark style="color:orange;">Créer un article</mark>
 
 ![Créer un article](../.gitbook/assets/economy/dashboard-creer-article.png)
 
 Une pop-up s'ouvrira dans laquelle vous pourrez configurer votre article. 
 
 ![Pop-up création d'un article](../.gitbook/assets/economy/dashboard-pop-up-creer-article.png)
-
-Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
+Pour créer un article, cliquez sur le bouton <mark style="color:orange;">Créer un article</mark>Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
+ㅤ 
+{% hint style="info" %}
+Si vous souhaitez mettre des emojies sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
+{% endhint %}
+ㅤ 
 
 ### Modifier un article dans votre boutique
 Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton nommé ci-dessus dans la liste de vos articles.
