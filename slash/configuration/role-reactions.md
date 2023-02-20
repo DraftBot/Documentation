@@ -38,17 +38,51 @@ Pour configurer le système de rôles-réactions, accédez au panel via le lien 
 {% endtab %}
 {% endtabs %}
 
-## <mark style="color:blue;">Créer un nouveau rôle-réaction</mark>
+## Configuration
 
 ![](<../../.gitbook/assets/rolereact/question.png>)
 
+### Créer un nouveau rôle-réaction
+
+<!-- Depuis Discord -->
 {% tabs %}
-{% tab title="Nouveau message" %}
-* Indiquez le **titre** du rôle-réaction qui apparaîtra en haut de l'embed.
-* Précisez ou mentionnez le **rôle** que vous souhaiter ajouter lorsqu'un membre interagit avec le message.
-* Choisissez le format du rôle-réaction, entre <mark style="color:blue;">"Réaction"</mark>, <mark style="color:blue;">"Bouton"</mark> ou <mark style="color:blue;">"Sélecteur"</mark>.
-* L'intégralité de la création est guidée par **DraftBot**, il vous suffit de suivre ses consignes.
+{% tab title="Via la commande /config" %}
+Pour créer un rôle-réaction sur un nouveau message, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Créer un nouveau rôle-réaction".
+
+Une fois fait, DraftBot vous demandera à partir de quel message vous souhaitez créer votre rôle-réaction :
+* ***Nouveau message*** ➜ Créera un embed au titre personnalisé et au footer prédéfini.
+* ***Message existant de DraftBot*** ➜ Récupèrera un message de DraftBot ayant déjà été envoyé.
+
+L'intégralité de la création est ensuite guidée par **DraftBot**, il vous suffit de suivre ses consignes.
 {% endtab %}
+
+<!-- Depuis le panel web -->
+{% tab title="Via le panel" %}
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
+Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Rôles-Réactions".
+
+Créez un message et / ou un embed avec l'Embed Creator se trouvant au centre de la page.
+
+Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", un "Bouton" ou un "Sélecteur". Vous pouvez en ajouter plusieurs sur un même message.
+
+Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez un salon dans lequel envoyer le rôle-réaction.
+
+{% hint style="success" %}
+Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
+{% endhint %}
+
+<!-- Ajouter une image -->
+
+{% hint style="info" %}
+Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de la "carte" dudit rôle-réaction.
+{% endhint %}
+{% endtab %}
+{% endtabs %}
+
+### Créer un rôle-réaction sur un message existant de DraftBot
+
+{% tabs %}
 
 {% tab title="Message existant de DraftBot" %}
 * Indiquez le lien ou l'[**identifiant du message**](../../autres/recuperer-un-identifiant.md#identifiant-dun-message) auquel vous souhaitez ajouter un ou plusieurs rôles-réactions.
