@@ -35,7 +35,7 @@
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
 - [📉 Niveaux](modules/niveaux.md)
-- [✏️ Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
@@ -52,7 +52,6 @@
   - [🎟 Tickets](slash/configuration/tickets.md)
   - [🧮 Compteur de membres](slash/configuration/compteur-de-membres.md)
   - [👀 Réactions de mots](slash/configuration/reactions-de-mots.md)
-  - [🪄 Commandes personnalisées](slash/configuration/commandes-personnalisees.md)
   - [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
   - [🗃 Logs](slash/configuration/logs.md)
   - [Modération](slash/moderation.md)
