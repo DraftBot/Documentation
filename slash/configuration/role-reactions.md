@@ -15,8 +15,9 @@ Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés pa
 {% endhint %}
 
 ## Accéder à la configuration
-
 {% tabs %}
+
+<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>. Deux choix s'offrent alors à vous :
 * ***Créer un nouveau rôle-réaction*** ➜ Accède au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
@@ -25,6 +26,7 @@ Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie
 ![Commande /config système: Rôles-Réactions](<../../.gitbook/assets/rolereact/view.png>)
 {% endtab %}
 
+<!-- Depuis le panel -->
 {% tab title="Via le panel" %}
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
@@ -81,7 +83,7 @@ Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie 
 {% endtab %}
 {% endtabs %}
 
-### Créer un rôle-réaction sur un message existant de DraftBot
+### Gérer un rôle-réaction existant
 
 {% tabs %}
 
