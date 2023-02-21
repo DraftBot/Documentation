@@ -12,11 +12,11 @@ DraftBot dispose d'un [panneau de configuration web (panel)](https://draftbot.fr
 
 ![Connexion au panel web depuis la page d'accueil du site draftbot.fr](../../.gitbook/assets/sans-titre-output.gif)
 
-Afin d'accéder aux notifications sociales via le panel, il suffit de sélectionner votre serveur à configurer et de vous rendre dans la catégorie "Notifications sociales"&#x20;
+Afin d'accéder aux notifications sociales via le panel, il suffit de sélectionner votre serveur à configurer et de vous rendre dans la catégorie "Notifications sociales"
 
 ![Accéder à la configuration des notifications sociales sur le panel](<../../.gitbook/assets/SocialNotifs\_Draftbot Panel.jpg>)
 
-Une fois sur la page de configuration des notifications sociales, vous avez divers réseaux sociaux à configurer :&#x20;
+Une fois sur la page de configuration des notifications sociales, vous avez divers réseaux sociaux à configurer :
 
 * **YouTube** (annonces vidéos YouTube)
 * **Twitch** (annonces lives Twitch) - [_premium_](https://draftbot.fr/premium) _seulement_
@@ -37,7 +37,7 @@ Vous pouvez ajouter une chaîne YouTube en actionnant le bouton à droite de la 
 * Il est possible de modifier le message avec les variables, ainsi que d'ajouter un embed dans lequel la vidéo sera affichée avec une couleur personnalisée.
 * Pour finir, il vous faut sauvegarder vos modifications. Vous pourrez modifier la configuration de la chaîne en appuyant sur "Modifier".
 
-![Ajout d'une chaîne YouTube](<../../.gitbook/assets/image\_2022-01-08\_190324 (1).png>) ![Affichage de la chaîne ajoutée](<../../.gitbook/assets/image\_2022-01-08\_190506 (1).png>)
+![Ajout d'une chaîne YouTube](../../.gitbook/assets/image\_2022-01-08\_190159.png) ![Affichage de la chaîne ajoutée](<../../.gitbook/assets/image\_2022-01-08\_190506 (1) (1).png>)
 
 {% hint style="warning" %}
 Sans [premium](https://www.draftbot.fr/premium), il n'est possible d'avoir qu'une chaîne YouTube, avec, la limite de chaîne passe à 3.
@@ -134,4 +134,4 @@ Planches dessinées en lien avec les développeurs
 
 ## Configuration via Discord
 
-> ❌- Bientôt disponible&#x20;
+> ❌- Bientôt disponible
