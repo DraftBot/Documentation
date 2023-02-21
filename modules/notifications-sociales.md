@@ -43,9 +43,14 @@ L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch 
 
 Voici <mark style="color:orange;">[ce tuto réalisé par Discord](https://support.discord.com/hc/fr/articles/8063233404823-Connexions-et-r%C3%B4les-li%C3%A9s-pour-les-membres-de-la-communaut%C3%A9)</mark> qui explique globalement comment ajouter des connexions ainsi que l'obtention des rôles liés sur un serveur.
 
+Suite a cette manipulation, vous devrez normalement avoir cet aperçu sur votre profil lorsque vous serez en live :
+
+
+![Image de live](../.gitbook/assets/socialnotifs/view_live.jpg)
+
 ## Reddit
 
-Ce module permet d'afficher une notification lors d'une publication dans un subreddit. Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed.**
+Ce module permet d'afficher une notification lors d'une publication dans un **subreddit**. Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed.**
 
 Il peut y avoir **une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**, contrairement aux serveurs premiums qui pourront avoir jusqu'à 10 notifications sociales Reddit.
 
