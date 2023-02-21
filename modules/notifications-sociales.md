@@ -36,7 +36,7 @@ En fonction de la configuration du module sur ce serveur, **n'importe quel membr
 **Le nombre de notifications de Live Presence est illimité**, cela dit l'administrateur de votre serveur peut restreindre l'envoi de la notification à certains rôles. 
 
 {% hint style="info" %}
-L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch ou Youtube lié à Discord**. Plus d'information ci-dessous.
+L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch ou YouTube lié à Discord**. Plus d'information ci-dessous.
 {% endhint %}
 
 ### Comment lier son compte Twitch ou YouTube à Discord
