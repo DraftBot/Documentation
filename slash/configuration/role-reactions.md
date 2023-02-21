@@ -81,7 +81,7 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-<!-- Ajouter une image -->
+![Panel de création d'un nouveau rôle-réaction](../../.gitbook/assets/rolereact/dashboard_creation.png)
 
 {% endtab %}
 {% endtabs %}
@@ -93,7 +93,7 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 {% tab title="Via la commande /config" %}
 Pour gérer un rôle-réaction existant, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Gérer un rôle-réaction existant".
 
-<!-- Ajouter une image -->
+![Message de gestion des rôles-réactions](../../.gitbook/assets/rolereact/gestion.png)
 
 Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
