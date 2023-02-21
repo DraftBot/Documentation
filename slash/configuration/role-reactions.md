@@ -33,9 +33,11 @@ Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie
 
 Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Rôles-Réactions" sur le serveur de votre choix.
 
-> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
-
 <!-- Inclure un screen -->
+
+{% hint style="info" %}
+Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de la "carte" d'un rôle-réaction.
+{% endhint %}
 
 {% endtab %}
 {% endtabs %}
@@ -69,17 +71,18 @@ Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), ren
 
 Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", un "Bouton" ou un "Sélecteur". Vous pouvez en ajouter plusieurs sur un même message.
 
+Vous pouvez modifier le mode des rôles-réactions du message grâce au sélecteur situé en bas de l'Embed Creator.
+
 Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez un salon dans lequel envoyer le message de rôle-réaction.
 
 {% hint style="success" %}
 Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 {% endhint %}
 
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
 <!-- Ajouter une image -->
 
-{% hint style="info" %}
-Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de la "carte" d'un rôle-réaction.
-{% endhint %}
 {% endtab %}
 {% endtabs %}
 
@@ -101,6 +104,26 @@ Vous aurez ensuite accès au menu de gestion de rôle-réaction :
 * ***Mode*** ➜ [Changer le mode](role-reactions.md#changer-le-mode-du-message) des rôles-réactions présents sur le message.
 
 L'intégralité de la création est ensuite guidée par **DraftBot**, il vous suffit de suivre ses consignes.
+{% endtab %}
+
+<!-- Depuis le panel web -->
+{% tab title="Via le panel" %}
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
+Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Rôles-Réactions".
+
+À droite de cette page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier" sur sa "carte".
+
+Vous pourrez modifier les rôles-réactions de différentes façons :
+* Vous pouvez modifier le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
+* Vous pouvez modifier le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en-dessous de l'embed Creator.
+* Vous pouvez ajouter, modifier ou supprimer un rôle-réaction dans la section en-dessous du sélecteur de mode.
+
+{% hint style="success" %}
+Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
+{% endhint %}
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 {% endtab %}
 {% endtabs %}
 
