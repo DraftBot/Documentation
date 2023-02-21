@@ -42,14 +42,14 @@ Pour configurer le système de rôles-réactions, accédez au panel via le lien 
 
 ## Configuration
 
-![](<../../.gitbook/assets/rolereact/question.png>)
-
 ### Créer un nouveau rôle-réaction
 {% tabs %}
 
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Pour créer un nouveau rôle-réaction, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Créer un nouveau rôle-réaction".
+
+![](<../../.gitbook/assets/rolereact/question.png>)
 
 Une fois fait, DraftBot vous demandera à partir de quel message vous souhaitez créer votre rôle-réaction :
 * ***Nouveau message*** ➜ Créera un embed au titre personnalisé et au footer prédéfini.
