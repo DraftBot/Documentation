@@ -43,7 +43,7 @@ L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch 
 
 Voici <mark style="color:orange;">[ce tuto réalisé par Discord](https://support.discord.com/hc/fr/articles/8063233404823-Connexions-et-r%C3%B4les-li%C3%A9s-pour-les-membres-de-la-communaut%C3%A9)</mark> qui explique globalement comment ajouter des connexions ainsi que l'obtention des rôles liés sur un serveur.
 
-Suite a cette manipulation, vous devrez normalement avoir cet aperçu sur votre profil lorsque vous serez en live :
+Suite à cette manipulation, vous devrez normalement avoir cet aperçu sur votre profil lorsque vous serez en live :
 
 
 ![Image de live](../.gitbook/assets/socialnotifs/view_live.jpg)
