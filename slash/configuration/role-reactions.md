@@ -126,5 +126,7 @@ Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
 {% endhint %}
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
+![Panel de gestion d'un rôle-réaction](../../.gitbook/assets/rolereact/dashboard_gestion.png)
 {% endtab %}
 {% endtabs %}
