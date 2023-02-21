@@ -37,6 +37,8 @@ Pour configurer le système de rôles-réactions, accédez au panel via le lien 
 
 {% hint style="info" %}
 Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de la "carte" d'un rôle-réaction.
+
+![Zone de texte de la carte d'un rôle-réaction](../../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
 {% endhint %}
 
 {% endtab %}
