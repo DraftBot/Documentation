@@ -66,7 +66,7 @@ Créez un message et / ou un embed avec l'Embed Creator se trouvant au centre de
 
 Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", un "Bouton" ou un "Sélecteur". Vous pouvez en ajouter plusieurs sur un même message.
 
-Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez un salon dans lequel envoyer le rôle-réaction.
+Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez un salon dans lequel envoyer le message de rôle-réaction.
 
 {% hint style="success" %}
 Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
