@@ -88,17 +88,21 @@ Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie 
 
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
+Pour gérer un rôle-réaction existant, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Gérer un rôle-réaction existant".
 
-{% endtab %}
-{% endtabs %}
+<!-- Ajouter une image -->
 
-## <mark style="color:blue;">Gérer un rôle-réaction existant</mark>
+Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
-Afin d'indiquer quel rôle-réaction vous désirez modifier, vous devrez envoyer le lien ou l'[identifiant du message](../../autres/recuperer-un-identifiant.md#identifiant-dun-message). Vous aurez ensuite accès au menu de gestion de rôle-réaction :
+Vous aurez ensuite accès au menu de gestion de rôle-réaction :
 * ***Ajouter*** ➜ [Ajouter](role-reactions.md#ajouter-un-nouveau-rôle-reaction) un nouveau rôle-réaction.
 * ***Modifier*** ➜ [Modifier](role-reactions.md#modifier-un-rôle-réaction) un rôle-réaction.
 * ***Supprimer*** ➜ [Supprimer](role-reactions.md#supprimer-un-rôle-réaction) un rôle-réaction.
 * ***Mode*** ➜ [Changer le mode](role-reactions.md#changer-le-mode-du-message) des rôles-réactions présents sur le message.
+
+L'intégralité de la création est ensuite guidée par **DraftBot**, il vous suffit de suivre ses consignes.
+{% endtab %}
+{% endtabs %}
 
 ### <mark style="color:blue;">Ajouter</mark> un nouveau rôle-reaction
 
