@@ -117,7 +117,7 @@ Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), ren
 Vous pourrez modifier les rôles-réactions de différentes façons :
 * Vous pouvez modifier le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
 * Vous pouvez modifier le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en-dessous de l'embed Creator.
-* Vous pouvez ajouter, modifier ou supprimer un rôle-réaction dans la section en-dessous du sélecteur de mode.
+* Vous pouvez ajouter, modifier ou supprimer un rôle-réaction dans la section se trouvant en-dessous du sélecteur de mode.
 
 {% hint style="success" %}
 Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
