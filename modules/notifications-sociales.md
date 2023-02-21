@@ -66,7 +66,7 @@ Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur 
 
 ## CommitStrip
 
-Ce module permet d'afficher des bandes-dessinées en lien avec le métier de développeur.
+Ce module permet d'afficher des bandes dessinées en lien avec le métier de développeur.
 
 *Illustration a placer ici*
 
