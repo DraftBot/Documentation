@@ -43,9 +43,9 @@ Pour configurer le système de rôles-réactions, accédez au panel via le lien 
 ![](<../../.gitbook/assets/rolereact/question.png>)
 
 ### Créer un nouveau rôle-réaction
+{% tabs %}
 
 <!-- Depuis Discord -->
-{% tabs %}
 {% tab title="Via la commande /config" %}
 Pour créer un rôle-réaction sur un nouveau message, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Créer un nouveau rôle-réaction".
 
