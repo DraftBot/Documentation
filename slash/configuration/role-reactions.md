@@ -75,7 +75,7 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 <!-- Ajouter une image -->
 
 {% hint style="info" %}
-Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de la "carte" dudit rôle-réaction.
+Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de la "carte" d'un rôle-réaction.
 {% endhint %}
 {% endtab %}
 {% endtabs %}
