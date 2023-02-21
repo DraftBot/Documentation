@@ -7,9 +7,8 @@ description: >-
 
 ## Configuration
 
-{% tabs %}
-
 <!-- Depuis Discord -->
+{% tabs %}
 {% tab title="Via la commande /config" %}
 Vous pouvez créer une commande personnalisée avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Commandes personnalisées" du sélecteur.\
 DraftBot vous demandera alors les informations suivantes :
@@ -65,3 +64,43 @@ Voici les différentes variables d'arguments possibles avec **DraftBot** :
 * Commande de l'utilisateur : `!adjectif @Jules fort et beau`
 * Réponse de DraftBot : @Jules _est maintenant_ fort et beau
 {% endhint %}
+
+## Variables
+
+Les commandes personnalisées vous offrent également la possibilité d'ajouter des variables dans vos messages.
+
+Ouvrez le menu déroulant pour voir les différentes variables :
+
+<details>
+
+<summary>Variables disponibles</summary>
+> **Membre** :
+> `{​user}` ➜ Mention du membre\
+> `{​user.id}` ➜ Identifiant du membre\
+> `{​user.tag}` ➜ Tag du membre *(Pseudo#0000)*\
+> `{​user.username}` ➜ Pseudo du membre\
+> `{​user.nickname}` ➜ Surnom ou pseudo du membre\
+> 
+> `{​level}` ➜ Niveau du membre *(uniquement si le système de niveaux est activé)*\
+> `{​level.rank}` ➜ Place du membre *(uniquement pour les messages dans le système de niveaux)*
+> 
+> `{​money}` ➜ Argent du membre *(uniquement si le système d'économie est activé)*\
+> `{​money.rank}` ➜ Place du membre *(uniquement si le système d'économie est activé)*
+> 
+> `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
+> 
+> **Serveur** :
+> `{​server}` ou `{​server.name}` ➜ Nom du serveur\
+> `{​server.id}` ➜ Identifiant du serveur\
+> `{​server.membercount}` ➜ Nombre de membres sur le serveur
+> 
+> **Salon**  :
+> `{​channel}` ➜ Mentions du salon\
+> `{​channel.id}` ➜ Identifiant du salon\
+> `{​channel.name}` ➜ Nom du salon
+> 
+> **Temps** :
+> `{​date}` ➜ Date actuelle (JJ/MM/AAAA)\
+> `{​time}` ➜ Heure actuelle (HH:MM)\
+> `{​timestamp}` ➜ Timestamp actuel en secondes
+</details>
