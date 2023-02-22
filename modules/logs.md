@@ -8,7 +8,7 @@ description: Besoin de recenser les actions faites sur votre serveur ? Les logs 
 
 Les logs sont un historique des actions faites sur votre serveur. Ils vous permettent de pouvoir retrouver une action qui vous intrigue ou bien de voir qui a fait quelle action.
 
-Les logs sont des embeds qui sont envoyés non pas par **DraftBot** mais par des webhooks. Un webhook vous permet d'envoyer un message avec une photo de profil, un nom et un contenu personnalisé.
+Les logs sont des embeds qui sont envoyés non pas par **DraftBot**, mais par des webhooks. Un webhook vous permet d'envoyer un message avec une photo de profil, un nom et un contenu personnalisé.
 > ***DraftBot** gère ses propres webhooks et l'envoi des messages avec ses derniers. Si vous supprimez son webhook de logs, il le recréera automatiquement lors de l'envoi du prochain log.*
 
 ## Configuration générale
@@ -76,7 +76,7 @@ Vous pouvez configurer la couleur par défaut des logs avec la palette de peintu
 {% tab title="Via la commande /config" %}
 
 Vous pouvez configurer les logs individuellement avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Logs" du sélecteur.\
-Dans les boutons en-dessous du message, sélectionnez "Modules"
+Dans les boutons en dessous du message, sélectionnez "Modules".
 
 ![Configuration d'un module de log via la commande /config](../.gitbook/assets/logs/configuration_modules.png)
 
