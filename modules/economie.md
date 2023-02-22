@@ -7,7 +7,7 @@ description: >-
 
 ## Votre Argent
 
-Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[**membre**]</mark>. Pour d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/configuration/economie) soit activé sur le serveur.
+Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[**membre**]</mark>. Pour d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/module/economie#configuration) soit activé sur le serveur.
 
 ![Carte d'économie](../.gitbook/assets/economy/money.png)
 
@@ -15,7 +15,7 @@ Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en ind
 - <mark style="color:orange;">/payer</mark> ➜ Donner de l'argent à un membre de votre choix.
 
 {% hint style="info" %}
-Il vous faut d'abord configurer ce système.
+Il vous faut d'abord <mark style="color:orange;">[configurer](https://docs.draftbot.fr/slash/module/economie#configuration)</mark> ce système.
 {% endhint %}
 
 ## Modifier l'argent des utilisateurs
@@ -42,7 +42,7 @@ Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations [ici](https://docs.draftbot.fr/slash/economie#typedelaboutique)
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[ici](https://docs.draftbot.fr/slash/economie#typedelaboutique</mark>.
 
 ![Marché noir de DraftBot](../.gitbook/assets/economy/shop-dark.png)
 
@@ -137,14 +137,12 @@ Après avoir cliqué sur le bouton <mark style="color:blue;">"Créer"</mark>, un
 
 - <mark style="color:blue;">"Rôle"</mark> ➜ Vos membres pourront acheter un rôle prédéfini.
 - <mark style="color:blue;">"Rôle temporaire"</mark> ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
-- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'expérience (plus d'informations [ici](https://docs.draftbot.fr/modules/niveaux))
+- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark>
 - <mark style="color:blue;">"Personnaliser"</mark> ➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
 
 {% hint style="info" %}
 Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la récompense.
 {% endhint %}
-
-- <mark style="color:blue;">"Objet"</mark> ➜ Un objet ou un item d'inventaire est un titre qui sera affiché dans la commande <mark style="color:orange;">/config</mark>
 
 - <mark style="color:blue;">"Objet"</mark> ➜ Créer un item qui sera affiché dans votre <mark style="color:orange;">/inventaire</mark>.
 
@@ -165,10 +163,6 @@ Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles,
 - <mark style="color:blue;">"Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique. **_(✨ premium)_**
 
 ![Modifier un article](../.gitbook/assets/economy/config_shop_article_edit.png)
-
-{% hint style="warning" %}
-Si vous avez plusieurs articles dans votre boutique, vous devrez, dans le sélecteur, sélectionner quel article vous souhaitez modifier.
-{% endhint %}
 ㅤ
 
 ### Supprimer un article dans votre boutique
