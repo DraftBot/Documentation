@@ -34,8 +34,7 @@ Ici sera affiché, pour chaque modules :
 ✨ Les logs de messages et de boosts sont réservés aux <mark style="color:blue;">[premiums](https://draftbot.fr/premium)</mark>.
 {% endhint %}
 
-
-Sous ce message se trouvent des boutons, servant à la configuration des logs :
+Sous ce message, retrouvez les boutons permettant de configurer les logs :
 * ***Activer le système*** / ***Système activé*** ➜ Pour activer ou désactiver le système de logs.
 * ***Salon par défaut*** ➜ Salon dans lequel les logs seront envoyés si le salon n'a pas été paramétré individuellement pour chaque log.
 * ***Modules*** ➜ Pour configurer individuellement chaque log.
