@@ -48,13 +48,19 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 Les boutons bleus signifient que leur configuration doit être faite entièrement afin que le système soit opérationnel, lors de la première configuration.
 {% endhint %}
 
-![Configuration des logs depuis la commande /config](../.gitbook/assets/logs/configuration.png)
+![Configuration générale des logs depuis la commande /config](../.gitbook/assets/logs/configuration_general.png)
 {% endtab %}
 
 
 {% tab title="Depuis le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
+Pour configurer les logs de **DraftBot**, rendez-vous dans la catégorie "Logs" du panel.
+
+En haut de la page, vous aurez alors la configuration par défaut des logs.\
+Vous pouvez configurer la couleur par défaut avec la palette de peinture, le salon par défaut avec le menu déroulant et les salons ignorés par les logs en appuyant sur "+".
+
+![Configuration générale des logs depuis le panel](../.gitbook/assets/logs/dashboard_configuration_general.png)
 
 {% endtab %}
 {% endtabs %}
