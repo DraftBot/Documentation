@@ -44,11 +44,11 @@ Sous ce message se trouvent des boutons, servant à la configuration des logs :
 * ***Réinitialiser*** ➜ Pour réinitialiser toute la configuration des logs.
 
 {% hint style="warning" %}
-Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer les récompenses du serveur.
+Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer votre configuration des logs de votre serveur.
 {% endhint %}
 
 {% hint style="info" %}
-Les boutons bleus signifient que leur configuration doit être faite entièrement afin que le système soit opérationnel, lors de la première configuration.
+Les boutons bleus signifient que leur configuration doit être entièrement faite pour que le système de logs soit opérationnel, lors de la première configuration.
 {% endhint %}
 
 ![Configuration générale des logs via la commande /config](../.gitbook/assets/logs/configuration_general.png)
@@ -58,10 +58,10 @@ Les boutons bleus signifient que leur configuration doit être faite entièremen
 {% tab title="Depuis le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Pour configurer les logs de **DraftBot**, rendez-vous dans la catégorie "Logs" du panel.
+Pour configurer les logs de **DraftBot**, rendez-vous dans la catégorie "Logs" du panel.\
+Vous avez en haut de la page la configuration par défaut des logs.
 
-En haut de la page, vous aurez alors la configuration par défaut des logs.\
-Vous pouvez configurer la couleur par défaut avec la palette de peinture , le salon par défaut avec le menu déroulant et les salons ignorés par les logs en appuyant sur "+".
+Vous pouvez configurer la couleur par défaut des logs avec la palette de peinture, le salon par défaut avec le menu déroulant et les salons ignorés en appuyant sur "+".
 
 ![Configuration générale des logs depuis le panel](../.gitbook/assets/logs/dashboard_configuration_general.png)
 
@@ -87,6 +87,7 @@ La configuration du module est faite ! Vous aurez désormais accès aux logs de 
 {% endhint %}
 
 Exemple de log de modération reçu sur le serveur :
+
 ![Exemple de log de modération](../.gitbook/assets/logs/view.png)
 {% endtab %}
 
@@ -102,13 +103,14 @@ Activez alors individuellement les logs que vous souhaitez mettre en place pour 
 ![Activation des modules de logs depuis le panel](../.gitbook/assets/logs/dashboard_configuration_modules_activate.png)
 
 Vous aurez alors la possibilité de configurer votre module :
-* Pour changer le salon d'envoi : ouvrir le menu déroulant et sélectionnez le salon voulu.
-* Pour changer la photo de profil du log, lors de l'envoi : cliquez sur la logo de **DraftBot**. ***(✨ premium)***
+* Pour changer le salon d'envoi : ouvrez le menu déroulant et sélectionnez le salon voulu.
+* Pour changer la photo de profil du log, lors de l'envoi : cliquez sur le logo de **DraftBot**. ***(✨ premium)***
 * Pour changer la couleur du log, lors de l'envoi : cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(✨ premium)***
 
 ![Configuration d'un module de log depuis le panel](../.gitbook/assets/logs/dashboard_configuration_modules.png)
 
 Exemple de log de modération reçu sur le serveur :
+
 ![Exemple de log de modération](../.gitbook/assets/logs/view.png)
 {% endtab %}
 {% endtabs %}
