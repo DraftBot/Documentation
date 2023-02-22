@@ -51,7 +51,7 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 Les boutons bleus signifient que leur configuration doit être faite entièrement afin que le système soit opérationnel, lors de la première configuration.
 {% endhint %}
 
-![Configuration générale des logs depuis la commande /config](../.gitbook/assets/logs/configuration_general.png)
+![Configuration générale des logs via la commande /config](../.gitbook/assets/logs/configuration_general.png)
 {% endtab %}
 
 
@@ -61,7 +61,7 @@ Les boutons bleus signifient que leur configuration doit être faite entièremen
 Pour configurer les logs de **DraftBot**, rendez-vous dans la catégorie "Logs" du panel.
 
 En haut de la page, vous aurez alors la configuration par défaut des logs.\
-Vous pouvez configurer la couleur par défaut avec la palette de peinture, le salon par défaut avec le menu déroulant et les salons ignorés par les logs en appuyant sur "+".
+Vous pouvez configurer la couleur par défaut avec la palette de peinture , le salon par défaut avec le menu déroulant et les salons ignorés par les logs en appuyant sur "+".
 
 ![Configuration générale des logs depuis le panel](../.gitbook/assets/logs/dashboard_configuration_general.png)
 
@@ -71,3 +71,27 @@ Vous pouvez configurer la couleur par défaut avec la palette de peinture, le sa
 
 
  ## Configuration par module
+
+{% tabs %}
+ {% tab title="Via la commande /config" %}
+
+Vous pouvez configurer les logs individuellement avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Logs" du sélecteur.\
+Dans les boutons en-dessous du message, sélectionnez "Modules"
+
+![Configuration d'un module de log via la commande /config](../.gitbook/assets/logs/configuration_modules.png)
+
+Une fois le module sélectionné, laissez-vous guider par **DraftBot** pour terminer la configuration du module !
+
+{% hint style="success" %}
+La configuration du module est faite ! Vous aurez désormais accès aux logs de ce module dans le salon défini.
+{% endhint %}
+
+Exemple de log de modération reçu sur le serveur :
+![Exemple de log de modération](../.gitbook/assets/logs/view.png)
+{% endtab %}
+
+
+{% tab title="Depuis le panel" %}
+
+{% endtab %}
+{% endtabs %}
