@@ -37,6 +37,7 @@
 - [📉 Niveaux](modules/niveaux.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [🗃 Logs](modules/logs.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
@@ -53,7 +54,6 @@
   - [🧮 Compteur de membres](slash/configuration/compteur-de-membres.md)
   - [👀 Réactions de mots](slash/configuration/reactions-de-mots.md)
   - [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
-  - [🗃 Logs](slash/configuration/logs.md)
   - [Modération](slash/moderation.md)
   - [Gestion des rôles](slash/gestion-des-roles.md)
   - [Gestion des messages](slash/gestion-des-messages.md)
