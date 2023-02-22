@@ -15,12 +15,14 @@ Les logs sont des embeds qui sont envoyés non pas par **DraftBot** mais par des
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Vous pouvez configurer les logs avec la commande /config, en vous rendant ensuite dans l'onglet "🗃 Logs" du sélecteur.
+Vous pouvez configurer les logs avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Logs" du sélecteur.
+
 
 **DraftBot** vous affichera alors la configuration actuelle :
 * *Salon par défaut* ➜ Salon dans lequel les logs seront envoyés si le salon n'a pas été paramétré individuellement pour chaque log.
 * *Couleur par défaut* ➜ Couleur des logs si la couleur n'a pas été paramétrée individuellement pour chaque log.
 * *Salons ignorés* ➜ Salons qui sont ignorés par les logs : vous n'aurez aucun log des actions qui sont faites dedans.
+
 
 La catégorie "*Modules*" résume la configuration de chaque log.\
 Ici sera affiché, pour chaque modules :
@@ -32,6 +34,7 @@ Ici sera affiché, pour chaque modules :
 ✨ Les logs de messages et de boosts sont réservés aux <mark style="color:blue;">[premiums](https://draftbot.fr/premium)</mark>.
 {% endhint %}
 
+
 Sous ce message se trouvent des boutons, servant à la configuration des logs :
 * ***Activer le système*** / ***Système activé*** ➜ Pour activer ou désactiver le système de logs.
 * ***Salon par défaut*** ➜ Salon dans lequel les logs seront envoyés si le salon n'a pas été paramétré individuellement pour chaque log.
@@ -40,7 +43,7 @@ Sous ce message se trouvent des boutons, servant à la configuration des logs :
 * ***Ignorer des salons*** ➜ Pour configurer les salons qui seront ignorés par les logs : vous n'aurez aucun log des actions qui sont faites dedans.
 * ***Réinitialiser*** ➜ Pour réinitialiser toute la configuration des logs.
 
-{% hint style="danger" %}
+{% hint style="warning" %}
 Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer les récompenses du serveur.
 {% endhint %}
 
