@@ -37,7 +37,7 @@
 - [📉 Niveaux](modules/niveaux.md)
 - [✏️ Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
-- [🔒 Captcha](modules/configuration/captcha.md)
+- [🔒 Captcha](modules/captcha.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
