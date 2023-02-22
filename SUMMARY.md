@@ -37,12 +37,12 @@
 - [📉 Niveaux](modules/niveaux.md)
 - [✏️ Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [🔒 Captcha](modules/configuration/captcha.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
   - [💰 Économie](slash/configuration/economie.md)
   - [🔨 Modération](slash/configuration/moderation.md)
-  - [🔒 Captcha](slash/configuration/captcha.md)
   - [🎂 Anniversaires](slash/configuration/anniversaires.md)
   - [📣 Notifications sociales](slash/configuration/notifications-sociales.md)
   - [🔘 Rôle réactions](slash/configuration/role-reactions.md)
