@@ -73,7 +73,7 @@ Vous pouvez configurer la couleur par défaut avec la palette de peinture , le s
  ## Configuration par module
 
 {% tabs %}
- {% tab title="Via la commande /config" %}
+{% tab title="Via la commande /config" %}
 
 Vous pouvez configurer les logs individuellement avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Logs" du sélecteur.\
 Dans les boutons en-dessous du message, sélectionnez "Modules"
@@ -92,6 +92,23 @@ Exemple de log de modération reçu sur le serveur :
 
 
 {% tab title="Depuis le panel" %}
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
+Pour configurer les modules des logs de **DraftBot**, rendez-vous dans la catégorie "Logs" du panel, puis activez les modules.
+
+Lors de la première configuration, tous les logs sont grisés (cela signifie qu'ils sont désactivés).\
+Activez alors individuellement les logs que vous souhaitez mettre en place pour accéder à leur configuration.
+
+![Activation des modules de logs depuis le panel](../.gitbook/assets/logs/dashboard_configuration_modules_activate.png)
+
+Vous aurez alors la possibilité de configurer votre module :
+* Pour changer le salon d'envoi : ouvrir le menu déroulant et sélectionnez le salon voulu.
+* Pour changer la photo de profil du log, lors de l'envoi : cliquez sur la logo de **DraftBot**. ***(✨ premium)***
+* Pour changer la couleur du log, lors de l'envoi : cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(✨ premium)***
+
+![Configuration d'un module de log depuis le panel](../.gitbook/assets/logs/dashboard_configuration_modules.png)
+
+Exemple de log de modération reçu sur le serveur :
+![Exemple de log de modération](../.gitbook/assets/logs/view.png)
 {% endtab %}
 {% endtabs %}
