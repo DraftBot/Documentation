@@ -2,16 +2,16 @@
 description: >-
   Avec le système de rôles-réactions, vos membres pourront facilement choisir des
   rôles parmi une liste définie, que ce soit par un sélecteur, des boutons, ou
-  des émojis.
+  des réactions.
 ---
 
 # 🔘 Rôles-réactions
 
 {% hint style="info" %}
 Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages de différentes manières :
-* *Par la commande <mark style="color:orange;">/envoyer</mark>, aussi présente sous le nom de <mark style="color:orange;">/send</mark>* : Permet d'envoyer un message simple sous l'identité de **DraftBot**, sans embed.
+* *Depuis la commande <mark style="color:orange;">/envoyer</mark>* : Permet d'envoyer un message simple sous l'identité de **DraftBot**.
 * *Depuis la configuration des rôles-réactions, via <mark style="color:orange;">/config système:Rôles-Réactions</mark>* : Permet de créer un embed au titre personnalisé et au footer prédéfini.
-* *Depuis l'Embed Creator du [panel](https://www.draftbot.fr/dashboard)* : Permet la création complète et facile d'un message ou d'un embed entièrement personnalisable (description, champs, image...).
+* *Depuis l'Embed Creator du <mark style="color:blue;">[panel](https://www.draftbot.fr/dashboard)</mark>* : Permet la création complète et facile d'un message ou d'un embed entièrement personnalisable (description, champs, image...).
 {% endhint %}
 
 ## Accéder à la configuration
@@ -20,10 +20,10 @@ Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés pa
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
 Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>. Deux choix s'offrent alors à vous :
-* ***Créer un nouveau rôle-réaction*** ➜ Accède au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
+* ***Créer un nouveau rôle-réaction*** ➜ Permet d'accéder au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
 * ***Gérer un rôle-réaction existant*** ➜ Permet de [gérer un rôle-réaction existant](role-reactions.md#gérer-un-rôle-réaction-existant) sur le message dont vous renseignez l'identifiant.
 
-![Commande /config système: Rôles-Réactions]()../../.gitbook/assets/rolereact/view.png)
+![Commande /config système: Rôles-Réactions](../../.gitbook/assets/rolereact/view.png)
 {% endtab %}
 
 <!-- Depuis le panel web -->
@@ -53,7 +53,7 @@ Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie 
 {% tab title="Via la commande /config" %}
 Pour créer un nouveau rôle-réaction, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Créer un nouveau rôle-réaction".
 
-![](../../.gitbook/assets/rolereact/question.png)
+![Message de création d'un nouveau rôle-réaction](../../.gitbook/assets/rolereact/question.png)
 
 Une fois fait, **DraftBot** vous demandera à partir de quel message vous souhaitez créer votre rôle-réaction :
 * ***Nouveau message*** ➜ Créera un embed au titre personnalisé et au footer prédéfini.
@@ -114,11 +114,11 @@ L'intégralité de la création est ensuite guidée par **DraftBot**, il vous su
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Rôles-Réactions".
 
-À droite de cette page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier" sur sa "carte".
+À droite de cette page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
 
 Vous pourrez modifier les rôles-réactions de différentes façons :
 * Vous pouvez modifier le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
-* Vous pouvez modifier le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en dessous de l'embed Creator.
+* Vous pouvez modifier le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en dessous de l'Embed Creator.
 * Vous pouvez ajouter, modifier ou supprimer un rôle-réaction dans la section se trouvant en dessous du sélecteur de mode.
 
 {% hint style="success" %}
