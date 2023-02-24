@@ -44,7 +44,7 @@ Si le système n'est pas configuré, un seul bouton "Configurer le système" ser
 
 ![Alt text](../../.gitbook/assets/tickets/Ticket%20menu%20no%20config.png)
 
->**Catégorie** ➜ Permet de définir la catégorie dans laquelle les tickets seront créés. Vous pouvez demander à DraftBot de la créer automatiquement pour vous ou bien d'en utiliser une existante.
+>**Catégorie** ➜ Permet de définir la catégorie de création des tickets. Vous pouvez demander à DraftBot de la créer automatiquement pour vous ou bien d'en utiliser une existante.
 
 > **Salon de réception** ➜ Permet de définir le salon qui recevra les demandes d'ouverture de ticket. Si la validation est en mode **Automatique**, seul l'historique des fermetures et suppressions de ticket sera affiché dans ce salon. Vous pouvez demander à DraftBot de créer automatiquement le salon ou bien d'en utiliser un existant.
 
@@ -77,7 +77,8 @@ Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la parti
 
 > ⚠️ Une fois vos modifications effectuées, n'oubliez pas d'enregistrer avec le bouton "Enregistrer" situé en bas de la page.
 
-* **Catégorie des tickets** ➜ Permet de définir la catégorie dans laquelle les tickets seront créés. La catégorie doit avoir été préalablement créée. Pensez à actualiser la page du panel si vous avre créé une catégorie entre-temps.
+
+* **Catégorie des tickets** ➜ Permet de définir la catégorie de création des tickets. La catégorie doit avoir été préalablement créée. Pensez à actualiser la page du panel si vous avre créé une catégorie entre-temps.
 
 * **Mention des modérateurs** ➜ Permet d'activer la mention automatique des modérateurs lors de l'ouverture d'un ticket
 
@@ -85,10 +86,10 @@ Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la parti
 
 * **Suppression automatique (admin)** ➜ Lorsque cette option est activée, les tickets sont directement supprimés si un membre Administrateur ferme un ticket.
 
-* **Validation des tickets** ➜ Lorsque la validation est activée (Assignation manuelle depuis /config), les demandes de tickets sont transférées dans le **salon de réception** et doivent être acceptées / refusées par les **modérateurs de tickets** ou administrateurs.
-Si elle est désactivée, les tickets demandés par les membres s'ouvrent instantanément.
+* **Validation des tickets** ➜ Lorsque la validation est activée ("Assignation manuelle" depuis /config), les demandes de tickets sont transférées dans le **salon de réception** et doivent être acceptées / refusées par les **modérateurs de tickets** ou administrateurs.
+Si cette dernière est désactivée, les tickets demandés par les membres s'ouvrent instantanément.
 
-* **Motif d'ouverture** ➜ Permet d'obliger ou non les membres à spécifier un motif d'ouverture du ticket lors de l'utilisation de <mark style="color:orange;">/ticket</mark>. Son activation est conseillée afin d'éviter les spams de tickets / demandes sans raison particulière.
+* **Motif d'ouverture** ➜ Permet d'astreindre ou non les membres à spécifier un motif d'ouverture du ticket lors de l'utilisation de <mark style="color:orange;">/ticket</mark>. Son activation est conseillée afin d'éviter les abus de création de tickets / demandes sans raison particulière.
 
 {% endtab %}
 {% endtabs %}
