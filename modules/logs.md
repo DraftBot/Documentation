@@ -47,7 +47,7 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 {% endhint %}
 
 {% hint style="info" %}
-Les boutons bleus signifient que leur configuration doit être entièrement faite pour que le système de logs soit opérationnel, lors de la première configuration.
+Les boutons bleus signifient que leur configuration doit être entièrement réalisée pour que le système de logs soit opérationnel, lors de la première configuration.
 {% endhint %}
 
 ![Configuration générale des logs via la commande /config](../.gitbook/assets/logs/configuration_general.png)
@@ -58,7 +58,7 @@ Les boutons bleus signifient que leur configuration doit être entièrement fait
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Pour configurer les logs de **DraftBot**, rendez-vous dans la catégorie "Logs" du panel.\
-Vous avez en haut de la page la configuration par défaut des logs.
+En haut de la page, vous trouverez la configuration des logs globaux par défaut.
 
 Vous pouvez configurer la couleur par défaut des logs avec la palette de peinture, le salon par défaut avec le menu déroulant et les salons ignorés en appuyant sur "+".
 
@@ -80,6 +80,9 @@ Dans les boutons en dessous du message, sélectionnez "Modules".
 ![Configuration d'un module de log via la commande /config](../.gitbook/assets/logs/configuration_modules.png)
 
 Une fois le module sélectionné, laissez-vous guider par **DraftBot** pour terminer la configuration du module !
+* Pour changer le salon d'envoi : Indiquez la mention ou l'ID du salon voulu.
+* Pour changer la photo de profil du log, lors de l'envoi : Envoyez une image respectant les normes indiquées dans la description de la question correspondante. ***(✨ premium)***
+* Pour changer la couleur du log, lors de l'envoi : Indiquez un code couleur au format hexadécimal ***(✨ premium)***
 
 {% hint style="success" %}
 La configuration du module est faite ! Vous aurez désormais accès aux logs de ce module dans le salon défini.
@@ -113,3 +116,7 @@ Exemple de log de modération reçu sur le serveur :
 ![Exemple de log de modération](../.gitbook/assets/logs/view.png)
 {% endtab %}
 {% endtabs %}
+
+{% hint style="warning" %}
+Il peut arriver que les logs soient envoyés dans un mauvais salon. Si c'est le cas, vous devrez reconfigurer un à un les salons des différents modules présentant ce problème (de préférence avec la commande <mark style="color:orange;">/config</mark>).
+{% endhint %}
