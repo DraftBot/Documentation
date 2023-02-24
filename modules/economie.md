@@ -15,7 +15,7 @@ Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en ind
 - <mark style="color:orange;">/payer</mark> ➜ Donner de l'argent à un membre de votre choix.
 
 {% hint style="info" %}
-Il vous faut d'abord <mark style="color:orange;">[configurer](https://docs.draftbot.fr/slash/module/economie#configuration)</mark> ce système.
+Il vous faut d'abord <mark style="color:blue;">[__configurer__](https://docs.draftbot.fr/slash/module/economie#configuration)</mark> ce système.
 {% endhint %}
 
 ## Modifier l'argent des utilisateurs
@@ -42,7 +42,7 @@ Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[ici](https://docs.draftbot.fr/slash/economie#typedelaboutique</mark>.
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[__ici__](https://docs.draftbot.fr/slash/economie#typedelaboutique)</mark>.
 
 ![Marché noir de DraftBot](../.gitbook/assets/economy/shop-dark.png)
 
@@ -61,7 +61,7 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre se
 
 # Configuration
 
-Vous pouvez configurer le système d'économie depuis le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>.
+Vous pouvez configurer le système d'économie depuis le <mark style="color:blue;">[__panel__](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>.
 
 Vous aurez la possibilité de configurer :
 
@@ -103,17 +103,15 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 
 {% tab title="Depuis le panel" %}
 
-<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de **DraftBot**</mark>
+<mark style="color:blue;">[__Accéder au panel de **DraftBot**__](https://draftbot.fr/dashboard)</mark>
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Économie".
 
-Si vous ne voyez aucune option, c'est normal car il vous faut activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
+Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
 ![Activation du système d'économie](../.gitbook/assets/economy/dashboard_activate_system.png)
 
-Comme vous l'avez peut être remarqué, les sous-catégories (voir image) sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour comparer les options de configuration.
-
-![Sous-catégories](../.gitbook/assets/economy/dashboard_options.png)
+Sur le panel, vous retrouverez sur une page, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
 
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
@@ -188,7 +186,8 @@ Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark s
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
-<mark style="color:blue;">Accéder au [panel](https://draftbot.fr/dashboard) de **DraftBot**</mark>
+<mark style="color:blue;">[__Accéder au panel de **DraftBot**__](https://draftbot.fr/dashboard)</mark>
+
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Économie".
 
 ### Créer un article dans votre boutique
@@ -204,7 +203,7 @@ Une pop-up s'ouvrira dans laquelle vous pourrez configurer votre article.
 Pour créer un article, cliquez sur le bouton <mark style="color:orange;">"Créer un article"</mark>. Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
 ㅤ
 {% hint style="info" %}
-Si vous souhaitez mettre des émojis sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
+Si vous souhaitez mettre des émojis sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[__identifiant__](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
 {% endhint %}
 ㅤ
 
