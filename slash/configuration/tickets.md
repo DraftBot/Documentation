@@ -73,7 +73,7 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 
 ![Alt text](../../.gitbook/assets/tickets/Ticket%20panel%20config.png)
 
-Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord excepté le message d'ouverture.
+Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord excepté le message d'ouverture à l'heure actuelle.
 
 > ⚠️ Une fois vos modifications effectuées, n'oubliez pas d'enregistrer avec le bouton "Enregistrer" situé en bas de la page.
 
