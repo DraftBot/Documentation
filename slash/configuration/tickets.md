@@ -84,7 +84,7 @@ Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la parti
 
 * **Rôles modérateurs de tickets** ➜ Ajouter ou retirer des rôles n'ayant pas la permission Administrateur qui auront accès aux tickets. Plusieurs rôles peuvent être ajoutés.
 
-* **Suppression automatique (admin)** ➜ Lorsque cette option est activée, les tickets sont directement supprimés si un membre Administrateur ferme un ticket.
+* **Suppression automatique (admin)** ➜ Lorsque cette option est activée, les tickets sont directement supprimés si un administrateur ferme un ticket.
 
 * **Validation des tickets** ➜ Lorsque la validation est activée ("Assignation manuelle" depuis /config), les demandes de tickets sont transférées dans le **salon de réception** et doivent être acceptées / refusées par les **modérateurs de tickets** ou administrateurs.
 Si cette dernière est désactivée, les tickets demandés par les membres s'ouvrent instantanément.
