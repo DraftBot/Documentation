@@ -27,11 +27,6 @@ Le salon de réception des tickets permet de recevoir les demandes de tickets de
 
 La réception des demandes de tickets dans ce salon nécessite obligatoirement que les ouvertures de demandes soient configurées en mode **Manuel** 
 
-{% hint style="info" %} 
-Pour l'acceptation ou le refus des tickets, vous pouvez utiliser les boutons disponibles sous chaque demande mais également les commandes d'application Accepter et Refuser
-{% endhint %}
-
-
 # Configuration
 
 {% tabs %}
