@@ -4,19 +4,17 @@ description: >-
   avoir une discussion privée avec l'équipe de votre serveur.
 ---
 
-# 🎟 Tickets
-
 ![Menu de configuration](../../.gitbook/assets/tickets/ticket-menu-config.png)
 
 ### Créer un ticket
 Vous pouvez créer ou demander la création d'un ticket en utilisant <mark style="color:orange;">/ticket</mark>.
 
 {% hint style="info" %}
-Il est conseillé de donner une raison d'ouverture en complétant la variable <mark style="color:orange;">[raison]</mark> lorsque l'ouverture des tickets se fait par le biais des modérateurs.
+La variable `raison` bien que facultative, peut être rendue obligatoire par les gérants de serveur. Il est conseillé de toujours la remplir de manière générale.
 {% endhint %}
 
 ### Modération des tickets
-Les administrateurs du serveur et modérateurs de tickets disposent des commandes suivantes permettant un contrôle supplémentaire sur les accès aux tickets.
+Les administrateurs et modérateurs de tickets disposent des commandes suivantes permettant un contrôle supplémentaire sur les accès aux tickets.
 
 * <mark style="color:orange;">/ticketmod ouvrir </mark> ➜ Permet d'ouvrir un ticket pour un membre dans un objectif de contact privé
 * <mark style="color:orange;">/ticketmod ajouter </mark> ➜ Permet d'autoriser l'accès au contenu du ticket à un membre quelconque.
@@ -25,7 +23,7 @@ Les administrateurs du serveur et modérateurs de tickets disposent des commande
 ### Salon de réception
 Le salon de réception des tickets permet de recevoir les demandes de tickets des membres qu'elles soient réalisées via l'utilisation de <mark style="color:orange;">/ticket</mark> ou bien via un **message d'ouverture**.
 
-La réception des demandes de tickets dans ce salon nécessite obligatoirement que les ouvertures de demandes soient configurées en mode **Manuel** 
+La réception des demandes de tickets dans ce salon nécessite obligatoirement que les ouvertures de demandes soient configurées en mode **Manuel**.
 
 # Configuration
 
@@ -37,7 +35,7 @@ Pour configurer le système de tickets, vous pouvez utiliser <mark style="color:
 Si le système n'est pas configuré, un seul bouton "Configurer le système" sera visible. Cliquez dessus pour commencer la configuration.
 {% endhint %}
 
-![Alt text](../../.gitbook/assets/tickets/Ticket%20menu%20no%20config.png)
+![Alt text](../../.gitbook/assets/tickets/Ticket-menu-no-config.png)
 
 >**Catégorie** ➜ Permet de définir la catégorie de création des tickets. Vous pouvez demander à DraftBot de la créer automatiquement pour vous ou bien d'en utiliser une existante.
 
@@ -66,7 +64,7 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 
 {% tab title="Via le panel" %}
 
-![Alt text](../../.gitbook/assets/tickets/Ticket%20panel%20config.png)
+![Alt text](../../.gitbook/assets/tickets/Ticket-panel-config.png)
 
 Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord excepté le message d'ouverture à l'heure actuelle.
 
@@ -81,7 +79,7 @@ Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la parti
 
 * **Suppression automatique (admin)** ➜ Lorsque cette option est activée, les tickets sont directement supprimés si un administrateur ferme un ticket.
 
-* **Validation des tickets** ➜ Lorsque la validation est activée ("Assignation manuelle" depuis /config), les demandes de tickets sont transférées dans le **salon de réception** et doivent être acceptées / refusées par les **modérateurs de tickets** ou administrateurs.
+* **Validation des tickets** ➜ Lorsque la validation est activée, les demandes de tickets sont transférées dans le **salon de réception** et doivent être acceptées / refusées par les **modérateurs de tickets** ou administrateurs.
 Si cette dernière est désactivée, les tickets demandés par les membres s'ouvrent instantanément.
 
 * **Motif d'ouverture** ➜ Permet d'astreindre ou non les membres à spécifier un motif d'ouverture du ticket lors de l'utilisation de <mark style="color:orange;">/ticket</mark>. Son activation est conseillée afin d'éviter les abus de création de tickets / demandes sans raison particulière.
