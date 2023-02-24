@@ -70,8 +70,27 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Documentation configuration sur panel à venir...
+
+![Alt text](../../.gitbook/assets/tickets/Ticket%20panel%20config.png)
+
+Sur le panel, dans la catégorie **Communautaire** vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord excepté le message d'ouverture.
+
+> ⚠️ Une fois vos modifications effectuées, n'oubliez pas d'enregistrer avec le bouton "Enregistrer" situé en bas de la page.
+
+* **Catégorie des tickets** ➜ Permet de définir la catégorie dans laquelle les tickets seront créés. La catégorie doit avoir été préalablement créée. Pensez à actualiser la page du panel si vous avre créé une catégorie entre-temps.
+
+* **Mention des modérateurs** ➜ Permet d'activer la mention automatique des modérateurs lors de l'ouverture d'un ticket
+
+* **Rôles modérateurs de tickets** ➜ Ajouter ou retirer des rôles n'ayant pas la permission Administrateur qui auront accès aux tickets. Plusieurs rôles peuvent être ajoutés.
+
+* **Suppression automatique (admin)** ➜ Lorsque cette option est activée, les tickets sont directement supprimés si un membre Administrateur ferme un ticket.
+
+* **Validation des tickets** ➜ Lorsque la validation est activée (Assignation manuelle depuis /config), les demandes de tickets sont transférées dans le **salon de réception** et doivent être acceptées / refusées par les **modérateurs de tickets** ou administrateurs.
+Si elle est désactivée, les tickets demandés par les membres s'ouvrent instantanément.
+
+* **Motif d'ouverture** ➜ Permet d'obliger ou non les membres à spécifier un motif d'ouverture du ticket lors de l'utilisation de <mark style="color:orange;">/ticket</mark>. Son activation est conseillée afin d'éviter les spams de tickets / demandes sans raison particulière.
+
 {% endtab %}
 {% endtabs %}
 
-### Message d'ouverture
+## Message d'ouverture
