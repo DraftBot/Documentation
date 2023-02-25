@@ -79,14 +79,14 @@ _Retrouvez le détail de la configuration ci-dessous._
 Voici les différents boutons ainsi que leurs utilités :
 
 - "**Activer le système**" ➜ Permet d'activer ou désactiver le système.
-- "**Activer l'argent en vocal**" ➜ Une fois activé, les membres pourront gagner de l'argent en vocal. **_(✨ premium)_**
+- "**Activer l'argent en vocal**" ➜ Une fois activé, les membres pourront gagner de l'argent en vocal. **_([✨ premium](https://draftbot.fr/premium))_**
 
 {% hint style="info" %}
 Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK" ; avoir un micro actif.
 {% endhint %}
 
-- "**Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur. **_(✨ premium)_**
-- "**Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie. **_(✨ premium)_**
+- "**Devise**" ➜ Permet de définir l'émoji symbolisant la monnaie du serveur. **(_[✨ premium](https://draftbot.fr/premium)_)**
+- "**Couleur**" ➜ Paramétrer une couleur pour tout le système d'économie. **_([✨ premium](https://draftbot.fr/premium))_**
 - "**Argent journalier**" ➜ Permet de définir l'argent que vos membres pourront gagner chaque jour via la commande <mark style="color:orange;">/journalier</mark>.
 - "**Argent de départ**" ➜ Une fois activé, vous pourrez définir l'argent qu'auront vos membres à leur arrivée sur le serveur.
 - "**Ratio d'argent**" ➜ Permet de définir la quantité d'argent gagnée par message.
@@ -159,14 +159,14 @@ Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles,
 - <mark style="color:blue;">"Article"</mark> ➜ Modifier le nom de l'article.
 - <mark style="color:blue;">"Description"</mark> ➜ Modifier la description de l'article.
 - <mark style="color:blue;">"Prix"</mark> ➜ Modifier le prix de l'article.
-- <mark style="color:blue;">"Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique. **_(✨ premium)_**
+- <mark style="color:blue;">"Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique. **_([✨ premium](https://draftbot.fr/premium))_**
 
 ![Modifier un article](../.gitbook/assets/economy/config_shop_article_edit.png)
 ㅤ
 
 ### Supprimer un article dans votre boutique
 
-Si vous avez plusieurs articles dans votre boutique, vous devrez, dans le sélecteur, sélectionner l'article que vous voulez supprimer.
+Si vous souhaitez supprimer un article dans votre boutique, cliquez sur le bouton <mark style="color:blue;">"Supprimer"</mark> puis choisissez l'article à retirer.
 
 ![Supprimer un article](../.gitbook/assets/economy/config_shop_article_delete.png)
 
