@@ -60,7 +60,7 @@ Voici un exemple de message de notification :
 
 ## Epic Games
 
-Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur le EpicGames Store.
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur le Epic Games Store.
 
 ![Notification sociale EpicGames](../.gitbook/assets/socialnotifs/view_epicgames.jpg)
 
