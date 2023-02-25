@@ -84,7 +84,7 @@ Pour faire cela, cliquez sur le sélecteur intitulé <mark style="color:orange;"
 
 Pour modifier le message de bienvenue, rendez-vous dans <mark style="color:orange;">Message personnalisé</mark>. Vous pouvez ensuite modifier le texte à votre guise.
 
-details>
+</details>
 <summary>Variables</summary>
 Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les messages de bienvenue de **Draftbot**.
 
@@ -110,7 +110,9 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
  Votre message doit faire au maxiumum 1200 caractères.
 {% endhint %}
 ㅤ
+
 ![Modifier le texte du message de bienvenue](../../.gitbook/assets/welcome/dashboard-text-welcome.png)
+
 ㅤ
 
 ### Activer et désactiver la mention du membre à son arrivée
@@ -128,7 +130,9 @@ Si vous voulez modifier la couleur de fond de votre message de bienvenue, rendez
 Si vous souhaitez mettre une couleur de votre choix ou définir une image de fond de votre choix, il vous faut être <mark style="color:orange;">[premium](https://draftbot.fr/premium)</mark>.
 {% endhint %}
 ㅤ
+
 ![Modifier la couleur de fond du message de bienvenue](../../.gitbook/assets/welcome/dashboard-background-picture.gif)
+
 ㅤ
 ### Changer la couleur du message de bienvenue.
 
