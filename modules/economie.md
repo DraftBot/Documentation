@@ -3,7 +3,7 @@ description: >-
   Envie d'égayer davantage la vie sur votre serveur ? Alors activez le système d'économie et laissez-vous guider par DraftBot !
 ---
 
-# Gestion de l'économie
+# 💰 Économie
 
 ## Votre Argent
 
@@ -17,16 +17,6 @@ Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en ind
 {% hint style="info" %}
 Il vous faut d'abord <mark style="color:blue;">[__configurer__](https://docs.draftbot.fr/slash/module/economie#configuration)</mark> ce système.
 {% endhint %}
-
-## Modifier l'argent des utilisateurs
-
-Il existe plusieurs commandes pour gérer l'argent de vos membres :
-
-- <mark style="color:orange;">/adminargent ajouter</mark> ➜ Ajouter de l'argent à un membre en plus de son montant actuel.
-- <mark style="color:orange;">/adminargent définir</mark> ➜ Définir l'argent d'un membre en ne tenant pas compte de son montant actuel.
-- <mark style="color:orange;">/adminargent retirer</mark> ➜ Retirer de l'argent à un membre en se basant sur le montant actuel.
-- <mark style="color:orange;">/adminargent réinitialiser serveur</mark> ➜ Remettre à zéro l'argent de tout le serveur.
-- <mark style="color:orange;">/dropargent</mark> ➜ Créer un message qui offre de l'argent au premier qui clique sur le bouton.
 
 ## Classement
 
@@ -48,6 +38,16 @@ Le marché noir est une variante de la boutique consistant à se supprimer au bo
 
 {% endhint %}
 
+## Modifier l'argent des utilisateurs
+
+Plusieurs commandes sont disponibles pour gérer l'argent de vos membres :
+
+- <mark style="color:orange;">/adminargent ajouter</mark> ➜ Ajouter de l'argent à un membre en plus de son montant actuel.
+- <mark style="color:orange;">/adminargent définir</mark> ➜ Définir l'argent d'un membre en ne tenant pas compte de son montant actuel.
+- <mark style="color:orange;">/adminargent retirer</mark> ➜ Retirer de l'argent à un membre en se basant sur le montant actuel.
+- <mark style="color:orange;">/adminargent réinitialiser serveur</mark> ➜ Remettre à zéro l'argent de tout le serveur.
+- <mark style="color:orange;">/dropargent</mark> ➜ Créer un message qui offre de l'argent au premier qui clique sur le bouton.
+
 ## Objets d'inventaire
 
 Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](https://docs.draftbot.fr/slash/economie#boutique)</mark>__ ou gagnés, vous pouvez effectuer les commandes :
@@ -60,7 +60,7 @@ Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre se
 - <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
 - <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
 
-# Configuration
+## Configuration
 
 Vous pouvez configurer le système d'économie depuis le <mark style="color:blue;">[__panel__](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>.
 
@@ -71,7 +71,7 @@ Vous aurez la possibilité de configurer :
 
 _Retrouvez le détail de la configuration ci-dessous._
 
-## Système d'économie
+### Système d'économie
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
@@ -123,7 +123,7 @@ Sur le panel, vous retrouverez sur une page, les mêmes possibilités de configu
 {% endtab %}
 {% endtabs %}
 
-## Configuration de la boutique
+### Configuration de la boutique
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
