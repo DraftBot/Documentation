@@ -112,9 +112,6 @@ Vous devez d'abord activer le système en cliquant sur le bouton d'activation du
 
 ![Activation du système d'économie](../.gitbook/assets/economy/dashboard_activate_system.png)
 
-Sur le panel, vous retrouverez sur une page, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
-
-
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
 
