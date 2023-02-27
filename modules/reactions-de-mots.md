@@ -7,12 +7,12 @@ description: >-
 
 ## Activer / désactiver le système de réactions de mots <a href="#on-off" id="on-off"></a>
 
-・Pour activer le système de réactions de mots, il vous suffit de faire la commande `/config`, puis d'aller sur la catégorie **Réactions de mots** et de cliquer sur **Activer le système**.
+・Pour **activer** le système de réactions de mots, il vous suffit de faire la commande `/config`, puis d'aller sur la catégorie `Réactions de mots` et de cliquer sur `Activer le système`.
 
-・Pour **désactiver** le système, il vous faudra également utiliser la commande `/config`, puis aller sur **Réactions de mots** et de cliquer sur <mark style="color:green;">Système activé</mark> .
+・Pour **désactiver** le système, il vous faudra également utiliser la commande `/config`, puis aller sur `Réactions de mots` et de cliquer sur `Système activé`. Cela désactivera le système automatiquement.
 
 {% hint style="info" %}
-Vous pouvez également utiliser `/config système:Réactions de mots` pour afficher directement la page.
+Vous pouvez également utiliser `/config Système:Réactions de mots` pour afficher directement la page.
 {% endhint %}
 
 
@@ -36,7 +36,7 @@ Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à s
 
 ## Lister les réactions de mots<a href="#view" id="view"></a>
 
-Vous pouvez voir les réactions de mots sur votre serveur avec la commande `/config` et vous rendre simplement dans le système **Réactions de mots**.
+Vous pouvez voir les réactions de mots sur votre serveur avec la commande `/config` et vous rendre simplement dans le système `Réactions de mots`.
 Une liste s'affichera alors, contenant tous vos mots avec la réaction qui leur est associée.
 
 
@@ -47,4 +47,3 @@ Si vous souhaitez supprimer **toutes** les réactions de mots, vous pouvez utili
 {% hint style="warning" %}
 Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots de base. C'est à dire : "hey", "coucou" et "salut".
 {% endhint %}
-
