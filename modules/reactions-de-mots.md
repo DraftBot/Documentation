@@ -12,7 +12,7 @@ Pour activer le système de réactions de mots, il vous suffit de faire la comma
 
 Pour **désactiver** le système, il vous faudra également utiliser la commande `/config`, puis aller sur **Réactions de mots** et de cliquer sur <mark style="color:green;">Système activé</mark> .
 
-![](<../../..gitbook/assets/wordreact/view.png>)
+![](<../../.gitbook/assets/wordreact/view.png>)
 
 
 {% hint style="info" %}
@@ -24,7 +24,7 @@ Vous pouvez également utiliser `/config système:Réactions de mots` pour affic
 Pour **ajouter** une réaction à un mot, il vous suffit de faire la commande `/config`, aller sur `Réactions de mots` puis `Ajouter`.
 DraftBot vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte. 
 
-!](<../../..gitbook/assets/wordreact/question ajout rôles.png>)
+![](<../../.gitbook/assets/wordreact/question ajout rôles.png>)
 
 {% hint style="warning" %}
 Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots.\
@@ -37,7 +37,7 @@ Pour qu'une réaction de mots soit prise en compte, il doit être situé en **d�
 Si vous souhaitez **supprimer** une réactions en particulier, il vous suffira d'utiliser la commande `/config` puis, sélectionnez `Réactions de mots` et enfin, cliquez sur le bouton `Retirer`.
 Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à supprimer.
 
-![](<../../..gitbook/assets/wordreact/supression-mots.png>)
+![](<../../.gitbook/assets/wordreact/supression-mots.png>)
 
 ## Lister les réactions de mots<a href="#view" id="view"></a>
 
@@ -45,7 +45,7 @@ Vous pouvez voir les réactions de mots sur votre serveur avec la commande `/con
 Une liste s'affichera alors, contenant tous vos mots avec la réaction qui leur est associée.
 
 
-### <mark style="color:red;">Réinitialiser le système</mark>
+## <mark style="color:red;">Réinitialiser le système</mark>
 
 Si vous souhaitez supprimer **toutes** les réactions de mots, vous pouvez utiliser la commande `/config`, toujours dans le système `Réactions de mots` et cliquer sur `Réinitialiser`.
 
