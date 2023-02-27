@@ -51,5 +51,3 @@ Une fois effectuée, une réinitialisation est irréversible.
 
 Vous pouvez voir les wordreacts d'un serveur avec la commande `/config` et aller sur `réaction de mot`.
 Une liste s'affichera alors, contenant tous vos mots avec la réaction qui leur est associée.
-
- 

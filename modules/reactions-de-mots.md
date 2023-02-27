@@ -1,7 +1,6 @@
 ---
 description: >-
-  Les vents, c'est pas cool. Une petite réaction ça fait plaisir, alors faites
-  réagir DraftBot à vos messages.
+  Faites réagir DraftBot à vos messages pour ne plus jamais vous sentir seul ! 
 ---
 
 # 👀 Réactions de mots
@@ -24,7 +23,7 @@ Vous pouvez également utiliser `/config système:Réactions de mots` pour affic
 Pour **ajouter** une réaction à un mot, il vous suffit de faire la commande `/config`, aller sur `Réactions de mots` puis `Ajouter`.
 DraftBot vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte. 
 
-![](<../../.gitbook/assets/wordreact/question ajout rôles.png>)
+![](<../../..gitbook/assets/wordreact/exemple question ajout rôles.png>)
 
 {% hint style="warning" %}
 Si vous ne possédez pas le [premium](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots.\
