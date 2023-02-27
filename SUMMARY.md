@@ -37,6 +37,7 @@
 - [📉 Niveaux](modules/niveaux.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [📥 Notifications sociales](modules/notifications-sociales.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
