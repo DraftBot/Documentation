@@ -9,13 +9,13 @@ description: >-
 
 Le système de réactions de mots, aussi appelé wordreact, permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commence par un mots spécial. 
 
-![](../../.gitbook/assets/wordreact/exemple système.png)
+![](../../.gitbook/assets/wordreact/exemplesystème.png)
 
 ## Activer / désactiver le système de réactions de mots 
 
-・Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **Activer le système**.
+Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **Activer le système**.
 
-・Pour désactiver le système, il vous faudra également utiliser la commande <mark style="color:orange;">/config</mark>, puis dans le système `Réactions de mots` et **"Désactiver le système"** . Cela désactivera le système automatiquement.
+Pour désactiver le système, il vous faudra également utiliser la commande <mark style="color:orange;">/config</mark>, puis dans le système `Réactions de mots` et **"Désactiver le système"** . Cela désactivera le système automatiquement.
 
 {% hint style="info" %}
 Vous pouvez également utiliser <mark style="color:orange;">/config Système: Réactions de mots</mark> pour afficher directement la page.
@@ -43,7 +43,7 @@ Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à s
 
 ## Lister les réactions de mots
 
-Vous pouvez voir les réactions de mots sur votre serveur avec la commande `/config` et vous rendre simplement dans le système `Réactions de mots`.
+Vous pouvez voir les réactions de mots sur votre serveur avec la commande <mark style="color:orange;">/config</mark> et vous rendre simplement dans le système **Réactions de mots**.
 Une liste s'affichera alors, contenant tous vos mots avec la réaction qui leur est associée.
 
 
