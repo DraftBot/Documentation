@@ -1,6 +1,6 @@
 ---
 description: >-
- Rendez public votre activité sur les autres réseaux sociaux !
+ Rendez publique votre activité sur les autres réseaux sociaux !
 ---
 # Notifications sociales
 
@@ -71,3 +71,8 @@ Ce module permet d'afficher des bandes dessinées en lien avec le métier de dé
 *Illustration a placer ici*
 
 ## Dealabs
+
+Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot".
+Il faut aussi noter que l'administrateur peut configurer le module dealabs uniquement pour certaines catégories (exemples : High-Tech).
+
+*Illustration a placer ici*
