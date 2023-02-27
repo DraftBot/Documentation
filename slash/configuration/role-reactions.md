@@ -23,7 +23,7 @@ Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie
 * ***Créer un nouveau rôle-réaction*** ➜ Permet d'accéder au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
 * ***Gérer un rôle-réaction existant*** ➜ Permet de [gérer un rôle-réaction existant](role-reactions.md#gérer-un-rôle-réaction-existant) sur le message dont vous renseignez l'identifiant.
 
-![Commande /config système: Rôles-Réactions](../../.gitbook/assets/rolereact/view.png)
+![Configuration des rôles-réactions via /config](../../.gitbook/assets/rolereact/view.png)
 {% endtab %}
 
 <!-- Depuis le panel web -->
