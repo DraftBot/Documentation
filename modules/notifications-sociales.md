@@ -81,6 +81,6 @@ Il faut aussi noter que l'administrateur peut configurer le module dealabs uniqu
 
 Vous pouvez activer séparément tous les types de notifications sociales.
 
-![/config > notifications sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)
+![/config > Notifications Sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)
 
 ![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.png)
