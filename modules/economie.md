@@ -125,7 +125,7 @@ Vous devez d'abord activer le système en cliquant sur le bouton d'activation du
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
-Rendez-vous d'abord dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>
+Rendez-vous d'abord dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>.
 
 ### Créer un article dans votre boutique
 
@@ -133,7 +133,7 @@ Après avoir cliqué sur le bouton <mark style="color:blue;">"Créer"</mark>, un
 
 - <mark style="color:blue;">"Rôle"</mark> ➜ Vos membres pourront acheter un rôle prédéfini.
 - <mark style="color:blue;">"Rôle temporaire"</mark> ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
-- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark>
+- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark>.
 - <mark style="color:blue;">"Personnaliser"</mark> ➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
 
 {% hint style="info" %}
@@ -169,7 +169,7 @@ Si vous souhaitez supprimer un article dans votre boutique, cliquez sur le bouto
 
 ### Réinitialiser votre boutique
 
-Si vous souhaitez réinitialiser votre boutique, cliquez sur le bouton <mark style="color:blue;">"Réinitialiser"</mark>
+Si vous souhaitez réinitialiser votre boutique, cliquez sur le bouton <mark style="color:blue;">"Réinitialiser"</mark>.
 
 {% hint style="warning" %}
 Une fois la boutique réinitialisée, il vous sera impossible de récupérer ce que vous aviez fait.
@@ -177,7 +177,7 @@ Une fois la boutique réinitialisée, il vous sera impossible de récupérer ce 
 
 ### Type de la boutique
 
-Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark style="color:blue;">"Type de la boutique"</mark>
+Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark style="color:blue;">"Type de la boutique"</mark>.
 
 - <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
 - <mark style="color:blue;">"Noir"</mark> ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
@@ -190,7 +190,7 @@ Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), ren
 
 ### Créer un article dans votre boutique
 
-Pour créer un article, cliquez sur le bouton "<mark style="color:orange;">Créer un article</mark>"
+Pour créer un article, cliquez sur le bouton "<mark style="color:orange;">Créer un article</mark>".
 
 ![Créer un article](../.gitbook/assets/economy/dashboard_article_create.png)
 
@@ -213,7 +213,7 @@ Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles,
 
 ### Supprimer un article dans votre boutique
 
-Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color:red;">"Supprimer"</mark>
+Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color:red;">"Supprimer"</mark>.
 
 ![Supprimer un article](../.gitbook/assets/economy/dashboard_article_delete.png)
 
