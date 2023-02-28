@@ -10,7 +10,7 @@ description: >-
 {% hint style="info" %}
 Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés par **DraftBot**. Vous pouvez créer ces messages de différentes manières :
 * *Depuis la commande <mark style="color:orange;">/envoyer</mark>* : Permet d'envoyer un message simple sous l'identité de **DraftBot**.
-* *Depuis la configuration des rôles-réactions, via <mark style="color:orange;">/config système:Rôles-Réactions</mark>* : Permet de créer un embed au titre personnalisé et au footer prédéfini.
+* *Depuis la configuration des rôles-réactions, via <mark style="color:orange;">/config</mark>* : Permet de créer un embed au titre personnalisé et au footer prédéfini.
 * *Depuis l'Embed Creator du <mark style="color:blue;">[panel](https://www.draftbot.fr/dashboard)</mark>* : Permet la création complète et facile d'un message ou d'un embed entièrement personnalisable (description, champs, image...).
 {% endhint %}
 
