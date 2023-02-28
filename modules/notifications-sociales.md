@@ -17,7 +17,7 @@ Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https:
 ## Twitch
 
 {% hint style="warning" %}
-Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ Premiums](https://www.draftbot.fr/premium)</mark>.
+Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ premiums](https://www.draftbot.fr/premium)</mark>.
 Si vous n'avez pas le premium, il existe une alternative appelée le <mark style="color:orange;">[Live Presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
 {% endhint %}
 
