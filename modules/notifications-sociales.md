@@ -76,3 +76,11 @@ Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot".
 Il faut aussi noter que l'administrateur peut configurer le module dealabs uniquement pour certaines catégories (exemples : High-Tech).
 
 *Illustration a placer ici*
+
+## Configuration
+
+Vous pouvez activer séparément tous les types de notifications sociales.
+
+![/config > notifications sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.jpg)
+
+![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.jpg)
