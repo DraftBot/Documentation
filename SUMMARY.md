@@ -59,7 +59,6 @@
   - [Gestion des rôles](slash/gestion-des-roles.md)
   - [Gestion des messages](slash/gestion-des-messages.md)
   - [Gestion de l'économie](slash/gestion-de-leconomie.md)
-  - [Notifications sociales](slash/notifications-sociales.md)
   - [(Gestion des permissions)](slash/gestion-des-permissions.md)
   - [Divers](slash/divers.md)
 
