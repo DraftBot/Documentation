@@ -80,7 +80,7 @@ Dans les boutons en dessous du message, sélectionnez "Modules".
 ![Configuration d'un module de log via la commande /config](../.gitbook/assets/logs/configuration_modules.png)
 
 Une fois le module sélectionné, laissez-vous guider par **DraftBot** pour terminer la configuration du module !
-* Pour changer le salon d'envoi : Indiquez la mention ou l'ID du salon voulu.
+* Pour changer le salon d'envoi : Indiquez la mention ou l'identifiant du salon voulu.
 * Pour changer la photo de profil du log, lors de l'envoi : Envoyez une image respectant les normes indiquées dans la description de la question correspondante. ***(✨ premium)***
 * Pour changer la couleur du log, lors de l'envoi : Indiquez un code couleur au format hexadécimal ***(✨ premium)***
 
