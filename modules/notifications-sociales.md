@@ -33,7 +33,7 @@ Le module **Live Presence** consiste à envoyer une notification lorsqu'un membr
 
 En fonction de la configuration du module sur ce serveur, **n'importe quel membre** peut avoir sa notification lorsqu'il est en stream.
 
-**Le nombre de notifications de Live Presence est illimité**, cela dit l'administrateur de votre serveur peut restreindre l'envoi de la notification à certains rôles. 
+**Le nombre de notifications de Live Presence est illimité**, cela dit l'administrateur de votre serveur peut restreindre l'envoi de la notification à certains rôles.
 
 {% hint style="info" %}
 L'envoi d'une notification live presence nécessite d'avoir **son compte Twitch ou YouTube lié à Discord**. Plus d'information ci-dessous.
@@ -46,7 +46,7 @@ Voici <mark style="color:orange;">[ce tutoriel réalisé par Discord](https://su
 Suite à cette manipulation, vous devrez normalement avoir cet aperçu sur votre profil lorsque vous serez en live :
 
 
-![Image de live](../.gitbook/assets/socialnotifs/view_live.jpg)
+![Image de live](../.gitbook/assets/socialnotifs/view_live.png)
 
 ## Reddit
 
@@ -62,7 +62,7 @@ Voici un exemple de message de notification :
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur le Epic Games Store.
 
-![Notification sociale Epic Games](../.gitbook/assets/socialnotifs/view_epicgames.jpg)
+![Notification sociale Epic Games](../.gitbook/assets/socialnotifs/view_epicgames.png)
 
 ## CommitStrip
 
@@ -81,6 +81,6 @@ Il faut aussi noter que l'administrateur peut configurer le module dealabs uniqu
 
 Vous pouvez activer séparément tous les types de notifications sociales.
 
-![/config > notifications sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.jpg)
+![/config > notifications sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)ch
 
-![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.jpg)
+![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.png)ch
