@@ -116,7 +116,3 @@ Exemple de log de modération reçu sur le serveur :
 ![Exemple de log de modération](../.gitbook/assets/logs/view.png)
 {% endtab %}
 {% endtabs %}
-
-{% hint style="warning" %}
-Il peut arriver que les logs soient envoyés dans un mauvais salon. Si c'est le cas, vous devrez reconfigurer un à un les salons des différents modules présentant ce problème (de préférence avec la commande <mark style="color:orange;">/config</mark>).
-{% endhint %}
