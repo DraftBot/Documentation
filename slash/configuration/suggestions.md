@@ -6,12 +6,13 @@ description: >-
 
 # 💡 Suggestions
 
+### Menu des suggestions
 
-### Proposer une suggestion
 
-#### Menu des suggestions
+### Créer sa suggestion
 
-#### Créer sa suggestion
+
+### Gérer une suggestion
 
 
 
