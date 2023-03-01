@@ -26,7 +26,7 @@ Ce système n'étant disponible que depuis peu, il n'est pas possible de répert
 
 
 
-### Configuration
+## Configuration
 
 
 
