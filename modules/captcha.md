@@ -19,6 +19,10 @@ Vous aurez alors le choix :
 
 ![Configuration du captcha](../../.gitbook/assets/captcha/view.png)
 
+{% hint style="info" %}
+La configuration du système de captcha n'est pas encore disponible sur le panel de **DraftBot**.
+{% endhint %}
+
 ## Utilisation du captcha
 
 Lorsqu'un nouveau membre rejoindra votre serveur Discord, un message apparaîtra dans le salon que vous avez défini pour le captcha.\
