@@ -23,6 +23,7 @@ Ce système n'étant disponible que depuis peu, il n'est pas possible de répert
 
 ![Menu des suggestions](../.gitbook/assets/suggestions/program.png)
 
+
 ### Proposer une suggestion
 
 Pour proposer une suggestion, il vous faut faire la commande <mark style="color:orange;">/suggest</mark>.
@@ -46,7 +47,34 @@ Vous pouvez alors sélectionner le bouton "<mark style="color:blue;">Ajouter un 
 
 ### Gérer une suggestion
 
+**DraftBot** vous propose de pouvoir accepter ou refuser une suggestion.\
+Découvrez dans le menu ci-dessous comment faire !
 
+{% hint stype="info" %}
+Vous avez besoin de la permission "*Gérer les messages*" pour pouvoir accepter ou refuser une suggestion.
+{% endhint %}
+
+{% tabs %}
+{% tab title="Accepter une suggestion" %}
+Pour accepter une suggestion, faites un clic droit (sur pc) ou appuyez longtemps (sur portable) sur la suggestion en question et appuyez sur "Applications".\
+Vous aurez ensuite la possibilité d'"Accepter" la suggestion.
+
+Un menu s'ouvrira et vous demandera votre raison d'acceptation.\
+Si vous ne souhaitez pas mettre de raison d'acceptation, appuyez directement sur "<mark style="color:blue;">Envoyer</mark>" sans rentrer de texte dans la case.
+
+![Accepter une suggestion](../.gitbook/assets/suggestions/suggest_accept.gif)
+{% endtab %}
+
+{% tab title="Refuser une suggestion" %}
+Pour refuser une suggestion, faites un clic droit (sur pc) ou appuyez longtemps (sur portable) sur la suggestion en question et appuyez sur "Applications".\
+Vous aurez ensuite la possibilité de "Refuser" la suggestion.
+
+Un menu s'ouvrira et vous demandera votre raison de refus.\
+Si vous ne souhaitez pas mettre de raison de refus, appuyez directement sur "<mark style="color:blue;">Envoyer</mark>" sans rentrer de texte dans la case.
+
+![Refuser une suggestion](../.gitbook/assets/suggestions/suggest_refuse.gif)
+{% endtab %}
+{% endtabs %}
 
 ## Configuration
 
