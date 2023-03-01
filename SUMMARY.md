@@ -37,6 +37,7 @@
 - [📉 Niveaux](modules/niveaux.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 
@@ -53,7 +54,6 @@
   - [🧮 Compteur de membres](slash/configuration/compteur-de-membres.md)
   - [👀 Réactions de mots](slash/configuration/reactions-de-mots.md)
   - [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
-  - [🗃 Logs](slash/configuration/logs.md)
   - [Gestion des rôles](slash/gestion-des-roles.md)
   - [Gestion des messages](slash/gestion-des-messages.md)
   - [Gestion de l'économie](slash/gestion-de-leconomie.md)
