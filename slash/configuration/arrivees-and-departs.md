@@ -51,7 +51,7 @@ Votre message doit faire au maxiumum 1200 caractères.
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celui par défaut avec le bouton <mark style="color:red;">"Aucune"</mark>, si vous souhaitez en avoir une personnalisée, vous devez avoir un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 ㅤ
-![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/background-color.png)
+![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration_color.png)
 ㅤ
 {% endhint %}
 ㅤ
@@ -62,7 +62,7 @@ Vous avez le choix entre trois couleurs ainsi que celui par défaut avec le bout
 Les dimensions optimales de l'image sont de 1000 x 300 pixels.
 {% endhint %}
 ㅤ
-![Menu de configuration du système de bienvenue](../../.gitbook/assets/welcome/view-welcome-message.png)
+![Menu de configuration du système de bienvenue](../../.gitbook/assets/welcome/configuration.png)
 ㅤ
 {% endtab %}
 {% tab title="Via le panel" %}
