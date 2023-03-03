@@ -35,6 +35,7 @@
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
 - [📉 Niveaux](modules/niveaux.md)
+- [🔘 Rôle réactions](modules/role-reactions.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
 
@@ -45,7 +46,6 @@
   - [🔒 Captcha](slash/configuration/captcha.md)
   - [🎂 Anniversaires](slash/configuration/anniversaires.md)
   - [📣 Notifications sociales](slash/configuration/notifications-sociales.md)
-  - [🔘 Rôle réactions](slash/configuration/role-reactions.md)
   - [🔉 Salons vocaux temporaires](slash/configuration/salons-vocaux-temporaires.md)
   - [💡 Suggestions](slash/configuration/suggestions.md)
   - [🚨 Signalements](slash/configuration/signalements.md)
