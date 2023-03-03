@@ -7,7 +7,7 @@ description: >-
 
 ## Votre Argent
 
-Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[**membre**]</mark>. Pour d'obtenir de l'argent, il faut que [le système d'économie](https://docs.draftbot.fr/slash/module/economie#configuration) soit activé sur le serveur.
+Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[membre]</mark>. Pour d'obtenir de l'argent, il faut que <mark style="color:blue;">[le système d'économie](https://docs.draftbot.fr/module/economie#configuration)</mark> soit activé sur le serveur.
 
 ![Carte d'économie](../.gitbook/assets/economy/money.png)
 
@@ -15,7 +15,7 @@ Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en ind
 - <mark style="color:orange;">/payer</mark> ➜ Donner de l'argent à un membre de votre choix.
 
 {% hint style="info" %}
-Il vous faut d'abord <mark style="color:blue;">[__configurer__](https://docs.draftbot.fr/slash/module/economie#configuration)</mark> ce système.
+Il vous faut d'abord <mark style="color:blue;">[__configurer__](https://docs.draftbot.fr/module/economie#configuration)</mark> ce système.
 {% endhint %}
 
 ## Classement
@@ -32,7 +32,7 @@ Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[__ici__](https://docs.draftbot.fr/slash/economie#typedelaboutique)</mark>.
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[__ici__](https://docs.draftbot.fr/modules/economie#typedelaboutique)</mark>.
 
 ![Marché noir de DraftBot](../.gitbook/assets/economy/shop-dark.png)
 
@@ -50,7 +50,7 @@ Plusieurs commandes sont disponibles pour gérer l'argent de vos membres :
 
 ## Objets d'inventaire
 
-Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](https://docs.draftbot.fr/slash/economie#boutique)</mark>__ ou gagnés, vous pouvez effectuer les commandes :
+Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](https://docs.draftbot.fr/modules/economie#boutique)</mark>__ ou gagnés, vous pouvez effectuer les commandes :
 
 - <mark style="color:orange;">/inventaire</mark> ➜ Afficher son inventaire ou celui de la personne de notre choix.
 - <mark style="color:orange;">/item échanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de son choix.
@@ -106,7 +106,7 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 
 <mark style="color:blue;">[__Accéder au panel de **DraftBot**__](https://draftbot.fr/dashboard)</mark>
 
-Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Économie".
+Une fois sur le panel de **DraftBot**, rendez-vous sur la page "Économie".
 
 Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
@@ -125,22 +125,22 @@ Vous devez d'abord activer le système en cliquant sur le bouton d'activation du
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
-Rendez-vous d'abord dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur <mark style="color:blue;">"Configuration de la boutique"</mark>.
+Rendez-vous d'abord dans la catégorie "💰 Économie" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Configuration de la boutique</mark>".
 
 ### Créer un article dans votre boutique
 
-Après avoir cliqué sur le bouton <mark style="color:blue;">"Créer"</mark>, un menu va s'ouvrir :
+Après avoir cliqué sur le bouton "<mark style="color:blue;">Créer</mark>", un menu va s'ouvrir :
 
-- <mark style="color:blue;">"Rôle"</mark> ➜ Vos membres pourront acheter un rôle prédéfini.
-- <mark style="color:blue;">"Rôle temporaire"</mark> ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
-- <mark style="color:blue;">"Expérience"</mark> ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark>.
-- <mark style="color:blue;">"Personnaliser"</mark> ➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
+- "<mark style="color:blue;">Rôle</mark>" ➜ Vos membres pourront acheter un rôle prédéfini.
+- "<mark style="color:blue;">Rôle temporaire</mark>" ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
+- "<mark style="color:blue;">Expérience</mark>" ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark>.
+- "<mark style="color:blue;">Personnaliser</mark>"➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
 
 {% hint style="info" %}
 Un message privé sera envoyé au créateur du serveur pour qu'il vous donne la récompense.
 {% endhint %}
 
-- <mark style="color:blue;">"Objet"</mark> ➜ Créer un item qui sera affiché dans votre <mark style="color:orange;">/inventaire</mark>.
+- "<mark style="color:blue;">Objet</mark>" ➜ Créer un item qui sera affiché dans votre <mark style="color:orange;">/inventaire</mark>.
 
 {% hint style="info" %}
 **Conseil :** si vous voulez illustrer vos objets d'inventaire et ne pas avoir que du texte, vous pouvez ajouter des émojis.
@@ -151,25 +151,25 @@ _Exemple : "🍒 Cerises"_
 
 ### Modifier un article dans votre boutique
 
-Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton <mark style="color:blue;">"Modifier"</mark> :
+Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles, vous pouvez le modifier, en cliquant sur le bouton "<mark style="color:blue;">Modifier"</mark>" :
 
-- <mark style="color:blue;">"Article"</mark> ➜ Modifier le nom de l'article.
-- <mark style="color:blue;">"Description"</mark> ➜ Modifier la description de l'article.
-- <mark style="color:blue;">"Prix"</mark> ➜ Modifier le prix de l'article.
-- <mark style="color:blue;">"Stock"</mark> ➜ Modifier la quantité d'articles disponible dans la boutique. **_([✨ premium](https://draftbot.fr/premium))_**
+- "<mark style="color:blue;">Article</mark>" ➜ Modifier le nom de l'article.
+- "<mark style="color:blue;">Description</mark>" ➜ Modifier la description de l'article.
+- "<mark style="color:blue;">Prix</mark>" ➜ Modifier le prix de l'article.
+- "<mark style="color:blue;">Stock</mark>" ➜ Modifier la quantité d'articles disponible dans la boutique. **_([✨ premium](https://draftbot.fr/premium))_**
 
 ![Modifier un article](../.gitbook/assets/economy/config_shop_article_edit.png)
 ㅤ
 
 ### Supprimer un article dans votre boutique
 
-Si vous souhaitez supprimer un article dans votre boutique, cliquez sur le bouton <mark style="color:blue;">"Supprimer"</mark> puis choisissez l'article à retirer.
+Si vous souhaitez supprimer un article dans votre boutique, cliquez sur le bouton "<mark style="color:blue;">Supprimer</mark>" puis choisissez l'article à retirer.
 
 ![Supprimer un article](../.gitbook/assets/economy/config_shop_article_delete.png)
 
 ### Réinitialiser votre boutique
 
-Si vous souhaitez réinitialiser votre boutique, cliquez sur le bouton <mark style="color:blue;">"Réinitialiser"</mark>.
+Si vous souhaitez réinitialiser votre boutique, cliquez sur le bouton "<mark style="color:blue;">Réinitialiser</mark>".
 
 {% hint style="warning" %}
 Une fois la boutique réinitialisée, il vous sera impossible de récupérer ce que vous aviez fait.
@@ -177,7 +177,7 @@ Une fois la boutique réinitialisée, il vous sera impossible de récupérer ce 
 
 ### Type de la boutique
 
-Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark style="color:blue;">"Type de la boutique"</mark>.
+Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton "<mark style="color:blue;">Type de la boutique</mark>".
 
 - <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
 - <mark style="color:blue;">"Noir"</mark> ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
@@ -186,7 +186,7 @@ Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton <mark s
 {% tab title="Depuis le panel" %}
 <mark style="color:blue;">[__Accéder au panel de **DraftBot**__](https://draftbot.fr/dashboard)</mark>
 
-Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Économie".
+Une fois sur le panel de **DraftBot**, rendez-vous en bas de la page "Économie".
 
 ### Créer un article dans votre boutique
 
