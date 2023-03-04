@@ -179,8 +179,8 @@ Une fois la boutique réinitialisée, il vous sera impossible de récupérer ce 
 
 Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton "<mark style="color:blue;">Type de la boutique</mark>".
 
-- <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
-- <mark style="color:blue;">"Noir"</mark> ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
+- "<mark style="color:blue;">Normal</mark>" ➜ Le message de la boutique est conservé.
+- "<mark style="color:blue;">Noir</mark>" ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
@@ -194,11 +194,11 @@ Pour créer un article, cliquez sur le bouton "<mark style="color:orange;">Crée
 
 ![Créer un article](../.gitbook/assets/economy/dashboard_article_create.png)
 
-Une pop-up s'ouvrira dans laquelle vous pourrez configurer votre article.
+Un pop-up s'ouvrira dans laquel vous pourrez configurer votre article.
 
 ![Pop-up création d'un article](../.gitbook/assets/economy/dashboard_article_create_popup.png)
 
-Pour créer un article, cliquez sur le bouton <mark style="color:orange;">"Créer un article"</mark>. Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
+Pour créer un article, cliquez sur le bouton "<mark style="color:orange;">Créer un article</mark>". Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
 ㅤ
 {% hint style="info" %}
 Si vous souhaitez mettre des émojis sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[__identifiant__](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
@@ -213,7 +213,7 @@ Si vous vous rendez compte qu'une erreur s'est glissée dans un de vos articles,
 
 ### Supprimer un article dans votre boutique
 
-Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color:red;">"Supprimer"</mark>.
+Si vous souhaitez supprimer un article, cliquez sur le bouton "<mark style="color:red;">Supprimer</mark>".
 
 ![Supprimer un article](../.gitbook/assets/economy/dashboard_article_delete.png)
 
@@ -221,8 +221,8 @@ Si vous souhaitez supprimer un article, cliquez sur le bouton <mark style="color
 
 Pour modifier le type de la boutique, rendez vous sur le sélecteur (voir image) puis sélectionnez le modèle voulu.
 
-- <mark style="color:blue;">"Normal"</mark> ➜ Le message de la boutique est conservé.
-- <mark style="color:blue;">"Noir"</mark> ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
+- "<mark style="color:blue;">Normal</mark>" ➜ Le message de la boutique est conservé.
+- "<mark style="color:blue;">Noir</mark>" ➜ Le message de la boutique est supprimé automatiquement après 60 secondes d'inactivité.
 
 ![Type de boutique](../.gitbook/assets/economy/dashboard_shop_type.png)
 
