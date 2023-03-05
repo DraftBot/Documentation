@@ -23,7 +23,7 @@ Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie
 * ***Créer un nouveau rôle-réaction*** ➜ Permet d'accéder au menu de [création d'un nouveau rôle-réaction](role-reactions.md#créer-un-nouveau-rôle-réaction).
 * ***Gérer un rôle-réaction existant*** ➜ Permet de [gérer un rôle-réaction existant](role-reactions.md#gérer-un-rôle-réaction-existant) sur le message dont vous renseignez l'identifiant.
 
-![Configuration des rôles-réactions via /config](../../.gitbook/assets/rolereact/view.png)
+![Configuration des rôles-réactions via /config](../.gitbook/assets/rolereact/view.png)
 {% endtab %}
 
 <!-- Depuis le panel web -->
@@ -33,12 +33,12 @@ Pour configurer le système de rôles-réactions, rendez-vous dans la catégorie
 
 Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Rôles-Réactions" sur le serveur de votre choix.
 
-![Panel de configuration des rôles-réactions](../../.gitbook/assets/rolereact/dashboard.png)
+![Panel de configuration des rôles-réactions](../.gitbook/assets/rolereact/dashboard.png)
 
 {% hint style="info" %}
 Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de l'encadré d'un rôle-réaction.
 
-![Zone de texte de l'encadré d'un rôle-réaction](../../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
+![Zone de texte de l'encadré d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
 {% endhint %}
 
 {% endtab %}
@@ -53,7 +53,7 @@ Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie 
 {% tab title="Via la commande /config" %}
 Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
 
-![Message de création d'un nouveau rôle-réaction](../../.gitbook/assets/rolereact/question.png)
+![Message de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/question.png)
 
 Une fois fait, **DraftBot** vous demandera à partir de quel message vous souhaitez créer votre rôle-réaction :
 * ***Nouveau message*** ➜ Créera un embed au titre personnalisé et au footer prédéfini.
@@ -81,7 +81,7 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Panel de création d'un nouveau rôle-réaction](../../.gitbook/assets/rolereact/dashboard_creation.png)
+![Panel de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/dashboard_creation.png)
 
 {% endtab %}
 {% endtabs %}
@@ -93,7 +93,7 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 {% tab title="Via la commande /config" %}
 Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
 
-![Message de gestion des rôles-réactions](../../.gitbook/assets/rolereact/gestion.png)
+![Message de gestion des rôles-réactions](../.gitbook/assets/rolereact/gestion.png)
 
 Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
@@ -123,6 +123,6 @@ Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Panel de gestion d'un rôle-réaction](../../.gitbook/assets/rolereact/dashboard_gestion.png)
+![Panel de gestion d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_gestion.png)
 {% endtab %}
 {% endtabs %}
