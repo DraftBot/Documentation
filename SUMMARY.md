@@ -39,7 +39,7 @@
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
-- [🔘 Rôle réactions](modules/role-reactions.md)
+- [🔘 Rôles-Réactions](modules/roles-reactions.md)
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
