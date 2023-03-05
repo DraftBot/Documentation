@@ -51,7 +51,7 @@ Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie 
 
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
-Pour créer un nouveau rôle-réaction, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Créer un nouveau rôle-réaction".
+Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
 
 ![Message de création d'un nouveau rôle-réaction](../../.gitbook/assets/rolereact/question.png)
 
@@ -64,12 +64,10 @@ L'intégralité de la création est ensuite guidée par **DraftBot**, il vous su
 
 <!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-
-Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Rôles-Réactions".
+Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via le panel.
 
 * Si vous voulez créer un nouveau message, créez un message et/ou un embed grâce à l'Embed Creator se trouvant au centre de la page.
-* Si vous voulez utiliser un message de **DraftBot** existant, cliquez sur le bouton "Récupérer un message" situé en haut à droite de la page et remplissez la fenêtre pop-up en indiquant le salon dans lequel se trouve le message, ainsi que l'[identifiant du message](../../autres/recuperer-un-identifiant.md#identifiant-dun-message) à récupérer. Cliquez ensuite sur "Récupérer".
+* Si vous voulez utiliser un message de **DraftBot** existant, cliquez sur le bouton "Récupérer un message" situé en haut à droite de la page et remplissez la fenêtre pop-up en indiquant le salon dans lequel se trouve le message, ainsi que l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) à récupérer. Cliquez ensuite sur "Récupérer".
 
 Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", un "Bouton" ou un "Sélecteur". Vous pouvez en ajouter plusieurs sur un même message.
 
@@ -93,11 +91,11 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
-Pour gérer un rôle-réaction existant, rendez-vous dans la catégorie "Rôles-Réactions" de la commande <mark style="color:orange;">/config</mark>, puis cliquez sur "Gérer un rôle-réaction existant".
+Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
 
 ![Message de gestion des rôles-réactions](../../.gitbook/assets/rolereact/gestion.png)
 
-Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
+Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
 Vous aurez ensuite accès au menu de gestion de rôle-réaction :
 * ***Ajouter*** ➜ [Ajouter](role-reactions.md#ajouter-un-nouveau-rôle-reaction) un nouveau rôle-réaction.
@@ -110,11 +108,9 @@ L'intégralité de la création est ensuite guidée par **DraftBot**, il vous su
 
 <!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via le panel.
 
-Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous sur la page "Rôles-Réactions".
-
-À droite de cette page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
+À droite de la page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
 
 Vous pourrez modifier les rôles-réactions de différentes façons :
 * Vous pouvez modifier le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
