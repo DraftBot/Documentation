@@ -113,9 +113,9 @@ Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéde
 À droite de la page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
 
 Vous pourrez modifier les rôles-réactions de différentes façons :
-* Vous pouvez modifier le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
-* Vous pouvez modifier le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en dessous de l'Embed Creator.
-* Vous pouvez ajouter, modifier ou supprimer un rôle-réaction dans la section se trouvant en dessous du sélecteur de mode.
+* En modifiant le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
+* En modifiant le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en dessous de l'Embed Creator.
+* En ajoutant, modifiant ou supprimant un rôle-réaction dans la section se trouvant en dessous du sélecteur de mode.
 
 {% hint style="success" %}
 Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
