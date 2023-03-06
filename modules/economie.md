@@ -7,7 +7,7 @@ description: >-
 
 ## Votre Argent
 
-Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[membre]</mark>. Pour d'obtenir de l'argent, il faut que <mark style="color:blue;">[le système d'économie](https://docs.draftbot.fr/module/economie#configuration)</mark> soit activé sur le serveur.
+Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en indiquant leur pseudo dans l'argument "Membre" avec <mark style="color:orange;">/argent \[membre]</mark>.
 
 ![Carte d'économie](../.gitbook/assets/economy/money.png)
 
@@ -15,7 +15,7 @@ Vous pouvez voir votre somme d'argent, ainsi que celle des autres membres en ind
 - <mark style="color:orange;">/payer</mark> ➜ Donner de l'argent à un membre de votre choix.
 
 {% hint style="info" %}
-Il vous faut d'abord <mark style="color:blue;">[__configurer__](https://docs.draftbot.fr/module/economie#configuration)</mark> ce système.
+Pour pouvoir obtenir de l'argent, il vous faut configurer <mark style="color:blue;">[__configurer__](modules/economie#configuration)</mark> le système d'économie.
 {% endhint %}
 
 ## Classement
@@ -32,11 +32,23 @@ Elle est accessible avec la commande <mark style="color:orange;">/boutique</mark
 ![Boutique de DraftBot](../.gitbook/assets/economy/shop.png)
 
 {% hint style="info" %}
-Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[__ici__](https://docs.draftbot.fr/modules/economie#typedelaboutique)</mark>.
+Le marché noir est une variante de la boutique consistant à se supprimer au bout de 60 secondes d'inactivité, ni vu ni connu ! Plus d'informations <mark style="color:blue;">[__ici__](modules/economie#typedelaboutique)</mark>.
 
 ![Marché noir de DraftBot](../.gitbook/assets/economy/shop-dark.png)
 
 {% endhint %}
+
+## Objets d'inventaire
+
+Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](modules/economie#boutique)</mark>__ ou gagnés, vous pouvez effectuer les commandes :
+
+- <mark style="color:orange;">/inventaire</mark> ➜ Afficher son inventaire ou celui de la personne de notre choix.
+- <mark style="color:orange;">/item échanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de son choix.
+- <mark style="color:orange;">/item donner</mark> ➜ Donner un de ses objets d'inventaire à la personne de son choix.
+- <mark style="color:orange;">/item drop</mark> ➜ Offrir un de ses items à la personne qui appuiera sur le bouton en premier.
+- <mark style="color:orange;">/item vendre</mark> ➜ Vendre un de ses objets d'inventaire à la personne de son choix.
+- <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
+- <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
 
 ## Modifier l'argent des utilisateurs
 
@@ -48,26 +60,14 @@ Plusieurs commandes sont disponibles pour gérer l'argent de vos membres :
 - <mark style="color:orange;">/adminargent réinitialiser serveur</mark> ➜ Remettre à zéro l'argent de tout le serveur.
 - <mark style="color:orange;">/dropargent</mark> ➜ Créer un message qui offre de l'argent au premier qui clique sur le bouton.
 
-## Objets d'inventaire
-
-Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](https://docs.draftbot.fr/modules/economie#boutique)</mark>__ ou gagnés, vous pouvez effectuer les commandes :
-
-- <mark style="color:orange;">/inventaire</mark> ➜ Afficher son inventaire ou celui de la personne de notre choix.
-- <mark style="color:orange;">/item échanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de son choix.
-- <mark style="color:orange;">/item donner</mark> ➜ Donner un de ses objets d'inventaire à la personne de son choix.
-- <mark style="color:orange;">/item drop</mark> ➜ Offrir un de ses items à la personne qui appuiera sur le bouton en premier.
-- <mark style="color:orange;">/item vendre</mark> ➜ Vendre un de ses objets d'inventaire à la personne de son choix.
-- <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
-- <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
-
 ## Configuration
 
 Vous pouvez configurer le système d'économie depuis le <mark style="color:blue;">[__panel__](https://draftbot.fr/dashboard)</mark> ou depuis la commande <mark style="color:orange;">/config</mark>.
 
 Vous aurez la possibilité de configurer :
 
-- [Le système d'économie](https://docs.draftbot.fr/modules/configuration/economie#systeme-deconomie)
-- [La configuration de la boutique](https://docs.draftbot.fr/modules/configuration/economie#configuration-de-la-boutique)
+- [Le système d'économie](modules/configuration/economie#systeme-deconomie)
+- [La configuration de la boutique](modules/configuration/economie#configuration-de-la-boutique)
 
 _Retrouvez le détail de la configuration ci-dessous._
 
@@ -104,7 +104,7 @@ Conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne 
 
 {% tab title="Depuis le panel" %}
 
-<mark style="color:blue;">[__Accéder au panel de **DraftBot**__](https://draftbot.fr/dashboard)</mark>
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Une fois sur le panel de **DraftBot**, rendez-vous sur la page "Économie".
 
@@ -133,7 +133,7 @@ Après avoir cliqué sur le bouton "<mark style="color:blue;">Créer</mark>", un
 
 - "<mark style="color:blue;">Rôle</mark>" ➜ Vos membres pourront acheter un rôle prédéfini.
 - "<mark style="color:blue;">Rôle temporaire</mark>" ➜ Vos membres pourront acheter un rôle prédéfini qu'ils garderont durant une durée choisie.
-- "<mark style="color:blue;">Expérience</mark>" ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark>.
+- "<mark style="color:blue;">Expérience</mark>" ➜ Vos membres pourront acheter de l'<mark style="color:blue;">[expérience](modules/niveaux)</mark>.
 - "<mark style="color:blue;">Personnaliser</mark>"➜ Créer une récompense personnalisée (quelque chose que **DraftBot** ne peut pas offrir).
 
 {% hint style="info" %}
@@ -184,7 +184,7 @@ Si vous souhaitez modifier le type de la boutique, cliquez sur le bouton "<mark 
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
-<mark style="color:blue;">[__Accéder au panel de **DraftBot**__](https://draftbot.fr/dashboard)</mark>
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Une fois sur le panel de **DraftBot**, rendez-vous en bas de la page "Économie".
 
@@ -201,7 +201,7 @@ Un pop-up s'ouvrira dans laquel vous pourrez configurer votre article.
 Pour créer un article, cliquez sur le bouton "<mark style="color:orange;">Créer un article</mark>". Les options de configuration sont les mêmes que sur la commande <mark style="color:orange;">/config</mark>. Vous pouvez donc vous rendre dans l'onglet `(Via la commande /config)` pour les comparer.
 ㅤ
 {% hint style="info" %}
-Si vous souhaitez mettre des émojis sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[__identifiant__](https://docs.draftbot.fr/autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
+Si vous souhaitez mettre des émojis sur vos items, vous devrez récupérer l'affichage de l'émoji avec son <mark style="color:blue;">[__identifiant__](autres/recuperer-un-identifiant#identifiant-dun-emoji)</mark> (en mettant un antislash (\\) devant celui-ci).
 {% endhint %}
 ㅤ
 

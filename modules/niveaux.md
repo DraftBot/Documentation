@@ -11,7 +11,7 @@ Vous pouvez voir votre niveau, ainsi que celui des autres membres en indiquant l
 ![Carte de niveau](../.gitbook/assets/niveau.png)
 
 {% hint style="info" %}
-Afin d'obtenir de l'expérience et ainsi gagner en niveaux, il faut que le système de niveaux soit activé sur le serveur.
+Pour pouvoir obtenir de l'expérience et ainsi gagner en niveaux, il vous faut configurer <mark style="color:blue;">[__configurer__](modules/niveaux#configuration)</mark> le système de niveaux.
 {% endhint %}
 
 ## Classement du serveur
@@ -74,7 +74,7 @@ Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'expérience
 {% endtab %}
 
 {% tab title="Via le panel" %}
-[<mark style="color:blue;">Accéder au panel de</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**DraftBot**</mark>](https://draftbot.fr/dashboard)
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
 
@@ -107,7 +107,7 @@ Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et 
 {% endtab %}
 
 {% tab title="Via le panel" %}
-[<mark style="color:blue;">Accéder au panel de</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**DraftBot**</mark>](https://draftbot.fr/dashboard)
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
@@ -135,7 +135,7 @@ Vous avez ensuite la possibilité de :
 {% endtab %}
 
 {% tab title="Via le panel" %}
-[<mark style="color:blue;">Accéder au panel de</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**DraftBot**</mark>](https://draftbot.fr/dashboard)
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous en bas de la page "Niveaux".
 
@@ -169,7 +169,7 @@ Vous avez ensuite la possibilité de :
 {% endtab %}
 
 {% tab title="Via le panel" %}
-[<mark style="color:blue;">Accéder au panel de</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**DraftBot**</mark>](https://draftbot.fr/dashboard)
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 Une fois sur le panel de **DraftBot** (accessible depuis le lien ci-dessus), rendez-vous dans la page "Niveaux".
 

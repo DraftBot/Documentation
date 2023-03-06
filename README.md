@@ -31,7 +31,7 @@ Accéder aux commandes de **DraftBot**
 
 <summary>Sommaire des commandes</summary>
 
-**Bot :** aide - botinfo - [config ](slash/configuration/)- panel - ping - premium - shards - support - votes
+**Bot :** aide - botinfo - [config](slash/configuration) - panel - ping - premium - shards - support - votes
 
 **Modération :** avertir - ban - expulser - mod - mute - normalize - note - sanctions - stickyroles - temprole - unban - unmute
 
