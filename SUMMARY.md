@@ -35,6 +35,7 @@
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
 - [📉 Niveaux](modules/niveaux.md)
+- [💰 Économie](modules/economie.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
 - [🗃 Logs](modules/logs.md)
@@ -43,7 +44,6 @@
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
-  - [💰 Économie](slash/configuration/economie.md)
   - [🎂 Anniversaires](slash/configuration/anniversaires.md)
   - [📣 Notifications sociales](slash/configuration/notifications-sociales.md)
   - [🔘 Rôle réactions](slash/configuration/role-reactions.md)

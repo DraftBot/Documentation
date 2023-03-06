@@ -37,6 +37,6 @@ Les membres de votre serveur pourront ensuite voter aux suggestions à l'aide de
   * `<raison>` pouvant être remplacé par la raison du refus qui sera affichée sur la suggestion à refuser. _(optionnel)_
 
 {% hint style="info" %}
-`<message>` devant être remplacé par [l'identifiant du message](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message) de la suggestion ciblée
+`<message>` devant être remplacé par [l'identifiant du message](autres/recuperer-un-identifiant#message) de la suggestion ciblée
 {% endhint %}
 
