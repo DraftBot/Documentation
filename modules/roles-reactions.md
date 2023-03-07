@@ -98,10 +98,10 @@ Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéde
 Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
 Vous aurez ensuite accès au menu de gestion de rôle-réaction :
-* ***Ajouter*** ➜ [Ajouter](role-reactions.md#ajouter-un-nouveau-rôle-reaction) un nouveau rôle-réaction.
-* ***Modifier*** ➜ [Modifier](role-reactions.md#modifier-un-rôle-réaction) un rôle-réaction.
-* ***Supprimer*** ➜ [Supprimer](role-reactions.md#supprimer-un-rôle-réaction) un rôle-réaction.
-* ***Mode*** ➜ [Changer le mode](role-reactions.md#changer-le-mode-du-message) des rôles-réactions présents sur le message.
+* ***Ajouter*** ➜ Ajouter un nouveau rôle-réaction.
+* ***Modifier*** ➜ Modifier un rôle-réaction.
+* ***Supprimer*** ➜ Supprimer un rôle-réaction.
+* ***Mode*** ➜ Changer le mode des rôles-réactions présents sur le message.
 
 L'intégralité de la création est ensuite guidée par **DraftBot**, il vous suffit de suivre ses consignes.
 {% endtab %}
