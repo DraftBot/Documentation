@@ -1,7 +1,7 @@
 ---
 description: >-
   Avec le système de rôles-réactions, vos membres pourront facilement choisir des
-  rôles parmi une liste définie, que ce soit par un sélecteur, des boutons, ou
+  rôles parmi une liste définie, que ce soit depuis un sélecteur, des boutons, ou
   des réactions.
 ---
 
@@ -73,7 +73,7 @@ Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", u
 
 Vous pouvez modifier le mode des rôles-réactions du message grâce au sélecteur situé en bas de l'Embed Creator.
 
-Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez un salon dans lequel envoyer le message de rôle-réaction.
+Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez le salon dans lequel sera envoyé le message de rôle-réaction.
 
 {% hint style="success" %}
 Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
@@ -95,7 +95,7 @@ Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéde
 
 ![Message de gestion des rôles-réactions](../.gitbook/assets/rolereact/gestion.png)
 
-Vous devrez ensuite indiquer le lien ou l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
+Vous devrez ensuite indiquer le lien ou l'[<mark style="color:blue;">identifiant du message</mark>](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
 Vous aurez ensuite accès au menu de gestion de rôle-réaction :
 * ***Ajouter*** ➜ Ajouter un nouveau rôle-réaction.
