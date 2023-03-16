@@ -72,7 +72,7 @@ Les dimensions optimales de l'image sont de 1000 x 300 pixels.
 ㅤ
 {% endtab %}
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le <mark style="color:orange;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Arrivées & départs.
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Arrivées & départs.
 
 Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
@@ -129,7 +129,7 @@ Votre message doit faire au maximum 1 200 caractères.
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bouton "<mark style="color:red;">Aucune</mark>"). 
 
-Si vous souhaitez en avoir une personnalisée, vous devez avoir un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
+Si vous souhaitez en avoir une personnalisée, vous devez être souscrit à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 ㅤ
 
 ![Menu configuration couleur de fond](../../.gitbook/assets/welcome/configuration-bye-color.png)
@@ -147,7 +147,7 @@ Les dimensions optimales de l'image sont de 1000 x 300 pixels.
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
-Veuillez d'abord vous rendre sur le <mark style="color:orange;">[panel](https://draftbot.fr/dashboard)</mark> de **DraftBot** ➜ Arrivées & départs.
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard)</mark> ➜ Arrivées & départs.
 
 Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
@@ -155,6 +155,7 @@ Vous devez d'abord activer le système en cliquant sur le bouton d'activation du
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Menu de configuration](../../.gitbook/assets/welcome/configuration_bye_color.png)
+![Menu de configuration](../../.gitbook/assets/welcome/dashboard-bye-configuration.png)
+
 {% endtab %}
 {% endtabs %}
