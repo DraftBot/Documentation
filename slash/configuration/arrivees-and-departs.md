@@ -55,8 +55,7 @@ Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bou
 Si vous souhaitez en avoir une personnalisée, vous devez avoir un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 
 ㅤ
-
-![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration_color.png)
+![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration-welcome-color.png)
 
 ㅤ
 {% endhint %}
@@ -69,8 +68,7 @@ Les dimensions optimales de l'image sont de 1000 x 300 pixels.
 {% endhint %}
 ㅤ
 
-![Menu de configuration du système de bienvenue](../../.gitbook/assets/welcome/configuration.png)
-
+![Menu de configuration du système de bienvenue](../../.gitbook/assets/welcome/configuration-welcome.png)
 ㅤ
 {% endtab %}
 {% tab title="Via le panel" %}
@@ -78,7 +76,7 @@ Veuillez d'abord vous rendre sur le <mark style="color:orange;">[panel de **Draf
 
 Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
-![Activer le système de bienvenue](../../.gitbook/assets/welcome/dashboard-welcome-active.png)
+![Activer le système de bienvenue](../../.gitbook/assets/welcome/dashboard-welcome-enable.png)
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
@@ -134,8 +132,7 @@ Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bou
 Si vous souhaitez en avoir une personnalisée, vous devez avoir un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 ㅤ
 
-![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration_bye_color.png)
-
+![Menu configuration couleur de fond](../../.gitbook/assets/welcome/configuration-bye-color.png)
 ㅤ
 {% endhint %}
 ㅤ
@@ -146,8 +143,7 @@ Si vous souhaitez en avoir une personnalisée, vous devez avoir un abonnement <m
 Les dimensions optimales de l'image sont de 1000 x 300 pixels.
 {% endhint %}
 ㅤ
-
-![Menu de configuration du système de bienvenue](../../.gitbook/assets/welcome/configuration_bye.png)
+![Menu de configuration du système d'au revoir](../../.gitbook/assets/welcome/configuration-bye.png)
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
@@ -155,7 +151,7 @@ Veuillez d'abord vous rendre sur le <mark style="color:orange;">[panel](https://
 
 Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
-![Activer le système d'économie](../../.gitbook/assets/welcome/dashboard-bye-active.png)
+![Activer le système messages d'au revoir](../../.gitbook/assets/welcome/dashboard-bye-enable.png)
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
