@@ -52,7 +52,7 @@ Votre message doit faire au maximum 1 200 caractères.
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bouton "<mark style="color:red;">Aucune</mark>").
 
-Si vous souhaitez en avoir une personnalisée, vous devez avoir un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
+Si vous souhaitez en avoir une personnalisée, vous devez être souscrit à  un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 
 ㅤ
 ![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration-welcome-color.png)
@@ -156,4 +156,5 @@ Vous devez d'abord activer le système en cliquant sur le bouton d'activation du
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
 ![Menu de configuration](../../.gitbook/assets/welcome/configuration_bye_color.png)
-
+{% endtab %}
+{% endtabs %}
