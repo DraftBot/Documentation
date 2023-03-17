@@ -9,7 +9,7 @@ description: >-
 
 Le système de réactions de mots, aussi appelé wordreact, permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commence par un mots spécial. Petit exemple illustré ci dessus : 
 
-![Exemple du Système](../../.gitbook/assets/wordreact/view_wordreact.png)
+![Exemple du Système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
 
 ## Activer / désactiver le système de réactions de mots 
 
