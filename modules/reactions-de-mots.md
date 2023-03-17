@@ -9,17 +9,17 @@ description: >-
 
 Le système de réactions de mots, aussi appelé wordreact, permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commence par un mots spécial. Petit exemple illustré ci dessus : 
 
-![](../../.gitbook/assets/wordreact/exemplesystème.png)
+![Exemple du Système](../../.gitbook/assets/wordreact/view_wordreact.png)
 
-## Activer / désactiver le système de réactions de mots 
+## Activer le système de réactions de mots 
 
 {% tabs %}
 {% tab title="Activer" %}
 **Activer le système**
 
-* Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **Activer le système**.
+* Pour activer le système de réactions de mots, il vous suffit de faire la commande <markt style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **Activer le système**.
 
-![](../../..gitbook/assets/wordreact/view.png)
+![Exemple du Sytème](../../.gitbook/assets/wordreact/view.png)
 {% endtab %}
 {% tab title="Désactiver" %}
 **Désactiver le système**
@@ -35,13 +35,12 @@ Vous pouvez également utiliser <mark style="color:orange;">/config Système: R�
 
 ## Ajouter des réactions de mots
 
-Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système **"Réactions de mots"** puis cliquez sur le bouton **"Ajouter"**.
-DraftBot vous demandera alors quel mot ou début de phrase ainsi que la réaction associée à ce texte. 
+Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système <mark style="color:orange;">**"Réactions de mots"**</mark> puis cliquez sur le bouton **"Ajouter"**.
+
+![Exemple du message](../../.gitbook/assets/wordreact/example_system_add_role.png)
 
 {% hint style="warning" %}
-Si vous ne possédez pas le [<mark style="color:orange;">premium</mark>](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots.
-\
-Pour qu'une réaction de mots soit prise en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
+Si vous ne possédez pas le [<mark style="color:orange;">premium</mark>](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots.Pour qu'une réaction de mots soit prise en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
 {% endhint %}
 
 
