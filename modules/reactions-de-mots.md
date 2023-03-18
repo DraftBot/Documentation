@@ -7,9 +7,9 @@ description: >-
 
 ## Qu'est-ce que le système de réactions de mots et quel est son utilité ? 
 
-Le système de réactions de mots, aussi appelé wordreact, permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commence par un mots spécial. Petit exemple illustré ci dessus : 
+Le système de réactions de mots, aussi appelé "wordreact", permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commencent par un mot spécial. Petit exemple illustré ci-dessus : 
 
-![Exemple du Système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
+![Exemple du système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
 
 ## Activer / désactiver le système de réactions de mots 
 
@@ -17,14 +17,14 @@ Le système de réactions de mots, aussi appelé wordreact, permet de faire en s
 {% tab title="Activer" %}
 **Activer le système**
 
-* Pour activer le système de réactions de mots, il vous suffit de faire la commande <markt style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **Activer le système**.
+Pour activer le système de réactions de mots, il vous suffit de faire la commande <markt style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
 
-![Exemple du Sytème](../../.gitbook/assets/wordreact/view.png)
+![Exemple du système](../../.gitbook/assets/wordreact/view.png)
 {% endtab %}
 {% tab title="Désactiver" %}
 **Désactiver le système**
 
-* Pour désactiver le système, il vous faudra également utiliser la commande <mark style="color:orange;">/config</mark>, puis dans le système **"Réactions de mots"** et **"Désactiver le système"**. Cela désactivera le système automatiquement.
+Pour désactiver le système, il vous faudra également utiliser la commande <mark style="color:orange;">/config</mark>, puis dans le système **"Réactions de mots"** et **"Désactiver le système"**. Cela désactivera le système automatiquement.
 {% endtab %}
 {% endtabs %}
 
@@ -37,10 +37,12 @@ Vous pouvez également utiliser <mark style="color:orange;">/config Système: R�
 
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système <mark style="color:orange;">**"Réactions de mots"**</mark> puis cliquez sur le bouton **"Ajouter"**.
 
+
 ![Exemple du message](../../.gitbook/assets/wordreact/question.png)
 
+
 {% hint style="warning" %}
-Si vous ne possédez pas le [<mark style="color:orange;">premium</mark>](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots. En possedant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimité. Pour qu'une réaction de mots soit prise en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
+Si vous ne possédez pas le [<mark style="color:orange;">premium</mark>](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots. En possédant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimitée. Pour qu'une réaction de mots soit prise en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
 {% endhint %}
 
 
