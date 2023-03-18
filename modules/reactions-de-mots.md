@@ -17,7 +17,7 @@ Le système de réactions de mots, aussi appelé "wordreact", permet de faire en
 {% tab title="Activer" %}
 **Activer le système**
 
-Pour activer le système de réactions de mots, il vous suffit de faire la commande <markt style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
+Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
 
 ![Exemple du système](../../.gitbook/assets/wordreact/view.png)
 {% endtab %}
