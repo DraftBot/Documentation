@@ -64,7 +64,7 @@ Si vous souhaitez en avoir une personnalisée, vous devez être souscrit à  un 
 - "Image" ➜ Permet d'ajouter une image de fond à votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
 ㅤ
 {% hint style="info" %}
-Les dimensions optimales de l'image sont de 1000 x 300 pixels.
+Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
 {% endhint %}
 ㅤ
 
@@ -140,7 +140,7 @@ Si vous souhaitez en avoir une personnalisée, vous devez être souscrit à un a
 - "Image" ➜ Permet d'ajouter une image de fond à votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
 ㅤ
 {% hint style="info" %}
-Les dimensions optimales de l'image sont de 1000 x 300 pixels.
+Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
 {% endhint %}
 ㅤ
 ![Menu de configuration du système d'au revoir](../../.gitbook/assets/welcome/configuration-bye.png)
