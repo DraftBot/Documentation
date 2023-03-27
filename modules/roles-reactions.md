@@ -35,16 +35,16 @@ Pour configurer le système de rôles-réactions, accédez au panel via le lien 
 
 ![Panel de configuration des rôles-réactions](../.gitbook/assets/rolereact/dashboard.png)
 
+{% endtab %}
+{% endtabs %}
+
+## Configuration
+
 {% hint style="info" %}
 Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de l'encadré d'un rôle-réaction.
 
 ![Zone de texte de l'encadré d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
 {% endhint %}
-
-{% endtab %}
-{% endtabs %}
-
-## Configuration
 
 ### Créer un nouveau rôle-réaction
 {% tabs %}
