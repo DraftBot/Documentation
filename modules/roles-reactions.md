@@ -51,7 +51,7 @@ Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie 
 
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
-Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
+Pour créer un nouveau rôle-réaction, <mark style="color:orange;">[accédez à la configuration](#accéder-à-la-configuration)</mark> des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
 
 ![Message de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/question.png)
 
@@ -91,13 +91,13 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 
 <!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
-Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
+Pour gérer un rôle-réaction existant, <mark style="color:orange;">[accédez à la configuration](#accéder-à-la-configuration)</mark> des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
 
 ![Message de gestion des rôles-réactions](../.gitbook/assets/rolereact/gestion.png)
 
 Vous devrez ensuite indiquer le lien ou l'[<mark style="color:blue;">identifiant du message</mark>](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
 
-Vous aurez ensuite accès au menu de gestion de rôle-réaction :
+Vous aurez ensuite accès au menu de gestion des rôles-réactions :
 * ***Ajouter*** ➜ Ajouter un nouveau rôle-réaction.
 * ***Modifier*** ➜ Modifier un rôle-réaction.
 * ***Supprimer*** ➜ Supprimer un rôle-réaction.
@@ -108,7 +108,7 @@ L'intégralité de la création est ensuite guidée par **DraftBot**, il vous su
 
 <!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
-Pour gérer un rôle-réaction existant, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via le panel.
+Pour gérer un rôle-réaction existant, <mark style="color:orange;">[accédez à la configuration](#accéder-à-la-configuration)</mark> des rôles-réactions via le panel.
 
 À droite de la page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
 
