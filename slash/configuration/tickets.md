@@ -42,7 +42,7 @@ Si le système n'est pas configuré, un seul bouton "Configurer le système" ser
 > **Salon de réception** ➜ Permet de définir le salon qui recevra les demandes d'ouverture de ticket. Si la validation est en mode **Automatique**, seul l'historique des fermetures et suppressions de ticket sera affiché dans ce salon. Vous pouvez demander à DraftBot de créer automatiquement le salon ou bien d'en utiliser un existant.
 
 {% hint style="info" %}
-Le salon de réception des tickets se trouve par défaut dans la catégorie que vous avez indiquée mais peut être déplacé dans une autre catégorie.
+Le salon de réception des tickets se trouve par défaut dans la catégorie que vous avez indiquée, mais peut être déplacé dans une autre catégorie.
 {% endhint %}
 
 > <mark style="color:red;">**Supprimer le système**</mark> ➜ Permet de réinitialiser le système et revenir au bouton "Configurer le système".
