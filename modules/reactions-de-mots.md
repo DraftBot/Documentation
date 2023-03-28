@@ -7,9 +7,9 @@ description: >-
 
 ## Qu'est-ce que le système de réactions de mots et quel est son utilité ? 
 
-Le système de réactions de mots, aussi appelé "wordreact", permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commencent par un mot prédéfini. Petit exemple illustré ci-dessus : 
+Le système de réactions de mots, aussi appelé "wordreact", permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commencent par un mot prédéfini. Un acperçu du message est illustré ci-dessous :
 
-![Exemple du système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
+![Aperçu du système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
 
 ## Activer / désactiver le système de réactions de mots 
 
@@ -19,7 +19,7 @@ Le système de réactions de mots, aussi appelé "wordreact", permet de faire en
 
 Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
 
-![Exemple du système](../../.gitbook/assets/wordreact/view.png)
+![Aperçu du système](../../.gitbook/assets/wordreact/view.png)
 {% endtab %}
 {% tab title="Désactiver" %}
 **Désactiver le système**
@@ -34,7 +34,7 @@ Pour désactiver le système, il vous faudra également utiliser la commande <ma
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système <mark style="color:orange;">**"Réactions de mots"**</mark> puis cliquez sur le bouton **"Ajouter"**.
 
 
-![Exemple du message](../../.gitbook/assets/wordreact/question.png)
+![Aperçu du message](../../.gitbook/assets/wordreact/question.png)
 
 
 {% hint style="warning" %}
