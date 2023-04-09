@@ -60,9 +60,21 @@ Voici un exemple de message de notification :
 
 ## Epic Games
 
-Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur le Epic Games Store.
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur l'Epic Games Store.
 
 ![Notification sociale Epic Games](../.gitbook/assets/socialnotifs/view_epicgames.png)
+
+## Steam
+
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur Steam.
+
+![Notification sociale Steam](../.gitbook/assets/socialnotifs/view_steam.png)
+
+## GOG
+
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur GOG.
+
+![Notification sociale GOG](../.gitbook/assets/socialnotifs/view_gog.png)
 
 ## CommitStrip
 
