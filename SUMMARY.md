@@ -41,6 +41,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🎟 Tickets](modules/tickets.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
@@ -50,7 +51,6 @@
   - [🔉 Salons vocaux temporaires](slash/configuration/salons-vocaux-temporaires.md)
   - [💡 Suggestions](slash/configuration/suggestions.md)
   - [🚨 Signalements](slash/configuration/signalements.md)
-  - [🎟 Tickets](slash/configuration/tickets.md)
   - [🧮 Compteur de membres](slash/configuration/compteur-de-membres.md)
   - [👀 Réactions de mots](slash/configuration/reactions-de-mots.md)
   - [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
