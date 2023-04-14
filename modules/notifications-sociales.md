@@ -100,7 +100,7 @@ Pour ajouter une annonce lors d'un évènement (publication de vidéo, post, not
 
 ![/config > Notifications Sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)
 
-Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plus qu'a configurer à partir de la sélection guidée
+Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plus qu'à configurer à partir de la sélection guidée.
 
 {% endtab %}
 
