@@ -96,8 +96,11 @@ Vous pouvez activer séparément tous les types de notifications sociales.
 {% tabs %}
 {% tab title="Configuration via le `/config`" %}
 
+Pour ajouter une annonce lors d'un évènement (publication de vidéo, post, notification de stream, etc...), il vous suffit d'effectuer la commande <mark style="color:orange;">/config système:Notifications Sociales</mark>. Vous aurez alors accès à l'onglet ci-dessous.
+
 ![/config > Notifications Sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)
 
+Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plus qu'a configurer à partir de la sélection guidée
 
 {% endtab %}
 
@@ -107,3 +110,5 @@ Vous pouvez activer séparément tous les types de notifications sociales.
 
 {% endtab %}
 {% endtabs %}
+
+## Informations Complémentaires
