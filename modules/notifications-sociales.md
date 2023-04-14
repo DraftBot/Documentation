@@ -80,7 +80,7 @@ Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur 
 
 Ce module permet d'afficher des bandes dessinées en lien avec le métier de développeur.
 
-*Illustration a placer ici*
+![Notification sociale CommitStrip](../.gitbook/assets/socialnotifs/view_commitstrip.png)
 
 ## Dealabs
 
@@ -112,3 +112,5 @@ Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plu
 {% endtabs %}
 
 ## Informations Complémentaires
+
+Vous retrouverez le nombre maximum d'annonces par plateformes sur <mark style="color:orange;">[le comparatif de Draftbot Premium](https://www.draftbot.fr/premium#diff)</mark> dans la partie <mark style="color:orange;">Notifications sociales</mark>.
