@@ -106,7 +106,16 @@ Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plu
 
 {% tab title="Configuration via le <mark style="color:orange;">[Panel](https://www.draftbot.fr/panel)</mark>" %}
 
+Dans cette page, vous pouvez activer et désactiver à votre guise les Notifications Sociales. Il existe deux types de Notifications Sociales :
+* Les onglets, qui peuvent être configurés pour plusieurs chaines/forums.
+* Les modules, qui vous permettent d'activer des notifications qui nécessitent peu de configuration.
+
+
 ![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.png)
+
+{% hint style="warning" %}
+Certaines fonctionnalités telles que **la couleur de l'annonce** sont uniquement paramétrables avec le `/config`.
+{% endhint %}
 
 {% endtab %}
 {% endtabs %}
