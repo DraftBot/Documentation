@@ -4,7 +4,11 @@ description: >-
 ---
 # Notifications sociales
 
-## YouTube
+## Explication des Notification Sociales
+
+> Vous trouverez dans cette partie la liste des Notifications Sociales ainsi que leur utilité.
+
+### YouTube
 
 Ce module permet **d'afficher** un message lors de la **publication d'une vidéo <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>.**
 
@@ -14,7 +18,7 @@ L'annonce est entièrement **customisable**. Cela permet donc aux administrateur
 
 Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> différente** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir jusqu'à 5 chaînes YouTube différentes.
 
-## Twitch
+### Twitch
 
 {% hint style="warning" %}
 Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ premiums](https://www.draftbot.fr/premium)</mark>.
@@ -25,7 +29,7 @@ Si vous n'avez pas le premium, il existe une alternative appelée le <mark style
 
 ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
-## Live Presence
+### Live Presence
 
 Le module **Live Presence** consiste à envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (symbolisé par la bulle violette et le triangle).
 
@@ -39,7 +43,7 @@ En fonction de la configuration du module sur ce serveur, **n'importe quel membr
 L'envoi d'une notification Live Presence nécessite d'avoir **son compte Twitch ou YouTube lié à Discord**. Plus d'information ci-dessous.
 {% endhint %}
 
-### Comment lier son compte Twitch ou YouTube à Discord
+#### Comment lier son compte Twitch ou YouTube à Discord
 
 Voici <mark style="color:orange;">[ce tutoriel réalisé par Discord](https://support.discord.com/hc/fr/articles/8063233404823-Connexions-et-r%C3%B4les-li%C3%A9s-pour-les-membres-de-la-communaut%C3%A9)</mark> qui explique globalement comment ajouter des connexions ainsi que l'obtention des rôles liés sur un serveur.
 
@@ -48,7 +52,7 @@ Suite à cette manipulation, vous devrez normalement avoir cet aperçu sur votre
 
 ![Image de live](../.gitbook/assets/socialnotifs/view_live.png)
 
-## Reddit
+### Reddit
 
 Ce module permet d'afficher une notification lors d'une publication dans un **subreddit**. Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed.**
 
@@ -58,31 +62,31 @@ Voici un exemple de message de notification :
 
 ![Notification sociale Reddit](../.gitbook/assets/socialnotifs/view_reddit.png)
 
-## Epic Games
+### Epic Games
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur l'Epic Games Store.
 
 ![Notification sociale Epic Games](../.gitbook/assets/socialnotifs/view_epicgames.png)
 
-## Steam
+### Steam
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur Steam.
 
 ![Notification sociale Steam](../.gitbook/assets/socialnotifs/view_steam.png)
 
-## GOG
+### GOG
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur GOG.
 
 ![Notification sociale GOG](../.gitbook/assets/socialnotifs/view_gog.png)
 
-## CommitStrip
+### CommitStrip
 
 Ce module permet d'afficher des bandes dessinées en lien avec le métier de développeur.
 
 ![Notification sociale CommitStrip](../.gitbook/assets/socialnotifs/view_commitstrip.png)
 
-## Dealabs
+### Dealabs
 
 Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot".
 Il faut aussi noter que l'administrateur peut configurer le module dealabs uniquement pour certaines catégories (exemples : High-Tech).
