@@ -22,7 +22,7 @@ Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https:
 
 {% hint style="warning" %}
 Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ premiums](https://www.draftbot.fr/premium)</mark>.
-Si vous n'avez pas le premium, il existe une alternative appelée le <mark style="color:orange;">[live presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
+Si vous n'avez pas le premium, il existe une alternative appelée le <mark style="color:orange;">[Live Presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
 {% endhint %}
 
 **Les notifications sociales Twitch** permettent d'envoyer un message **customisable** lors du **lancement d'un live**. Il peut y avoir au maximum **5 notifications sociales Twitch différentes** par serveur.
