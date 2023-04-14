@@ -93,6 +93,17 @@ Il faut aussi noter que l'administrateur peut configurer le module dealabs uniqu
 
 Vous pouvez activer séparément tous les types de notifications sociales.
 
+{% tabs %}
+{% tab title="Configuration via le `/config`" %}
+
 ![/config > Notifications Sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)
 
+
+{% endtab %}
+
+{% tab title="Configuration via le <mark style="color:orange;">[Panel](https://www.draftbot.fr/panel)</mark>" %}
+
 ![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.png)
+
+{% endtab %}
+{% endtabs %}
