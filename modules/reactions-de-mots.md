@@ -50,7 +50,7 @@ Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de con
 
 Si vous souhaitez supprimer **tous** les réactions de mots, il suffira d'appuyer sur le bouton **"Réinitialiser"**.
 
-{% hint style="warning" %}
+{% hint style="danger" %}
 Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots de base, c'est-à-dire : "hey", "coucou" et "salut".
 {% endhint %}
 
@@ -61,6 +61,30 @@ Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les
 
 ![Aperçu du panel](../.gitbook/assets/wordreact/view_panel.png)
 
+### Activer / Désactiver le système
+
+Vous pourrez activer ou désactiver en haut à droite de la page grâce à un "switch".
+
+### Ajouter une réaction de mot
+
+Vous pouvez ajouter une réaction de mot en mettant un **émoji** dans la case d'émoji et en mettant le mot concerné dans la case **"Entrez un début de phrase"**. Vous pourrez alors **"Ajouter"** la réaction de mot.
+
+{% hint style="info" %}
+Le sélecteur d'émoji du panel ne permet pas de mettre des émojis provenant d'autres serveurs. Dans ce cas-là, il est préférable de privilégier le `/config`.
+{% endhint %}
+
+### Modifier une réaction de mot
+
+Pour modifier une réaction de mot, il faut cliquer sur le bouton **"modifier"** de la réaction de mot concernée. Les cases en haut se prérempliront : vous pourrez y modifier l'émoji et le mot. Il vous suffira de **"Remplacer"** pour que la modification soit prise en compte.
+
+### Supprimer une réaction de mot
+
+Pour supprimer une réaction de mot, il faut cliquer sur le bouton **"supprimer"** de la réaction de mot concernée.
+
+{% hint style="info" %}
+La suppression est irréversible, cela dit une validation de la suppression sera demandée. 
+> Message en question : "Attention, vous avez des modifications non enregistrées"
+{% endhint %}
 
 {% endtab %}
 {% endtabs %}
