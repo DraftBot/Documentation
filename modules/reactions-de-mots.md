@@ -69,7 +69,7 @@ Vous pourrez activer ou désactiver en haut à droite de la page grâce à un "s
 
 Vous pouvez ajouter une réaction de mot en mettant un **émoji** dans la case d'émoji et en mettant le mot concerné dans la case **"Entrez un début de phrase"**. Vous pourrez alors **"Ajouter"** la réaction de mot.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Le sélecteur d'émoji du panel ne permet pas de mettre des émojis provenant d'autres serveurs. Dans ce cas-là, il est préférable de privilégier le `/config`.
 {% endhint %}
 
