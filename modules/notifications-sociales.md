@@ -29,7 +29,7 @@ Si vous n'avez pas le premium, il existe une alternative appelée le <mark style
 
 ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
-### Live Presence ![Icone Live Presence](../.gitbook/assets/socialnotifs/view_livepresence.webp)
+### Live Presence
 
 Le module **Live Presence** consiste à envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (symbolisé par la bulle violette et le triangle).
 
