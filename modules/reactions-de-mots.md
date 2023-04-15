@@ -11,22 +11,32 @@ Le système de réactions de mots, aussi appelé "wordreact", fait réagir Draft
 
 ![Aperçu du système](../.gitbook/assets/wordreact/view_wordreact.jpg)
 
-## Activer / désactiver le système de réactions de mots 
+## Configuration
 
 {% tabs %}
-{% tab title="Activer" %}
-**Activer le système**
+{% tab title="Via le /config" %}
 
-Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
+### Activer le système de réactions de mots 
+
+Pour activer le système de réactions de mots, il faudra aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
+
+{% hint style="info" %}
+Pour désactiver le système, il suffira de faire la même procédure : le bouton **"Activer le système"** est remplacé **"Désactiver le système"**. Il faudra le sélectionner et le système sera désactivé.
+{% endhint %}
 
 ![Aperçu du système](../.gitbook/assets/wordreact/view.png)
 {% endtab %}
+
 {% tab title="Désactiver" %}
 **Désactiver le système**
 
-Pour désactiver le système, il vous faudra également utiliser la commande <mark style="color:orange;">/config</mark>, puis dans le système **"Réactions de mots"** et **"Désactiver le système"**. Cela désactivera le système automatiquement.
+
 {% endtab %}
 {% endtabs %}
+
+
+
+
 
 
 ## Ajouter des réactions de mots
