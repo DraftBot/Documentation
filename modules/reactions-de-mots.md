@@ -68,4 +68,5 @@ Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les
 ## Informations supplémentaires
 
 Si vous ne possédez pas le <mark style="color:orange;">[premium](https://draftbot.fr/premium)</mark>, vous serez limité à 10 réactions de mots. En possédant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimitée.
-> Plus d'informations sur le [comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)
+
+Plus d'informations sur le <mark style="color:orange;">[comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)</mark>.
