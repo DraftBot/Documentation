@@ -32,6 +32,27 @@ Pour activer le système de réactions de mots, il faudra aller dans le système
 Pour désactiver le système, il suffira de faire la même procédure : le bouton **"Activer le système"** est remplacé **"Désactiver le système"**. Il faudra le sélectionner et le système sera désactivé.
 {% endhint %}
 
+### Ajouter des réactions de mots
+
+Pour ajouter une réaction à un mot, il vous suffit de cliquer sur le bouton **"Ajouter"**. Vous obtiendrez alors le message ci-dessous :
+
+![Aperçu du message](../.gitbook/assets/wordreact/question.png)
+
+### Supprimer des réactions de mots
+
+Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cliquer sur le bouton **"Retirer"**. Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à supprimer.
+
+### Lister les réactions de mots
+
+Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mot. Vous aurez alors une liste avec tous vos réactions de mots.
+
+### Réinitialiser le système
+
+Si vous souhaitez supprimer **tous** les réactions de mots, il suffira d'appuyer sur le bouton **"Réinitialiser"**.
+
+{% hint style="warning" %}
+Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots de base, c'est-à-dire : "hey", "coucou" et "salut".
+{% endhint %}
 
 {% endtab %}
 
@@ -43,43 +64,6 @@ Pour désactiver le système, il suffira de faire la même procédure : le bouto
 
 {% endtab %}
 {% endtabs %}
-
-
-
-
-
-
-### Ajouter des réactions de mots
-
-Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système <mark style="color:orange;">**"Réactions de mots"**</mark> puis cliquez sur le bouton **"Ajouter"**.
-
-
-![Aperçu du message](../.gitbook/assets/wordreact/question.png)
-
-
-
-
-
-## Supprimer des réactions de mots
-
-Si vous souhaitez supprimer une réaction en particulier, il vous suffira d'utiliser la commande <mark style="color:orange;">/config</mark> puis aller dans le système **"Réactions de mots"** et enfin, cliquez sur le bouton **"Retirer"**.
-
-Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à supprimer.
-
-
-## Lister les réactions de mots
-
-Vous pouvez voir les réactions de mots sur votre serveur avec la commande <mark style="color:orange;">/config</mark> et vous rendre simplement dans le système **"Réactions de mots"**.
-Une liste s'affichera alors, contenant tous vos mots avec la réaction qui leur est associée.
-
-
-## Réinitialiser le système
-
-Si vous souhaitez supprimer **toutes** les réactions de mots, vous pouvez utiliser la commande <mark style="color:orange;">/config</mark>, toujours dans le système **"Réactions de mots"** et de cliquer sur **"Réinitialiser"**.
-
-{% hint style="warning" %}
-Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots de base, c'est-à-dire : "hey", "coucou" et "salut".
-{% endhint %}
 
 ## Informations supplémentaires
 
