@@ -9,7 +9,7 @@ description: >-
 
 Le système de réactions de mots, aussi appelé "wordreact", fait réagir DraftBot à des messages qui commencent par un mot prédéfini avec une réaction définie. Un aperçu du message est disponible ci-dessous :
 
-![Aperçu du système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
+![Aperçu du système](../.gitbook/assets/wordreact/view_wordreact.jpg)
 
 ## Activer / désactiver le système de réactions de mots 
 
@@ -19,7 +19,7 @@ Le système de réactions de mots, aussi appelé "wordreact", fait réagir Draft
 
 Pour activer le système de réactions de mots, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, puis d'aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
 
-![Aperçu du système](../../.gitbook/assets/wordreact/view.png)
+![Aperçu du système](../.gitbook/assets/wordreact/view.png)
 {% endtab %}
 {% tab title="Désactiver" %}
 **Désactiver le système**
@@ -34,7 +34,7 @@ Pour désactiver le système, il vous faudra également utiliser la commande <ma
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système <mark style="color:orange;">**"Réactions de mots"**</mark> puis cliquez sur le bouton **"Ajouter"**.
 
 
-![Aperçu du message](../../.gitbook/assets/wordreact/question.png)
+![Aperçu du message](../.gitbook/assets/wordreact/question.png)
 
 
 {% hint style="warning" %}
