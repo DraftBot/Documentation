@@ -7,7 +7,7 @@ description: >-
 
 ## Qu'est-ce que le système de réactions de mots et quel est son utilité ? 
 
-Le système de réactions de mots, aussi appelé "wordreact", permet de faire en sorte que DraftBot réagit avec des réactions à des messages qui commencent par un mot prédéfini. Un acperçu du message est illustré ci-dessous :
+Le système de réactions de mots, aussi appelé "wordreact", fait réagir DraftBot à des messages qui commencent par un mot prédéfini avec une réaction définie. Un aperçu du message est disponible ci-dessous :
 
 ![Aperçu du système](../../.gitbook/assets/wordreact/view_wordreact.jpg)
 
