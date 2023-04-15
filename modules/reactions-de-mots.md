@@ -11,11 +11,19 @@ Le système de réactions de mots, aussi appelé "wordreact", fait réagir Draft
 
 ![Aperçu du système](../.gitbook/assets/wordreact/view_wordreact.jpg)
 
+{% hint style="info" %}
+Le bot ne réagira que lorsque le mot est en **début de phrase**.
+{% endhint %}
+
+
 ## Configuration
 
 {% tabs %}
 {% tab title="Via le /config" %}
 > Vous trouverez ci-dessous la configuration des réactions de mot avec le `/config`
+
+![Aperçu du système](../.gitbook/assets/wordreact/view.png)
+
 ### Activer le système de réactions de mots 
 
 Pour activer le système de réactions de mots, il faudra aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
@@ -24,11 +32,13 @@ Pour activer le système de réactions de mots, il faudra aller dans le système
 Pour désactiver le système, il suffira de faire la même procédure : le bouton **"Activer le système"** est remplacé **"Désactiver le système"**. Il faudra le sélectionner et le système sera désactivé.
 {% endhint %}
 
-![Aperçu du système](../.gitbook/assets/wordreact/view.png)
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
+> Vous trouverez ci-dessous la configuration des réactions de mots sur le panel.
 
+![Aperçu du panel](../.gitbook/assets/wordreact/view_panel.png)
 
 
 {% endtab %}
@@ -39,7 +49,7 @@ Pour désactiver le système, il suffira de faire la même procédure : le bouto
 
 
 
-## Ajouter des réactions de mots
+### Ajouter des réactions de mots
 
 Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark style="color:orange;">/config</mark>, aller dans le système <mark style="color:orange;">**"Réactions de mots"**</mark> puis cliquez sur le bouton **"Ajouter"**.
 
@@ -47,12 +57,7 @@ Pour ajouter une réaction à un mot, il vous suffit de faire la commande <mark 
 ![Aperçu du message](../.gitbook/assets/wordreact/question.png)
 
 
-{% hint style="warning" %}
-Si vous ne possédez pas le [<mark style="color:orange;">premium</mark>](https://draftbot.fr/premium), vous serez limité à 10 réactions de mots. En possédant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimitée. 
 
-Pour qu'une réaction de mots soit prise en compte, il doit être situé en **début de message**. Si le mot est au milieu ou à la fin d'un message, aucune réaction ne sera ajoutée.
-
-{% endhint %}
 
 
 ## Supprimer des réactions de mots
@@ -75,3 +80,8 @@ Si vous souhaitez supprimer **toutes** les réactions de mots, vous pouvez utili
 {% hint style="warning" %}
 Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots de base, c'est-à-dire : "hey", "coucou" et "salut".
 {% endhint %}
+
+## Informations supplémentaires
+
+Si vous ne possédez pas le <mark style="color:orange;">[premium](https://draftbot.fr/premium)</mark>, vous serez limité à 10 réactions de mots. En possédant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimitée.
+> Plus d'informations sur le [comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)
