@@ -29,6 +29,10 @@ Si vous n'avez pas le premium, il existe une alternative appelée le <mark style
 
 ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
+{% hint style="info" %}
+Afin d'éviter un spam d'embed, un délai de 30 minutes a été mis en place entre deux annonces.
+{% endhint %}
+
 ### Live Presence
 
 Le module **Live Presence** consiste à envoyer une notification lorsqu'un membre a un statut "**Streame** ..." (symbolisé par la bulle violette et le triangle).
@@ -88,8 +92,8 @@ Ce module permet d'afficher des bandes dessinées en lien avec le métier de dé
 
 ### Dealabs
 
-Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot".
-Il faut aussi noter que l'administrateur peut configurer le module Dealabs uniquement pour certaines catégories (exemples : High-Tech).
+Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot". Il s'agit du stade où la promotion est jugée intéressante par les utilisateurs.
+Il faut aussi noter que l'administrateur peut configurer le module Dealabs uniquement pour certaines catégories (exemples : High-Tech, Mode, etc...).
 
 ![Notification Sociale Dealabs](../.gitbook/assets/socialnotifs/view_dealabs.png)
 
@@ -108,7 +112,7 @@ Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plu
 
 {% endtab %}
 
-{% tab title="Configuration via le <mark style="color:orange;">[Panel](https://www.draftbot.fr/panel)</mark>" %}
+{% tab title="Configuration via le Panel" %}
 
 Dans cette page, vous pouvez activer et désactiver à votre guise les Notifications Sociales. Il existe deux types de Notifications Sociales :
 * Les onglets, qui peuvent être configurés pour plusieurs chaines/forums.
