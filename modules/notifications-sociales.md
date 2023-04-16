@@ -126,4 +126,4 @@ Certaines fonctionnalités telles que **la couleur de l'annonce** sont uniquemen
 
 ## Informations Complémentaires
 
-Vous retrouverez le nombre maximum d'annonces par plateformes sur <mark style="color:orange;">[le comparatif de Draftbot Premium](https://www.draftbot.fr/premium#diff)</mark> dans la partie <mark style="color:orange;">Notifications sociales</mark>.
+Vous retrouverez le nombre maximum d'annonces par plateformes sur <mark style="color:orange;">[le comparatif de DraftBot Premium](https://www.draftbot.fr/premium#diff)</mark> dans la partie <mark style="color:orange;">Notifications sociales</mark>.
