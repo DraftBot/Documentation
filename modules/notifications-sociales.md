@@ -92,7 +92,7 @@ Ce module permet d'afficher des bandes dessinées en lien avec le métier de dé
 
 ### Dealabs
 
-Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot". Il s'agit du stade où la promotion est jugée intéressante par les utilisateurs.
+Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot" (brûlante). Il s'agit du stade où la promotion est jugée intéressante par les utilisateurs du site.
 Il faut aussi noter que l'administrateur peut configurer le module Dealabs uniquement pour certaines catégories (exemples : High-Tech, Mode, etc...).
 
 ![Notification Sociale Dealabs](../.gitbook/assets/socialnotifs/view_dealabs.png)
