@@ -89,7 +89,7 @@ Ce module permet d'afficher des bandes dessinées en lien avec le métier de dé
 ### Dealabs
 
 Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot".
-Il faut aussi noter que l'administrateur peut configurer le module dealabs uniquement pour certaines catégories (exemples : High-Tech).
+Il faut aussi noter que l'administrateur peut configurer le module Dealabs uniquement pour certaines catégories (exemples : High-Tech).
 
 ![Notification Sociale Dealabs](../.gitbook/assets/socialnotifs/view_dealabs.png)
 
