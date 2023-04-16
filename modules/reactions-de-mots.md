@@ -38,6 +38,10 @@ Pour ajouter une réaction à un mot, il vous suffit de cliquer sur le bouton **
 
 ![Aperçu du message](../.gitbook/assets/wordreact/question.png)
 
+{% hint style="warning" %}
+Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
+{% endhint %}
+
 ### Supprimer des réactions de mots
 
 Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cliquer sur le bouton **"Retirer"**. Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à supprimer.
@@ -70,7 +74,7 @@ Vous pourrez activer ou désactiver en haut à droite de la page grâce à un "s
 Vous pouvez ajouter une réaction de mot en mettant un **émoji** dans la case d'émoji et en mettant le mot concerné dans la case **"Entrez un début de phrase"**. Vous pourrez alors **"Ajouter"** la réaction de mot.
 
 {% hint style="warning" %}
-Le sélecteur d'émoji du panel ne permet pas de mettre des émojis provenant d'autres serveurs. Dans ce cas-là, il est préférable de privilégier le `/config`.
+Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
 {% endhint %}
 
 ### Modifier une réaction de mot
