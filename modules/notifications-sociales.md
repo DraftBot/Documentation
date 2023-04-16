@@ -98,7 +98,7 @@ Il faut aussi noter que l'administrateur peut configurer le module Dealabs uniqu
 Vous pouvez activer séparément tous les types de notifications sociales.
 
 {% tabs %}
-{% tab title="Configuration via le `/config`" %}
+{% tab title="Configuration via le /config" %}
 
 Pour ajouter une annonce lors d'un évènement (publication de vidéo, post, notification de stream, etc...), il vous suffit d'effectuer la commande <mark style="color:orange;">/config système:Notifications Sociales</mark>. Vous aurez alors accès à l'onglet ci-dessous.
 
