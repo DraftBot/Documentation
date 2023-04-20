@@ -16,14 +16,6 @@ description: >-
 Pour activer les privaterooms, il vous suffit d'utiliser la commande `privateroom config`.
 **DraftBot** vous demandera si vous souhaitez **activer ou non** les privaterooms ainsi que **la catégorie** ou seront stockés les salons vocaux.
 
-Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de sa création :
-* `*{user}` pour afficher le pseudonyme du membre sur le serveur
-* `{use*r.id}` pour afficher l'identifiant du membre 
-* `{user.username}` pour afficher votre nom Discord
-* `{user.nickname}` pour afficher le pseudonyme du membre sur le serveur
-* `{user.tag}` pour afficher le pseudonyme avec le tag du membre (Pseudo**#0000**)
-
-
 {% hint style="warning" %}
 Choisissez une catégorie qui ne contient aucun salon vocal créé manuellement !
 Si une personne quitte un salon vocal qui a été créé manuellement, mais qui est dans la catégorie dédié au privateroom, il sera supprimé par **DraftBot,** sauf s'il a été sauvegardé avec la commande `privateroom permanent`.
@@ -49,5 +41,18 @@ Ensuite, cliquez sur le bouton "Non" lors de la question "Souhaitez-vous activer
 ## Informations Supplémentaires
 
 ### Liste des Variables
+
+Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de sa création :
+* `{user}` pour afficher le pseudonyme du membre sur le serveur
+* `{user.username}` pour afficher le nom Discord du membre
+* `{user.tag}` pour afficher le pseudonyme avec le tag du membre (Pseudo#0000)
+* `{index}` pour numéroter le salon
+* `{random-word}` pour attribuer un nom aléatoire parmi une certaine liste
+
 ### Limite d'hubs de Salons Vocaux Temporaires
+
+Par défaut, DraftBot limite les serveurs à **un seul hub**. Cela dit, si l'offre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium)</mark> est activée sur votre serveur, vous pourrez créer jusqu'à **5 hubs**.
+
 ### Panel
+
+Lien vers le panel : <mark style="color:orange;">[https://www.draftbot.fr/dashboard/user](https://www.draftbot.fr/dashboard/user)</mark>
