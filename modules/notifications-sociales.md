@@ -128,7 +128,7 @@ Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plu
 
 {% endtab %}
 
-{% tab title="Configuration via le Panel" %}
+{% tab title="Configuration via le panel" %}
 
 Dans cette page, vous pouvez activer et désactiver à votre guise les Notifications Sociales. Il existe deux types de Notifications Sociales :
 * Les onglets, qui peuvent être configurés pour plusieurs chaines/forums.
