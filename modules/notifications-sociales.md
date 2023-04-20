@@ -68,7 +68,7 @@ Voici un exemple de message de notification :
 
 ### Epic Games
 
-Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur l'<mark style="color:orange;">[Epic Games Store](https://www.epicgames.com/site/fr/home)</mark>.
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur l'<mark style="color:orange;">[Epic Games Store](https://store.epicgames.com/fr/)</mark>.
 
 {% hint style="info" %}
 Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur.
