@@ -43,24 +43,6 @@
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 
-- [Ancienne configuration](slash/configuration/README.md)
-  - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
-  - [🎂 Anniversaires](slash/configuration/anniversaires.md)
-  - [📣 Notifications sociales](slash/configuration/notifications-sociales.md)
-  - [🔘 Rôle réactions](slash/configuration/role-reactions.md)
-  - [🔉 Salons vocaux temporaires](slash/configuration/salons-vocaux-temporaires.md)
-  - [💡 Suggestions](slash/configuration/suggestions.md)
-  - [🚨 Signalements](slash/configuration/signalements.md)
-  - [🎟 Tickets](slash/configuration/tickets.md)
-  - [🧮 Compteur de membres](slash/configuration/compteur-de-membres.md)
-  - [👀 Réactions de mots](slash/configuration/reactions-de-mots.md)
-  - [⏰ Messages récurrents](slash/configuration/messages-recurrents.md)
-  - [Gestion des rôles](slash/gestion-des-roles.md)
-  - [Gestion des messages](slash/gestion-des-messages.md)
-  - [Gestion de l'économie](slash/gestion-de-leconomie.md)
-  - [(Gestion des permissions)](slash/gestion-des-permissions.md)
-  - [Divers](slash/divers.md)
-
 ## Autres
 
 - [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
