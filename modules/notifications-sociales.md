@@ -4,9 +4,7 @@ description: >-
 ---
 # Notifications sociales
 
-## Explication des Notification Sociales
-
-> Vous trouverez dans cette partie la liste des Notifications Sociales ainsi que leur utilité.
+## Modules
 
 ### YouTube
 
@@ -14,18 +12,18 @@ Ce module permet **d'afficher** un message lors de la **publication d'une vidéo
 
 ![Notification sociale YouTube](../.gitbook/assets/socialnotifs/view_youtube.png)
 
-L'annonce est entièrement **customisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur les autres serveurs**, la **couleur** de l'embed d'annonce (reservé aux <mark style="color:orange;"> [serveurs premiums](https://www.draftbot.fr/premium)</mark>), ainsi que d'autres éléments visuels.
+L'annonce est entièrement **personnalisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur d'autres serveurs**, choisir la **couleur** de l'embed d'annonce (réservé aux <mark style="color:orange;"> [serveurs premiums ✨](https://www.draftbot.fr/premium)</mark>), ainsi que d'autres éléments visuels.
 
 Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> différente** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir jusqu'à 5 chaînes YouTube différentes actuellement.
 
 ### Twitch
 
 {% hint style="warning" %}
-Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux serveurs <mark style="color:orange;">[✨ premiums](https://www.draftbot.fr/premium)</mark>.
+Les annonces <mark style="color:orange;">[Twitch](https://www.twitch.tv/)</mark> sont limitées aux <mark style="color:orange;">[serveurs premiums ✨](https://www.draftbot.fr/premium)</mark>.
 Si vous n'avez pas le premium, il existe une alternative appelée le <mark style="color:orange;">[Live Presence](https://docs.draftbot.fr/modules/notifications-sociales#live-presence)</mark>.
 {% endhint %}
 
-**Les notifications sociales Twitch** permettent d'envoyer un message **customisable** lors du **lancement d'un live**. Il peut y avoir au maximum **5 notifications sociales Twitch différentes** par serveur.
+**Les notifications sociales Twitch** permettent d'envoyer un message **personnalisable** lors du **lancement d'un live**. Il peut y avoir au maximum **5 notifications sociales Twitch différentes** par serveur.
 
 ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
@@ -39,7 +37,7 @@ Le module **Live Presence** consiste à envoyer une notification lorsqu'un membr
 
 ![Notification sociale de Live Presence](../.gitbook/assets/socialnotifs/view_presence.png)
 
-En fonction de la configuration du module sur ce serveur, **n'importe quel membre** peut avoir sa notification lorsqu'il est en stream.
+En fonction de la configuration du module sur votre serveur, **n'importe quel membre** peut avoir sa notification lorsqu'il est en stream.
 
 **Le nombre de notifications de Live Presence est illimité**, cela dit l'administrateur de votre serveur peut restreindre l'envoi de la notification à certains rôles.
 
@@ -60,7 +58,7 @@ Suite à cette manipulation, vous devrez normalement avoir cet aperçu sur votre
 
 Ce module permet d'afficher une notification lors d'une publication dans un **subreddit**. Comme pour les autres modules de notifications sociales, le message envoyé est entièrement customisable : il pourra donc être envoyé sous forme de **message classique ou sous forme d'embed.**
 
-Il peut y avoir **une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**, contrairement aux serveurs premiums qui pourront avoir jusqu'à 10 notifications sociales Reddit.
+Il ne peut y avoir qu'**une seule notification <mark style="color:orange;">[Reddit](https://www.reddit.com/)</mark> maximum** pour les serveurs **non-premiums**, contrairement aux serveurs premiums qui pour  ront avoir jusqu'à 10 notifications sociales Reddit.
 
 Voici un exemple de message de notification :
 
@@ -82,7 +80,7 @@ Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur <mark style="color:orange;">[Steam](https://store.steampowered.com/?l=french)</mark>.
 
 {% hint style="info" %}
-Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur. 
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur.
 {% endhint %}
 
 ![Notification sociale Steam](../.gitbook/assets/socialnotifs/view_steam.png)
@@ -92,13 +90,13 @@ Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur <mark style="color:orange;">[GOG](https://www.gog.com/)</mark>.
 
 {% hint style="info" %}
-Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur. 
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur.
 {% endhint %}
 ![Notification sociale GOG](../.gitbook/assets/socialnotifs/view_gog.png)
 
 ### CommitStrip
 
-Ce module permet d'afficher des bandes dessinées en lien avec le métier de développeur.
+Ce module permet de vous notifier lorsque de nouvelles planches de bandes dessinées sont publiés par les dessinateurs de CommitStrip : Un ensemble de graphistes qui racontent la vie des développeurs.
 
 {% hint style="info" %}
 Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur.
@@ -111,7 +109,7 @@ Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent 
 Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot" (brûlante). Il s'agit du stade où la promotion est jugée intéressante par les utilisateurs du site. Il faut aussi noter que l'administrateur peut configurer le module <mark style="color:orange;">[Dealabs](https://www.dealabs.com/)</mark> uniquement pour certaines catégories (exemples : High-Tech, Mode, etc...).
 
 {% hint style="info" %}
-Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur. 
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur.
 {% endhint %}
 
 ![Notification Sociale Dealabs](../.gitbook/assets/socialnotifs/view_dealabs.png)
@@ -133,7 +131,7 @@ Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plu
 
 {% tab title="Configuration via le panel" %}
 
-Dans cette page, vous pouvez activer et désactiver à votre guise les Notifications Sociales. Il existe deux types de Notifications Sociales :
+Dans cette page, vous pouvez activer et désactiver à votre guise les notifications sociales. Il existe deux types de notifications sociales :
 * Les onglets, qui peuvent être configurés pour plusieurs chaines/forums.
 * Les modules, qui vous permettent d'activer des notifications qui nécessitent peu de configuration.
 
