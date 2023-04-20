@@ -49,15 +49,22 @@ Cette action est irréversible, cela dit un message de confirmation sera envoyé
 
 ### Modifier les Salons Vocaux Temporaires
 
+Pour modifier des Salons Vocaux Temporaires, vous devez accéder au menu ci-dessous en allant dans le système <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un Hub</mark>.
+
 ![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/view_edit.png)
+
 
 #### Ajouter/Supprimer un salon permanent
 
+{% hint style="info" %}
 Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie privateroom et qu'ils le quittent ensuite, le salon se supprime. 
+{% endhint %}
 
-Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, vous pouvez aller dans le système <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un Hub</mark> et appuyer sur le bouton <mark style="color:orange;">Salons Permanents</mark>.
+Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons Permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
 
-Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
+#### Changer la catégorie des Salons Vocaux Temporaires
+
+Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. DraftBot demandra s'il faut créer une nouvelle catégorie ou attribuer une catégorie **déjà existente**.
 
 {% endtab %}
 {% endtabs %}
