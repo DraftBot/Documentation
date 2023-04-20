@@ -11,6 +11,11 @@ description: >-
 
 ## Configuration
 
+{% tabs %}
+{% tab title="via le /config" %}
+
+![Aperçu du /config](../.gitbook/assets/privateroom/view.png)
+
 ### Activer les PrivateRooms
 
 Pour activer les privaterooms, il vous suffit d'utiliser la commande `privateroom config`.
@@ -37,6 +42,9 @@ Pour enlever un salon de la liste des permanents, il vous suffit de faire la mê
 
 Si vous souhaitez désactiver les privateroom sur votre serveur, il vous suffit d'utiliser la commande `privateroom config`.
 Ensuite, cliquez sur le bouton "Non" lors de la question "Souhaitez-vous activer ou désactiver le système de salons privés ?".
+
+{% endtab %}
+{% endtabs %}
 
 ## Informations Supplémentaires
 
