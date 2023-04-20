@@ -57,12 +57,9 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 ![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
 {% endhint %}
 
-WORK IN PROGRESS :
-- 
-- 
-- 
-- 
-
+- Avec l'aide du quatrième bouton, vous pouvez définir leur à laquelle le message d'annonce d'anniversaire sera envoyer dans le salon que vous aurez défini au préalable. 
+- Grâce à ce cinquième bouton, vous pouvez décider de mentionner un rôle lors dans l'annonce qui sera envoyer lorsque quelle qu'un faitera son anniversaire.
+- Pour conclure avec le sixième bouton, vous permet de faire en sorte qu'un membre puisse enregristrer son anniversaire, mais aucune annonce ne sera envoyer lors de son anniversaire et aucune récompense ne sera offerte.
 
 {% endtab %}
 
