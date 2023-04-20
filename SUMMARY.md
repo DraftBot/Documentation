@@ -41,6 +41,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🔊 Salons vocaux temporaires](modules/privateroom.md)
 
 - [Ancienne configuration](slash/configuration/README.md)
   - [👋 Arrivées & départs](slash/configuration/arrivees-and-departs.md)
