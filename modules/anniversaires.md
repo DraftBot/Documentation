@@ -44,7 +44,9 @@ Avec les boutons présentés ci-dessous, vous pouvez :
 
 ## Annonces
 
-*Vous pouvez accéder à différents paramètres en cliquant sur le bouton "Annonces" :*
+*Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton "Annonces" :*
+
+Grâce à l'option annonce, vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de lors du jour de leur anniversaire.
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
@@ -64,12 +66,18 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 
 ## Rôle
 
+*Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton "Rôle" :*
+
+Avec l'option Rôle, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
+
 ![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
 
 - Grâce au premier bouton *(Rôle)*, vous pouvez choisir un rôle qui mettera en avant le membre qui faite son anniversaire. Celui-ci conservera le rôle tout la journée de son anniversaire.
-- 
+- Avec le deuxième bouton *(Rôles interdits)*, vous avez la possibilité de désactiver le fait qu'un membre récupèrera un rôle temporaire le jour de son anniversaire grâce à un rôle.
 
 ## Cadeaux
+
+
 
 - 
 - 
