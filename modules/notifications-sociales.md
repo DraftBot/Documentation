@@ -137,9 +137,9 @@ Dans cette page, vous pouvez activer et désactiver à votre guise les Notificat
 * Les onglets, qui peuvent être configurés pour plusieurs chaines/forums.
 * Les modules, qui vous permettent d'activer des notifications qui nécessitent peu de configuration.
 
+Lien vers le panel : <mark style="color:orange;">https://www.draftbot.fr/dashboard/user</mark>
 
 ![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.png)
-
 
 {% endtab %}
 {% endtabs %}
