@@ -34,6 +34,7 @@
 
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
+- [🎂 Anniversaires](modules/anniversaires.md)
 - [📉 Niveaux](modules/niveaux.md)
 - [💰 Économie](modules/economie.md)
 - [🔨 Modération](modules/moderation.md)

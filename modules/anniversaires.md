@@ -6,13 +6,13 @@ description: Avec DraftBot, vous pouvez renseigner votre date d'anniversaire et 
 
 ## Votre Anniversaire
 
-Vous pouvez définir votre anniversaire avec l'argument "date" avec la commande <mark style="color:orange;">/anniversaire définir \[date]</mark>. 
+Vous pouvez définir votre anniversaire avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
 
 ![Exemple de commande d'anniversaire](../.gitbook/assets/birthday/command_preview.png)
 
-Aussi, vous pouvez voir la liste de tous les anniversaires défini sur le serveur grâce à la commande <mark style="color:orange;">/anniversaire liste</mark>.
+Vous pouvez également voir la liste de tous les anniversaires définis sur le serveur grâce à la commande <mark style="color:orange;">/anniversaire liste</mark>.
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Attention, vous pouvez changer uniquement votre date d'anniversaire une fois par jour avec l'aide encore une fois de la commande <mark style="color:blue;">/anniversaire définir \[date]</mark>.
 {% endhint %}
 
@@ -37,11 +37,7 @@ Avec les boutons présentés ci-dessous vous pouvez :
 
 ![Aperçu des options du système de configuration via la commande /config](../.gitbook/assets/birthday/birthday_config_button.png)
 
-- _ Premièrement *:* 
-- _ Deuxièmement *:* 
-- _ Troisimement *:* 
-- _ Quatrièmement *:* 
-- _ Cinquièmement & finnalement *:* Réinitialiser totallement le système d'anniversaire
+
 
 {% endtab %}
 
