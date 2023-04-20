@@ -38,6 +38,7 @@
 - [💰 Économie](modules/economie.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [📥 Notifications sociales](modules/notifications-sociales.md)
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
@@ -57,7 +58,6 @@
   - [Gestion des rôles](slash/gestion-des-roles.md)
   - [Gestion des messages](slash/gestion-des-messages.md)
   - [Gestion de l'économie](slash/gestion-de-leconomie.md)
-  - [Notifications sociales](slash/notifications-sociales.md)
   - [(Gestion des permissions)](slash/gestion-des-permissions.md)
   - [Divers](slash/divers.md)
 
