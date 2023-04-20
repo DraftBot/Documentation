@@ -14,7 +14,7 @@ Ce module permet **d'afficher** un message lors de la **publication d'une vidéo
 
 ![Notification sociale YouTube](../.gitbook/assets/socialnotifs/view_youtube.png)
 
-L'annonce est entièrement **customisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur les autres serveurs**, la **couleur** de l'embed d'annonce (reservé aux <mark style="color:orange;"> [Premiums](https://www.draftbot.fr/premium)</mark>), ainsi que d'autres éléments visuels.
+L'annonce est entièrement **customisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur les autres serveurs**, la **couleur** de l'embed d'annonce (reservé aux <mark style="color:orange;"> [serveurs premiums](https://www.draftbot.fr/premium)</mark>), ainsi que d'autres éléments visuels.
 
 Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> différente** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir jusqu'à 5 chaînes YouTube différentes.
 
