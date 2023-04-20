@@ -9,6 +9,16 @@ description: >-
 
 ## Utilisation des Salons Vocaux Temporaires
 
+Pour obtenir son salon vocal, il faut rejoindre le salon vocal "hub". Il s'agit du salon vocal permanent qui permet la création de votre salon vocal temporaire. Il se nomme par défaut `➕ Créer votre salon`.
+
+Lorsque vous créez un salon vocal temporaire, vous aurez la permission **Gérer le salon**, qui lui permet de modifier la limite d'utilisateur, les permissions du salon ainsi que le nom du salon.
+
+Quand toutes les personnes auront quitté le salon crée par ce système, il sera supprimé automatiquement par **DraftBot**.
+
+{% hint style="info" %}
+Les **permissions par défaut** du Salon vocal temporaire correspondent à celles de la **catégorie**.
+{% endhint %}
+
 ## Configuration
 
 {% tabs %}
@@ -16,22 +26,26 @@ description: >-
 
 ![Aperçu du /config](../.gitbook/assets/privateroom/view.png)
 
-### Activer les PrivateRooms
+### Ajouter les Salons Vocaux Temporaires
 
-Pour activer les privaterooms, il vous suffit d'utiliser la commande `privateroom config`.
-**DraftBot** vous demandera si vous souhaitez **activer ou non** les privaterooms ainsi que **la catégorie** ou seront stockés les salons vocaux.
+Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Créer un Hub</mark>.
 
-{% hint style="warning" %}
-Choisissez une catégorie qui ne contient aucun salon vocal créé manuellement !
-Si une personne quitte un salon vocal qui a été créé manuellement, mais qui est dans la catégorie dédié au privateroom, il sera supprimé par **DraftBot,** sauf s'il a été sauvegardé avec la commande `privateroom permanent`.
+**DraftBot** vous demandera ensuite **la catégorie** ou seront stockés les salons vocaux.
+
+{% hint style="info" %}
+Les salons vocaux déjà existants dans cette catégorie seront supprimés par le bot si vous ne les rendez pas permanents.
 {% endhint %}
 
-### Créer le salon vocal
+### Désactiver les Salons Vocaux Temporaires
 
-Pour que vos membres obtiennent leur salon vocal, ils devront rejoindre le salon vocal que vous avez défini lors de la configuration du système. Les permissions par défaut d'une privateroom sont celles situées dans la catégorie.
+Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Supprimer un hub</mark>.
 
-Lorsqu'une personne crée une privateroom en rejoignant le salon vocal dédié à la création des privaterooms, il aura la permission **Gérer le salon** dans son salon, qui lui permettra de modifier la limite d'utilisateur, les permissions du salon ainsi que le nom du salon.
-Quand toutes les personnes auront quitté le salon crée par ce système, il sera supprimé automatiquement par **DraftBot**.
+{% hint style="info" %}
+
+Cette action est irréversible, cela dit un message de confirmation sera envoyé.
+> Message en question : "Êtes-vous sûr de vouloir supprimer la seule catégorie de salons vocaux temporaires du serveur ?"
+
+{% endhint %}
 
 ### Rendre un salon permanent
 
