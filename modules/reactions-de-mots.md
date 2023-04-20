@@ -1,11 +1,11 @@
 ---
 description: >-
-  Faites réagir DraftBot à vos messages pour ne plus jamais vous sentir seul. 
+  Faites réagir DraftBot à vos messages pour ne plus jamais vous sentir seul.
 ---
 
 # 👀 Réactions de mots
 
-## Qu'est-ce que le système de réactions de mots et quel est son utilité ? 
+## Qu'est-ce que le système de réactions de mots et quel est son utilité ?
 
 Le système de réactions de mots, aussi appelé "wordreact", fait réagir DraftBot à des messages qui commencent par un mot prédéfini avec une réaction définie. Un aperçu du message est disponible ci-dessous :
 
@@ -15,16 +15,15 @@ Le système de réactions de mots, aussi appelé "wordreact", fait réagir Draft
 Le bot ne réagira que lorsque le mot est en **début de phrase**.
 {% endhint %}
 
-
 ## Configuration
 
 {% tabs %}
 {% tab title="Via le /config" %}
-> Vous trouverez ci-dessous la configuration des réactions de mot avec le `/config`
+> Vous trouverez ci-dessous la configuration des réactions de mot avec le `/config`.
 
 ![Aperçu du système](../.gitbook/assets/wordreact/view.png)
 
-### Activer le système de réactions de mots 
+### Activer le système de réactions de mots
 
 Pour activer le système de réactions de mots, il faudra aller dans le système **"Réactions de mots"** et de cliquer sur **"Activer le système"**.
 
@@ -48,14 +47,14 @@ Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cli
 
 ### Lister les réactions de mots
 
-Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mot. Vous aurez alors une liste avec tous vos réactions de mots.
+Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mot. Vous aurez alors une liste avec toutes vos réactions de mots.
 
 ### Réinitialiser le système
 
-Si vous souhaitez supprimer **tous** les réactions de mots, il suffira d'appuyer sur le bouton **"Réinitialiser"**.
+Si vous souhaitez supprimer **toutes** les réactions de mots, il suffira d'appuyer sur le bouton **"Réinitialiser"**.
 
 {% hint style="danger" %}
-Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots de base, c'est-à-dire : "hey", "coucou" et "salut".
+Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots par défaut, à savoir : "hey", "coucou" et "salut" avec la réaction "👋".
 {% endhint %}
 
 {% endtab %}
@@ -67,7 +66,7 @@ Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les
 
 ### Activer / Désactiver le système
 
-Vous pourrez activer ou désactiver en haut à droite de la page grâce à un bouton.
+Vous pourrez activer ou désactiver la réaction de mot en haut à droite de la page grâce à un bouton.
 
 ### Ajouter une réaction de mot
 
@@ -79,15 +78,15 @@ Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
 
 ### Modifier une réaction de mot
 
-Pour modifier une réaction de mot, il faut cliquer sur le bouton **"modifier"** de la réaction de mot concernée. Les cases en haut se prérempliront : vous pourrez y modifier l'émoji et le mot. Il vous suffira de **"Remplacer"** pour que la modification soit prise en compte.
+Pour modifier une réaction de mot, cliquez sur le bouton **"modifier"** de la réaction de mot concernée. Les cases en haut se prérempliront : vous pourrez y modifier l'émoji et le mot. Il vous suffira de **"Remplacer"** pour que la modification soit prise en compte.
 
 ### Supprimer une réaction de mot
 
-Pour supprimer une réaction de mot, il faut cliquer sur le bouton **"supprimer"** de la réaction de mot concernée.
+Pour supprimer une réaction de mot, cliquez sur le bouton **"supprimer"** de la réaction de mot concernée.
 
 {% hint style="info" %}
-La suppression est irréversible, cela dit une validation de la suppression sera demandée. 
-> Message en question : "Attention, vous avez des modifications non enregistrées"
+La suppression est irréversible, cela dit une validation de la suppression sera demandée.
+> Message en question : "Attention, vous avez des modifications non enregistrées".
 {% endhint %}
 
 {% endtab %}
@@ -97,4 +96,4 @@ La suppression est irréversible, cela dit une validation de la suppression sera
 
 Si vous ne possédez pas le <mark style="color:orange;">[premium](https://draftbot.fr/premium)</mark>, vous serez limité à 10 réactions de mots. En possédant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimitée.
 
-Plus d'informations sur le <mark style="color:orange;">[comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)</mark>.
+Voir le <mark style="color:orange;">[comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)</mark>.
