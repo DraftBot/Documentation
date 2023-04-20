@@ -101,7 +101,7 @@ Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent 
 Ce module permet d'afficher des bandes dessinées en lien avec le métier de développeur.
 
 {% hint style="info" %}
-Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur.
 {% endhint %}
 
 ![Notification sociale CommitStrip](../.gitbook/assets/socialnotifs/view_commitstrip.png)
