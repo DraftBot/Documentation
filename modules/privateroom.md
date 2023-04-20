@@ -36,7 +36,7 @@ Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="
 Les salons vocaux déjà existants dans cette catégorie seront supprimés par le bot si vous ne les rendez pas permanents.
 {% endhint %}
 
-### Désactiver les Salons Vocaux Temporaires
+### Supprimer les Salons Vocaux Temporaires
 
 Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Supprimer un hub</mark>.
 
@@ -47,15 +47,17 @@ Cette action est irréversible, cela dit un message de confirmation sera envoyé
 
 {% endhint %}
 
-### Rendre un salon permanent
+### Modifier les Salons Vocaux Temporaires
 
-Lorsque vos membres rejoignent un salon vocal dans la catégorie privateroom et qu'ils le quittent ensuite, le salon se supprime. Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, vous pouvez le rendre permanent en faisant la commande `privateroom permanent`.
-Pour enlever un salon de la liste des permanents, il vous suffit de faire la même commande puis de renseigner le salon à enlever de la liste.
+![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/view_edit.png)
 
-### Désactiver les PrivateRooms
+#### Ajouter/Supprimer un salon permanent
 
-Si vous souhaitez désactiver les privateroom sur votre serveur, il vous suffit d'utiliser la commande `privateroom config`.
-Ensuite, cliquez sur le bouton "Non" lors de la question "Souhaitez-vous activer ou désactiver le système de salons privés ?".
+Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie privateroom et qu'ils le quittent ensuite, le salon se supprime. 
+
+Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, vous pouvez aller dans le système <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un Hub</mark> et appuyer sur le bouton <mark style="color:orange;">Salons Permanents</mark>.
+
+Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
 
 {% endtab %}
 {% endtabs %}
@@ -65,11 +67,12 @@ Ensuite, cliquez sur le bouton "Non" lors de la question "Souhaitez-vous activer
 ### Liste des Variables
 
 Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de sa création :
-* `{user}` pour afficher le pseudonyme du membre sur le serveur
-* `{user.username}` pour afficher le nom Discord du membre
-* `{user.tag}` pour afficher le pseudonyme avec le tag du membre (Pseudo#0000)
-* `{index}` pour numéroter le salon
-* `{random-word}` pour attribuer un nom aléatoire parmi une certaine liste
+* `{user}` pour afficher le pseudonyme du membre sur le serveur.
+* `{user.username}` pour afficher le nom Discord du membre.
+* `{user.tag}` pour afficher le pseudonyme avec le tag du membre (Pseudo#0000).
+* `{index}` pour numéroter le salon.
+* `{random-word}` pour attribuer un mot aléatoire parmi une liste de mots de DraftBot.
+* `{custom-word}` pour attribuer un mot aléatoire parmi une liste personnalisable.
 
 ### Limite d'hubs de Salons Vocaux Temporaires
 
