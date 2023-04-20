@@ -79,20 +79,20 @@ Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent 
 
 ### Steam
 
-Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur Steam.
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur <mark style="color:orange;">[Steam](https://store.steampowered.com/?l=french)</mark>.
 
 {% hint style="info" %}
-Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur. 
 {% endhint %}
 
 ![Notification sociale Steam](../.gitbook/assets/socialnotifs/view_steam.png)
 
 ### GOG
 
-Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur GOG.
+Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur <mark style="color:orange;">[GOG](https://www.gog.com/)</mark>.
 
 {% hint style="info" %}
-Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur. 
 {% endhint %}
 ![Notification sociale GOG](../.gitbook/assets/socialnotifs/view_gog.png)
 
@@ -108,8 +108,11 @@ Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent 
 
 ### Dealabs
 
-Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot" (brûlante). Il s'agit du stade où la promotion est jugée intéressante par les utilisateurs du site.
-Il faut aussi noter que l'administrateur peut configurer le module Dealabs uniquement pour certaines catégories (exemples : High-Tech, Mode, etc...).
+Ce module permet d'envoyer une notification lorsqu'une réduction devient "hot" (brûlante). Il s'agit du stade où la promotion est jugée intéressante par les utilisateurs du site. Il faut aussi noter que l'administrateur peut configurer le module <mark style="color:orange;">[Dealabs](https://www.dealabs.com/)</mark> uniquement pour certaines catégories (exemples : High-Tech, Mode, etc...).
+
+{% hint style="info" %}
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur. 
+{% endhint %}
 
 ![Notification Sociale Dealabs](../.gitbook/assets/socialnotifs/view_dealabs.png)
 
