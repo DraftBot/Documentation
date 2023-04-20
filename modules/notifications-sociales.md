@@ -137,9 +137,6 @@ Dans cette page, vous pouvez activer et désactiver à votre guise les Notificat
 
 ![Configuration via le panel](../.gitbook/assets/socialnotifs/view_panelconfig.png)
 
-{% hint style="warning" %}
-Certaines fonctionnalités telles que **la couleur de l'annonce** sont uniquement paramétrables avec le `/config`.
-{% endhint %}
 
 {% endtab %}
 {% endtabs %}
