@@ -30,7 +30,7 @@ Si vous n'avez pas le premium, il existe une alternative appelée le <mark style
 ![Notification sociale Twitch](../.gitbook/assets/socialnotifs/view_twitch.png)
 
 {% hint style="info" %}
-Afin d'éviter un spam d'embed, un délai de 30 minutes a été mis en place entre deux annonces.
+Afin d'éviter un spam d'embed, un délai de 30 minutes a été mis en place entre deux annonces de la même personne.
 {% endhint %}
 
 ### Live Presence
