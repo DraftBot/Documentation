@@ -42,14 +42,15 @@ Avec les boutons présentés ci-dessous, vous pouvez :
 
 ![Aperçu des options du système de configuration via la commande /config](../.gitbook/assets/birthday/birthday_config_button.png)
 
+## Annonces
 
 *Vous pouvez accéder à différents paramètres en cliquant sur le bouton "Annonces" :*
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
-- En cliquant sur le premier bouton, vous pouvez activé ou désactiver le système d'annonce d'anniversaire.
-- Avec le deuxième bouton, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
-- Grâce au troisième bouton, vous pouvez paramétrer le message d'annonce.
+- En cliquant sur le premier bouton *(Système activer/désactiver)*, vous pouvez activé ou désactiver le système d'annonce d'anniversaire.
+- Avec le deuxième bouton *(Salon)*, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
+- Grâce au troisième bouton *(Message)*, vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
 Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, n'oubliez pas d'utiliser les variables ci-dessous et le markdown de Discord.
@@ -57,16 +58,36 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 ![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
 {% endhint %}
 
-- Avec l'aide du quatrième bouton, vous pouvez définir leur à laquelle le message d'annonce d'anniversaire sera envoyer dans le salon que vous aurez défini au préalable. 
-- Grâce à ce cinquième bouton, vous pouvez décider de mentionner un rôle lors dans l'annonce qui sera envoyer lorsque quelle qu'un faitera son anniversaire.
-- Pour conclure avec le sixième bouton, vous permet de faire en sorte qu'un membre puisse enregristrer son anniversaire, mais aucune annonce ne sera envoyer lors de son anniversaire et aucune récompense ne sera offerte.
+- Avec l'aide du quatrième bouton *(Heure d'envoi)*, vous pouvez définir leur à laquelle le message d'annonce d'anniversaire sera envoyer dans le salon que vous aurez défini au préalable. 
+- Grâce à ce cinquième bouton *(Mention)*, vous pouvez décider de mentionner un rôle lors dans l'annonce qui sera envoyer lorsque quelle qu'un faitera son anniversaire.
+- Pour conclure avec le sixième bouton *(Rôles interdits)*, vous bloquer l'annonce d'un anniversaire à tous les membres qui possède le rôle. 
+
+## Rôle
+
+![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
+
+- Grâce au premier bouton *(Rôle)*, vous pouvez choisir un rôle qui mettera en avant le membre qui faite son anniversaire. Celui-ci conservera le rôle tout la journée de son anniversaire.
+- 
+
+## Cadeaux
+
+- 
+- 
+- 
+- 
+
+## Annonces personnalisées
+
+- 
+- 
+- 
 
 {% endtab %}
 
 
 {% tab title="Via le panel" %}
 
-WORK IN PROGRESS :
+WORK IN PROGRESS ...
 
 {% endtab %}
 {% endtabs %}
