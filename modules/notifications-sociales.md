@@ -70,11 +70,20 @@ Voici un exemple de message de notification :
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur l'Epic Games Store.
 
+{% hint style="info" %}
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+{% endhint %}
+
+
 ![Notification sociale Epic Games](../.gitbook/assets/socialnotifs/view_epicgames.png)
 
 ### Steam
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur Steam.
+
+{% hint style="info" %}
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+{% endhint %}
 
 ![Notification sociale Steam](../.gitbook/assets/socialnotifs/view_steam.png)
 
@@ -82,11 +91,18 @@ Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur 
 
 Ce module permet d'envoyer une annonce lorsqu'un jeu gratuit est disponible sur GOG.
 
+{% hint style="info" %}
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+{% endhint %}
 ![Notification sociale GOG](../.gitbook/assets/socialnotifs/view_gog.png)
 
 ### CommitStrip
 
 Ce module permet d'afficher des bandes dessinées en lien avec le métier de développeur.
+
+{% hint style="info" %}
+Le rôle mentionné, la couleur de l'annonce ainsi que le salon d'envoi peuvent être configurés par l'administrateur 
+{% endhint %}
 
 ![Notification sociale CommitStrip](../.gitbook/assets/socialnotifs/view_commitstrip.png)
 
