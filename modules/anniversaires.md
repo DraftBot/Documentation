@@ -6,9 +6,9 @@ description: Avec DraftBot, vous pouvez renseigner votre date d'anniversaire et 
 
 ## Votre Anniversaire
 
-Vous pouvez définir votre anniversaire via [le pannel de Draftbot](https://www.draftbot.fr) ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
+Vous pouvez définir votre anniversaire via [le panel de Draftbot](https://www.draftbot.fr) ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
 
-![Exemple de commande d'anniversaire](../.gitbook/assets/birthday/command_preview.png)
+![Exemple de commande d'anniversaire](../.gitbook/assets/birthday/command_review.png)
 
 Vous pouvez également voir la liste de tous les anniversaires définis sur le serveur grâce à la commande <mark style="color:orange;">/anniversaire liste</mark>.
 
