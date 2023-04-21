@@ -91,10 +91,10 @@ Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Il
 
     - Premièrement avec la première option du menu déroulant, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
-    {% hint style="warning" %}
-    Attention les points d'expérience n'est pas un niveau. L'expérience est les points qui vous permettent de monter de 
-    niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défaut gagne 15 à 25 points d'expérience par message.
-    {% endhint %}
+{% hint style="warning" %}
+Attention les points d'expérience n'est pas un niveau. L'expérience est les points qui vous permettent de monter de 
+niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défaut gagne 15 à 25 points d'expérience par message.
+{% endhint %}
 
     - 
     - 
