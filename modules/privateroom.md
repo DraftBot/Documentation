@@ -53,11 +53,18 @@ Pour modifier des Salons Vocaux Temporaires, vous devez accéder au menu ci-dess
 
 ![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/view_edit.png)
 
+#### Activer/Désactiver un Hub
+
+Pour activer ou désactiver des Salons Vocaux Temporaires, vous devez cliquer sur le bouton <mark style="color:orange;">Activer le système</mark>. Vous verrez alors le menu se mettre à jour.
+
+{% hint style="info" %}
+Lorsque le hub est déjà activé, le bouton se nomme <mark style="color:orange;">Sytème Activé</mark>.
+{% endhint %}
 
 #### Ajouter/Supprimer un salon permanent
 
 {% hint style="info" %}
-Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie privateroom et qu'ils le quittent ensuite, le salon se supprime. 
+Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie des salons vocaux temporaires et qu'ils le quittent ensuite, le salon se supprime. 
 {% endhint %}
 
 Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons Permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
