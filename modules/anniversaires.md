@@ -60,9 +60,9 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 ![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
 {% endhint %}
 
-- Avec l'aide du quatrième bouton *(Heure d'envoi)*, vous pouvez définir leur à laquelle le message d'annonce d'anniversaire sera envoyer dans le salon que vous aurez défini au préalable. 
-- Grâce à ce cinquième bouton *(Mention)*, vous pouvez décider de mentionner un rôle lors dans l'annonce qui sera envoyer lorsque quelle qu'un faitera son anniversaire.
-- Pour conclure avec le sixième bouton *(Rôles interdits)*, vous bloquer l'annonce d'un anniversaire à tous les membres qui possède le rôle. 
+- Avec l'aide du quatrième bouton *(Heure d'envoi)*, vous pouvez définir leur à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
+- Grâce à ce cinquième bouton *(Mention)*, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
+- Pour conclure avec le sixième bouton *(Rôles interdits)*, vous bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle interdit. 
 
 ## Rôle
 
@@ -72,15 +72,34 @@ Avec l'option Rôle, vous pouvez gérer le fait d'un membre recevra un rôle exc
 
 ![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
 
-- Grâce au premier bouton *(Rôle)*, vous pouvez choisir un rôle qui mettera en avant le membre qui faite son anniversaire. Celui-ci conservera le rôle tout la journée de son anniversaire.
-- Avec le deuxième bouton *(Rôles interdits)*, vous avez la possibilité de désactiver le fait qu'un membre récupèrera un rôle temporaire le jour de son anniversaire grâce à un rôle.
+- Grâce au premier bouton *(Rôle)*, vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
+- Avec le deuxième bouton *(Rôles interdits)*, vous pouvez désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle interdit.
 
 ## Cadeaux
 
+*Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton "Cadeaux" :*
 
+Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Ils seront sûrement ravis par votre générosité !
 
-- 
-- 
+![Aperçu des options offerte avec le menu Cadeaux](../.gitbook/assets/birthday/birthday_config_gift.png)
+
+- En cliquant sur le premier bouton *(Crée)*, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense/cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
+
+    ![Option des cadeaux à offrir via le menu Cadeaux](../.gitbook/assets/birthday/bithday_config_option_gift.png)
+
+    Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous. *:*
+
+    - Premièrement avec la première option du menu déroulant, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
+
+    {% hint style="warning" %}
+    Attention les points d'expérience n'est pas un niveau. L'expérience est les points qui vous permettent de monter de 
+    niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défaut gagne 15 à 25 points d'expérience par message.
+    {% endhint %}
+
+    - 
+    - 
+    - 
+
 - 
 - 
 
