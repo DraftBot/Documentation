@@ -87,7 +87,7 @@ Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Il
 
     ![Option des cadeaux à offrir via le menu Cadeaux](../.gitbook/assets/birthday/bithday_config_option_gift.png)
 
-    Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous. *:*
+    Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous *:*
 
     - Premièrement avec la première option du menu déroulant, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
@@ -96,12 +96,9 @@ Attention les points d'expérience n'est pas un niveau. L'expérience est les po
 niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défaut gagne 15 à 25 points d'expérience par message.
 {% endhint %}
 
-    - 
-    - 
-    - 
+    - test 123
 
-- 
-- 
+- test 123
 
 ## Annonces personnalisées
 
