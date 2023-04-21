@@ -83,8 +83,10 @@ Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Il
 
 ![Aperçu des options offerte avec le menu Cadeaux](../.gitbook/assets/birthday/birthday_config_gift.png)
 
-- En cliquant sur le premier bouton *(Crée)*, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense/cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
+En cliquant sur le premier bouton *(Crée)*, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense/cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
+
 ![Option des cadeaux à offrir via le menu Cadeaux](../.gitbook/assets/birthday/bithday_config_option_gift.png)
+
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous *:*
 
 - Premièrement avec la première option du menu déroulant, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
@@ -94,15 +96,20 @@ Attention les points d'expérience n'est pas un niveau. L'expérience est les po
 niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défaut gagne 15 à 25 points d'expérience par message.
 {% endhint %}
     
-- test 123
+- Avec le deuxième bouton, WORK IN PROGRESS ...
+- WORK IN PROGRESS ...
+- WORK IN PROGRESS ...
 
-- test 123
+*Avec les deux boutons restants, vous pouvez modifier et supprimer les paramètres enregistrer avec l'aide du premier bouton :*
+
+- À l'aide du deuxième bouton,
+- Troisième et finalement avec le bouton, vous pouvez réinitialiser l'entièreté du système de Cadeaux.
 
 ## Annonces personnalisées
 
-- 
-- 
-- 
+- WORK IN PROGRESS ...
+- WORK IN PROGRESS ...
+- WORK IN PROGRESS ...
 
 {% endtab %}
 
