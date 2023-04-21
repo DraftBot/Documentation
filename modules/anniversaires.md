@@ -34,7 +34,7 @@ Vous pouvez désactiver la visibilité de votre anniversaire sur tous les serveu
 ## La configuration
 
 {% tabs %}
-{% tab title="Via la commande /config" %}
+{% tab title="Depuis le /config" %}
 
 Grâce à la commande <mark style="color:orange;">/config \[système:anniversaires]</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
@@ -114,7 +114,7 @@ niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défa
 {% endtab %}
 
 
-{% tab title="Via le panel" %}
+{% tab title="Depuis le [panel](https://docs.draftbot.fr)" %}
 
 WORK IN PROGRESS ...
 
