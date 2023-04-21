@@ -105,11 +105,13 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niv
 - À l'aide du deuxième bouton <mark style="color:orange;">Modifier</mark>, vous pouvez modifier les options préalablement enregistrées.
 - Troisième et finalement avec le bouton <mark style="color:orange;">Suprimer</mark>, vous pouvez réinitialiser l'entièreté du système de <mark style="color:orange;">Cadeaux</mark>.
 
-## Annonces personnalisées
+## Annonces personnalisées *(Avantage premium 💎)*
+
+![Aperçu des options du menu des annnonces personnalisées](../.gitbook/assets/birthday/birthday_config_special_annoucement.png)
 
 - WORK IN PROGRESS ...
-- WORK IN PROGRESS ...
-- WORK IN PROGRESS ...
+- Avec le bouton <mark style="color:orange;">Supprimer</mark>, vous pouvez supprimer une annonce personnaliser que vous auriez créé au paravent.
+- Grâce au bouton <mark style="color:orange;">Réinitialiser</mark>, vous pouvez réinitialiser l'entièreté du système d'<mark style="color:orange;">Annonces personnalisées.</mark>
 
 {% endtab %}
 
