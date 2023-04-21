@@ -114,7 +114,7 @@ niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défa
 {% endtab %}
 
 
-{% tab title="Depuis le [panel](https://docs.draftbot.fr)" %}
+{% tab title="Depuis le panel" %}
 
 WORK IN PROGRESS ...
 
