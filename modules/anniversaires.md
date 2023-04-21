@@ -92,7 +92,7 @@ Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire
 - Premièrement avec la première option du menu déroulant <mark style="color:orange;">Expériance</mark>, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
 {% hint style="info" %}
-Je vous conseille de vous diriger vers <mark style="color:blue;">Salon[le page de niveaux](niveaux.md)</mark> pour en apprendre plus sur les niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
+Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niveaux](niveaux.md)</mark> pour en apprendre plus sur les niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
 {% endhint %}
     
 - Avec le deuxième option du menu déroulant <mark style="color:orange;">Argent</mark>, vous permet de donner de l'argent au membre qui fêtera son anniversaire.
