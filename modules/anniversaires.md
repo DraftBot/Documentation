@@ -4,7 +4,7 @@ description: Avec DraftBot, vous pouvez renseigner votre date d'anniversaire et 
 
 # 🎂 Anniversaires
 
-## Votre Anniversaire
+## Votre anniversaire
 
 Vous pouvez définir votre anniversaire via [le panel de Draftbot](https://www.draftbot.fr) ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
 
@@ -31,7 +31,7 @@ Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & 
 Vous pouvez désactiver la visibilité de votre anniversaire sur tous les serveurs avec la commande <mark style="color:orange;">/anniversaire retirer</mark>.
 {% endhint %}
 
-## La configuration
+## Configuration des anniversaires sur le serveur
 
 {% tabs %}
 {% tab title="Depuis le /config" %}
@@ -44,14 +44,14 @@ Avec les boutons présentés ci-dessous, vous pouvez :
 
 ## Annonces
 
-*Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton "Annonces" :*
+Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Annonces</mark> *:*
 
-Grâce à l'option annonce, vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de lors du jour de leur anniversaire.
+Grâce à l'option "Annonces", vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
-- En cliquant sur le premier bouton *(Système activer/désactiver)*, vous pouvez activé ou désactiver le système d'annonce d'anniversaire.
-- Avec le deuxième bouton *(Salon)*, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
+- En cliquant sur le bouton <mark style="color:orange;">Système activer/désactiver</mark>, vous pouvez activer ou désactiver le système d'annonce d'anniversaire.
+- Avec le bouton <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Grâce au troisième bouton *(Message)*, vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
@@ -60,30 +60,30 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 ![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
 {% endhint %}
 
-- Avec l'aide du quatrième bouton *(Heure d'envoi)*, vous pouvez définir leur à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
+- Avec l'aide du quatrième bouton *(Heure d'envoi)*, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
 - Grâce à ce cinquième bouton *(Mention)*, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
-- Pour conclure avec le sixième bouton *(Rôles interdits)*, vous bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle interdit. 
+- Pour finir, avec le bouton <mark style="color:orange;">Rôles interdits</mark>, vous bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle interdit. 
 
 ## Rôle
 
-*Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton "Rôle" :*
+Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Rôle</mark> *:*
 
-Avec l'option Rôle, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
+Avec l'option "Rôle", vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
 
 ![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
 
-- Grâce au premier bouton *(Rôle)*, vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
-- Avec le deuxième bouton *(Rôles interdits)*, vous pouvez désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle interdit.
+- Grâce au bouton <mark style="color:orange;">Rôle</mark>, vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
+- Avec le bouton <mark style="color:orange;">Rôles interdits</mark>, vous pouvez désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle interdit.
 
 ## Cadeaux
 
-*Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton "Cadeaux" :*
+Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton </mark style="color:orange;">Cadeaux</mark> *:*
 
 Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Ils seront sûrement ravis par votre générosité !
 
-![Aperçu des options offerte avec le menu Cadeaux](../.gitbook/assets/birthday/birthday_config_gift.png)
+![Aperçu des options offertes avec le menu "Cadeaux"](../.gitbook/assets/birthday/birthday_config_gift.png)
 
-En cliquant sur le premier bouton *(Crée)*, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense/cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
+En cliquant sur le bouton <mark style="color:orange;">"Créer"</mark>, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
 
 ![Option des cadeaux à offrir via le menu Cadeaux](../.gitbook/assets/birthday/bithday_config_option_gift.png)
 
@@ -91,19 +91,18 @@ Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire
 
 - Premièrement avec la première option du menu déroulant, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
-{% hint style="warning" %}
-Attention les points d'expérience ne sont pas un niveau. Les points expérience vous permettent de monter de 
-niveau donc pour ce cadeau basé vous sur le fait qu'un membre reçoit par défaut 15 à 25 points d'expérience par message.
+{% hint style="info" %}
+Je vous conseille de vous diriger vers [le page de niveaux](niveaux.md) pour en apprendre plus sur les niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
 {% endhint %}
     
-- Avec le deuxième bouton du menu déroulant de l'option 'Crée', vous permet de donner de l'argent au membre qui fêtera son anniversaire.
+- Avec le deuxième bouton du menu déroulant de l'option "Créer", vous permet de donner de l'argent au membre qui fêtera son anniversaire.
 - Grâce au troisième bouton, vous pouvez donner un objet d'inventaire à la personne qui fête son anniversaire. 
 - Le dernier bouton vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
-*Avec les deux boutons restant du menu des Cadeaux, vous pouvez modifier et supprimer les paramètres enregistrer avec l'aide du premier bouton :*
+*Avec les deux boutons restant du menu des "Cadeaux", vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
 
-- À l'aide du deuxième bouton, vous pouvez modifier les options préalablement enregistrer.
-- Troisième et finalement avec le bouton, vous pouvez réinitialiser l'entièreté du système de Cadeaux.
+- À l'aide du deuxième bouton, vous pouvez modifier les options préalablement enregistrées.
+- Troisième et finalement avec le bouton, vous pouvez réinitialiser l'entièreté du système de "Cadeaux".
 
 ## Annonces personnalisées
 
