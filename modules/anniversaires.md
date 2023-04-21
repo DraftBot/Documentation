@@ -34,7 +34,7 @@ Vous pouvez désactiver la visibilité de votre anniversaire sur tous les serveu
 ## Configuration des anniversaires sur le serveur
 
 {% tabs %}
-{% tab title="Depuis le /config" %}
+{% tab title="Via le /config" %}
 
 Grâce à la commande <mark style="color:orange;">/config \[système:anniversaires]</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
@@ -109,7 +109,15 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niv
 
 ![Aperçu des options du menu des annnonces personnalisées](../.gitbook/assets/birthday/birthday_config_special_annoucement.png)
 
-- WORK IN PROGRESS ...
+- Premièrement avec le bouton <mark style="color:orange;">Créer</mark>, vous pouvez accéder à deux options.
+
+![Options disponibles pour la création d'une annonce personnalisée](../.gitbook/assets/birthday/birthday_config_premium_options.png)
+
+- Avec l'option <mark style="color:orange;">Un seul membre</mark>, vous pouvez créer une annonce personnalisée lors de l'anniversaire de ce membre uniquement.
+- À l'aide de l'option <mark style="color:orange;">Membres ayant un rôle</mark>, vous pouvez créer une annonce personnalisée lors de l'anniversaire de tous les membres qui possèderont le rôle.
+
+*Avec les deux boutons restant du menu des <mark style="color:orange;">Annonces personnalisées</mark>, vous pouvez supprimer et réinitialiser les paramètres enregistrés avec l'aide du premier bouton :*
+
 - Avec le bouton <mark style="color:orange;">Supprimer</mark>, vous pouvez supprimer une annonce personnaliser que vous auriez créé au paravent.
 - Grâce au bouton <mark style="color:orange;">Réinitialiser</mark>, vous pouvez réinitialiser l'entièreté du système d'<mark style="color:orange;">Annonces personnalisées.</mark>
 
