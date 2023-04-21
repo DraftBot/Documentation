@@ -92,12 +92,12 @@ Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire
 - Premièrement avec la première option du menu déroulant <mark style="color:orange;">Expériance</mark>, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
 {% hint style="info" %}
-Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niveaux](niveaux.md)</mark> pour en apprendre plus sur les niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
+Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niveaux](niveaux.md)</mark> pour en apprendre plus sur le système de niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
 {% endhint %}
     
-- Avec le deuxième option du menu déroulant <mark style="color:orange;">Argent</mark>, vous permet de donner de l'argent au membre qui fêtera son anniversaire.
-- Grâce au troisième option <mark style="color:orange;">Objet</mark>, vous pouvez donner un objet d'inventaire à la personne qui fête son anniversaire. 
-- La dernière option <mark style="color:orange;">Cadeaux personnalisé</mark>, vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
+- Avec la deuxième option du menu déroulant <mark style="color:orange;">Argent</mark>, vous permet de donner de l'argent au membre qui fêtera son anniversaire.
+- Grâce à la troisième option <mark style="color:orange;">Objet</mark>, vous pouvez donner un objet d'inventaire à la personne qui fête son anniversaire. 
+- La dernière option <mark style="color:orange;">Cadeaux personnalisés</mark>, vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message
 
 
 *Avec les deux boutons restant du menu des <mark style="color:orange;">Cadeaux</mark>, vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
@@ -109,16 +109,16 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niv
 
 ![Aperçu des options du menu des annnonces personnalisées](../.gitbook/assets/birthday/birthday_config_special_annoucement.png)
 
-- Premièrement avec le bouton <mark style="color:orange;">Créer</mark>, vous pouvez accéder à deux options.
+- Premièrement, avec le bouton <mark style="color:orange;">Créer</mark>, vous pouvez accéder à deux options.
 
 ![Options disponibles pour la création d'une annonce personnalisée](../.gitbook/assets/birthday/birthday_config_premium_options.png)
 
 - Avec l'option <mark style="color:orange;">Un seul membre</mark>, vous pouvez créer une annonce personnalisée lors de l'anniversaire de ce membre uniquement.
-- À l'aide de l'option <mark style="color:orange;">Membres ayant un rôle</mark>, vous pouvez créer une annonce personnalisée lors de l'anniversaire de tous les membres qui possèderont le rôle.
+- À l'aide de l'option <mark style="color:orange;">Membres ayant un rôle</mark>, vous pouvez créer une annonce personnalisée lors de l'anniversaire de tous les membres qui posséderont le rôle.
 
 *Avec les deux boutons restant du menu des <mark style="color:orange;">Annonces personnalisées</mark>, vous pouvez supprimer et réinitialiser les paramètres enregistrés avec l'aide du premier bouton :*
 
-- Avec le bouton <mark style="color:orange;">Supprimer</mark>, vous pouvez supprimer une annonce personnaliser que vous auriez créé au paravent.
+- Avec le bouton <mark style="color:orange;">Supprimer</mark>, vous pouvez supprimer une annonce personnalisée que vous aurez créée auparavant.
 - Grâce au bouton <mark style="color:orange;">Réinitialiser</mark>, vous pouvez réinitialiser l'entièreté du système d'<mark style="color:orange;">Annonces personnalisées.</mark>
 
 {% endtab %}
@@ -129,7 +129,7 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niv
 Grâce au <mark style="color:blue;">[panel de draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
 *Avec les boutons présentés ci-dessous, vous pouvez :*
-Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:yellow;">Annonces</mark>, <mark style="color:green;">Rôle temporaire</mark>, <mark style="color:purple;">Cadeaux d'anniversaire</mark> et <mark style="color:red;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
+Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Annonces</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
 
 ## Annonces
 ## Rôle temporaire
