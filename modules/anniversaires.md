@@ -66,7 +66,7 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 
 ## Rôle
 
-Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Rôle</mark> *:*
+Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Rôle</mark> :
 
 Avec l'option "Rôle", vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
 
