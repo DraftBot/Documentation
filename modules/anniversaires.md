@@ -68,7 +68,7 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 
 Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Rôle</mark> :
 
-Avec l'option "Rôle", vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
+Avec l'option <mark style="color:orange;">Rôle</mark>, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
 
 ![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
 
@@ -83,11 +83,11 @@ Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Il
 
 ![Aperçu des options offertes avec le menu "Cadeaux"](../.gitbook/assets/birthday/birthday_config_gift.png)
 
-En cliquant sur le bouton <mark style="color:orange;">Créer</mark>, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
+En cliquant sur le bouton <mark style="color:orange;">Créer</mark>, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire :
 
 ![Option des cadeaux à offrir via le menu Cadeaux](../.gitbook/assets/birthday/bithday_config_option_gift.png)
 
-Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous *:*
+Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
 
 - Premièrement avec la première option du menu déroulant <mark style="color:orange;">Expériance</mark>, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
