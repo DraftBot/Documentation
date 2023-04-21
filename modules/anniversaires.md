@@ -129,8 +129,7 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[le page de niv
 Grâce au <mark style="color:blue;">[panel de draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
 *Avec les boutons présentés ci-dessous, vous pouvez :*
-
-Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Annonces</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées *(Avantage premium 💎)*</mark>
+Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:yellow;">Annonces</mark>, <mark style="color:green;">Rôle temporaire</mark>, <mark style="color:purple;">Cadeaux d'anniversaire</mark> et <mark style="color:red;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
 
 ## Annonces
 ## Rôle temporaire
