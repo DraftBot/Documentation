@@ -44,15 +44,15 @@ Avec les boutons présentés ci-dessous, vous pouvez :
 
 ## Annonces
 
-Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Annonces</mark> *:*
+Vous pouvez accéder à différents paramètres de l'option <mark style="color:orange;">Annonces</mark> en cliquant sur le bouton <mark style="color:orange;">Annonces</mark> :
 
-Grâce à l'option "Annonces", vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
+Grâce à l'option <mark style="color:orange;">Annonces</mark>, vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
 - En cliquant sur le bouton <mark style="color:orange;">Système activer/désactiver</mark>, vous pouvez activer ou désactiver le système d'annonce d'anniversaire.
 - Avec le bouton <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
-- Grâce au troisième bouton *(Message)*, vous pouvez paramétrer le message d'annonce.
+- Grâce au troisième bouton <mark style="color:orange;">Message</mark>, vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
 Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, n'oubliez pas d'utiliser les variables ci-dessous et le markdown de Discord.
@@ -60,8 +60,8 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 ![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
 {% endhint %}
 
-- Avec l'aide du quatrième bouton *(Heure d'envoi)*, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
-- Grâce à ce cinquième bouton *(Mention)*, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
+- Avec l'aide du quatrième bouton <mark style="color:orange;">Heure d'envoi</mark>, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
+- Grâce à ce cinquième bouton <mark style="color:orange;">Mention</mark>, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
 - Pour finir, avec le bouton <mark style="color:orange;">Rôles interdits</mark>, vous bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle interdit. 
 
 ## Rôle
@@ -77,32 +77,33 @@ Avec l'option "Rôle", vous pouvez gérer le fait d'un membre recevra un rôle e
 
 ## Cadeaux
 
-Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton </mark style="color:orange;">Cadeaux</mark> *:*
+Vous pouvez accéder à différents paramètres de cette option en cliquant sur le bouton <mark style="color:orange;">Cadeaux</mark> :
 
 Proposer une magnifique surprise à vos membres le jour de leur anniversaire. Ils seront sûrement ravis par votre générosité !
 
 ![Aperçu des options offertes avec le menu "Cadeaux"](../.gitbook/assets/birthday/birthday_config_gift.png)
 
-En cliquant sur le bouton <mark style="color:orange;">"Créer"</mark>, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
+En cliquant sur le bouton <mark style="color:orange;">Créer</mark>, vous pouvez choisir entre les quatre options ci-dessous pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire *:*
 
 ![Option des cadeaux à offrir via le menu Cadeaux](../.gitbook/assets/birthday/bithday_config_option_gift.png)
 
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous *:*
 
-- Premièrement avec la première option du menu déroulant, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
+- Premièrement avec la première option du menu déroulant <mark style="color:orange;">Expériance</mark>, vous pouvez donner de l'expérance de niveau en cadeau à un membre.
 
 {% hint style="info" %}
-Je vous conseille de vous diriger vers [le page de niveaux](niveaux.md) pour en apprendre plus sur les niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
+Je vous conseille de vous diriger vers <mark style="color:blue;">Salon[le page de niveaux](niveaux.md)</mark> pour en apprendre plus sur les niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
 {% endhint %}
     
-- Avec le deuxième bouton du menu déroulant de l'option "Créer", vous permet de donner de l'argent au membre qui fêtera son anniversaire.
-- Grâce au troisième bouton, vous pouvez donner un objet d'inventaire à la personne qui fête son anniversaire. 
-- Le dernier bouton vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
+- Avec le deuxième option du menu déroulant <mark style="color:orange;">Argent</mark>, vous permet de donner de l'argent au membre qui fêtera son anniversaire.
+- Grâce au troisième option <mark style="color:orange;">Objet</mark>, vous pouvez donner un objet d'inventaire à la personne qui fête son anniversaire. 
+- La dernière option <mark style="color:orange;">Cadeaux personnalisé</mark>, vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
+
 
 *Avec les deux boutons restant du menu des "Cadeaux", vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
 
-- À l'aide du deuxième bouton, vous pouvez modifier les options préalablement enregistrées.
-- Troisième et finalement avec le bouton, vous pouvez réinitialiser l'entièreté du système de "Cadeaux".
+- À l'aide du deuxième bouton <mark style="color:orange;">Modifier</mark>, vous pouvez modifier les options préalablement enregistrées.
+- Troisième et finalement avec le bouton <mark style="color:orange;">Suprimer</mark>, vous pouvez réinitialiser l'entièreté du système de <mark style="color:orange;">Cadeaux</mark>.
 
 ## Annonces personnalisées
 
