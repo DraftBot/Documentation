@@ -100,7 +100,7 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">Salon[le page d
 - La dernière option <mark style="color:orange;">Cadeaux personnalisé</mark>, vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 
-*Avec les deux boutons restant du menu des "Cadeaux", vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
+*Avec les deux boutons restant du menu des <mark style="color:orange;">Cadeaux</mark>, vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
 
 - À l'aide du deuxième bouton <mark style="color:orange;">Modifier</mark>, vous pouvez modifier les options préalablement enregistrées.
 - Troisième et finalement avec le bouton <mark style="color:orange;">Suprimer</mark>, vous pouvez réinitialiser l'entièreté du système de <mark style="color:orange;">Cadeaux</mark>.
