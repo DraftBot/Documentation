@@ -42,6 +42,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [⏰ Messages récurrents](modules/messages-recurrents.md)
 
 ## Autres
 
