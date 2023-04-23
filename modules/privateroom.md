@@ -26,7 +26,7 @@ Les **permissions par défaut** du Salon vocal temporaire correspondent à celle
 
 ![Aperçu du /config](../.gitbook/assets/privateroom/view.png)
 
-### Ajouter les Salons Vocaux Temporaires
+### Créer un hub de salons vocaux temporaires
 
 Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Créer un Hub</mark>.
 
