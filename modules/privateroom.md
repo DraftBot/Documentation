@@ -11,7 +11,7 @@ description: >-
 
 Pour obtenir son salon vocal, il faut rejoindre le salon vocal "hub". Il s'agit du salon vocal permanent qui permet la création de votre salon vocal temporaire. Il se nomme par défaut `➕ Créer votre salon`.
 
-Lorsque vous créez un salon vocal temporaire, vous aurez la permission **Gérer le salon**, qui lui permet de modifier la limite d'utilisateur, les permissions du salon ainsi que le nom du salon.
+Lorsque vous créez un salon vocal temporaire, vous aurez la permission "*Gérer le salon*", qui vous permettra de modifier la limite d'utilisateur, les permissions du salon ainsi que le nom du salon.
 
 Quand toutes les personnes auront quitté le salon crée par ce système, il sera supprimé automatiquement par **DraftBot**.
 
