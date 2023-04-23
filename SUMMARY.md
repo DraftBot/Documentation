@@ -48,3 +48,4 @@
 - [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
 - [Équipe](https://www.draftbot.fr/equipe)
 - [Contact](autres/contact.md)
+- [REPERTOIRE DE MISE EN PAGE](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md)
