@@ -5,7 +5,7 @@ description: >-
   celui-ci par exemple.
 ---
 
-# Salons Vocaux Temporaires
+# Salons vocaux temporaires
 
 ## Utilisation des Salons Vocaux Temporaires
 
