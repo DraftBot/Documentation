@@ -102,7 +102,7 @@ Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de 
 * `{random-word}` pour attribuer un mot aléatoire parmi une liste de mots de DraftBot.
 * `{custom-word}` pour attribuer un mot aléatoire parmi une liste personnalisable.
 
-### Limite d'hubs de Salons Vocaux Temporaires
+### Limite d'hubs de salons vocaux temporaires
 
 Par défaut, DraftBot limite les serveurs à **un seul hub**. Cela dit, si l'offre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium)</mark> est activée sur votre serveur, vous pourrez créer jusqu'à **5 hubs**.
 
