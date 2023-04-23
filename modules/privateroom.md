@@ -47,7 +47,7 @@ Cette action est irréversible, cela dit un message de confirmation sera envoyé
 
 {% endhint %}
 
-### Modifier les Salons Vocaux Temporaires
+### Modifier un hub de salons vocaux temporaires
 
 Pour modifier des Salons Vocaux Temporaires, vous devez accéder au menu ci-dessous en allant dans le système <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un Hub</mark>.
 
