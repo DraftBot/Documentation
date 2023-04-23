@@ -92,7 +92,7 @@ Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois
 
 ## Informations Supplémentaires
 
-### Liste des Variables
+### Liste des variables
 
 Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de sa création :
 * `{user}` pour afficher le pseudonyme du membre sur le serveur.
