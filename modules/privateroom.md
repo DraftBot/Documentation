@@ -90,7 +90,7 @@ Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois
 {% endtab %}
 {% endtabs %}
 
-## Informations Supplémentaires
+## Informations supplémentaires
 
 ### Liste des variables
 
