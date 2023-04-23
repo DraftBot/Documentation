@@ -24,7 +24,7 @@ Les **permissions par défaut** du Salon vocal temporaire correspondent à celle
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
-![Aperçu du /config](../.gitbook/assets/privateroom/view.png)
+![Aperçu de la commande /config](../.gitbook/assets/privateroom/view.png)
 
 ### Créer un hub de salons vocaux temporaires
 
