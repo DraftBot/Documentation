@@ -42,7 +42,7 @@ Pour supprimer un hub de salons vocaux temporaires, il vous suffit d'aller dans 
 
 {% hint style="info" %}
 
-Cette action est irréversible, cela dit un message de confirmation sera envoyé.
+Cette action est irréversible une fois le message de confirmation validé :
 > Message en question : "Êtes-vous sûr de vouloir supprimer la seule catégorie de salons vocaux temporaires du serveur ?"
 
 {% endhint %}
