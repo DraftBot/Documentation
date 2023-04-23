@@ -99,7 +99,7 @@ Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de 
 * `{user.username}` pour afficher le nom Discord du membre.
 * `{user.tag}` pour afficher le pseudonyme avec le tag du membre (Pseudo#0000).
 * `{index}` pour numéroter le salon.
-* `{random-word}` pour attribuer un mot aléatoire parmi une liste de mots de DraftBot.
+* `{random-word}` pour attribuer un mot aléatoire parmi une liste de mots de **DraftBot**.
 * `{custom-word}` pour attribuer un mot aléatoire parmi une liste personnalisable.
 
 ### Limite d'hubs de salons vocaux temporaires
