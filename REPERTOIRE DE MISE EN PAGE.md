@@ -15,9 +15,9 @@ La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc tr
 
 | Style | Syntaxe | Exemple | Rendu |
 |---:---|---:---|---:---|---:---|
-|Gras|`** **` ou `__ __`|`**Texte en gras**`|**Texte en gras**|
+|Gras||||
 |Italique|`* *` ou `_ _`|`*Texte en italique*`|*Texte en italique*|
 
-<table><thead><tr><th align="center">Style</th><th align="center">Syntaxe</th><th align="center">Exemple</th><th align="center">Rendu</th></tr></thead><tbody><tr><td></td><td></td><td>3</td></tr><tr><td></td><td></td><td>2</td></tr><tr><td></td><td></td><td>1</td></tr></tbody></table>
+<table><thead><tr><th align="center">Style</th><th align="center">Syntaxe</th><th align="center">Exemple</th><th align="center">Rendu</th></tr></thead><tbody><tr><td>Gras</td>`** **` ou `__ __`<td>`**Texte en gras**`</td><td>**Texte en gras**</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td>7</td><td>8</td></tr></tbody></table>
 
 # Titres
