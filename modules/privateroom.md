@@ -104,7 +104,7 @@ Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de 
 
 ### Limite d'hubs de salons vocaux temporaires
 
-Par défaut, DraftBot limite les serveurs à **un seul hub**. Cela dit, si l'offre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium)</mark> est activée sur votre serveur, vous pourrez créer jusqu'à **5 hubs**.
+Par défaut, **DraftBot** limite les serveurs à **un seul hub**. Cela dit, si l'offre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium)</mark> est activée sur votre serveur, vous pourrez créer jusqu'à **5 hubs**.
 
 ### Panel
 
