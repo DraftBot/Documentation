@@ -132,8 +132,37 @@ Grâce au <mark style="color:blue;">[panel de draftbot](https://www.draftbot.fr/
 Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Annonces</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
 
 ## Annonces
+
+Premièrement, par défaut cette option est désactivée, vous devrez donc l'activer dans la section anniversaire du <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/user)</mark>
+
+![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
+
+Lorsque l'option est activer vous avez accès à 5 options de personalisation ainsi que d'une prévisualitation. Dans les points ci-dessous vous serez décris les options personalisable.
+
+- Avec la première option <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
+- Avec l'aide de la deuxième option <mark style="color:orange;">Heure d'envoi</mark>, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
+- Grâce à la troisième option <mark style="color:orange;">Mention</mark>, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
+- Pour finir, avec le bouton <mark style="color:orange;">Rôles interdits/autorisés</mark>, vous bloquez/autorisez l'annonce d'un anniversaire à tous les membres qui possède le rôle interdit/autorisé. 
+
+{% hint style="info" %}
+N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
+
+![Aperçu des boutons interdits/autorisés](../.gitbook/assets/birthday/birthday_config_role_access.png)
+{% endhint %}
+
+- Grâce à la dernière option <mark style="color:orange;">Message</mark>, vous pouvez paramétrer le message d'annonce.
+
+{% hint style="info" %}
+Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, n'oubliez pas d'utiliser les variables ci-dessous et le markdown de Discord.
+
+![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
+{% endhint %}
+
 ## Rôle temporaire
+WORK IN PROGESS
 ## Cadeaux d'anniversaire
+WORK IN PROGESS
 ## Annonces personnalisées *(Avantage premium 💎)*
+WORK IN PROGESS
 {% endtab %}
 {% endtabs %}
