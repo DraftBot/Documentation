@@ -7,7 +7,7 @@ description: >-
 
 # Salons vocaux temporaires
 
-## Utilisation des Salons Vocaux Temporaires
+## Utilisation des salons vocaux temporaires
 
 Pour obtenir son salon vocal, il faut rejoindre le salon vocal "hub". Il s'agit du salon vocal permanent qui permet la création de votre salon vocal temporaire. Il se nomme par défaut `➕ Créer votre salon`.
 
