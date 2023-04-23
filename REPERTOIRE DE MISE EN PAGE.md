@@ -18,10 +18,6 @@ La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc tr
 |Gras|`** **` ou `__ __`|`**Texte en gras**`|**Texte en gras**|
 |Italique|`* *` ou `_ _`|`*Texte en italique*`|*Texte en italique*|
 
-| Rank | THING-TO-RANK |
-|---:--|---------------|
-|     1|               |
-|     2|               |
-|     3|               |
+<table><thead><tr><th align="center">Style</th><th align="center">Syntaxe</th><th align="center">Exemple</th><th align="center">Rendu</th></tr></thead><tbody><tr><td></td><td></td><td>3</td></tr><tr><td></td><td></td><td>2</td></tr><tr><td></td><td></td><td>1</td></tr></tbody></table>
 
 # Titres
