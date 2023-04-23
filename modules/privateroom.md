@@ -49,7 +49,7 @@ Cette action est irréversible une fois le message de confirmation validé :
 
 ### Modifier un hub de salons vocaux temporaires
 
-Pour modifier des Salons Vocaux Temporaires, vous devez accéder au menu ci-dessous en allant dans le système <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un Hub</mark>.
+Pour modifier un hub de salons vocaux temporaires, vous devez accéder au menu en allant dans le système <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un hub</mark>.
 
 ![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/view_edit.png)
 
