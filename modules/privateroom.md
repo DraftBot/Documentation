@@ -83,7 +83,7 @@ Vous pouvez changer le nom par défaut des salons
 Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie des salons vocaux temporaires et qu'ils le quittent ensuite, le salon se supprime. 
 {% endhint %}
 
-Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons Permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
+Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
 
 
 
