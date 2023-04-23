@@ -1,6 +1,6 @@
 ---
 description: >-
-  Les privaterooms offrent la possibilité à vos membres de créer des salons
+  Les salons vocaux temporaires offrent la possibilité à vos membres de créer des salons
   vocaux temporaires qu'ils pourront personnaliser en filtrant l'accès de
   celui-ci par exemple.
 ---
