@@ -13,11 +13,15 @@ La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc tr
 # Général
 ## Markdown
 
-|Style|Syntaxe|Exemple|Rendu|
+| Style | Syntaxe | Exemple | Rendu |
 |---:---|---:---|---:---|---:---|
 |Gras|`** **` ou `__ __`|`**Texte en gras**`|**Texte en gras**|
 |Italique|`* *` ou `_ _`|`*Texte en italique*`|*Texte en italique*|
 
-
+| Rank | THING-TO-RANK |
+|---:---|---------------|
+|     1|               |
+|     2|               |
+|     3|               |
 
 # Titres
