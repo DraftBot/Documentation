@@ -61,6 +61,22 @@ Pour activer ou désactiver des Salons Vocaux Temporaires, vous devez cliquer su
 Lorsque le hub est déjà activé, le bouton se nomme <mark style="color:orange;">Sytème Activé</mark>.
 {% endhint %}
 
+#### Changer la catégorie des Salons Vocaux Temporaires
+
+Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. DraftBot demandra s'il faut créer une nouvelle catégorie ou attribuer une catégorie **déjà existente**.
+
+#### Changer le salon hub
+
+Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il suffit d'appuyer sur le bouton <mark style="color:orange;">Hub (salon)</mark>. Un message vous demandera alors <mark style="color:orange;">[l' identifiant du salon](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
+
+#### Changer le nom par défaut des salons temporaires
+
+{% hint style="warning" %}
+Cette fonctionnalité est réservée aux <mark style="color:orange;">[serveurs premiums](https://www.draftbot.fr/premium)</mark>.
+{% endhint %}
+
+Vous pouvez changer le nom par défaut des salons
+
 #### Ajouter/Supprimer un salon permanent
 
 {% hint style="info" %}
@@ -69,9 +85,7 @@ Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie de
 
 Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons Permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
 
-#### Changer la catégorie des Salons Vocaux Temporaires
 
-Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. DraftBot demandra s'il faut créer une nouvelle catégorie ou attribuer une catégorie **déjà existente**.
 
 {% endtab %}
 {% endtabs %}
