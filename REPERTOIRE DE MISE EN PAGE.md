@@ -19,7 +19,7 @@ La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc tr
 |Italique|`* *` ou `_ _`|`*Texte en italique*`|*Texte en italique*|
 
 | Rank | THING-TO-RANK |
-|---:---|---------------|
+|---:--|---------------|
 |     1|               |
 |     2|               |
 |     3|               |
