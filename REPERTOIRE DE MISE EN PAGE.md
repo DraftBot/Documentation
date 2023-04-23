@@ -18,6 +18,6 @@ La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc tr
 |Gras||||
 |Italique|`* *` ou `_ _`|`*Texte en italique*`|*Texte en italique*|
 
-<table><thead><tr><td>Style</td><td>Syntaxe</td><td>Exemple</td><td>Rendu</td></tr></thead><tbody><tr><td>Gras</td><td>`** **` ou `__ __`</td><td>`**Texte en gras**`</td><td>**Texte en gras**</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td>7</td><td>8</td></tr></tbody></table>
+<table><thead><tr><td align="center"><td>Style</td><td>Syntaxe</td><td>Exemple</td><td>Rendu</td></tr></thead><tbody><tr><td>Gras</td><td>`** **` ou `__ __`</td><td>`**Texte en gras**`</td><td>**Texte en gras**</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td>7</td><td>8</td></td></tr></tbody></table>
 
 # Titres
