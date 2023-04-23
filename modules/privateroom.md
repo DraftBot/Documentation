@@ -28,7 +28,7 @@ Les **permissions par défaut** du Salon vocal temporaire correspondent à celle
 
 ### Créer un hub de salons vocaux temporaires
 
-Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Créer un Hub</mark>.
+Pour activer les salons vocaux temporaires, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Créer un hub</mark>.
 
 **DraftBot** vous demandera ensuite **la catégorie** ou seront stockés les salons vocaux.
 
