@@ -129,15 +129,15 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 Grâce au <mark style="color:blue;">[panel de draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
 *Avec les boutons présentés ci-dessous, vous pouvez :*
-Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Annonces</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
+Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Message d'annonce</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
 
-## Annonces
+## Message d'annonce
 
-Premièrement, par défaut cette option est désactivée, vous devrez donc l'activer dans la section anniversaire du <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/user)</mark>
+Premièrement, par défaut cette option est désactivée, vous devrez donc l'activer dans la section anniversaire du <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/user)</mark> :
 
 ![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
 
-Lorsque l'option est activer vous avez accès à 5 options de personalisation ainsi que d'une prévisualitation. Dans les points ci-dessous vous serez décris les options personalisable.
+Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous se trouve des descriptions des options personnalisables.
 
 - Avec la première option <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Avec l'aide de la deuxième option <mark style="color:orange;">Heure d'envoi</mark>, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
