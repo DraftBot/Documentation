@@ -22,7 +22,7 @@ Les **permissions par défaut** du Salon vocal temporaire correspondent à celle
 ## Configuration
 
 {% tabs %}
-{% tab title="via le /config" %}
+{% tab title="Via la commande /config" %}
 
 ![Aperçu du /config](../.gitbook/assets/privateroom/view.png)
 
