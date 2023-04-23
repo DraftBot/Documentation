@@ -36,7 +36,7 @@ Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="
 Les salons vocaux déjà existants dans cette catégorie seront supprimés par le bot si vous ne les rendez pas permanents.
 {% endhint %}
 
-### Supprimer les Salons Vocaux Temporaires
+### Supprimer un hub de salons vocaux temporaires
 
 Pour activer les privaterooms, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons Vocaux Temporaires</mark> du <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Supprimer un hub</mark>.
 
