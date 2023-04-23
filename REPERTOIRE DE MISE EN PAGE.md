@@ -17,4 +17,15 @@ Style | Syntaxe | Exemple | Rendu
 Gras | `** **` ou `__ __` | `**Texte en gras**` | **Texte en gras**
 
 
+| Style |     Syntaxe     | Exemple | Rendu |
+|------:|------------------|---------------|---------------|
+|   Gras|`** **` ou `__ __`| `**Texte en gras**` | **Texte en gras |
+
+
+| Rank | THING-TO-RANK |
+|-----:|---------------|
+|     1|               |
+|     2|               |
+|     3|               |
+
 # Titres
