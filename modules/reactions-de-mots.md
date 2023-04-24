@@ -80,7 +80,7 @@ Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
 
 ### Modifier une réaction de mot
 
-Pour modifier une réaction de mot, cliquez sur le bouton **"modifier"** de la réaction de mot concernée. Les cases en haut se prérempliront : vous pourrez y modifier l'émoji et le mot. Il vous suffira de **"Remplacer"** pour que la modification soit prise en compte.
+Pour modifier une réaction de mot, cliquez sur le bouton "Modifier" de la réaction de mot concernée. Les cases en haut se prérempliront : vous pourrez y modifier l'émoji et le mot. Il vous suffira de "Remplacer" pour que la modification soit prise en compte.
 
 ### Supprimer une réaction de mot
 
