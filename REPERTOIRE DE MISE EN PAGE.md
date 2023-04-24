@@ -68,8 +68,8 @@ Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE
 Les titres vous permettent de structurer votre texte.
 
 `# Titre 1`
-# Titre 1
+![](.gitbook/assets/repertoire-mep/#%20Titre%201.png)
 `## Titre 2`
-## Titre 2
+![](.gitbook/assets/repertoire-mep/#%20Titre%202.png)
 `### Titre 3`
-### Titre 3
+![](.gitbook/assets/repertoire-mep/#%20Titre%203.png)
