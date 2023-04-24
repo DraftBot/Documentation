@@ -19,7 +19,7 @@ Le bot ne réagira que lorsque le mot est en **début de phrase**.
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-> Vous trouverez ci-dessous la configuration des réactions de mot avec le `/config`.
+> Vous trouverez ci-dessous la configuration des réactions de mot avec la commande <mark style="color:orange;">/config</mark>.
 
 ![Aperçu du système](../.gitbook/assets/wordreact/view.png)
 
