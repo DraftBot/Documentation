@@ -84,7 +84,7 @@ Pour modifier une réaction de mot, cliquez sur le bouton "Modifier" de la réac
 
 ### Supprimer une réaction de mot
 
-Pour supprimer une réaction de mot, cliquez sur le bouton **"supprimer"** de la réaction de mot concernée.
+Pour supprimer une réaction de mot, cliquez sur le bouton "Supprimer" de la réaction de mot concernée.
 
 {% hint style="info" %}
 La suppression est irréversible, cela dit une validation de la suppression sera demandée.
