@@ -68,7 +68,7 @@ Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les
 
 ### Activer / Désactiver le système
 
-Vous pourrez activer ou désactiver la réaction de mot en haut à droite de la page grâce à un bouton.
+Vous pouvez activer ou désactiver la réaction de mot en haut à droite de la page grâce à un bouton.
 
 ### Ajouter une réaction de mot
 
