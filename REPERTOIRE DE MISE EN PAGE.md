@@ -99,7 +99,14 @@ Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action
 {% endhint %}
 
 ↪️ Exemple de rendu :\
-![](.gitbook/assets/repertoire-mep/code_permissions-n%C3%A9cessaires.png)
+![](.gitbook/assets/repertoire-mep/code_permissions-necessaires.png)
+
+
+
+{% hint style="warning" %}
+**DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
+{% endhint %}
+
 
 
 ## Conseils, avertissements...
@@ -110,7 +117,7 @@ Permet de donner un conseil aux membres pour avoir une meilleure utilisation de 
 Exemple :\
 ![](.gitbook/assets/repertoire-mep/code_hint_conseil.png)
 
-Rendu :
+↪️ Rendu :
 {% hint style="info" %}
 La configuration du système de captcha n'est pas encore disponible sur le panel de **DraftBot**.
 {% endhint %}
@@ -121,7 +128,7 @@ Permet d'avertir les membres sur une utilisation difficile ou sur un retour en a
 Exemple :\
 ![](.gitbook/assets/repertoire-mep/code_hint_avertissement.png)
 
-Rendu :
+↪️ Rendu :
 {% hint style="warning" %}
 Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au captcha, il sera automatiquement expulsé !
 {% endhint %}
@@ -132,7 +139,7 @@ Permet de signaler un danger aux membres pour la fonctionnalité.
 Exemple :\
 ![](.gitbook/assets/repertoire-mep/code_hint_danger.png)
 
-Rendu :
+↪️ Rendu :
 {% hint style="danger" %}
 En retirant la réaction ✅ les membres perdent également le rôle associé.
 {% endhint %}
@@ -143,19 +150,33 @@ Permet de montrer la fin d'une configuration ou bien le succès d'une configurat
 Exemple :\
 ![](.gitbook/assets/repertoire-mep/code_hint_succes.png)
 
-Rendu :
+↪️ Rendu :
 {% hint style="success" %}
 La configuration du module est faite ! Vous aurez désormais accès aux logs de ce module dans le salon défini.
 {% endhint %}
 
 
 
-
+# Commandes
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 - Ne pas afficher le pseudo et la photo de profil de DraftBot ;
 - Supprimer le fond du message (fond Discord) ;
-- Garder l'embed **et** les boutons (ne pas mettre soit l'un soit l'autre).
+- Garder l'embed **et** les boutons (ne pas mettre soit l'un soit l'autre) ;
+- Mettre un texte alternatif avec la capture : `![Texte alternatif](lien capture)`
+
+↪️ Exemple de rendu :\
+![Configuration du captcha](.gitbook/assets/captcha/view.png)
+
+
+
+# Panel
+## Captures
+Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
+> Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
+
+- Ne pas afficher la liste de vos serveurs sur les captures faisant le taille de toute la page ;
+- Ne pas faire de captures qui font la taille d'un mot ou d'une phrase : dézoomer un peu histoire de pouvoir situer correctement l'élément sur la page ;
 - Mettre un texte alternatif avec la capture : `![Texte alternatif](lien capture)`
 
 ↪️ Exemple de rendu :\
