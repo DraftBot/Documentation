@@ -72,7 +72,7 @@ Vous pouvez activer ou désactiver la réaction de mot en haut à droite de la p
 
 ### Ajouter une réaction de mot
 
-Vous pouvez ajouter une réaction de mot en mettant un **émoji** dans la case d'émoji et en mettant le mot concerné dans la case **"Entrez un début de phrase"**. Vous pourrez alors **"Ajouter"** la réaction de mot.
+Vous pouvez ajouter une réaction de mot en mettant un **émoji** dans la case d'émoji et en mettant le mot concerné dans la case "Entrez un début de phrase". Vous pourrez alors "Ajouter" la réaction de mot.
 
 {% hint style="warning" %}
 Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
