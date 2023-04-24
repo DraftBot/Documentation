@@ -67,7 +67,7 @@ Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliq
 
 #### Changer le salon hub
 
-Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il suffit d'appuyer sur le bouton <mark style="color:orange;">Hub (salon)</mark>. Un message vous demandera alors <mark style="color:orange;">[l' identifiant du salon](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
+Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il suffit d'appuyer sur le bouton <mark style="color:orange;">Hub (salon)</mark>. Un message vous demandera alors <mark style="color:orange;">[l'identifiant du salon](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
 
 #### Changer le nom par défaut des salons temporaires
 
