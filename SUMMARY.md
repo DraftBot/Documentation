@@ -42,6 +42,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🧮 Compteur de membres](modules/compteur.md)
 
 ## Autres
 
