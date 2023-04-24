@@ -77,24 +77,25 @@ Syntaxe : `### `\
 Exemple : `### Titre 3`\
 Rendu : ![](.gitbook/assets/repertoire-mep/#%20Titre%203.png)
 
-# Général - DraftBot
+# Général
 
 ## DraftBot
 Pour bien différencier la documentation et mettre en avant DraftBot, mettre son nom au format **gras** tout le temps :
 > `**DraftBot**` ➜ **DraftBot**
+↪️ **DraftBot** vous propose plusieurs systèmes.
 
 ## Premium
 Dès qu'une option est premium, appliquer le format suivant **à la fin de la ligne** :
 > `***(premium ✨)***` ➜ ***(premium ✨)***
+↪️ Pour changer la couleur du log, lors de l'envoi : cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(premium ✨)***
 
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
-```
-{% hint style="warning" %}
+```{% hint style="warning" %}
 **DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
-{% endhint %}
-```
-Exemple de rendu :
+{% endhint %}```
+
+↪️ Exemple de rendu :
 {% hint style="warning" %}
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "*Gérer les messages*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
