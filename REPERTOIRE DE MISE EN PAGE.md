@@ -108,7 +108,7 @@ Ils permettent tous de conseiller les membres. Voici les différentes syntaxes �
 Permet de donner un conseil aux membres pour avoir une meilleure utilisation de DraftBot.
 
 Exemple : 
-```
+```rb
 {% hint style="info" %}
 Conseil
 {% endhint %}
@@ -122,9 +122,11 @@ La configuration du système de captcha n'est pas encore disponible sur le panel
 Permet d'avertir les membres sur une utilisation difficile ou sur un retour en arrière impossible.
 
 Exemple :
-```{% hint style="warning" %}```
+```md
+{% hint style="warning" %}
 Avertissement
-```{% endhint %}```
+{% endhint %}
+```
 Rendu :
 {% hint style="warning" %}
 Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au captcha, il sera automatiquement expulsé !
