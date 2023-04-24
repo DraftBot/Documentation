@@ -29,14 +29,15 @@ Exemple : `~~Texte barré~~`\
 Rendu : ~~Texte barré~~
 
 #### Petit bloc de code
-Syntaxe : `` ``\
-Exemple : ` `Texte dans un petit bloc de code` `\
+Syntaxe : ``Texte``\
+Exemple : ``` `Texte dans un petit bloc de code` ```\
 Rendu : `Texte dans un petit bloc de code`
 
 #### Gros bloc de code
-Syntaxe : ```` ````\
+Syntaxe : ````Texte````\
 Exemple : ` ```Texte dans un gros bloc de code``` `\
-Rendu : ```Texte dans un gros bloc de code```
+Rendu :
+```Texte dans un gros bloc de code```
 
 #### Texte en couleur
 Syntaxe : `<mark style="color:orange;"> </mark>`\
