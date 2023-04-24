@@ -33,7 +33,7 @@ Pour désactiver le système, il suffira de faire la même procédure : le bouto
 
 ### Ajouter des réactions de mots
 
-Pour ajouter une réaction à un mot, il vous suffit de cliquer sur le bouton **"Ajouter"**. Vous obtiendrez alors le message ci-dessous :
+Pour ajouter une réaction à un mot, il vous suffit de cliquer sur le bouton "Ajouter". Vous obtiendrez alors le message ci-dessous :
 
 ![Aperçu du message](../.gitbook/assets/wordreact/question.png)
 
