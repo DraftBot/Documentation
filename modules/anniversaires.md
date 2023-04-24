@@ -6,7 +6,7 @@ description: Avec DraftBot, vous pouvez renseigner votre date d'anniversaire et 
 
 ## Votre anniversaire
 
-Vous pouvez définir votre anniversaire via [le panel de Draftbot](https://www.draftbot.fr) ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
+Vous pouvez définir votre anniversaire via <mark style="color:blue;">[le panel de Draftbot](https://www.draftbot.fr)</mark> ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
 
 ![Exemple de commande d'anniversaire](../.gitbook/assets/birthday/command_review.png)
 
@@ -23,7 +23,7 @@ Attention, pour changer votre date de naissance, il y a un cooldown progressif *
 
 ## Modifier la visibilité de votre anniversaire
 
-Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & <mark style="color:orange;">/anniversaire désactiver</mark> vous pouvez *(par serveur individuel)* activer ou désactiver la visibilité de votre anniversaire.
+Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & <mark style="color:orange;">/anniversaire désactiver</mark>, vous pouvez *(par serveur individuel)* activer ou désactiver la visibilité de votre anniversaire.
 
 ![Message de confirmation de la commande /anniversaire activer](../.gitbook/assets/birthday/birthday_enable.png)
 
@@ -34,7 +34,7 @@ Vous pouvez désactiver la visibilité de votre anniversaire sur tous les serveu
 ## Configuration des anniversaires sur le serveur
 
 {% tabs %}
-{% tab title="Via le /config" %}
+{% tab title="Via la commande /config" %}
 
 Grâce à la commande <mark style="color:orange;">/config \[système:anniversaires]</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
@@ -42,11 +42,9 @@ Avec les boutons présentés ci-dessous, vous pouvez :
 
 ![Aperçu des options du système de configuration via la commande /config](../.gitbook/assets/birthday/birthday_config_button.png)
 
-## Annonces
+## "<mark style="color:blue;">Annonces</mark>"
 
-Vous pouvez accéder à différents paramètres de l'option <mark style="color:orange;">Annonces</mark> en cliquant sur le bouton <mark style="color:orange;">Annonces</mark> :
-
-Grâce à l'option <mark style="color:orange;">Annonces</mark>, vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
+Grâce à l'option "<mark style="color:blue;">Annonces</mark>", vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
@@ -142,7 +140,7 @@ Lorsque l'option est activée, vous avez accès à 5 options de personnalisation
 - Avec la première option <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Avec l'aide de la deuxième option <mark style="color:orange;">Heure d'envoi</mark>, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
 - Grâce à la troisième option <mark style="color:orange;">Mention</mark>, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
-- Pour finir, avec le bouton <mark style="color:orange;">Rôles interdits/autorisés</mark>, vous bloquez/autorisez l'annonce d'un anniversaire à tous les membres qui possède le rôle interdit/autorisé. 
+- Pour finir, avec le bouton <mark style="color:orange;">RÔLES AUTORISES / INTERDITS</mark>, vous autorisez / bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle autorisé / interdit.
 
 {% hint style="info" %}
 N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
@@ -150,10 +148,10 @@ N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour 
 ![Aperçu des boutons interdits/autorisés](../.gitbook/assets/birthday/birthday_config_role_access.png)
 {% endhint %}
 
-- Grâce à la dernière option <mark style="color:orange;">Message</mark>, vous pouvez paramétrer le message d'annonce.
+- Grâce à la dernière option `MESSAGE`, vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
-Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, n'oubliez pas d'utiliser les variables ci-dessous et le markdown de Discord.
+Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, n'oubliez pas d'utiliser les variables ci-dessous et le markdown de Discord.
 
 ![Aperçu des variables diponible pour l'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_config_message_edit.png)
 {% endhint %}
