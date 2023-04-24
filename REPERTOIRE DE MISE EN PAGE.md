@@ -30,32 +30,32 @@ Rendu : ~~Texte barré~~
 
 #### Petit bloc de code
 Syntaxe : `` ``\
-Exemple : ``Texte dans un petit bloc de code``\
+Exemple : ` `Texte dans un petit bloc de code` `\
 Rendu : `Texte dans un petit bloc de code`
 
 #### Gros bloc de code
 Syntaxe : ```` ````\
-Exemple : ````Texte dans un gros bloc de code````\
+Exemple : ` ```Texte dans un gros bloc de code``` `\
 Rendu : ```Texte dans un gros bloc de code```
 
 #### Texte en couleur
 Syntaxe : `<mark style="color:orange;"> </mark>`\
 Exemple : `<mark style="color:orange;">Texte en orange</mark>`\
-Rendu : <mark style="color:orange;">Texte en orange</mark>\
+Rendu : <mark style="color:orange;">Texte en orange</mark>
 > D'autres couleurs sont aussi disponibles.
 
 #### Liens
 ##### Externes
 Syntaxe : `[Texte](lien)`\
 Exemple : `[Site DraftBot](https://draftbot.fr)`\
-Rendu : [Site DraftBot](https://draftbot.fr)\
+Rendu : <mark style="color:blue;">[Site DraftBot](https://draftbot.fr)</mark>
 ##### Internes
 Syntaxe : `[Texte](page.md)`\
 Exemple : `[Guide d'installation](installation.md)`\
-Rendu : [Guide d'installation](installation.md)\
+Rendu : <mark style="color:blue;">[Guide d'installation](installation.md)</mark>
 ##### Ancrés à la page
 Syntaxe : `[Lien ancré](page.md#ancrage)`\
-Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#Liens)`\
-Rendu : [Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#Liens)
+Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)`\
+Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark>
 
 ## Titres
