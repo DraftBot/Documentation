@@ -93,14 +93,14 @@ Dès qu'une option est premium, appliquer le format suivant **à la fin de la li
 
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
-> {% hint style="warning" %}
-`**`DraftBot`**` peut ? uniquement si vous disposez de la permission "`*`Permission`*`" ou que l'un de vos rôles peut utiliser la commande `<mark style="color:orange;">`?`</mark>` sur votre serveur.
+
+{% hint style="warning" %}
+**DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
 {% endhint %}
 
-↪️ Exemple de rendu :
-{% hint style="warning" %}
-**DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "*Gérer les messages*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
-{% endhint %}
+↪️ Exemple de rendu :\
+![](.gitbook/assets/repertoire-mep/code_permissions-n%C3%A9cessaires.png)
+
 
 ## Conseils, avertissements...
 Ils permettent tous de conseiller les membres. Voici les différentes syntaxes à utiliser :
@@ -108,7 +108,7 @@ Ils permettent tous de conseiller les membres. Voici les différentes syntaxes �
 Permet de donner un conseil aux membres pour avoir une meilleure utilisation de DraftBot.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/hint_conseil.png)
+![](.gitbook/assets/repertoire-mep/code_hint_conseil.png)
 
 Rendu :
 {% hint style="info" %}
@@ -119,7 +119,7 @@ La configuration du système de captcha n'est pas encore disponible sur le panel
 Permet d'avertir les membres sur une utilisation difficile ou sur un retour en arrière impossible.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/hint_avertissement.png)
+![](.gitbook/assets/repertoire-mep/code_hint_avertissement.png)
 
 Rendu :
 {% hint style="warning" %}
@@ -130,7 +130,7 @@ Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au
 Permet de signaler un danger aux membres pour la fonctionnalité.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/hint_danger.png)
+![](.gitbook/assets/repertoire-mep/code_hint_danger.png)
 
 Rendu :
 {% hint style="danger" %}
@@ -141,7 +141,7 @@ En retirant la réaction ✅ les membres perdent également le rôle associé.
 Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/hint_succ%C3%A8s.png)
+![](.gitbook/assets/repertoire-mep/code_hint_succes.png)
 
 Rendu :
 {% hint style="success" %}
