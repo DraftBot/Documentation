@@ -36,10 +36,10 @@ Rendu : `Texte dans un petit bloc de code`
 #### Gros bloc de code
 Syntaxe : ` ```Texte``` `\
 Exemple :\
-` ```
-Texte dans un gros bloc de code
+` ```\
+Texte dans un gros bloc de code\
 ``` `\
-Rendu :\
+Rendu :
 ```
 Texte dans un gros bloc de code
 ```
@@ -65,3 +65,11 @@ Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)`\
 Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark>
 
 ## Titres
+Les titres vous permettent de structurer votre texte.
+
+`# Titre 1`
+# Titre 1
+`## Titre 2`
+## Titre 2
+`### Titre 3`
+### Titre 3
