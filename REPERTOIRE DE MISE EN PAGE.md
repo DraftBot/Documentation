@@ -10,9 +10,8 @@ Si un élément ne figure pas dans cette page mais qu'il le devrait, merci de co
 **Comment se retrouver dans cette page ?**\
 La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc très facilement vous repérer dans cette page via le menu à droite. Des détails sur la mise en page de l'élément seront détaillés en-dessous du titre.
 
-# Général
+# Markdown
 
-## Markdown
 #### Gras
 Syntaxe : `** **` ou `__ __`\
 Exemple : `**Texte en gras**`\
@@ -64,12 +63,38 @@ Syntaxe : `[Lien ancré](page.md#ancrage)`\
 Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)`\
 Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark>
 
-## Titres
-Les titres vous permettent de structurer votre texte.
+#### Titres
+Les titres vous permettent de structurer votre texte.\
+Syntaxe : `# `\
+Exemple : `# Titre 1`\
+Rendu : ![](.gitbook/assets/repertoire-mep/#%20Titre%201.png)
 
-`# Titre 1`
-![](.gitbook/assets/repertoire-mep/#%20Titre%201.png)
-`## Titre 2`
-![](.gitbook/assets/repertoire-mep/#%20Titre%202.png)
-`### Titre 3`
-![](.gitbook/assets/repertoire-mep/#%20Titre%203.png)
+Syntaxe : `## `\
+Exemple : `## Titre 2`\
+Rendu : ![](.gitbook/assets/repertoire-mep/#%20Titre%202.png)
+
+Syntaxe : `### `\
+Exemple : `### Titre 3`\
+Rendu : ![](.gitbook/assets/repertoire-mep/#%20Titre%203.png)
+
+# Général - DraftBot
+
+## DraftBot
+Pour bien différencier la documentation et mettre en avant DraftBot, mettre son nom au format **gras** tout le temps :
+> `**DraftBot**` ➜ **DraftBot**
+
+## Premium
+Dès qu'une option est premium, appliquer le format suivant **à la fin de la ligne** :
+> `***(premium ✨)***` ➜ ***(premium ✨)***
+
+## Permissions nécessaires
+Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
+```
+{% hint style="warning" %}
+**DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
+{% endhint %}
+```
+Exemple de rendu :
+{% hint style="warning" %}
+**DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "*Gérer les messages*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
+{% endhint %}
