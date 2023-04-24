@@ -81,21 +81,94 @@ Rendu : ![](.gitbook/assets/repertoire-mep/#%20Titre%203.png)
 
 ## DraftBot
 Pour bien différencier la documentation et mettre en avant DraftBot, mettre son nom au format **gras** tout le temps :
-> `**DraftBot**` ➜ **DraftBot**\
+> `**DraftBot**` ➜ **DraftBot**
+
 ↪️ **DraftBot** vous propose plusieurs systèmes.
 
 ## Premium
 Dès qu'une option est premium, appliquer le format suivant **à la fin de la ligne** :
-> `***(premium ✨)***` ➜ ***(premium ✨)***\
+> `***(premium ✨)***` ➜ ***(premium ✨)***
+
 ↪️ Pour changer la couleur du log, lors de l'envoi : cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(premium ✨)***
 
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
-`{% hint style="warning" %}`\
-`**DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.`\
-`{% endhint %}`
+> {% hint style="warning" %}
+`**`DraftBot`**` peut ? uniquement si vous disposez de la permission "`*`Permission`*`" ou que l'un de vos rôles peut utiliser la commande `<mark style="color:orange;">`?`</mark>` sur votre serveur.
+{% endhint %}
 
 ↪️ Exemple de rendu :
 {% hint style="warning" %}
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "*Gérer les messages*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
+
+## Conseils, avertissements...
+Ils permettent tous de conseiller les membres. Voici les différentes syntaxes à utiliser :
+#### Conseil
+Permet de donner un conseil aux membres pour avoir une meilleure utilisation de DraftBot.
+
+Exemple : 
+```
+{% hint style="info" %}
+Conseil
+{% endhint %}
+```
+Rendu :
+{% hint style="info" %}
+La configuration du système de captcha n'est pas encore disponible sur le panel de **DraftBot**.
+{% endhint %}
+
+#### Avertissement
+Permet d'avertir les membres sur une utilisation difficile ou sur un retour en arrière impossible.
+
+Exemple :
+```
+{% hint style="warning" %}
+Avertissement
+{% endhint %}
+```
+Rendu :
+{% hint style="warning" %}
+Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au captcha, il sera automatiquement expulsé !
+{% endhint %}
+
+#### Danger
+Permet de signaler un danger aux membres pour la fonctionnalité.
+
+Exemple :
+```
+{% hint style="danger" %}
+Danger
+{% endhint %}
+```
+Rendu :
+{% hint style="danger" %}
+En retirant la réaction ✅ les membres perdent également le rôle associé.
+{% endhint %}
+
+#### Succès
+Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
+
+Exemple :
+```
+{% hint style="success" %}
+Succès
+{% endhint %}
+```
+Rendu :
+{% hint style="success" %}
+La configuration du module est faite ! Vous aurez désormais accès aux logs de ce module dans le salon défini.
+{% endhint %}
+
+
+
+
+## Captures
+Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
+- Ne pas afficher le pseudo et la photo de profil de DraftBot ;
+- Supprimer le fond du message (fond Discord) ;
+- Garder l'embed **et** les boutons (ne pas mettre soit l'un soit l'autre).
+- Mettre un texte alternatif avec la capture : `![Texte alternatif](lien capture)`
+
+↪️ Exemple de rendu :
+![Configuration du captcha](.gitbook/assets/captcha/view_arrival.png)
