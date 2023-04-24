@@ -11,13 +11,51 @@ Si un élément ne figure pas dans cette page mais qu'il le devrait, merci de co
 La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc très facilement vous repérer dans cette page via le menu à droite. Des détails sur la mise en page de l'élément seront détaillés en-dessous du titre.
 
 # Général
+
 ## Markdown
+#### Gras
+Syntaxe : `** **` ou `__ __`\
+Exemple : `**Texte en gras**`\
+Rendu : **Texte en gras**
 
-| Style | Syntaxe | Exemple | Rendu |
-|---:---|---:---|---:---|---:---|
-|Gras||||
-|Italique|`* *` ou `_ _`|`*Texte en italique*`|*Texte en italique*|
+#### Italique
+Syntaxe : `* *` ou `_ _`\
+Exemple : `*Texte en italique*`\
+Rendu : *Texte en italique*
 
-<table><thead><tr><td align="center"><td>Style</td><td>Syntaxe</td><td>Exemple</td><td>Rendu</td></tr></thead><tbody><tr><td>Gras</td><td>`** **` ou `__ __`</td><td>`**Texte en gras**`</td><td>**Texte en gras**</td></tr><tr><td>1</td><td>2</td><td>3</td><td>4</td></tr><tr><td>5</td><td>6</td><td>7</td><td>8</td></td></tr></tbody></table>
+#### Barré
+Syntaxe : `~~ ~~`\
+Exemple : `~~Texte barré~~`\
+Rendu : ~~Texte barré~~
 
-# Titres
+#### Petit bloc de code
+Syntaxe : `` ``\
+Exemple : ``Texte dans un petit bloc de code``\
+Rendu : `Texte dans un petit bloc de code`
+
+#### Gros bloc de code
+Syntaxe : ```` ````\
+Exemple : ````Texte dans un gros bloc de code````\
+Rendu : ```Texte dans un gros bloc de code```
+
+#### Texte en couleur
+Syntaxe : `<mark style="color:orange;"> </mark>`\
+Exemple : `<mark style="color:orange;">Texte en orange</mark>`\
+Rendu : <mark style="color:orange;">Texte en orange</mark>\
+> D'autres couleurs sont aussi disponibles.
+
+#### Liens
+##### Externes
+Syntaxe : `[Texte](lien)`\
+Exemple : `[Site DraftBot](https://draftbot.fr)`\
+Rendu : [Site DraftBot](https://draftbot.fr)\
+##### Internes
+Syntaxe : `[Texte](page.md)`\
+Exemple : `[Guide d'installation](installation.md)`\
+Rendu : [Guide d'installation](installation.md)\
+##### Ancrés à la page
+Syntaxe : `[Lien ancré](page.md#ancrage)`\
+Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#Liens)`\
+Rendu : [Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#Liens)
+
+## Titres
