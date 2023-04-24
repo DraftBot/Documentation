@@ -107,12 +107,9 @@ Ils permettent tous de conseiller les membres. Voici les différentes syntaxes �
 ### Conseil
 Permet de donner un conseil aux membres pour avoir une meilleure utilisation de DraftBot.
 
-Exemple : 
-```rb
-{% hint style="info" %}
-Conseil
-{% endhint %}
-```
+Exemple :\
+![](.gitbook/assets/repertoire-mep/hint_conseil.png)
+
 Rendu :
 {% hint style="info" %}
 La configuration du système de captcha n'est pas encore disponible sur le panel de **DraftBot**.
@@ -121,12 +118,9 @@ La configuration du système de captcha n'est pas encore disponible sur le panel
 ### Avertissement
 Permet d'avertir les membres sur une utilisation difficile ou sur un retour en arrière impossible.
 
-Exemple :
-```md
-{% hint style="warning" %}
-Avertissement
-{% endhint %}
-```
+Exemple :\
+![](.gitbook/assets/repertoire-mep/hint_avertissement.png)
+
 Rendu :
 {% hint style="warning" %}
 Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au captcha, il sera automatiquement expulsé !
@@ -135,10 +129,9 @@ Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au
 ### Danger
 Permet de signaler un danger aux membres pour la fonctionnalité.
 
-Exemple :
-`{% hint style="danger" %}`
-`Danger`
-`{% endhint %}`
+Exemple :\
+![](.gitbook/assets/repertoire-mep/hint_danger.png)
+
 Rendu :
 {% hint style="danger" %}
 En retirant la réaction ✅ les membres perdent également le rôle associé.
@@ -147,10 +140,9 @@ En retirant la réaction ✅ les membres perdent également le rôle associé.
 ### Succès
 Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
 
-Exemple :
-```{% hint style="success" %}
-Succès
-{% endhint %}```
+Exemple :\
+![](.gitbook/assets/repertoire-mep/hint_succ%C3%A8s.png)
+
 Rendu :
 {% hint style="success" %}
 La configuration du module est faite ! Vous aurez désormais accès aux logs de ce module dans le salon défini.
