@@ -47,7 +47,7 @@ Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cli
 
 ### Lister les réactions de mots
 
-Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mot. Vous aurez alors une liste avec toutes vos réactions de mots.
+Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mots. Vous aurez alors une liste avec toutes vos réactions de mots.
 
 ### Réinitialiser le système
 
