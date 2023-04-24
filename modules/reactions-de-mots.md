@@ -43,7 +43,7 @@ Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
 
 ### Supprimer des réactions de mots
 
-Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cliquer sur le bouton **"Retirer"**. Un sélecteur s'affichera et vous permettra de choisir la réaction de mots à supprimer.
+Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cliquer sur le bouton "Retirer". Un sélecteur s'affichera et vous permettra de choisir la réaction de mot à supprimer.
 
 ### Lister les réactions de mots
 
