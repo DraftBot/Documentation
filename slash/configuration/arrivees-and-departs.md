@@ -15,7 +15,7 @@ Arrivées & départs ➜ "<mark style="color:blue;">Message de bienvenue</mark>"
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
-"<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message de bienvenue sera envoyé.
+- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message de bienvenue sera envoyé.
 
 - "Message personnalisé" ➜ Définir le message qui sera envoyé dans le message de bienvenue.
 ㅤ
@@ -52,7 +52,7 @@ Votre message doit faire au maximum 1 200 caractères.
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bouton "<mark style="color:red;">Aucune</mark>").
 
-Si vous souhaitez en avoir une personnalisée, vous devez être souscrit à  un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
+Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 
 ㅤ
 ![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration-welcome-color.png)
@@ -74,7 +74,7 @@ Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
 {% tab title="Via le panel" %}
 Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Arrivées & départs.
 
-Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
+Vous devez ensuite activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
 
 ![Activer le système de bienvenue](../../.gitbook/assets/welcome/dashboard-welcome-enable.png)
 
@@ -94,13 +94,13 @@ Arrivées & départs ➜ "<mark style="color:blue;">Message d'au revoir</mark>".
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
-"<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message de bienvenue sera envoyé.
+- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message d'au revoir sera envoyé.
 
 - "Message personnalisé" ➜ Définir le message qui sera envoyé dans le message de bienvenue.
 ㅤ
 <details>
 <summary>Variables</summary>
-Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les messages de bienvenue de DraftBot.
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les messages d'au revoir de DraftBot.
 
 - `{user}` ➜ Mention du membre
 - `{user.id}` ➜ Identifiant du membre
@@ -124,20 +124,20 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 Votre message doit faire au maximum 1 200 caractères.
 {% endhint %}
 ㅤ
-- "Couleur de fond" ➜ Permet de modifier la couleur de fond du message de bienvenue.
+- "Couleur de fond" ➜ Permet de modifier la couleur de fond du message d'au revoir.
 ㅤ
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bouton "<mark style="color:red;">Aucune</mark>"). 
 
-Si vous souhaitez en avoir une personnalisée, vous devez être souscrit à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
+Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 ㅤ
 
 ![Menu configuration couleur de fond](../../.gitbook/assets/welcome/configuration-bye-color.png)
 ㅤ
 {% endhint %}
 ㅤ
-- "Couleur" ➜ Définir la couleur de la barre latérale de votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
-- "Image" ➜ Permet d'ajouter une image de fond à votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Couleur" ➜ Définir la couleur de la barre latérale de votre message d'au revoir. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Image" ➜ Permet d'ajouter une image de fond à votre message d'au revoir. **_([✨ premium](https://draftbot.fr/premium))_**
 ㅤ
 {% hint style="info" %}
 Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
