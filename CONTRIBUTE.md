@@ -174,6 +174,14 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 ↪️ Exemple de rendu :\
 ![Configuration du captcha](.gitbook/assets/captcha/view.png)
 
+## Citer une commande
+- Les commandes de DraftBot doivent être toutes mises en orange avec le slash `/` devant.
+- Les variables des slash commandes doivent être intégrées en fonction de votre configuration sous la forme <mark style="color:orange;">[variable 1][variable 2]</mark>.
+
+> ⚠️ Les slash commandes sont des commandes donc il ne faut pas mettre "le <mark style="color:orange;">/config</mark>" mais "la commande <mark style="color:orange;">/config</mark>.
+ 
+Exemple : `<mark style="color:orange;">/config</mark>`\
+↪️ Rendu : <mark style="color:orange;">/config</mark>
 
 
 # Panel
