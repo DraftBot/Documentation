@@ -168,12 +168,6 @@ Exemple :\
 En retirant la réaction ✅ les membres perdent également le rôle associé.
 {% endhint %}
 
-```\
-{% hint style="danger" %}
-En retirant la réaction ✅ les membres perdent également le rôle associé.
-{% endhint %}\
-```
-
 
 ### Succès
 Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
@@ -201,8 +195,8 @@ Exemple : `<mark style="color:orange;">/config [système]</mark>`\
 
 
 ## Citer un bouton
-Les boutons sont un indispensable des configuration de DraftBot !\
-Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspondat avec le texte du bouton.\
+Les boutons sont un indispensable des configurations de DraftBot !\
+Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspond avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
 
 Exemple : `<mark style="color:blue;">**`Activer`**</mark>`\
@@ -228,10 +222,6 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 Quand une table est mise en place pour la configuration sur le panel ou via la commande /config, il faut toujours rappeler **tout en haut de la table** le lien vers le panel sous cette forme obligatoirement :
 
 Format : `<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>`\
-Format :
-```\
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>\
-```
 ↪️ Rendu : 
 {% tabs %}
 {% tab title="Via la commande /config" %}
@@ -245,6 +235,18 @@ Format :
 {% endtab %}
 {% endtabs %}
 
+
+## Citer un bouton
+Les boutons sont un indispensable sur le panel de configuration de DraftBot !\
+Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspond avec le texte du bouton.\
+Pour citer un bouton, utilisez le format suivant :
+
+Exemple : `<mark style="color:orange;">**`Enregistrer`**</mark>`\
+↪️ Rendu : <mark style="color:orange;">**`Enregistrer`**</mark>\
+↪️ Autres rendus : **`Modifier`** / <mark style="color:orange;">**`Enregistrer`**</mark> / 
+<mark style="color:red;">**`Supprimer`**</mark>
+
+
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 > Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
@@ -255,3 +257,14 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 
 ↪️ Exemple de rendu :\
 ![Configuration du captcha](.gitbook/assets/captcha/view.png)
+
+
+## Enregistrement
+L'enregistrement automatique ne se fait actuellement pas sur le panel. Les membres doivent donc bien penser à enregistrer.\
+Il peut vous être utile à la fin de la table du panel de faire un rappel d'enregistrement.
+
+Si vous souhaitez l'ajouter, utilisez ce format :
+
+Format : `> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.`
+↪️ Rendu : 
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.
