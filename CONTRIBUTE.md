@@ -7,10 +7,10 @@ description: >-
 Cette page a pour objectif d'unifier la mise en page de la documentation. Merci donc de vous y référer dès que vous avez un doute sur la mise en page de quelque chose.\
 Si un élément ne figure pas dans cette page mais qu'il le devrait, merci de contacter DraftMan - Nicolas ou bien Hugo-broc.
 
-**Comment se retrouver dans cette page ?**\
+#### Comment se retrouver dans cette page ?
 La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc très facilement vous repérer dans cette page via le menu à droite. Des détails sur la mise en page de l'élément seront détaillés en-dessous du titre.
 
-**Menu**
+#### Menu
 Tous les points d'attention sont catégorisés dans les 4 catégories ci-dessous :
 - <mark style="color:blue;">[Markdown](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#markdown)</mark> : Le markdown à utiliser sur vos pages de documentation.
 - <mark style="color:blue;">[Général](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark> : La mise en page concernant **et** les commandes permettant de configurer votre serveur sur Discord **et** le panel de DraftBot.
@@ -106,7 +106,7 @@ Dès qu'une option est premium, appliquer le format suivant **à la fin de la li
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
 
-![](.gitbook/assets/repertoire-mep/code_permissions-necessaires.png)
+![Code pour la mise en page des permissions nécessaires](.gitbook/assets/repertoire-mep/code_permissions-necessaires.png)
 
 ↪️ Exemple de rendu :
 {% hint style="warning" %}
@@ -121,7 +121,7 @@ Ils permettent tous de conseiller les membres. Voici les différentes syntaxes �
 Permet de donner un conseil aux membres pour avoir une meilleure utilisation de DraftBot.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/code_hint_conseil.png)
+![Code du conseil](.gitbook/assets/repertoire-mep/code_hint_conseil.png)
 
 ↪️ Rendu :
 {% hint style="info" %}
@@ -132,7 +132,7 @@ La configuration du système de captcha n'est pas encore disponible sur le panel
 Permet d'avertir les membres sur une utilisation difficile ou sur un retour en arrière impossible.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/code_hint_avertissement.png)
+![Code de l'avertissement](.gitbook/assets/repertoire-mep/code_hint_avertissement.png)
 
 ↪️ Rendu :
 {% hint style="warning" %}
@@ -143,7 +143,7 @@ Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au
 Permet de signaler un danger aux membres pour la fonctionnalité.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/code_hint_danger.png)
+![Code du danger](.gitbook/assets/repertoire-mep/code_hint_danger.png)
 
 ↪️ Rendu :
 {% hint style="danger" %}
@@ -154,7 +154,7 @@ En retirant la réaction ✅ les membres perdent également le rôle associé.
 Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
 
 Exemple :\
-![](.gitbook/assets/repertoire-mep/code_hint_succes.png)
+![Code du succès](.gitbook/assets/repertoire-mep/code_hint_succes.png)
 
 ↪️ Rendu :
 {% hint style="success" %}
