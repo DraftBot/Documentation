@@ -3,12 +3,19 @@ description: >-
   Cette page a pour but de créer une page interne à la documentation permettant d'unifier la mise en page de la documentation.
 ---
 
-# ℹ️ Consignes
+# ❕Consignes❕
 Cette page a pour objectif d'unifier la mise en page de la documentation. Merci donc de vous y référer dès que vous avez un doute sur la mise en page de quelque chose.\
 Si un élément ne figure pas dans cette page mais qu'il le devrait, merci de contacter DraftMan - Nicolas ou bien Hugo-broc.
 
 **Comment se retrouver dans cette page ?**\
 La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc très facilement vous repérer dans cette page via le menu à droite. Des détails sur la mise en page de l'élément seront détaillés en-dessous du titre.
+
+**Menu**
+Tous les points d'attention sont catégorisés dans les 4 catégories ci-dessous :
+- <mark style="color:blue;">[Markdown](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#markdown)</mark> : Le markdown à utiliser sur vos pages de documentation.
+- <mark style="color:blue;">[Général](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark> : La mise en page concernant **et** les commandes permettant de configurer votre serveur sur Discord **et** le panel de DraftBot.
+- <mark style="color:blue;">[Commandes](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#commandes)</mark> : La mise en page concernant uniquement les commandes permettant de configurer votre serveur sur Discord.
+- <mark style="color:blue;">[Panel](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#panel)</mark> : La mise en page concernant uniquement le panel de DraftBot.
 
 # Markdown
 
@@ -99,9 +106,9 @@ Dès qu'une option est premium, appliquer le format suivant **à la fin de la li
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
 
-↪️ Exemple de rendu :\
 ![](.gitbook/assets/repertoire-mep/code_permissions-necessaires.png)
 
+↪️ Exemple de rendu :
 {% hint style="warning" %}
 **DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
 {% endhint %}
