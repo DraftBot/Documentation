@@ -10,7 +10,7 @@ description: >-
 Cette page est en train d'être mise à jour...
 {% endhint %}
 
-![](<../../.gitbook/assets/tickets/view.png>)
+![Menu de configuration](../../.gitbook/assets/tickets/ticket-config-menu.png)
 
 ### Catégorie
 
