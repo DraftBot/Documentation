@@ -54,6 +54,7 @@ Rendu : <mark style="color:orange;">Texte en orange</mark>
 Syntaxe : `[Texte](lien)`\
 Exemple : `[Site DraftBot](https://draftbot.fr)`\
 Rendu : <mark style="color:blue;">[Site DraftBot](https://draftbot.fr)</mark>
+
 ##### Internes
 Syntaxe : `[Texte](page.md)`\
 Exemple : `[Guide d'installation](installation.md)`\
@@ -62,6 +63,10 @@ Rendu : <mark style="color:blue;">[Guide d'installation](installation.md)</mark>
 Syntaxe : `[Lien ancré](page.md#ancrage)`\
 Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)`\
 Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark>
+
+{% hint style="info" %}
+Les liens externes, internes et ancrés sont toujours à mettre en <mark style="color:blue;">bleu</mark>. Le orange est exclusivement réservé aux commandes.
+{% endhint %}
 
 #### Titres
 Les titres vous permettent de structurer votre texte.\
@@ -94,14 +99,8 @@ Dès qu'une option est premium, appliquer le format suivant **à la fin de la li
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
 
-{% hint style="warning" %}
-**DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
-{% endhint %}
-
 ↪️ Exemple de rendu :\
 ![](.gitbook/assets/repertoire-mep/code_permissions-necessaires.png)
-
-
 
 {% hint style="warning" %}
 **DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
@@ -176,7 +175,7 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 > Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
 
 - Ne pas afficher la liste de vos serveurs sur les captures faisant le taille de toute la page ;
-- Ne pas faire de captures qui font la taille d'un mot ou d'une phrase : dézoomer un peu histoire de pouvoir situer correctement l'élément sur la page ;
+- Ne pas faire de captures qui font la taille d'un mot ou d'une phrase : dézoomer un peu pour pouvoir situer correctement l'élément sur la page ;
 - Mettre un texte alternatif avec la capture : `![Texte alternatif](lien capture)`
 
 ↪️ Exemple de rendu :\
