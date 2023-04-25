@@ -50,7 +50,7 @@ Votre message doit faire au maximum 1 200 caractères.
 - "Couleur de fond" ➜ Permet de modifier la couleur de fond du message de bienvenue.
 ㅤ
 {% hint style="info" %}
-Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bouton "<mark style="color:red;">Aucune</mark>").
+Vous avez le choix entre trois couleurs ainsi que celle par défaut qui rendra l'image transparente (avec le bouton "<mark style="color:red;">Aucune</mark>").
 
 Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 
