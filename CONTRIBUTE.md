@@ -217,6 +217,23 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 
 
 # Panel
+## Accès au panel
+Quand une table est mise en place pour la configuration sur le panel ou via la commande /config, il faut toujours rappeler **tout en haut de la table** le lien vers le panel sous cette forme obligatoirement :
+
+Format : `<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>`
+↪️ Rendu : 
+{% tabs %}
+{% tab title="Via la commande /config" %}
+*Configuration via la commande /config*
+{% endtab %}
+
+{% tab title="Via le panel" %}
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
+*Configuration via le panel*
+{% endtab %}
+{% endtabs %}
+
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 > Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
