@@ -247,6 +247,11 @@ Exemple : `<mark style="color:orange;">**`Enregistrer`**</mark>`\
 <mark style="color:red;">**`Supprimer`**</mark>
 
 
+<mark style="color:gray;">**`Supprimer`**</mark>
+<mark style="color:dark;">**`Supprimer`**</mark>
+<mark style="color:white;">**`Supprimer`**</mark>
+
+
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 > Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
