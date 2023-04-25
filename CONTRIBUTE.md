@@ -3,12 +3,17 @@ description: >-
   Cette page a pour but de créer une page interne à la documentation permettant d'unifier la mise en page de la documentation.
 ---
 
+
+
+
 # ❕Consignes❕
 Cette page a pour objectif d'unifier la mise en page de la documentation. Merci donc de vous y référer dès que vous avez un doute sur la mise en page de quelque chose.\
 Si un élément ne figure pas dans cette page mais qu'il le devrait, merci de contacter DraftMan - Nicolas ou bien Hugo-broc.
 
+
 #### Comment se retrouver dans cette page ?
 La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc très facilement vous repérer dans cette page via le menu à droite. Des détails sur la mise en page de l'élément seront détaillés en-dessous du titre.
+
 
 #### Menu
 Tous les points d'attention sont catégorisés dans les 4 catégories ci-dessous :
@@ -17,27 +22,33 @@ Tous les points d'attention sont catégorisés dans les 4 catégories ci-dessous
 - <mark style="color:blue;">[Commandes](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#commandes)</mark> : La mise en page concernant uniquement les commandes permettant de configurer votre serveur sur Discord.
 - <mark style="color:blue;">[Panel](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#panel)</mark> : La mise en page concernant uniquement le panel de DraftBot.
 
-# Markdown
 
+
+
+# Markdown
 #### Gras
 Syntaxe : `** **` ou `__ __`\
 Exemple : `**Texte en gras**`\
 Rendu : **Texte en gras**
+
 
 #### Italique
 Syntaxe : `* *` ou `_ _`\
 Exemple : `*Texte en italique*`\
 Rendu : *Texte en italique*
 
+
 #### Barré
 Syntaxe : `~~ ~~`\
 Exemple : `~~Texte barré~~`\
 Rendu : ~~Texte barré~~
 
+
 #### Petit bloc de code
 Syntaxe : ``` `Texte` ```\
 Exemple : ``` `Texte dans un petit bloc de code` ```\
 Rendu : `Texte dans un petit bloc de code`
+
 
 #### Gros bloc de code
 Syntaxe : ` ```Texte``` `\
@@ -50,18 +61,19 @@ Rendu :
 Texte dans un gros bloc de code
 ```
 
+
 #### Texte en couleur
 Syntaxe : `<mark style="color:orange;"> </mark>`\
 Exemple : `<mark style="color:orange;">Texte en orange</mark>`\
 Rendu : <mark style="color:orange;">Texte en orange</mark>
 > D'autres couleurs sont aussi disponibles.
 
+
 #### Liens
 ##### Externes
 Syntaxe : `[Texte](lien)`\
 Exemple : `[Site DraftBot](https://draftbot.fr)`\
 Rendu : <mark style="color:blue;">[Site DraftBot](https://draftbot.fr)</mark>
-
 ##### Internes
 Syntaxe : `[Texte](page.md)`\
 Exemple : `[Guide d'installation](installation.md)`\
@@ -74,6 +86,7 @@ Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE
 {% hint style="info" %}
 Les liens externes, internes et ancrés sont toujours à mettre en <mark style="color:blue;">bleu</mark>. Le orange est exclusivement réservé aux commandes.
 {% endhint %}
+
 
 #### Titres
 Les titres vous permettent de structurer votre texte.\
@@ -89,19 +102,23 @@ Syntaxe : `### `\
 Exemple : `### Titre 3`\
 Rendu : ![](.gitbook/assets/repertoire-mep/Titre3.png)
 
-# Général
 
+
+
+# Général
 ## DraftBot
 Pour bien différencier la documentation et mettre en avant DraftBot, mettre son nom au format **gras** tout le temps :
 > `**DraftBot**` ➜ **DraftBot**
 
 ↪️ **DraftBot** vous propose plusieurs systèmes.
 
+
 ## Premium
 Dès qu'une option est premium, appliquer le format suivant **à la fin de la ligne** :
 > `***(premium ✨)***` ➜ ***(premium ✨)***
 
 ↪️ Pour changer la couleur du log, lors de l'envoi : cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(premium ✨)***
+
 
 ## Permissions nécessaires
 Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action, utiliser le format avec avertissement :
@@ -112,7 +129,6 @@ Quand une ou des permissions sont nécessaires pour pouvoir effectuer une action
 {% hint style="warning" %}
 **DraftBot** peut ? uniquement si vous disposez de la permission "*Permission*" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">?</mark> sur votre serveur.
 {% endhint %}
-
 
 
 ## Conseils, avertissements...
@@ -128,6 +144,7 @@ Exemple :\
 La configuration du système de captcha n'est pas encore disponible sur le panel de **DraftBot**.
 {% endhint %}
 
+
 ### Avertissement
 Permet d'avertir les membres sur une utilisation difficile ou sur un retour en arrière impossible.
 
@@ -139,6 +156,7 @@ Exemple :\
 Si le membre ne répond pas bout de 2 minutes ou qu'il échoue plus de 3 fois au captcha, il sera automatiquement expulsé !
 {% endhint %}
 
+
 ### Danger
 Permet de signaler un danger aux membres pour la fonctionnalité.
 
@@ -149,6 +167,7 @@ Exemple :\
 {% hint style="danger" %}
 En retirant la réaction ✅ les membres perdent également le rôle associé.
 {% endhint %}
+
 
 ### Succès
 Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
@@ -163,7 +182,27 @@ La configuration du module est faite ! Vous aurez désormais accès aux logs de 
 
 
 
+
 # Commandes
+## Citer une commande
+- Les commandes de DraftBot doivent être toutes mises en orange avec le slash `/` devant.
+- Les variables des slash commandes doivent être intégrées en fonction de votre configuration sous la forme <mark style="color:orange;">[variable 1][variable 2]</mark>.
+
+> ⚠️ Les slash commandes sont des commandes donc il ne faut pas mettre "le <mark style="color:orange;">/config</mark>" mais "la commande <mark style="color:orange;">/config</mark>".
+ 
+Exemple : `<mark style="color:orange;">/config [système]</mark>`\
+↪️ Rendu : <mark style="color:orange;">/config [système]</mark>
+
+
+# Citer un bouton
+Les boutons sont un indispensable des configuration de DraftBot !\
+Si un bouton est en couleur, remettre la couleur qui correspondat avec le texte du bouton.\
+Pour citer un bouton, utilisez le format suivant :
+
+Exemple : `<mark style="color:blue;">`Activer`</mark>`
+↪️ Rendu : <mark style="color:blue;">`Activer`</mark>
+
+
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 - Ne pas afficher le pseudo et la photo de profil de DraftBot ;
@@ -174,14 +213,7 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 ↪️ Exemple de rendu :\
 ![Configuration du captcha](.gitbook/assets/captcha/view.png)
 
-## Citer une commande
-- Les commandes de DraftBot doivent être toutes mises en orange avec le slash `/` devant.
-- Les variables des slash commandes doivent être intégrées en fonction de votre configuration sous la forme <mark style="color:orange;">[variable 1][variable 2]</mark>.
 
-> ⚠️ Les slash commandes sont des commandes donc il ne faut pas mettre "le <mark style="color:orange;">/config</mark>" mais "la commande <mark style="color:orange;">/config</mark>.
- 
-Exemple : `<mark style="color:orange;">/config</mark>`\
-↪️ Rendu : <mark style="color:orange;">/config</mark>
 
 
 # Panel
