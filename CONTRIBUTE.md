@@ -253,8 +253,8 @@ Pour mieux situer un paramètre du panel, vous pouvez citer le nom de l'option.
 Exemple : ``\
 ↪️ Rendu : 
 
-<mark style="color:black;background-color:white;">colored text</mark>, \
-<mark style="color:white;background-color:dark;">colored text</mark>, \
+<mark style="background-color:black;">colored text</mark>, \
+<mark style="background-color:blue;">colored text</mark>, \
 
 
 ## Captures
