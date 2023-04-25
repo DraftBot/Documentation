@@ -247,9 +247,14 @@ Exemple : `<mark style="color:orange;">**`Enregistrer`**</mark>`\
 <mark style="color:red;">**`Supprimer`**</mark>
 
 
-<mark style="color:gray;">**`Supprimer`**</mark>
-<mark style="color:dark;">**`Supprimer`**</mark>
-<mark style="color:white;">**`Supprimer`**</mark>
+## Citer une option
+Pour mieux situer un paramètre du panel, vous pouvez citer le nom de l'option.
+
+Exemple : ``
+↪️ Rendu : 
+
+<mark style="color:red;background-color:green;">colored text</mark>, \
+<mark style="color:white;background-color:dark;">colored text</mark>, \
 
 
 ## Captures
