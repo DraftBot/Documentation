@@ -194,14 +194,15 @@ Exemple : `<mark style="color:orange;">/config [système]</mark>`\
 ↪️ Rendu : <mark style="color:orange;">/config [système]</mark>
 
 
-## Citer un bouton
+# Citer un bouton
 Les boutons sont un indispensable des configuration de DraftBot !\
-Si un bouton est en couleur, remettre la couleur qui correspondat avec le texte du bouton.\
+Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspondat avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
 
 Exemple : `<mark style="color:blue;">**`Activer`**</mark>`\
-↪️ Rendu : <mark style="color:blue;">**`Activer`**</mark>
-
+↪️ Rendu : <mark style="color:blue;">**`Activer`**</mark>\
+↪️ Autres rendus : **`Salon`** / <mark style="color:blue;">**`Activer`**</mark> / 
+<mark style="color:green;">**`Système activé`**</mark> / <mark style="color:red;">**`Réinitialiser`**</mark>
 
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
@@ -220,10 +221,7 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 ## Accès au panel
 Quand une table est mise en place pour la configuration sur le panel ou via la commande /config, il faut toujours rappeler **tout en haut de la table** le lien vers le panel sous cette forme obligatoirement :
 
-Format :
-```
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-```
+Format : `<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>`
 ↪️ Rendu : 
 {% tabs %}
 {% tab title="Via la commande /config" %}
