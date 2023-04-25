@@ -17,10 +17,10 @@ La mise en page de chaque élément se trouve sous un titre. Vous pouvez donc tr
 
 #### Menu
 Tous les points d'attention sont catégorisés dans les 4 catégories ci-dessous :
-- <mark style="color:blue;">[Markdown](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#markdown)</mark> : Le markdown à utiliser sur vos pages de documentation.
-- <mark style="color:blue;">[Général](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark> : La mise en page concernant **et** les commandes permettant de configurer votre serveur sur Discord **et** le panel de DraftBot.
-- <mark style="color:blue;">[Commandes](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#commandes)</mark> : La mise en page concernant uniquement les commandes permettant de configurer votre serveur sur Discord.
-- <mark style="color:blue;">[Panel](/REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#panel)</mark> : La mise en page concernant uniquement le panel de DraftBot.
+- <mark style="color:blue;">[Markdown](/CONTRIBUTE.md#markdown)</mark> : Le markdown à utiliser sur vos pages de documentation.
+- <mark style="color:blue;">[Général](/CONTRIBUTE.md#general)</mark> : La mise en page concernant **et** les commandes permettant de configurer votre serveur sur Discord **et** le panel de DraftBot.
+- <mark style="color:blue;">[Commandes](/CONTRIBUTE.md#commandes)</mark> : La mise en page concernant uniquement les commandes permettant de configurer votre serveur sur Discord.
+- <mark style="color:blue;">[Panel](/CONTRIBUTE.md#panel)</mark> : La mise en page concernant uniquement le panel de DraftBot.
 
 
 
@@ -80,8 +80,8 @@ Exemple : `[Guide d'installation](installation.md)`\
 Rendu : <mark style="color:blue;">[Guide d'installation](installation.md)</mark>
 ##### Ancrés à la page
 Syntaxe : `[Lien ancré](page.md#ancrage)`\
-Exemple: `[Liens](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)`\
-Rendu : <mark style="color:blue;">[Général](REPERTOIRE%20DE%20MISE%20EN%20PAGE.md#general)</mark>
+Exemple: `[Liens](CONTRIBUTE.md#general)`\
+Rendu : <mark style="color:blue;">[Général](CONTRIBUTE.md#general)</mark>
 
 {% hint style="info" %}
 Les liens externes, internes et ancrés sont toujours à mettre en <mark style="color:blue;">bleu</mark>. Le orange est exclusivement réservé aux commandes.
@@ -168,6 +168,12 @@ Exemple :\
 En retirant la réaction ✅ les membres perdent également le rôle associé.
 {% endhint %}
 
+```\
+{% hint style="danger" %}
+En retirant la réaction ✅ les membres perdent également le rôle associé.
+{% endhint %}\
+```
+
 
 ### Succès
 Permet de montrer la fin d'une configuration ou bien le succès d'une configuration.
@@ -194,7 +200,7 @@ Exemple : `<mark style="color:orange;">/config [système]</mark>`\
 ↪️ Rendu : <mark style="color:orange;">/config [système]</mark>
 
 
-# Citer un bouton
+## Citer un bouton
 Les boutons sont un indispensable des configuration de DraftBot !\
 Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspondat avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
@@ -221,7 +227,11 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 ## Accès au panel
 Quand une table est mise en place pour la configuration sur le panel ou via la commande /config, il faut toujours rappeler **tout en haut de la table** le lien vers le panel sous cette forme obligatoirement :
 
-Format : `<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>`
+Format : `<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>`\
+Format :
+```\
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>\
+```
 ↪️ Rendu : 
 {% tabs %}
 {% tab title="Via la commande /config" %}
