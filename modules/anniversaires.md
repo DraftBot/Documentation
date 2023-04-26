@@ -156,9 +156,12 @@ Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivant
 
 ## Message d'annonce
 
-Premièrement, par défaut cette option est désactivée, vous devrez donc l'activer dans la section anniversaire du <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/user)</mark> :
+{% hint style="info" %}
+
+Par défaut cette option est désactivée. Vous devrez donc l'activer dans la catégorie "Anniversaire".
 
 ![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
+{% endhint %}
 
 Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous se trouve des descriptions des options personnalisables.
 
@@ -170,8 +173,7 @@ Lorsque l'option est activée, vous avez accès à 5 options de personnalisation
 {% hint style="info" %}
 N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
 
-![Aperçu des boutons interdits/autorisés](../.gitbook/assets/birthday/birthday_config_role_access.png)
-{% endhint %}
+![Aperçu des boutons autorisés / interdits](../.gitbook/assets/birthday/birthday_config_role_access.png)
 
 - Grâce à la dernière option "Message", vous pouvez paramétrer le message d'annonce.
 
