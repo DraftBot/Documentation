@@ -248,7 +248,7 @@ Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-c
 Pour citer un bouton, utilisez le format suivant :
 
 Exemple : 
-```\
+```
 <mark style="color:orange;">**`Enregistrer`**</mark>\
 ```
 ↪️ Rendu : <mark style="color:orange;">**`Enregistrer`**</mark>\
@@ -263,13 +263,14 @@ Exemple : ``\
 ↪️ Rendu : 
 
 <mark style="background-color:blue;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
-<mark style="background-color:white;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
-<mark style="background-color:normal;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
-<mark style="background-color:black;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
 <mark style="background-color:blue;">**Salon des messages de bienvenue**</mark>, \
-<mark style="background-color:white;">**Salon des messages de bienvenue**</mark>, \
-<mark style="background-color:normal;">**Salon des messages de bienvenue**</mark>, \
-<mark style="background-color:black;">**Salon des messages de bienvenue**</mark>,
+<mark style="background-color:blue;">SALON DES MESSAGES DE BIENVENUE</mark>, \
+<mark style="background-color:blue;">Salon des messages de bienvenue</mark>, \
+<mark style="background-color:blue;">**`SALON DES MESSAGES DE BIENVENUE`**</mark>, \
+<mark style="background-color:blue;">**`Salon des messages de bienvenue`**</mark>,\
+<mark style="background-color:blue;">`SALON DES MESSAGES DE BIENVENUE`</mark>, \
+<mark style="background-color:blue;">`Salon des messages de bienvenue`</mark>,
+
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 > Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
