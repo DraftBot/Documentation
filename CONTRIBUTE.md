@@ -199,7 +199,10 @@ Les boutons sont un indispensable des configurations de DraftBot !\
 Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspond avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
 
-Exemple : `<mark style="color:blue;">**`Activer`**</mark>`\
+Exemple : 
+```\
+<mark style="color:blue;">**`Activer`**</mark>\
+```
 ↪️ Rendu : <mark style="color:blue;">**`Activer`**</mark>\
 ↪️ Autres rendus : **`Salon`** / <mark style="color:blue;">**`Activer`**</mark> / 
 <mark style="color:green;">**`Système activé`**</mark> / <mark style="color:red;">**`Réinitialiser`**</mark>
@@ -221,7 +224,10 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 ## Accès au panel
 Quand une table est mise en place pour la configuration sur le panel ou via la commande /config, il faut toujours rappeler **tout en haut de la table** le lien vers le panel sous cette forme obligatoirement :
 
-Format : `<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>`\
+Format : 
+```\
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>\
+```
 ↪️ Rendu : 
 {% tabs %}
 {% tab title="Via la commande /config" %}
@@ -241,7 +247,10 @@ Les boutons sont un indispensable sur le panel de configuration de DraftBot !\
 Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspond avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
 
-Exemple : `<mark style="color:orange;">**`Enregistrer`**</mark>`\
+Exemple : 
+```\
+<mark style="color:orange;">**`Enregistrer`**</mark>\
+```
 ↪️ Rendu : <mark style="color:orange;">**`Enregistrer`**</mark>\
 ↪️ Autres rendus : **`Modifier`** / <mark style="color:orange;">**`Enregistrer`**</mark> / 
 <mark style="color:red;">**`Supprimer`**</mark>
@@ -253,10 +262,14 @@ Pour mieux situer un paramètre du panel, vous pouvez citer le nom de l'option.
 Exemple : ``\
 ↪️ Rendu : 
 
-<mark style="background-color:black;">colored text</mark>, \
-<mark style="background-color:blue;">colored text</mark>, \
-
-
+<mark style="background-color:blue;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
+<mark style="background-color:white;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
+<mark style="background-color:normal;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
+<mark style="background-color:black;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
+<mark style="background-color:blue;">**Salon des messages de bienvenue**</mark>, \
+<mark style="background-color:white;">**Salon des messages de bienvenue**</mark>, \
+<mark style="background-color:normal;">**Salon des messages de bienvenue**</mark>, \
+<mark style="background-color:black;">**Salon des messages de bienvenue**</mark>,
 ## Captures
 Les captures permettent d'illustrer vos propos. Un certain format est à respecter :
 > Avoir de préférence un serveur "DraftBot Support" avec la photo de profil de DraftBot pour les captures du panel.
@@ -275,6 +288,9 @@ Il peut vous être utile à la fin de la table du panel de faire un rappel d'enr
 
 Si vous souhaitez l'ajouter, utilisez ce format :
 
-Format : `> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.`
+Format : 
+```\
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.\
+```
 ↪️ Rendu : 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.
