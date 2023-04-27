@@ -40,7 +40,7 @@ Grâce à la commande <mark style="color:orange;">/config \[système:anniversair
 
 Avec les boutons présentés ci-dessous, vous pouvez :
 
-![Aperçu des options du système de configuration via la commande /config](../.gitbook/assets/birthday/birthday_config_button.png)
+![Aperçu des options de personnalisation du système d'anniversaire via la commande /config](../.gitbook/assets/birthday/birthday_config_button.png)
 
 ## <mark style="color:blue;">"Annonces"</mark>
 
@@ -60,28 +60,24 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 
 <summary>Variables disponibles</summary>
 Membre :
-`{​user}` ➜ Mention du membre
-`{​user.id}` ➜ Identifiant du membre
-`{​user.tag}` ➜ Tag du membre (Pseudo#0000)
-`{​user.username}` ➜ Pseudo du membre
-`{​user.nickname}` ➜ Surnom ou pseudo du membre
-
-`{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
-
+- `{​user}` ➜ Mention du membre
+- `{​user.id}` ➜ Identifiant du membre
+- `{​user.tag}` ➜ Tag du membre (Pseudo#0000)
+- `{​user.username}` ➜ Pseudo du membre
+- `{​user.nickname}` ➜ Surnom ou pseudo du membre
+- `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
 Serveur :
-`{​server}` ou `{​server.name}` ➜ Nom du serveur
-`{​server.id}` ➜ Identifiant du serveur
-`{​server.membercount}` ➜ Nombre de membres sur le serveur
-
+- `{​server}` ou `{​server.name}` ➜ Nom du serveur
+- `{​server.id}` ➜ Identifiant du serveur
+- `{​server.membercount}` ➜ Nombre de membres sur le serveur
 Salon  :
-`{​channel}` ➜ Mentions du salon
-`{​channel.id}` ➜ Identifiant du salon
-`{​channel.name}` ➜ Nom du salon
-
+- `{​channel}` ➜ Mentions du salon
+- `{​channel.id}` ➜ Identifiant du salon
+- `{​channel.name}` ➜ Nom du salon
 Temps :
-`{​date}` ➜ Date actuelle (JJ/MM/AAAA)
-`{​time}` ➜ Heure actuelle (HH:MM)
-`{​timestamp}` ➜ Timestamp actuel en secondes
+- `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{​time}` ➜ Heure actuelle (HH:MM)
+- `{​timestamp}` ➜ Timestamp actuel en secondes
 </details>
 {% endhint %}
 
@@ -119,20 +115,20 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 {% endhint %}
     
 - Avec la deuxième option du menu déroulant "Argent", vous permet de donner de l'argent au membre qui fêtera son anniversaire.
-- Grâce à la troisième option "Objet", vous pouvez donner un objet d'inventaire à la personne qui fête son anniversaire. 
-- La dernière option "Cadeaux personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message
+- Grâce à la troisième option "Objet", vous pouvez donner un [objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire) à la personne qui fête son anniversaire.  
+- La dernière option "Cadeaux personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 
 *Avec les deux boutons restant du menu des <mark style="color:blue;">"Cadeaux"</mark>, vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
 
-- À l'aide du deuxième bouton "Modifier", vous pouvez modifier les options préalablement enregistrées.
+- À l'aide du deuxième bouton "Modifier", vous pouvez modifier les options préalablement configurées.
 - Troisième et finalement avec le bouton "Suprimer", vous pouvez réinitialiser l'entièreté du système de "Cadeaux".
 
 ## <mark style="color:blue;">"Annonces personnalisées *(Avantage premium 💎)*"</mark>
 
-![Aperçu des options du menu des annnonces personnalisées](../.gitbook/assets/birthday/birthday_config_special_annoucement.png)
+![Aperçu des options du menu de configuration des annonces personnalisées](../.gitbook/assets/birthday/birthday_config_special_annoucement.png)
 
-- Premièrement, avec le bouton "Créer", vous pouvez accéder à deux options.
+- Premièrement, avec le bouton "Créer", vous pouvez accéder à deux options :
 
 ![Options disponibles pour la création d'une annonce personnalisée](../.gitbook/assets/birthday/birthday_config_premium_options.png)
 
@@ -149,7 +145,7 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 
 {% tab title="Depuis le panel" %}
 
-Grâce au <mark style="color:blue;">[panel de draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
+Grâce au <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
 *Avec les boutons présentés ci-dessous, vous pouvez :*
 Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Message d'annonce</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
@@ -163,7 +159,7 @@ Par défaut cette option est désactivée. Vous devrez donc l'activer dans la ca
 ![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
 {% endhint %}
 
-Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous se trouve des descriptions des options personnalisables.
+Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous se trouvent des descriptions concernant les options personnalisables.
 
 - Avec la première option <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Avec l'aide de la deuxième option <mark style="color:orange;">Heure d'envoi</mark>, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
@@ -186,27 +182,25 @@ Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir e
 <summary>Variables disponibles</summary>
 Membre :
 `{​user}` ➜ Mention du membre
-`{​user.id}` ➜ Identifiant du membre
-`{​user.tag}` ➜ Tag du membre (Pseudo#0000)
-`{​user.username}` ➜ Pseudo du membre
-`{​user.nickname}` ➜ Surnom ou pseudo du membre
-
-`{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
-
+Membre :
+- `{​user}` ➜ Mention du membre
+- `{​user.id}` ➜ Identifiant du membre
+- `{​user.tag}` ➜ Tag du membre (Pseudo#0000)
+- `{​user.username}` ➜ Pseudo du membre
+- `{​user.nickname}` ➜ Surnom ou pseudo du membre
+- `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
 Serveur :
-`{​server}` ou `{​server.name}` ➜ Nom du serveur
-`{​server.id}` ➜ Identifiant du serveur
-`{​server.membercount}` ➜ Nombre de membres sur le serveur
-
+- `{​server}` ou `{​server.name}` ➜ Nom du serveur
+- `{​server.id}` ➜ Identifiant du serveur
+- `{​server.membercount}` ➜ Nombre de membres sur le serveur
 Salon  :
-`{​channel}` ➜ Mentions du salon
-`{​channel.id}` ➜ Identifiant du salon
-`{​channel.name}` ➜ Nom du salon
-
+- `{​channel}` ➜ Mentions du salon
+- `{​channel.id}` ➜ Identifiant du salon
+- `{​channel.name}` ➜ Nom du salon
 Temps :
-`{​date}` ➜ Date actuelle (JJ/MM/AAAA)
-`{​time}` ➜ Heure actuelle (HH:MM)
-`{​timestamp}` ➜ Timestamp actuel en secondes
+- `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{​time}` ➜ Heure actuelle (HH:MM)
+- `{​timestamp}` ➜ Timestamp actuel en secondes
 </details>
 {% endhint %}
 
