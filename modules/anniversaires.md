@@ -156,9 +156,9 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 Grâce au <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
 *Avec les boutons présentés ci-dessous, vous pouvez :*
-Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:orange;">Message d'annonce</mark>, <mark style="color:orange;">Rôle temporaire</mark>, <mark style="color:orange;">Cadeaux d'anniversaire</mark> et <mark style="color:orange;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
+Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:blue;">Message d'annonce</mark>, <mark style="color:blue;">Rôle temporaire</mark>, <mark style="color:blue;">Cadeaux d'anniversaire</mark> et <mark style="color:blue;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
 
-## Message d'annonce
+## <mark style="color:blue;">Message d'annonce</mark>
 
 {% hint style="info" %}
 
@@ -169,10 +169,10 @@ Par défaut cette option est désactivée. Vous devrez donc l'activer dans la ca
 
 Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous se trouvent des descriptions concernant les options personnalisables.
 
-- Avec la première option <mark style="color:orange;">Salon</mark>, vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
-- Avec l'aide de la deuxième option <mark style="color:orange;">Heure d'envoi</mark>, vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
-- Grâce à la troisième option <mark style="color:orange;">Mention</mark>, vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
-- Pour finir, avec le bouton <mark style="color:orange;">RÔLES AUTORISES / INTERDITS</mark>, vous autorisez / bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle autorisé / interdit.
+- Avec la première option "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
+- Avec l'aide de la deuxième option "Heure d'envoi", vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
+- Grâce à la troisième option "Mention", vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
+- Pour finir, avec le bouton "Rôles autorisés / interdits", vous autorisez / bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle autorisé / interdit.
 
 {% hint style="info" %}
 N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
@@ -218,16 +218,16 @@ Temps :
 </details>
 {% endhint %}
 
-## Rôle temporaire
+## <mark style="color:blue;">"Rôle temporaire"</mark>
 
 Avec l'option <mark style="color:blue;">"Rôle temporaire"</mark>, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
 
 - Grâce à l'option "Rôle temporaire", vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
 - Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisés/interdit.
 
-## Cadeaux d'anniversaire
+## <mark style="color:blue;">"Cadeaux d'anniversaire"</mark>
 WORK IN PROGESS
-## Annonces personnalisées *(Avantage premium 💎)*
+## <mark style="color:blue;">"Annonces personnalisées *(Avantage premium 💎)*"</mark>
 WORK IN PROGESS
 {% endtab %}
 {% endtabs %}
