@@ -100,7 +100,7 @@ Avec l'option <mark style="color:blue;">"Rôle"</mark>, vous pouvez gérer le fa
 ![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
 
 - Grâce au bouton "Rôle", vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
-- Avec le bouton "Rôles interdits", vous pouvez désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle interdit.
+- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisés/interdit.
 
 ## <mark style="color:blue;">"Cadeaux"</mark>
 
@@ -143,7 +143,7 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 - Avec l'option "Un seul membre", vous pouvez créer une annonce personnalisée lors de l'anniversaire de ce membre uniquement.
 - À l'aide de l'option "Membres ayant un rôle", vous pouvez créer une annonce personnalisée lors de l'anniversaire de tous les membres qui posséderont le rôle.
 
-*Avec les deux boutons restant du menu des <mark style="color:blue;">"Annonces personnalisées</mark>, vous pouvez supprimer et réinitialiser les paramètres enregistrés avec l'aide du premier bouton :*
+*Avec les deux boutons restant du menu des <mark style="color:blue;">"Annonces personnalisées"</mark>, vous pouvez supprimer et réinitialiser les paramètres enregistrés avec l'aide du premier bouton :*
 
 - Avec le bouton "Supprimer", vous pouvez supprimer une annonce personnalisée que vous aurez créée auparavant.
 - Grâce au bouton "Réinitialiser", vous pouvez réinitialiser l'entièreté du système d'<mark style="color:blue;">"Annonces personnalisées"</mark>.
@@ -219,7 +219,12 @@ Temps :
 {% endhint %}
 
 ## Rôle temporaire
-WORK IN PROGESS
+
+Avec l'option <mark style="color:blue;">"Rôle temporaire"</mark>, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
+
+- Grâce à l'option "Rôle temporaire", vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
+- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisés/interdit.
+
 ## Cadeaux d'anniversaire
 WORK IN PROGESS
 ## Annonces personnalisées *(Avantage premium 💎)*
