@@ -59,22 +59,30 @@ Lorsque vous voulez paramètre le message d'anniversaire, vous pouvez choisir en
 <details>
 
 <summary>Variables disponibles</summary>
+
 Membre :
+
 - `{​user}` ➜ Mention du membre
 - `{​user.id}` ➜ Identifiant du membre
 - `{​user.tag}` ➜ Tag du membre (Pseudo#0000)
 - `{​user.username}` ➜ Pseudo du membre
 - `{​user.nickname}` ➜ Surnom ou pseudo du membre
 - `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
+
 Serveur :
+
 - `{​server}` ou `{​server.name}` ➜ Nom du serveur
 - `{​server.id}` ➜ Identifiant du serveur
 - `{​server.membercount}` ➜ Nombre de membres sur le serveur
+
 Salon  :
+
 - `{​channel}` ➜ Mentions du salon
 - `{​channel.id}` ➜ Identifiant du salon
 - `{​channel.name}` ➜ Nom du salon
+
 Temps :
+
 - `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
 - `{​time}` ➜ Heure actuelle (HH:MM)
 - `{​timestamp}` ➜ Timestamp actuel en secondes
@@ -180,24 +188,30 @@ Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir e
 <details>
 
 <summary>Variables disponibles</summary>
+
 Membre :
-`{​user}` ➜ Mention du membre
-Membre :
+
 - `{​user}` ➜ Mention du membre
 - `{​user.id}` ➜ Identifiant du membre
 - `{​user.tag}` ➜ Tag du membre (Pseudo#0000)
 - `{​user.username}` ➜ Pseudo du membre
 - `{​user.nickname}` ➜ Surnom ou pseudo du membre
 - `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
+
 Serveur :
+
 - `{​server}` ou `{​server.name}` ➜ Nom du serveur
 - `{​server.id}` ➜ Identifiant du serveur
 - `{​server.membercount}` ➜ Nombre de membres sur le serveur
+
 Salon  :
+
 - `{​channel}` ➜ Mentions du salon
 - `{​channel.id}` ➜ Identifiant du salon
 - `{​channel.name}` ➜ Nom du salon
+
 Temps :
+
 - `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
 - `{​time}` ➜ Heure actuelle (HH:MM)
 - `{​timestamp}` ➜ Timestamp actuel en secondes
