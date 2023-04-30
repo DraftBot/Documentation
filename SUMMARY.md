@@ -34,7 +34,7 @@
 
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
-- [👋 Arrivées & départs](modules/arrivees-and-departs.md)
+- [👋 Arrivées & départs](modules/arrivees-et-departs.md)
 - [📉 Niveaux](modules/niveaux.md)
 - [💰 Économie](modules/economie.md)
 - [🔨 Modération](modules/moderation.md)
