@@ -44,7 +44,6 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 {% hint style="warning" %}
 Votre message doit faire au maximum 1 200 caractères.
 {% endhint %}
-
 ㅤ
 - "Mentionner le membre" ➜ Une fois cette option activée, le membre sera mentionné dans le message de bienvenue.
 - "Couleur de fond" ➜ Permet de modifier la couleur de fond du message de bienvenue.
@@ -56,7 +55,6 @@ Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un a
 
 ㅤ
 ![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration-welcome-color.png)
-
 ㅤ
 {% endhint %}
 ㅤ
@@ -67,7 +65,6 @@ Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un a
 Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
 {% endhint %}
 ㅤ
-
 ![Menu de configuration du système de bienvenue](../../.gitbook/assets/welcome/configuration-welcome.png)
 ㅤ
 {% endtab %}
@@ -131,7 +128,6 @@ Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bou
 
 Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
 ㅤ
-
 ![Menu configuration couleur de fond](../../.gitbook/assets/welcome/configuration-bye-color.png)
 ㅤ
 {% endhint %}
