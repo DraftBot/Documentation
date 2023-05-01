@@ -19,6 +19,10 @@ Vous avez aussi 2 options à votre disposition :
 **DraftBot** peut supprimer des messages uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
+{% hint style="warning" %}
+**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer messages \[nombre]</mark>. uniquement si les message datent d'il y a moins de **14** jours. Cependant la commande <mark style="color: #cd6e57;">/effacer channel</mark> peut le faire.
+{% endhint %}
+
 ### Supprimer tous les messages d'un salon
 
 #### :warning: Attention, cette action est <mark style="color:red;">**irréversible**</mark> !
@@ -39,6 +43,10 @@ Si vous avez une discussion indésirable sur votre serveur, nul besoin de suppri
 
 {% hint style="warning" %}
 **DraftBot** peut supprimer une conversation uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
+{% endhint %}
+
+{% hint style="warning" %}
+**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer conversation \[premier\_message] \[dernier\_message]</mark> uniquement si les message datent d'il y a moins de **14** jours. Cependant la commande <mark style="color: #cd6e57;">/effacer channel</mark> peut le faire.
 {% endhint %}
 
 ### Copier un ou des messages
