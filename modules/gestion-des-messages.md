@@ -27,7 +27,7 @@ Vous avez aussi 2 options à votre disposition :
 
 #### :warning: Attention, cette action est <mark style="color:red;">**irréversible**</mark> !
 
-La méthode pour supprimer tous les messages d'un salon est de supprimer le salon pour recréer exactement le même avec les mêmes permissions, nom, description... mais sans les messages, ni les fils.
+La méthode pour supprimer tous les messages d'un salon est de supprimer le salon pour recréer exactement le même avec les mêmes permissions, nom, description... mais sans les messages, ni les fils de discussions.
 
 Pour faire cela, vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/effacer channel</mark>. Si vous souhaitez vider un salon autre que celui où vous faites la commande, utilisez l'option <mark style="color: #cd6e57;">\[salon]</mark>.
 
@@ -49,6 +49,10 @@ Si vous avez une discussion indésirable sur votre serveur, nul besoin de suppri
 **DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer conversation \[premier\_message] \[dernier\_message]</mark> uniquement si les message datent d'il y a moins de **14** jours. Cependant la commande <mark style="color: #cd6e57;">/effacer channel</mark> peut le faire.
 {% endhint %}
 
+{% hint style="warning" %}
+**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer conversation \[premier\_message] \[dernier\_message]</mark> uniquement si il y a moins de 100 messages. Si la conversation est de  plus de 100 messages, seul les 100 premiers seront supprimé après confirmation de votre part
+{% endhint %}
+
 ### Copier un ou des messages
 
 Si vous souhaitez copier un message venant d'un utilisateur dans un autre salon (ou dans le même salon), vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/copier \[salon] \[premier\_message]</mark>.
@@ -61,6 +65,10 @@ Si vous voulez copier plusieurs messages à la fois, alors vous pouvez utiliser 
 **DraftBot** peut copier un ou des messages uniquement s'il dispose des permissions "_Gérer les webhooks_" et "_Gérer les messages_" sur votre serveur.
 {% endhint %}
 
+{% hint style="warning" %}
+**DraftBot** peut copier un ou des messages uniquement si les messages que vous voulez copiez se situe dans le même salon que la commande
+{% endhint %}
+
 ### Déplacer un ou des messages
 
 Il est possible avec **DraftBot** de déplacer un message dans un autre salon s'il n'est pas à sa place. Pour cela, vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/move \[salon] \[premier\_message]</mark>.
@@ -71,6 +79,10 @@ Si vous voulez déplacer plusieurs messages à la fois, alors vous pouvez utilis
 
 {% hint style="warning" %}
 **DraftBot** peut copier un ou des messages uniquement s'il dispose des permissions "_Gérer les webhooks_" et "_Gérer les messages_" sur votre serveur.
+{% endhint %}
+
+{% hint style="warning" %}
+**DraftBot** peut déplacer un ou des messages uniquement si les messages que vous voulez copiez se situe dans le même salon que la commande
 {% endhint %}
 
 ### Citer un message
@@ -87,7 +99,7 @@ Si vous voulez citer un message d'un autre salon, vous pourrez alors utiliser l'
 
 ### Sauvegarder une conversation
 
-Vous pouvez sauvegarder une conversation avec la slash commande <mark style="color: #cd6e57;">/sauvegarder conversation \[premier\_message] \[dernier\_message]</mark>.
+Vous pouvez sauvegarder une conversation avec la slash commande <mark style="color: #cd6e57;">/enregistrer conversation \[premier\_message] \[dernier\_message]</mark>.
 
 Il vous suffira ensuite de la télécharger sur votre ordinateur pour l'ouvrir dans votre explorateur et pouvoir revoir la discussion.
 
@@ -95,4 +107,8 @@ Si vous souhaitez supprimer les messages concernés après la sauvegarde, vous p
 
 {% hint style="warning" %}
 **DraftBot** peut sauvegarder une conversation uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
+{% endhint %}
+
+{% hint style="warning" %}
+**DraftBot** peut sauvegarder une conversation uniquement si la commandes à lieu dans le salon concerné
 {% endhint %}
