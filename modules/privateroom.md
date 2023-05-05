@@ -63,7 +63,7 @@ Lorsqu'un hub est déjà activé, le bouton se nomme <mark style="color:orange;"
 
 #### Changer la catégorie des Salons Vocaux Temporaires
 
-Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. DraftBot demandra s'il faut créer une nouvelle catégorie ou attribuer une catégorie **déjà existante**.
+Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. DraftBot demandera s'il faut créer une nouvelle catégorie ou attribuer une catégorie **déjà existante**.
 
 #### Changer le salon hub
 
