@@ -20,7 +20,7 @@ Vous avez aussi 2 options à votre disposition :
 {% endhint %}
 
 {% hint style="warning" %}
-**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer messages \[nombre]</mark>. uniquement si les message datent d'il y a moins de **14** jours. Cependant la commande <mark style="color: #cd6e57;">/effacer channel</mark> peut le faire.
+**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer messages \[nombre]</mark>. uniquement si les message datent d'il y a moins de **14** jours. Cependant la commande <mark style="color: #cd6e57;">/vider-salon </mark> peut le faire.
 {% endhint %}
 
 ### Supprimer tous les messages d'un salon
@@ -29,7 +29,7 @@ Vous avez aussi 2 options à votre disposition :
 
 La méthode pour supprimer tous les messages d'un salon est de supprimer le salon pour recréer exactement le même avec les mêmes permissions, nom, description... mais sans les messages, ni les fils de discussions.
 
-Pour faire cela, vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/effacer channel</mark>. Si vous souhaitez vider un salon autre que celui où vous faites la commande, utilisez l'option <mark style="color: #cd6e57;">\[salon]</mark>.
+Pour faire cela, vous pouvez utiliser la slash commande <mark style="color: #cd6e57;">/vider-salon</mark>. Si vous souhaitez vider un salon autre que celui où vous faites la commande, utilisez l'option <mark style="color: #cd6e57;">\[salon]</mark>.
 
 {% hint style="warning" %}
 **DraftBot** peut supprimer tous les messages d'un salon uniquement s'il dispose des permissions "_Gérer les messages_" et "_Gérer les salons_" sur votre serveur.
@@ -50,7 +50,7 @@ Si vous avez une discussion indésirable sur votre serveur, nul besoin de suppri
 {% endhint %}
 
 {% hint style="warning" %}
-**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer conversation \[premier\_message] \[dernier\_message]</mark> uniquement si il y a moins de 100 messages. Si la conversation est de  plus de 100 messages, seul les 100 premiers seront supprimé après confirmation de votre part
+**DraftBot** peut supprimer des messages via la commande <mark style="color: #cd6e57;">/effacer conversation \[premier\_message] \[dernier\_message]</mark> uniquement si il y a moins de 100 messages. Si la conversation contient plus de 100 messages, seul les 100 premiers seront supprimé après confirmation de votre part
 {% endhint %}
 
 ### Copier un ou des messages
@@ -82,7 +82,7 @@ Si vous voulez déplacer plusieurs messages à la fois, alors vous pouvez utilis
 {% endhint %}
 
 {% hint style="warning" %}
-**DraftBot** peut déplacer un ou des messages uniquement si les messages que vous voulez copiez se situe dans le même salon que la commande
+**DraftBot** peut déplacer un ou des messages uniquement si les messages que vous voulez déplacer se situe dans le même salon que la commande
 {% endhint %}
 
 ### Citer un message
