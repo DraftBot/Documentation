@@ -4,8 +4,6 @@ description: >-
 ---
 
 
-
-
 # ❕Consignes❕
 Cette page a pour objectif d'unifier la mise en page de la documentation. Merci donc de vous y référer dès que vous avez un doute sur la mise en page de quelque chose.\
 Si un élément ne figure pas dans cette page mais qu'il le devrait, merci de contacter DraftMan - Nicolas ou bien Hugo-broc.
@@ -21,8 +19,6 @@ Tous les points d'attention sont catégorisés dans les 4 catégories ci-dessous
 - <mark style="color:blue;">[Général](/CONTRIBUTE.md#general)</mark> : La mise en page concernant **et** les commandes permettant de configurer votre serveur sur Discord **et** le panel de DraftBot.
 - <mark style="color:blue;">[Commandes](/CONTRIBUTE.md#commandes)</mark> : La mise en page concernant uniquement les commandes permettant de configurer votre serveur sur Discord.
 - <mark style="color:blue;">[Panel](/CONTRIBUTE.md#panel)</mark> : La mise en page concernant uniquement le panel de DraftBot.
-
-
 
 
 # Markdown
@@ -52,14 +48,10 @@ Rendu : `Texte dans un petit bloc de code`
 
 #### Gros bloc de code
 Syntaxe : ` ```Texte``` `\
-Exemple :\
-` ```\
-Texte dans un gros bloc de code\
-``` `\
+Exemple :
+` ```Texte dans un gros bloc de code``` `
 Rendu :
-```
-Texte dans un gros bloc de code
-```
+```Texte dans un gros bloc de code```
 
 
 #### Texte en couleur
@@ -101,8 +93,6 @@ Rendu : ![](.gitbook/assets/repertoire-mep/Titre2.png)
 Syntaxe : `### `\
 Exemple : `### Titre 3`\
 Rendu : ![](.gitbook/assets/repertoire-mep/Titre3.png)
-
-
 
 
 # Général
@@ -181,15 +171,13 @@ La configuration du module est faite ! Vous aurez désormais accès aux logs de 
 {% endhint %}
 
 
-
-
 # Commandes
 ## Citer une commande
 - Les commandes de DraftBot doivent être toutes mises en orange avec le slash `/` devant.
 - Les variables des slash commandes doivent être intégrées en fonction de votre configuration sous la forme <mark style="color:orange;">[variable 1][variable 2]</mark>.
 
 > ⚠️ Les slash commandes sont des commandes donc il ne faut pas mettre "le <mark style="color:orange;">/config</mark>" mais "la commande <mark style="color:orange;">/config</mark>".
- 
+
 Exemple : `<mark style="color:orange;">/config [système]</mark>`\
 ↪️ Rendu : <mark style="color:orange;">/config [système]</mark>
 
@@ -199,12 +187,12 @@ Les boutons sont un indispensable des configurations de DraftBot !\
 Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspond avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
 
-Exemple : 
+Exemple :
 ```\
 <mark style="color:blue;">**`Activer`**</mark>\
 ```
 ↪️ Rendu : <mark style="color:blue;">**`Activer`**</mark>\
-↪️ Autres rendus : **`Salon`** / <mark style="color:blue;">**`Activer`**</mark> / 
+↪️ Autres rendus : **`Salon`** / <mark style="color:blue;">**`Activer`**</mark> /
 <mark style="color:green;">**`Système activé`**</mark> / <mark style="color:red;">**`Réinitialiser`**</mark>
 
 ## Captures
@@ -224,11 +212,11 @@ Les captures permettent d'illustrer vos propos. Un certain format est à respect
 ## Accès au panel
 Quand une table est mise en place pour la configuration sur le panel ou via la commande /config, il faut toujours rappeler **tout en haut de la table** le lien vers le panel sous cette forme obligatoirement :
 
-Format : 
+Format :
 ```\
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>\
 ```
-↪️ Rendu : 
+↪️ Rendu :
 {% tabs %}
 {% tab title="Via la commande /config" %}
 *Configuration via la commande /config*
@@ -247,12 +235,12 @@ Les boutons sont un indispensable sur le panel de configuration de DraftBot !\
 Si un bouton est en <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark>, remettre la <mark style="color:blue;">[couleur](CONTRIBUTE.md#texte-en-couleur)</mark> qui correspond avec le texte du bouton.\
 Pour citer un bouton, utilisez le format suivant :
 
-Exemple : 
+Exemple :
 ```
 <mark style="color:orange;">**`Enregistrer`**</mark>\
 ```
 ↪️ Rendu : <mark style="color:orange;">**`Enregistrer`**</mark>\
-↪️ Autres rendus : **`Modifier`** / <mark style="color:orange;">**`Enregistrer`**</mark> / 
+↪️ Autres rendus : **`Modifier`** / <mark style="color:orange;">**`Enregistrer`**</mark> /
 <mark style="color:red;">**`Supprimer`**</mark>
 
 
@@ -260,7 +248,7 @@ Exemple :
 Pour mieux situer un paramètre du panel, vous pouvez citer le nom de l'option.
 
 Exemple : ``\
-↪️ Rendu : 
+↪️ Rendu :
 
 <mark style="background-color:blue;">**SALON DES MESSAGES DE BIENVENUE**</mark>, \
 <mark style="background-color:blue;">**Salon des messages de bienvenue**</mark>, \
@@ -289,9 +277,9 @@ Il peut vous être utile à la fin de la table du panel de faire un rappel d'enr
 
 Si vous souhaitez l'ajouter, utilisez ce format :
 
-Format : 
+Format :
 ```\
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.\
 ```
-↪️ Rendu : 
+↪️ Rendu :
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton <mark style="color:orange;">`**Enregistrer**`</mark> en bas de la page.
