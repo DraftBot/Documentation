@@ -158,7 +158,7 @@ Grâce au <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/
 *Avec les boutons présentés ci-dessous, vous pouvez :*
 Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:blue;">Message d'annonce</mark>, <mark style="color:blue;">Rôle temporaire</mark>, <mark style="color:blue;">Cadeaux d'anniversaire</mark> et <mark style="color:blue;">Annonces personnalisées</mark> *(Avantage premium 💎)*.
 
-## <mark style="color:blue;">Message d'annonce</mark>
+## <mark style="color:blue;">"Message d'annonce"</mark>
 
 {% hint style="info" %}
 
@@ -244,6 +244,11 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 - La dernière option "Personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 ## <mark style="color:blue;">"Annonces personnalisées *(Avantage premium 💎)*"</mark>
-WORK IN PROGESS
+
+- Premièrement, grâce à l'option "Membre ou rôle" vous pouvez paramétrer une annonce selon si un ou des membres ont un rôle. Ou bien, individuellement avec seulement la mention du membre.
+
+- Deuxièmement, vous pouvez avec l'option "Salon textuel" choisir dans quel salon textuel l'annonce sera envoyée.
+
+- Troisièmement et finalement, vous pouvez créer un message avec l'outil de création de message ou bien d'Embed de Draftbot.
 {% endtab %}
 {% endtabs %}
