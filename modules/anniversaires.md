@@ -226,7 +226,23 @@ Avec l'option <mark style="color:blue;">"Rôle temporaire"</mark>, vous pouvez g
 - Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisé/interdit.
 
 ## <mark style="color:blue;">"Cadeaux d'anniversaire"</mark>
-WORK IN PROGESS
+
+Proposez une magnifique surprise à vos membres le jour de leur anniversaire ! Ils seront sûrement ravis par votre générosité !
+
+En cliquant sur le bouton "Créer", vous pouvez choisir entre les quatre options dans le menu déroulant pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire :
+
+Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
+
+- La première option du menu déroulant "Expérience", vous pouvez donner de l'[expérience](https://docs.draftbot.fr/modules/niveaux) en cadeau à un membre.
+
+{% hint style="info" %}
+Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niveaux](niveaux.md)</mark> pour en apprendre plus sur le système de niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
+{% endhint %}
+    
+- Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire.
+- Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un [objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire) à la personne qui fête son anniversaire.  
+- La dernière option "Personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
+
 ## <mark style="color:blue;">"Annonces personnalisées *(Avantage premium 💎)*"</mark>
 WORK IN PROGESS
 {% endtab %}
