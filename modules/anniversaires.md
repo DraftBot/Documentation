@@ -48,7 +48,7 @@ Grâce à l'option "<mark style="color:blue;">Annonces</mark>", vous pouvez para
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
-- En cliquant sur le bouton "Système activer/désactiver", vous pouvez activer ou désactiver le système d'annonce d'anniversaire.
+- En cliquant sur le bouton "Système activé/désactivé", vous pouvez activer ou désactiver le système d'annonce d'anniversaire.
 - Avec le bouton "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Grâce au troisième bouton "Message", vous pouvez paramétrer le message d'annonce.
 
@@ -116,7 +116,7 @@ En cliquant sur le bouton "Créer", vous pouvez choisir entre les quatre options
 
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
 
-- Premièrement avec la première option du menu déroulant "Expériance", vous pouvez donner de l'expérance de niveau en cadeau à un membre.
+- La première option du menu déroulant "Expérience", vous pouvez donner de l'[expérience](https://docs.draftbot.fr/modules/niveaux) en cadeau à un membre.
 
 {% hint style="info" %}
 Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niveaux](niveaux.md)</mark> pour en apprendre plus sur le système de niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
@@ -130,7 +130,7 @@ Je vous conseille de vous diriger vers <mark style="color:blue;">[la page de niv
 *Avec les deux boutons restant du menu des <mark style="color:blue;">"Cadeaux"</mark>, vous pouvez modifier et supprimer les paramètres enregistrés avec l'aide du premier bouton :*
 
 - À l'aide du deuxième bouton "Modifier", vous pouvez modifier les options préalablement configurées.
-- Troisième et finalement avec le bouton "Suprimer", vous pouvez réinitialiser l'entièreté du système de "Cadeaux".
+- Troisième et finalement avec le bouton "Supprimer", vous pouvez réinitialiser l'entièreté du système de "Cadeaux".
 
 ## <mark style="color:blue;">"Annonces personnalisées *(Avantage premium 💎)*"</mark>
 
@@ -162,17 +162,17 @@ Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivant
 
 {% hint style="info" %}
 
-Par défaut cette option est désactivée. Vous devrez donc l'activer dans la catégorie "Anniversaire".
+Par défaut, cette option est désactivée. Vous devrez donc l'activer dans la catégorie "Anniversaire".
 
 ![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
 {% endhint %}
 
-Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous se trouvent des descriptions concernant les options personnalisables.
+Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous, se trouvent des descriptions concernant les options personnalisables.
 
 - Avec la première option "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Avec l'aide de la deuxième option "Heure d'envoi", vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
-- Grâce à la troisième option "Mention", vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyer lorsque quelqu'un fêtera son anniversaire.
-- Pour finir, avec le bouton "Rôles autorisés / interdits", vous autorisez / bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle autorisé / interdit.
+- Grâce à la troisième option "Mention", vous pouvez décider de mentionner un rôle dans le message d'annonce.
+- Pour finir, avec le bouton "Rôles autorisés/interdits", vous autorisez/bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle autorisé/interdit.
 
 {% hint style="info" %}
 N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
@@ -223,7 +223,7 @@ Temps :
 Avec l'option <mark style="color:blue;">"Rôle temporaire"</mark>, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
 
 - Grâce à l'option "Rôle temporaire", vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
-- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisés/interdit.
+- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisé/interdit.
 
 ## <mark style="color:blue;">"Cadeaux d'anniversaire"</mark>
 WORK IN PROGESS
