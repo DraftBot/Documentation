@@ -197,7 +197,7 @@ Il faut impérativement que le bot MEE6 soit sur votre serveur lors de la migrat
 
 ![Bouton d'importation des niveaux](../.gitbook/assets/levels/import_levels.png)
 
-Une fois avoir cliqué sur le bouton `Importer MEE6`, DraftBot vous posera une question pour que vous puissiez confirmer l'importation.
+Une fois avoir cliqué sur le bouton **Importer MEE6**, DraftBot vous posera une question pour que vous puissiez confirmer l'importation.
 
 {% hint style="success" %}
 L'importation des niveaux de MEE6 est faite ! 
