@@ -186,3 +186,7 @@ Notez qu'il est possible de voir la liste des variables disponibles en entrant l
 ![Panel de configuration des annonces de récompenses gagnées](../.gitbook/assets/levels/dashboard_announcement_config_new_reward.png)
 {% endtab %}
 {% endtabs %}
+
+# Migration
+
+Si vous utilisiez MEE6 auparavant, il est possible d'importer les niveaux de vos membres directement sur DraftBot afin qu'ils ne perdent pas leur progression.
