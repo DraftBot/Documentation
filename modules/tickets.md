@@ -63,7 +63,7 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 > **Rôles modérateurs** ➜ Ajouter ou retirer des rôles n'ayant pas la permission Administrateur qui auront accès aux tickets. Plusieurs rôles peuvent être ajoutés.
 
 
-> **Mentionner les modérateurs** ➜ Activer / désactiver la mention automatique des rôles indiqués comme rôles modérateurs à chaque nouveau ticket ouvert. Si cette option est activée, tous les rôles modérateurs seront mentionnés, il n'est actuellement pas possible de choisir les rôles à mentionner parmi la liste des rôles modérateurs.
+> **Mentionner les modérateurs** ➜ Activer/désactiver la mention automatique des rôles indiqués comme rôles modérateurs à chaque nouveau ticket ouvert. Si cette option est activée, tous les rôles modérateurs seront mentionnés, il n'est actuellement pas possible de choisir les rôles à mentionner parmi la liste des rôles modérateurs.
 
 
 > **Suppression admin** ➜ Lorsque cette option est activée, les tickets sont directement supprimés si un membre Administrateur ferme un ticket.
