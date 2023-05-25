@@ -49,10 +49,16 @@ Les commandes personnalisées vous offrent la possibilité d'ajouter des argumen
 
 Voici les différentes variables d'arguments possibles avec **DraftBot** :
 
-> `$1` ➜ Première valeur saisie après la commande.\
-> `$2` ➜ Deuxième valeur saisie après la commande.\
+> `$1` ➜ Premier argument saisie après la commande.\
+> `$2` ➜ Deuxième argument saisie après la commande.\
 > `$1+` ➜ Tout ce qui est saisi après la commande.\
-> `$2+` ➜ Tout ce qui est saisi après la commande sauf la première valeur.
+> `$2+` ➜ Tout ce qui est saisi après la commande sauf le premier argument.
+
+### Valeur par défaut
+
+> Il est possible d'assigner une valeur par défaut à votre variable.
+
+Pour celà il suffit de d'ajouter `={Votre valeur}` après les variables ci-dessus.
 
 {% hint style="info" %}
 **Exemple de commande personnalisée avec des arguments :**
