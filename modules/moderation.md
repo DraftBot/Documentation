@@ -100,7 +100,4 @@ De même, si vous souhaitez enlever toutes les sanctions de tous les membres de 
 Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">serveur</mark> sont irréversibles : impossible de redonner les sanctions aux membres du serveur si la commande a été faite et validée.
 {% endhint %}
 
-**Vous pouvez retrouver la configuration de l'auto-sanction de DraftBot sur cette page :**
-{% content-ref url="configuration/moderation.md" %}
-[moderation.md](configuration/moderation.md)
-{% endcontent-ref %}
+{% embed url="https://docs.draftbot.fr/prefix/prefixe/moderation#auto-moderation" %}Retrouvez la configuration de l'auto-sanction de DraftBot sur cette page{% endembed %}
