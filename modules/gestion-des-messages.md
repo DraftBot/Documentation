@@ -13,7 +13,7 @@ Vous pouvez effacer des messages avec la commande <mark style="color: #cd6e57;">
 Vous avez aussi 2 options à votre disposition :
 
 * <mark style="color: #cd6e57;">\[recherche]</mark> pour supprimer des messages contenant un mot défini.
-* <mark style="color: #cd6e57;">\[utilisateur]</mark> pour supprimer le nombre de messages, les plus récents, envoyés par cet utilisateur. Utile pour supprimer les messages d'un membre banni de votre serveur
+* <mark style="color: #cd6e57;">\[utilisateur]</mark> pour supprimer le nombre de messages, les plus récents, envoyés par cet utilisateur. Utile pour supprimer les messages d'un membre banni de votre serveur.
 
 {% hint style="warning" %}
 **DraftBot** peut supprimer des messages uniquement s'il dispose de la permission "_Gérer les messages_" sur votre serveur.
