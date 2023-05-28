@@ -31,5 +31,6 @@ Si vous perdez vos fréquences, pour les retrouvées, faites la commande <mark s
 {% endhint %}
 
 {% hint style="success" %}
-**Félicitations !** Vos deux salons on bien étés configurés.
+**Félicitations !** Vos deux salons ont bien été configurés.
+
 {% endhint %}
