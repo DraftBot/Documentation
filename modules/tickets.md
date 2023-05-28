@@ -73,7 +73,7 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 
 {% tab title="Via le panel" %}
 
-![Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)
+[Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)
 
 Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord, excepté le message d'ouverture à l'heure actuelle.
 
@@ -96,3 +96,16 @@ Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la part
 {% endtabs %}
 
 ## Message d'ouverture
+
+![Configuration du message d'ouverture](../.gitbook/assets/tickets/ticket-open-message.png)
+
+Le message d'ouverture permet aux membres de sélectionner une raison d'ouverture prédéfine à partir d'un bouton ou sélecteur pour demander un ticket. Il peut être utilisé comme alternative ou complément de la commande <mark style="color:orange;">/ticket</mark>.
+Lors de sa première configuration, depuis <mark style="color:orange;">/config</mark> dans la section **Tickets** puis en cliquant sur "Message d'ouverture", vous devrez sélectionner le type de message d'ouverture souhaité :
+
+* **Bouton** ➜ Une seule raison d'ouverture qui se présentera sur le texte du bouton sera configurable via ce mode.
+
+* **Sélecteur** ➜ Ce mode permet d'ajouter plusieurs raisons d'ouverture de tickets. En suivant les instructions et questions posées par le bot, vous aurez la possibilité de personnaliser le nom des raisons, leurs emojis associés et descriptions.
+
+{% hint style="info" %}
+Vous pouvez vous servir d'un message préalablement créé depuis l'Embed Creator sur le panel en cliquant sur "Message existant" sur la question posée après sélection du type de message d'ouverture pour personnaliser à votre guise l'embed de présentation.
+{% endhint %}
