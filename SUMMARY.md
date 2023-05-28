@@ -43,7 +43,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
-- [🐷 Interserveurs](modules/interserveurs.md)
+- [🔃 Interserveurs](modules/interserveurs.md)
 
 ## Autres
 
