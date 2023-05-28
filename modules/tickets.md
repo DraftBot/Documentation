@@ -35,7 +35,7 @@ Pour configurer le système de tickets, vous pouvez utiliser <mark style="color:
 Si le système n'est pas configuré, un seul bouton "Configurer le système" sera visible. Cliquez dessus pour commencer la configuration.
 {% endhint %}
 
-![Alt text](../../.gitbook/assets/tickets/ticket-menu-no-config.png)
+![Menu de configuration de départ](../../.gitbook/assets/tickets/ticket-menu-no-config.png)
 
 >**Catégorie** ➜ Permet de définir la catégorie de création des tickets. Vous pouvez demander à DraftBot de la créer automatiquement pour vous ou bien d'en utiliser une existante.
 
@@ -73,7 +73,7 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 
 {% tab title="Via le panel" %}
 
-![Alt text](../../.gitbook/assets/tickets/ticket-panel-config.png)
+![Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)
 
 Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord, excepté le message d'ouverture à l'heure actuelle.
 
