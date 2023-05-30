@@ -113,9 +113,9 @@ En cliquant sur le bouton "Créer", vous pouvez choisir entre les quatre options
 
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
 
-- La première option du menu déroulant "Expérience", vous pouvez donner de l'[expérience](https://docs.draftbot.fr/modules/niveaux) en cadeau à un membre.
-- La deuxième option du menu déroulant "Argent", vous permet de donner de l'[argent](https://docs.draftbot.fr/modules/economie) au membre qui fêtera son anniversaire.
-- Grâce à la troisième option "Objet", vous pouvez donner un [objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire) à la personne qui fête son anniversaire.  
+- La première option du menu déroulant "Expérience", vous pouvez donner de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark> en cadeau à un membre.
+- La deuxième option du menu déroulant "Argent", vous permet de donner de l'<mark style="color:blue;">[argent](https://docs.draftbot.fr/modules/economie)</mark> au membre qui fêtera son anniversaire.
+- Grâce à la troisième option "Objet", vous pouvez donner un <mark style="color:blue;">[objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
 - La dernière option "Cadeaux personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 
@@ -225,14 +225,14 @@ En cliquant sur le bouton "Créer", vous pouvez choisir entre les quatre options
 
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
 
-- La première option du menu déroulant "Expérience", vous pouvez donner de l'[expérience](https://docs.draftbot.fr/modules/niveaux) en cadeau à un membre.
+- La première option du menu déroulant "Expérience", vous pouvez donner de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark> en cadeau à un membre.
 
 {% hint style="info" %}
 Petit conseille dirigez-vous vers <mark style="color:blue;">[la page de niveaux](niveaux.md)</mark> pour en apprendre plus sur le système de niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
 {% endhint %}
     
 - Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire.
-- Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un [objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire) à la personne qui fête son anniversaire.  
+- Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un<mark style="color:blue;"> [objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
 - La dernière option "Personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 ## <mark style="color:blue;">Annonces personnalisées *(Avantage premium ✨)*</mark>
