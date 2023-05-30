@@ -162,7 +162,6 @@ Lorsque l'option est activée, vous avez accès à des options de personnalisati
 - Grâce à la troisième option "Mention", vous pouvez décider de mentionner un rôle dans le message d'annonce.
 - Pour finir, avec le bouton "Rôles autorisés/interdits", vous autorisez/bloquez l'annonce d'un anniversaire à tous les membres qui possède au moins un des rôles autorisés ou interdits.
 
-{% hint style="info" %}
 N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
 
 ![Aperçu des boutons autorisés / interdits](../.gitbook/assets/birthday/birthday_config_role_access.png)
