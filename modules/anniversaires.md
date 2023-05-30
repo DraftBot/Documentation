@@ -13,7 +13,7 @@ Vous pouvez définir votre anniversaire via <mark style="color:blue;">[le panel 
 Vous pouvez également voir la liste des dix prochains anniversaires définis sur le serveur grâce à la commande <mark style="color:orange;">/anniversaire liste</mark>.
 
 {% hint style="warning" %}
-Attention, pour changer votre date de naissance, il y a un cooldown progressif *(il augmente à chaque changement)*.
+Attention, pour changer votre date de naissance, il y a un délai d'attente progressif *(il augmente à chaque changement)*.
 
 - 1er changement : 1 jour
 - 2ème : 2 jours
@@ -44,7 +44,7 @@ Avec les boutons présentés ci-dessous, vous pouvez :
 
 ## <mark style="color:blue;">Annonces</mark>
 
-Grâce au bouton "<mark style="color:blue;">Annonces</mark>", vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
+Grâce au bouton <mark style="color:blue;">"Annonces"</mark>, vous pouvez paramétrer l'envoi d'un message général à tous les membres lors du jour de leur anniversaire.
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
@@ -53,7 +53,7 @@ Grâce au bouton "<mark style="color:blue;">Annonces</mark>", vous pouvez param�
 - Grâce au troisième bouton "Message", vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
-Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir entre le message par défaut et un message personnalisé. Si vous choisissez la deuxième option, ayez en tête qu'il est possible d'utiliser les variables ci-dessous et le markdown de Discord.
+Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, vous pouvez utiliser les variables ci-dessous et le markdown de Discord.
 
 
 <details>
@@ -61,6 +61,7 @@ Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir e
 <summary>Variables disponibles</summary>
 
 Membre :
+
 - `{​user}` ➜ Mention du membre
 - `{​user.id}` ➜ Identifiant du membre
 - `{​user.tag}` ➜ Tag du membre (Pseudo#0000)
@@ -69,20 +70,22 @@ Membre :
 - `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
 
 Serveur :
+
 - `{​server}` ou `{​server.name}` ➜ Nom du serveur
 - `{​server.id}` ➜ Identifiant du serveur
 - `{​server.membercount}` ➜ Nombre de membres sur le serveur
 
 Salon  :
+
 - `{​channel}` ➜ Mentions du salon
 - `{​channel.id}` ➜ Identifiant du salon
 - `{​channel.name}` ➜ Nom du salon
 
 Temps :
+
 - `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
 - `{​time}` ➜ Heure actuelle (HH:MM)
 - `{​timestamp}` ➜ Timestamp actuel en secondes
-
 </details>
 {% endhint %}
 
@@ -159,12 +162,12 @@ Par défaut, cette option est désactivée. Vous devrez donc l'activer dans la c
 ![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
 {% endhint %}
 
-Lorsque l'option est activée, vous avez accès à 5 options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous, se trouvent des descriptions concernant les options personnalisables.
+Lorsque l'option est activée, vous avez accès à des options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous, se trouvent des descriptions concernant les options personnalisables.
 
 - Avec la première option "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
 - Avec l'aide de la deuxième option "Heure d'envoi", vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
 - Grâce à la troisième option "Mention", vous pouvez décider de mentionner un rôle dans le message d'annonce.
-- Pour finir, avec le bouton "Rôles autorisés/interdits", vous autorisez/bloquez l'annonce d'un anniversaire à tous les membres qui possède le rôle autorisé/interdit.
+- Pour finir, avec le bouton "Rôles autorisés/interdits", vous autorisez/bloquez l'annonce d'un anniversaire à tous les membres qui possède au moins un des rôles autorisés ou interdits.
 
 {% hint style="info" %}
 N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
@@ -226,21 +229,17 @@ En cliquant sur le bouton "Créer", vous pouvez choisir entre les quatre options
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
 
 - La première option du menu déroulant "Expérience", vous pouvez donner de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark> en cadeau à un membre.
-
-{% hint style="info" %}
-Petit conseille dirigez-vous vers <mark style="color:blue;">[la page de niveaux](niveaux.md)</mark> pour en apprendre plus sur le système de niveaux et donc potentiellement mieux paramétrer cette fonctionnalité !
-{% endhint %}
     
-- Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire.
-- Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un<mark style="color:blue;"> [objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
+- Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire. Vous pouvez vous <mark style="color:blue;">[référer](economie.md)</mark> au système d'économie.
+- Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un <mark style="color:blue;">[objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
 - La dernière option "Personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 ## <mark style="color:blue;">Annonces personnalisées *(Avantage premium ✨)*</mark>
 
-- Premièrement, grâce à l'option "Membre ou rôle" vous pouvez paramétrer une annonce selon si un ou des membres ont un rôle. Ou bien, individuellement avec seulement la mention du membre.
+- Premièrement, grâce à l'option "Membre ou rôle", vous pouvez paramétrer une annonce selon si un ou des membres ont un rôle. Ou bien, individuellement avec seulement la mention du membre.
 
 - Deuxièmement, vous pouvez avec l'option "Salon textuel" choisir dans quel salon textuel l'annonce sera envoyée.
 
-- Troisièmement et finalement, vous pouvez créer un message avec l'outil de création de message ou bien d'Embed de Draftbot.
+- Finalement, vous pouvez créer un message avec l'outil de création de message ou bien d'Embed de DraftBot.
 {% endtab %}
 {% endtabs %}
