@@ -155,13 +155,6 @@ Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivant
 
 ## <mark style="color:blue;">Message d'annonce</mark>
 
-{% hint style="info" %}
-
-Par défaut, cette option est désactivée. Vous devrez donc l'activer dans la catégorie "Anniversaire".
-
-![Option de message d'annonce d'anniversaire](../.gitbook/assets/birthday/birthday_annoncement_message.png)
-{% endhint %}
-
 Lorsque l'option est activée, vous avez accès à des options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous, se trouvent des descriptions concernant les options personnalisables.
 
 - Avec la première option "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
@@ -230,7 +223,7 @@ Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire
 
 - La première option du menu déroulant "Expérience", vous pouvez donner de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark> en cadeau à un membre.
     
-- Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire. Vous pouvez vous <mark style="color:blue;">[référer](economie.md)</mark> au système d'économie.
+- Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire. Vous pouvez vous référer au <mark style="color:blue;">[système d'économie](economie.md)</mark> au système d'économie.
 - Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un <mark style="color:blue;">[objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
 - La dernière option "Personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
