@@ -3,7 +3,7 @@ description: >-
   Relier deux salons distinct de deux serveurs.
 ---
 
-# ↔️ Interserveurs
+# 🖇️ Interserveurs
 
 La fonctionnalité d'interserveurs permet à deux salons distincts de communiquer grâce à la simulation créée par DraftBot qui, prenant l'apparence de l'utilisateur, transmets les messages dans les salons connectés au vôtre.
 
