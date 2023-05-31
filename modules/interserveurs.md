@@ -31,6 +31,10 @@ Une fois la fréquence créée, utilisez la commande <mark style="color:orange;"
 Si vous perdez vos fréquences, pour les retrouvées, faites la commande <mark style="color:orange;">`/interserveur gérer`</mark> dans le salon où le module est activé.
 {% endhint %}
 
+{% hint style="warning" %}
+Un coldown est présent sur l'envoi des messages, il a été mis en place par sécurité afin d'éviter à Draftbot de se faire rate-limit.
+{% endhint %}
+
 {% hint style="success" %}
 **Félicitations !** Vos deux salons ont bien été configurés.
 
