@@ -61,9 +61,8 @@ Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les
 {% endtab %}
 
 {% tab title="Via le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-> Vous trouverez ci-dessous la configuration des réactions de mots sur le panel.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
 ![Aperçu du panel](../.gitbook/assets/wordreact/view_panel.png)
 
