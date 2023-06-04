@@ -28,7 +28,7 @@ Une fois la fréquence créée, utilisez la commande <mark style="color:orange;"
 ![Exemple de la commande à effectuer lors de la liaison des deux salons](../.gitbook/assets/interservers/interserver_link.png)
 
 {% hint style="info" %}
-Si vous perdez vos fréquences, pour les retrouvées, faites la commande <mark style="color:orange;">`/interserveur gérer`</mark> dans le salon où le module est activé.
+Vous pouvez retrouver la fréquence configurée pour un salon en utilisant la commande <mark style="color:orange;">`/interserveur gérer`</mark> gérer dans le salon correspondant.
 {% endhint %}
 
 {% hint style="warning" %}
