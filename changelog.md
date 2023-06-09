@@ -4,7 +4,7 @@ description: >-
   version 4.11.2.
 ---
 
-# Mises à jour
+# Mises à jour 🐷
 
 ## \***\*[**5.0.4 - 28/11/2022\*\*](https://discord.com/channels/422112414964908042/599942732559024138/1046598860933447680)
 
