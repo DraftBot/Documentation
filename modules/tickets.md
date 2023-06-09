@@ -100,7 +100,7 @@ Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la part
 ![Configuration du message d'ouverture](../.gitbook/assets/tickets/ticket-open-message.png)
 
 Le message d'ouverture permet aux membres de sélectionner une raison d'ouverture prédéfine à partir d'un bouton ou sélecteur pour demander un ticket. Il peut être utilisé comme alternative ou complément de la commande <mark style="color:orange;">/ticket</mark>.
-Lors de sa première configuration, depuis <mark style="color:orange;">/config</mark> dans la section **Tickets** puis en cliquant sur "Message d'ouverture", vous devrez sélectionner le type de message d'ouverture souhaité :
+Lors de sa première configuration, depuis la commande <mark style="color:orange;">/config</mark> dans la section **Tickets** puis en cliquant sur "Message d'ouverture", vous devrez sélectionner le type de message d'ouverture souhaité :
 
 * **Bouton** ➜ Une seule raison d'ouverture qui se présentera sur le texte du bouton sera configurable via ce mode.
 
