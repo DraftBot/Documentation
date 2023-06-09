@@ -7,7 +7,7 @@ description: >-
 ![Menu de configuration](../../.gitbook/assets/tickets/ticket-menu-config.png)
 
 ### Créer un ticket
-Vous pouvez créer ou demander la création d'un ticket en utilisant <mark style="color:orange;">/ticket</mark>.
+Vous pouvez créer ou demander la création d'un ticket en utilisant la commande <mark style="color:orange;">/ticket</mark>.
 
 {% hint style="info" %}
 La variable `raison` bien que facultative, peut être rendue obligatoire par les gérants de serveur. Il est conseillé de toujours la remplir de manière générale.
