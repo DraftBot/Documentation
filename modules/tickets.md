@@ -21,7 +21,7 @@ Les administrateurs et modérateurs de tickets disposent des commandes suivantes
 * <mark style="color:orange;">/ticketmod retirer </mark> ➜ Permet de retirer l'accès au contenu du ticket à un membre.
 
 ### Salon de réception
-Le salon de réception des tickets permet de recevoir les demandes de tickets des membres qu'elles soient réalisées via l'utilisation de <mark style="color:orange;">/ticket</mark> ou bien via un **message d'ouverture**.
+Le salon de réception des tickets permet de recevoir les demandes de tickets des membres, qu'elles soient réalisées via l'utilisation de la commande <mark style="color:orange;">/ticket</mark> ou bien via un **message d'ouverture**.
 
 La réception des demandes de tickets dans ce salon nécessite obligatoirement que les ouvertures de demandes soient configurées en mode **Manuel**.
 
