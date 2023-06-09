@@ -29,7 +29,7 @@ La réception des demandes de tickets dans ce salon nécessite obligatoirement q
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Pour configurer le système de tickets, vous pouvez utiliser <mark style="color:orange;">/config</mark> puis cliquer dans la section "Tickets".
+Pour configurer le système de tickets, vous pouvez utiliser la commande <mark style="color:orange;">/config</mark> puis cliquer dans la section "Tickets".
 
 {% hint style="warning" %}
 Si le système n'est pas configuré, un seul bouton "Configurer le système" sera visible. Cliquez dessus pour commencer la configuration.
