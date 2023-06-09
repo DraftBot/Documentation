@@ -57,7 +57,7 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 > **Demande du motif d'ouverture**</mark> ➜ Permet d'obliger les membres ou non à indiquer une raison d'ouverture du ticket. La raison fournie est indiquée dans le message d'accueil du ticket ainsi que sur la demande d'ouverture si la validation des tickets est en mode **Manuel**.
 
 
-> **Message d'accueil** ➜ Permet de modifier la description du message d'accueil d'un ticket **uniquement** lorsqu'il a été ouvert via <mark style="color:orange;">/ticketmod ouvrir</mark>. Lorsqu'un ticket est ouvert via <mark style="color:orange;">/ticket</mark> la description du message d'accueil contient alors la raison indiquée par le membre.
+> **Message d'accueil** ➜ Permet de modifier la description du message d'accueil d'un ticket **uniquement** lorsqu'il a été ouvert via la commande <mark style="color:orange;">/ticketmod ouvrir</mark>. Lorsqu'un ticket est ouvert via la commande <mark style="color:orange;">/ticket</mark> la description du message d'accueil contient alors la raison indiquée par le membre.
 
 
 > **Rôles modérateurs** ➜ Ajouter ou retirer des rôles n'ayant pas la permission Administrateur qui auront accès aux tickets. Plusieurs rôles peuvent être ajoutés.
