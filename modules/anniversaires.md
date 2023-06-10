@@ -53,7 +53,7 @@ Grâce au bouton <mark style="color:blue;">"Annonces"</mark>, vous pouvez param�
 - Grâce au troisième bouton "Message", vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
-Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, vous pouvez utiliser les variables ci-dessous et le markdown de Discord.
+Lorsque vous voulez paramétrer le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, vous pouvez utiliser les variables ci-dessous et le markdown de Discord.
 
 
 <details>
@@ -169,7 +169,7 @@ N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour 
 - Grâce à la dernière option "Message", vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
-Lorsque vous voulez paramètrer le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, vous pouvez utiliser les variables ci-dessous et le markdown de Discord.
+Lorsque vous voulez paramétrer le message d'anniversaire, vous pouvez choisir entre prendre le message par défaut et un message personnalisé. Si vous prenez la deuxième option, vous pouvez utiliser les variables ci-dessous et le markdown de Discord.
 
 
 <details>
