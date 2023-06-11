@@ -91,7 +91,7 @@ Temps :
 
 - Avec l'aide du quatrième bouton "Heure d'envoi", vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
 - Grâce à ce cinquième bouton "Mention", vous pouvez décider de mentionner un rôle dans le message d'annonce.
-- Pour finir, avec le bouton "Rôles interdits", vous pouvez interdire l'annonce d'un anniversaire à tous les membres qui possèderont ce rôle. 
+- Pour finir, avec le bouton "Rôles interdits", vous pouvez interdire l'annonce d'un anniversaire à tous les membres qui posséderont ce rôle. 
 
 ## <mark style="color:blue;">Rôle</mark>
 
@@ -100,7 +100,7 @@ Avec l'option <mark style="color:blue;">"Rôle"</mark>, vous pouvez décider de 
 ![Option rôle du menu de la configuration des anniversaires](../.gitbook/assets/birthday/birthday_config_role.png)
 
 - Grâce au bouton "Rôle", vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
-- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisés/interdit.
+- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisé/interdit.
 
 ## <mark style="color:blue;">Cadeaux</mark>
 
@@ -148,9 +148,10 @@ Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire
 
 {% tab title="Depuis le panel" %}
 
-Grâce au <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/)</mark> vous pouvez paramétrer plusieurs options du système d'anniversaire.
+Grâce au <mark style="color:blue;">[panel de Draftbot](https://www.draftbot.fr/dashboard/)</mark>, vous pouvez paramétrer plusieurs options du système d'anniversaire.
 
-*Avec les boutons présentés ci-dessous, vous pouvez :*
+Retrouvez ci-dessous les fonctionnalités configurables sur le panel.
+
 Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivantes : <mark style="color:blue;">Message d'annonce</mark>, <mark style="color:blue;">Rôle temporaire</mark>, <mark style="color:blue;">Cadeaux d'anniversaire</mark> et <mark style="color:blue;">Annonces personnalisées</mark> *(Avantage premium ✨)*.
 
 ## <mark style="color:blue;">Message d'annonce</mark>
