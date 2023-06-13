@@ -80,7 +80,7 @@ Cette action est irréversible, toute la configuration sera perdue.
 
 [Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)
 
-Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord, excepté le message d'ouverture à l'heure actuelle.
+Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord. Le message d'ouverture sera prochainement configurable sur le panel.
 
 > ⚠️ Une fois vos modifications effectuées, n'oubliez pas d'enregistrer avec le bouton "Enregistrer" situé en bas de la page.
 
