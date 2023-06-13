@@ -50,6 +50,11 @@ Le salon de réception des tickets se trouve par défaut dans la catégorie que 
 
 > <mark style="color:red;">**Supprimer le système**</mark> ➜ Permet de réinitialiser le système et revenir au bouton "Configurer le système".
 
+{% hint style="warning" %}
+Cette action est irréversible, toute la configuration sera perdue.
+{% endhint %}
+
+
 
 > **Demande de confirmation** ➜ Permet de modifier le message de confirmation affiché lorsqu'un ticket est demandé (modifiable, uniquement, si la validation des tickets est en mode **Manuel**). Vous pouvez choisir la présentation "Par défaut" de DraftBot ou votre texte personnalisé en cliquant sur "Modifier".
 
