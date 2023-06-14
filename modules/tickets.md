@@ -80,7 +80,13 @@ Cette action est irréversible, toute la configuration sera perdue.
 
 {% tab title="Via le panel" %}
 
+<<<<<<< HEAD
+
+
+![Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)
+=======
 <mark style="color:blue;">[Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)</mark>
+>>>>>>> 5ac729913b6e900bc18b0c08081b8e9390ca36d1
 
 Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord. Le message d'ouverture sera prochainement configurable sur le panel.
 
