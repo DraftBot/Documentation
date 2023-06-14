@@ -8,13 +8,13 @@ description: >-
 
 ## [**5.2.4 - 19/05/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1109137561634472006)
 
-✨ **Améliorations :**
+### ✨ **Améliorations :**
 
 - Amélioration de l'ergonomie et optimisation de l'espace du panel sur mobile.
 - Bulle de tutoriel encourageant à utiliser la version installée du panel de DraftBot sur iPhone & iPad.
 - Les liens de pages annexes de chaines YouTube sont maintenant acceptés du moment qu'elle cible un contenu de la chaine.
 
-🐛 **Corrections :**
+### 🐛 **Corrections :**
 
 - La détection de victoires au puissance 4 de DraftBot est rétablie.
 - Les concours (giveaways) sont maintenant de nouveau opérationnels.
@@ -24,7 +24,7 @@ description: >-
 
 ## [**5.2.3 - 15/05/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1107552401864540170)
 
-✨ **Nouveautés mineures :**
+### ✨ **Nouveautés mineures :**
 
 - Refonte complète de la commande de statistiques Brawlstars.
 - Dissociation de l'option de messages collants & message réenvoyés afin de pouvoir réenvoyer les messages collants.
@@ -32,7 +32,7 @@ description: >-
 - Ajout des dernières règles markdown Discord à la commande `/saveconv`.
 - Ajour de la possibilité de créer des posts de forums avec la commande `/envoyer`.
 
-🗒️ **Autres changements :**
+### 🗒️ **Autres changements :**
 
 - Correction d'un bug empêchant la récupération de certaines chaines YouTube.
 - Correction de certains points faibles du puissance4 et amélioration du système de priorisation des coups.
@@ -41,7 +41,7 @@ description: >-
 
 ## [**5.2.2 - 18/04/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1097940732880355358)
 
-- Ajout du badge premium <:premium_badge:1096140508625125417dans le profil (`/info utilisateur`).
+- Ajout du badge premium dans le profil (`/info utilisateur`).
 - Correction du problème de mentions dans le social notif Steam.
 - Correction du problème d'upload avec les fichiers entre 2mo et 10mo.
 
@@ -59,7 +59,7 @@ description: >-
 
 ## [**5.2 - 29/03/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1090743875573923850)
 
-✨ **Nouveautés 5.2.0**
+### ✨ **Nouveautés 5.2.0**
 
 - Migration des giveaways aux boutons
 - Niveau minimum d'annonces de passages de niveaux
@@ -74,7 +74,7 @@ description: >-
 - Les admins ne sont à présent plus concernés par la limite de suggestions en attente
 - Retour des paramètres aléatoires pour la commande /love
 
-🌐 **Améliorations panel :**
+### 🌐 **Améliorations panel :**
 
 - Configuration des réactions de mots sur le panel
 - Nouvelle catégorie de gestion des rôles automatiques
@@ -82,7 +82,7 @@ description: >-
 - Ajout de la possibilité de détecter les rôles déjà utilisés entre les sélecteurs de rôles réactions sur le panel
 - Amélioration globale du design du panel
 
-🥳 **Nouveau sélecteur d'émojis :**
+### 🥳 **Nouveau sélecteur d'émojis :**
 
 - Design entièrement basé sur celui proposé par Discord
 - Optimisation des émojis pour de meilleurs performances sur téléphone et petites connexions
@@ -107,7 +107,7 @@ description: >-
 
 ## [**5.1 - 02/02/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1070817034528624791)
 
-✨ **Nouveautés**
+### ✨ **Nouveautés**
 
 - Nouveau jeu ColorMind (`/colormind`) (3 difficultés).
 - Ajout des rôles réactions temporaires sur les boutons.
@@ -125,14 +125,14 @@ description: >-
   - `/item drop` Drop un item de son inventaire
   - `/dropitem` Drop d'item à la communauté
 
-📈 **Améliorations**
+### 📈 **Améliorations**
 
 - Retour du filtre des membres partis dans les classements de niveaux, d'anniversaires et d'économie !
 - Ajout de boutons dans le `/config` pour visualiser et éditer un message récurrent.
 - Commandes contextuelles Info & Profil sont maintenant visibles que par l'utilisateur qui les demandes.
 - Possibilité de faire `/adminxp set` et `/adminargent set` avec un membre n'étant plus sur le serveur.
 
-🌐 **Panel**
+### 🌐 **Panel**
 
 - Ajout d'une sécurité si on essaie de fermer le panel avec des changements non sauvegardés.
 - Ajout de la possibilité de réordonner les boutons de liens dans l'Embed Creator.
@@ -206,7 +206,7 @@ Dès à présent, retrouvez y :
 - Le gain d'expérience (niveaux)
 - Le gain d'argent (économie)
 
-### 🐛 **Corrections :**
+### ###  **Corrections :**
 
 - L'auto-complétion de la commande `/aide` a été corrigé ainsi que l'affichage de la description d'une commande Slash affichée via la commande `/aide <commande>`.
 - L'affichage de la commande `/sanctions` list a été corrigé sur mobile.
@@ -221,7 +221,7 @@ Dès à présent, retrouvez y :
 
 > \- Toutes les commandes Slash - Toutes les commandes à préfixe - L'auto-modération - Le gain d'expérience (niveaux) - Le gain d'argent (économie)
 
-![🐛](https://discord.com/assets/370f5af37229902609dec50690ec5f99.svg) **Corrections :**
+### **Corrections :**
 
 > \- L'auto-complétion de la commande `/aide` a été corrigé ainsi que l'affichage de la description d'une commande Slash affichée via la commande `/aide <commande>`.
 
@@ -550,7 +550,7 @@ Lors de la prochaine mise à jour <mark style="color:blue;">**4.17.0**</mark> no
 
 ## [**4.15.0 - 09/03/2022**](https://discord.com/channels/422112414964908042/599942732559024138/950919931065692241)
 
-### ****✨** Slash commands**
+### **✨ Slash commands**
 
 Comme imposé par Discord, les commandes Slash vont petit à petit faire leur apparition dans cette version. Elles seront dans un premier temps restreint aux serveurs premiums jusqu'à ce que leur développement soit finalisé.
 
@@ -558,7 +558,7 @@ Dans cette version, nous vous proposons les principales commandes des catégorie
 
 Pour les configurer, vous devrez utiliser la commande `!slash`. DraftBot vous proposera alors de les activer en cliquant sur le bouton "Activer".
 
-### ****Rôle** Réactions :**
+### **Rôle Réactions :**
 
 Refonte complète du système de rôles réactions permettant l'ajout des boutons et sélecteurs.
 
