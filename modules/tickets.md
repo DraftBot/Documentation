@@ -10,7 +10,7 @@ description: >-
 Vous pouvez créer ou demander la création d'un ticket en utilisant la commande <mark style="color:orange;">/ticket</mark>.
 
 {% hint style="info" %}
-La variable `raison` bien que facultative, peut être rendue obligatoire par les gérants de serveur. Il est conseillé de toujours la remplir de manière générale.
+La variable `raison` bien que facultative, peut être rendue obligatoire par les gérants du serveur. Il est conseillé de toujours la remplir de manière générale.
 {% endhint %}
 
 ### Modération des tickets
