@@ -23,7 +23,9 @@ Les administrateurs et modérateurs de tickets disposent des commandes suivantes
 ### Salon de réception
 Le salon de réception des tickets permet de recevoir les demandes de tickets des membres, qu'elles soient réalisées via l'utilisation de la commande <mark style="color:orange;">/ticket</mark> ou bien via un **message d'ouverture**.
 
+{% hint style="info" %}
 La réception des demandes de tickets dans ce salon nécessite obligatoirement que les ouvertures de demandes soient configurées en mode **Manuel**.
+{% endhint %}
 
 # Configuration
 
