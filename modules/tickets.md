@@ -84,8 +84,6 @@ Cette action est irréversible, toute la configuration sera perdue.
 
 
 ![Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)
-=======
-<mark style="color:blue;">[Menu de configuration](../../.gitbook/assets/tickets/ticket-panel-config.png)</mark>
 
 
 Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la partie des **Tickets**, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord. Le message d'ouverture sera prochainement configurable sur le panel.
