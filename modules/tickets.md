@@ -14,7 +14,7 @@ La variable `raison` bien que facultative, peut être rendue obligatoire par les
 {% endhint %}
 
 ### Modération des tickets
-Les administrateurs et modérateurs de tickets disposent des commandes suivantes permettant un contrôle supplémentaire sur les accès aux tickets.
+Les administrateurs et modérateurs de tickets disposent des commandes suivantes permettant un contrôle supplémentaire sur les accès aux tickets :
 
 * <mark style="color:orange;">/ticketmod ouvrir </mark> ➜ Permet d'ouvrir un ticket pour un membre dans un objectif de contact privé.
 * <mark style="color:orange;">/ticketmod ajouter </mark> ➜ Permet d'autoriser l'accès au contenu du ticket à un membre quelconque.
