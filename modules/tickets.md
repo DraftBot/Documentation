@@ -67,7 +67,7 @@ Cette action est irréversible, toute la configuration sera perdue.
 > **Message d'accueil** ➜ Permet de modifier la description du message d'accueil d'un ticket **uniquement** lorsqu'il a été ouvert via la commande <mark style="color:orange;">/ticketmod ouvrir</mark>. Lorsqu'un ticket est ouvert via la commande <mark style="color:orange;">/ticket</mark> la description du message d'accueil contient alors la raison indiquée par le membre.
 
 
-> **Rôles modérateurs** ➜ Ajouter ou retirer des rôles n'ayant pas la permission Administrateur qui auront accès aux tickets. Plusieurs rôles peuvent être ajoutés.
+> **Rôles modérateurs** ➜ Ajouter ou retirer des rôles n'ayant pas la permission "Administrateur" qui auront accès aux tickets. Plusieurs rôles peuvent être ajoutés.
 
 
 > **Mentionner les modérateurs** ➜ Activer/désactiver la mention automatique des rôles indiqués comme rôles modérateurs à chaque nouveau ticket ouvert. Si cette option est activée, tous les rôles modérateurs seront mentionnés, il n'est actuellement pas possible de choisir les rôles à mentionner parmi la liste des rôles modérateurs.
