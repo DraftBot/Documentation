@@ -673,7 +673,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 - Correction d'un bug qui permettait de garder les images de bienvenue et d'au revoir même lorsque l'on avait plus le premium.
 - Correction d'un bug au niveau de la modification d'un social notif subreddit sur le panel.
 
-## [**4.14.7 - 10/01/2022**](https://discord.com/channels/422112414964908042/599942732559024138/930233341070934056)-7-1"
+## [**4.14.7-2 - 10/01/2022**](https://discord.com/channels/422112414964908042/599942732559024138/930233341070934056)-7-1"
 
 🗒️ **Changements**
 
@@ -736,7 +736,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 - Amélioration du système de détection de messages récurrents similaires qui permet d'éviter un repost du même message.
 - Changement de la fréquence de mise à jour du `!membercount` suite à une limitation de Discord qui est de 10min.
 
-## [**4.14.4 - 03/12/2021**](https://discord.com/channels/422112414964908042/599942732559024138/916117302418767893)-4-2"
+## [**4.14.4-3 - 03/12/2021**](https://discord.com/channels/422112414964908042/599942732559024138/916117302418767893)-4-2"
 
 ✨ **Améliorations**
 
@@ -754,7 +754,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 - Bug qui empêchait l'envoi des logs de la commande (`!pay`) si la raison était une image.
 - Bug qui pouvait faire apparaitre un id incorrect dans la commande `!sanctions` si le modérateur ayant fait la sanction n'était plus sur le serveur.
 
-## [**4.14.4 - 30/11/2021**](https://discord.com/channels/422112414964908042/599942732559024138/915021997778542653)-4-1"
+## [**4.14.4-2 - 30/11/2021**](https://discord.com/channels/422112414964908042/599942732559024138/915021997778542653)-4-1"
 
 🐛 **Corrections**
 
@@ -784,7 +784,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 - Désactivation des commandes d'émotions en messages privés.
 - Correction d'un bug dans le système de sélection des catégories Dealabs depuis la commande.
 
-## [**4.14.3 - 12/11/2021**](https://discord.com/channels/422112414964908042/599942732559024138/908848082781892678)-3-1"
+## [**4.14.3-2 - 12/11/2021**](https://discord.com/channels/422112414964908042/599942732559024138/908848082781892678)-3-1"
 
 🗒️ **Changements**
 
