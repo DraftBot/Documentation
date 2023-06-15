@@ -39,7 +39,7 @@ Pour ajouter une image d'illustration à votre suggestion, vous devez avoir acti
 Vous aurez alors un bouton pour ajouter une image lors de cette confirmation.
 {% endhint %}
 
-![Menu de création d'une suggestion](../.gitbook/assets/suggestions/create_a_suggestion.png)
+![Menu de création d'une suggestion](../.gitbook/assets/suggestions/create_suggestion.png)
 
 **Vous avez oublié une information lors de la création de votre suggestion ou vous voulez ajouter un commentaire à cette dernière ?**\
 Vous pouvez alors sélectionner le bouton "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" pour en ajouter un.
@@ -56,7 +56,7 @@ Vous avez besoin de la permission "*Gérer les messages*" pour pouvoir accepter 
 
 {% tabs %}
 {% tab title="Accepter une suggestion" %}
-Pour accepter une suggestion, faites un clic droit (sur pc) ou appuyez longtemps (sur portable) sur la suggestion en question et appuyez sur "Applications".\
+Pour accepter une suggestion, faites un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question et appuyez sur "Applications".\
 Vous aurez ensuite la possibilité d'"Accepter" la suggestion.
 
 Un menu s'ouvrira et vous demandera votre raison d'acceptation.\
@@ -66,11 +66,10 @@ Si vous ne souhaitez pas mettre de raison d'acceptation, appuyez directement sur
 {% endtab %}
 
 {% tab title="Refuser une suggestion" %}
-Pour refuser une suggestion, faites un clic droit (sur pc) ou appuyez longtemps (sur portable) sur la suggestion en question et appuyez sur "Applications".\
+Pour refuser une suggestion, faites un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question et appuyez sur "Applications".\
 Vous aurez ensuite la possibilité de "Refuser" la suggestion.
 
-Un menu s'ouvrira et vous demandera votre raison de refus.\
-Si vous ne souhaitez pas mettre de raison de refus, appuyez directement sur "<mark style="color:blue;">Envoyer</mark>" sans rentrer de texte dans la case.
+Un menu s'ouvrira afin vous demander la raison de refus.
 
 ![Refuser une suggestion](../.gitbook/assets/suggestions/suggest_refuse.gif)
 {% endtab %}
