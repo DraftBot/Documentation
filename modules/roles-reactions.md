@@ -66,6 +66,8 @@ L'intégralité de la création est ensuite guidée par **DraftBot**, il vous su
 {% tab title="Via le panel" %}
 Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via le panel.
 
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
 * Si vous voulez créer un nouveau message, créez un message et/ou un embed grâce à l'Embed Creator se trouvant au centre de la page.
 * Si vous voulez utiliser un message de **DraftBot** existant, cliquez sur le bouton "Récupérer un message" situé en haut à droite de la page et remplissez la fenêtre pop-up en indiquant le salon dans lequel se trouve le message, ainsi que l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) à récupérer. Cliquez ensuite sur "Récupérer".
 
@@ -108,6 +110,9 @@ L'intégralité de la création est ensuite guidée par **DraftBot**, il vous su
 
 <!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
+
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
 Pour gérer un rôle-réaction existant, <mark style="color:orange;">[accédez à la configuration](#accéder-à-la-configuration)</mark> des rôles-réactions via le panel.
 
 À droite de la page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
