@@ -43,6 +43,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🎟 Tickets](modules/tickets.md)
 
 ## Autres
 
