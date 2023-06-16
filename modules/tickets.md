@@ -101,5 +101,5 @@ Lors de sa première configuration, depuis la commande <mark style="color:orange
 * **Sélecteur** ➜ Ce mode permet d'ajouter plusieurs raisons d'ouverture de tickets. En suivant les instructions et questions posées par le bot, vous aurez la possibilité de personnaliser le nom des raisons, leurs émojis associés et descriptions.
 
 {% hint style="info" %}
-Vous pouvez vous servir d'un message préalablement créé depuis l'Embed Creator sur le panel en cliquant sur "Message existant" sur la question posée après sélection du type de message d'ouverture pour personnaliser à votre guise l'embed de présentation ou via la commande <mark style="color:orange;">/envoyer</mark>
+Vous pouvez vous servir d'un message préalablement créé depuis l'Embed Creator sur le panel en cliquant sur "Message existant" sur la question posée après sélection du type de message d'ouverture pour personnaliser à votre guise l'embed de présentation ou via la commande <mark style="color:orange;">/envoyer</mark>.
 {% endhint %}
