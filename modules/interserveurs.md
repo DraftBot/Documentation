@@ -43,7 +43,7 @@ Vous pouvez retrouver la fréquence configurée pour un salon en utilisant la co
 {% endhint %}
 
 {% hint style="warning" %}
-Un coldown est présent sur l'envoi des messages, il a été mis en place par sécurité afin d'éviter des abus.
+Un cooldown est présent sur l'envoi des messages, il a été mis en place par sécurité afin d'éviter des abus.
 
 {% endhint %}
 
