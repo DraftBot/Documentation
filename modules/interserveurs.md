@@ -28,7 +28,11 @@ La fonctionnalité d'interserveurs permet à deux salons distincts de communique
 
 
 ## Relier deux salons
-Une fois la fréquence créée, utilisez la commande <mark style="color:orange;">`/interserveur lier`</mark> dans le salon du serveur que vous souhaitez relier au premier salon.
+Une fois la fréquence créée, utilisez la commande <mark style="color:orange;">/interserveur lier</mark> dans le salon que vous souhaitez relier au premier.
+
+{% hint style="info" %}
+Vous ne pouvez pas lier deux salons du même serveur.
+{% endhint %}
 
 
 ![Exemple de la commande à effectuer lors de la liaison des deux salons](../.gitbook/assets/interservers/interserver_link.png)
