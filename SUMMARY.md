@@ -43,10 +43,13 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🎟 Tickets](modules/tickets.md)
 - [🔃 Interserveurs](modules/interserveurs.md)
+
 
 ## Autres
 
 - [Récupérer un identifiant](autres/recuperer-un-identifiant.md)
+- [Changelog](autres/changelog.md)
 - [Équipe](https://www.draftbot.fr/equipe)
 - [Contact](autres/contact.md)
