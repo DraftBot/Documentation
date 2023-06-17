@@ -1619,3 +1619,212 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
 - Ajout des rôles boosters au panel web pour les niveaux et l'économie
 - Ajout de la fonctionnalité Niveau maximum au panel (réservé aux premiums)
 - Amélioration globale des pages de configuration pour les appareils mobiles
+
+## [**4.11.1 - 15/06/2020**](https://discord.com/channels/422112414964908042/599942732559024138/722199124253999106)
+
+🏘️ **Général**
+ - Lancement de parties de Puissance 4 contre DraftBot ou un autre bot bloqué
+ - Notification de l'utilisateur en mp lorsqu'il reçoit un premium
+ - Ajout d'un respect de hiérarchie pour le système de rôles perms
+
+**Panel Web**
+ - Retour de la page https://www.draftbot.fr/levels/
+ - Retour des photos de profils dans la page des donateurs
+ - Refonte complète de l'UX du Panel pour une meilleure expérience sur ordi, tablette et mobile
+ - Optimisation sur la rapidité de changement du panel
+
+🐛 **Résolution de bugs**
+ - Bug d'affichage du topmoney réglé
+ - Bug d'affichage du message `adminmoney remove` réglé
+ - Bug d'affichage des récompenses réglé avec une pagination sur 3 pages maximum si l'on dépasse 1024 caractères
+ - Bug d'affichage des commandes `adminreward remove` et `adminshop remove`réglé avec une troncature suivie de `...` si l'on dépasse 1024 caractères
+ - Bug de reset des récompenses réglé
+ - Bug du bouton qui s'étain lors d'un reload pour visibilité d'un serveur infos sur le panel réglé
+ - Bug d'importation des niveaux de MEE6 dans DraftBot réglé
+ - Bug d'affichage pour la commande `!sanctions` réglé
+
+ - Améliorations de la commande puissance4
+   - 30s de délais en plus durant un tour
+   - Si le joueur n'a pas joué durant 30s après le délai supplémentaire, l'adversaire est déclaré comme gagnant par forfait
+   - Nomination du joueur concerné dans les messages (cas où plusieurs parties seraient en cours dans le même salon)
+   - Ajout d'un message lorsque le joueur cible refuse la partie
+ - Ajout d'un message informatif lorsque la commande `!ticket` ne contient pas d'arguments
+ - Ajout du nom de la commande dans les messages d'erreur pour un gain de temps lors des reports
+
+**Panel Web**
+ - Ajout d'une nouvelle page dans sur le panel web **Gestion des commandes**
+ - Optimisation des pages accueil, commandes, serveurs et niveaux
+ - Optimisation de l'embed creator
+ - Retour des images dans l'embed creator pour l'envoi et l'édition
+
+
+## [**4.11 - 13/06/2020**](https://discord.com/channels/422112414964908042/599942732559024138/722199124253999106)
+
+ **Vue général :**
+ - Les commandes sont harmonisées et annulables en répondant `cancel`
+ - Plus d'informations sont fournies dans les commandes de type `...info`
+ - Nouvelles fonctionnalités : `interserver` & `suggest`
+ - Nouvelles commandes : `normalize` & `sanction`
+ - Commandes améliorées : `rolereact` ; `traduction` ; `cite` & `sondage`
+ - Commandes supprimées : `strawpoll` & `roletorole`
+ - Les messages de DraftBot qui restaient en fin de commande sont à nouveau supprimé
+ - L'édition des commandes après envoi est supprimée
+ - Le bot ne modèrera plus vos message s'il s'agit d'une commande
+
+**Fonctionnalités Modération :**
+ - La suppression d'un **message épinglé** avec la commande `clear` nécessite une confirmation
+ - Les commandes de modération sont simplifiées et exécutables en une seule ligne
+ - Nouvelle commande `unban`
+ - La commande `sanctions` est maintenant accessible grâce à la **permission** *Gérer les messages*
+ - Les sanctions de l'utilisateur ne sont plus affichées dans le `userinfo`
+
+**Fonctionnalités Interaction :**
+ - Le rôle de gestion des tickets pourra maintenant automatiquement **Gérer le salon** du ticket
+ - Les tickets fermés peuvent être **réouverts** avec la réaction 🔓
+ - Vous pouvez **supprimer définitivement** un ticket en cliquant sur 🗑️
+ - Deux couleurs permettent de connaître l'état du ticket :
+Avec la **couleur de DraftBot** les demandes de ticket ou ceux fermés par le membre
+Les tickets acceptés ou supprimés par un Admin seront quant à eux en **rouge**
+ - Le lexique peut-être modifié plus facilement en **ajoutant plusieurs mots**
+ - Les messages contenant un mot interdit sont maintenant **corrigés** et renvoyés par DraftBot !
+
+**Fonctionnalité Niveaux :**
+ - Vous pouvez **réinitialiser** la configuration des niveaux avec avec `adminlevel reset`
+ `adminxp resetall` permet maintenant d'**effacer les niveaux et l'XP** du serveur.
+ - Même si le système d'économie est désactivé, l'argent des **récompenses est reçu**.
+ - Les récompenses de rôles supprimées ne sont plus masquées
+ - Enfin, deux fonctionnalités premium sont ajoutées:
+   - Un **niveau maximum** empêchant ainsi le gain d'XP supplémentaire
+   - Modifier la **couleur** de la fonctionnalité
+
+**Fonctionnalité Economie :**
+ - Utilisez maintenant `admineconomy reset` pour **réinitialiser** la configuration de l'économie.
+Pour **effacer** la totalité de l'argent du serveur utilisez  `adminmoney resetall`.
+ - Dans la boutique, les rôles supprimés mais en vente ne sont plus masqués.
+Le prix de l'article est rappelé lorsqu'un article de la **boutique du serveur** est acheté.
+ - L'achat d'XP est maintenant possible dans la boutique, même si le système de niveaux est désactivé.
+ - Pour les serveur premiums, vous pouvez dorénavant :
+ - Changer l'**icône de votre monnaie**
+ - Modifier la **couleur** de la fonctionnalité
+
+**Fonctionnalité Statistiques :**
+ - Les messages du **GameProfil** ont été uniformisés
+ - Vous pouvez maintenant **mentionner** un membre à la suite d'une commande pour voir ses statistiques
+ - Les commandes **Paladins** & **ApexLegends** ont été retravaillées
+ - Les commandes **LOL** & **R6** ont été améliorées et complétées par de nouvelles statistiques.
+ - La commande **Wolfy** a été retravaillée pour améliorer le design et supporter les nouvelles photos de profil
+ - La commande **BrawlHalla** a été mise à jour avec les traductions en Français et la possibilité de lier son profil ID Steam
+ - La commande **CS:GO** est définitivement **retirée**
+
+**Commande Giveaway :**
+ La précision du **temps restant** a été améliorée.
+ Vous pouvez maintenant **relancer** un giveaway pour obtenir un nouveau gagnant.
+ De nombreuses possibilités de **configuration** complètent la commande :
+*Nom de giveaway, nouvelles récompenses, choix du salon lors de la commande, nombre de gagnants...*
+
+**Panel Web :**
+- La sélection d'un rôle ou salon est simplifiée grâce à un **champ de recherche**.
+- Les **salons d'annonce** sont maintenant reconnus sur le Panel Web.
+- Optimisation du **chargement** du Panel Web, notamment sur mobile.
+- En cas de problème sur le Panel, une notification vous expliquera quelle erreur s'est produite ainsi que ses raisons.
+- Si votre **communauté** a plus de 80 membres, vous pourrez ajouter votre serveur à notre page "Serveurs"
+
+**Embed Creator :**
+**Correctifs** de bugs divers
+- Le champ **"Auteur"** a été ajouté, il est affiché dans la partie inférieure d'un message embed.
+- **Markdown** de Discord reproduit à l'identique : commentaires, style de police, spoil, liens, emojis ...
+ - L'ajout d'**images** est plus rapide et n'entraîne plus de lags.
+ - Les serveurs premium peuvent **sauvegarder** des embeds qu'ils souhaitent réutiliser ultérieurement.
+
+## [**4.10.2 - 03/02/2020**](https://discord.com/channels/422112414964908042/599942732559024138/676817384274919453)
+
+**🌐 Site Web:**
+ - La page de niveaux est actuellement disponible sur mobile, avec une interface plus adapaté aux différents tailles d'écran.
+ - Vos pages de niveaux ont leur propre nom, ce qui signifie qu'elles pourront être retrouvées sur votre moteur de recherche si elles sont souvent visitées !
+
+**🚨  Logs:**
+ - Ajout des logs vocaux
+ - Ajout des logs de privaterooms
+ - Ajout des logs de tickets
+ - Ajout des logs de salons
+ - Ajout des logs de bans/kicks effectués depuis discord
+ - Mise à jour des logs de sanctions
+
+**💰  Levels & Economie:**
+ - Une nouvelle fonctionnalité voit le jour du coté des Niveaux et de l'Economie.
+ - C'est l'ajout de rôles boostés: Cette fonctionnalité permet de booster en experience et en money certains rôles afin qu'ils fassent gagner plus d'experience et d'argent à ceux possédant des rôles particuliers.
+ℹ️ Cette fonctionnalité est disponible depuis la commande `adminlevel` & `admineconomie`
+
+## [**4.10 - 03/02/2020**](https://discord.com/channels/422112414964908042/599942732559024138/674010543031320586)
+
+**🌐 Site Web:**
+ - Voici le tout nouveau site https://www.draftbot.fr/ après les screens, les spoils et les sondages, il est enfin disponible sur vos navigateurs !
+ - Un nouveau design à l'image de DraftBot, retrouvez les pages dédiées aux commandes, aux serveurs et niveaux qui ont été mises à jours, mais également une page maintenant dédiée aux Premium merci à eux ❤️. 
+ - Ne manquez pas prochainement la découverte de nouvelles pages et ajouts tels que le PanelWeb qui est toujours en développement et apportera une plus grande simplicité ainsi qu’une vue d'ensemble que n'offrent pas les messages sur discord.
+
+**🚨  Modération:**
+ - Système de filtrage de vocabulaire réactivé
+ - Ajout de la fonctionnalité annulation (`cancel`) aux commandes de sanction
+ - Ajout des deux commandes de sanctions temporaires `tempmute` et `tempban`
+ - La commande mute ne supprime plus les messages du joueur sanctionné mais à présent retire la permission de parler dans le salon, la notification en message privé a également été supprimée.
+ - Le message lorsqu'un membre quitte le serveur est modifié par le message de sanction s'il s'agit d'un kick ou d'un ban.
+ - Remplacement de la commande `warnlist` par `history`, qui répertorie maintenant toutes les sanctions d'un utilisateur.
+
+## [**4.9.7 - 28/12/2019**](https://discord.com/channels/422112414964908042/599942732559024138/660477942484303883)
+
+🎟️ **Nouvelle fonctionnalité !**
+Cette nouvelle fonctionnalité a été demandé depuis bien longtemps, elle a donc vu le jour dans cette nouvelle mise à jour !
+Cette fonctionnalité est dès maintenant disponible ! C'est le système de tickets !
+Reprenant les fondamentaux d'un système de tickets sur discord, il a été revisité façon DraftBot avec une utilisation des réactions !
+
+🦄 **Complet et simple**
+Depuis le début nous cherchons à réaliser l'outil le plus complet possible, mais aussi le plus simple d'utilisation.
+C'est pour cela que dans cette mise à jour, nous avons encore simplifié les **noms**, les **descriptions**, les **aliases**, les **exemples** et même les informations du help ||`!help <commande>`|| ! 
+
+🚀 **Quelques optimisations**
+Certaines fonctionnalités ont été optimisés tel que les niveaux et l'économie, les giveaways, les messages récurrents et la génération d'images !
+Les requêtes faites à discord ont elles aussi été réduites, le bot est donc plus réactif 🏓 
+
+🪂 **Quelques améliorations**
+De nombreuses autres améliorations on vu le jour, qui ont également été très demandés:
+ - Le reset de levels et d'économie pour tout un serveur
+ - L'ajout des permissions par defaut aux privateroom
+ - Des commandes executables en un seul message
+
+🐛 **Résolution de bugs**
+Comme vous avez pu nous rappeler qu'il y avait encore de petits bugs cachés, nous les avons traqués et exterminés ! 
+Si vous en recontrez de nouveaux n'hésitez pas à nous les signaler dans le salon <#616670089550364702> !
+
+## [**4.9.1 - 07/12/2019**](https://discord.com/channels/422112414964908042/599942732559024138/652777556730445834)
+
+🎠 **Toujours plus vite !**
+Grâce au passage vers la base de données PostgreSQL vous pourrez noter que DraftBot est plus rapide !
+Sa mise en place a permis notamment de préparer le terrain pour les sanctions temporaires qui verront bientôt le jour 😉 
+
+🎩 **Messages revisités et améliorés**
+Les messages ont dans leur majorité été retravaillés et améliorés, les performances de notre nouvelle base de donnée nous permet d'afficher plus d'informations !
+
+✨ **Toujours plus de fonctionnalités !**
+Encore une fois, de nouvelles fonctionnalités ont vu le jour, et d'autres ont été améliorés et ça grace à toutes vos <#599942741140701194> un grand merci à vous ❤️ 
+
+🐛 **Résolution de bugs**
+Comme vous avez pu nous rappeler qu'il y avait encore de petits bugs cachés, nous les avons traqués et exterminés ! 
+Si vous en recontrez de nouveaux n'hésitez pas à nous les signaler dans le salon <#616670089550364702> !
+
+Bonne journée !
+
+
+## [**4.9 - 02/11/2019**](https://discord.com/channels/422112414964908042/599942732559024138/640275784153432084)
+
+🎩 **Messages plus claires, plus élégants**
+Les messages envoyés par DraftBot lors des commandes ont été retravaillés afin d'être plus compréhensibles, mais nous retrouvons également un nouveau look pour les messages d'erreur et un nouveau type de message voit le jour: « information ».
+
+✨ **Toujours plus de fonctionnalités !**
+Les commandes tel que __RoleRéaction__, __RôleToRôle__, __Captcha__, __Filter__ et toutes les commandes de __Sanctions__ ont été améliorés d'un point de vu fonctionnalités et ergonomie.
+
+📰 **Des logs restent des logs**
+Les logs sont maintenant plus courts, plus explicites et ne sont plus une simple copie des messages envoyés après une commande. 
+Ils sont à présent tous configurables !
+
+🎮 **Gamer un jour, Gamer toujours...**
+Le jeu __Division 2__ voit le jour dans la catégorie Statistiques mais également dans le GameProfil !
