@@ -21,7 +21,7 @@ coverY: 0
 Vous aurez aussi des indications au fil des chapitres, vous permettant d'avoir des astuces, ou de mettre l'accent sur des éléments importants.
 {% endhint %}
 
-#### :warning: **** [_**Si vous souhaitez contacter le**** ****Support****, retrouvez-nous sur Discord en**** ****cliquant ici****.**_](https://discord.com/invite/DrzKVU3)
+#### :warning: [_**Si vous souhaitez contacter le** **Support**, **retrouvez-nous sur Discord en** **cliquant ici**._](https://discord.com/invite/DrzKVU3)
 
 {% embed url="https://draftbot.fr/commandes" %}
 Accéder aux commandes de **DraftBot**
