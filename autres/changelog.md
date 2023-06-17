@@ -57,7 +57,7 @@ description: >-
 - Correction d'un problème d'affichage dans la commande `/report`.
 - Correction de plusieurs bugs mineurs.
 
-## [**5.2 - 29/03/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1090743875573923850)
+## [**5.2.0 - 29/03/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1090743875573923850)
 
 ✨ **Nouveautés 5.2.0**
 
@@ -105,7 +105,7 @@ description: >-
   - `{birthday}` : Anniversaire de l'utilisateur
 - Amélioration légère de l'ergonomie de l'Embed Creator sur mobile.
 
-## [**5.1 - 02/02/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1070817034528624791)
+## [**5.1.0 - 02/02/2022**](https://discord.com/channels/422112414964908042/599942732559024138/1070817034528624791)
 
 ✨ **Nouveautés**
 
@@ -1637,7 +1637,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
  - Bug d'affichage du topmoney réglé
  - Bug d'affichage du message `adminmoney remove` réglé
  - Bug d'affichage des récompenses réglé avec une pagination sur 3 pages maximum si l'on dépasse 1024 caractères
- - Bug d'affichage des commandes `adminreward remove` et `adminshop remove`réglé avec une troncature suivie de `...` si l'on dépasse 1024 caractères
+ - Bug d'affichage des commandes `adminreward remove` et `adminshop remove` réglé avec une troncature suivie de `...` si l'on dépasse 1024 caractères
  - Bug de reset des récompenses réglé
  - Bug du bouton qui s'étain lors d'un reload pour visibilité d'un serveur infos sur le panel réglé
  - Bug d'importation des niveaux de MEE6 dans DraftBot réglé
@@ -1658,7 +1658,7 @@ Refonte complète du système de rôles réactions permettant l'ajout des bouton
  - Retour des images dans l'embed creator pour l'envoi et l'édition
 
 
-## [**4.11 - 13/06/2020**](https://discord.com/channels/422112414964908042/599942732559024138/722199124253999106)
+## [**4.11.0 - 13/06/2020**](https://discord.com/channels/422112414964908042/599942732559024138/722199124253999106)
 
  **Vue général :**
  - Les commandes sont harmonisées et annulables en répondant `cancel`
@@ -1814,7 +1814,7 @@ Si vous en recontrez de nouveaux n'hésitez pas à nous les signaler dans le sal
 Bonne journée !
 
 
-## [**4.9 - 02/11/2019**](https://discord.com/channels/422112414964908042/599942732559024138/640275784153432084)
+## [**4.9.0 - 02/11/2019**](https://discord.com/channels/422112414964908042/599942732559024138/640275784153432084)
 
 🎩 **Messages plus claires, plus élégants**
 Les messages envoyés par DraftBot lors des commandes ont été retravaillés afin d'être plus compréhensibles, mais nous retrouvons également un nouveau look pour les messages d'erreur et un nouveau type de message voit le jour: « information ».
