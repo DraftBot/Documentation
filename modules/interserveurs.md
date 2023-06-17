@@ -1,6 +1,7 @@
 ---
 description: >-
-  Relier deux salons distinct de deux serveurs.
+  Relier deux salons distincts de deux serveurs.
+
 ---
 
 # 🔃 Interserveurs
