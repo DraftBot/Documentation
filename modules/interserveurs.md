@@ -38,7 +38,8 @@ Vous ne pouvez pas lier deux salons du même serveur.
 ![Exemple de la commande à effectuer lors de la liaison des deux salons](../.gitbook/assets/interservers/interserver_link.png)
 
 {% hint style="info" %}
-Vous pouvez retrouver la fréquence configurée pour un salon en utilisant la commande <mark style="color:orange;">`/interserveur gérer`</mark> dans le salon correspondant.
+Vous pouvez retrouver la fréquence configurée pour un salon en utilisant la commande <mark style="color:orange;">/interserveur gérer</mark> dans le salon correspondant.
+
 {% endhint %}
 
 {% hint style="warning" %}
