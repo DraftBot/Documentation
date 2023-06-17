@@ -77,13 +77,15 @@ Ouvrez le menu déroulant pour voir les différentes variables :
 <details>
 
 <summary>Variables disponibles</summary>
-> **Membre** :
+
+> **Membre** :\
 > `{​user}` ➜ Mention du membre\
 > `{​user.id}` ➜ Identifiant du membre\
 > `{​user.tag}` ➜ Tag du membre *(Pseudo#0000)*\
 > `{​user.username}` ➜ Pseudo du membre\
-> `{​user.nickname}` ➜ Surnom ou pseudo du membre\
+> `{​user.nickname}` ➜ Surnom ou pseudo du membre
 >
+> **Niveaux** :\
 > `{​level}` ➜ Niveau du membre *(uniquement si le système de niveaux est activé)*\
 > `{​level.rank}` ➜ Place du membre *(uniquement pour les messages dans le système de niveaux)*
 >
@@ -92,17 +94,17 @@ Ouvrez le menu déroulant pour voir les différentes variables :
 >
 > `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
 >
-> **Serveur** :
+> **Serveur** :\
 > `{​server}` ou `{​server.name}` ➜ Nom du serveur\
 > `{​server.id}` ➜ Identifiant du serveur\
 > `{​server.membercount}` ➜ Nombre de membres sur le serveur
 >
-> **Salon**  :
+> **Salon**  :\
 > `{​channel}` ➜ Mentions du salon\
 > `{​channel.id}` ➜ Identifiant du salon\
 > `{​channel.name}` ➜ Nom du salon
 >
-> **Temps** :
+> **Temps** :\
 > `{​date}` ➜ Date actuelle (JJ/MM/AAAA)\
 > `{​time}` ➜ Heure actuelle (HH:MM)\
 > `{​timestamp}` ➜ Timestamp actuel en secondes
