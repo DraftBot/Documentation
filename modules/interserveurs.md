@@ -48,6 +48,6 @@ Un coldown est présent sur l'envoi des messages, il a été mis en place par s�
 {% endhint %}
 
 {% hint style="success" %}
-**Félicitations !** Vos deux salons ont bien été configurés.
+**Félicitations !** L'interserveur est maintenant configuré sur votre serveur !
 
 {% endhint %}
