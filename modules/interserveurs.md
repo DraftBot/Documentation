@@ -8,7 +8,8 @@ description: >-
 La fonctionnalité d'interserveurs permet à deux salons distincts de communiquer grâce à la simulation créée par DraftBot qui, prenant l'apparence de l'utilisateur, transmets les messages dans les salons connectés au vôtre.
 
 ## Les commandes
-**Trois commandes sont à disposition pour gérer vos liaisons de salon.**
+**Trois commandes sont à disposition pour gérer vos liaisons de salon :**
+
 
 > <mark style="color:orange;">/interserveur générer</mark> Générer une fréquence pour un interserveur.\
 <mark style="color:orange;">/interserveur lier</mark> Lier ce salon à une fréquence d'interserveur.\
