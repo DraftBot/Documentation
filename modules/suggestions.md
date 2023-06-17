@@ -7,31 +7,31 @@ description: >-
 # 💡 Suggestions
 
 ## Utilisation
+
 ### Menu des suggestions
 
-Pour accéder au menu des suggestions, faites la commande <mark style="color:orange;">/suggest</mark>.
-> Pour proposer une suggestion avec **DraftBot**, vous passerez forcément par ce menu.
+Pour accéder au menu des suggestions, vous devez vous rendre dans <mark style="color:orange;">/suggest</mark>.
 
-Le menu des suggestions vous permet de voir l'état de vos suggestions.\
-Vous pourrez ainsi voir le pourcentage de vote de vos suggestions mais aussi si elles ont été acceptées ou refusées.
+Cette commande vous permet de soumettre de nouvelles suggestions, accéder à celles-ci (en cliquant sur leurs titres) ou encore,voir leurs état. C'est à dire que vous pourrez voir le pourcentage de votes de vos suggestions mais aussi si elles ont été acceptées, refusées ou si elles sont prévues.
 
-Un lien sur le titre de votre suggestion vous permettra de la retrouver facilement.
+Vous pourrez également y décider de vous faire notifié ou non en cas d'un changement de <mark style="color:blue;">(status)[]</mark> sur l'une de vos suggestions.
 
 {% hint style="info" %}
+Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">(activée)[]</mark> sur le serveur. Si ce n'est pas le cas, le ne verrez pas le bouton "Me notifé en cas de changement de status"
+{% endhint %}
+
+{% hint style="warning" %}
 Ce système n'étant disponible que depuis peu, il n'est pas possible de répertorier les suggestions qui datent d'avant le 12 décembre 2022.
 {% endhint %}
 
-![Menu des suggestions](../.gitbook/assets/suggestions/program.png)
-
+![Menu des suggestions](../.gitbook/assets/suggestions/suggest_menu.png)
 
 ### Proposer une suggestion
 
-Pour proposer une suggestion, il vous faut faire la commande <mark style="color:orange;">/suggest</mark>.
+Pour proposer une suggestion, il faut vous rendre dans le [menu des suggestions](suggestions.md#menu-des-suggestions) (<mark style="color:orange;">/suggest</mark>) puis cliquer sur le bouton "<mark style="color:blue;">Envoyer une nouvelle suggestion</mark>".
 
-Vous accéderez ensuite au <mark style="color:orange;">[menu des suggestions](suggestions.md#menu-des-suggestions)</mark>. Pour créer une nouvelle suggestion, appuyez sur le bouton "<mark style="color:blue;">Envoyer une nouvelle suggestion</mark>".
-
-**DraftBot** vous ouvrira ensuite une page où vous pourrez renseigner :
-* Titre ➜ Le titre à donner à votre suggestion. Il permettra aussi de la référencer dans le menu des suggestions.
+**DraftBot** vous ouvrira ensuite un pop-up où vous pourrez renseigner :
+* Titre ➜ Le titre à donner à votre suggestion. Il permettra aussi de la référencer dans le menu des [menu des suggestions](suggestions.md#menu-des-suggestions).
 * Description ➜ La description de votre suggestion, où vous pourrez détailler votre suggestion pour mieux l'expliquer aux autres membres.
 
 {% hint style="info" %}
@@ -47,7 +47,7 @@ Vous pouvez alors sélectionner le bouton "<mark style="color:blue;">Ajouter un 
 
 ### Gérer une suggestion
 
-**DraftBot** vous propose de pouvoir accepter ou refuser une suggestion.\
+**DraftBot** vous propose de pouvoir accepter,refuser une suggestion.\
 Découvrez dans le menu ci-dessous comment faire !
 
 {% hint stype="info" %}
