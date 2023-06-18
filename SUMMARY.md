@@ -45,6 +45,8 @@
 - [🎂 Anniversaires](modules/anniversaires.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🎟 Tickets](modules/tickets.md)
+- [🔃 Interserveurs](modules/interserveurs.md)
+
 
 ## Autres
 
