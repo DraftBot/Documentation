@@ -14,14 +14,10 @@ Pour accéder au menu des suggestions, vous devez vous rendre dans <mark style="
 
 Cette commande vous permet de soumettre de nouvelles suggestions, accéder à celles-ci (en cliquant sur leurs titres) ou encore,voir leurs état. C'est à dire que vous pourrez voir le pourcentage de votes de vos suggestions mais aussi si elles ont été acceptées, refusées ou si elles sont prévues.
 
-Vous pourrez également y décider de vous faire notifié ou non en cas d'un changement de <mark style="color:blue;">(status)[]</mark> sur l'une de vos suggestions.
+Vous pourrez également y décider de vous faire notifié ou non en cas d'un changement de <mark style="color:blue;">(status)[suggestions.md#gérer-une-suggestion]</mark> sur l'une de vos suggestions.
 
 {% hint style="info" %}
 Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">(activée)[]</mark> sur le serveur. Si ce n'est pas le cas, le ne verrez pas le bouton "Me notifé en cas de changement de status"
-{% endhint %}
-
-{% hint style="warning" %}
-Ce système n'étant disponible que depuis peu, il n'est pas possible de répertorier les suggestions qui datent d'avant le 12 décembre 2022.
 {% endhint %}
 
 ![Menu des suggestions](../.gitbook/assets/suggestions/suggest_menu.png)
@@ -41,13 +37,13 @@ Vous aurez alors un bouton pour ajouter une image lors de cette confirmation.
 
 ![Menu de création d'une suggestion](../.gitbook/assets/suggestions/create_suggestion.png)
 
-**Vous avez oublié une information lors de la création de votre suggestion ou vous voulez ajouter un commentaire à cette dernière ?**\
+**Vous avez oublié une information lors de la publication de votre suggestion ou vous voulez ajouter un commentaire à cette dernière ?**\
 Vous pouvez alors sélectionner le bouton "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" pour en ajouter un.
 
 
 ### Gérer une suggestion
 
-**DraftBot** vous propose de pouvoir accepter,refuser une suggestion.\
+**DraftBot** vous propose de pouvoir accepter, refuser ou prévoir une suggestion.\
 Découvrez dans le menu ci-dessous comment faire !
 
 {% hint stype="info" %}
@@ -56,11 +52,14 @@ Vous avez besoin de la permission "*Gérer les messages*" pour pouvoir accepter 
 
 {% tabs %}
 {% tab title="Accepter une suggestion" %}
-Pour accepter une suggestion, faites un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question et appuyez sur "Applications".\
-Vous aurez ensuite la possibilité d'"Accepter" la suggestion.
+Pour accepter une suggestion, vous pouvez utiliser la commande <mark style="color:orange;">/suggestmod accepter</mark>. Vous devrez ensuite saisir l'<mark style="color:blue;">(identifiant)[https://docs.draftbot.fr/autres/recuperer-un-identifiant#message]</mark> du message (donc de la suggestion à accepter). Si vous le souhaitez, vous pourrez également y ajouter une raison d'acceptation.
 
-Un menu s'ouvrira et vous demandera votre raison d'acceptation.\
-Si vous ne souhaitez pas mettre de raison d'acceptation, appuyez directement sur "<mark style="color:blue;">Envoyer</mark>" sans rentrer de texte dans la case.
+{% hint stype="info" %}
+Vous avez aussi la possibilité faites un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question et appuyez sur "Applications". Vous aurez ensuite la possibilité d'"Accepter" la suggestion.
+
+![Accepter une suggestion](../.gitbook/assets/suggestions/suggest_accept.gif)
+{% endhint %}
+
 
 ![Accepter une suggestion](../.gitbook/assets/suggestions/suggest_accept.gif)
 {% endtab %}
