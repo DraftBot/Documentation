@@ -23,7 +23,7 @@ Attention, pour changer votre date de naissance, il y a un délai d'attente prog
 
 ## Modifier la visibilité de votre anniversaire
 
-Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & <mark style="color:orange;">/anniversaire désactiver</mark>, vous pouvez *(par serveur individuel)* activer ou désactiver la visibilité de votre anniversaire. Vous pouvez aussi modifier ces paramètres depuis le panel.
+Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & <mark style="color:orange;">/anniversaire désactiver</mark>, vous pouvez *(par serveur individuel)* activer ou désactiver la visibilité de votre anniversaire. Vous pouvez aussi modifier ces paramètres depuis le panel  (dans la rubrique <mark style="color:blue;">[profil](https://www.draftbot.fr/dashboard/user/profil))</mark>.
 
 ![Message de confirmation de la commande /anniversaire activer](../.gitbook/assets/birthday/birthday_enable.png)
 
@@ -48,8 +48,8 @@ Grâce au bouton <mark style="color:blue;">"Annonces"</mark>, vous pouvez param�
 
 ![Aperçu des différents paramètres d'annonce d'anniversaire](../.gitbook/assets/birthday/birth_config_annoncement.png)
 
-- En cliquant sur le bouton "Système activé/désactivé", vous pouvez activer ou désactiver le système d'annonce d'anniversaire.
-- Avec le bouton "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
+- En cliquant sur le bouton "Système activer/désactiver", vous pouvez activer ou désactiver le système d'annonces d'anniversaire.
+- Avec le bouton "Salon", vous pouvez choisir le salon dans lequel le bot enverra les annonces d'anniversaire.
 - Grâce au troisième bouton "Message", vous pouvez paramétrer le message d'annonce.
 
 {% hint style="info" %}
@@ -90,8 +90,8 @@ Temps :
 {% endhint %}
 
 - Avec l'aide du quatrième bouton "Heure d'envoi", vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
-- Grâce à ce cinquième bouton "Mention", vous pouvez décider de mentionner un rôle dans le message d'annonce.
-- Pour finir, avec le bouton "Rôles interdits", vous pouvez interdire l'annonce d'un anniversaire à tous les membres qui posséderont ce rôle. 
+- Grâce à ce cinquième bouton "Mention", vous pouvez décider de mentionner un rôle lors de l'annonce qui sera envoyée lorsque quelqu'un fêtera son anniversaire.
+- Pour finir, avec le bouton "Rôles interdits", vous pouvez bloquer l'annonce d'un anniversaire à tous les membres qui possède un certain rôle. 
 
 ## <mark style="color:blue;">Rôle</mark>
 
