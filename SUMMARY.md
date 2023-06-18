@@ -42,6 +42,7 @@
 - [📥 Notifications sociales](modules/notifications-sociales.md)
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
+- [🎂 Anniversaires](modules/anniversaires.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🎟 Tickets](modules/tickets.md)
 
