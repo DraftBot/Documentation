@@ -23,7 +23,7 @@ Attention, pour changer votre date de naissance, il y a un délai d'attente prog
 
 ## Modifier la visibilité de votre anniversaire
 
-Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & <mark style="color:orange;">/anniversaire désactiver</mark>, vous pouvez *(par serveur individuel)* activer ou désactiver la visibilité de votre anniversaire. Vous pouvez aussi modifier ces paramètres depuis le panel  (dans la rubrique <mark style="color:blue;">[profil](https://www.draftbot.fr/dashboard/user/profil))</mark>.
+Grâce aux commandes <mark style="color:orange;">/anniversaire activer</mark> & <mark style="color:orange;">/anniversaire désactiver</mark>, vous pouvez *(par serveur individuel)* activer ou désactiver la visibilité de votre anniversaire. Vous pouvez aussi modifier ces paramètres depuis le panel  (dans la rubrique <mark style="color:blue;">[profil](https://www.draftbot.fr/dashboard/user/profil)</mark>).
 
 ![Message de confirmation de la commande /anniversaire activer](../.gitbook/assets/birthday/birthday_enable.png)
 
