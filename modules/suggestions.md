@@ -12,9 +12,9 @@ description: >-
 
 Pour accéder au menu des suggestions, vous devez vous rendre dans <mark style="color:orange;">/suggest</mark>.
 
-Cette commande vous permet de soumettre de nouvelles suggestions, accéder à celles-ci (en cliquant sur leurs titres) ou encore,voir leurs état. C'est à dire que vous pourrez voir le pourcentage de votes de vos suggestions mais aussi si elles ont été acceptées, refusées ou si elles sont prévues.
+Cette commande vous permet de soumettre de nouvelles suggestions, accéder à celles-ci (en cliquant sur leurs titres) ou encore, voir leur état. C'est à dire que vous pourrez voir le pourcentage de votes de vos suggestions mais aussi si elles ont été acceptées, refusées ou si elles sont prévues.
 
-Vous pourrez également y décider de vous faire notifié ou non en cas d'un changement de <mark style="color:blue;">(status)[suggestions.md#gérer-une-suggestion]</mark> sur l'une de vos suggestions.
+Vous pourrez également y décider de vous faire notifié ou non en cas d'un changement de <mark style="color:blue;">(status)[suggestions.md#gerer-une-suggestion]</mark> sur l'une de vos suggestions.
 
 {% hint style="info" %}
 Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">(activée)[]</mark> sur le serveur. Si ce n'est pas le cas, le ne verrez pas le bouton "Me notifé en cas de changement de status"
@@ -43,39 +43,44 @@ Vous pouvez alors sélectionner le bouton "<mark style="color:blue;">Ajouter un 
 
 ### Gérer une suggestion
 
-**DraftBot** vous propose de pouvoir accepter, refuser ou prévoir une suggestion.\
-Découvrez dans le menu ci-dessous comment faire !
+**DraftBot** vous propose de pouvoir accepter, refuser ou prévoir une suggestion !\
+Découvrez dans le menu ci-dessous comment faire :
 
 {% hint stype="info" %}
-Vous avez besoin de la permission "*Gérer les messages*" pour pouvoir accepter ou refuser une suggestion.
+Vous avez besoin de la permission "*Gérer les messages*" pour pouvoir accepter, refuser ou prevoir une suggestion.
 {% endhint %}
 
 {% tabs %}
 {% tab title="Accepter une suggestion" %}
-Pour accepter une suggestion, vous pouvez utiliser la commande <mark style="color:orange;">/suggestmod accepter</mark>. Vous devrez ensuite saisir l'<mark style="color:blue;">(identifiant)[https://docs.draftbot.fr/autres/recuperer-un-identifiant#message]</mark> du message (donc de la suggestion à accepter). Si vous le souhaitez, vous pourrez également y ajouter une raison d'acceptation.
+Pour accepter une suggestion, vous pouvez utiliser la commande <mark style="color:orange;">/suggestmod accepter</mark>. Vous devrez ensuite saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message (donc de la suggestion à accepter). Finalement, un menu s'ouvrira afin vous demander la raison d'acceptation.
 
 {% hint stype="info" %}
-Vous avez aussi la possibilité faites un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question et appuyez sur "Applications". Vous aurez ensuite la possibilité d'"Accepter" la suggestion.
+Vous avez aussi la possibilité de faire un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question puis d'appuyez sur "Applications". Vous aurez ensuite la possibilité d'"Accepter" la suggestion.
 
 ![Accepter une suggestion](../.gitbook/assets/suggestions/suggest_accept.gif)
 {% endhint %}
 
-
-![Accepter une suggestion](../.gitbook/assets/suggestions/suggest_accept.gif)
 {% endtab %}
 
 {% tab title="Refuser une suggestion" %}
-Pour refuser une suggestion, faites un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question et appuyez sur "Applications".\
-Vous aurez ensuite la possibilité de "Refuser" la suggestion.
+Pour refuser une suggestion, vous pouvez utiliser la commande <mark style="color:orange;">/suggestmod refuser</mark>. Vous devrez ensuite saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message (donc de la suggestion à refuser). Finalement, un menu s'ouvrira afin vous demander la raison de refus.
 
-Un menu s'ouvrira afin vous demander la raison de refus.
+
+{% hint stype="info" %}
+Vous avez aussi la possibilité de faire un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question puis d'appuyez sur "Applications". Vous aurez ensuite la possibilité d'"Refuser" la suggestion.
 
 ![Refuser une suggestion](../.gitbook/assets/suggestions/suggest_refuse.gif)
+{% endhint %}
 {% endtab %}
-{% endtabs %}
+{% tab title="Prévoir une suggestion" %}
+Pour prévoir une suggestion, vous pouvez utiliser la commande <mark style="color:orange;">/suggestmod prevue</mark>. Vous devrez ensuite saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message (donc de la suggestion à prévoir). Finalement, un menu s'ouvrira afin vous demander la raison de prévision.
+
+{% hint stype="info" %}
+Vous avez aussi la possibilité de faire un clic droit (sur ordinateur) ou appuyez longtemps (sur mobile) sur la suggestion en question puis d'appuyez sur "Applications". Vous aurez ensuite la possibilité de prévoir la suggestion.
+
+- GIF à ajouté
+{% endhint %}
+
+Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours repasser une suggestion en attente via la commande <mark style="color:orange;">/suggestmod attente</mark>. Vous aurez ensuite à saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message (donc de la suggestion).
 
 ## Configuration
-
-
-
-![](<../../.gitbook/assets/suggestions/view.png>)
