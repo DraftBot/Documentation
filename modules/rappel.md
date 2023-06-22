@@ -12,7 +12,7 @@ Pour créer un rappel, vous devez effectué la commande <mark style="color:orang
 
 - **La raison** : afin de connaître le motif de votre rappel.
 - **Le temps** : dans combien de temps souhaitez-vous recevoir votre rappel.
-- **La destination** : où souhaitez-vous recevoir le recevoir, entre vos messages privés ou dans le salon où le rappel a été créé.
+- **La destination** : où souhaitez-vous le recevoir, entre vos messages privés ou dans le salon où le rappel a été créé.
 
 ![Aperçu de la commande](../.gitbook/assets/remind/rappel_create.png)
 
