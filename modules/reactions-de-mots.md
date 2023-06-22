@@ -5,7 +5,7 @@ description: >-
 
 # 👀 Réactions de mots
 
-## Qu'est-ce que le système de réactions de mots et quel est son utilité ?
+## À quoi sert-il ?
 
 Le système de réactions de mots fait réagir **DraftBot** à des messages qui commencent par un mot prédéfini avec une réaction définie. Un aperçu du message est disponible ci-dessous :
 
