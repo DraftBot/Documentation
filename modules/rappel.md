@@ -17,10 +17,10 @@ Pour créer un rappel, vous devez effectué la commande <mark style="color:orang
 ![Aperçu de la commande](../.gitbook/assets/remind/rappel_create.png)
 
 {% hint style="warning" %}
-✨ Vous pouvez créer jusqu'à **10 rappels simultanément** avec le premium (max : 3 rappels sans premium). 
+✨ Vous pouvez créer jusqu'à **10 rappels simultanément** avec le [premium](https://www.draftbot.fr/premium), et jusqu'à **3 rappels** sans le premium. 
 {% endhint %}
 
-{% hint style="success" %} 🎉 Félicitations, vous avez créé un rappel ! Vous serez mentionné par DraftBot le moment venu.{% endhint %}
+{% hint style="success" %} 🎉 Félicitations, vous avez créé un rappel ! Vous serez mentionné sur votre serveur par DraftBot ou averti dans vos messages privés le moment venu.{% endhint %}
 
 ## Modifier un rappel
 
