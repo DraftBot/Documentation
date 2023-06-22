@@ -95,6 +95,7 @@ La suppression est irréversible, cela dit une validation de la suppression sera
 
 ## Informations supplémentaires
 
-Si vous ne possédez pas le <mark style="color:orange;">[premium](https://draftbot.fr/premium)</mark>, vous serez limité à 10 réactions de mots. En possédant le premium de DraftBot, vous pourrez créer des réactions de mots de manière illimitée.
+Si vous ne possédez pas le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>, vous serez limité à 10 réactions de mots. En possédant le premium de **DraftBot**, vous pourrez créer des réactions de mots de manière illimitée.
+
 
 Vous pouvez regarder le <mark style="color:blue;">[comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)</mark> ici.
