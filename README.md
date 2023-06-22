@@ -59,4 +59,8 @@ Accéder aux commandes de **DraftBot**
 
 * [**Commandes personnalisées**](https://docs.draftbot.fr/modules/commandes-personnalisees)
 
+{% hint style="info" %}
+Vous pouvez aussi retrouver la liste complète **des commandes** et **leurs fonctionnalités** en vous rendant sur la page suivante : "[Commandes DraftBot](https://www.draftbot.fr/commandes)". 
+{% endhint %}
+
 </details>
