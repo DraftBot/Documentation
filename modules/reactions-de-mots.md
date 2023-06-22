@@ -51,7 +51,7 @@ Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de con
 
 ### Réinitialiser le système
 
-Si vous souhaitez supprimer **toutes** les réactions de mots, il suffira d'appuyer sur le bouton "Réinitialiser".
+Si vous souhaitez supprimer **toutes** les réactions de mots, il suffira d'appuyer sur le bouton <mark style="color:red;">"Réinitialiser"</mark>.
 
 {% hint style="danger" %}
 Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots par défaut, à savoir : "hey", "coucou" et "salut" avec la réaction "👋".
