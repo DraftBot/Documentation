@@ -25,7 +25,7 @@ Le bot ne réagira que lorsque le mot est en **début de phrase**.
 
 ### Activer le système de réactions de mots
 
-Pour activer le système de réactions de mots, il faudra aller dans le système "👀 Réactions de mots" et de cliquer sur "Activer le système".
+Pour activer le système de réactions de mots, il faudra aller dans le système "👀 Réactions de mots" puis cliquer sur "Activer le système".
 
 {% hint style="info" %}
 Pour désactiver le système, il suffira de faire la même procédure : le bouton "Activer le système" est devenu "Désactiver le système".\
