@@ -12,9 +12,9 @@ La fonctionnalité d'interserveurs permet à deux salons distincts de communique
 **Trois commandes sont à disposition pour gérer vos liaisons de salon :**
 
 
-> <mark style="color:orange;">/interserveur générer</mark> Générer une fréquence pour un interserveur.\
-<mark style="color:orange;">/interserveur lier</mark> Lier ce salon à une fréquence d'interserveur.\
-<mark style="color:orange;">/interserveur gérer</mark> Gérer la liaison interserveur du salon.
+> <mark style="color:orange;">/interserveur générer</mark> ➜ Générer une fréquence pour un interserveur.\
+<mark style="color:orange;">/interserveur lier</mark> ➜ Lier ce salon à une fréquence d'interserveur.\
+<mark style="color:orange;">/interserveur gérer</mark> ➜ Gérer la liaison interserveur du salon.
 
 
 
