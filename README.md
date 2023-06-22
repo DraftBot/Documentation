@@ -57,6 +57,6 @@ Accéder aux commandes de **DraftBot**
 
 * **Utilitaires :** avatar - sauvegarde - couleur - maths - meteo - qrcode - reagir - envoyer.
 
-* **Commandes personnalisées**
+* [**Commandes personnalisées**](https://docs.draftbot.fr/modules/commandes-personnalisees)
 
 </details>
