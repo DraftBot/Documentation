@@ -47,6 +47,7 @@
 - [👀 Réactions de mots](modules/reactions-de-mots.md)
 - [🎟 Tickets](modules/tickets.md)
 - [🔃 Interserveurs](modules/interserveurs.md)
+- [⏰ Rappel](modules/rappel.md)
 
 ## Autres
 
