@@ -24,7 +24,7 @@ Pour créer un rappel, vous devez effectué la commande <mark style="color:orang
 
 ## Modifier un rappel
 
-Vous pouvez modifier un rappel à tout moment, même s'il est déjà en cours, avec l'aide de la commande <mark style="color:orange;">/rappel modifier</mark>. Vous n'aurez qu'à choisir le rappel que vous souhaitez modifier et de choisir une nouvelle raison, un nouveau temps et une autre destination.
+Vous pouvez modifier un rappel à tout moment, même s'il est déjà en cours, avec l'aide de la commande <mark style="color:orange;">/rappel modifier</mark>. Vous n'aurez qu'à prendre le rappel que vous souhaitez modifier et de choisir une nouvelle raison, un nouveau temps en plus d'une autre destination.
 
 ## Supprimer un rappel
 
