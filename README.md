@@ -59,6 +59,4 @@ Accéder aux commandes de **DraftBot**
 
 * **Commandes personnalisées**
 
-\*\*\*\*
-
 </details>
