@@ -12,10 +12,10 @@ coverY: 0
 #### Afin que votre découverte de **DraftBot** via notre documentation se passe au mieux, voici quelques détails concernant la rédaction :
 
 * Les chapitres sont organisés par ordre logique et regroupent les [commandes](https://www.draftbot.fr/commandes) d'une même utilité, vous permettant ainsi les uns après les autres d'appréhender au mieux le bot, de manière claire et intuitive. Si vous souhaitez directement rejoindre une commande en particulier, vous pouvez utiliser la fonction **Recherche** ou le Sommaire situé plus bas.
-* Les commandes seront écrites avec un / et en orange
-* Si la commande contient du texte, il sera en italique /exemple _Ceci est du texte_
-* Les mentions de rôles et membres seront indiquées par @ et les salons par # /exemple @Rôle
-* Les actions à réaliser, comme les boutons à cliquer, seront écrits entre guillemets, et avec leur couleur associée. Par exemple <mark style="color:green;">"Oui"</mark> et <mark style="color:red;">"Non"</mark>
+* Les commandes seront écrites avec un / et en <mark style="color:orange;">orange</mark>.
+* Si la commande contient du texte, il sera en italique /exemple _Ceci est du texte_.
+* Les mentions de rôles et membres seront indiquées par @ et les salons par # /exemple @Rôle.
+* Les actions à réaliser, comme les boutons à cliquer, seront écrites entre guillemets, et avec leur couleur associée. Par exemple <mark style="color:green;">"Oui"</mark> et <mark style="color:red;">"Non"</mark>.
 
 {% hint style="info" %}
 Vous aurez aussi des indications au fil des chapitres, vous permettant d'avoir des astuces, ou de mettre l'accent sur des éléments importants.
@@ -31,33 +31,33 @@ Accéder aux commandes de **DraftBot**
 
 <summary>Sommaire des commandes</summary>
 
-**Bot :** aide - botinfo - [config](slash/configuration) - panel - ping - premium - shards - support - votes
+* **Bot :** aide - botinfo - [config](slash/configuration) - panel - ping - premium - shards - support - votes.
 
-**Modération :** avertir - ban - expulser - mod - mute - normalize - note - sanctions - stickyroles - temprole - unban - unmute
+* **Modération :** avertir - ban - expulser - mod - mute - normaliser - note - sanctions - infractions - roles-permanents - role-temporaire - unban - unmute.
 
-**Conversations :** citer - clear - copier - move - save
+* **Conversations :** citer - effacer - copier - déplacer - enregistrer - vider-salon.
 
-**Interaction :** interserveur - rappel - reglement - restrictemoji - signaler - suggest - ticket
+* **Interaction :** interserveur - rappel - reglement - emojiperm - signaler - suggest - ticket.
 
-**Informations :** description - info - localité - profil
+* **Informations :** description - info - localité - profil.
 
-**Niveaux :** dropxp - level - recompenses - toplevel - updatexp
+* **Niveaux :** dropxp - niveau - recompenses - topniveau - adminxp.
 
-**Economie :** boutique - daily - dropmoney - money - payer - topmoney - updatemoney
+* **Économie :** boutique - journalier - dropargent - argent - payer - topargent - adminargent.
 
-**Inventaires :** inventaire - updateinventaire
+* **Inventaires :** inventaire - admininventaire - dropitem - item.
 
-**Statistiques :** gameprofil - stats
+* **Statistiques :** profiljeux - stats.
 
-**Emotions :** interact
+* **Émotions :** interact.
 
-**Jeux :** bingo - chifumi - jeux - pendu - puissance4 - tictactoe
+* **Jeux :** bingo - chifumi - pendu - puissance4 - puissance4 - demineur - colormind.
 
-**Fun :** amour - anniversaire - blague - concours - rolldice - sondage - tv - youtube
+* **Fun :** couple - anniversaire - blague - concours - lancer-dés - sondage - tv - youtube - evenement.
 
-**Utilitaires :** avatar - backup - couleur - maths - meteo - qrcode - react - say
+* **Utilitaires :** avatar - sauvegarde - couleur - maths - meteo - qrcode - reagir - envoyer.
 
-**Commandes personnalisées**
+* **Commandes personnalisées**
 
 \*\*\*\*
 
