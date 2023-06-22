@@ -21,46 +21,8 @@ coverY: 0
 Vous aurez aussi des indications au fil des chapitres, vous permettant d'avoir des astuces, ou de mettre l'accent sur des éléments importants.
 {% endhint %}
 
-#### :warning: [_**Si vous souhaitez contacter le** **Support**, **retrouvez-nous sur Discord en** **cliquant ici**._](https://discord.com/invite/DrzKVU3)
-
-{% embed url="https://draftbot.fr/commandes" %}
-Accéder aux commandes de **DraftBot**
-{% endembed %}
-
-<details>
-
-<summary>Sommaire des commandes</summary>
-
-* **Bot :** aide - botinfo - [config](slash/configuration) - panel - ping - premium - shards - support - votes.
-
-* **Modération :** avertir - ban - expulser - mod - mute - normaliser - note - sanctions - infractions - roles-permanents - role-temporaire - unban - unmute.
-
-* **Conversations :** citer - effacer - copier - déplacer - enregistrer - vider-salon.
-
-* **Interaction :** interserveur - rappel - reglement - emojiperm - signaler - suggest - ticket.
-
-* **Informations :** description - info - localité - profil.
-
-* **Niveaux :** dropxp - niveau - recompenses - topniveau - adminxp.
-
-* **Économie :** boutique - journalier - dropargent - argent - payer - topargent - adminargent.
-
-* **Inventaires :** inventaire - admininventaire - dropitem - item.
-
-* **Statistiques :** profiljeux - stats.
-
-* **Émotions :** interact.
-
-* **Jeux :** bingo - chifumi - pendu - puissance4 - puissance4 - demineur - colormind.
-
-* **Fun :** couple - anniversaire - blague - concours - lancer-dés - sondage - tv - youtube - evenement.
-
-* **Utilitaires :** avatar - sauvegarde - couleur - maths - meteo - qrcode - reagir - envoyer.
-
-* [**Commandes personnalisées**](https://docs.draftbot.fr/modules/commandes-personnalisees)
+#### :warning: Si vous souhaitez contacter le **Support**, retrouvez-nous sur Discord en [**cliquant ici**](https://discord.com/invite/DrzKVU3).
 
 {% hint style="info" %}
-Vous pouvez aussi retrouver la liste complète **des commandes** et **leurs fonctionnalités** en vous rendant sur la page suivante : "[Commandes DraftBot](https://www.draftbot.fr/commandes)". 
+Vous pouvez aussi retrouver la liste complète **des commandes** et **leurs fonctionnalités** en vous rendant sur la [<mark style="color:orange;">page suivante</mark>](https://www.draftbot.fr/commandes).
 {% endhint %}
-
-</details>
