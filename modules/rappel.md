@@ -15,10 +15,10 @@ Pour créer un rappel, vous devez effectué la commande <mark style="color:orang
 - **La destination** : où souhaitez-vous recevoir le recevoir, entre vos messages privés ou dans le salon où le rappel a été créé.
 
 {% hint style="warning" %}
-✨ Vous pouvez créer jusqu'à 10 rappels simultanément avec le premium (max : 3 rappels sans premium). 
+✨ Vous pouvez créer jusqu'à **10 rappels simultanément** avec le premium (max : 3 rappels sans premium). 
 {% endhint %}
 
-{% hint style="success" %} :tada: Félicitations, vous avez créé un rappel ! Vous serez mentionné par DraftBot le moment venu.{% endhint %}
+{% hint style="success" %} 🎉 Félicitations, vous avez créé un rappel ! Vous serez mentionné par **DraftBot** le moment venu.{% endhint %}
 
 ## Modifier un rappel
 
