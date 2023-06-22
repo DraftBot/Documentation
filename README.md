@@ -21,7 +21,7 @@ coverY: 0
 Vous aurez aussi des indications au fil des chapitres, vous permettant d'avoir des astuces, ou de mettre l'accent sur des éléments importants.
 {% endhint %}
 
-#### :warning: Si vous souhaitez contacter le **Support**, retrouvez-nous sur Discord en [**cliquant ici**](https://discord.com/invite/DrzKVU3).
+#### :warning: Si vous souhaitez contacter le **Support**, retrouvez-nous sur Discord en [**<mark style="color:orange;">cliquant ici</mark>**](https://discord.com/invite/DrzKVU3).
 
 {% hint style="info" %}
 Vous pouvez aussi retrouver la liste complète **des commandes** et **leurs fonctionnalités** en vous rendant sur la [<mark style="color:orange;">page suivante</mark>](https://www.draftbot.fr/commandes).
