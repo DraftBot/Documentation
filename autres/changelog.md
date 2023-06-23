@@ -5,6 +5,76 @@ description: >-
 ---
 
 # Mises à jour
+## [**5.3.0 - 23/06/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1121576226713243674)
+
+💡 **Amélioration du système de suggestions :**
+
+- Nouvelle page de configuration pour les suggestions.
+- Il est maintenant possible de mentionner un rôle lors d'une nouvelle suggestion sur le serveur.
+- Gestion des mentions et messages privés des suggestions d'un serveur spécifique possible par le membre avec la commande /suggest.
+- Notifications envoyées lors du changement de statut, avec possibilité de mentionner le membre
+- La partie dédiée aux suggestions dans la commande `/config` a été améliorée.
+- Suggestions acceptées ou refusées déplaçables automatiquement dans des fils dédiés.
+- Possibilité de bloquer les discussions dans les fils de tri dans la configuration du bot.
+- Nouveau type "Prévue", accessible via clic droit ou `/suggestmod` attente et qui n'est pas pris en compte dans le nombre de suggestions simultanées par membre.
+- Ajout de la possibilité de cacher le nom du modérateur triant les suggestions.
+- Amélioration de l'ergonomie de la configuration des suggestions + séparation dans une nouvelle page.
+- Passage de la commande `/suggest` en ephemeral pour éviter les spams dans les salons.
+
+🚩 **Refonte du système de signalements :**
+
+- Possibilité de signaler un membre ou un message via le clic droit en plus des commandes.
+- Possibilité d'ouvrir un fil automatique pour les modérateurs à chaque nouveau signalement.
+- Les signalements traités peuvent être déplacés dans des fils dédiés selon leur type.
+- Ajout d'un menu au message de signalement envoyé aux modérateurs :
+- Ajout de boutons : "Pris en charge", "Marqué comme traité" et "Ouvrir un ticket" (si tickets activés).
+- Possibilité de sanctionner un membre sur le message si des sanctions prédéfinies existent.
+- Nouvelle page de configuration pour les signalements.
+
+📨 **Nouvelle page d'embeds :**
+
+- Nouvelle ergonomie d'édition et de prévisualisation des embeds & boutons.
+- Suppression des onglets au profit d'une barre latérale plus adaptée.
+- Système de brouillons pour une utilisation furtive sans sauvegarde.
+- Simplification du système de sauvegarde.
+- Amélioration de l'ergonomie d'envoi & d'édition avec importation de messages.
+- Nouvelle pop-up pour l'envoi d'images (liens, drag&drop, importation)
+- Envoi de messages avec des profils personnalisés (photo de profil & pseudo)
+- Nouveautés d'embeds :
+ - Jusqu'à 5 embeds par message.
+ - Personnalisation de l'icône d'avatar & de footer.
+ - Possibilité d'intégrer des liens dans le titre et l'auteur de l'embed.
+ - Intégration du sélecteur d'émojis.
+ - Ajout des émojis aux boutons de liens.
+ - Augmentation du nombre d'embeds pour les premiums (10 → 50).
+
+🎂 **Amélioration des anniversaires :**
+Ajout d'un nouveau mode "Privé/Public" pour les anniversaires.
+- Public : Utilisation de la date du profil.
+- Privé : Dates modifiables par les gérants du serveur avec une nouvelle commande `/adminbirthday`.
+
+🔐 **Paramètres de confidentialité pour la modération :**
+- Possibilité de cacher le nom du modérateur dans les MP de sanctions.
+- Possibilité de rendre les commandes de modération éphémères.
+
+🚜 **Nouvelle commande /topitems :**
+Nouvelle commande `/topitems` qui permet d'afficher les statistiques des items sur le serveur.
+
+🗒️ **Autres améliorations :**
+
+- Support des nouveaux pseudos Discord (@username)
+- Auto-complétion des noms d'items en circulation dans les différentes fonctionnalités de DraftBot les incluants.
+- Le système des shards a été entièrement retravaillé afin d'apporter une meilleure stabilité au projet.
+- Vous pouvez maintenant voir sur quel cluster se trouve votre serveur (icône + nom).
+- Amélioration de la page d'accueil du `/config` Modération avec une synthèse de l'ensemble des systèmes.
+- Il est possible désormais de ne plus obtenir un message d'erreur lorsqu'on supprime des messages de plus de 14 jours.
+- Affichage du nombre de sanctions dans le `/sanctions list`.
+- Améliorations de l'ergonomie du panel sur mobile & possibilité d'installation du site via bulle sur iPhone & iPad.
+- Amélioration de l'ensemble des jeux (Puissance4, Morpion, Chifumi, Pendu, Colormind).
+- Correction d'un bug important au niveau des chaînes YouTube.
+- Prise en charge des posts de forum dans les salons ignorés (xp, money, logs).
+- Ajout de la possibilité de créer automatiquement les salons lors de la configuration de plusieurs systèmes (tickets, suggestions, captcha, etc...).
+- Ajout d'un mode de répétition "ciblé" pour envoyer les messages récurrents quotidiennement à une heure précise.
 
 ## [**5.2.4 - 19/05/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1109137561634472006)
 
