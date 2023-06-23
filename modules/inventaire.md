@@ -12,13 +12,23 @@ Vous avez différentes possibilités d'obtenir un objet :
 
 - **Récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
 - **Achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
-- **Echange entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
+- **Échange entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
 - **Le dropitem** : Qui fait apparaître un message où vous devez être le plus rapide pour récupérer l'objet.
 
 ## Gérer l'inventaire d'un membre
 
+Avec l'aide de la commande <mark style="color:orange;">/admininventaire</mark>, vous avez la capacité en tant qu'administrateur de gérer l'inventaire d'un membre de votre serveur Discord.
+
+Plusieurs options s'offrent à vous :
+
+> <mark style="color:orange;">/admininventaire donner</mark> ➜ Ajouter un objet à l'inventaire d'un membre.\
+<mark style="color:orange;">/admininventaire retirer</mark> ➜ Retirer un objet à l'inventaire d'un membre.\
+<mark style="color:orange;">/admininventaire reset</mark> ➜ Vider en totalité l'inventaire d'un membre.\
+<mark style="color:orange;">/admininventaire reset serveur</mark>
+➜ Réinitialiser l'inventaire de tous les membres du serveur.
+
 ## Afficher son inventaire
 
-## Echanger un objet
+## Échanger un objet
 
 ## Le dropitem
