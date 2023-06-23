@@ -39,4 +39,10 @@ Vous pouvez voir l'inventaire d'un autre membre en le **mentionnant** ou en util
 
 ## Échanger un objet
 
+Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâce à la commande <mark style="color:orange;">/objet</mark> et en **sélectionnant** le membre avec qui vous souhaitez effectuer l'échange :
+
+> <mark style="color:orange;">/objet donner</mark> ➜ Donner un objet à un membre.\
+<mark style="color:orange;">/objet vendre</mark> ➜ Vendre un objet à un membre.\
+<mark style="color:orange;">/objet échanger</mark> ➜ Échanger un objet à un membre.
+
 ## Le dropitem
