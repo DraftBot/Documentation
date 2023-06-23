@@ -17,7 +17,7 @@ Vous avez différentes possibilités d'obtenir un objet :
 
 ## Gérer l'inventaire d'un membre
 
-Avec l'aide de la commande <mark style="color:orange;">/admininventaire</mark>, vous avez la capacité en tant qu'administrateur de gérer l'inventaire d'un membre de votre serveur Discord.
+Avec l'aide de la commande <mark style="color:orange;">/admininventaire</mark>, vous avez la capacité en tant qu'**administrateur** de gérer l'inventaire d'un membre de votre serveur Discord.
 
 Plusieurs options s'offrent à vous :
 
@@ -28,6 +28,12 @@ Plusieurs options s'offrent à vous :
 ➜ Réinitialiser l'inventaire de tous les membres du serveur.
 
 ## Afficher son inventaire
+
+Les membres du serveur peuvent accéder à tout moment à **leur propre inventaire** en utilisant la commande <mark style="color:orange;">/inventaire</mark>. Si le membre possède des objets, ils seront donc affichés, de même qu'il aura la possibilité de voir l'argent en sa possession grâce au système d'[économie](https://docs.draftbot.fr/modules/economie) de DraftBot.
+
+{% hint style="info" %}
+Vous pouvez voir l'inventaire d'un autre membre en le **mentionnant** ou en utilisant son **pseudonyme** après la commande. Par exemple : <mark style="color:orange;">/inventaire [membre]</mark>.
+{% endhint %}
 
 ## Échanger un objet
 
