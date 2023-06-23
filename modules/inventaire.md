@@ -46,6 +46,6 @@ Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâ
 
 ## La commande /objet drop
 
-La commande <mark style="color:orange;">/objet drop</mark>, elle a pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton. Vous avez le choix du salon pour lancer le drop.
+La commande <mark style="color:orange;">/objet drop</mark>, a pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer"**. Vous avez également la possibilité de choisir le salon où le drop sera lancé.
 
 ![Aperçu de la commande](../.gitbook/assets/inventory/dropitem.png)
