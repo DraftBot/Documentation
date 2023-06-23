@@ -13,7 +13,7 @@ Vous avez différentes possibilités d'obtenir un objet :
 - **Récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
 - **Achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
 - **Échange entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
-- **La commande /objet drop** : Qui génère un message où vous devez être le plus rapide pour récupérer l'objet.
+- **Les commandes /dropitem et /objet drop** : Elles génèrent un message où vous devez être le plus rapide pour récupérer l'objet.
 
 ## Gérer l'inventaire d'un membre
 
@@ -44,8 +44,15 @@ Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâ
 <mark style="color:orange;">/objet vendre</mark> ➜ Vendre un objet à un membre.\
 <mark style="color:orange;">/objet échanger</mark> ➜ Échanger un objet à un membre.
 
-## La commande /objet drop
+## Les commande /dropitem et /objet drop
 
-La commande <mark style="color:orange;">/objet drop</mark> a pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. Vous avez également la possibilité de choisir le salon où le drop sera lancé.
+Les commandes <mark style="color:orange;">/objet drop</mark> et <mark style="color:orange;">/objet drop</mark> ont pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. Toutefois, qu'elle est la différence entre les deux ?
 
-![Aperçu de la commande](../.gitbook/assets/inventory/dropitem.png)
+> <mark style="color:orange;">/dropitem</mark> ➜ Commande exécutée par un administrateur pour lancer le drop.\
+<mark style="color:orange;">/objet drop</mark> ➜ Offre un objet qui provient de l'inventaire d'un membre.
+
+![Aperçu de la commande /objet drop](../.gitbook/assets/inventory/dropitem.png)
+
+{% hint style="info" %}
+Vous avez également la possibilité de choisir dans les deux cas, le salon où le drop sera lancé.
+{% endhint %}
