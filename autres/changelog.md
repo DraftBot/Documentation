@@ -5,9 +5,7 @@ description: >-
 ---
 
 # Mises à jour
-## [**5.3 - 23/06/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1121576226713243674)
-
-## ✨ Nouveautés 5.3.0
+## [**5.3.0 - 23/06/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1121576226713243674)
 
 💡 **Amélioration du système de suggestions :**
 
