@@ -11,7 +11,7 @@ coverY: 0
 
 #### Afin que votre découverte de **DraftBot** via notre documentation se passe au mieux, voici quelques détails concernant la rédaction :
 
-* Les chapitres sont organisés par ordre logique et regroupent les [commandes](https://www.draftbot.fr/commandes) d'une même utilité, vous permettant ainsi les uns après les autres d'appréhender au mieux le bot, de manière claire et intuitive. Si vous souhaitez directement rejoindre une commande en particulier, vous pouvez utiliser la fonction **Recherche** ou le Sommaire situé plus bas.
+* Les chapitres sont organisés par ordre logique et regroupent **les commandes** d'une même utilité, vous permettant ainsi les uns après les autres d'appréhender au mieux le bot, de manière claire et intuitive. Si vous souhaitez directement rejoindre une commande en particulier, vous pouvez utiliser la **barre de recherche**.
 * Les commandes seront écrites avec un / et en <mark style="color:orange;">orange</mark>.
 * Si la commande contient du texte, il sera en italique /exemple _Ceci est du texte_.
 * Les mentions de rôles et membres seront indiquées par @ et les salons par # /exemple @Rôle.
