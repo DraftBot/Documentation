@@ -13,7 +13,7 @@ Vous avez différentes possibilités d'obtenir un objet :
 - **Récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
 - **Achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
 - **Échange entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
-- **La commande /objet drop** : Qui fait apparaître un message où vous devez être le plus rapide pour récupérer l'objet.
+- **La commande /objet drop** : Qui génère un message où vous devez être le plus rapide pour récupérer l'objet.
 
 ## Gérer l'inventaire d'un membre
 
@@ -46,6 +46,6 @@ Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâ
 
 ## La commande /objet drop
 
-La commande <mark style="color:orange;">/objet drop</mark>, a pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer"**. Vous avez également la possibilité de choisir le salon où le drop sera lancé.
+La commande <mark style="color:orange;">/objet drop</mark> a pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. Vous avez également la possibilité de choisir le salon où le drop sera lancé.
 
 ![Aperçu de la commande](../.gitbook/assets/inventory/dropitem.png)
