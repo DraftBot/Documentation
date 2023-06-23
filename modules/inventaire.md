@@ -10,9 +10,11 @@ description: >-
 
 Vous avez différentes possibilités d'obtenir un objet :
 
-- **Récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
-- **Achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
-- **Échange entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
+- **Les récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
+- **L'achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
+- **Les cadeaux anniversaires** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Anniversaires](https://docs.draftbot.fr/modules/anniversaires.md)" ou via le panel web.
+- **Les concours (giveaway)** : Lorsqu'on utilise la commande <mark style="color:orange;">/concours créer item</mark>.
+- **Les échanges entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
 - **Les commandes <mark style="color:orange;">/dropitem</mark> et <mark style="color:orange;">/objet drop</mark>** : Elles génèrent un message où vous devez être le plus rapide pour récupérer l'objet.
 
 ## Gérer l'inventaire d'un membre
