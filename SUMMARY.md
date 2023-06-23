@@ -37,6 +37,7 @@
 - [👋 Arrivées & départs](modules/arrivees-et-departs.md)
 - [📉 Niveaux](modules/niveaux.md)
 - [💰 Économie](modules/economie.md)
+- [🔎 Inventaires](modules/inventaire.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
 - [📥 Notifications sociales](modules/notifications-sociales.md)
