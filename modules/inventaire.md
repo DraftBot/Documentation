@@ -13,7 +13,7 @@ Vous avez différentes possibilités d'obtenir un objet :
 - **Récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
 - **Achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
 - **Échange entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
-- **Les commandes /dropitem et /objet drop** : Elles génèrent un message où vous devez être le plus rapide pour récupérer l'objet.
+- **Les commandes <mark style="color:orange;">/dropitem</mark> et <mark style="color:orange;">/objet drop</mark>** : Elles génèrent un message où vous devez être le plus rapide pour récupérer l'objet.
 
 ## Gérer l'inventaire d'un membre
 
@@ -50,7 +50,7 @@ Les commandes <mark style="color:orange;">/dropitem</mark> et <mark style="color
 
 **Toutefois, quelle est la différence entre les deux ?**
 
-> <mark style="color:orange;">/dropitem</mark> ➜ Commande exécutée par un administrateur pour lancer le drop.\
+> <mark style="color:orange;">/dropitem</mark> ➜ Génère un nouvel objet pour lancer le drop.\
 <mark style="color:orange;">/objet drop</mark> ➜ Offre un objet qui provient de l'inventaire d'un membre.
 
 ![Aperçu de la commande /objet drop](../.gitbook/assets/inventory/dropitem.png)
