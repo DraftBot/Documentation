@@ -44,9 +44,11 @@ Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâ
 <mark style="color:orange;">/objet vendre</mark> ➜ Vendre un objet à un membre.\
 <mark style="color:orange;">/objet échanger</mark> ➜ Échanger un objet à un membre.
 
-## Les commande /dropitem et /objet drop
+## Les commandes /dropitem et /objet drop
 
-Les commandes <mark style="color:orange;">/objet drop</mark> et <mark style="color:orange;">/objet drop</mark> ont pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. Toutefois, qu'elle est la différence entre les deux ?
+Les commandes <mark style="color:orange;">/objet drop</mark> et <mark style="color:orange;">/objet drop</mark> ont pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. 
+
+**Toutefois, quelle est la différence entre les deux ?**
 
 > <mark style="color:orange;">/dropitem</mark> ➜ Commande exécutée par un administrateur pour lancer le drop.\
 <mark style="color:orange;">/objet drop</mark> ➜ Offre un objet qui provient de l'inventaire d'un membre.
