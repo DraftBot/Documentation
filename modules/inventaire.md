@@ -46,7 +46,7 @@ Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâ
 
 ## Les commandes /dropitem et /objet drop
 
-Les commandes <mark style="color:orange;">/objet drop</mark> et <mark style="color:orange;">/objet drop</mark> ont pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. 
+Les commandes <mark style="color:orange;">/dropitem</mark> et <mark style="color:orange;">/objet drop</mark> ont pour but de générer un message et d'offrir l'objet à la première personne qui clique sur le bouton **"Récupérer !"**. 
 
 **Toutefois, quelle est la différence entre les deux ?**
 
