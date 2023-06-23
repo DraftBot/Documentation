@@ -31,6 +31,8 @@ Plusieurs options s'offrent à vous :
 
 Les membres du serveur peuvent accéder à tout moment à **leur propre inventaire** en utilisant la commande <mark style="color:orange;">/inventaire</mark>. Si le membre possède des objets, ils seront donc affichés, de même qu'il aura la possibilité de voir l'argent en sa possession grâce au système d'[économie](https://docs.draftbot.fr/modules/economie) de DraftBot.
 
+![Aperçu de l'inventaire d'un membre](../.gitbook/assets/inventory/inventory.png)
+
 {% hint style="info" %}
 Vous pouvez voir l'inventaire d'un autre membre en le **mentionnant** ou en utilisant son **pseudonyme** après la commande. Par exemple : <mark style="color:orange;">/inventaire [membre]</mark>.
 {% endhint %}
