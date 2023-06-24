@@ -40,15 +40,9 @@ Le marché noir est une variante de la boutique consistant à se supprimer au bo
 
 ## Objets d'inventaire
 
-Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](modules/economie#boutique)</mark>__ ou gagnés, vous pouvez effectuer les commandes :
+Vous avez la possibilité avec **DraftBot** de pouvoir animer la vie de votre serveur avec des objets d'inventaire. Une fois achetés dans la __<mark style="color:blue;">[boutique](modules/economie#boutique)</mark>__ ou gagnés, vous pouvez exécuter des commandes qui vous permettront **d'effectuer des échanges** entre membres et **la gestion des inventaires** !
 
-- <mark style="color:orange;">/inventaire</mark> ➜ Afficher son inventaire ou celui de la personne de notre choix.
-- <mark style="color:orange;">/item échanger</mark> ➜ Échanger un de ses objets d'inventaire avec la personne de son choix.
-- <mark style="color:orange;">/item donner</mark> ➜ Donner un de ses objets d'inventaire à la personne de son choix.
-- <mark style="color:orange;">/item drop</mark> ➜ Offrir un de ses items à la personne qui appuiera sur le bouton en premier.
-- <mark style="color:orange;">/item vendre</mark> ➜ Vendre un de ses objets d'inventaire à la personne de son choix.
-- <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item via un giveaway.
-- <mark style="color:orange;">/dropitem</mark> ➜ Générer un message qui offre un item au premier qui clique sur le bouton.
+Pour plus d'informations, rendez-vous sur la page des <mark style="color:blue;">[inventaires](https://docs.draftbot.fr/modules/inventaire)</mark>.
 
 ## Modifier l'argent des utilisateurs
 
