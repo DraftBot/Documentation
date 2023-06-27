@@ -38,5 +38,9 @@ Une question vous sera posée dans le but de savoir si vous souhaitez comptabili
 ![Résultat de la configuration](../.gitbook/assets/membercount/categorycount.png)
 
 {% hint style="info" %}
-Il ne vous manquera plus de changer le nom de la catégorie **"xxxxxx"** comme vous le souhaitez, en plus d'ajouter de nouveaux salons sans dérégler le compteur de membres dans la catégorie.
+Il ne vous manquera plus que de changer le nom de la catégorie **"xxxxxx"** comme vous le souhaitez, en plus d'ajouter de nouveaux salons, sans dérégler le compteur de membres dans la catégorie.
+{% endhint %}
+
+{% hint style="warning" %}
+Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration.
 {% endhint %}
