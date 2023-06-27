@@ -121,8 +121,47 @@ Vous pouvez également ne pas définir de vote neutre en cliquant sur "Vote neut
 
 En cliquant sur le bouton "Confirmation", vous aurez accès à ce menu :
 
+"Activer la confirmation avant envoi" ➜ Cette option sert à ce que le membre puisse modifier ça suggestion s'il se rend compte qu'il a fait une erreur ou à ajouter une image.
 
-![Configurer les messages de confirmation](../.gitbook/assets/suggestions/set_suggestion_confirmation.png)
+{% hint style="warning" %}
+Si cette option n'est pas activée, il vous sera impossible d'ajouter une image à vos suggestions.
+{% endhint %}
+
+![Message de confirmation lors de l'envoi d'une suggestion](../.gitbook/assets/suggestions/suggestion_confirmation.png)
+
+"Message de confirmation après envoi" ➜ Vous pouvez définir un message personnalisé qui sera envoyé lorsqu'un membre enverra une nouvelle suggestion.
+
+{% hint style="info" %}
+Cette option n'est pas désactivable, si vous décidez de ne pas la personnalisée, voici le message qui sera envoyé :
+> Merci de votre suggestion. Elle a été ajoutée aux suggestions du serveur !
+{% endhint %}
+
+
+![Configurer les différentes confirmations](../.gitbook/assets/suggestions/set_suggestion_confirmation.png)
+
+### Tri des suggestions
+
+En cliquant sur le bouton "Tri des suggestions", vous aurez accès à ce menu :
+
+"Activer le tri des suggestions" ➜ Sert à activer / désactiver le tri des suggestions
+"Masquer le nom du modérateur" ➜ Cette option sert masquer le nom de la personne qui aura [géré la suggestion](suggestions.md#gerer-une-suggestion).
+"Activer les notifications" ➜ Une fois cette option activée le membre qui aura fait la suggestion pourra, ou non être notifié lorsque sa suggestion changera de [statut](suggestions.md#gerer-une-suggestion).
+> "<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.
+> "Mention activée par défaut" ➜ Une fois cette option activée, les membres seront toujours notifié lors du changement de statut.
+> "Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifié lors du changement de statut.
+>
+> {% hint style="info" %}
+> Pour les deux dernières options citées ci-dessus, il sera possible pour vos membres de modifier le paramètre par défaut en passant par "<mark style="color:orange;">/suggest</mark>" puis "Me notifié en cas de changement de statut".
+> {% endhint %}
+
+{% hint style="info" %}
+Il est conseillé d'activer
+{% endhint %}
+
+![Menu de configuration des notifications lors du chnagement de statut](../.gitbook/assets/suggestions/set_suggestion_notification.png)
+
+"<mark style="color:blue;">Définir le fil des suggestions acceptées</mark>" ➜ 
+"<mark style="color:blue;">Définir le fil des suggestions refusée</mark>" ➜
 
 {% endtab %}
 
