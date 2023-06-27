@@ -17,7 +17,7 @@ Cette commande vous permet de soumettre de nouvelles suggestions, accéder à ce
 Vous pourrez également y décider de vous faire notifié ou non en cas d'un changement de <mark style="color:blue;">[status](suggestions.md#gerer-une-suggestion)</mark> sur l'une de vos suggestions.
 
 {% hint style="info" %}
-Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">(activée)[]</mark> sur le serveur. Si ce n'est pas le cas, vous ne verrez pas le bouton "Me notifé en cas de changement de status"
+Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">[activée](suggestions.md#tri-des-suggestions)</mark> sur le serveur. Si ce n'est pas le cas, vous ne verrez pas le bouton "Me notifé en cas de changement de status"
 {% endhint %}
 
 ![Menu des suggestions](../.gitbook/assets/suggestions/suggest_menu.png)
@@ -39,6 +39,10 @@ Vous aurez alors un bouton pour ajouter une image lors de cette confirmation.
 
 *Vous avez oublié une information lors de la publication de votre suggestion ou vous voulez ajouter un commentaire à cette dernière ?*\
 Vous pouvez alors sélectionner le bouton "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" pour en ajouter un !
+
+{% hint style="info" %}
+Il faut que <mark style="color:blue;">[commentaire après publication](suggestions.md#membres)</mark> soit activé. 
+{% endhint %}
 
 ### Gérer une suggestion
 
@@ -92,9 +96,9 @@ Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours rep
 
 ### Configuration de base
 
-"<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.
-"<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.
-"Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+"<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.\n
+"<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.\n
+"Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.\n
 "Couleur en fonction des votes" ➜ Une fois cette option activée, **DraftBot** changera la couleur de l'embed en fonction du pourcentage de vote pour ou contre.
 
 {% hint stype="info" %}
@@ -146,22 +150,38 @@ En cliquant sur le bouton "Tri des suggestions", vous aurez accès à ce menu :
 "Activer le tri des suggestions" ➜ Sert à activer / désactiver le tri des suggestions
 "Masquer le nom du modérateur" ➜ Cette option sert masquer le nom de la personne qui aura [géré la suggestion](suggestions.md#gerer-une-suggestion).
 "Activer les notifications" ➜ Une fois cette option activée le membre qui aura fait la suggestion pourra, ou non être notifié lorsque sa suggestion changera de [statut](suggestions.md#gerer-une-suggestion).
-> "<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.
-> "Mention activée par défaut" ➜ Une fois cette option activée, les membres seront toujours notifié lors du changement de statut.
-> "Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifié lors du changement de statut.
->
-> {% hint style="info" %}
-> Pour les deux dernières options citées ci-dessus, il sera possible pour vos membres de modifier le paramètre par défaut en passant par "<mark style="color:orange;">/suggest</mark>" puis "Me notifié en cas de changement de statut".
-> {% endhint %}
+    "<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.
+    "<mark style="color:blue;">Mention activée par défaut</mark>" ➜ Une fois cette option activée, les membres seront toujours notifié lors du changement de statut
+    "Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifié lors du changement de statut.
 
 {% hint style="info" %}
-Il est conseillé d'activer
+Pour les deux dernières options citées ci-dessus, il sera possible pour vos membres de modifier le paramètre par défaut en passant par "<mark style="color:orange;">/suggest</mark>" puis "Me notifié en cas de changement de statut".
 {% endhint %}
 
 ![Menu de configuration des notifications lors du chnagement de statut](../.gitbook/assets/suggestions/set_suggestion_notification.png)
 
-"<mark style="color:blue;">Définir le fil des suggestions acceptées</mark>" ➜ 
-"<mark style="color:blue;">Définir le fil des suggestions refusée</mark>" ➜
+"<mark style="color:blue;">Définir le fil des suggestions acceptées</mark>" ➜ Une fois le fil défini, toute les suggestions acceptées se rendront automatiquement dans ce fil.
+"<mark style="color:blue;">Définir le fil des suggestions refusée</mark>" ➜ Une fois le fil défini, toute les suggestions refusées se rendront automatiquement dans ce fil.
+
+### Membres
+
+En cliquant sur le bouton "Membres", vous aurez accès à ce menu :
+
+"Limiter les suggestions en attentes" ➜ Grâce à ce bouton, vous pouvez décider de limiter le nombre de suggestion que vos membres pourront envoyer. 
+
+{% hint style="info" %}
+Le nombre de suggestions en simultané peut varier de **1** à **10**.
+
+Une fois la suggestions [traitée](suggestions.md#gerer-une-suggestion), le membre pourra renvoyer une suggestion.
+{% endhint %}
+
+"Activer le commentaire après publication" ➜ Une fois cette option activée, si un de vos membres oublie un détail important sur sa suggestion, il pourra après coup ajouter un commentaire sous sa suggestion en passant par <mark style="color:orange;">/suggest</mark>.
+
+![Menu de configuration de la partie "Membre"](../.gitbook/assets/suggestions/set_suggestion_member.png)
+
+### 💎 Fils de discussions automatiques
+
+En cliquant sur le bouton "💎 Fils de discussions automatiques", vous aurez accès à ce menu :
 
 {% endtab %}
 
