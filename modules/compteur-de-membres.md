@@ -46,5 +46,5 @@ Il ne vous manquera plus que de changer le nom de la catégorie **"xxxxxx"** com
 {% endhint %}
 
 {% hint style="warning" %}
-Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration.
+Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration. Tous les caractères avant les " : " pour les compteurs vocaux et avant le " - " pour la catégorie peuvent être modifiés.
 {% endhint %}
