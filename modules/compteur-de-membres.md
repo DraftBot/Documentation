@@ -13,7 +13,7 @@ Lors de la configuration de la fonctionnalité en vous rendant dans la commande 
 ![Aperçu de la question](../.gitbook/assets/membercount/membercount1.png)
 
 {% hint style="info" %}
-Au bout de **10 minutes**, les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord, peu importe le nombre de membres.
+Un délai de **10 minutes** est imposé entre chaque actualisation. 
 {% endhint %}
 
 # Salons vocaux
