@@ -30,3 +30,7 @@ Une fois que vous aurez répondu à l'ensemble de ces questions, votre compteur 
 {% endhint %}
 
 # Catégorie
+
+Pour configurer le compteur de membres sous la forme d'une catégorie, il vous suffit de faire la commande <mark style="color:orange;">/config</mark> ➜ **"🧮 Compteur de membres"** et de cliquer sur le bouton **"Catégorie"**.
+
+Une question vous sera posée dans le but de savoir si vous souhaitez comptabiliser les bots parmi le nombre de membres.
