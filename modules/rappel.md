@@ -8,7 +8,7 @@ description: >-
 
 ## Créer un rappel
 
-Pour créer un rappel, vous devez effectué la commande <mark style="color:orange;">/rappel créer</mark>. DraftBot vous proposera ces champs : 
+Pour créer un rappel, vous devez effectuer la commande <mark style="color:orange;">/rappel créer</mark>. DraftBot vous proposera ces champs : 
 
 - **La raison** : afin de connaître le motif de votre rappel.
 - **Le temps** : dans combien de temps souhaitez-vous recevoir votre rappel.
@@ -28,7 +28,7 @@ Vous pouvez modifier un rappel à tout moment, même s'il est déjà en cours, a
 
 ## Supprimer un rappel
 
-Pour supprimer un rappel en cours, vous devez effectué la commande <mark style="color:orange;">/rappel supprimer</mark> et sélectionner le rappel que vous souhaitez retirer de la liste.
+Pour supprimer un rappel en cours, vous devez effectuer la commande <mark style="color:orange;">/rappel supprimer</mark> et sélectionner le rappel que vous souhaitez retirer de la liste.
 
 ## Voir la liste des rappels
 
