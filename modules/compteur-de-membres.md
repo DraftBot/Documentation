@@ -17,7 +17,7 @@ Un délai de **10 minutes** est imposé entre chaque actualisation.
 {% endhint %}
 
 {% hint style="warning" %}
-Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration. Tous les caractères avant les " : " pour les compteurs vocaux et avant le " - " pour la catégorie peuvent être modifiés.
+Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration.
 {% endhint %}
 
 # Salons vocaux
@@ -37,6 +37,10 @@ Diverses questions s'offriront à vous afin que **DratfBot** puisse finaliser la
 Une fois que vous aurez répondu à l'ensemble de ces questions, votre compteur de membres en forme de salons vocaux sera prêt !
 {% endhint %}
 
+{% hint style="info" %}
+Tous les caractères avant le " : " dans le nom des salons peuvent être modifiés.
+{% endhint %}
+
 # Catégorie
 
 Pour configurer le compteur de membres sous la forme d'une catégorie, il vous suffit de faire la commande <mark style="color:orange;">/config</mark> ➜ **"🧮 Compteur de membres"** et de cliquer sur le bouton **"Catégorie"**.
@@ -47,4 +51,8 @@ Une question vous sera posée dans le but de savoir si vous souhaitez comptabili
 
 {% hint style="info" %}
 Il ne vous manquera plus que de changer le nom de la catégorie **"xxxxxx"** comme vous le souhaitez, en plus d'ajouter de nouveaux salons, sans dérégler le compteur de membres dans la catégorie.
+{% endhint %}
+
+{% hint style="info" %}
+Tous les caractères avant le " - " dans le nom de la catégorie peuvent être modifiés.
 {% endhint %}
