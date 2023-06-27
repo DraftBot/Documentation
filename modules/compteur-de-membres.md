@@ -16,6 +16,10 @@ Lors de la configuration de la fonctionnalité en vous rendant dans la commande 
 Un délai de **10 minutes** est imposé entre chaque actualisation. 
 {% endhint %}
 
+{% hint style="warning" %}
+Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration. Tous les caractères avant les " : " pour les compteurs vocaux et avant le " - " pour la catégorie peuvent être modifiés.
+{% endhint %}
+
 # Salons vocaux
 
 Une fois le design choisi, pour le cas présent, ce sera le design avec **les salons vocaux**. Vous devrez soit sélectionner une catégorie existante, soit faire une nouvelle catégorie pour que **les différents salons des statistiques** puissent être créés.
@@ -43,8 +47,4 @@ Une question vous sera posée dans le but de savoir si vous souhaitez comptabili
 
 {% hint style="info" %}
 Il ne vous manquera plus que de changer le nom de la catégorie **"xxxxxx"** comme vous le souhaitez, en plus d'ajouter de nouveaux salons, sans dérégler le compteur de membres dans la catégorie.
-{% endhint %}
-
-{% hint style="warning" %}
-Faites bien attention à ne pas toucher au compteur de membres, sinon vous serez obligé de refaire une nouvelle configuration. Tous les caractères avant les " : " pour les compteurs vocaux et avant le " - " pour la catégorie peuvent être modifiés.
 {% endhint %}
