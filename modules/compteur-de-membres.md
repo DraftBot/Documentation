@@ -12,6 +12,10 @@ Lors de la configuration de la fonctionnalité en vous rendant dans la commande 
 
 ![Aperçu de la question](../.gitbook/assets/membercount/membercount1.png)
 
+{% hint style="info" %}
+Au bout de **10 minutes**, les données du compteur de membres sont actualisées lorsqu'un membre quitte ou rejoint votre serveur Discord, peu importe le nombre de membres.
+{% endhint %}
+
 # Salons vocaux
 
 Une fois le design choisi, pour le cas présent, ce sera le design avec **les salons vocaux**. Vous devrez soit sélectionner une catégorie existante, soit faire une nouvelle catégorie pour que **les différents salons des statistiques** puissent être créés.
