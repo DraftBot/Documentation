@@ -45,6 +45,7 @@
 - [🔒 Captcha](modules/captcha.md)
 - [🎂 Anniversaires](modules/anniversaires.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
+- [🧮 Compteur de membres](modules/compteur-de-membres.md)
 - [👀 Réactions de mots](modules/reactions-de-mots.md)
 - [🎟 Tickets](modules/tickets.md)
 - [🔃 Interserveurs](modules/interserveurs.md)
