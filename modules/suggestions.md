@@ -96,9 +96,9 @@ Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours rep
 
 ### Configuration de base
 
-"<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.\n
-"<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.\n
-"Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.\n
+"<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.
+"<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.
+"Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
 "Couleur en fonction des votes" ➜ Une fois cette option activée, **DraftBot** changera la couleur de l'embed en fonction du pourcentage de vote pour ou contre.
 
 {% hint stype="info" %}
@@ -183,9 +183,133 @@ Une fois la suggestions [traitée](suggestions.md#gerer-une-suggestion), le memb
 
 En cliquant sur le bouton "💎 Fils de discussions automatiques", vous aurez accès à ce menu :
 
+"Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.
+"Modifier le nom du fil" ➜ Vous pourrez mofifier le nom du fil qui s'ouvrira sous chaque suggestion.
+
+{% hint style="info" %}
+Vous pouvez mettre diffrérentes variables dans le nom du fil :
+
+### 💎 Fils de discussions automatiques (*Avantage Premium*)
+
+En cliquant sur le bouton "💎 Fils de discussions automatiques", vous aurez accès à ce menu :
+
+"Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.
+"Modifier le nom du fil" ➜ Vous pourrez mofifier le nom du fil qui s'ouvrira sous chaque suggestion.
+
+{% hint style="info" %}
+Vous pouvez mettre diffrérentes variables dans le nom du fil :
+
+<details>
+<summary>Variables</summary>
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans le nom des fils automatiquement ouverts par DraftBot.
+
+- `{user}` ➜ Mention du membre
+- `{user.id}` ➜ Identifiant du membre
+- `{user.username}` ➜ Pseudo du membre
+- `{user.nickname}` ➜ Surnom ou pseudo du membre
+- `{user.tag}` ➜ Tag du membre _(Pseudo#0000)_
+- `{server}` ➜ Nom du serveur
+- `{server.id}` ➜ Identifiant du serveur
+- `{server.name}` ➜ Nom du serveur
+- `{server.membercount}` ➜ Nombre de membres sur le serveur
+- `{date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{time}` ➜ Heure actuelle (HH:MM)
+- `{timestamp}` ➜ Timestamp actuel en secondes
+</details>
+{% endhint %}
+
+![Menu de configuration concernant les fils automatiques](../.gitbook/assets/suggestions/set_suggestion_automatic_thread.png)
+
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Here is second tab content.
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Suggestions.
+
+Si vous n'avez pas encore configurer le système, vous tomberez sur cette page :  
+
+![Premier menu lorsque l'on configure le système](../.gitbook/assets/suggestions/dashboard_suggestion.png)
+
+En cliquant sur "Configurer en quelques secondes" vous tomberez sur ce pop-up : 
+
+![Configurer la structure du système de suggestions](../.gitbook/assets/suggestions/dashboard_set_structure.png)
+
+Vous pourrez y configurer la structure de votre système :
+
+"Salons des suggestions" ➜ Paramétré le salon dans lequel seront envoyées les suggestions.
+
+{% hint style="info" %}
+La différence entre l'onglet "Créer" et "Sélectionner" est que dans le premier onglet, vous choisirez le nom du salon que **DraftBot** créera et dans le deuxième, vous choisirez un salon déjà créé.  
+{% endhint %}
+
+"Suggestions par membre" ➜ Vous pourrez y limiter le nombre de suggestion <mark style="color:blue;">[non-traitée](suggestions.md#gerer-une-suggestion)</mark> par membre.
+"Rôle à mentionner" ➜ Paraméter le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+"Modération des suggestions" ➜ Une fois cette option activée, les suggestions pourront être [refusées, acceptées ou prévues](suggestions.md#gerer-une-suggestion).
+
+Une fois cela fait, d'autres options de configuration s'offriront à vous :
+
+"Message de confirmation d'une suggestion" ➜ Configurer le message qui s'enverra automatiquement lorsqu'un membre enverra une nouvelle suggestion.
+
+{% hint style="info" %}
+Cette option n'est pas désactivable, si vous décidez de ne pas la personnalisée, voici le message qui sera envoyé :
+
+> Merci de votre suggestion. Elle a été ajoutée aux suggestions du serveur !
+{% endhint %}
+
+"Réactions" ➜ Paramétrer les différentes réactions pour donner un avis positif, neutre ou négatif.
+
+{% hint style="info" %}
+Le vote "neutre" peut être retirer des réactions.
+{% endhint %}
+
+"Demande de confirmation" ➜ Une fois la suggestion envoyé, **DraftBot** proposera une dernière fois au membre de pouvoir modifier sa suggestion ou encore y ajouter une image.
+
+{% hint style="warning" %}
+Si cette option n'est pas activée, il vous sera impossible d'ajouter une image à vos suggestions.
+{% endhint %}
+
+"Variation de la couleur" ➜ Suivant le pourcentage de votes pour ou contre, la couleur variera.
+
+{% hint style="info" %}
+Pour les utilisateurs <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pourrez décider des couleurs.
+{% endhint %}
+
+"Ouverture automatique d'un fil de discussion" (💎) ➜ Paraméter l'ouverture automatique d'un fil lorsqu'une nouvelle suggestion est envoyée.
+
+{% hint style="info" %}
+Vous pouvez mettre diffrérentes variables dans le nom du fil :
+
+<details>
+<summary>Variables</summary>
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans le nom des fils automatiquement ouverts par DraftBot.
+
+- `{user}` ➜ Mention du membre
+- `{user.id}` ➜ Identifiant du membre
+- `{user.username}` ➜ Pseudo du membre
+- `{user.nickname}` ➜ Surnom ou pseudo du membre
+- `{user.tag}` ➜ Tag du membre _(Pseudo#0000)_
+- `{server}` ➜ Nom du serveur
+- `{server.id}` ➜ Identifiant du serveur
+- `{server.name}` ➜ Nom du serveur
+- `{server.membercount}` ➜ Nombre de membres sur le serveur
+- `{date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{time}` ➜ Heure actuelle (HH:MM)
+- `{timestamp}` ➜ Timestamp actuel en secondes
+</details>
+{% endhint %}
+
+"Supression des réactions" ➜ Lorsqu'une suggestion sera <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, les réactions seront retirées de la suggestion.
+"Commentaire de la part de l'auteur" ➜ Une fois activé, vos membres pourront ajouter un commentaire sur leur suggestion si ils ont oubliés un détail.
+"Masquer le pseudo du modérateur" ➜ Le nom de la personne ayant <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark> la suggestion ne sera pas affiché sur la suggestion.
+"Fils de tri" ➜ Une fois les suggestions <mark style="color:blue;">[traitées](suggestions.md#gerer-une-suggestion)</mark>, elles seront automatiquement dans les fils configuré ici.
+"Notification de changements" ➜ Lorsque la suggestion change de statut, c'est à dire quelle est acceptée, refusée, ou prévue, l'auteur de la suggestion sera mentionné soit dans le fil de la suggestion (si l'option est activée), dans les fils de tri ou dans les messages privés.
+
+{% hint style="info" %}
+Les membres pourront toujours modifier les paramètres par défaut depuis la commande <mark style="color:orange;">/suggest</mark>.
+{% endhint %}
+
+![Configuration du système de suggestion via le panel](../.gitbook/assets/suggestions/dashboard_view.png)
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+
 {% endtab %}
 {% endtabs %}
