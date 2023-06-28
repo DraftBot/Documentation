@@ -5,7 +5,7 @@ description: >-
 
 # Configuration
 
-Lors de la configuration de la fonctionnalité en vous rendant dans la commande <mark style="color:orange;">/config</mark> ➜ **"🧮 Compteur de membres"**, vous aurez le choix entre deux design :
+Lors de la configuration de la fonctionnalité en vous rendant dans la commande <mark style="color:orange;">/config</mark> ➜ **"🧮 Compteur de membres"**, vous aurez le choix entre deux designs :
 
 - **En plusieurs salons** : Sous la forme de salons vocaux qui pourra indiquer le nombre de membres, salons, rôles, etc.
 - **En catégorie** : Sous la forme d'une catégorie où sera affiché uniquement le nombre de membres.
