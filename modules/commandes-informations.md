@@ -18,7 +18,7 @@ La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'i
 ![Aperçu de la commande /info utilisateur](../.gitbook/assets/info-commands/infouser.png)
 
 {% hint style="info" %}
-Si l'utilisateur n'est pas sur votre serveur, la date d'arrivée et les rôles ne seront pas affichés.
+Si l'utilisateur n'est pas présent sur votre serveur, la date d'arrivée et les rôles ne seront pas affichés.
 {% endhint %}
 
 {% hint style="info" %}
@@ -33,8 +33,8 @@ La commande <mark style="color:orange;">/info serveur</mark> vous permet d'indiq
 - Le shard et le cluster où il se trouve dans la page "<mark style="color:blue;">[Statuts](https://www.draftbot.fr/statuts)</mark>".
 - Le nom du propriétaire.
 - Le nombre de membres, de salons, de fils, de rôles, d'émojis, de bots et de boosts.
-- Le niveau de sécurité.
-- La date de création.
+- Le niveau de sécurité : la vérification et la restriction d'âge.
+- La date de création du serveur.
 - La date d'arrivée de DraftBot sur le serveur.
 
 ![Aperçu de la commande /info serveur](../.gitbook/assets/info-commands/infoserver.png)
@@ -79,7 +79,7 @@ La commande <mark style="color:orange;">/profil</mark> vous permet d'indiquer le
 - Le niveau et le rang dans le classement du serveur.
 - L'argent en sa possession sur le serveur.
 - La date de son anniversaire, si elle a été activée et rendue visible.
-- Les profils de jeux : son pseudonyme sur les différents jeux et la plateforme.
+- Les profils de jeux : son pseudonyme sur les différents jeux et les plateformes.
 - La date de création du compte.
 - La date d'arrivée sur le serveur.
 
