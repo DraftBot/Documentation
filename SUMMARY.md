@@ -49,7 +49,7 @@
 - [👀 Réactions de mots](modules/reactions-de-mots.md)
 - [🎟 Tickets](modules/tickets.md)
 - [🔃 Interserveurs](modules/interserveurs.md)
-- [ℹ️ Commandes d'informations](modules/commandes-informations.md)
+- [❕Commandes d'informations](modules/commandes-informations.md)
 - [⏰ Rappel](modules/rappel.md)
 
 ## Autres
