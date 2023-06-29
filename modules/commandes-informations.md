@@ -7,7 +7,7 @@ description: >-
 
 ## Info utilisateur
 
-La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'indiquer les informations détaillées d'un utilisateur :
+La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'obtenir les informations détaillées d'un utilisateur :
 
 - L'identifiant de l'utilisateur.
 - Les différents rôles qu'il possède sur le serveur.
@@ -27,7 +27,7 @@ Il est possible de voir les informations d'un utilisateur autre que le vôtre en
 
 ## Info serveur
 
-La commande <mark style="color:orange;">/info serveur</mark> vous permet d'indiquer les informations détaillées de votre serveur Discord :
+La commande <mark style="color:orange;">/info serveur</mark> vous permet d'obtenir les informations détaillées de votre serveur Discord :
 
 - Le nom du serveur.
 - Le shard et le cluster où il se trouve dans la page "<mark style="color:blue;">[Statuts](https://www.draftbot.fr/statuts)</mark>".
@@ -41,7 +41,7 @@ La commande <mark style="color:orange;">/info serveur</mark> vous permet d'indiq
 
 ## Info rôle
 
-La commande <mark style="color:orange;">/info rôle</mark> vous permet d'indiquer les informations détaillées sur un rôle bien précis :
+La commande <mark style="color:orange;">/info rôle</mark> vous permet d'obtenir les informations détaillées sur un rôle bien précis :
 
 - L'identifiant du rôle.
 - Le code couleur héxadécimal du rôle.
@@ -54,7 +54,7 @@ La commande <mark style="color:orange;">/info rôle</mark> vous permet d'indique
 
 ## Info salon
 
-La commande <mark style="color:orange;">/info salon</mark> vous permet d'indiquer les informations détaillées sur un salon ou une catégorie :
+La commande <mark style="color:orange;">/info salon</mark> vous permet d'obtenir les informations détaillées sur un salon ou une catégorie :
 
 - L'identifiant du salon ou de la catégorie.
 - Le sujet du salon.
@@ -72,7 +72,7 @@ Pour différencier un salon et une catégorie, une icône "📁" apparaîtra à 
 
 ## Profil
 
-La commande <mark style="color:orange;">/profil</mark> vous permet d'indiquer les informations détaillées sur le profil d'un membre du serveur :
+La commande <mark style="color:orange;">/profil</mark> vous permet d'obtenir les informations détaillées sur le profil d'un membre du serveur :
 
 - La mention du membre.
 - La localité.
