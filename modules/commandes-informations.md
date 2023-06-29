@@ -41,19 +41,6 @@ La commande <mark style="color:orange;">/info serveur</mark> vous permet d'indiq
 
 ## Info rôle
 
-La commande <mark style="color:orange;">/info rôle</mark> vous permet d'indiquer les informations détaillées sur un rôle bien précis. Vous pourrez ainsi obtenir :
-
-- L'identifiant du rôle.
-- Le code couleur héxadécimal du rôle.
-- S'il est mentionnable ou non.
-- Le nombre de membres qui le possède.
-- Les permissions qu'il possède.
-- Sa position hiéarchique parmi les autres rôles.
-
-![Aperçu de la commande /info rôle](../.gitbook/assets/info-commands/inforole.png)
-
-## Info rôle
-
 La commande <mark style="color:orange;">/info rôle</mark> vous permet d'indiquer les informations détaillées sur un rôle bien précis :
 
 - L'identifiant du rôle.
