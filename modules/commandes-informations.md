@@ -67,7 +67,7 @@ La commande <mark style="color:orange;">/info salon</mark> vous permet d'indique
 ![Aperçu de la commande /info salon](../.gitbook/assets/info-commands/infochannel.png)
 
 {% hint style="info" %}
-Pour différencier d'un salon d'une catégorie, une icône "📁" apparaîtra à côté du nom de la catégorie.
+Pour différencier un salon et une catégorie, une icône "📁" apparaîtra à côté du nom de la catégorie.
 {% endhint %}
 
 ## Profil
