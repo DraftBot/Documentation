@@ -54,7 +54,7 @@ La commande <mark style="color:orange;">/info rôle</mark> vous permet d'obtenir
 
 ## Info salon
 
-La commande <mark style="color:orange;">/info salon</mark> vous permet d'obtenir les informations détaillées sur un salon ou une catégorie :
+La commande <mark style="color:orange;">/info salon</mark> vous permet d'obtenir les informations détaillées sur un salon ou une catégorie bien précis :
 
 - L'identifiant du salon ou de la catégorie.
 - Le sujet du salon.
