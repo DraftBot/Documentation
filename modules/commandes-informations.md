@@ -83,7 +83,7 @@ La commande <mark style="color:orange;">/profil</mark> vous permet d'indiquer le
 - La date de création du compte.
 - La date d'arrivée sur le serveur.
 
-![Aperçu de la commande /info salon](../.gitbook/assets/info-commands/profil.png)
+![Aperçu de la commande /profil](../.gitbook/assets/info-commands/profil.png)
 
 {% hint style="info" %}
 Vous pouvez ajouter une petite description sur votre profil avec la commande <mark style="color:orange;">/description</mark>.
