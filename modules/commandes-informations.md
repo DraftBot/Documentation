@@ -1,6 +1,6 @@
 ---
 description: >-
-Découvez toutes les commandes à votre disposition pour obtenir des informations détaillées sur un sujet précis.
+  Découvez toutes les commandes à votre disposition pour obtenir des informations détaillées sur un sujet précis.
 ---
 
 # Commandes d'informations
