@@ -13,7 +13,7 @@ La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'i
 - Les différents rôles qu'il possède sur le serveur.
 - La date d'arrivée sur le serveur.
 - La date de création de son compte.
-- Quelques badges : s'il possède le premium ainsi que la HypeSquad de Discord.
+- Quelques badges : s'il possède le premium et s'il est membre de la HypeSquad de Discord.
 
 ![Aperçu de la commande /info utilisateur](../.gitbook/assets/info-commands/infouser.png)
 
