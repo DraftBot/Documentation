@@ -5,7 +5,7 @@ description: >-
 
 # Commandes d'informations
 
-## La commande /info utilisateur
+## /info utilisateur
 
 La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'obtenir les informations détaillées d'un utilisateur :
 
@@ -13,7 +13,8 @@ La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'o
 - Les différents rôles qu'il possède sur le serveur.
 - La date d'arrivée sur le serveur.
 - La date de création de son compte.
-- Les badges : tout comme celui du premium et des membres de l'équipe de DraftBot. Ou bien les badges de Discord : ceux de la HypeSquad, partenaires, développeur actif, etc.
+- Les badges de DraftBot : le premium, les membres de l'équipe de DraftBot.
+- Les badges de Discord : la HypeSquad, les partenaires, développeur actif, développeur de bot certifié de la première heure, etc.
 
 ![Aperçu de la commande /info utilisateur](../.gitbook/assets/info-commands/infouser.png)
 
@@ -25,7 +26,7 @@ Si l'utilisateur n'est pas présent sur votre serveur, la date d'arrivée et les
 Il est possible de voir les informations d'un utilisateur autre que le vôtre en utilisant son **pseudonyme** ou son **identifiant** après la commande. Par exemple : <mark style="color:orange;">/info utilisateur [utilisateur]</mark>.
 {% endhint %}
 
-## La commande /info serveur
+## /info serveur
 
 La commande <mark style="color:orange;">/info serveur</mark> vous permet d'obtenir les informations détaillées de votre serveur Discord :
 
@@ -39,7 +40,7 @@ La commande <mark style="color:orange;">/info serveur</mark> vous permet d'obten
 
 ![Aperçu de la commande /info serveur](../.gitbook/assets/info-commands/infoserver.png)
 
-## La commande /info rôle
+## /info rôle
 
 La commande <mark style="color:orange;">/info rôle</mark> vous permet d'obtenir les informations détaillées sur un rôle bien précis :
 
@@ -52,7 +53,7 @@ La commande <mark style="color:orange;">/info rôle</mark> vous permet d'obtenir
 
 ![Aperçu de la commande /info rôle](../.gitbook/assets/info-commands/inforole.png)
 
-## La commande /info salon
+## /info salon
 
 La commande <mark style="color:orange;">/info salon</mark> vous permet d'obtenir les informations détaillées sur un salon ou une catégorie bien précis :
 
@@ -67,10 +68,10 @@ La commande <mark style="color:orange;">/info salon</mark> vous permet d'obtenir
 ![Aperçu de la commande /info salon](../.gitbook/assets/info-commands/infochannel.png)
 
 {% hint style="info" %}
-Pour distinguer les différents types de salons et catégories, une icône apparaîtra à côté de leur nom : une icône "#" pour les salons textuels. une icône "📁" pour les catégories, une icône "🔊" pour les salons vocaux, une icône "📢" pour les salons d'annonces.
+Pour distinguer les différents types de salons et catégories, une icône apparaîtra à côté de leur nom : une icône "#" pour les salons textuels, une icône "📁" pour les catégories, une icône "🔊" pour les salons vocaux, une icône "📢" pour les salons d'annonces.
 {% endhint %}
 
-## La commande /profil
+## /profil
 
 La commande <mark style="color:orange;">/profil</mark> vous permet d'obtenir les informations détaillées sur le profil d'un membre du serveur :
 
