@@ -22,7 +22,7 @@ Si l'utilisateur n'est pas sur votre serveur, la date d'arrivée et les rôles n
 {% endhint %}
 
 {% hint style="info" %}
-Il est possible de voir les informations d'un utilisateur autre que le nôtre en le **mentionnant** ou en utilisant son **pseudonyme** après la commande. Par exemple : <mark style="color:orange;">/info utilisateur [utilisateur]</mark>.
+Il est possible de voir les informations d'un utilisateur autre que le vôtre en le **mentionnant** ou en utilisant son **pseudonyme** après la commande. Par exemple : <mark style="color:orange;">/info utilisateur [utilisateur]</mark>.
 {% endhint %}
 
 ## Info serveur
@@ -90,5 +90,5 @@ Vous pouvez ajouter une petite description sur votre profil avec la commande <ma
 {% endhint %}
 
 {% hint style="info" %}
-Il est possible de voir le profil d'un utilisateur autre que le nôtre en le **mentionnant** ou en utilisant son **pseudonyme** après la commande. Par exemple : <mark style="color:orange;">/profil [membre]</mark>.
+Il est possible de voir le profil d'un utilisateur autre que le vôtre en le **mentionnant** ou en utilisant son **pseudonyme** après la commande. Par exemple : <mark style="color:orange;">/profil [membre]</mark>.
 {% endhint %}
