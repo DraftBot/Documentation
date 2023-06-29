@@ -14,7 +14,7 @@ La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'o
 - La date d'arrivée sur le serveur.
 - La date de création de son compte.
 - Les badges de DraftBot : le premium, les membres de l'équipe de DraftBot.
-- Les badges de Discord : la HypeSquad, les partenaires, développeur actif, développeur de bot certifié de la première heure, etc.
+- Les badges de Discord : la HypeSquad, le partenaire, le développeur actif, le développeur de bot certifié de la première heure, etc.
 
 ![Aperçu de la commande /info utilisateur](../.gitbook/assets/info-commands/infouser.png)
 
