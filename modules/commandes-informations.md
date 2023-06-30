@@ -94,6 +94,3 @@ Vous pouvez ajouter une description sur votre profil avec la commande <mark styl
 {% hint style="info" %}
 Il est possible de voir le profil d'un utilisateur autre que le vôtre en utilisant son **pseudonyme** ou son **identifiant** après la commande. Par exemple : <mark style="color:orange;">/profil [membre]</mark>.
 {% endhint %}
-
-"Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.\
-"Modifier le nom du fil" ➜ Vous pourrez modifier le nom du fil qui s'ouvrira sous chaque suggestion.
