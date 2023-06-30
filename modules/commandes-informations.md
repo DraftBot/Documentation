@@ -9,7 +9,7 @@ description: >-
 
 La commande <mark style="color:orange;">/info utilisateur</mark> vous permet d'obtenir les informations détaillées d'un utilisateur :
 
-- L'identifiant de l'utilisateur.
+- La mention et l'identifiant de l'utilisateur.
 - Les différents rôles qu'il possède sur le serveur.
 - La date d'arrivée sur le serveur.
 - La date de création de son compte.
@@ -46,6 +46,7 @@ La commande <mark style="color:orange;">/info rôle</mark> vous permet d'obtenir
 
 - L'identifiant du rôle.
 - Le code couleur héxadécimal du rôle.
+- S'il est catégorisé ou non.
 - S'il est mentionnable ou non.
 - Le nombre de membres qui le possède.
 - Les permissions qu'il possède.
@@ -76,7 +77,7 @@ Pour distinguer les différents types de salons et catégories, une icône appar
 La commande <mark style="color:orange;">/profil</mark> vous permet d'obtenir les informations détaillées sur le profil d'un membre du serveur :
 
 - La mention du membre.
-- La localité.
+- La localité, qui n'apparaît que si le membre l'a configuré.
 - Le niveau et le rang dans le classement du serveur.
 - L'argent en sa possession sur le serveur.
 - La date de son anniversaire, si elle a été activée et rendue visible.
@@ -93,3 +94,6 @@ Vous pouvez ajouter une description sur votre profil avec la commande <mark styl
 {% hint style="info" %}
 Il est possible de voir le profil d'un utilisateur autre que le vôtre en utilisant son **pseudonyme** ou son **identifiant** après la commande. Par exemple : <mark style="color:orange;">/profil [membre]</mark>.
 {% endhint %}
+
+"Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.\
+"Modifier le nom du fil" ➜ Vous pourrez modifier le nom du fil qui s'ouvrira sous chaque suggestion.
