@@ -49,10 +49,16 @@ Les commandes personnalisées vous offrent la possibilité d'ajouter des argumen
 
 Voici les différentes variables d'arguments possibles avec **DraftBot** :
 
-> `$1` ➜ Première valeur saisie après la commande.\
-> `$2` ➜ Deuxième valeur saisie après la commande.\
+> `$1` ➜ Premier argument saisie après la commande.\
+> `$2` ➜ Deuxième argument saisie après la commande.\
 > `$1+` ➜ Tout ce qui est saisi après la commande.\
-> `$2+` ➜ Tout ce qui est saisi après la commande sauf la première valeur.
+> `$2+` ➜ Tout ce qui est saisi après la commande sauf le premier argument.
+
+### Valeur par défaut
+
+> Il est possible d'assigner une valeur par défaut à votre variable.
+
+Pour celà il suffit de d'ajouter `={Votre valeur}` après les variables ci-dessus.
 
 {% hint style="info" %}
 **Exemple de commande personnalisée avec des arguments :**
@@ -71,13 +77,15 @@ Ouvrez le menu déroulant pour voir les différentes variables :
 <details>
 
 <summary>Variables disponibles</summary>
-> **Membre** :
+
+> **Membre** :\
 > `{​user}` ➜ Mention du membre\
 > `{​user.id}` ➜ Identifiant du membre\
 > `{​user.tag}` ➜ Tag du membre *(Pseudo#0000)*\
 > `{​user.username}` ➜ Pseudo du membre\
-> `{​user.nickname}` ➜ Surnom ou pseudo du membre\
+> `{​user.nickname}` ➜ Surnom ou pseudo du membre
 >
+> **Niveaux** :\
 > `{​level}` ➜ Niveau du membre *(uniquement si le système de niveaux est activé)*\
 > `{​level.rank}` ➜ Place du membre *(uniquement pour les messages dans le système de niveaux)*
 >
@@ -86,17 +94,17 @@ Ouvrez le menu déroulant pour voir les différentes variables :
 >
 > `{birthday}` ➜ Date d'anniversaire du membre *(uniquement si le système est activé)*
 >
-> **Serveur** :
+> **Serveur** :\
 > `{​server}` ou `{​server.name}` ➜ Nom du serveur\
 > `{​server.id}` ➜ Identifiant du serveur\
 > `{​server.membercount}` ➜ Nombre de membres sur le serveur
 >
-> **Salon**  :
+> **Salon**  :\
 > `{​channel}` ➜ Mentions du salon\
 > `{​channel.id}` ➜ Identifiant du salon\
 > `{​channel.name}` ➜ Nom du salon
 >
-> **Temps** :
+> **Temps** :\
 > `{​date}` ➜ Date actuelle (JJ/MM/AAAA)\
 > `{​time}` ➜ Heure actuelle (HH:MM)\
 > `{​timestamp}` ➜ Timestamp actuel en secondes
