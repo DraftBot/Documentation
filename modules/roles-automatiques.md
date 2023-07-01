@@ -50,9 +50,17 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 {% tab title="Via la commande /config" %}
 Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜ 🏷️ Rôles Automatiques ➜ <mark style="color:blue;">"En vocal"</mark>.
 
-Pour ajouter un rôle automatique à un membre en vocal, vous pouvez cliquer sur **"Configurer"**. _Vous avez la possibilité de sélectionner un rôle déjà existant ou d'en créer un directement._
+Pour ajouter un rôle automatique à un membre en vocal, vous pouvez cliquer sur **"Configurer"**.
 
-Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur **"Modifier"**. _Vous avez la possibilité de supprimer le rôle du serveur une fois le système désactivé._
+{% hint style="info" %}
+Vous avez la possibilité de sélectionner un rôle déjà existant ou d'en créer un directement.
+{% endhint %}
+
+Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur **"Modifier"**.
+
+{% hint style="info" %}
+ Vous avez la possibilité de supprimer le rôle du serveur une fois le système désactivé.
+{% endhint %}
 
 ### Restreindre des salons aux membres en vocal
 
@@ -82,11 +90,15 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
+Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. 
+
+{% hint style="warning" %}
+Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
+{% endhint %}
 
 Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜ 🏷️ Rôles automatiques ➜ <mark style="color:blue;">"En live"</mark>.
 
-Pour ajouter un rôle automatique à un membre en live, cliquez sur **"Configurer"**. _Vous avez la possibilité de sélectionner un rôle déjà existant sur votre serveur ou de demander la création automatique d'un nouveau._
+Pour ajouter un rôle automatique à un membre en live, cliquez sur **"Configurer"**.
 
 ### Restreindre un rôle en live à certains utilisateurs
 
@@ -97,8 +109,13 @@ Si vous souhaitez retirer cette restriction, cliquez de nouveau sur **"Restreind
 ![Menu d'accueil de la configuration des rôles automatiques en live](../.gitbook/assets/autorole/live.png)
 {% endtab %}
 {% tab title="Depuis le panel" %}
+Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. 
 
-Veuillez d'abord vous rendre sur le [panel](https://draftbot.fr/dashboard/user/) ➜ Rôles automatiques.
+{% hint style="warning" %}
+Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
+{% endhint %}
+
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard/user/)</mark> ➜ Rôles automatiques.
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique lorsqu'un membre est en live.
 
