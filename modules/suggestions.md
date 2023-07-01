@@ -14,7 +14,7 @@ Pour accéder au menu des suggestions, vous devez vous rendre dans <mark style="
 
 Cette commande vous permet de soumettre de nouvelles suggestions, accéder à celles-ci (en cliquant sur leurs titres) ou encore, voir leur état. C'est-à-dire que vous pourrez voir le pourcentage de votes de vos suggestions, mais aussi si elles ont été acceptées, refusées ou si elles sont prévues.
 
-Vous pourrez également décider de vous faire notifier ou non en cas d'un changement de <mark style="color:blue;">[status](suggestions.md#gerer-une-suggestion)</mark> sur l'une de vos suggestions.
+Vous pourrez également décider de vous faire notifier ou non en cas d'un changement de <mark style="color:blue;">[statut](suggestions.md#gerer-une-suggestion)</mark> sur l'une de vos suggestions.
 
 {% hint style="info" %}
 Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">[activée](suggestions.md#tri-des-suggestions)</mark> sur le serveur. Si ce n'est pas le cas, vous ne verrez pas le bouton "Me notifer en cas de changement de statut"
@@ -96,9 +96,9 @@ Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours rep
 
 ### Configuration de base
 
-"<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.
-"<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.
-"Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+"<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.\
+"<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.\
+"Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.\
 "Couleur en fonction des votes" ➜ Une fois cette option activée, **DraftBot** changera la couleur de l'embed en fonction du pourcentage de vote pour ou contre.
 
 {% hint stype="info" %}
@@ -109,8 +109,8 @@ Si vous êtes souscrit à un abonnement <mark style="color:pink;">[premium](http
 
 En cliquant sur le bouton "Réactions", vous aurez accès à ce menu :
 
-"Activer le retrait des réactions après traitement" ➜ Une fois la suggestion <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, **DraftBot** retirera les réactions sous la suggestion.
-"Vote favorable" ➜ Définir l'émoji sous la suggestion pour donner un avis positif.
+"Activer le retrait des réactions après traitement" ➜ Une fois la suggestion <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, **DraftBot** retirera les réactions sous la suggestion.\
+"Vote favorable" ➜ Définir l'émoji sous la suggestion pour donner un avis positif.\
 "Vote neutre" ➜ Paramétrer l'émoji sous la suggestion pour de donné un avis neutre.
 
 {% hint stype="info" %}
@@ -147,12 +147,12 @@ Cette option n'est pas désactivable, si vous décidez de ne pas la personnalise
 
 En cliquant sur le bouton "Tri des suggestions", vous aurez accès à ce menu :
 
-"Activer le tri des suggestions" ➜ Sert à activer / désactiver le tri des suggestions
-"Masquer le nom du modérateur" ➜ Cette option sert à masquer le nom de la personne qui aura [géré la suggestion](suggestions.md#gerer-une-suggestion).
-"Activer les notifications" ➜ Une fois cette option activée le membre qui aura fait la suggestion pourra, ou non être notifié lorsque sa suggestion changera de [statut](suggestions.md#gerer-une-suggestion).
-    "<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.
-    "<mark style="color:blue;">Mention activée par défaut</mark>" ➜ Une fois cette option activée, les membres seront toujours notifié lors du changement de statut
-    "Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifiés lors du changement de statut.
+"Activer le tri des suggestions" ➜ Sert à activer / désactiver le tri des suggestions.\
+"Masquer le nom du modérateur" ➜ Cette option sert à masquer le nom de la personne qui aura [géré la suggestion](suggestions.md#gerer-une-suggestion).\
+"Activer les notifications" ➜ Une fois cette option activée le membre qui aura fait la suggestion pourra, ou non être notifié lorsque sa suggestion changera de [statut](suggestions.md#gerer-une-suggestion).\
+"<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.\
+"<mark style="color:blue;">Mention activée par défaut</mark>" ➜ Une fois cette option activée, les membres seront toujours notifié lors du changement de statut.\
+"Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifiés lors du changement de statut.
 
 {% hint style="info" %}
 Pour les deux dernières options citées ci-dessus, il sera possible pour vos membres de modifier le paramètre par défaut en passant par "<mark style="color:orange;">/suggest</mark>" puis "Me notifier en cas de changement de statut".
@@ -160,7 +160,7 @@ Pour les deux dernières options citées ci-dessus, il sera possible pour vos me
 
 ![Menu de configuration des notifications lors du changement de statut](../.gitbook/assets/suggestions/set_suggestion_notification.png)
 
-"<mark style="color:blue;">Définir le fil des suggestions acceptées</mark>" ➜ Une fois le fil défini, toutes les suggestions acceptées se rendront automatiquement dans ce fil.
+"<mark style="color:blue;">Définir le fil des suggestions acceptées</mark>" ➜ Une fois le fil défini, toutes les suggestions acceptées se rendront automatiquement dans ce fil.\
 "<mark style="color:blue;">Définir le fil des suggestions refusée</mark>" ➜ Une fois le fil défini, toutes les suggestions refusées se rendront automatiquement dans ce fil.
 
 ### Membres
@@ -183,7 +183,7 @@ Une fois la suggestion [traitée](suggestions.md#gerer-une-suggestion), le membr
 
 En cliquant sur le bouton "✨ Fils de discussions automatiques", vous aurez accès à ce menu :
 
-"Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.
+"Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.\
 "Modifier le nom du fil" ➜ Vous pourrez modifier le nom du fil qui s'ouvrira sous chaque suggestion.
 
 {% hint style="info" %}
@@ -231,8 +231,8 @@ Vous pourrez y configurer la structure de votre système :
 La différence entre l'onglet "Créer" et "Sélectionner" est que dans le premier onglet, vous choisirez le nom du salon que **DraftBot** créera et dans le deuxième, vous choisirez un salon déjà créé.  
 {% endhint %}
 
-"Suggestions par membre" ➜ Vous pourrez y limiter le nombre de suggestion <mark style="color:blue;">[non-traitée](suggestions.md#gerer-une-suggestion)</mark> par membre.
-"Rôle à mentionner" ➜ Paraméter le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+"Suggestions par membre" ➜ Vous pourrez y limiter le nombre de suggestion <mark style="color:blue;">[non-traitée](suggestions.md#gerer-une-suggestion)</mark> par membre.\
+"Rôle à mentionner" ➜ Paraméter le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.\
 "Modération des suggestions" ➜ Une fois cette option activée, les suggestions pourront être [refusées, acceptées ou prévues](suggestions.md#gerer-une-suggestion).
 
 Une fois cela fait, d'autres options de configuration s'offriront à vous :
@@ -287,10 +287,10 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 </details>
 {% endhint %}
 
-"Supression des réactions" ➜ Lorsqu'une suggestion sera <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, les réactions seront retirées de la suggestion.
-"Commentaire de la part de l'auteur" ➜ Une fois activé, vos membres pourront ajouter un commentaire sur leur suggestion s'ils ont oublié un détail.
-"Masquer le pseudo du modérateur" ➜ Le nom de la personne ayant <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark> la suggestion ne sera pas affiché sur la suggestion.
-"Fils de tri" ➜ Une fois les suggestions <mark style="color:blue;">[traitées](suggestions.md#gerer-une-suggestion)</mark>, elles seront automatiquement dans les fils configurés ici.
+"Supression des réactions" ➜ Lorsqu'une suggestion sera <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, les réactions seront retirées de la suggestion.\
+"Commentaire de la part de l'auteur" ➜ Une fois activé, vos membres pourront ajouter un commentaire sur leur suggestion s'ils ont oublié un détail.\
+"Masquer le pseudo du modérateur" ➜ Le nom de la personne ayant <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark> la suggestion ne sera pas affiché sur la suggestion.\
+"Fils de tri" ➜ Une fois les suggestions <mark style="color:blue;">[traitées](suggestions.md#gerer-une-suggestion)</mark>, elles seront automatiquement dans les fils configurés ici.\
 "Notification de changements" ➜ Lorsque la suggestion change de statut, c'est-à-dire si elle est acceptée, refusée, ou prévue. L'auteur de la suggestion sera mentionné soit dans le fil de la suggestion (si l'option est activée), dans les fils de tri ou dans les messages privés.
 
 {% hint style="info" %}
