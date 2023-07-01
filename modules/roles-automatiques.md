@@ -19,23 +19,17 @@ Si souhaitez retirer un rôle de cette liste, cliquez sur "Retirer".
 
 Pour retirer **tous** les rôles automatiques, cliquez sur "Réinitialiser".
 
-ㅤ
-
 {% hint style="info" %}
 La limite des rôles automatiques est de 3 pour les serveurs non-premiums et de 10 pour les serveurs premiums.
 {% endhint %}
-
-ㅤ
 
 ![Menu d'accueil de la configuration des rôles automatiques à l'arrivée](../.gitbook/assets/autorole/join.png)
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le [panel](https://draftbot.fr/dashboard/user/) ➜ Arrivées & départs ➜ Bas de la page.
+Veuillez d'abord vous rendre sur le [panel](https://draftbot.fr/dashboard/user/) ➜ Rôles automatiques
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
-
-ㅤ
 
 {% hint style="warning" %}
 Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
@@ -45,9 +39,8 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ Le rôle est géré par un bot ou par Discord.
 {% endhint %}
 
-ㅤ
+![Configuration des rôles automatiques à l'arrivée sur le panel](../.gitbook/assets/autorole/dashboard_join.png)
 
-![Configuration des rôles automatiques à l'arrivée sur le panel](../.gitbook/assets/autorole/dashboard\_join.png)
 {% endtab %}
 {% endtabs %}
 
@@ -61,7 +54,7 @@ Pour ajouter un rôle automatique à un membre en vocal, vous pouvez cliquer sur
 
 Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer sur **"Modifier"**. _Vous avez la possibilité de supprimer le rôle du serveur une fois le système désactivé._
 
-#### Restreindre des salons aux membres en vocal
+### Restreindre des salons aux membres en vocal
 
 Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des salons aux membres en vocal"** puis sélectionnez le salon en question. Seuls les membres possédant ce rôle pourront le voir.
 
@@ -69,11 +62,9 @@ Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le [<mark style="color:blue;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Communautaire ➜ Bas de la page.
+Veuillez d'abord vous rendre sur le [<mark style="color:blue;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Rôles automatiques.
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique lorsqu'un membre rejoint un salon vocal.
-
-ㅤ
 
 {% hint style="warning" %}
 Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
@@ -83,14 +74,14 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ Le rôle est géré par un bot ou par Discord.
 {% endhint %}
 
-ㅤ
-
-![Configuration des rôles automatiques de vocal, sur le panel](../.gitbook/assets/autorole/dashboard\_voice.png)
+ㅤ![Configuration des rôles automatiques de vocal, sur le panel](../.gitbook/assets/autorole/dashboard_voice.png)
 {% endtab %}
 {% endtabs %}
 
 ## En live
 
+{% tabs %}
+{% tab title="Via la commande /config" %}
 Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
 
 Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜ 🏷️ Rôles automatiques ➜ <mark style="color:blue;">"En live"</mark>.
@@ -104,3 +95,30 @@ Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres poss
 Si vous souhaitez retirer cette restriction, cliquez de nouveau sur **"Restreindre le rôle"** puis **"Retirer"**. _Vous avez également la possibilité de les réinitialiser._
 
 ![Menu d'accueil de la configuration des rôles automatiques en live](../.gitbook/assets/autorole/live.png)
+{% endtab %}
+{% tab title="Depuis le panel" %}
+
+Veuillez d'abord vous rendre sur le [panel](https://draftbot.fr/dashboard/user/) ➜ Rôles automatiques.
+
+Sélectionnez ensuite le rôle que vous souhaitez rendre automatique lorsqu'un membre est en live.
+
+{% hint style="warning" %}
+Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
+➜ DraftBot n'a pas les permissions de gérer les rôles.\
+➜ Le rôle de DraftBot est en dessous des rôles que vous souhaitez attribuer.\
+➜ Le rôle de l'utilisateur est en dessous des rôles qu'il souhaite attribuer.\
+➜ Le rôle est géré par un bot ou par Discord.
+{% endhint %}
+
+### Restreindre un rôle en live à certains utilisateurs
+
+Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres possédant un rôle spécifique défini. Pour définir ce rôle cliquez sur le deuxième sélecteur nommé "Rôles Autorisés" puis sélectionnez le rôle voulut.
+
+{% hint style="info" %}
+Il est possible de mettre plusieurs rôles autorisés.
+{% endhint %}
+
+![Configuration des rôles automatiques en live, sur le panel](../.gitbook/assets/autorole/dashboard_live.png)
+
+{% endtab %}
+{% endtabs %}
