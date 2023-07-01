@@ -27,7 +27,7 @@ La limite des rôles automatiques est de 3 pour les serveurs non-premiums et de 
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le [panel](https://draftbot.fr/dashboard/user/) ➜ Rôles automatiques
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard/user/)</mark> ➜ Rôles automatiques
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
 
@@ -70,7 +70,7 @@ Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le [<mark style="color:blue;">panel</mark>](https://draftbot.fr/dashboard/user/) ➜ Rôles automatiques.
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard/user/)</mark> ➜ Rôles automatiques.
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique lorsqu'un membre rejoint un salon vocal.
 
@@ -83,6 +83,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 {% endhint %}
 
 ㅤ![Configuration des rôles automatiques de vocal, sur le panel](../.gitbook/assets/autorole/dashboard_voice.png)
+
 {% endtab %}
 {% endtabs %}
 
@@ -132,7 +133,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres possédant un rôle spécifique défini. Pour définir ce rôle cliquez sur le deuxième sélecteur nommé "Rôles Autorisés" puis sélectionnez le rôle voulut.
 
 {% hint style="info" %}
-Il est possible de mettre plusieurs rôles autorisés.
+Il est possible de sélectionner plusieurs rôles autorisés.
 {% endhint %}
 
 ![Configuration des rôles automatiques en live, sur le panel](../.gitbook/assets/autorole/dashboard_live.png)
