@@ -27,7 +27,7 @@ La limite des rôles automatiques est de 3 pour les serveurs non-premiums et de 
 {% endtab %}
 
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard/user/)</mark> ➜ Rôles automatiques
+Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard/user/)</mark> ➜ Rôles automatiques.
 
 Sélectionnez ensuite le rôle que vous souhaitez rendre automatique à l'arrivée d'un nouveau membre.
 
@@ -130,7 +130,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 
 ### Restreindre un rôle en live à certains utilisateurs
 
-Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres possédant un rôle spécifique défini. Pour définir ce rôle cliquez sur le deuxième sélecteur nommé "Rôles Autorisés" puis sélectionnez le rôle voulut.
+Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres possédant un rôle spécifique défini. Pour définir ce rôle, cliquez sur le deuxième sélecteur nommé "Rôles autorisés" puis sélectionnez le rôle voulu.
 
 {% hint style="info" %}
 Il est possible de sélectionner plusieurs rôles autorisés.
