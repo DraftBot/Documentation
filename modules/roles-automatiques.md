@@ -23,7 +23,7 @@ Pour retirer **tous** les rôles automatiques, cliquez sur "Réinitialiser".
 La limite des rôles automatiques est de 3 pour les serveurs non-premiums et de 10 pour les serveurs premiums.
 {% endhint %}
 
-![Menu d'accueil de la configuration des rôles automatiques à l'arrivée](../.gitbook/assets/autorole/join.png)
+![Menu d'accueil de la configuration des rôles automatiques à l'arrivée](../.gitbook/assets/autoroles/join.png)
 {% endtab %}
 
 {% tab title="Via le panel" %}
@@ -39,7 +39,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ Le rôle est géré par un bot ou par Discord.
 {% endhint %}
 
-![Configuration des rôles automatiques à l'arrivée sur le panel](../.gitbook/assets/autorole/dashboard_join.png)
+![Configuration des rôles automatiques à l'arrivée sur le panel](../.gitbook/assets/autoroles/dashboard_join.png)
 
 {% endtab %}
 {% endtabs %}
@@ -66,7 +66,7 @@ Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer
 
 Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des salons aux membres en vocal"** puis sélectionnez le salon en question. Seuls les membres possédant ce rôle pourront le voir.
 
-![Menu d'accueil de la configuration des rôles automatiques en vocal](../.gitbook/assets/autorole/voice.png)
+![Menu d'accueil de la configuration des rôles automatiques en vocal](../.gitbook/assets/autoroless/voice.png)
 {% endtab %}
 
 {% tab title="Via le panel" %}
@@ -82,7 +82,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 ➜ Le rôle est géré par un bot ou par Discord.
 {% endhint %}
 
-ㅤ![Configuration des rôles automatiques de vocal, sur le panel](../.gitbook/assets/autorole/dashboard_voice.png)
+![Configuration des rôles automatiques de vocal, sur le panel](../.gitbook/assets/autoroles/dashboard_voice.png)
 
 {% endtab %}
 {% endtabs %}
@@ -91,7 +91,7 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. 
+Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch.
 
 {% hint style="warning" %}
 Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
@@ -107,10 +107,10 @@ Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres poss
 
 Si vous souhaitez retirer cette restriction, cliquez de nouveau sur **"Restreindre le rôle"** puis **"Retirer"**. _Vous avez également la possibilité de les réinitialiser._
 
-![Menu d'accueil de la configuration des rôles automatiques en live](../.gitbook/assets/autorole/live.png)
+![Menu d'accueil de la configuration des rôles automatiques en live](../.gitbook/assets/autoroles/live.png)
 {% endtab %}
 {% tab title="Depuis le panel" %}
-Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch. 
+Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch.
 
 {% hint style="warning" %}
 Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
@@ -136,7 +136,7 @@ Vous pouvez demander à **DraftBot** de donner le rôle de live aux membres poss
 Il est possible de sélectionner plusieurs rôles autorisés.
 {% endhint %}
 
-![Configuration des rôles automatiques en live, sur le panel](../.gitbook/assets/autorole/dashboard_live.png)
+![Configuration des rôles automatiques en live, sur le panel](../.gitbook/assets/autoroles/dashboard_live.png)
 
 {% endtab %}
 {% endtabs %}
