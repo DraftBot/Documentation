@@ -66,7 +66,7 @@ Pour retirer un rôle automatique à l'arrivée d'un membre, vous pouvez cliquer
 
 Pour restreindre des salons aux membres en vocal, cliquez sur **"Restreindre des salons aux membres en vocal"** puis sélectionnez le salon en question. Seuls les membres possédant ce rôle pourront le voir.
 
-![Menu d'accueil de la configuration des rôles automatiques en vocal](../.gitbook/assets/autoroless/voice.png)
+![Menu d'accueil de la configuration des rôles automatiques en vocal](../.gitbook/assets/autoroles/voice.png)
 {% endtab %}
 
 {% tab title="Via le panel" %}
