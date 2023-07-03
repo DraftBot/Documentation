@@ -89,13 +89,14 @@ Certains rôles peuvent apparaitre en rouge pour l'une des raisons suivantes :\
 
 ## En live
 
-{% tabs %}
-{% tab title="Via la commande /config" %}
 Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch.
 
 {% hint style="warning" %}
 Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
 {% endhint %}
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
 
 Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜ 🏷️ Rôles automatiques ➜ <mark style="color:blue;">"En live"</mark>.
 
@@ -110,11 +111,6 @@ Si vous souhaitez retirer cette restriction, cliquez de nouveau sur **"Restreind
 ![Menu d'accueil de la configuration des rôles automatiques en live](../.gitbook/assets/autoroles/live.png)
 {% endtab %}
 {% tab title="Depuis le panel" %}
-Les rôles automatiques de live vous permettent de donner un rôle à un membre lorsqu'il est en direct sur YouTube ou Twitch.
-
-{% hint style="warning" %}
-Le mode streamer du compte Discord de l'utilisateur souhaitant obtenir ce rôle lors d'une diffusion d'un stream doit être activé pour que cela fonctionne (activable depuis les paramètres du compte Discord dans la catégorie "Mode streamer").
-{% endhint %}
 
 Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel](https://draftbot.fr/dashboard/user/)</mark> ➜ Rôles automatiques.
 
