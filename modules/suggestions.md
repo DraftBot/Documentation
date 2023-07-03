@@ -116,13 +116,13 @@ En cliquant sur le bouton "Réactions", vous aurez accès à ce menu :
 
 * "Activer le retrait des réactions après traitement" ➜ Une fois la suggestion <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, **DraftBot** retirera les réactions sous la suggestion.
 * "Vote favorable" ➜ Définir l'émoji sous la suggestion pour donner un avis positif.
-* "Vote neutre" ➜ Paramétrer l'émoji sous la suggestion pour de donné un avis neutre.
+* "Vote neutre" ➜ Paramétrer l'émoji sous la suggestion pour de donner un avis neutre.
 
 {% hint stype="info" %}
 Vous pouvez également ne pas définir de vote neutre en cliquant sur "Vote neutre" puis <mark style="color:red;">"Non"</mark>.
 {% endhint %}
 
-* "Vote défavorable" ➜ Permet de définir l'émoji sous la suggestion pour de donné un avis négatif.
+* "Vote défavorable" ➜ Permet de définir l'émoji sous la suggestion pour de donner un avis négatif.
 
 ![Configurer les réactions](../.gitbook/assets/suggestions/set_suggestion_reactions.png)
 
