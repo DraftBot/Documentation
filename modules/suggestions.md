@@ -17,7 +17,7 @@ Cette commande vous permet de soumettre de nouvelles suggestions, ajouter des co
 Vous pourrez également décider de vous faire notifier ou non en cas d'un changement de <mark style="color:blue;">[statut](suggestions.md#gerer-une-suggestion)</mark> sur l'une de vos suggestions.
 
 {% hint style="info" %}
-Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">[activée](suggestions.md#tri-des-suggestions)</mark> sur le serveur. Si ce n'est pas le cas, vous ne verrez pas le bouton "Me notifer en cas de changement de statut"
+Il faut que l'option "Notification lors du changement de statut" soit <mark style="color:blue;">[activée](suggestions.md#tri-des-suggestions)</mark> sur le serveur. Si ce n'est pas le cas, vous ne verrez pas le bouton "Me notifier en cas de changement de statut".
 {% endhint %}
 
 ![Menu des suggestions](../.gitbook/assets/suggestions/suggest_menu.png)
