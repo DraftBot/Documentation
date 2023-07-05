@@ -51,7 +51,7 @@ Il faut que l'option "<mark style="color:blue;">[commentaire après publication]
 Découvrez dans le menu ci-dessous comment faire :
 
 {% hint stype="info" %}
-Vous avez besoin de la permission "Gérer les messages" pour pouvoir accepter, refuser ou prévoir une suggestion.
+Vous avez besoin de la permission "Gérer les messages" pour pouvoir accepter, refuser ou prévoir une suggestion. Toutefois, vous pouvez toujours modifier cette permission depuis les paramètres de votre serveur ➜ "Intégrations" puis sélectionner **DraftBot** et taper "/suggestmod" dans la barre de recherche située en haut de votre écran. (Uniquement disponible sur ordinateur) 
 {% endhint %}
 
 {% tabs %}
