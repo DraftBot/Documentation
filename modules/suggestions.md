@@ -180,7 +180,7 @@ En cliquant sur le bouton "Membres", vous aurez accès à ce menu :
 {% hint style="info" %}
 Le nombre de suggestions en simultané peut être compris de **1** à **10**.
 
-Une fois la suggestion [traitée](suggestions.md#gerer-une-suggestion), elle ne sera plus comptabilisé dans le nombre de suggestions simultanées par membre. 
+Une fois la suggestion [traitée](suggestions.md#gerer-une-suggestion), elle ne sera plus comptabilisée dans le nombre de suggestions simultanées par membre. 
 
 * "Activer le commentaire après publication" ➜ Une fois cette option activée, si un de vos membres oublie un détail important sur sa suggestion, il pourra après coup ajouter un commentaire sous sa suggestion en passant par <mark style="color:orange;">/suggest</mark>.
 
