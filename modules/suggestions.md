@@ -107,7 +107,7 @@ Vous avez aussi la possibilité de repasser une suggestion en attente ou en chan
 * "Couleur en fonction des votes" ➜ Une fois cette option activée, **DraftBot** changera la couleur de l'embed en fonction du pourcentage de vote pour ou contre.
 
 {% hint stype="info" %}
-Si vous êtes souscrit à un abonnement <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pourrez chosir les couleurs du dégradé, en cliquant sur "✨ Dégradé personnalisé".
+Si vous êtes souscrit à un abonnement <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pourrez choisir les couleurs du dégradé, en cliquant sur "✨ Dégradé personnalisé".
 {% endhint %}
 
 ### Réactions 
