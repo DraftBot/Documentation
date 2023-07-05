@@ -5,6 +5,14 @@ description: >-
 ---
 
 # Mises à jour
+## [**5.3.5 - 05/07/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1126051989822910495)
+
+- Le système de Live Presence et de rôle en live ont été réactivés.
+- Certaines commandes personnalisées envoyant un message sans bouton fonctionnent désormais correctement.
+- Les logs de modération d'unmute lancés à partir de la commande /unmute ne seront plus envoyés deux fois.
+- Quelques problèmes d'affichages ont été corrigés sur les commandes /stats wolfy, /botinfo ou /sondage résultats et /item drop.
+
+
 ## [**5.3.0 - 23/06/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1121576226713243674)
 
 💡 **Amélioration du système de suggestions :**
