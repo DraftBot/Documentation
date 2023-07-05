@@ -225,3 +225,15 @@ Pour modifier le type de la boutique, rendez vous sur le sélecteur (voir image)
 
 {% endtab %}
 {% endtabs %}
+
+## Migration
+
+Si vous utilisiez UnbelievaBoat auparavant, il est possible d'importer l'économie de vos membres directement sur DraftBot afin qu'ils ne perdent pas leur progression.
+
+{% hint style="info" %}
+Il faut impérativement que le bot UnbelievaBoat soit sur votre serveur lors de la migration.
+{% endhint %}
+
+Pour migrer vers le système de DraftBot, utiliser la commande <mark style="color:orange;">/config Système: Économie</mark>
+
+![Importer l'économie](../.gitbook/assets/economy/import_economy.png)
