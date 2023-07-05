@@ -294,7 +294,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 </details>
 {% endhint %}
 
-* "Supression des réactions" ➜ Lorsqu'une suggestion sera <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, les réactions seront retirées de la suggestion.
+* "Suppression des réactions" ➜ Lorsqu'une suggestion sera <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, les réactions seront retirées de la suggestion.
 * "Commentaire de la part de l'auteur" ➜ Une fois activé, vos membres pourront ajouter un commentaire sur leur suggestion s'ils ont oublié un détail.
 * "Masquer le pseudo du modérateur" ➜ Le nom de la personne ayant <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark> la suggestion ne sera pas affiché sur la suggestion.
 * "Fils de tri" ➜ Une fois les suggestions <mark style="color:blue;">[traitées](suggestions.md#gerer-une-suggestion)</mark>, elles seront automatiquement dans les fils configurés ici.
