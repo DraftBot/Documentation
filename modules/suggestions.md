@@ -239,7 +239,7 @@ La différence entre l'onglet "Créer" et "Sélectionner" est que dans le premie
 {% endhint %}
 
 * "Suggestions par membre" ➜ Vous pourrez y limiter le nombre de suggestion <mark style="color:blue;">[non-traitée](suggestions.md#gerer-une-suggestion)</mark> par membre.
-* "Rôle à mentionner" ➜ Paraméter le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+* "Rôle à mentionner" ➜ Paramétrer le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
 * "Modération des suggestions" ➜ Une fois cette option activée, les suggestions pourront être [refusées, acceptées ou prévues](suggestions.md#gerer-une-suggestion).
 
 Une fois cela fait, d'autres options de configuration s'offriront à vous :
