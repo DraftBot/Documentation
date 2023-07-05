@@ -47,8 +47,8 @@ Il faut que l'option "<mark style="color:blue;">[commentaire après publication]
 
 ### Gérer une suggestion
 
-**DraftBot** vous propose de pouvoir accepter, refuser ou prévoir une suggestion.\
-Découvrez dans le menu ci-dessous comment faire :
+Vous avez la possibilité de gérer les suggestions, **DraftBot** vous présentera ces différentes propositions qui sont d'**accepter**, de **refuser** ou de **prévoir** une suggestion.\
+Découvrez ci-dessous les manipulations à suivre :
 
 {% hint stype="info" %}
 Vous avez besoin de la permission "Gérer les messages" pour pouvoir accepter, refuser ou prévoir une suggestion. Toutefois, vous pouvez toujours modifier cette permission depuis les paramètres de votre serveur ➜ "Intégrations" puis sélectionner **DraftBot** et taper "/suggestmod" dans la barre de recherche située en haut de votre écran. (Uniquement disponible sur ordinateur) 
