@@ -91,7 +91,7 @@ Vous avez aussi la possibilité de faire un clic droit (sur ordinateur) ou d'app
 Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours repasser une suggestion en attente via la commande <mark style="color:orange;">/suggestmod attente</mark>. Il est également possible de repasser par le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer votre suggestion. Vous aurez ensuite à saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message de la suggestion.
 
 {% hint style="info" %}
-Vous avez aussi la possibilité de repasser une suggestion en attente ou en changer la raison en passant depuis le menu "Applications" puis sélectionner la même option de classement (accepter si la suggestion est acceptée).
+Vous avez aussi la possibilité de repasser une suggestion en attente ou en changer la raison en passant depuis le menu "Applications" puis de sélectionner la même option de classement (accepter si la suggestion est acceptée).
 {% endhint %}
 
 ## Configuration
