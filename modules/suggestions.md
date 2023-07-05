@@ -39,7 +39,7 @@ Vous aurez alors un bouton pour ajouter une image lors de cette confirmation.
 
 ### Commenter une suggestion
 
-**DraftBot** vous laisse la possibilité de commenter vos suggestions, c'est-à-dire que vous pourrez, si vous avez oublier une information lors de la publication de cette dernière, ajouter un commentaire en cliquant sur "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" dans le [menu des suggestions](suggestions.md#menu-des-suggestions).
+**DraftBot** vous laisse la possibilité de commenter vos suggestions, c'est-à-dire que vous pourrez, si vous avez oublié une information lors de la publication de cette dernière, ajouter un commentaire en cliquant sur "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" dans le [menu des suggestions](suggestions.md#menu-des-suggestions).
 
 {% hint style="info" %}
 Il faut que l'option "<mark style="color:blue;">[commentaire après publication](suggestions.md#membres)</mark>" soit activée. 
