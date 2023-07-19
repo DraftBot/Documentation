@@ -3,7 +3,7 @@ description: >-
   Découvez toutes les commandes à votre disposition pour vous divertir avec les membres de votre serveur.
 ---
 
-# Commandes de jeux / fun
+# Commandes de jeux et fun
 
 ## /bingo
 
