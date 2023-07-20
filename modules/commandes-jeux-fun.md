@@ -104,6 +104,14 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 
 ## /concours
 
+Vous avez plusieurs types de concours, aussi dit **"giveaway"**, à proposer avec la commande <mark style="color:orange;">/concours</mark> :
+
+* <mark style="color:orange;">/concours créer argent</mark> ➜ Faire gagner de l'argent dans un giveaway.
+* <mark style="color:orange;">/concours créer expérience</mark> ➜ Faire gagner de l'expérience dans un giveaway.
+* <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item dans un giveaway.
+* <mark style="color:orange;">/concours créer personnalisé</mark> ➜ Faire gagner une récompense personnalisée dans un giveaway.
+* <mark style="color:orange;">/concours créer rôle</mark> ➜ Faire gagner un rôle dans un giveaway.
+
 ## /evenement
 
 Vous avez trois types de commandes avec la commande <mark style="color:orange;">/evenement</mark> :
