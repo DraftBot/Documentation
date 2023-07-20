@@ -113,3 +113,14 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 ## /lancer-des
 
 ## /tv
+
+La commande <mark style="color:orange;">/tv</mark> vous permet d'accéder à des informations sur **un film ou une série** disponible sur le site <mark style="color:blue;">[The Movie Database](https://www.themoviedb.org/)</mark> (TMDB) grâce à **une API**. Ainsi il vous suffira de définir le nom du film ou de la série que vous recherchez à la suite de la commande.
+
+Vous recevrez les informations suivantes :
+* Le titre du film ou de la série.
+* Le synopsis.
+* Le(s) genre(s).
+* La date de sortie.
+* La note moyenne donnée par les utilisateurs.
+
+![Aperçu de la commande /tv](../.gitbook/assets/games-fun-commands/tv.png)
