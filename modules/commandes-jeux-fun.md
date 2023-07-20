@@ -106,6 +106,22 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 
 ## /evenement
 
+Vous avez trois types de commandes avec la commande <mark style="color:orange;">/evenement</mark> :
+
+* <mark style="color:orange;">/evenement créer</mark> ➜ Créer et lancer un évènement.
+* <mark style="color:orange;">/evenement relancer</mark> ➜ Relancer un évènement.
+* <mark style="color:orange;">/evenement terminer</mark> ➜ Mettre fin à un évènement.
+
+Avec la commande <mark style="color:orange;">/evenement créer</mark>, vous aurez besoin définir **un nom** à votre évènement, le **nombre maximum** de participants, ainsi que **le temps** pour savoir quand commencera l'évènement.
+
+Pour participer, les membres devront cliquer sur **la réaction** qui apparaîtra.
+
+{% hint style="info" %}
+Vous aurez la possibilité, si vous le souhaitez, de donner un rôle que vos membres recevront à la fin de l'évènement afin de prouver leur participation. Ainsi que le salon où il sera lancé.
+{% endhint %}
+
+![Aperçu de la commande /evenement](../.gitbook/assets/games-fun-commands/event.png)
+
 ## /couple
 
 La commande <mark style="color:orange;">/couple</mark> vous permet tout simplement de **créer un couple** sur votre serveur. DraftBot récupéra les avatars du **"Roméo"** et de la **"Juliette"** choisi, et il donnera par la même occasion un nom au couple défini.
