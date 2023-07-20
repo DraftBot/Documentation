@@ -112,12 +112,12 @@ Vous avez trois types de commandes avec la commande <mark style="color:orange;">
 * <mark style="color:orange;">/evenement relancer</mark> ➜ Relancer un évènement.
 * <mark style="color:orange;">/evenement terminer</mark> ➜ Mettre fin à un évènement.
 
-Avec la commande <mark style="color:orange;">/evenement créer</mark>, vous aurez besoin définir **un nom** à votre évènement, le **nombre maximum** de participants, ainsi que **le temps** pour savoir quand commencera l'évènement.
+Avec la commande <mark style="color:orange;">/evenement créer</mark>, vous allez avoir besoin de définir **un nom** à votre évènement, le **nombre maximum** de participants, ainsi que **le temps** pour savoir quand commencera l'évènement.
 
 Pour participer, les membres devront cliquer sur **la réaction** qui apparaîtra.
 
 {% hint style="info" %}
-Vous aurez la possibilité, si vous le souhaitez, de définir un rôle que vos membres recevront à la fin de l'évènement afin de prouver leur participation et de choisir le salon où l'évènement sera lancé.
+Vous avez la possibilité, si vous le souhaitez, de définir un rôle que vos membres recevront à la fin de l'évènement afin de prouver leur participation et de choisir le salon où l'évènement sera lancé.
 {% endhint %}
 
 ![Aperçu de la commande /evenement](../.gitbook/assets/games-fun-commands/event.png)
