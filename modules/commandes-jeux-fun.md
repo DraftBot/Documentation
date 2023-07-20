@@ -108,6 +108,10 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 
 ## /couple
 
+La commande <mark style="color:orange;">/couple</mark> vous permet tout simplement de **créer un couple** sur votre serveur. DraftBot récupéra les avatars du **"Roméo"** et de la **"Juliette"** choisi, et il donnera par la même occasion un nom au couple défini.
+
+![Aperçu de la commande /couple](../.gitbook/assets/games-fun-commands/couple.png)
+
 ## /blague
 
 La commande <mark style="color:orange;">/blague</mark> vous permet d'accéder à différentes types de **blagues** disponibles sur <mark style="color:blue;">[Blagues API](https://www.blagues-api.fr/)</mark> qui est une API rassemblant les **meilleures blagues françaises**.
@@ -120,7 +124,7 @@ Les différents types de blagues :
 * Beauf.
 * Blondes.
 
-![Aperçu de la commande /tv](../.gitbook/assets/games-fun-commands/blague.png)
+![Aperçu de la commande /blague](../.gitbook/assets/games-fun-commands/blague.png)
 
 {% hint style="info" %}
 Vous avez la possibilité de gérer les types de blagues afin de les autoriser ou non sur votre serveur.
