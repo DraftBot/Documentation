@@ -11,7 +11,7 @@ description: >-
 
 ## /chifumi
 
-La commande <mark style="color:orange;">/chifumi</mark> vous permet d'accéder à ce jeu à **deux joueurs**. Il s'agit d'une adaptation du classique **Pierre-Feuille-Ciseaux**, c'est un face à face dont les joueurs choisirent entre ces trois coups.
+La commande <mark style="color:orange;">/chifumi</mark> vous permet d'accéder à ce jeu à **deux joueurs**. Il s'agit d'une adaptation du classique **Pierre-Feuille-Ciseaux**, c'est un face à face dont les joueurs choisissent entre ces trois coups.
 
 Le déroulement du jeu :
 * **La pierre** bat **les ciseaux** (en les émoussant).
