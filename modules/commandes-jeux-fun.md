@@ -117,7 +117,7 @@ Avec la commande <mark style="color:orange;">/evenement créer</mark>, vous aure
 Pour participer, les membres devront cliquer sur **la réaction** qui apparaîtra.
 
 {% hint style="info" %}
-Vous aurez la possibilité, si vous le souhaitez, de donner un rôle que vos membres recevront à la fin de l'évènement afin de prouver leur participation. Ainsi que le salon où il sera lancé.
+Vous aurez la possibilité, si vous le souhaitez, de définir un rôle que vos membres recevront à la fin de l'évènement afin de prouver leur participation et de choisir le salon où l'évènement sera lancé.
 {% endhint %}
 
 ![Aperçu de la commande /evenement](../.gitbook/assets/games-fun-commands/event.png)
