@@ -44,7 +44,7 @@ La commande <mark style="color:orange;">/morpion</mark> vous permet d'accéder �
 
 Vous pouvez jouer à ce jeu avec la personne de **votre choix**, de façon **aléatoire**, ou avec **DraftBot**.
 
-![Aperçu du jeu "Pendu"](../.gitbook/assets/games-fun-commands/morpion.png)
+![Aperçu du jeu "Morpion" en mode "Normale"](../.gitbook/assets/games-fun-commands/morpion.png)
 
 {% hint style="info" %}
 Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale" ou "Difficile". En fonction de votre choix, DraftBot sera plus compliqué à vaincre.
@@ -68,7 +68,7 @@ La commande <mark style="color:orange;">/puissance4</mark> vous permet d'accéde
 
 Vous pouvez jouer à ce jeu avec le membre de **votre choix**, de façon **aléatoire**, ou avec **DraftBot**.
 
-![Aperçu du jeu "Puissance 4"](../.gitbook/assets/games-fun-commands/puissance4.png)
+![Aperçu du jeu "Puissance 4" entre deux utilisateurs](../.gitbook/assets/games-fun-commands/puissance4.png)
 
 {% hint style="info" %}
 Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale" ou "Difficile". En fonction de votre choix, DraftBot sera plus compliqué à vaincre.
@@ -80,7 +80,7 @@ La commande <mark style="color:orange;">/demineur</mark> vous permet d'accéder 
 
 Il donne au joueur des indices basés sur **la numérotation** des mines voisines dans chaque champ.
 
-![Aperçu du jeu "Démineur"](../.gitbook/assets/games-fun-commands/demineur.png)
+![Aperçu du jeu "Démineur" en mode "Facile"](../.gitbook/assets/games-fun-commands/demineur.png)
 
 {% hint style="info" %}
 Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale" ou "Difficile". En fonction de votre choix, la grille s'agrandira.
@@ -90,7 +90,7 @@ Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale
 
 La commande <mark style="color:orange;">/colormind</mark> vous permet d'accéder à ce jeu de logique pour **un seul joueur**. Il est l'équivalent du jeu **Mastermind**, le but consiste à trouver la bonne combinaison de couleur.
 
-![Aperçu du jeu "ColorMind"](../.gitbook/assets/games-fun-commands/colormind.png)
+![Aperçu du jeu "ColorMind" en mode "Difficile"](../.gitbook/assets/games-fun-commands/colormind.png)
 
 {% hint style="info" %}
 Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale" ou "Difficile". En fonction de votre choix, le nombre de couleur à trouver augmentera.
