@@ -3,11 +3,19 @@ description: >-
   Découvez toutes les commandes à votre disposition pour vous divertir avec les membres de votre serveur.
 ---
 
-# Commandes de jeux et fun
+# Commandes de jeux & fun
 
 ## /bingo
 
+La commande <mark style="color:orange;">/bingo</mark> vous permet d'accéder à ce jeu de hasard, **tous les membres** peuvent y participer. Il suffit qu'un utilisateur ait accès à la commande pour lancer le jeu et définit le **nombre maximum**. 
+
+DraftBot choisira un nombre aléatoire **entre 1 et le nombre choisi** par l'utilisateur, le but des membres est de retrouver ce **nombre aléatoire**.
+
 ![Aperçu du jeu "Bingo"](../.gitbook/assets/games-fun-commands/bingo.png)
+
+{% hint style="info" %}
+Vous avez la possibilité d'activer le système **d'indice**.
+{% endhint %}
 
 ## /chifumi
 
