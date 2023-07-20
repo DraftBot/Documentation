@@ -80,4 +80,14 @@ Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale
 
 ## /colormind
 
+La commande <mark style="color:orange;">/colormind</mark> vous permet d'accéder à ce jeu de logique pour **un seul joueur**. Il est l'équivalent du jeu **Mastermind**, le but consiste à trouver la bonne combinaison de couleur.
+
 ![Aperçu du jeu "ColorMind"](../.gitbook/assets/games-fun-commands/colormind.png)
+
+{% hint style="info" %}
+Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale" ou "Difficile". En fonction de votre choix, le nombre de couleur à trouver augmentera.
+{% endhint %}
+
+{% hint style="info" %}
+Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
+{% endhint %}
