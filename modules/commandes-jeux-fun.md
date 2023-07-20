@@ -108,7 +108,7 @@ Vous avez plusieurs types de concours, aussi dit **"giveaway"**, à proposer ave
 
 * <mark style="color:orange;">/concours créer argent</mark> ➜ Faire gagner de l'argent dans un giveaway.
 * <mark style="color:orange;">/concours créer expérience</mark> ➜ Faire gagner de l'expérience dans un giveaway.
-* <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un item dans un giveaway.
+* <mark style="color:orange;">/concours créer item</mark> ➜ Faire gagner un objet dans un giveaway.
 * <mark style="color:orange;">/concours créer personnalisé</mark> ➜ Faire gagner une récompense personnalisée dans un giveaway.
 * <mark style="color:orange;">/concours créer rôle</mark> ➜ Faire gagner un rôle dans un giveaway.
 
