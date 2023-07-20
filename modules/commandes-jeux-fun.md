@@ -108,10 +108,8 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 
 ## /couple
 
+## /blague
+
 ## /lancer-des
 
 ## /tv
-
-
-
-
