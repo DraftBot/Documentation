@@ -112,6 +112,19 @@ Vous avez plusieurs types de concours, aussi dit **"giveaway"**, à proposer ave
 * <mark style="color:orange;">/concours créer personnalisé</mark> ➜ Faire gagner une récompense personnalisée dans un giveaway.
 * <mark style="color:orange;">/concours créer rôle</mark> ➜ Faire gagner un rôle dans un giveaway.
 
+Pour chacun des cas, vous allez devoir **un nom** à votre giveaway, le nombre de **gagnants**, la **durée** du concours, une **quantité** (pour l'argent, l'expérience, ainsi que l'objet après l'avoir défini), choisir une **récompense personnalisée** ou un **rôle**.
+
+Vous pouvez également effectuer d'autres commandes :
+
+* <mark style="color:orange;">/concours terminer</mark> ➜ Lancer la fin d'un giveaway.
+* <mark style="color:orange;">/concours relancer</mark> ➜ Désigner un nouveau gagnant pour un giveaway.
+
+{% hint style="info" %}
+Vous avez la possibilité, si vous le souhaitez, de choisir le salon où le giveaway sera lancé.
+{% endhint %}
+
+![Aperçu de la commande /concours créer argent](../.gitbook/assets/games-fun-commands/giveaway.png)
+
 ## /evenement
 
 Vous avez trois types de commandes avec la commande <mark style="color:orange;">/evenement</mark> :
