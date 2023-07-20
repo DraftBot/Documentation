@@ -99,3 +99,19 @@ Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale
 {% hint style="info" %}
 Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 {% endhint %}
+
+## /sondage
+
+## /concours
+
+## /evenement
+
+## /couple
+
+## /lancer-des
+
+## /tv
+
+
+
+
