@@ -50,7 +50,7 @@
 - [🎟 Tickets](modules/tickets.md)
 - [🔃 Interserveurs](modules/interserveurs.md)
 - [❕ Commandes d'informations](modules/commandes-informations.md)
-- [🎮 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
+- [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
 
 ## Autres
