@@ -110,6 +110,22 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 
 ## /blague
 
+La commande <mark style="color:orange;">/blague</mark> vous permet d'accéder à différentes types de **blagues** disponibles sur <mark style="color:blue;">[Blagues API](https://www.blagues-api.fr/)</mark> qui est une API rassemblant les **meilleures blagues françaises**.
+
+Les différents types de blagues :
+* Tout public.
+* Humour noir.
+* Développeur.
+* 18+.
+* Beauf.
+* Blondes.
+
+![Aperçu de la commande /tv](../.gitbook/assets/games-fun-commands/blague.png)
+
+{% hint style="info" %}
+Vous avez la possibilité de gérer les types de blagues afin de les autoriser ou non sur votre serveur.
+{% endhint %}
+
 ## /lancer-des
 
 ## /tv
