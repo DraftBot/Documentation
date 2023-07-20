@@ -151,7 +151,7 @@ La commande <mark style="color:orange;">/couple</mark> vous permet tout simpleme
 
 ## /blague
 
-La commande <mark style="color:orange;">/blague</mark> vous permet d'accéder à différentes types de **blagues** disponibles sur <mark style="color:blue;">[Blagues API](https://www.blagues-api.fr/)</mark> qui est une API rassemblant les **meilleures blagues françaises**.
+La commande <mark style="color:orange;">/blague</mark> vous permet d'accéder à différentes types de **blagues** disponibles sur <mark style="color:blue;">[Blagues API](https://www.blagues-api.fr/)</mark> qui est une API rassemblant les **meilleures blagues françaises**. Les réponses des blagues seront cachées, il vous suffira de cliquer sur la zone cachée pour que les réponses vous soient révélées.
 
 Les différents types de blagues :
 * Tout public.
