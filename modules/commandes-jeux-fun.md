@@ -109,6 +109,23 @@ Il se peut qu'il y ait plusieurs fois la même couleur dans une combinaison.
 
 ## /sondage
 
+Vous avez trois types de commandes avec la commande <mark style="color:orange;">/sondage</mark> :
+
+* <mark style="color:orange;">/sondage créer</mark> ➜ Créer et lancer un sondage.
+* <mark style="color:orange;">/sondage résultats</mark> ➜ Voir les résultats d'un sondage.
+* <mark style="color:orange;">/sondage terminer</mark> ➜ Mettre fin à un sondage.
+
+Lors de la création du sondage avec la commande <mark style="color:orange;">/sondage créer</mark>, vous allez devoir définir **la question** du sondage, ainsi que les **différents réponses** (10 réponses max). Pour insérer les réponses, vous devrez les mettre entre **guillemets** si elle contiennent des espaces.
+
+{% hint style="info" %}
+Vous avez la possibilité, si vous le souhaitez, de définir la durée du sondage et de choisir le salon où le sondage sera lancé.
+{% endhint %}
+
+![Aperçu de la commande /sondage créer](../.gitbook/assets/games-fun-commands/command-survey.png)
+
+![Aperçu du résultat de la commande /sondage créer](../.gitbook/assets/games-fun-commands/command-survey2.png)
+
+
 ## /concours
 
 Vous avez plusieurs types de concours, aussi dit **"giveaway"**, à proposer avec la commande <mark style="color:orange;">/concours</mark> :
@@ -119,7 +136,7 @@ Vous avez plusieurs types de concours, aussi dit **"giveaway"**, à proposer ave
 * <mark style="color:orange;">/concours créer personnalisé</mark> ➜ Faire gagner une récompense personnalisée dans un giveaway.
 * <mark style="color:orange;">/concours créer rôle</mark> ➜ Faire gagner un rôle dans un giveaway.
 
-Pour chacun des cas, vous allez devoir **un nom** à votre giveaway, le nombre de **gagnants**, la **durée** du concours, une **quantité** (pour l'argent, l'expérience, ainsi que l'objet après l'avoir défini), choisir une **récompense personnalisée** ou un **rôle**.
+Pour chacun des cas, vous allez devoir indiquer **un nom** à votre giveaway, le nombre de **gagnants**, la **durée** du concours, une **quantité** (pour l'argent, l'expérience, ainsi que l'objet après l'avoir défini), choisir une **récompense personnalisée** ou un **rôle**.
 
 Vous pouvez également effectuer d'autres commandes :
 
