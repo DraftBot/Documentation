@@ -167,7 +167,14 @@ Les différents types de blagues :
 Vous avez la possibilité de gérer les types de blagues afin de les autoriser ou non sur votre serveur.
 {% endhint %}
 
-## /lancer-des
+## /lancer-dés
+
+La commande <mark style="color:orange;">/lancer-dés</mark> vous permet d'effectuer un lancer de dés. Indiquez le nombre de dés (X) et le nombre de faces (Y), séparés par la lettre « d » (Ex : XdY ➜ 1d10). 
+
+* Vous pouvez ajouter un modificateur (Z) (`+`, `-` ou `x`) (Ex : 1d10 **+5**).
+* Vous pouvez compléter avec des options : `-H` pour garder que le plus haut ou `-L` pour le plus bas (Ex : 3d10+5 **-L**).
+
+![Aperçu de la commande /lancer-dés](../.gitbook/assets/games-fun-commands/lancer-des.png)
 
 ## /tv
 
