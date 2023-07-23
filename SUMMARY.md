@@ -51,6 +51,7 @@
 - [🔃 Interserveurs](modules/interserveurs.md)
 - [❕ Commandes d'informations](modules/commandes-informations.md)
 - [⏰ Rappel](modules/rappel.md)
+- [🚨 Signalements](modules/reports.md)
 
 ## Autres
 
