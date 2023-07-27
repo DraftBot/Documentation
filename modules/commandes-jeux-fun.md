@@ -202,7 +202,7 @@ La commande <mark style="color:orange;">/lancer-dés</mark> vous permet d'effect
 
 ## /tv
 
-La commande <mark style="color:orange;">/tv</mark> vous permet d'accéder à des informations sur **un film ou une série** disponible sur le site <mark style="color:blue;">[The Movie Database](https://www.themoviedb.org/)</mark> (TMDB) grâce à **une API**. Ainsi il vous suffira de définir le nom du film ou de la série que vous recherchez à la suite de la commande.
+La commande <mark style="color:orange;">/tv</mark> vous permet d'accéder à des informations sur **un film ou une série** disponible sur le site <mark style="color:blue;">[The Movie Database](https://www.themoviedb.org/)</mark> (TMDB). Ainsi il vous suffira de définir le nom du film ou de la série que vous recherchez à la suite de la commande.
 
 Vous recevrez les informations suivantes :
 * Le titre du film ou de la série.
