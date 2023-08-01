@@ -21,7 +21,8 @@ Les indices ne peuvent fonctionner que si le nombre maximum est **au-dessus de 2
 
 Il existe deux types d'indices : 
 
-* **La direction** : celui-ci indique **via un message de DraftBot** la direction _une seule fois_ "plus haut ou plus bas" que le premier nombre envoyé qui se trouve dans la **zone des 30%** autour du nombre aléatoire à trouver.
+* **La direction** : celui-ci indique _une seule fois_ **via un message de DraftBot** la direction conseillée (plus haut ou plus bas). Doit être inclus dans l'intersection faisant 30% des possibilités autour du nombre aléatoire à trouver.
+
 * **Tu chauffes 🔥** : celui-ci indique **via une réaction de DraftBot sur le message de l'utilisateur** que le nombre envoyé est compris dans une intersection faisant **10%** des possibilités autour du nombre aléatoire à trouver. 
 
 
