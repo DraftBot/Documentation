@@ -21,3 +21,31 @@ Voici les différents boutons ainsi que leurs utilités :
 - "Rôle mentionné" ➜ Permet de définir le rôle qui sera mentionné dans le message de signalement.
 - "Salon" ➜ Défini le salon dans lequel le message de signalement est envoyé.
 - "Rôles Modérateurs" ➜ Permet de définir des rôles non-administrateurs qui pourront gérer les signalements.
+- Message de confirmation ➜ Défini le message qui sera envoyé à la paersonne qui fait le signalement.
+<details>
+<summary>Variables</summary>
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les messages d'au revoir de DraftBot.
+
+- `{user}` ➜ Mention du membre
+- `{user.id}` ➜ Identifiant du membre
+- `{user.username}` ➜ Pseudo du membre
+- `{user.nickname}` ➜ Surnom ou pseudo du membre
+- `{user.tag}` ➜ Tag du membre _(Pseudo#0000)_
+- `{server}` ➜ Nom du serveur
+- `{server.id}` ➜ Identifiant du serveur
+- `{server.name}` ➜ Nom du serveur
+- `{server.membercount}` ➜ Nombre de membres sur le serveur
+- `{channel}` ➜ Mentions du salon
+- `{channel.id}` ➜ Identifiant du salon
+- `{channel.name}` ➜ Nom du salon
+- `{date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{time}` ➜ Heure actuelle (HH:MM)
+- `{timestamp}` ➜ Timestamp actuel en secondes
+</details>
+
+{% hint style="warning" %}
+Votre message peut faire au maximum 1 200 caractères.
+{% endhint %}
+
+-Fil de tri <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark> ➜ Permet de de définir les fils pour les signalements résolus, refusés et sanctionnés.
+{% endtab %}
