@@ -63,7 +63,7 @@ Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale
 
 La commande <mark style="color:orange;">/pendu</mark> vous permet d'accéder à ce jeu de réflexion **d'un seul joueur**. Le but est de deviner quelles sont les lettres qui composent le **mot secret**.
 
-En cas d'erreur, **un petit bonhomme** se dessine petit à petit et s'il est complété, cela signifiera  que vous êtes pendu et que vous avez perdu.
+En cas d'erreur, **un petit bonhomme** se dessine petit à petit et s'il est complété, cela signifiera que vous êtes pendu et que vous avez perdu.
 
 ![Aperçu du jeu "Pendu"](../.gitbook/assets/games-fun-commands/pendu.png)
 
