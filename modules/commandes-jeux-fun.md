@@ -28,7 +28,7 @@ Il existe deux types d'indices :
 
 ## /chifumi
 
-La commande <mark style="color:orange;">/chifumi</mark> vous permet d'accéder à ce jeu à **deux joueurs**. Il s'agit d'une adaptation du classique **Pierre-Feuille-Ciseaux**, c'est un face à face dont les joueurs choisissent entre ces trois coups.
+La commande <mark style="color:orange;">/chifumi</mark> vous permet d'accéder à ce jeu à **deux joueurs**. Il s'agit d'une adaptation du classique **Pierre-Feuille-Ciseaux**, c'est un face-à-face dont les joueurs choisissent entre ces trois coups.
 
 Le déroulement du jeu :
 * **La pierre** bat **les ciseaux** (en les émoussant).
@@ -63,7 +63,7 @@ Vous avez la possibilité de choisir le mode de difficulté : "Facile", "Normale
 
 La commande <mark style="color:orange;">/pendu</mark> vous permet d'accéder à ce jeu de réflexion **d'un seul joueur**. Le but est de deviner quelles sont les lettres qui composent le **mot secret**.
 
-En cas d'erreur, **un petit bonhomme** se dessine petit à petit et s'il est complété, cela signifira que vous êtes pendu et que vous avez perdu.
+En cas d'erreur, **un petit bonhomme** se dessine petit à petit et s'il est complété, cela signifiera  que vous êtes pendu et que vous avez perdu.
 
 ![Aperçu du jeu "Pendu"](../.gitbook/assets/games-fun-commands/pendu.png)
 
@@ -73,7 +73,7 @@ Même si le jeu est pour un seul joueur, d'autres membres peuvent vous aider à 
 
 ## /puissance4
 
-La commande <mark style="color:orange;">/puissance4</mark> vous permet d'accéder à ce jeu à **deux joueurs**. Il s'agit d'un jeu de stratégie qui a pour but d'aligner **une suite de 4 pions** de la même couleur sur une grille comptant 6 rangées et 7 colonnes. A tour de rôle, les deux joueurs placent un pion dans la colonne de leur choix.
+La commande <mark style="color:orange;">/puissance4</mark> vous permet d'accéder à ce jeu à **deux joueurs**. Il s'agit d'un jeu de stratégie qui a pour but d'aligner **une suite de 4 pions** de la même couleur sur une grille comptant 6 rangées et 7 colonnes. À tour de rôle, les deux joueurs placent un pion dans la colonne de leur choix.
 
 Vous pouvez jouer à ce jeu avec le membre de **votre choix**, de façon **aléatoire**, ou avec **DraftBot**.
 
@@ -117,7 +117,7 @@ Vous avez trois types de commandes avec la commande <mark style="color:orange;">
 * <mark style="color:orange;">/sondage résultats</mark> ➜ Voir les résultats d'un sondage.
 * <mark style="color:orange;">/sondage terminer</mark> ➜ Mettre fin à un sondage.
 
-Lors de la création du sondage avec la commande <mark style="color:orange;">/sondage créer</mark>, vous allez devoir définir **la question** du sondage, ainsi que les **différents réponses** (10 réponses max). Pour insérer les réponses, vous devrez les mettre entre **guillemets** si elle contiennent des espaces.
+Lors de la création du sondage avec la commande <mark style="color:orange;">/sondage créer</mark>, vous allez devoir définir **la question** du sondage, ainsi que les **différentes réponses** (10 réponses max). Pour insérer les réponses, vous devrez les mettre entre **guillemets** si elles contiennent des espaces.
 
 {% hint style="info" %}
 Vous avez la possibilité, si vous le souhaitez, de définir la durée du sondage et de choisir le salon où le sondage sera lancé.
@@ -177,7 +177,7 @@ La commande <mark style="color:orange;">/couple</mark> vous permet tout simpleme
 
 ## /blague
 
-La commande <mark style="color:orange;">/blague</mark> vous permet d'accéder à différentes types de **blagues** disponibles sur <mark style="color:blue;">[Blagues API](https://www.blagues-api.fr/)</mark> qui est une API rassemblant les **meilleures blagues françaises**. Les réponses des blagues seront cachées, il vous suffira de cliquer sur la zone cachée pour que les réponses vous soient révélées.
+La commande <mark style="color:orange;">/blague</mark> vous permet d'accéder à différents types de **blagues** disponibles sur <mark style="color:blue;">[Blagues API](https://www.blagues-api.fr/)</mark> qui est une API rassemblant les **meilleures blagues françaises**. Les réponses des blagues seront cachées, il vous suffira de cliquer sur la zone cachée pour que les réponses vous soient révélées.
 
 Les différents types de blagues :
 * Tout public.
@@ -204,7 +204,7 @@ La commande <mark style="color:orange;">/lancer-dés</mark> vous permet d'effect
 
 ## /tv
 
-La commande <mark style="color:orange;">/tv</mark> vous permet d'accéder à des informations sur **un film ou une série** disponible sur le site <mark style="color:blue;">[The Movie Database](https://www.themoviedb.org/)</mark> (TMDB). Ainsi il vous suffira de définir le nom du film ou de la série que vous recherchez à la suite de la commande.
+La commande <mark style="color:orange;">/tv</mark> vous permet d'accéder à des informations sur **un film ou une série** disponible sur le site <mark style="color:blue;">[The Movie Database](https://www.themoviedb.org/)</mark> (TMDB). Ainsi, il vous suffira de définir le nom du film ou de la série que vous recherchez à la suite de la commande.
 
 Vous recevrez les informations suivantes :
 * Le titre du film ou de la série.
