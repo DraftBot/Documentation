@@ -10,7 +10,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-> Vous trouverez ci-dessous la configuration des réactions de mots avec la commande <mark style="color:orange;">/config</mark>.
+> Vous trouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark>.
 
 ![Aperçu du système](../.gitbook/assets/report/view.png)
 
