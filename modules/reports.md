@@ -51,7 +51,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 Votre message peut faire au maximum 1 200 caractères.
 {% endhint %}
 
--Fil de tri **_([✨ premium](https://draftbot.fr/premium))_** ➜ Permet de de définir les fils pour les signalements résolus, refusés et sanctionnés.
+- Fil de tri **_([✨ premium](https://draftbot.fr/premium))_** ➜ Permet de de définir les fils pour les signalements résolus, refusés et sanctionnés.
 {% endtab %}
 
 {% tab title="Via le panel" %}
