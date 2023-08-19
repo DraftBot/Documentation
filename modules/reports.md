@@ -63,6 +63,6 @@ Pour configurer le système de signalments, accédez au panel via le lien ci-des
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
-![Panel de configuration des niveaux](../.gitbook/assets/report/dashboard.png)
+![Panel de configuration des niveaux](../.gitbook/assets/report/dashboard.jpg)
 {% endtab %}
 {% endtabs %}
