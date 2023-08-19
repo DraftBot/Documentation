@@ -19,16 +19,16 @@ Signalements
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
-- "<mark style="color:blue;">Activer la réaction 🚨</mark>" ➜ DraftBot réagira au message signaler avec la réaction "🚨".
+- "Activer la réaction 🚨" ➜ DraftBot réagira au message signalé avec la réaction "🚨".
 
 - "Activer l'ouverture d'un thread" ➜ Si activé, DraftBot ouvrira un fil quand un signalement est envoyé. **_([✨ premium](https://draftbot.fr/premium))_**
 - "Rôle mentionné" ➜ Permet de définir le rôle qui sera mentionné dans le message de signalement.
-- "Salon" ➜ Défini le salon dans lequel le message de signalement est envoyé.
+- "<mark style="color:blue;">Salon</mark>" ➜ Défini le salon dans lequel le message de signalement est envoyé.
 - "Rôles Modérateurs" ➜ Permet de définir des rôles non-administrateurs qui pourront gérer les signalements.
 - Message de confirmation ➜ Défini le message qui sera envoyé à la personne qui fait le signalement.
 <details>
 <summary>Variables</summary>
-Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les messages d'au revoir de DraftBot.
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les motifs de signalement de DraftBot.
 
 - `{user}` ➜ Mention du membre
 - `{user.id}` ➜ Identifiant du membre
