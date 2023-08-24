@@ -51,7 +51,9 @@ Vous avez la possibilité de gérer les suggestions, **DraftBot** vous présente
 Découvrez ci-dessous les manipulations à suivre :
 
 {% hint stype="info" %}
-Vous avez besoin de la permission "Gérer les messages" pour pouvoir accepter, refuser ou prévoir une suggestion. Toutefois, vous pouvez toujours modifier cette permission depuis les paramètres de votre serveur ➜ "Intégrations" puis sélectionner **DraftBot** et taper "/suggestmod" dans la barre de recherche située en haut de votre écran. (Uniquement disponible sur ordinateur) 
+Vous avez besoin de la permission "Gérer les messages" pour pouvoir accepter, refuser ou prévoir une suggestion. 
+
+Toutefois, vous pouvez toujours modifier cette permission depuis les paramètres de votre serveur dans la rubrique "Intégrations".
 {% endhint %}
 
 {% tabs %}
@@ -88,10 +90,12 @@ Vous avez aussi la possibilité de faire un clic droit (sur ordinateur) ou d'app
 {% endtab %}
 {% endtabs %}
 
-Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours repasser une suggestion en attente via la commande <mark style="color:orange;">/suggestmod attente</mark>. Il est également possible de repasser par le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer votre suggestion. Vous aurez ensuite à saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message de la suggestion.
+Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours repasser une suggestion en attente via la commande <mark style="color:orange;">/suggestmod attente</mark>.
+
+Il est également possible de repasser par le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer votre suggestion. Vous aurez ensuite à saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message de la suggestion.
 
 {% hint style="info" %}
-Vous avez aussi la possibilité de repasser une suggestion en attente ou en changer la raison en passant depuis le menu "Applications" puis de sélectionner la même option de classement (accepter si la suggestion est acceptée).
+Vous avez aussi la possibilité de repasser une suggestion en attente ou en changer la raison en passant depuis le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer votre suggestion.
 {% endhint %}
 
 ## Configuration
@@ -159,7 +163,7 @@ En cliquant sur le bouton "Tri des suggestions", vous aurez accès à ce menu :
 ![Menu de configuration des notifications lors du changement de statut](../.gitbook/assets/suggestions/set_suggestion_notification.png)
 
 * "<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.
-* "<mark style="color:blue;">Mention activée par défaut</mark>" ➜ Une fois cette option activée, les membres seront toujours notifié lors du changement de statut.
+* "<mark style="color:blue;">Mention activée par défaut</mark>" ➜ Une fois cette option activée, les membres seront notifié lors du changement de statut.
 * "Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifiés lors du changement de statut.
 
 {% hint style="info" %}
