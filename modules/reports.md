@@ -14,8 +14,7 @@ description: >-
 
 ![Aperçu du système](../.gitbook/assets/report/view.png)
 
-Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 🚨
-Signalements
+Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 🚨 Signalements
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
@@ -34,7 +33,6 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 - `{user.id}` ➜ Identifiant du membre
 - `{user.username}` ➜ Pseudo du membre
 - `{user.nickname}` ➜ Surnom ou pseudo du membre
-- `{user.tag}` ➜ Tag du membre _(Pseudo#0000)_
 - `{server}` ➜ Nom du serveur
 - `{server.id}` ➜ Identifiant du serveur
 - `{server.name}` ➜ Nom du serveur
@@ -51,7 +49,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 Votre message peut faire au maximum 1 200 caractères.
 {% endhint %}
 
-- Fil de tri **_([✨ premium](https://draftbot.fr/premium))_** ➜ Permet de de définir les fils pour les signalements résolus, refusés et sanctionnés.
+- Fil de tri **_([✨ premium](https://draftbot.fr/premium))_** ➜ Permet de définir les fils pour les signalements résolus, refusés et sanctionnés.
 {% endtab %}
 
 {% tab title="Via le panel" %}
@@ -59,7 +57,7 @@ Votre message peut faire au maximum 1 200 caractères.
 
 Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
 
-Pour configurer le système de signalments, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Signalements" sur le serveur de votre choix.
+Pour configurer le système de signalements, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Signalements" sur le serveur de votre choix.
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
