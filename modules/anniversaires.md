@@ -62,7 +62,7 @@ Lorsque vous voulez paramétrer le message d'anniversaire, vous pouvez choisir e
 
 Membre :
 
-- `{​users}` ➜ Mention d'un ou plusieurs membres'
+- `{​users}` ➜ Mention d'un ou plusieurs membres
 - `{​user.id}` ➜ Identifiant du membre
 - `{​user.username}` ➜ Pseudo du membre
 
@@ -176,10 +176,7 @@ Lorsque vous voulez paramétrer le message d'anniversaire, vous pouvez choisir e
 
 Membre :
 
-- `{​users}` ➜ Mention d'un ou plusieurs membres
-- `{​user.id}` ➜ Identifiant du membre
-- `{​user.tag}` ➜ Tag du membre (Pseudo#0000)
-- `{​user.username}` ➜ Pseudo du membre
+- `{user}` ou `{​users}` ➜ Mention d'un ou plusieurs membres
 
 Serveur :
 
