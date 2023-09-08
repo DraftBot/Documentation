@@ -67,4 +67,5 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 
 ## Gestion des signalements
 
-
+Une fois qu'une personne aura signalée un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
+[message de signalement](../.gitbook/assets/report/traitement du signalement.jpg)
