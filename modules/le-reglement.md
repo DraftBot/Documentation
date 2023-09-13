@@ -30,4 +30,18 @@ Pour savoir comment récupérer un identifiant : [Cliquez ici !](../../autres/re
 
 ![Résultat d'ajout d'une règle](../.gitbook/assets/rules/rules-add-2.png)
 
+{% hint style="info" %}
+Lorsque l'ajout d'une règle est effectuée, DraftBot proposera deux choix : ajouter une autre règle ou de remettre à plus tard.
+{% endhint %}
+
 ## Modifier les règles
+
+Vous pouvez modifier vos règles à tout moment, que se soit pour faire une correction ou bien pour le rendre plus esthétique selon vos envies. Vous aurez besoin de la commande <mark style="color:orange;">/reglement modifier</mark>, la procédure n'est pas si différente que la commande <mark style="color:orange;">/reglement ajouter</mark>, juste qu'un nouveau champ apparaît : **"règle"**.
+
+Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
+
+![Aperçu de la commande /reglement modifier](../.gitbook/assets/rules/rules-modify.png)
+
+![Résultat de la modification d'une règle](../.gitbook/assets/rules/rules-modify-2.png)
+
+## Retirer les règles
