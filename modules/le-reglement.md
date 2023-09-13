@@ -48,6 +48,6 @@ Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
 
 ## Retirer les règles
 
-Si une règle ne vous plaît pas et que vous souhaitez la retirer, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Vous aurez juste qu'à récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
+Si une règle ne vous plaît pas et que vous souhaitez la retirer, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Vous aurez juste à récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
 
 ![Aperçu de la commande /reglement retirer](../.gitbook/assets/rules/rules-remove.png)
