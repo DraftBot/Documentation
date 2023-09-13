@@ -34,6 +34,8 @@ Pour savoir comment récupérer un identifiant : [Cliquez ici !](../../autres/re
 Lorsque l'ajout d'une règle est effectuée, DraftBot proposera deux choix : ajouter une autre règle ou de remettre à plus tard.
 {% endhint %}
 
+{% hint style="warning" %} Le titre est limité à **256 caractères**, tandis que la description est limitée à **1 024 caractères**. {% endhint %}
+
 ## Modifier les règles
 
 Vous pouvez modifier vos règles à tout moment, que se soit pour faire une correction ou bien pour le rendre plus esthétique selon vos envies. Vous aurez besoin de la commande <mark style="color:orange;">/reglement modifier</mark>, la procédure n'est pas si différente de la commande <mark style="color:orange;">/reglement ajouter</mark>, juste qu'un nouveau champ apparaît : **"règle"**.
@@ -46,6 +48,6 @@ Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
 
 ## Retirer les règles
 
-Si une règle ne vous plait pas et vous souhaitez la retirer, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Vous aurez juste qu'à récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
+Si une règle ne vous plaît pas et que vous souhaitez la retirer, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Vous aurez juste qu'à récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
 
 ![Aperçu de la commande /reglement retirer](../.gitbook/assets/rules/rules-remove.png)
