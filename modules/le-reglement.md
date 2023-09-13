@@ -34,7 +34,7 @@ Pour savoir comment récupérer un identifiant : [Cliquez ici !](../../autres/re
 Lorsque l'ajout d'une règle est effectuée, DraftBot proposera deux choix : ajouter une autre règle ou de remettre à plus tard.
 {% endhint %}
 
-{% hint style="warning" %} Le titre est limité à **256 caractères**, tandis que la description est limitée à **1 024 caractères**. {% endhint %}
+{% hint style="warning" %} Le titre est limité à 256 caractères, tandis que la description est limitée à 1 024 caractères. {% endhint %}
 
 ## Modifier les règles
 
