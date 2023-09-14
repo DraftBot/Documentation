@@ -76,11 +76,11 @@ Vous pourez donc :
 <mark style="color:blue;">"prendre en charge"</mark> ➜ Permet de montrer que vous êtes en train de régler le signalement
 
 <mark style="color:green;">Marquer comme traité</mark> ➜ Marque le signalement comme résolu.
-Vous pouvez ensuite sélécrionner la raison de la résolution du signalement parmis :
-<mark style="color:blue;">Membre sanctionné</mark>, <mark style="color:green;">Signalement résolu</mark> et <mark style="color:blue;">Signalement refusé</mark>
+Vous pouvez ensuite séléctionner la raison de la résolution du signalement parmis :
+<mark style="color:blue;">Membre sanctionné</mark>, <mark style="color:green;">Signalement résolu</mark> et <mark style="color:blue;">Signalement refusé</mark>.
 
 Une fois la raison séléctionnée, vous pourrez ajouter un commentaire ou non.
 
 {% hint style="info" %}
-Vous pourez toujours remettre le signalement en attente via un bouton sur le message de signalement
+Vous pourez toujours remettre le signalement en attente via un bouton sur le message de signalement.
 {% endhint %}
