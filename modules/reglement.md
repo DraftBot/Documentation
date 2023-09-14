@@ -9,7 +9,8 @@ description: >-
 
 ## Création du règlement
 
-Pour commencez, vous allez devoir effectuer la commande <mark style="color:orange;">/reglement créer</mark>. DraftBot vous donnera ensuite la possibilité d'ajouter le rôle que vous souhaitez attribuer aux membres, une fois qu'ils ont pris connaissance du règlement et qu'ils ont cliqué sur le bouton **"Accepter le règlement"**.
+Pour commencez, vous allez devoir effectuer la commande <mark style="color:orange;">/reglement créer</mark>. **DraftBot** vous donnera ensuite la possibilité d'ajouter le rôle que vous souhaitez attribuer aux membres, une fois qu'ils ont pris connaissance du règlement et qu'ils ont cliqué sur le bouton "<mark style="color:green;">Accepter le règlement</mark>".
+
 
 ![Résultat de la commande /reglement créer](../.gitbook/assets/rules/rules-create.png)
 
