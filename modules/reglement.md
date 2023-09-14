@@ -46,7 +46,8 @@ Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
 
 ![Résultat de la modification d'une règle](../.gitbook/assets/rules/rules-modify-2.png)
 
-## Retirer les règles
+## Retirer une règle
+
 
 Si une règle ne vous plaît pas et que vous souhaitez la retirer, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Vous aurez juste à récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
 
