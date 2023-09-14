@@ -34,7 +34,8 @@ Lorsque l'ajout d'une règle est effectuée, DraftBot proposera deux choix : ajo
 
 ## Modifier les règles
 
-Vous pouvez modifier vos règles à tout moment, que se soit pour faire une correction ou bien pour le rendre plus esthétique selon vos envies. Vous aurez besoin de la commande <mark style="color:orange;">/reglement modifier</mark>, la procédure n'est pas si différente de la commande <mark style="color:orange;">/reglement ajouter</mark>, juste qu'un nouveau champ apparaît : **"règle"**.
+Vous pouvez modifier vos règles à tout moment, que se soit pour faire une correction ou bien pour le rendre plus esthétique selon vos envies. Vous aurez besoin de la commande <mark style="color:orange;">/reglement modifier</mark>. La procédure n'est pas très différente de la commande <mark style="color:orange;">/reglement ajouter</mark>, juste qu'un nouveau champ apparaît : **"règle"**.
+
 
 Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
 
