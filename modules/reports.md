@@ -73,7 +73,7 @@ Une fois qu'une personne aura signalée un utilisateur ou un message, vous aurez
 Vous pourez donc :
 
 
-<mark style="color:blue;">"prendre en charge"</mark> ➜ Permet de montrer que vous êtes en train de régler le signalement
+<mark style="color:blue;">"prendre en charge"</mark> ➜ Permet de montrer que vous êtes en train de régler le signalement.
 
 <mark style="color:green;">Marquer comme traité</mark> ➜ Marque le signalement comme résolu.
 Vous pouvez ensuite séléctionner la raison de la résolution du signalement parmis :
