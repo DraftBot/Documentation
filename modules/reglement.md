@@ -5,7 +5,7 @@ description: >-
   des règles du serveur.
 ---
 
-# Règlement
+# 📝 Règlement
 
 ## Création du règlement
 
