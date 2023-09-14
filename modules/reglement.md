@@ -27,7 +27,8 @@ Pour savoir comment récupérer un identifiant : [Cliquez ici !](../../autres/re
 ![Résultat d'ajout d'une règle](../.gitbook/assets/rules/rules-add-2.png)
 
 {% hint style="info" %}
-Lorsque l'ajout d'une règle est effectuée, DraftBot proposera deux choix : ajouter une autre règle ou de remettre à plus tard.
+Lorsque l'ajout d'une règle est effectuée, **DraftBot** proposera deux choix : ajouter une autre règle ou de remettre à plus tard.
+
 {% endhint %}
 
 {% hint style="warning" %} Le titre est limité à 256 caractères, tandis que la description est limitée à 1 024 caractères. {% endhint %}
