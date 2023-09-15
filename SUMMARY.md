@@ -40,6 +40,7 @@
 - [🔎 Inventaires](modules/inventaire.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [💡 Suggestions](modules/suggestions.md)
 - [📥 Notifications sociales](modules/notifications-sociales.md)
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
