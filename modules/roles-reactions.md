@@ -66,7 +66,9 @@ Pour ajouter, retirer, supprimmer ou modifier le mode de votre rôle-réaction, 
 Pour accéder au rôle-réaction, vous devrez rensigner <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark> du message contenant le rôle-réaction.
 {% endhint %}
 
-### Ajouter un rôle à votre rôle-réaction
+### Ajouter ou retirer un rôle à votre rôle-réaction
+
+Pour ajouter un rôle à votre rôle-réaction, vous 
 
 Vous n'aurez qu'à cliquer sur "<mark style="color:blue;">Ajouter</mark>" pour ajouter un nouveau rôle à votre rôle-réaction.
 
