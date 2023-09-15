@@ -17,7 +17,7 @@ description: >-
 Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 🚨 Signalements
 
 Voici les différents boutons ainsi que leurs utilités :
-- "Activer le système" ➜ Permet d'activer ou désactiver le système.
+- <mark style="color:blue;">"Activer le système"</mark> ➜ Permet d'activer ou désactiver le système.
 - "Activer la réaction 🚨" ➜ DraftBot réagira au message signalé avec la réaction "🚨".
 
 - "Activer l'ouverture d'un thread" ➜ Si activé, DraftBot ouvrira un fil quand un signalement est envoyé. **_([✨ premium](https://draftbot.fr/premium))_**
