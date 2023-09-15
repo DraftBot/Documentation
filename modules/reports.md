@@ -68,9 +68,11 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 ## Gestion des signalements
 
 Une fois qu'une personne aura signalée un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
-![message de signalement](../.gitbook/assets/report/traitement-du-signalement.jpg) <!--A changer : faute d'orthographe dans le message-->
+![message de signalement](../.gitbook/assets/report/traitement-du-signalement.jpg) 
+<!--A changer : faute d'orthographe dans le message-->
 
 Vous pourez donc :
+
 
 
 <mark style="color:blue;">"prendre en charge"</mark> ➜ Permet de montrer que vous êtes en train de régler le signalement.
@@ -82,5 +84,5 @@ Vous pouvez ensuite séléctionner la raison de la résolution du signalement pa
 Une fois la raison séléctionnée, vous pourrez ajouter un commentaire ou non.
 
 {% hint style="info" %}
-Vous pourez toujours remettre le signalement en attente via un bouton sur le message de signalement.
+Vous pourrez toujours remettre le signalement en attente via un bouton sur le message de signalement.
 {% endhint %}
