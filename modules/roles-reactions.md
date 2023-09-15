@@ -55,7 +55,7 @@ Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés pa
 L'intégralité de la création est ensuite guidée par **DraftBot**, il vous demandera le rôle devant être ajouté lors d'une interaction avec le message, le format du rôle réaction ainsi que des questions de personnalisation.
 
 {% hint style="success" %}
-Félicitations ! Le rôle-réaction est maintenant créé. Nous allons maintenant pouvoir le personnaliser encore plus !
+Félicitations ! Le rôle-réaction est maintenant créé. Nous allons maintenant pouvoir y ajouter des rôles.
 {% endhint %}
 
 ## Gérer un rôle-réaction
