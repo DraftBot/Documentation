@@ -59,7 +59,7 @@ Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de c
 
 Pour configurer le système de signalements, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Signalements" sur le serveur de votre choix.
 
-> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
+> ⚠️ Une fois que vous avez terminé de configurer le système, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
 ![Panel de configuration des niveaux](../.gitbook/assets/report/dashboard.jpg)
 {% endtab %}
