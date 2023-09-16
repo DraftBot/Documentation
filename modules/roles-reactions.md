@@ -9,19 +9,6 @@ description: >-
 
 Les Rôles-réactions sont utiles lorsque vous souhaitez que vos membres choisissent un ou plusieurs rôles à choix parmi une liste prédéfinie par le créateur de ce dernier.  
 
-## Configuration
-
-{% tab title="Via le panel" %}
-
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-
-Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Rôles-Réactions" sur le serveur de votre choix.
-
-![Panel de configuration des rôles-réactions](../.gitbook/assets/rolereact/dashboard.png)
-
-{% endtab %}
-{% endtabs %}
-
 ## Créer un rôles-réaction
 
 {% tabs %}
@@ -33,59 +20,39 @@ Pour créer un rôle-réaction, rendez-vous dans <mark style="color:orange;">/co
 
 Une fois cela fait, plusieurs choix s'offriront à vous :
 
-* ***Nouveau message*** ➜ Créera un embed au titre personnalisé et au footer prédéfini.
-* ***Message existant de DraftBot*** ➜ Récupérera un message de **DraftBot** ayant déjà été envoyé.
+* ***Nouveau message*** ➜ **DraftBot** créera un embed au titre personnalisé.
+* ***Message existant de DraftBot*** ➜ Le bot récupérera un message de **DraftBot** ayant déjà été envoyé.
+
+{% hint style="warning" %}
+Pour créer un rôle-réaction à partir d'un message déjà envoyé, il vous faudra récupérer son <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
+{% endhint %}
 
 {% hint style="info" %}
-Pour créer un rôle-réaction à partir d'un message déjà envoyé, il vous faudra récupéré son <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
-
 Si vous souhaitez par contre créer un message pour votre rôle réaction voici les différentes possibilitées :
 
 * *Depuis la commande <mark style="color:orange;">/envoyer</mark>* : Permet d'envoyer un message simple sous l'identité de **DraftBot**.
 * *Depuis l'Embed Creator du <mark style="color:blue;">[panel](https://www.draftbot.fr/dashboard)</mark>* : Permet la création complète et facile d'un message ou d'un embed entièrement personnalisable.
 {% endhint %}
 
+![Message de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/question.png)
+
+
 {% hint style="warning" %}
 Les rôles-réactions ne peuvent être ajoutés que sur des messages envoyés par **DraftBot**.
 {% endhint %}
 
-![Message de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/question.png)
-
-
 L'intégralité de la création est ensuite guidée par **DraftBot**, il vous demandera le rôle devant être ajouté lors d'une interaction avec le message, le format du rôle réaction ainsi que des questions de personnalisation.
 
 {% hint style="success" %}
-Félicitations ! Le rôle-réaction est maintenant créé. Nous allons maintenant pouvoir y ajouter des rôles.
+Félicitations ! Le rôle-réaction est maintenant créé. Nous allons pouvoir y ajouter d'autres rôles et continuer à le personnaliser.
 {% endhint %}
-
-## Gérer un rôle-réaction
-
-Pour ajouter, retirer, supprimmer ou modifier le mode de votre rôle-réaction, rendez vous dans <mark style="color:orange;">/config</mark> puis dans la rubrique "🧿 Rôles-Réactions" (*dans le sélecteur*). Ensuite, cliquez sur "<mark style="color:blue;">Gérer un rôle-réaction existant</mark>".
-
-{% hint style="info" %}
-Pour accéder au rôle-réaction, vous devrez rensigner <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark> du message contenant le rôle-réaction.
-{% endhint %}
-
-### Ajouter ou retirer un rôle à votre rôle-réaction
-
-Pour ajouter un rôle à votre rôle-réaction, vous 
-
-Vous n'aurez qu'à cliquer sur "<mark style="color:blue;">Ajouter</mark>" pour ajouter un nouveau rôle à votre rôle-réaction.
-
-### Modifier un rôle-réaction
-
-* ***Modifier*** ➜ Modifier un rôle-réaction.
-* ***Supprimer*** ➜ Supprimer un rôle-réaction.
-* ***Mode*** ➜ Changer le mode des rôles-réactions présents sur le message.
-
-
-
-![Message de gestion des rôles-réactions](../.gitbook/assets/rolereact/gestion.png)
 
 {% endtab %}
-{% tab title="Via le panel" %}
 
+{% tab title="Second Tab" %}
 Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via le panel.
+
+Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Rôles-Réactions" sur le serveur de votre choix.
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
@@ -106,39 +73,66 @@ Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
 
 ![Panel de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/dashboard_creation.png)
 
-{% endtab %}
-{% endtabs %}
-
 {% hint style="info" %}
 Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de l'encadré d'un rôle-réaction.
 
 ![Zone de texte de l'encadré d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
 {% endhint %}
 
+{% endtab %}
+{% endtabs %}
 
+## Gérer un rôle-réaction
 
-
-### Gérer un rôle-réaction existant
 {% tabs %}
-
-<!-- Depuis Discord -->
 {% tab title="Via la commande /config" %}
-Pour gérer un rôle-réaction existant, <mark style="color:orange;">[accédez à la configuration](#accéder-à-la-configuration)</mark> des rôles-réactions via la commande <mark style="color:orange;">/config</mark>.
+
+Pour ajouter, supprimmer ou modifier le mode de votre rôle-réaction, rendez vous dans <mark style="color:orange;">/config</mark> puis dans la rubrique "🧿 Rôles-Réactions" (*dans le sélecteur*). Ensuite, cliquez sur "<mark style="color:blue;">Gérer un rôle-réaction existant</mark>".
+
+{% hint style="info" %}
+Pour accéder au rôle-réaction, vous devrez rensigner <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark> du message contenant le rôle-réaction.
+{% endhint %}
+
+### Ajouter ou retirer un rôle à votre rôle-réaction
+
+Pour ajouter un nouveau rôle à votre rôle-réaction, vous n'aurez qu'à cliquer sur "<mark style="color:blue;">Ajouter</mark>". Le bot vous demanderas ensuite le rôle à ajouter, le format, et des questions de personnalisation.
+
+Pour retirer un rôle de son rôle-réaction, vous devrez cliquer sur "<mark style="color:blue;">Supprimer</mark>". Le bot demandera par la suite le rôle à enlever.
+
+### Modifier un rôle-réaction
+
+Si vous souhaiter changer le rôle que le membre recevra en interragissant avec un bouton, une réaction ou un rôle à choix dans un sélecteur, cliquez sur "<mark style="color:blue;">Modifier</mark>". **DraftBot** vous invitera à sélectionner le rôle à modifier et celui par lequel vous souhaitez le remplacer.
+
+### Les différents modes
+
+Les modes servent à modifier la manière dont vos membres pourront sélectionner les rôles et la manière dont ils les garderont.
+Pour modifier le mode d'un rôle-réaction, cliquez sur "<mark style="color:blue;">Mode</mark>".
+
+{% hint style="info" %}
+Lors de la création d'un rôle-réaction, le mode par défaut est le mode *Normal*.
+{% endhint %}
+
+{% hint style="warning" %}
+Tous les modes ne sont pas disponibles pour tout les formats de rôle-réaction (bouton ; réaction ; sélecteur).
+{% endhint %}
+
+Le seul mode disponible à tous les formats est le mode *Normal* (ajout ou retrait d'un rôle lors d'une interaction avec le message).
+
+{% tabs %}
+{% tab title="Réactions" %}
+* *Inversé* : Suppression du rôle lors de l'ajout de la réaction et ajout du rôle lors du retrait de celle-ci.
+* *Simple* : Ajout ou retrait du rôle lors de l'ajout de la réaction, la réaction est immédiatement retirée.
+* *Ajout du rôle définitif* : Retrait de la réaction de l'utilisateur lors de l'ajout du rôle et impossibilité de retirer le rôle.
+* *Retrait du rôle définitif* : Retrait de la réaction de l'utilisateur lors du retrait du rôle et impossibilité de se remettre le rôle.
+{% endtab %}
+
+{% tab title="Sélecteur et boutons" %}
+* *Unique* : Un seul rôle possible dans le sélecteur ou parmi les boutons.
+* *Unique* définitif : Un seul rôle possible dans le sélecteur ou parmi les boutons et impossibilité de changer de rôle.
 
 ![Message de gestion des rôles-réactions](../.gitbook/assets/rolereact/gestion.png)
 
-Vous devrez ensuite indiquer le lien ou l'[<mark style="color:blue;">identifiant du message</mark>](../autres/recuperer-un-identifiant.md#identifiant-dun-message) sur lequel se trouve le rôle-réaction que vous souhaitez modifier.
-
-Vous aurez ensuite accès au menu de gestion des rôles-réactions :
-* ***Ajouter*** ➜ Ajouter un nouveau rôle-réaction.
-* ***Modifier*** ➜ Modifier un rôle-réaction.
-* ***Supprimer*** ➜ Supprimer un rôle-réaction.
-* ***Mode*** ➜ Changer le mode des rôles-réactions présents sur le message.
-
-L'intégralité de la création est ensuite guidée par **DraftBot**, il vous suffit de suivre ses consignes.
 {% endtab %}
-
-<!-- Depuis le panel web -->
 {% tab title="Via le panel" %}
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
@@ -156,8 +150,5 @@ Vous pourrez modifier les rôles-réactions de différentes façons :
 Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
 {% endhint %}
 
-> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
-
-![Panel de gestion d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_gestion.png)
 {% endtab %}
 {% endtabs %}
