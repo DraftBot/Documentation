@@ -120,17 +120,22 @@ Le seul mode disponible à tous les formats est le mode *Normal* (ajout ou retra
 
 {% tabs %}
 {% tab title="Réactions" %}
+
 * *Inversé* : Suppression du rôle lors de l'ajout de la réaction et ajout du rôle lors du retrait de celle-ci.
 * *Simple* : Ajout ou retrait du rôle lors de l'ajout de la réaction, la réaction est immédiatement retirée.
 * *Ajout du rôle définitif* : Retrait de la réaction de l'utilisateur lors de l'ajout du rôle et impossibilité de retirer le rôle.
 * *Retrait du rôle définitif* : Retrait de la réaction de l'utilisateur lors du retrait du rôle et impossibilité de se remettre le rôle.
-{% endtab %}
 
+{% endtab %}
 {% tab title="Sélecteur et boutons" %}
+
 * *Unique* : Un seul rôle possible dans le sélecteur ou parmi les boutons.
 * *Unique* définitif : Un seul rôle possible dans le sélecteur ou parmi les boutons et impossibilité de changer de rôle.
 
 ![Message de gestion des rôles-réactions](../.gitbook/assets/rolereact/gestion.png)
+
+{% endtab %}
+{% endtabs %}
 
 {% endtab %}
 {% tab title="Via le panel" %}
