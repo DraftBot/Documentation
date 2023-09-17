@@ -22,7 +22,7 @@ Une fois cela fait, plusieurs choix s'offriront à vous :
 * ***Message existant de DraftBot*** ➜ Le bot récupérera un message de **DraftBot** ayant déjà été envoyé.
 
 {% hint style="warning" %}
-Pour créer un rôle-réaction à partir d'un message déjà envoyé, il vous faudra récupérer son <mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
+Pour créer un rôle-réaction à partir d'un message déjà envoyé, il vous faudra récupérer son <mark style="color:blue;">[identifiant](../autres/recuperer-un-identifiant.md#identifiant-dun-message)</mark>.
 {% endhint %}
 
 {% hint style="info" %}
@@ -57,21 +57,23 @@ Félicitations ! Le rôle-réaction est maintenant créé. Nous allons pouvoir y
 
 Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la rubrique "Rôles-Réactions".
 
-* Si vous voulez créer un nouveau message, créez un message et/ou un embed grâce à l'Embed Creator se trouvant au centre de la page.
-* Si vous voulez utiliser un message de **DraftBot** existant, cliquez sur le bouton "<mark style="color:orange;">Récupérer un message</mark>" situé en haut à droite de la page. Rensignez ensuite le salon dans lequel se trouve le message, ainsi que l'<mark style="color:blue;">[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message)</mark> à récupérer. Cliquez ensuite sur "Récupérer".
+Tout d'abord, sélectionnez le salon dans lequel sera envoyé le message de rôle-réaction via le sélecteur situé au dessus de l'Embed Creator.
 
-Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", un "Bouton" ou un "Sélecteur". Vous pouvez en ajouter plusieurs sur un même message.
+Voici les différentes possibilitées de définir le message sur lequel les membres devront intéragir pour recevoir un rôle :
+
+* En créant un nouveau message ou / et un embed grâce à l'Embed Creator se trouvant au centre de la page.
+* En utilisant un message de **DraftBot** préalablement créer : cliquez sur le bouton "<mark style="color:orange;">Récupérer un message</mark>" situé en haut à droite de la page. Renseignez ensuite le salon dans lequel se trouve le message, ainsi que l'<mark style="color:blue;">[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message)</mark> à récupérer. Cliquez ensuite sur "Récupérer".
+
+Ajoutez ensuite vos rôles-réaction à votre message, celui-ci pouvant être une "<mark style="color:orange;">Réaction</mark>", un "<mark style="color:orange;">Bouton</mark>" ou un "<mark style="color:orange;">Sélecteur</mark>". Vous pouvez en ajouter plusieurs sur un même message.
 
 {% hint style="info" %}
-Il est possible de personnaliser les boutons ou le sélecteur en cliquant sur la petit flèche à droite de l'endroit où l'on sélectionne le rôle à ajouter.
+Il est possible de personnaliser les boutons ou le sélecteur en cliquant sur la petit flèche à droite du champ où l'on sélectionne le rôle à ajouter.
 
 ![Personnaliser un bouton](../.gitbook/assets/rolereact/dashboard_set_button_settings.png)
 
 {% endhint %}
 
-Vous pouvez modifier le mode des rôles-réactions du message grâce au sélecteur situé en dessous de l'Embed Creator.
-
-Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez le salon dans lequel sera envoyé le message de rôle-réaction.
+Vous pouvez modifier le mode des rôles-réactions du message grâce au sélecteur situé juste en dessous de l'Embed Creator.
 
 {% hint style="success" %}
 Enfin, cliquez sur "Créer". Félicitations ! Votre rôle-réaction est maintenant créé.
