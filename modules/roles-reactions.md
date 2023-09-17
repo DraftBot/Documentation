@@ -62,9 +62,9 @@ Tout d'abord, sélectionnez le salon dans lequel sera envoyé le message de rôl
 Voici les différentes possibilitées de définir le message sur lequel les membres devront intéragir pour recevoir un rôle :
 
 * En créant un nouveau message ou / et un embed grâce à l'Embed Creator se trouvant au centre de la page.
-* En utilisant un message de **DraftBot** préalablement créer : cliquez sur le bouton "<mark style="color:orange;">Récupérer un message</mark>" situé en haut à droite de la page. Renseignez ensuite le salon dans lequel se trouve le message, ainsi que l'<mark style="color:blue;">[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message)</mark> à récupérer. Cliquez ensuite sur "Récupérer".
+* En utilisant un message de **DraftBot** préalablement créé. Pour le récupérer, cliquez sur le bouton "<mark style="color:orange;">Récupérer un message</mark>" situé en haut à droite de la page. Renseignez ensuite le salon dans lequel se trouve le message, ainsi que l'<mark style="color:blue;">[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message)</mark> à récupérer. Cliquez ensuite sur "Récupérer".
 
-Ajoutez ensuite vos rôles-réaction à votre message, celui-ci pouvant être une "<mark style="color:orange;">Réaction</mark>", un "<mark style="color:orange;">Bouton</mark>" ou un "<mark style="color:orange;">Sélecteur</mark>". Vous pouvez en ajouter plusieurs sur un même message.
+Ajoutez ensuite vos rôles-réaction à votre message, ceux-ci pouvant être une "<mark style="color:orange;">Réaction</mark>", un "<mark style="color:orange;">Bouton</mark>" ou un "<mark style="color:orange;">Sélecteur</mark>". Vous pouvez en ajouter plusieurs sur un même message.
 
 {% hint style="info" %}
 Il est possible de personnaliser les boutons ou le sélecteur en cliquant sur la petit flèche à droite du champ où l'on sélectionne le rôle à ajouter.
@@ -157,11 +157,12 @@ Vous savez maintenant comment gérer votre rôle-réaction !
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Pour gérer un rôle-réaction existant, <mark style="color:orange;">[accédez à la configuration](#accéder-à-la-configuration)</mark> des rôles-réactions via le panel.
+Pour gérer un rôle-réaction existant, rendez vous tout d'abord sur le panel via le lien ci-dessus puis dans la rubrique "Rôles-Réactions".
 
-À droite de la page, vous retrouverez la liste de tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
+À droite de la page, vous retrouverez la liste contenant tous les rôles-réactions existants sur le serveur. Pour en modifier un, cliquer sur "Modifier".
 
-Vous pourrez modifier les rôles-réactions de différentes façons :
+Vous pourrez par la suite  modifier les rôles-réactions de différentes façons :
+
 * En modifiant le message du rôle-réaction via l'Embed Creator se trouvant au centre de la page.
 * En modifiant le mode du rôle-réaction à l'aide du sélecteur se trouvant juste en dessous de l'Embed Creator.
 * En ajoutant, modifiant ou supprimant un rôle-réaction dans la section se trouvant en dessous du sélecteur de mode.
@@ -169,6 +170,8 @@ Vous pourrez modifier les rôles-réactions de différentes façons :
 {% hint style="success" %}
 Enfin, cliquez sur "Modifier" : votre rôle-réaction est modifié !
 {% endhint %}
+
+![Modifier un rôle-réaction](../.gitbook/assets/rolereact/dashboard_modify_role-reaction.png)
 
 {% endtab %}
 {% endtabs %}
