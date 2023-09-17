@@ -41,41 +41,52 @@ Les rôles-réactions ne peuvent être ajoutés qu'aux messages envoyés par **D
 
 L'intégralité de la création est ensuite guidée par **DraftBot**, il vous demandera le rôle devant être ajouté lors d'une interaction avec le message et le format du rôle-réaction.
 
+{% hint style="info" %}
+Il est possible de donner un rôle temporairement un choisissant les boutons comme format.
+{% endhint %}
+
 {% hint style="success" %}
 Félicitations ! Le rôle-réaction est maintenant créé. Nous allons pouvoir y ajouter d'autres rôles et continuer à le personnaliser.
 {% endhint %}
 
 {% endtab %}
 
-{% tab title="Second Tab" %}
-Pour créer un nouveau rôle-réaction, [accédez à la configuration](#accéder-à-la-configuration) des rôles-réactions via le panel.
-
-Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Rôles-Réactions" sur le serveur de votre choix.
+{% tab title="Via le panel" %}
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
+Pour configurer le système de rôles-réactions, accédez au panel via le lien ci-dessus et rendez-vous dans la rubrique "Rôles-Réactions".
+
 * Si vous voulez créer un nouveau message, créez un message et/ou un embed grâce à l'Embed Creator se trouvant au centre de la page.
-* Si vous voulez utiliser un message de **DraftBot** existant, cliquez sur le bouton "Récupérer un message" situé en haut à droite de la page et remplissez la fenêtre pop-up en indiquant le salon dans lequel se trouve le message, ainsi que l'[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message) à récupérer. Cliquez ensuite sur "Récupérer".
+* Si vous voulez utiliser un message de **DraftBot** existant, cliquez sur le bouton "<mark style="color:orange;">Récupérer un message</mark>" situé en haut à droite de la page. Rensignez ensuite le salon dans lequel se trouve le message, ainsi que l'<mark style="color:blue;">[identifiant du message](../autres/recuperer-un-identifiant.md#identifiant-dun-message)</mark> à récupérer. Cliquez ensuite sur "Récupérer".
 
 Ajoutez ensuite votre rôle-réaction, celui-ci pouvant être une "Réaction", un "Bouton" ou un "Sélecteur". Vous pouvez en ajouter plusieurs sur un même message.
 
-Vous pouvez modifier le mode des rôles-réactions du message grâce au sélecteur situé en bas de l'Embed Creator.
+{% hint style="info" %}
+Il est possible de personnaliser les boutons ou le sélecteur en cliquant sur la petit flèche à droite de l'endroit où l'on sélectionne le rôle à ajouter.
+
+![Personnaliser un bouton](../.gitbook/assets/rolereact/dashboard_set_button_settings.png)
+
+{% endhint %}
+
+Vous pouvez modifier le mode des rôles-réactions du message grâce au sélecteur situé en dessous de l'Embed Creator.
 
 Puis, dans le sélecteur situé en haut de l'Embed Creator, sélectionnez le salon dans lequel sera envoyé le message de rôle-réaction.
 
 {% hint style="success" %}
-Enfin, cliquez sur "Créer" : votre rôle-réaction est créé !
+Enfin, cliquez sur "Créer". Félicitations ! Votre rôle-réaction est maintenant créé.
+{% endhint %}
+
+
+{% hint style="info" %}
+Vous pouvez nommer vos rôles-réactions. Pour se faire,  rendez-vous dans la liste contenant les rôles-réaction existants puis  modifiez le nom du rôle-réaction en cliquant sur "SANS NOM".
+
+![Zone de texte de l'encadré d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
 {% endhint %}
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Enregistrer" en bas de la page.
 
 ![Panel de création d'un nouveau rôle-réaction](../.gitbook/assets/rolereact/dashboard_creation.png)
-
-{% hint style="info" %}
-Vous pouvez donner des noms personnalisés aux rôles-réactions dans la partie à droite de la page. Pour cela, modifiez le texte de la zone de texte présente en haut à gauche de l'encadré d'un rôle-réaction.
-
-![Zone de texte de l'encadré d'un rôle-réaction](../.gitbook/assets/rolereact/dashboard_rename_rolereact.png)
-{% endhint %}
 
 {% endtab %}
 {% endtabs %}
