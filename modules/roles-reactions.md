@@ -26,7 +26,7 @@ Pour créer un rôle-réaction à partir d'un message déjà envoyé, il vous fa
 {% endhint %}
 
 {% hint style="info" %}
-Si vous souhaitez par contre créer un message pour votre rôle-réaction voici les différentes possibilitées :
+Si vous souhaitez par contre créer un message pour votre rôle-réaction voici les différentes possibilités :
 
 * *Depuis la commande <mark style="color:orange;">/envoyer</mark>* : Permet d'envoyer un message simple sous l'identité de **DraftBot**.
 * *Depuis l'Embed Creator du <mark style="color:blue;">[panel](https://www.draftbot.fr/dashboard)</mark>* : Permet la création complète et facile d'un message ou d'un embed entièrement personnalisable.
