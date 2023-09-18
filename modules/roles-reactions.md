@@ -124,7 +124,7 @@ Lors de la création d'un rôle-réaction, le mode par défaut est le mode *Norm
 {% endhint %}
 
 {% hint style="warning" %}
-Tous les modes ne sont pas disponibles pour tout les formats de rôle-réaction (bouton ; réaction ; sélecteur).
+Tous les modes ne sont pas disponibles pour tous les formats de rôle-réaction (bouton ; réaction ; sélecteur).
 {% endhint %}
 
 Le seul mode disponible à tous les formats est le mode *Normal* (ajout ou retrait d'un rôle lors d'une interaction avec le message).
