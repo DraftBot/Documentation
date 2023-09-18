@@ -101,7 +101,7 @@ Vous pouvez nommer vos rôles-réactions. Pour se faire,  rendez-vous dans la li
 Pour gérer votre rôle-réaction, rendez vous dans <mark style="color:orange;">/config</mark> puis dans la rubrique "🧿 Rôles-Réactions" (*dans le sélecteur*). Ensuite, cliquez sur "<mark style="color:blue;">Gérer un rôle-réaction existant</mark>".
 
 {% hint style="info" %}
-Pour accéder au rôle-réaction, vous devrez rensigner l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark> du message contenant le rôle-réaction.
+Pour accéder au rôle-réaction, vous devrez renseigner l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark> du message contenant le rôle-réaction.
 {% endhint %}
 
 ### Ajouter ou retirer un rôle à votre rôle-réaction
