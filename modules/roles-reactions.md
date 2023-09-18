@@ -106,7 +106,7 @@ Pour accéder au rôle-réaction, vous devrez renseigner l'<mark style="color:bl
 
 ### Ajouter ou retirer un rôle à votre rôle-réaction
 
-Pour ajouter un nouveau rôle à votre rôle-réaction, vous n'aurez qu'à cliquer sur "<mark style="color:blue;">Ajouter</mark>". Le bot vous demanderas ensuite le rôle à ajouter ainsi que le format.
+Pour ajouter un nouveau rôle à votre rôle-réaction, vous n'aurez qu'à cliquer sur "<mark style="color:blue;">Ajouter</mark>". **DraftBot** vous demandera ensuite le rôle à ajouter ainsi que le format.
 
 Pour retirer un rôle de son rôle-réaction, vous devrez cliquer sur "<mark style="color:blue;">Supprimer</mark>". Le bot demandera par la suite le rôle à enlever.
 
