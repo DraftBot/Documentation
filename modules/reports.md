@@ -12,7 +12,7 @@ description: >-
 {% tab title="Via la commande /config" %}
 <!--> Vous trouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark>.-->
 
-![Aperçu du système](../.gitbook/assets/report/config-report.JPG)
+![Aperçu du système](../.gitbook/assets/report/config-report.jpg)
 
 Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 🚨 Signalements
 
