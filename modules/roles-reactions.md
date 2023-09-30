@@ -112,7 +112,7 @@ Pour retirer un rôle de son rôle-réaction, vous devrez cliquer sur "<mark sty
 
 ### Modifier un rôle-réaction
 
-Si vous souhaiter changer le rôle que le membre recevra en interagissant avec un bouton, une réaction ou un rôle à choix dans un sélecteur, cliquez sur "<mark style="color:blue;">Modifier</mark>". **DraftBot** vous invitera à sélectionner le rôle à modifier et celui par lequel vous souhaitez le remplacer.
+Si vous souhaitez changer le rôle que le membre recevra en interagissant avec un bouton, une réaction ou un rôle à choix dans un sélecteur, cliquez sur "<mark style="color:blue;">Modifier</mark>". **DraftBot** vous invitera à sélectionner le rôle à modifier et celui par lequel vous souhaitez le remplacer.
 
 ### Les différents modes
 
