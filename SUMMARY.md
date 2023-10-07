@@ -54,6 +54,7 @@
 - [❕ Commandes d'informations](modules/commandes-informations.md)
 - [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
+- [🧿 Rôles-réactions](modules/roles-reactions.md)
 
 ## Autres
 
