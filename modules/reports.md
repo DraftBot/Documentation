@@ -1,6 +1,6 @@
 ---
 description: >-
-  Un utilisateur remarque un message ou des agissements inappropriés sur votre serveur ? 
+  Un utilisateur remarque un message ou des agissements inappropriés sur votre serveur ?
   Permettez-lui de vous les signaler avec le système de signalement DraftBot !
 ---
 
@@ -69,7 +69,7 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 
 Une fois qu'une personne aura signalée un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
 
-![message de signalement](../.gitbook/assets/report/traitement-du-signalement.jpg) 
+![message de signalement](../.gitbook/assets/report/report.jpg)
 <!--A changer : faute d'orthographe dans le message-->
 
 Vous aurez alors la possibilité entre :
