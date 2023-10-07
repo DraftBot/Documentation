@@ -35,11 +35,13 @@
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
 - [👋 Arrivées & départs](modules/arrivees-et-departs.md)
+- [📝 Règlement](modules/reglement.md)
 - [📉 Niveaux](modules/niveaux.md)
 - [💰 Économie](modules/economie.md)
 - [🔎 Inventaires](modules/inventaire.md)
 - [🔨 Modération](modules/moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
+- [💡 Suggestions](modules/suggestions.md)
 - [📥 Notifications sociales](modules/notifications-sociales.md)
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
@@ -50,7 +52,9 @@
 - [🎟 Tickets](modules/tickets.md)
 - [🔃 Interserveurs](modules/interserveurs.md)
 - [❕ Commandes d'informations](modules/commandes-informations.md)
+- [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
+- [🧿 Rôles-réactions](modules/roles-reactions.md)
 - [🚨 Signalements](modules/reports.md)
 
 ## Autres
