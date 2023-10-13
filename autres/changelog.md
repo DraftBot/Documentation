@@ -5,12 +5,23 @@ description: >-
 ---
 
 # Mises à jour
+## [**5.3.7 - 29/08/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1145865028084441108)
+
+🐛 **Corrections :**
+- Les avatars affichés dans les prévisualisations des logs dans la commande `/config` seront affichés correctement.
+- Les annonces des chaînes YouTube contenant un **-** dans leur identifiant ont été corrigés. La suppression puis la recréation d'une annonce peut être nécéssaire.
+- La suppression d'une sanction prédéfinie via la commande `/config` a été corrigée.
+- Plusieurs problèmes d'affichages ainsi que des fautes d'orthographes ont été corrigés.
+- Les clusters se redémarrent à présent de manière plus fluide et plus rapide.
+
+
 ## [**5.3.5 - 05/07/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1126051989822910495)
 
+🐛 **Corrections :**
 - Le système de Live Presence et de rôle en live ont été réactivés.
 - Certaines commandes personnalisées envoyant un message sans bouton fonctionnent désormais correctement.
-- Les logs de modération d'unmute lancés à partir de la commande /unmute ne seront plus envoyés deux fois.
-- Quelques problèmes d'affichages ont été corrigés sur les commandes /stats wolfy, /botinfo ou /sondage résultats et /item drop.
+- Les logs de modération d'unmute lancés à partir de la commande `/unmute` ne seront plus envoyés deux fois.
+- Quelques problèmes d'affichages ont été corrigés sur les commandes /stats wolfy, `/botinfo` ou `/sondage` résultats et `/item drop`.
 
 
 ## [**5.3.0 - 23/06/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1121576226713243674)
