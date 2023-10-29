@@ -1,7 +1,7 @@
 ---
 description: >-
   Un utilisateur remarque un message ou des agissements inappropriés sur votre serveur ?
-  Permettez-lui de vous les signaler avec le système de signalement DraftBot !
+  Permettez-lui de vous les signaler avec le système de signalement de DraftBot !
 ---
 
 # 🚨 Signalements
@@ -10,7 +10,7 @@ description: >-
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-<!--> Vous trouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark>.-->
+ Vous trouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark>.
 
 ![Aperçu du système](../.gitbook/assets/report/config-report.jpg)
 
@@ -20,11 +20,11 @@ Voici les différents boutons ainsi que leurs utilités :
 - <mark style="color:blue;">"Activer le système"</mark> ➜ Permet d'activer ou désactiver le système.
 - "Activer la réaction 🚨" ➜ DraftBot réagira au message signalé avec la réaction "🚨".
 
-- "Activer l'ouverture d'un thread" ➜ Si activé, DraftBot ouvrira un fil quand un signalement est envoyé. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Activer l'ouverture d'un fil" ➜ Si activé, DraftBot ouvrira un fil quand un signalement est envoyé. **_([✨ premium](https://draftbot.fr/premium))_**
 - "Rôle mentionné" ➜ Permet de définir le rôle qui sera mentionné dans le message de signalement.
 - "<mark style="color:blue;">Salon</mark>" ➜ Défini le salon dans lequel le message de signalement est envoyé.
 - "Rôles Modérateurs" ➜ Permet de définir des rôles non-administrateurs qui pourront gérer les signalements.
-- Message de confirmation ➜ Défini le message qui sera envoyé à la personne qui fait le signalement.
+- "Message de confirmation" ➜ Défini le message qui sera envoyé à la personne qui fait le signalement.
 <details>
 <summary>Variables</summary>
 Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les motifs de signalement de DraftBot.
@@ -67,12 +67,12 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 
 ## Gestion des signalements
 
-Une fois qu'une personne aura signalée un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
+Une fois qu'une personne aura signalé un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
 
 ![message de signalement](../.gitbook/assets/report/report.jpg)
 <!--A changer : faute d'orthographe dans le message-->
 
-Vous aurez alors la possibilité entre :
+Vous aurez alors différentes possibilités :
 
 
 
