@@ -12,7 +12,7 @@ description: >-
 {% tab title="Via la commande /config" %}
  Vous trouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark>.
 
-![Aperçu du système](../.gitbook/assets/report/config-report.jpg)
+![Aperçu du système](../.gitbook/assets/report/config-report.png)
 
 Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 🚨 Signalements
 
@@ -69,7 +69,7 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 
 Une fois qu'une personne aura signalé un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
 
-![message de signalement](../.gitbook/assets/report/report.jpg)
+![message de signalement](../.gitbook/assets/report/report.png)
 <!--A changer : faute d'orthographe dans le message-->
 
 Vous aurez alors différentes possibilités :
