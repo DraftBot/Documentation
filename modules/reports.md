@@ -82,7 +82,7 @@ Vous aurez alors différentes possibilités :
 Vous pouvez ensuite séléctionner la raison de la résolution du signalement parmis :
 <mark style="color:blue;">Membre sanctionné</mark>, <mark style="color:green;">Signalement résolu</mark> et <mark style="color:blue;">Signalement refusé</mark>.
 Une fois la raison sélectionnée, vous pourrez ajouter un commentaire facultatif.
-"Ouvrir un ticket" ➜ Permet d'ouvrir un ticket pour le membre pour le <mark style="color:red;">membre accusé<mark> ou le <mark style="color:blue;">membre signalant<mark>(disponible uniquement si le système de tickets est activé).
+"Ouvrir un ticket" ➜ Permet d'ouvrir un ticket pour le membre pour le <mark style="color:red;">membre accusé</mark> ou le <mark style="color:blue;">membre signalant</ark>(disponible uniquement si le système de tickets est activé).
 "Sanctionner le membre" ➜ Permet de sanctionner le membre signalé avec une sanction prédéfinie (disponible uniquement si des sanctions prédéfinies sont enregistrées).
 
 {% hint style="info" %}
