@@ -85,5 +85,5 @@ Vous pouvez ensuite séléctionner la raison de la résolution du signalement pa
 Une fois la raison sélectionnée, vous pourrez ajouter un commentaire facultatif.
 
 {% hint style="info" %}
-Vous pourrez toujours remettre le signalement en attente via un bouton sur le message de signalement.
+Vous pourrez toujours remettre le signalement en attente via le bouton sur le message de signalement.
 {% endhint %}
