@@ -55,6 +55,7 @@
 - [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
 - [🧿 Rôles-réactions](modules/roles-reactions.md)
+- [🗓️ Calendrier de l'avent](modules/calendrier-de-l'avent.md)
 
 ## Autres
 
