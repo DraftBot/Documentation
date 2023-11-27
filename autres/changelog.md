@@ -11,6 +11,7 @@ description: >-
 ## ✨ Nouveautés 5.4.0
 
 ### 🎙️ **Salons vocaux privés**
+
 > - Message pour configurer son salon vocal temporaire.
 > - Permissions de base modifiables sans passer par les permissions.
 > - 3 modes de visibilités (Ouvert, Fermé, Privé).
