@@ -6,6 +6,100 @@ description: >-
 
 # Mises à jour
 
+## [**5.4.1 - 28/11/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1178904086964346880)
+
+🐛 **Corrections :**
+
+- La désactivation des transcriptions automatiques de tickets depuis le `/config` est de nouveau possible.
+- Les boutons de configuration des rôles & salons autorisés/interdits du rôle en vocal sont à présent correctement affichés.
+- Le panel charge à nouveau correctement quand le rôle en vocal avait été activé puis désactivé avant la mise à jour 5.4.0.
+- L'affichage des rôles & salons sans xp sur le panel donnant l'impression de leur suppression a été rétabli.
+- Le bug qui empêchait la sauvegarde de récompenses créés après la mise à jour 5.4.0 est à présent corrigé.
+
+✨ **Nouveautés :**
+
+- La commande `/envoyer` reprend son ancien look simpliste sans les embeds afin de permettre de faire parler <@318312854816161792de manière simple et efficace.
+- La nouvelle version de la commande `/envoyer` arrivée en 5.4.0 est renommée `/embed` permettant une association certaine avec l'Embed Creator du panel permettant la création et l'édition de messages complets & complexes avec retours à la ligne.
+- Ajout d'un log lors de l'utilisation de la commande `/embed` afin de pouvoir suivre son utilisation au même titre que la commande `/envoyer`.
+- L'édition fonctionne de nouveau correctement.
+
+## [**5.4.0 - 27/11/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1178506355670261780)
+
+✨ Nouveautés 5.4.0
+
+🎙️ **Salons vocaux privés**
+
+- Message pour configurer son salon vocal temporaire.
+- Permissions de base modifiables sans passer par les permissions.
+- 3 modes de visibilités (Ouvert, Fermé, Privé).
+- Système de whitelist/blacklist.
+
+⭐ **Starboards (bêta)**
+
+Salon regroupant les plus grandes pépites de votre serveur dirigé par les votes de votre communauté.
+- Conditions de réactions personnalisables par salon.
+- Possibilité d'ignorer ou de limiter des messages provenant de certains salons ou rôles.
+- Ajout d'un mode "Rôles autorisés/interdits" pour les rôles pouvant voter.
+- Embed montrant le contenu du message mis en valeur.
+- Plusieurs salons & personnalisation de l'émoji pour les serveurs premiums.
+
+📩 **Tickets**
+
+- Modal pour la fermeture d'un ticket.
+- Raison optionnelle pour la fermeture d'un ticket (désactive le mp)
+- Suppression du message personnalisé pour l'ouverture d'un ticket manuellement.
+- Sauvegarde de tickets automatique.
+- Fil privé pour les modérateurs.
+- Rôles d'accès permanents aux tickets.
+- Ajout de la configuration du message d'ouverture de tickets depuis le panel.
+- Limiter le nombre de tickets actifs par membre.
+
+📊 **Niveaux & argent**
+
+- Refonte de l'affichage de la commande `/argent` afin d'afficher le record atteint par l'utilisateur.
+- Jusqu'à 5 membres affichés dans le `/topniveau` & `/topargent`.
+- Ajout des modes "autorisés/interdits" pour les salons et rôles.
+- Possibilité d'afficher le `/argent` & `/niveau` des utilisateurs qui ne sont plus présents sur le serveur avec leur identifiant.
+
+📚 **Embed Creator**
+
+- Nouveau design pour la gestion des lignes de boutons.
+- Édition de tous les types de composants pour une compatibilité avec tous les autres systèmes.
+- Refonte de la commande `/envoyer` avec d'usage d'une popup dans Discord pour demander le contenu du message, permettant ainsi les sauts de lignes.
+
+🎄 **Retour du calendrier de l'avent**
+
+- Configurable via la commande `/config` ou via le panel web.
+- Les membres pourront obtenir les récompenses journalières configurées via la commande `/calendrier` jusqu'au 24 décembre.
+- Récompenses possibles : rôle, argent, expériences, objet ou une récompense personnalisée.
+
+🗒️ **Autres améliorations**
+
+- Whitelist/blacklist afin d'ignorer des rôles ou des salons pour la réception du rôle.
+- Nombre de suggestions maximal en fonction de rôles.
+- Ajout de deux commandes pour renommer/supprimer des objets d'inventaires.
+- Deux nouvelles commandes pour renommer/supprimer des objets d'inventaires.
+- Bouton sur le panel permettant de tester l'envoi d'un message récurrent avec ou sans mentions.
+- Ajout de la commande `/giveaway participants` pour voir les participants d'un giveaway.
+- Ajout de la possibilité d'indiquer le nom d'un membercount sous forme de catégorie directement lors de la création dans le `/config`.
+- Ajout de la possibilité de lier une sanction à un report en passant par le bouton "Marqué comme traité" puis "Membre sanctionné".
+- Ajout d'un argument "mention" dans la commande `/sondage créer`.
+- Les membres utilisant le bouton "Aléatoire" dans certains jeux seront maintenant mentionnés lorsqu'un adversaire aura été trouvé.
+- Les membres gagnant un giveaway seront maintenant mentionnés à la fin ou au relancement de celui-ci.
+- Ajout de la commande `/info emoji` pour voir les informations d'un émoji.
+
+💵 **Nouveaux tarifs pour les premiums à venir**
+
+- En raison d'une évolution du bot ainsi que du Premium depuis sa sortie, de nouveaux tarifs ont été choisis et rentreront en vigueur prochainement.
+- Cette augmentation a été planifiée en raison du fait que le projet DraftBot ne bénéficiera plus de la franchise en base de TVA qui nous permettait d'appliquer les tarifs actuels.
+- Dès le 1ᵉʳ décembre, le projet sera assujetti à la TVA. Cela signifie que nous avons l'obligation de collecter 20% en plus des prix actuels qui seront reversés à l'État français.
+- Les nouveaux tarifs seront donc les suivants :
+  - `3€` pour 3 serveurs ⇒ `3,99€`.
+  - `15€` pour 3 serveurs ⇒ `19,99€`.
+  - `25€` pour 3 serveurs ⇒ `35,99€` pour **5 serveurs**.
+- L'offre 2 ans a été supprimée en contrepartie de l'évolution de l'offre 1 an proposant 5 serveurs.
+- Ces tarifs rentreront en vigueur pour les nouveaux abonnés le 1ᵉʳ décembre et prendront effet après notification par mail pour les abonnés actuels le 1ᵉʳ janvier 2024.
+
 ## [**5.3.7 - 29/08/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1145865028084441108)
 
 🐛 **Corrections :**
