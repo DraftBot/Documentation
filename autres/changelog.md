@@ -6,6 +6,14 @@ description: >-
 
 # Mises à jour
 
+## [**5.4.2 - 02/12/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1180373663489474580)
+
+🐛 **Corrections :**
+
+- Correction de plusieurs problèmes mineurs présents dans la configuration du calendrier de l'avent.
+- Si une erreur survient du coté de Discord lors de la commande `/calendrier`, la case n'est à présent plus considéré comme ouverte.
+- Correction de plusieurs textes et phrases incorrectes.
+
 ## [**5.4.1 - 28/11/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1178904086964346880)
 
 🐛 **Corrections :**
