@@ -6,6 +6,25 @@ description: >-
 
 # Mises à jour
 
+## [**5.4.3 - 09/12/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1182862429869326416)
+
+🎙️ **Améliorations des salons vocaux temporaires :**
+- Activation/désactivation de l'embed de réglages.
+- Whitelist/blacklist de l'embed basée sur les rôles.
+- Désactivation d'options/boutons spécifiques.
+- Sécurité renforcée contre le bypass des permissions via whitelist/blacklist.
+- Option de se baser sur les permissions de la catégorie ou du salon de création.
+
+🎄 **Améliorations du calendrier de l'avent :**
+- Personnalisation du fond possible.
+- Correction de bugs visuels (cases inégales, couvercle décalé).
+- Envoi des messages de récompenses de manière éphémère pour éviter les spoilers.
+- Affichage de cases vides dans le panel si le rôle sélectionné est supprimé.
+
+🐛 **Corrections :**
+- Les longs pseudos ne recouvriront plus les montants d'argent ou XP dans les cartes de niveaux.
+- Pseudos avec espaces multiples réduits à un seul espace pour un affichage plus clair.
+
 ## [**5.4.2 - 02/12/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1180373663489474580)
 
 🐛 **Corrections :**
