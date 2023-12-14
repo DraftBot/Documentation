@@ -55,7 +55,7 @@ Votre message peut faire au maximum 1 200 caractères.
 {% tab title="Via le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
+Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de configuration qu'avec la commande <mark style="color:orange;">/config</mark> sur Discord.
 
 Pour configurer le système de signalements, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Signalements" sur le serveur de votre choix.
 
@@ -69,7 +69,7 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 
 Une fois qu'une personne aura signalé un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
 
-![message de signalement](../.gitbook/assets/report/report.png)
+![Message de signalement](../.gitbook/assets/report/report.png)
 <!--A changer : faute d'orthographe dans le message-->
 
 Vous aurez alors différentes possibilités :
