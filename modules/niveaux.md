@@ -186,3 +186,19 @@ Notez qu'il est possible de voir la liste des variables disponibles en entrant l
 ![Panel de configuration des annonces de récompenses gagnées](../.gitbook/assets/levels/dashboard_announcement_config_new_reward.png)
 {% endtab %}
 {% endtabs %}
+
+## Migration
+
+Si vous utilisiez MEE6 auparavant, il est possible d'importer les niveaux de vos membres directement sur DraftBot afin qu'ils ne perdent pas leur progression.
+
+{% hint style="info" %}
+Il faut impérativement que le bot MEE6 soit sur votre serveur lors de la migration et que le classement soit public.
+{% endhint %}
+
+![Bouton d'importation des niveaux](../.gitbook/assets/levels/import_levels.png)
+
+Une fois avoir cliqué sur le bouton **Importer MEE6**, DraftBot vous posera une question pour que vous puissiez confirmer l'importation.
+
+{% hint style="success" %}
+L'importation des niveaux de MEE6 est faite ! 
+{% endhint %}
