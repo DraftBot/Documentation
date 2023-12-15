@@ -90,6 +90,38 @@ Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois
 {% endtab %}
 {% endtabs %}
 
+## Utilisation du configurateur de salon
+
+Depuis la version [5.4.0](.././autres/changelog.md), lorsque vous créez un vocal un embed apparaît dans le <mark style="color:orange;">salon textuel du vocal</mark>. Il contient toutes les permission de modération lié au salon vocal.
+
+{% hint style="warning" %}
+Cet embed permet notamment d'utiliser toutes les permission de modération, et ce même si le membre n'a pas activé l'A2F (puisque l'utilisateur par le bot et non pas par son compte).
+> Veuillez donc penser à désactiver cette option si votre serveur a des permissions strictes.
+
+{% endhint %}
+
+
+![Illustration du configurateur](../.gitbook/assets/privateroom/view_embed.png)
+
+Voici donc une liste détaillée de chaque fonction du configurateur :
+
+- Ouvert : Cette fonction permet d'ouvrir le salon à tous les membres, exepté ceux de la <mark style="color:orange;">liste noire</mark>.
+- Fermé : Cette fonction vérouille le salon à tous les membres exceptés ceux inscrits dans la <mark style="color:orange;">liste blanche</mark>.
+- Liste Blanche : Cette fonction permet d'ajouter des membres qui seront <mark style="color:orange;">autorisé à rejoindre</mark> le salon en permanence.
+
+{% hint style="info" %}
+Cette fonction permet notamment de contourner les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez.
+{% endhint %}
+
+- Liste Noire : Cette fonction permet d'ajouter des membres qui ne pourront <mark style="color:orange;">jamais rejoindre</mark> le salon vocal.
+
+{% hint style="info" %}
+Tout comme la fonction précédente, la liste noire contourne les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez dans cette liste.
+{% endhint %}
+
+- Purge : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas à _l'auteur_ (@IIbey si t'as un autre mot je suis preneur) du salon.
+
+
 ## Informations supplémentaires
 
 ### Liste des variables
