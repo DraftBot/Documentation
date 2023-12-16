@@ -20,7 +20,7 @@ Cette page est en train d'être mise à jour...
 
 
 
-### Autorole --> Config autoroles (arrivée, vocal, live)
+### Autorole --> Config autoroles (arrivée, vocal)
 
 
 
