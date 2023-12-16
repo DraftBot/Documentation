@@ -110,8 +110,8 @@ Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois
 #### Activer/Désactiver l'embed de réglages
 
 Pour activer ou désactiver l'embed de réglages, il suffit d'appuyer sur le bouton <mark style="color:orange;">Embed de réglages activé</mark>. Suite à cela, le nom du bouton va changer en une autre variante :
-- Embed de réglages activé ► Activer l'embed de réglages
-- Activer l'embed de réglages ► Embed de réglages activé
+- Embed de réglages activé ➜ Activer l'embed de réglages
+- Activer l'embed de réglages ➜ Embed de réglages activé
 
 #### Personnaliser les boutons de réglages
 
