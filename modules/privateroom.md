@@ -51,7 +51,7 @@ Pour modifier un hub de salons vocaux temporaires, vous devez accéder au menu e
 
 #### Activer/Désactiver un Hub
 
-Pour activer ou désactiver des Salons Vocaux Temporaires, vous devez cliquer sur le bouton <mark style="color:orange;">Activer le système</mark>. Vous verrez alors le menu se mettre à jour.
+Pour activer ou désactiver des salons vocaux temporaires, vous devez cliquer sur le bouton <mark style="color:orange;">Activer le système</mark>. Vous verrez alors le menu se mettre à jour.
 
 {% hint style="info" %}
 Lorsqu'un hub est déjà activé, le bouton se nomme <mark style="color:orange;">Système activé</mark>.
