@@ -15,10 +15,6 @@ Lorsque vous créez un salon vocal temporaire, vous avez la possibilité de conf
 
 Quand toutes les personnes auront quitté le salon vocal temporaire, ce dernier sera automatiquement supprimé par **DraftBot**.
 
-{% hint style="info" %}
-Les **permissions par défaut** du salon vocal temporaire correspondent à celles de la **catégorie**.
-{% endhint %}
-
 ## Configuration
 
 {% tabs %}
@@ -40,7 +36,7 @@ Les salons vocaux déjà existants dans cette catégorie peuvent être supprimé
 
 Pour supprimer un hub de salons vocaux temporaires, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Supprimer un hub</mark>.
 
-{% hint style="info" %}
+{% hint style="danger" %}
 
 Cette action est irréversible une fois le message de confirmation validé :
 > Message en question : "Êtes-vous sûr de vouloir supprimer la seule catégorie de salons vocaux temporaires du serveur ?"
@@ -111,6 +107,39 @@ Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie de
 
 Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
 
+#### Activer/Désactiver l'embed de réglages
+
+Pour activer ou désactiver l'embed de réglages, il suffit d'appuyer sur le bouton <mark style="color:orange;">Embed de réglages activé</mark>. Suite à cela, le nom du bouton va changer en une autre variante :
+- Embed de réglages activé ► Activer l'embed de réglages
+- Activer l'embed de réglages ► Embed de réglages activé
+
+#### Personnaliser les boutons de réglages
+
+Pour personnaliser les boutons de réglages, vous devez d'abord appuyer sur le bouton <mark style="color:orange;">Personnaliser les boutons de réglages</mark>. Ensuite, vous aurez accès à un sélecteur : cochez tous les boutons qui doivent apparaître dans l'embed.
+
+{% hint style="info" %}
+Si des boutons sont déjà présents et que vous voulez en ajouter, vous devez les recocher afin de les inclure avec. 
+{% endhint %}
+
+#### Configurer les rôles d'accès aux réglages
+
+Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration, il faut d'abord appuyer sur le bouton <mark style="color:orange;">Rôles d'accès aux réglages</mark>. Ensuite, quatre boutons apparaissent : ils varient en fonction de l'état du dernier bouton.
+<details>
+<summary>Restriction de rôles</summary>
+
+- Ajouter des rôles interdits : Ce bouton retire l'accès à l'embed aux rôles ajoutés.
+- Supprimer des rôles interdits : Ce bouton autorise des rôles à accéder à l'embed.
+- Réinitialiser les rôles interdits : Ce bouton permet d'effacer la configuration des rôles d'accès
+- Restreindre à des rôles : Ce bouton permet de changer d'état.
+</details>
+<details>
+<summary>Autorisation de rôle</summary>
+
+- Ajouter des rôles autorisés : Ce bouton permet d'ajouter des rôles dans la liste des rôles autorisés.
+- Supprimer des rôles autorisés : Ce bouton permet de supprimer des rôles de la liste des rôles autorisés.
+- Réinitialiser les rôles autorisés : Ce bouton permet d'effacer la configuration des rôles d'accès.
+- Interdire à des rôles : Ce bouton permet de changer d'état.
+</details>
 
 
 {% endtab %}
@@ -180,6 +209,8 @@ Vous pouvez utiliser les variables suivantes pour nommer un salon vocal lors de 
 
 Par défaut, **DraftBot** limite les serveurs à **un seul hub**. Cela dit, si l'offre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium)</mark> est activée sur votre serveur, vous pourrez créer jusqu'à **5 hubs**.
 
-### Panel
+### Liens Utiles
 
-Lien vers le panel : <mark style="color:orange;">[https://www.draftbot.fr/dashboard/user](https://www.draftbot.fr/dashboard/user)</mark>
+{% embed url="https://www.draftbot.fr/" %}
+{% embed url="https://discord.gg/DrzKVU3" %}
+{% embed url="https://www.draftbot.fr/dashboard/user" %}
