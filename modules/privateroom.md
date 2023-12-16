@@ -96,7 +96,7 @@ Vous pouvez définir la limite de membres autorisés à rejoindre un salon vocal
 Par défaut la limite de membres est définie à <mark style="color:orange;">99 participants</mark>.
 
 {% hint style="warning" %}
-Veuillez également noter que la limite de membre peut être changée à tout moment par <mark style="color:orange;">le créateur du salon</mark> s'il possède la permission <mark style="color:orange;">Modifier le salon</mark>
+Veuillez également noter que la limite de membre peut être changée à tout moment par <mark style="color:orange;">le créateur du salon</mark> s'il possède la permission <mark style="color:orange;">Modifier le salon</mark>.
 {% endhint %}
 
 #### Ajouter/Supprimer un salon permanent
