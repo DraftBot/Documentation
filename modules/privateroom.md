@@ -33,7 +33,7 @@ Pour activer les salons vocaux temporaires, il vous suffit d'aller dans le menu 
 **DraftBot** vous demandera ensuite **la catégorie** ou seront stockés les salons vocaux.
 
 {% hint style="info" %}
-Les salons vocaux déjà existants dans cette catégorie seront supprimés par le bot si vous ne les rendez pas permanents.
+Les salons vocaux déjà existants dans cette catégorie peuvent être supprimés par DraftBot si vous ne les rendez pas permanents.
 {% endhint %}
 
 ### Supprimer un hub de salons vocaux temporaires
