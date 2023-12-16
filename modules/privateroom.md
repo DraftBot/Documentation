@@ -122,6 +122,23 @@ Tout comme la fonction précédente, la liste noire contourne les paramètres de
 - Purge : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas à _l'auteur_ (@IIbey si t'as un autre mot je suis preneur) du salon.
 
 
+- Micro : Cette fonction permet d' activer/désactiver le micro de tous les participants du salon vocal.
+
+- Vidéo : Tout comme la fonction précédente, elle permet d' activer/désactiver l'activation de la caméra ainsi que le partage d'écran de tous les participants du salon vocal.
+
+- Sounboard : cette fonction permet d'activer/désactiver l'utilisation des soundboards pour tous les participants du salon vocal.
+
+{% hint style="warning" %}
+Les fonctions <mark style="color:orange;">micro, vidéo et soundboard</mark> s'appliquent à tous les membres hormis ceux ayant une dérogation spéciale ainsi qu'au propriétaire du salon.
+{% endhint %}
+
+- Transférer la propriété : Cette fonction permet de transférer les droits de gestion du salon vocal à quelqu'un d'autre.
+
+{% hint style="danger" %}
+Un transfert de propriété dans un salon vocal est permanent.
+Veuillez noter également que vous perdrez l'accès au configurateur de <mark style="color:orange;">[salon vocal](https://docs.draftbot.fr/modules/privateroom#utilisation-du-configurateur-de-salon)</mark>
+{% endhint %}
+
 ## Informations supplémentaires
 
 ### Liste des variables
