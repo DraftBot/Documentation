@@ -72,7 +72,7 @@ Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il 
 #### Changer le nom par défaut des salons temporaires
 
 {% hint style="info" %}
-Cette fonctionnalité est réservée aux <mark style="color:orange;">[serveurs premiums](https://www.draftbot.fr/premium)</mark>.
+Cette fonctionnalité est réservée aux <mark style="color:orange;">[✨ serveurs premiums](https://www.draftbot.fr/premium)</mark>.
 {% endhint %}
 
 Vous pouvez changer le nom par défaut des salons en appuyant sur le bouton <mark style="color:orange;">Nom des salons</mark> et en écrivant simplement le nom que vous voulez. Il est recommandé <mark style="color:orange;">d'utiliser une [variable](https://docs.draftbot.fr/modules/privateroom#liste-des-variables)</mark> afin de pouvoir distinguer 2 salons différents.
@@ -88,6 +88,10 @@ Vous pouvez définir les permissions du créateur du salon vocal temporaire en a
 - Modifier le salon : le créateur du salon peut changer les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membre, etc.</mark>
 - Changer les permissions : le créateur peut changer les permissions de son salon vocal, ce qui implique qu'il peut créer des dérogation de rôle, de membre, etc.
 - Voix prioriaire : le son de tous les participants sera diminué lorsque le créateur du salon parle. ⚠ - Cette fonction ne fonctionne que lorsque le créateur est en mode "Appuyer pour parler".
+
+{% hint style="warning" %}
+Ces fonctionnalités peuvent être contournées par le configurateur de salon vocal. Veuillez donc penser à désactiver les options "sensibles" à la fois dans les permissions du salon et dans l'embed de configuration
+{% endhint %}
 
 #### Définir la limite de membre
 
@@ -114,11 +118,10 @@ Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois
 
 ## Utilisation du configurateur de salon
 
-Depuis la version [5.4.0](.././autres/changelog.md), lorsque vous créez un vocal un embed apparaît dans le <mark style="color:orange;">salon textuel du vocal</mark>. Il contient toutes les permission de modération lié au salon vocal.
+Lorsque vous créez un vocal un embed apparaît dans le <mark style="color:orange;">salon textuel du vocal</mark>. Il contient toutes les permission de modération lié au salon vocal.
 
 {% hint style="warning" %}
 Cet embed permet notamment d'utiliser toutes les permission de modération, et ce même si le membre n'a pas activé l'A2F (puisque l'utilisateur par le bot et non pas par son compte).
-> Veuillez donc penser à désactiver cette option si votre serveur a des permissions strictes.
 
 {% endhint %}
 
@@ -141,14 +144,14 @@ Cette fonction permet notamment de contourner les paramètres de verouillage du 
 Tout comme la fonction précédente, la liste noire contourne les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez dans cette liste.
 {% endhint %}
 
-- Purge : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas à _l'auteur_ (@IIbey si t'as un autre mot je suis preneur) du salon.
+- Purge : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas au propriétaire du salon du salon.
 
 
-- Micro : Cette fonction permet d' activer/désactiver le micro de tous les participants du salon vocal.
+- Micro : Cette fonction permet d'activer/désactiver le micro de tous les participants du salon vocal.
 
 - Vidéo : Tout comme la fonction précédente, elle permet d' activer/désactiver l'activation de la caméra ainsi que le partage d'écran de tous les participants du salon vocal.
 
-- Sounboard : cette fonction permet d'activer/désactiver l'utilisation des soundboards pour tous les participants du salon vocal.
+- Soundboard : cette fonction permet d'activer/désactiver l'utilisation des soundboards pour tous les participants du salon vocal.
 
 {% hint style="warning" %}
 Les fonctions <mark style="color:orange;">micro, vidéo et soundboard</mark> s'appliquent à tous les membres hormis ceux ayant une dérogation spéciale ainsi qu'au propriétaire du salon.
@@ -158,7 +161,7 @@ Les fonctions <mark style="color:orange;">micro, vidéo et soundboard</mark> s'a
 
 {% hint style="danger" %}
 Un transfert de propriété dans un salon vocal est permanent.
-Veuillez noter également que vous perdrez l'accès au configurateur de <mark style="color:orange;">[salon vocal](https://docs.draftbot.fr/modules/privateroom#utilisation-du-configurateur-de-salon)</mark>
+Veuillez noter également que vous perdrez l'accès au configurateur de <mark style="color:orange;">[salon vocal](https://docs.draftbot.fr/modules/privateroom#utilisation-du-configurateur-de-salon)</mark>.
 {% endhint %}
 
 ## Informations supplémentaires
