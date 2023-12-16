@@ -16,7 +16,7 @@ Lorsque vous créez un salon vocal temporaire, vous aurez la permission "*Gérer
 Quand toutes les personnes auront quitté le salon vocal temporaire, ce dernier sera automatiquement supprimé par **DraftBot**.
 
 {% hint style="info" %}
-Les **permissions par défaut** du Salon vocal temporaire correspondent à celles de la **catégorie**.
+Les **permissions par défaut** du salon vocal temporaire correspondent à celles de la **catégorie**.
 {% endhint %}
 
 ## Configuration
