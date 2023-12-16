@@ -71,11 +71,33 @@ Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il 
 
 #### Changer le nom par défaut des salons temporaires
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Cette fonctionnalité est réservée aux <mark style="color:orange;">[serveurs premiums](https://www.draftbot.fr/premium)</mark>.
 {% endhint %}
 
-Vous pouvez changer le nom par défaut des salons
+Vous pouvez changer le nom par défaut des salons en appuyant sur le bouton <mark style="color:orange;">Nom des salons</mark> et en écrivant simplement le nom que vous voulez. Il est recommandé <mark style="color:orange;">d'utiliser une [variable](https://docs.draftbot.fr/modules/privateroom#liste-des-variables)</mark> afin de pouvoir distinguer 2 salons différents.
+
+#### Permissions par défaut des salons temporaires
+
+Vous pouvez changer les permissions par défaut des salons temporaires en appuyant sur le bouton <mark style="color:orange;">Permissions par défaut</mark>. Vous pourrez alors choisir entre les permissions du <mark style="color:orange;">salon vocal hub</mark> ou les <mark style="color:orange;">permissions de la catégorie</mark>.
+
+#### Définir les permissions du créateur du salon vocal
+
+Vous pouvez définir les permissions du créateur du salon vocal temporaire en appuyant sur le bouton <mark style="color:orange;">Permissions du créateur</mark>. Un sélecteur apparaîtra avec 4 options :
+- Créer une invitation : le créateur pourra créer des invitations qui amèneront dans son salon.
+- Modifier le salon : le créateur du salon peut changer les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membre, etc.</mark>
+- Changer les permissions : le créateur peut changer les permissions de son salon vocal, ce qui implique qu'il peut créer des dérogation de rôle, de membre, etc.
+- Voix prioriaire : le son de tous les participants sera diminué lorsque le créateur du salon parle. ⚠ - Cette fonction ne fonctionne que lorsque le créateur est en mode "Appuyer pour parler".
+
+#### Définir la limite de membre
+
+Vous pouvez définir la limite de membres autorisés à rejoindre un salon vocal en appuyant sur le bouton <mark style="color:orange;">Limite de membre</mark>. Vous devrez ensuite indiquer une valeur entre 0 et 99 qui correspond au nombre de participants maximum. Veuillez noter que la valeur "0" désactive la limite.
+
+Par défaut la limite de membres est définie à <mark style="color:orange;">99 participants</mark>.
+
+{% hint style="warning" %}
+Veuillez également noter que la limite de membre peut être changée à tout moment par <mark style="color:orange;">le créateur du salon</mark> s'il possède la permission <mark style="color:orange;">Modifier le salon</mark>
+{% endhint %}
 
 #### Ajouter/Supprimer un salon permanent
 
