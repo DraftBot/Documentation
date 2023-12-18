@@ -20,7 +20,7 @@ Quand toutes les personnes auront quitté le salon vocal temporaire, ce dernier 
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
-![Aperçu de la commande /config](../.gitbook/assets/privateroom/view.png)
+![Aperçu de la commande /config](../.gitbook/assets/privateroom/config/view.png)
 
 ### Créer un hub de salons vocaux temporaires
 
@@ -47,7 +47,7 @@ Cette action est irréversible une fois le message de confirmation validé :
 
 Pour modifier un hub de salons vocaux temporaires, vous devez accéder au menu en allant dans le système <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un hub</mark>.
 
-![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/view_edit.png)
+![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/config/view_edit.png)
 
 #### Activer/Désactiver un Hub
 
@@ -141,6 +141,26 @@ Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration,
 - Interdire à des rôles : Ce bouton permet de changer d'état.
 </details>
 
+{% endtab %}
+
+{% tab title="Via le panel" %}
+
+### Créer un Hub
+
+### Modifier un Hub
+
+### Supprimer un Hub
+
+![Vue de l'onglet communauté](../.gitbook/assets/privateroom/panel/view_panel.png)
+
+Pour supprimer un hub, il vous suffit d'aller dans la partie <mark style="color:orange;">communauté</mark> du [panel Draftbot](https://docs.draftbot.fr/modules/privateroom#liens-utiles) et de <mark style="color:orange;">supprimer</mark> le hub de votre choix.
+
+{% hint style="danger" %}
+Vous aurez une confirmation avant de supprimer votre hub (voir image ci-dessous). Après confirmation, votre hub sera **définitivement supprimé**.
+
+![Message de confirmation](../.gitbook/assets/privateroom/panel/view_delete.png)
+
+{% endhint %}
 
 {% endtab %}
 {% endtabs %}
