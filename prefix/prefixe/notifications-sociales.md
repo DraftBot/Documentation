@@ -20,7 +20,6 @@ Une fois sur la page de configuration des notifications sociales, vous avez dive
 
 * **YouTube** (annonces vidéos YouTube)
 * **Twitch** (annonces lives Twitch) - [_premium_](https://draftbot.fr/premium) _seulement_
-* **Lives présences Discord** (annonce de live Twitch des membres avec l'un des rôles autorisés ayant le statut "En stream" sur Discord)
 * **Feeds Reddit** (annonces des postes sur un Subreddit)
 * **Epic Games** (annonces de sortie des nouveaux jeux gratuits)
 * **Dealabs** (annonces de bons plans)
@@ -49,10 +48,6 @@ Sans [premium](https://www.draftbot.fr/premium), il n'est possible d'avoir qu'un
 Les annonces de lives Twitch sont réservées aux serveurs [premium](https://draftbot.fr/premium) pour une limite de 3 chaînes
 {% endhint %}
 
-{% hint style="info" %}
-L'annonce de [lives présence discord](notifications-sociales.md#lives-presence-discord) peut être un alternatif pour les streamer sur le serveur
-{% endhint %}
-
 Il est possible d'annoncer les streams d'une chaîne Twitch en activant le système et en ajoutant la chaîne sur le panel. Dans la configuration :
 
 * Il faut indiquer le lien ou le nom de la chaîne Twitch parfaitement ainsi que le salon où sera envoyée l'annonce.
@@ -61,18 +56,6 @@ Il est possible d'annoncer les streams d'une chaîne Twitch en activant le syst�
 * Ensuite pour modifier la configuration de la chaîne Twitch, vous pourrez appuyer sur le bouton "Modifier".
 
 ![Ajout d'une chaîne Twitch](../../.gitbook/assets/image\_2022-01-08\_201845.png)
-
-### Lives présence Discord
-
-Annoncez vos propres streams Twitch avec le live présence Discord s'activant lorsque vous êtes en live avec votre compte Twitch relié à votre Discord ! Cela peut être un alternatif aux annonces Twitch classiques. Pour configurer le système :
-
-* Indiquez le salon où sera envoyée l'annonce de live.
-* Sélectionnez les rôles autorisés à avoir leurs lives annoncés.
-* Vous pouvez modifier le message d'annonce avec des variables et y ajouter un embed accompagné d'une couleur personnalisée.
-* Si le salon sélectionné est un salon d'annonce du système de communauté Discord, sur lequel vos membres peuvent avoir les annonces envoyées également sur leur serveur, vous pouvez autoriser ou non l'envoi des annonces de lives sur les serveurs de vos membres. ![](../../.gitbook/assets/image\_2022-01-09\_173358.png)
-* Puis il est possible supprimer automatiquement l'annonce lorsque le live est terminé (Si le membre n'a plus son live presence).
-
-![Configuration des annonces lives présences Discord](../../.gitbook/assets/image\_2022-01-09\_172516.png)
 
 ### Feeds Reddit ![](../../.gitbook/assets/image\_2022-01-09\_173605.png)
 
