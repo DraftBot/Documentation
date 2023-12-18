@@ -145,13 +145,79 @@ Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration,
 
 {% tab title="Via le panel" %}
 
+![Vue de l'onglet communauté](../.gitbook/assets/privateroom/panel/view_panel.png)
+
 ### Créer un Hub
+
+Pour créer votre systèmes de salons vocaux temporaires, vous devez passer par un salon vocal qui s'occupera de créer le salon temporaire et de donner les permissions requises au propriétaire du salon. Ce salon se nomme un **Hub**.
+
+Pour créer un hub, il suffit de cliquer sur le bouton "<mark style="color:orange;">Créer un hub</mark>". Il y aura une liste d'informations à remplir, qui seront mentionnées dans la partie <mark style="color:orange;">[**Modifier un Hub**](https://docs.draftbot.fr/modules/privateroom#modifier-un-hub)</mark>.
 
 ### Modifier un Hub
 
-### Supprimer un Hub
+Lorsque vous venez de créer votre hub, ou bien lorsque vous cliquez sur le bouton "<mark style="color:orange;">Editer</mark>" de votre hub, une série de paramètres apparaît. Vous trouverez dans cette catégorie chacun de ces paramètres détaillé de A à Z.
 
-![Vue de l'onglet communauté](../.gitbook/assets/privateroom/panel/view_panel.png)
+![Modification de Hub (1/2)](../.gitbook/assets/privateroom/panel/view_edit1.png)
+![Modification de Hub (2/2)](../.gitbook/assets/privateroom/panel/view_edit2.png)
+
+### Changer la catégorie des salons
+
+Pour définir quelle catégorie accueillera le système de salons vocaux temporaires, il y a deux options possibles :
+- Créer une catégorie : Vous devez cliquer sur le bouton "<mark style="color:orange;">Créer</mark>" et taper le nom de la catégorie.
+- Utiliser une catégorie existante : En cliquant sur le bouton "<mark style="color:orange;">Sélectionner</mark>", un selecteur apparaîtra et vous pourrez choisir la catégorie à utiliser
+
+{% hint style="info" %}
+Nous vous recommendons de choisir une catégorie vierge afin d'éviter les problèmes de suppressions de salons permanents ainsi que le désordre qu'une grande quantité de salons peut provoquer.
+{% endhint %}
+
+### Changer le salon de création (Hub)
+
+Il y a à nouveau deux options pour définir un salon hub dans une catégorie :
+- Créer un salon : Vous devez cliquer sur le bouton "<mark style="color:orange;">Créer</mark>", indiquer un nom et <mark style="color:orange;">Draftbot</mark> se chargera de créer le salon avec les permissions adéquates
+- Utiliser un salon existant : Si votre salon est déjà prêt, vous pouvez cliquer sur le bouton "<mark style="color:orange;">Sélectionner</mark>" et indiquer quel salon utiliser.
+
+### Changer le format des noms du salon
+
+{% hint style="info" %}
+Cette fonctionnalité est réservée aux <mark style="color:orange;">[✨ serveurs premiums](https://www.draftbot.fr/premium)</mark>.
+{% endhint %}
+
+Pour définir les noms de salons, vous devez juste remplacer le nom existant par celui que vous souhaitez.
+Afin d'éviter des salons dit doublons, il est conseillé d'indiquer au moins une <mark style="color:orange;">[variable](https://docs.draftbot.fr/modules/privateroom#liste-des-variables)</mark>.
+
+### Changer les permissions par défaut
+
+Les salons vocaux temporaires utilisent par défaut les permissions de la catégorie à leur créations, mais vous pouvez également changer ceci en choisissant entre <mark style="color:orange;">les permissions de la catégorie</mark> et <mark style="color:orange;">celles du hub</mark>.
+
+### Changer les permissions du propriétaire
+
+Vous pouvez attribuer certaine(s) permission(s) supplémentaire(s) au propriétaire du salon. Il suffit simplement de<mark style="color:orange;">cocher les permissions</mark> que vous voulez attribuer.
+
+- **Créer une invitation :** Le propriétaire pourra créer des invitations menant à son salon vocal.
+- **Modifier le salon :** Le propriétaire pourra changer des paramètres tels que le nom ou la taille du salon.
+- **Changer les permissions :** Le propriétaire pourra changer les permissions des membres à l'intérieur de son salon vocal.
+- **Voix prioritaire :** Lorsque le propriétaire parlera, le volume des participants sera diminué si le salon est en "Appuyer pour parler".
+
+{% hint style="warning" %}
+Ces fonctionnalités peuvent être contournées par le configurateur de salon vocal. Veuillez donc penser à désactiver les options "sensibles" à la fois dans les permissions du salon et dans l'embed de configuration.
+{% endhint %}
+
+#### Ajouter/Supprimer des salons permanents
+
+#### Définir la limite de membres
+
+Pour définir la limite de membres, il suffit juste de sélectionner la valeur que vous voulez. Notez également que la valeur "**illimité**" retire la limite de membres.
+
+{% hint style="warning" %}
+Veuillez également noter que la limite de membre peut être changée à tout moment par <mark style="color:orange;">le créateur du salon</mark> s'il possède la permission <mark style="color:orange;">Modifier le salon</mark>.
+{% endhint %}
+
+
+#### Définir l'accès au configurateur de salon
+
+#### Définir les boutons de configurations
+
+### Supprimer un Hub
 
 Pour supprimer un hub, il vous suffit d'aller dans la partie <mark style="color:orange;">communauté</mark> du [panel Draftbot](https://docs.draftbot.fr/modules/privateroom#liens-utiles) et de <mark style="color:orange;">supprimer</mark> le hub de votre choix.
 
