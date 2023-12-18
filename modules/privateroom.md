@@ -211,6 +211,6 @@ Par défaut, **DraftBot** limite les serveurs à **un seul hub**. Cela dit, si l
 
 ### Liens Utiles
 
-{% embed url="https://www.draftbot.fr/" %}
-{% embed url="https://discord.gg/DrzKVU3" %}
-{% embed url="https://www.draftbot.fr/dashboard/user" %}
+- Panel : <mark style="color:orange;">[https://www.draftbot.fr/dashboard/user](https://www.draftbot.fr/dashboard/user)</mark>
+- Serveur Support : <mark style="color:orange;">[https://discord.gg/DrzKVU3](https://discord.gg/DrzKVU3)</mark>
+- Site Web : <mark style="color:orange;">[https://www.draftbot.fr/](https://www.draftbot.fr/)</mark>
