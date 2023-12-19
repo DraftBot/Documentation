@@ -27,7 +27,6 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 - `{user.id}` ➜ Identifiant du membre
 - `{user.username}` ➜ Pseudo du membre
 - `{user.nickname}` ➜ Surnom ou pseudo du membre
-- `{user.tag}` ➜ Tag du membre _(Pseudo#0000)_
 - `{server}` ➜ Nom du serveur
 - `{server.id}` ➜ Identifiant du serveur
 - `{server.name}` ➜ Nom du serveur
@@ -89,7 +88,7 @@ Arrivées & départs ➜ "<mark style="color:blue;">Message d'au revoir</mark>".
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
-- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message d'au revoir sera envoyé.
+- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message d'au revoir sera envoyé.
 
 - "Message personnalisé" ➜ Définir le message qui sera envoyé dans le message de bienvenue.
 
