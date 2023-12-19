@@ -80,10 +80,10 @@ Vous pouvez changer les permissions par défaut des salons temporaires en appuya
 #### Définir les permissions du créateur du salon vocal
 
 Vous pouvez définir les permissions du créateur du salon vocal temporaire en appuyant sur le bouton <mark style="color:orange;">Permissions du créateur</mark>. Un sélecteur apparaîtra avec 4 options :
-- Créer une invitation : le créateur pourra créer des invitations qui amèneront dans son salon.
-- Modifier le salon : le créateur du salon peut changer les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membre, etc.</mark>
-- Changer les permissions : le créateur peut changer les permissions de son salon vocal, ce qui implique qu'il peut créer des dérogation de rôle, de membre, etc.
-- Voix prioriaire : le son de tous les participants sera diminué lorsque le créateur du salon parle. ⚠ - Cette fonction ne fonctionne que lorsque le créateur est en mode "Appuyer pour parler".
+- **Créer une invitation** : le créateur pourra créer des invitations qui amèneront dans son salon.
+- **Modifier le salon** : le créateur du salon peut changer les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membre, etc.</mark>
+- **Changer les permissions** : le créateur peut changer les permissions de son salon vocal, ce qui implique qu'il peut créer des dérogation de rôle, de membre, etc.
+- **Voix prioriaire** : le son de tous les participants sera diminué lorsque le créateur du salon parle. ⚠ - Cette fonction ne fonctionne que lorsque le créateur est en mode "Appuyer pour parler".
 
 {% hint style="warning" %}
 Ces fonctionnalités peuvent être contournées par le configurateur de salon vocal. Veuillez donc penser à désactiver les options "sensibles" à la fois dans les permissions du salon et dans l'embed de configuration
@@ -127,10 +127,10 @@ Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration,
 <details>
 <summary>Restriction de rôles</summary>
 
-- Ajouter des rôles interdits : Ce bouton retire l'accès à l'embed aux rôles ajoutés.
-- Supprimer des rôles interdits : Ce bouton autorise des rôles à accéder à l'embed.
-- Réinitialiser les rôles interdits : Ce bouton permet d'effacer la configuration des rôles d'accès
-- Restreindre à des rôles : Ce bouton permet de changer d'état.
+- **Ajouter des rôles interdits** : Ce bouton retire l'accès à l'embed aux rôles ajoutés.
+- **Supprimer des rôles interdits** : Ce bouton autorise des rôles à accéder à l'embed.
+- **Réinitialiser les rôles interdits** : Ce bouton permet d'effacer la configuration des rôles d'accès
+- **Restreindre à des rôles** : Ce bouton permet de changer d'état.
 </details>
 <details>
 <summary>Autorisation de rôle</summary>
@@ -191,7 +191,7 @@ Les salons vocaux temporaires utilisent par défaut les permissions de la catég
 
 ### Changer les permissions du propriétaire
 
-Vous pouvez attribuer certaine(s) permission(s) supplémentaire(s) au propriétaire du salon. Il suffit simplement de<mark style="color:orange;">cocher les permissions</mark> que vous voulez attribuer.
+Vous pouvez attribuer certaine(s) permission(s) supplémentaire(s) au propriétaire du salon. Il suffit simplement de <mark style="color:orange;">cocher les permissions</mark> que vous voulez attribuer.
 
 - **Créer une invitation :** Le propriétaire pourra créer des invitations menant à son salon vocal.
 - **Modifier le salon :** Le propriétaire pourra changer des paramètres tels que le nom ou la taille du salon.
@@ -204,6 +204,10 @@ Ces fonctionnalités peuvent être contournées par le configurateur de salon vo
 
 #### Ajouter/Supprimer des salons permanents
 
+Pour ajouter des salons permanents, il suffit d'appuyer sur l'icône "<mark style="color:orange;">**+**</mark>" et d'indiquer le nom du salon.
+
+Pour supprimer un salon permanent, il suffit simplement d'<mark style="color:orange;">appuyer sur la croix</mark> à côté du salon permanent à retirer.
+
 #### Définir la limite de membres
 
 Pour définir la limite de membres, il suffit juste de sélectionner la valeur que vous voulez. Notez également que la valeur "**illimité**" retire la limite de membres.
@@ -215,7 +219,25 @@ Veuillez également noter que la limite de membre peut être changée à tout mo
 
 #### Définir l'accès au configurateur de salon
 
+Vous pouvez définir les accès à la configuration de 2 manières différentes :
+- En retirant l'accès par défaut à tous les rôles et à ajouter les rôles examptés.
+- En donnant l'accès par défaut à tous les rôles sauf ceux listés.
+
+Il suffit simplement de cliquer sur "<mark style="color:orange;">Avec</mark>" pour la première option, ou bien "<mark style="color:orange;">Sans</mark>" pour la deuxième option.
+
+Pour ajouter des rôles, il suffit de cliquer sur le bouton "<mark style="color:orange;">**+**</mark>". Pour supprimer des rôles, il suffit de cliquer sur la <mark style="color:orange;">croix</mark> à côté de leur nom.
+
 #### Définir les boutons de configurations
+
+Vous pouvez ajouter des boutons de configuration en appuyant sur le bouton "<mark style="color:orange;">**+**</mark>". 
+
+Vous pouvez supprimer des boutons de configuration en cliquant sur la <mark style="color:orange;">croix</mark> à côté de leur nom.
+
+{% hint style="info" %}
+Par défaut, tous les boutons de configuration sont activés.
+
+Notez également que ce menu n'apparaîtra pas si vous n'avez pas activé la "<mark style="color:orange;">configuration du salon</mark>".
+{% endhint %}
 
 ### Supprimer un Hub
 
@@ -245,34 +267,34 @@ Cet embed permet notamment d'utiliser toutes les permission de modération, et c
 
 Voici donc une liste détaillée de chaque fonction du configurateur :
 
-- Ouvert : Cette fonction permet d'ouvrir le salon à tous les membres, exepté ceux de la <mark style="color:orange;">liste noire</mark>.
-- Fermé : Cette fonction vérouille le salon à tous les membres exceptés ceux inscrits dans la <mark style="color:orange;">liste blanche</mark>.
-- Liste Blanche : Cette fonction permet d'ajouter des membres qui seront <mark style="color:orange;">autorisé à rejoindre</mark> le salon en permanence.
+- **Ouvert** : Cette fonction permet d'ouvrir le salon à tous les membres, exepté ceux de la <mark style="color:orange;">liste noire</mark>.
+- **Fermé** : Cette fonction vérouille le salon à tous les membres exceptés ceux inscrits dans la <mark style="color:orange;">liste blanche</mark>.
+- **Liste Blanche** : Cette fonction permet d'ajouter des membres qui seront <mark style="color:orange;">autorisé à rejoindre</mark> le salon en permanence.
 
 {% hint style="info" %}
 Cette fonction permet notamment de contourner les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez.
 {% endhint %}
 
-- Liste Noire : Cette fonction permet d'ajouter des membres qui ne pourront <mark style="color:orange;">jamais rejoindre</mark> le salon vocal.
+- **Liste Noire** : Cette fonction permet d'ajouter des membres qui ne pourront <mark style="color:orange;">jamais rejoindre</mark> le salon vocal.
 
 {% hint style="info" %}
 Tout comme la fonction précédente, la liste noire contourne les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez dans cette liste.
 {% endhint %}
 
-- Purge : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas au propriétaire du salon du salon.
+- **Purge** : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas au propriétaire du salon du salon.
 
 
-- Micro : Cette fonction permet d'activer/désactiver le micro de tous les participants du salon vocal.
+- **Micro** : Cette fonction permet d'activer/désactiver le micro de tous les participants du salon vocal.
 
-- Vidéo : Tout comme la fonction précédente, elle permet d' activer/désactiver l'activation de la caméra ainsi que le partage d'écran de tous les participants du salon vocal.
+- **Vidéo** : Tout comme la fonction précédente, elle permet d' activer/désactiver l'activation de la caméra ainsi que le partage d'écran de tous les participants du salon vocal.
 
-- Soundboard : cette fonction permet d'activer/désactiver l'utilisation des soundboards pour tous les participants du salon vocal.
+- **Soundboard** : cette fonction permet d'activer/désactiver l'utilisation des soundboards pour tous les participants du salon vocal.
 
 {% hint style="warning" %}
 Les fonctions <mark style="color:orange;">micro, vidéo et soundboard</mark> s'appliquent à tous les membres hormis ceux ayant une dérogation spéciale ainsi qu'au propriétaire du salon.
 {% endhint %}
 
-- Transférer la propriété : Cette fonction permet de transférer les droits de gestion du salon vocal à quelqu'un d'autre.
+- **Transférer la propriété** : Cette fonction permet de transférer les droits de gestion du salon vocal à quelqu'un d'autre.
 
 {% hint style="danger" %}
 Un transfert de propriété dans un salon vocal est permanent.
