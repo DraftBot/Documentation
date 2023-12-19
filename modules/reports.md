@@ -89,5 +89,5 @@ Une fois la raison sélectionnée, vous pourrez ajouter un commentaire facultati
 "Sanctionner le membre" ➜ Permet de sanctionner le membre signalé avec une sanction prédéfinie (disponible uniquement si des sanctions prédéfinies sont enregistrées).
 
 {% hint style="info" %}
-Vous pourrez toujours remettre le signalement en attente via le bouton sur le message de signalement.
+Vous pourrez toujours remettre le signalement en attente via le bouton <mark style="color:orange;">Remettre le signalement en attente</mark> se trouvant sur le message de signalement.
 {% endhint %}
