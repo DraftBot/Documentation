@@ -70,7 +70,7 @@ Pour configurer le système de signalements, accédez au panel via le lien ci-de
 Une fois qu'une personne aura signalé un utilisateur ou un message, vous aurez ce message dans le salon que vous aurez défini auparavant :
 
 ![Message de signalement](../.gitbook/assets/report/report.png)
-<!--A changer : faute d'orthographe dans le message-->
+
 
 Vous aurez alors différentes possibilités :
 
@@ -79,7 +79,8 @@ Vous aurez alors différentes possibilités :
 "<mark style="color:blue;">Prendre en charge</mark>" ➜ Permet de montrer que vous êtes en train de régler le signalement.
 
 "<mark style="color:green;">Marquer comme traité</mark>" ➜ Marque le signalement comme résolu.
-Vous pouvez ensuite séléctionner la raison de la résolution du signalement parmis :
+
+Vous pouvez ensuite sélectionner la raison de la résolution du signalement parmi :
 <mark style="color:blue;">Membre sanctionné</mark>, <mark style="color:green;">Signalement résolu</mark> et <mark style="color:blue;">Signalement refusé</mark>.
 Une fois la raison sélectionnée, vous pourrez ajouter un commentaire facultatif.
 
