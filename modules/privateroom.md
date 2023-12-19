@@ -149,7 +149,7 @@ Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration,
 
 ### Créer un Hub
 
-Pour créer votre systèmes de salons vocaux temporaires, vous devez passer par un salon vocal qui s'occupera de créer le salon temporaire et de donner les permissions requises au propriétaire du salon. Ce salon se nomme un **Hub**.
+Pour créer votre système de salons vocaux temporaires, vous devez passer par un salon vocal qui s'occupera de créer le salon temporaire et de donner les permissions requises au propriétaire du salon. Ce salon se nomme un **Hub**.
 
 Pour créer un hub, il suffit de cliquer sur le bouton "<mark style="color:orange;">Créer un hub</mark>". Il y aura une liste d'informations à remplir, qui seront mentionnées dans la partie <mark style="color:orange;">[**Modifier un Hub**](https://docs.draftbot.fr/modules/privateroom#modifier-un-hub)</mark>.
 
