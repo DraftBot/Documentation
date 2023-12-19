@@ -23,12 +23,12 @@ Pour configuer ce système par commande, il vous suffit de faire la commande <ma
 
 Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps.Voici celles utilisables pour le système de starboard : 
  
- - `{user}` = Surnom du membre sur le serveur.
- - `{user.username}` = Pseudo du compte du membre.
- - `{user.globalname}` = Nom affiché du compte du membre.
- - `{emoji}` = Emoji du starboard.
- - `{emoji.count}` = Nombre de réactions.
- - `{message.url}` = Lien du message.
+- `{user}` = Surnom du membre sur le serveur.
+- `{user.username}` = Pseudo du compte du membre.
+- `{user.globalname}` = Nom affiché du compte du membre.
+- `{emoji}` = Emoji du starboard.
+- `{emoji.count}` = Nombre de réactions.
+- `{message.url}` = Lien du message.
 
 {% hint style="info" %}
 
@@ -42,7 +42,7 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 
 {% endtab %}
 
-{% tab title="Via le panel"}
+{% tab title="Via le panel" %}
 Pour configurer le système via le [panel](https://www.draftbot.fr/dashboard/), il vous suffit de vous diriger dans l'onglet <mark style ="color:blue;">Communautaire</mark>. Ensuite, descendez un la liste des système et vous trouverez le système de starboards.
 
 <details>
@@ -50,12 +50,12 @@ Pour configurer le système via le [panel](https://www.draftbot.fr/dashboard/), 
 
 Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps.Voici celles utilisables pour le système de starboard : 
  
- - `{user}` = Surnom du membre sur le serveur.
- - `{user.username}` = Pseudo du compte du membre.
- - `{user.globalname}` = Nom affiché du compte du membre.
- - `{emoji}` = Emoji du starboard.
- - `{emoji.count}` = Nombre de réactions.
- - `{message.url}` = Lien du message.
+- `{user}` = Surnom du membre sur le serveur.
+- `{user.username}` = Pseudo du compte du membre.
+- `{user.globalname}` = Nom affiché du compte du membre.
+- `{emoji}` = Emoji du starboard.
+- `{emoji.count}` = Nombre de réactions.
+- `{message.url}` = Lien du message.
 
 {% hint style="info" %}
 La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji.count} | {message.url}".
@@ -71,8 +71,8 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 
 ### Infos utiles 
 
-- Pour pouvoir créer plusieurs starboard et choisir l'émoji que l'on souhaite mettre en place, il faut être [premium](https://www.draftbot.fr/premium/).
+- Pour pouvoir créer plusieurs starboard et choisir l'émoji que l'on souhaite mettre en place, il faut être <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
 - Vous pouvez choisir que le message en question soit retranscrit sous forme d'embed ou non.
 - Vous pouvez choisir si le message s'envoie dans un salon textuel ou non. Il peut très bien être envoyé dans un fil ou dans un post. 
 - Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
-- En tant que membre [premium](https://www.draftbot.fr/premium/), vous pouvez créer jusqu'à 5 starboards.
+- En tant que membre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>, vous pouvez créer jusqu'à 5 starboards.
