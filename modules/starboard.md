@@ -13,10 +13,37 @@ Comme vous l'aurez compris, le système de starboard foncionne à base de réact
 ## Configuration du système 
 
 {% tabs %}
-{% tab title="Par commande" %}
-### Par commande
+{% tab title="Via le /config" %}
 
-Pour configuer ce système par commande, il vous suffit de faire la commande <mark style="color:orange;">/config</mark> en sélectionnant le système ⭐<mark style="color:blue;">Starboards</mark>. Il se trouve tout en bas du sélecteur. Ensuite, vous aurez trois choix d'action. Créer ; Modifier ; Supprimer. Il ne vous reste plus qu'à cliquer sur l'action que vous souhaitez réaliser.
+### Créer
+
+Pour créer un starboard par commande, il suffit de faire la commande /config en sélectionnant Starboards. Ensuite, cliquez sur Créer. De là, DrafBot vous posera plusieurs afin de configurer au mieux votre premier starbaord. 
+
+{% hint style="info" %}
+
+- Pour pouvoir créer jusqu'à 5 starboards et choisir l'émoji en question pour les réactions, il faut être ✨ <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
+
+{% endhint %}
+
+![Menu de création](../.gitbook/assets/création-starboard.png)
+
+
+### Modifier 
+
+Pour modifier un starboard, il faut d'abord faire la commande /config en sélectionnant Starboard. Puis, cliquez sur Modifier. Par la suite, DraftBot vous affichera une sorte de panel de configuration. Exemple ci dessous. Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
+
+![Modification](../.gitbook/assets/menu-starboard.png)
+
+{% hint style="info" %}
+
+Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
+
+{% endhint %}
+
+
+### <mark style="color:red;">Supprimer</mark>
+
+Pour supprimer un starboard, 
 
 <details>
 <summary>Liste des variables disponibles pour ce système</summary>
@@ -39,6 +66,10 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 </details>
 
 "Image à venir." 
+
+
+
+
 
 {% endtab %}
 
@@ -71,8 +102,5 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 
 ### Infos utiles 
 
-- Pour pouvoir créer plusieurs starboard et choisir l'émoji que l'on souhaite mettre en place, il faut être <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
-- Vous pouvez choisir que le message en question soit retranscrit sous forme d'embed ou non.
-- Vous pouvez choisir si le message s'envoie dans un salon textuel ou non. Il peut très bien être envoyé dans un fil ou dans un post. 
+ 
 - Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
-- En tant que membre <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>, vous pouvez créer jusqu'à 5 starboards.
