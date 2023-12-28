@@ -6,7 +6,18 @@ description: >-
 
 # Modération
 
-## Note
+**DraftBot** propose différents systèmes de modération automatique tel que l'auto-modération ou encore les auto-sanctions. Vous pouvez aussi effectuer des actions de modérations manuelles. Par exemple expulser un membre, l'avertir et bien plus encore ! Sans oublier le système de sanctions prédéfinies. 
+
+{% hint style="info" %}
+Avant de commencer, voyons une petite différence subtile mais essentielle à la compréhensions des différents systèmes :
+
+- Une Sanction est une action humaine. (Par exemple bannir un utilisateur)
+- Une Infraction est une action faite par le bot. (Par exemple une auto-sanction)
+{% endhint %}
+
+# Sanctions 
+{% tabs %}
+{% tab title="Note" %}
 
 Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
@@ -19,7 +30,9 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
 
-## Avertissement
+{% endtab %}
+
+{% tab title="Avertissement" %}
 
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
@@ -37,7 +50,9 @@ Vous pourrez retirer un avertissement à un membre avec la commande <mark style=
 
 {% endhint %}
 
-## Mute
+{% endtab %}
+
+{% tab title="Mute" %}
 
 Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>.\
 La durée d'un mute ne peut pas dépasser **28 jours**.
@@ -52,7 +67,9 @@ Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au sile
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour rendre muet un membre.
 {% endhint %}
 
-## Expulsion
+{% endtab %}
+
+{% tab title="Expulsion" %}
 
 Le fait d'expulser un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le <mark style="color:orange;">[bannissement](moderation.md#bannissement)</mark>.
 
@@ -66,7 +83,9 @@ Vous pouvez expulser un membre de votre serveur avec la commande <mark style="co
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour expulser un membre.
 {% endhint %}
 
-## Bannissement
+{% endtab %}
+
+{% tab title="Bannissement" %}
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#expulsion)</mark>.
 
@@ -84,6 +103,9 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débanni
 
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour bannir un membre.
 {% endhint %}
+
+{% endtab %}
+{% endtabs %}
 
 ## Historique de sanctions
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
