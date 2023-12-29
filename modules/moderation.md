@@ -126,7 +126,7 @@ Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</
 
 ## Sanctions prédéfinies
 
-Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. Vous pourrez y décider de la sanction ainsi que de la raison, cela facilietera et réglementera les sanctions applicables par vos modérateurs.
+Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. Vous pourrez y décider de la sanction à appliquer ainsi que de la raison de celle-ci. Cela facilietera et réglementera les sanctions applicables par vos modérateurs.
 
 {% hint style="info" %}
 Toutefois, vos modérateurs doivent posséder des permissions nécessaires pour effectuer la sanction souhaitée via <mark style="color:orange;">/mod</mark>.
@@ -160,10 +160,88 @@ Notez que ces actions sont irréversibles, une fois effectuées, il vous sera im
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="color:orange;">"Créer une sanction prédéfinie"</mark>. Vous n'avez ensuite qu'à sauvegarder votre sanction et le tour est joué !
+Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="color:orange;">"Créer une sanction prédéfinie"</mark>. Vous pourrez ensuite choisir la sanction à appliquer ainsi que la raison indiquée lors de l'utilisation de cette dernière. Vous aurez également la possibilité de définir un nom lors de la sélection de la sanction prédéfinie dans la commande <mark style="color:orange;">/mod</mark>. Vous n'avez ensuite qu'à sauvegarder votre sanction et le tour est joué !
 
 ![Création d'une sanction prédéfinie](../.gitbook/assets/moderation/dashboard_creation_predefined_sanctions.png)
 
 > ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Sauvegarder" en bas de la page.
+{% endtab %}
+{% endtabs %}
+
+## Auto-modération
+
+Envie d'automatiser certains actes de modération tel que la censure des invitations discord ou du vocabulaire interdit ? Alors découvrez l'auto-modération de **DraftBot** !
+
+### Configuration 
+
+{% tabs %}
+{% tab title="Vocabulaire interdit" %}
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Depuis le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
+
+{% endtab %}
+
+{% tab title="Invitations Discord" %}
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Depuis le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
+
+{% endtab %}
+
+{% tab title="Liens externes" %}
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Depuis le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
+
+{% endtab %}
+
+{% tab title="Mentions excessives" %}
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Depuis le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
+
+{% endtab %}
+
+{% tab title="Émojis excessifs" %}
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Depuis le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
+
 {% endtab %}
 {% endtabs %}
