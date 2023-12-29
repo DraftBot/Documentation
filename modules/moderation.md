@@ -107,11 +107,13 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débanni
 {% endtab %}
 {% endtabs %}
 
-## Historique de sanctions
+### Historique de sanctions
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
 Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
 
 ![Historique de sanctions d'un membre](../.gitbook/assets/moderation/history.png)
+
+### Gestion des sanctions
 
 Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer \[membre]</mark>.
 
@@ -122,4 +124,46 @@ De même, si vous souhaitez enlever toutes les sanctions de tous les membres de 
 Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">serveur</mark> sont irréversibles : impossible de redonner les sanctions aux membres du serveur si la commande a été faite et validée.
 {% endhint %}
 
-{% embed url="https://docs.draftbot.fr/prefix/prefixe/moderation#auto-moderation" %}Retrouvez la configuration de l'auto-sanction de DraftBot sur cette page{% endembed %}
+## Sanctions prédéfinies
+
+Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. Vous pourrez y décider de la sanction ainsi que de la raison, cela facilietera et réglementera les sanctions applicables par vos modérateurs.
+
+{% hint style="info" %}
+Toutefois, vos modérateurs doivent posséder des permissions nécessaires pour effectuer la sanction souhaitée via <mark style="color:orange;">/mod</mark>.
+{% endhint %}
+
+### Configuration
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Sanctions prédéfinies</mark>".
+
+#### Création d'une sanction prédéfinie
+
+Pour créer une sanction prédéfinie, cliquez sur "Créer". Vous pourrez ensuite choisir la sanction à appliquer ainsi que la raison indiquée lors de l'utilisation de cette dernière. Vous aurez également la possibilité de définir un nom lors de la sélection de la sanction prédéfinie dans la commande <mark style="color:orange;">/mod</mark>.
+
+
+#### Gestion d'une sanction prédéfinie existante
+
+Pour supprimer une sanction prédéfinie, cliquez sur "Supprimer", **DraftBot** vous demandera par la suite de sélectionner la sanction à retirer.
+
+Vous auvez également la possibilitée de retirer toutes les sanctions prédéfinies en cliquant sur "réinitialiser".
+
+{% hint style="warning" %}
+Notez que ces actions sont irréversibles, une fois effectuées, il vous sera impossible de revenir en arrière.
+{% endhint %}
+
+![Menu de configuration des sanctions prédéfinies](../.gitbook/assets/moderation/configuiration_predefined_sanctions.png)
+
+{% endtab %}
+{% tab title="Depuis le panel" %}
+
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
+Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="color:orange;">"Créer une sanction prédéfinie"</mark>. Vous n'avez ensuite qu'à sauvegarder votre sanction et le tour est joué !
+
+![Création d'une sanction prédéfinie](../.gitbook/assets/moderation/dashboard_creation_predefined_sanctions.png)
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Sauvegarder" en bas de la page.
+{% endtab %}
+{% endtabs %}
