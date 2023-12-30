@@ -179,11 +179,13 @@ Envie d'automatiser certains actes de modération tel que la censure des invitat
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Here is first tab content.
+Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Auto-Modération</mark>". Enfin, appuyez sur "Vocabulaire".
+
+
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-Here is second tab content.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 {% endtab %}
 {% endtabs %}
 
@@ -193,11 +195,11 @@ Here is second tab content.
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Here is first tab content.
+Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Auto-Modération</mark>". Enfin, appuyez sur "Vocabulaire".
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-Here is second tab content.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 {% endtab %}
 {% endtabs %}
 
@@ -211,7 +213,7 @@ Here is first tab content.
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-Here is second tab content.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 {% endtab %}
 {% endtabs %}
 
@@ -225,7 +227,7 @@ Here is first tab content.
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-Here is second tab content.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 {% endtab %}
 {% endtabs %}
 
@@ -239,7 +241,7 @@ Here is first tab content.
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-Here is second tab content.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 {% endtab %}
 {% endtabs %}
 
