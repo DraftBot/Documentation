@@ -15,7 +15,7 @@ Comme vous l'aurez compris, le système de starboard foncionne à base de réact
 {% tabs %}
 {% tab title="Via le /config" %}
 
-### Créer
+### Créer un starboard
 
 Pour créer un starboard par commande, il suffit de faire la commande /config en sélectionnant Starboards. Ensuite, cliquez sur Créer. De là, DrafBot vous posera plusieurs afin de configurer au mieux votre premier starbaord. 
 
@@ -25,14 +25,16 @@ Pour créer un starboard par commande, il suffit de faire la commande /config en
 
 {% endhint %}
 
-![Menu de création](../.gitbook/assets/création-starboard.png)
+![Menu de création](../.gitbook/assets/creacdms.png)
 
 
-### Modifier 
+### Modifier un starboard
 
 Pour modifier un starboard, il faut d'abord faire la commande /config en sélectionnant Starboard. Puis, cliquez sur Modifier. Par la suite, DraftBot vous affichera une sorte de panel de configuration. Exemple ci dessous. Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
 
-![Modification](../.gitbook/assets/menu-starboard.png)
+![](../.gitbook/assets/modifcdms.png)
+
+![](../.gitbook/assets/modulecdms.png)
 
 {% hint style="info" %}
 
@@ -40,11 +42,6 @@ Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message appara
 
 {% endhint %}
 
-
-### <mark style="color:red;">Supprimer</mark>
-
-Pour supprimer un starboard, 
-
 <details>
 <summary>Liste des variables disponibles pour ce système</summary>
 
@@ -65,10 +62,12 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 
 </details>
 
-"Image à venir." 
 
+### <mark style="color:red;">Supprimer un starboard</mark>
 
+Pour supprimer un starboard, il suffit de faire la commande /config toujours en sélectionnant Starboards. Enfin, il vous faudra cliquer sur Supprimer en rouge.
 
+![](../.gitbook/assets/supcdms.png)
 
 
 {% endtab %}
@@ -76,6 +75,45 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 {% tab title="Via le panel" %}
 Pour configurer le système via le [panel](https://www.draftbot.fr/dashboard/), il vous suffit de vous diriger dans l'onglet <mark style ="color:blue;">Communautaire</mark>. Ensuite, descendez un la liste des système et vous trouverez le système de starboards.
 
+### Créer un starboard
+
+Pour créer un starboard via le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, il faut vous rendre dans la catégorie Communautaire. Ensuite, déscendez dans la partie Starbaords et cliquez sur Créer un hub. Par la suite, DraftBot vous proposera une sorte de menu de configuration pour configurer votre premier starboard.
+
+![](../.gitbook/assets/creapanel.png)
+
+{% hint style="info" %}
+
+- Pour pouvoir créer jusqu'à 5 starboards et choisir l'émoji en question pour les réactions, il faut être ✨ <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
+
+{% endhint %}
+
+
+### Modifier un starboard
+
+Pour modifier un starboard, il vous suffit de cliquer sur Modifier qui se trouve toujours dans le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, dans la catégorie Communautaire, dans la partie Staboards.  Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
+
+![](../.gitbook/assets/modifpanel.png)
+
+{% hint style="info" %}
+Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
+
+{% endhint %}
+
+
+### <mark style="color:red;">Supprimer un starboard</mark>
+
+Pour supprimer un starboard, cliquez sur le bouton supprimer qui se trouve également dans le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, dans la catégorie Communautaire, dans la partie Staboards.
+
+![](../.gitbook/assets/supanel)
+
+{% hint style="info" %}
+Si vous le souhaitez, vous pouvez désactiver votre starboard tout en le conservant, il vous suffit juste de cliquer sur l'encoche à gauche du bouton Modifier.
+
+![](../.gitbook/assets/astucepanel.png)
+
+{% endhint %}
+
+
 <details>
 <summary>Liste des variables disponibles pour ce système</summary>
 
@@ -95,12 +133,6 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 
 </details>
 
-"Image à venir."
 
 {% endtab %}
 {% endtabs %}
-
-### Infos utiles 
-
- 
-- Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
