@@ -7,7 +7,7 @@ description: >-
 
 ## Comment ça marche ? 
 
-Comme vous l'aurez compris, le système de starboard foncionne à base de réaction sou un message. Principalement, cela permet de faire des votes entre certains messages. Mais cela peut servir aussi à d'autres choses. Lorsqu'un message atteint un certain nombre de réaction, il est retranscrit par DraftBot, sous forme embed ou pas, dans un salon, créé au préalable ou choisit lors de la configuration.
+Comme vous l'aurez compris, le système de starboard foncionne à base de réaction sous un message. Principalement, cela permet de faire des votes entre certains messages. Mais cela peut servir aussi à d'autres choses. Lorsqu'un message atteint un certain nombre de réaction, il est retranscrit par DraftBot, sous forme embed ou pas, dans un salon, créé au préalable ou choisit lors de la configuration.
 
 
 ## Configuration du système 
@@ -25,16 +25,16 @@ Pour créer un starboard par commande, il suffit de faire la commande /config en
 
 {% endhint %}
 
-![Menu de création](../.gitbook/assets/creacdms.png)
+![Menu de création](../.gitbook/assets/starboard/creacdms.png)
 
 
 ### Modifier un starboard
 
 Pour modifier un starboard, il faut d'abord faire la commande /config en sélectionnant Starboard. Puis, cliquez sur Modifier. Par la suite, DraftBot vous affichera une sorte de panel de configuration. Exemple ci dessous. Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
 
-![](../.gitbook/assets/modifcdms.png)
+![Explicaton visuelle](../.gitbook/assets/starboards/modifcdms.png)
 
-![](../.gitbook/assets/modulecdms.png)
+![Explicaton visuelle](../.gitbook/assets/starboards/modulecdms.png)
 
 {% hint style="info" %}
 
@@ -67,7 +67,7 @@ La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji
 
 Pour supprimer un starboard, il suffit de faire la commande /config toujours en sélectionnant Starboards. Enfin, il vous faudra cliquer sur Supprimer en rouge.
 
-![](../.gitbook/assets/supcdms.png)
+![Explicaton visuelle](../.gitbook/assets/starboards/supcdms.png)
 
 
 {% endtab %}
@@ -79,7 +79,7 @@ Pour configurer le système via le [panel](https://www.draftbot.fr/dashboard/), 
 
 Pour créer un starboard via le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, il faut vous rendre dans la catégorie Communautaire. Ensuite, déscendez dans la partie Starbaords et cliquez sur Créer un hub. Par la suite, DraftBot vous proposera une sorte de menu de configuration pour configurer votre premier starboard.
 
-![](../.gitbook/assets/creapanel.png)
+![Explicaton visuelle](../.gitbook/assets/starboards/creapanel.png)
 
 {% hint style="info" %}
 
@@ -92,7 +92,7 @@ Pour créer un starboard via le <mark style="color:orange;">[panel](https://www.
 
 Pour modifier un starboard, il vous suffit de cliquer sur Modifier qui se trouve toujours dans le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, dans la catégorie Communautaire, dans la partie Staboards.  Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
 
-![](../.gitbook/assets/modifpanel.png)
+![Explicaton visuelle](../.gitbook/assets/starboards/modifpanel.png)
 
 {% hint style="info" %}
 Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
@@ -104,12 +104,12 @@ Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message appara
 
 Pour supprimer un starboard, cliquez sur le bouton supprimer qui se trouve également dans le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, dans la catégorie Communautaire, dans la partie Staboards.
 
-![](../.gitbook/assets/supanel)
+![Explicaton visuelle](../.gitbook/assets/starboards/supanel.png)
 
 {% hint style="info" %}
 Si vous le souhaitez, vous pouvez désactiver votre starboard tout en le conservant, il vous suffit juste de cliquer sur l'encoche à gauche du bouton Modifier.
 
-![](../.gitbook/assets/astucepanel.png)
+![Explicaton visuelle](../.gitbook/assets/starbaords/astucepanel.png)
 
 {% endhint %}
 
