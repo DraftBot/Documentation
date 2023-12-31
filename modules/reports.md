@@ -76,7 +76,7 @@ Vous aurez alors différentes possibilités :
 
 
 
-"<mark style="color:blue;">Prendre en charge</mark>" ➜ Permet de montrer que vous êtes en train de régler le signalement.
+"<mark style="color:blue;">Prendre en charge</mark>" ➜ Permet de montrer que vous êtes en train de vous occupez du signalement.
 
 "<mark style="color:green;">Marquer comme traité</mark>" ➜ Marque le signalement comme résolu.
 
@@ -84,9 +84,21 @@ Vous pouvez ensuite sélectionner la raison de la résolution du signalement par
 <mark style="color:blue;">Membre sanctionné</mark>, <mark style="color:green;">Signalement résolu</mark> et <mark style="color:blue;">Signalement refusé</mark>.
 Une fois la raison sélectionnée, vous pourrez ajouter un commentaire facultatif.
 
-"Ouvrir un ticket" ➜ Permet d'ouvrir un ticket pour le membre pour le <mark style="color:red;">membre accusé</mark> ou le <mark style="color:blue;">membre signalant</mark> (disponible uniquement si le système de tickets est activé).
+<!--"Ouvrir un ticket" ➜ Permet d'ouvrir un ticket pour le membre pour le <mark style="color:red;">membre accusé</mark> ou le <mark style="color:blue;">membre signalant</mark> (disponible uniquement si le système de tickets est activé).
 
-"Sanctionner le membre" ➜ Permet de sanctionner le membre signalé avec une sanction prédéfinie (disponible uniquement si des sanctions prédéfinies sont enregistrées).
+"Sanctionner le membre" ➜ Permet de sanctionner le membre signalé avec une sanction prédéfinie (disponible uniquement si des sanctions prédéfinies sont enregistrées).-->
+"Ouvrir un ticket" ➜ Permet d'ouvrir un ticket pour le <mark style="color:red;">membre accusé</mark> ou le <mark style="color:blue;">membre signalant</mark>. 
+
+{% hint style="info" %}  
+Il faut que le système de <mark style="color:blue;">[tickets](modules/tickets.md)</mark> soit activé.  
+{% endhint %}  
+
+"Sanctionner le membre" ➜ Permet de sanctionner le membre signalé via une sanction prédéfinie.  
+
+{% hint style="info" %}  
+Il faut qu'il y ait des sanctions prédéfinies enregistrées.  
+{% endhint %}  
+
 
 {% hint style="info" %}
 Vous pourrez toujours remettre le signalement en attente via le bouton <mark style="color:orange;">Remettre le signalement en attente</mark> se trouvant sur le message de signalement.
