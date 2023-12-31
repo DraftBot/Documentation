@@ -20,7 +20,7 @@ Voici les différents boutons ainsi que leurs utilités :
 - <mark style="color:blue;">"Activer le système"</mark> ➜ Permet d'activer ou désactiver le système.
 - "Activer la réaction 🚨" ➜ DraftBot réagira au message signalé avec la réaction "🚨".
 
-- "Activer l'ouverture d'un fil" ➜ Si activé, DraftBot ouvrira un fil pour les modérateurs quand un signalement est envoyé. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Activer l'ouverture d'un fil" ➜ Si activé, DraftBot ouvrira un fil pour les modérateurs lorsqu'un signalement sera envoyé. **_([✨ premium](https://draftbot.fr/premium))_**  
 - "Rôle mentionné" ➜ Permet de définir le rôle qui sera mentionné dans le message de signalement.
 - "<mark style="color:blue;">Salon</mark>" ➜ Défini le salon dans lequel le message de signalement est envoyé.
 - "Rôles Modérateurs" ➜ Permet de définir des rôles non-administrateurs qui pourront gérer les signalements.
@@ -49,7 +49,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 Votre message peut faire au maximum 1 200 caractères.
 {% endhint %}
 
-- Fil de tri  ➜ Permet de définir les fils pour les signalements résolus, refusés et sanctionnés pour les modérateurs. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Fil de tri"  ➜ Permet d'assigner des fils pour les signalements résolus, refusés ou sanctionnés. **_([✨ premium](https://draftbot.fr/premium))_**
 {% endtab %}
 
 {% tab title="Via le panel" %}
