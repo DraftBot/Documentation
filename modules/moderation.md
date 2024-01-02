@@ -17,7 +17,7 @@ Avant de commencer, voyons une petite différence subtile mais essentielle à la
 
 # Sanctions 
 
-## Note
+### Note
 
 Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
@@ -30,7 +30,7 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
 
-## Avertissement
+### Avertissement
 
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
@@ -48,7 +48,7 @@ Vous pourrez retirer un avertissement à un membre avec la commande <mark style=
 
 {% endhint %}
 
-## Mute
+### Mute
 
 Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>.\
 La durée d'un mute ne peut pas dépasser **28 jours**.
@@ -63,7 +63,7 @@ Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au sile
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour rendre muet un membre.
 {% endhint %}
 
-## Expulsion
+### Expulsion
 
 Le fait d'expulser un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le <mark style="color:orange;">[bannissement](moderation.md#bannissement)</mark>.
 
@@ -77,7 +77,7 @@ Vous pouvez expulser un membre de votre serveur avec la commande <mark style="co
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour expulser un membre.
 {% endhint %}
 
-## Bannissement
+### Bannissement
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#expulsion)</mark>.
 
@@ -163,4 +163,65 @@ Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="c
 Envie d'automatiser certains actes de modération tel que la censure des invitations discord ou du vocabulaire interdit ? Alors découvrez l'auto-modération de **DraftBot** !
 
 ## Configuration 
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Auto-Modération". Vous pourrez ensuite configurer les différents modules :
+
+![Menu de configuration de l'auto-modération](../.gitbook/assets/moderation/view.png)
+
+### Vocabulaire interdit
+
+En cliquant sur 
+
+
+
+{% endtab %}
+
+{% tab title="Depuis le panel" %}
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark> 
+
+Rendez-vous ensuite dans la rubrique "Modération" puis "Infractions".
+
+### Vocabulaire interdit
+
+En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
+
+Vous pourrez configurer les différents mots interdits.
+
+### Invitations Discord
+
+En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
+
+### Liens externes
+
+En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
+
+### Mentions excessives
+
+En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
+
+### Émojis excessifs
+
+En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
+
+
+### Spam messages
+
+En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
+
+{% endtab %}
+{% endtabs %}
+
+# Sanctions automatiques
+
+{% tabs %}
+{% tab title="Via la commande /config" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Via le panel" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
 
