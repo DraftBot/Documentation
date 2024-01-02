@@ -16,8 +16,8 @@ Avant de commencer, voyons une petite différence subtile mais essentielle à la
 {% endhint %}
 
 # Sanctions 
-{% tabs %}
-{% tab title="Note" %}
+
+## Note
 
 Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
@@ -30,9 +30,7 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
 
-{% endtab %}
-
-{% tab title="Avertissement" %}
+## Avertissement
 
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
@@ -50,9 +48,7 @@ Vous pourrez retirer un avertissement à un membre avec la commande <mark style=
 
 {% endhint %}
 
-{% endtab %}
-
-{% tab title="Mute" %}
+## Mute
 
 Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>.\
 La durée d'un mute ne peut pas dépasser **28 jours**.
@@ -67,9 +63,7 @@ Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au sile
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour rendre muet un membre.
 {% endhint %}
 
-{% endtab %}
-
-{% tab title="Expulsion" %}
+## Expulsion
 
 Le fait d'expulser un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le <mark style="color:orange;">[bannissement](moderation.md#bannissement)</mark>.
 
@@ -83,9 +77,7 @@ Vous pouvez expulser un membre de votre serveur avec la commande <mark style="co
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour expulser un membre.
 {% endhint %}
 
-{% endtab %}
-
-{% tab title="Bannissement" %}
+## Bannissement
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#expulsion)</mark>.
 
@@ -104,16 +96,14 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débanni
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour bannir un membre.
 {% endhint %}
 
-{% endtab %}
-{% endtabs %}
 
-### Historique de sanctions
+## Historique des sanctions
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
 Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
 
 ![Historique de sanctions d'un membre](../.gitbook/assets/moderation/history.png)
 
-### Gestion des sanctions
+## Gestion des sanctions
 
 Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer \[membre]</mark>.
 
@@ -124,7 +114,7 @@ De même, si vous souhaitez enlever toutes les sanctions de tous les membres de 
 Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">serveur</mark> sont irréversibles : impossible de redonner les sanctions aux membres du serveur si la commande a été faite et validée.
 {% endhint %}
 
-## Sanctions prédéfinies
+# Sanctions prédéfinies
 
 Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. Vous pourrez y décider de la sanction à appliquer ainsi que de la raison de celle-ci. Cela facilietera et réglementera les sanctions applicables par vos modérateurs.
 
@@ -168,82 +158,9 @@ Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="c
 {% endtab %}
 {% endtabs %}
 
-## Auto-modération
+# Auto-modération
 
 Envie d'automatiser certains actes de modération tel que la censure des invitations discord ou du vocabulaire interdit ? Alors découvrez l'auto-modération de **DraftBot** !
 
-### Configuration 
+## Configuration 
 
-{% tabs %}
-{% tab title="Vocabulaire interdit" %}
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Auto-Modération</mark>". Enfin, appuyez sur "Vocabulaire".
-
-
-{% endtab %}
-
-{% tab title="Depuis le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-{% endtab %}
-{% endtabs %}
-
-{% endtab %}
-
-{% tab title="Invitations Discord" %}
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Auto-Modération</mark>". Enfin, appuyez sur "Vocabulaire".
-{% endtab %}
-
-{% tab title="Depuis le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-{% endtab %}
-{% endtabs %}
-
-{% endtab %}
-
-{% tab title="Liens externes" %}
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Here is first tab content.
-{% endtab %}
-
-{% tab title="Depuis le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-{% endtab %}
-{% endtabs %}
-
-{% endtab %}
-
-{% tab title="Mentions excessives" %}
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Here is first tab content.
-{% endtab %}
-
-{% tab title="Depuis le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-{% endtab %}
-{% endtabs %}
-
-{% endtab %}
-
-{% tab title="Émojis excessifs" %}
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Here is first tab content.
-{% endtab %}
-
-{% tab title="Depuis le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
-{% endtab %}
-{% endtabs %}
-
-{% endtab %}
-{% endtabs %}
