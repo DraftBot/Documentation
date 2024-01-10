@@ -1,13 +1,13 @@
 ---
 description: >-
-  Demarquez certains messages en intéragissant avec un émoji.
+  Mettez en avant les meilleurs messages de votre serveur dans un salon dédié en intéragissant avec un émoji.
 ---
 
-# ⭐ Starboard
+# ⭐ Starboards
 
 ## Comment ça marche ? 
 
-Comme vous l'aurez compris, le système de starboard foncionne à base de réaction sous un message. Principalement, cela permet de faire des votes entre certains messages. Mais cela peut servir aussi à d'autres choses. Lorsqu'un message atteint un certain nombre de réaction, il est retranscrit par DraftBot, sous forme embed ou pas, dans un salon, créé au préalable ou choisit lors de la configuration.
+Le système de starboard foncionne à base de réaction sous un message. Principalement, cela permet de faire des votes entre certains messages. Mais cela peut servir aussi à d'autres choses. Lorsqu'un message atteint un certain nombre de réaction, il est retranscrit par DraftBot, sous forme embed ou pas, dans un salon, créé au préalable ou choisit lors de la configuration.
 
 
 ## Configuration du système 
@@ -17,7 +17,7 @@ Comme vous l'aurez compris, le système de starboard foncionne à base de réact
 
 ### Créer un starboard
 
-Pour créer un starboard par commande, il suffit de faire la commande /config en sélectionnant Starboards. Ensuite, cliquez sur Créer. De là, DrafBot vous posera plusieurs afin de configurer au mieux votre premier starbaord. 
+Pour créer un starboard par commande, il suffit de faire la commande /config en sélectionnant Starboards. Ensuite, cliquez sur Créer. De là, DrafBot vous posera plusieurs afin de configurer au mieux votre premier starboard. 
 
 {% hint style="info" %}
 
@@ -30,7 +30,7 @@ Pour créer un starboard par commande, il suffit de faire la commande /config en
 
 ### Modifier un starboard
 
-Pour modifier un starboard, il faut d'abord faire la commande /config en sélectionnant Starboard. Puis, cliquez sur Modifier. Par la suite, DraftBot vous affichera une sorte de panel de configuration. Exemple ci dessous. Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
+Pour modifier un starboard, il faut d'abord faire la commande /config en sélectionnant Starboards. Puis, cliquez sur Modifier. Par la suite, DraftBot vous affichera une sorte de panel de configuration. Exemple ci dessous. Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
 
 ![Explicaton visuelle](../.gitbook/assets/starboards/modifcdms.png)
 
@@ -56,7 +56,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 
 {% hint style="info" %}
 
-La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji.count} | {message.url}".
+La forme basique que DraftBot donne lors de la configuration est `{emoji} {emoji.count} | {message.url}`.
 
 {% endhint %}
 
@@ -83,7 +83,7 @@ Pour créer un starboard via le <mark style="color:orange;">[panel](https://www.
 
 {% hint style="info" %}
 
-- Pour pouvoir créer jusqu'à 5 starboards et choisir l'émoji en question pour les réactions, il faut être ✨ <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
+Pour pouvoir créer jusqu'à 5 starboards et choisir l'émoji en question pour les réactions, il faut être ✨ <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
 
 {% endhint %}
 
