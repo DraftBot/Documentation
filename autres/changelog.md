@@ -6,6 +6,27 @@ description: >-
 
 # Mises à jour
 
+## [**5.4.4 - 09/12/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1187942459167232000)
+
+ 🎙️ **Améliorations des salons vocaux temporaires**
+
+- Correction des problèmes de blocages sur les whitelist/blacklist.
+- Les boutons Ouvert/Fermé/Privé lors de la configuration d'un salon fonctionnent de nouveau lorsque le rôle de base n'est pas `@everyone` (exemple avec le captcha).
+- Ajout d'une option de rôle de base pour la compatibilité avec des rôles d'accès (exemple avec le captcha).
+
+🗓️ **Calendrier de l'avent**
+
+- Ajout d'un log lors de l'ouverture d'une case.
+- Ajout de la durée du rôle temporaire dans le message de récompense.
+- La personnalisation du fond via le `/config` se fait à présent correctement.
+
+🐛 **Autres améliorations**
+
+- Les cooldowns des commandes ne sont plus communs à tous les serveurs.
+- Les longs pseudos ou contenant des espaces à répétition sont à présent correctement affichés dans les cartes de niveaux et d'économie.
+- Les boutons de liens sont à nouveau fonctionnels pour les messages récurrents, commandes personnalisées et messages d'anniversaires personnalisés.
+- Prise en charge des nouveaux émojis ajoutés par Discord.
+
 ## [**5.4.3 - 09/12/2023**](https://discord.com/channels/422112414964908042/599942732559024138/1182862429869326416)
 
 🎙️ **Améliorations des salons vocaux temporaires :**
