@@ -22,9 +22,9 @@ Voici les différents boutons ainsi que leurs utilités :
 
 - "Activer l'ouverture d'un fil" ➜ Si activé, DraftBot ouvrira un fil pour les modérateurs lorsqu'un signalement sera envoyé. **_([✨ premium](https://draftbot.fr/premium))_**  
 - "Rôle mentionné" ➜ Permet de définir le rôle qui sera mentionné dans le message de signalement.
-- "<mark style="color:blue;">Salon</mark>" ➜ Défini le salon dans lequel le message de signalement est envoyé.
+- "<mark style="color:blue;">Salon</mark>" ➜ Définit le salon dans lequel le message de signalement est envoyé.
 - "Rôles Modérateurs" ➜ Permet de définir des rôles non-administrateurs qui pourront gérer les signalements.
-- "Message de confirmation" ➜ Défini le message qui sera envoyé à la personne qui fait le signalement.
+- "Message de confirmation" ➜ Définit le message qui sera envoyé à la personne qui fait le signalement.
 <details>
 <summary>Variables</summary>
 Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans les motifs de signalement de DraftBot.
