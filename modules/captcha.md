@@ -11,11 +11,11 @@ description: >-
 Vous pouvez configurer le système de captcha sur votre serveur à l'aide de la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Captcha" du sélecteur.
 
 Vous aurez alors le choix :
-* D'activer ou non le captcha
-* Choisir entre 4 niveaux de sécurité (facile, moyen, complexe et très complexe)
-* Créer ou choisir le salon de vérification ou seront envoyés les captchas
-* Créer ou utiliser un rôle déjà existant qui sera donné aux personnes n'ayant pas validé le captcha
-* Sélectionner ou non un rôle qui sera donné aux membres qui ont rempli le captcha
+* D'activer ou non le captcha.
+* Choisir entre 4 niveaux de sécurité (facile, moyen, complexe et très complexe).
+* Créer ou choisir le salon de vérification ou seront envoyés les captchas.
+* Créer ou utiliser un rôle déjà existant qui sera donné aux personnes n'ayant pas validé le captcha.
+* Sélectionner ou non un rôle qui sera donné aux membres qui ont rempli le captcha.
 
 ![Configuration du captcha](../../.gitbook/assets/captcha/view.png)
 
