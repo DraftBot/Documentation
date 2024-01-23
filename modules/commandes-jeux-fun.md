@@ -35,7 +35,7 @@ Le déroulement du jeu :
 * **Les ciseaux** battent **la feuille** (en la coupant).
 * **La feuille** bat **la pierre** (en l'enveloppant).
 
-Vous pouvez jouer à ce jeu avec la personne de **votre choix**, de façon **aléatoire**, ou avec **DraftBot**.
+Vous pouvez jouer à ce jeu avec la personne de **votre choix**, une personne **aléatoire**, ou avec **DraftBot**.
 
 ![Aperçu du jeu "Chifumi"](../.gitbook/assets/games-fun-commands/chifumi.png)
 
@@ -51,7 +51,7 @@ Vous pouvez également choisir le nombre de tours que vous souhaitez (1 à 7 tou
 
 La commande <mark style="color:orange;">/morpion</mark> vous permet d'accéder à ce jeu à **deux joueurs**. C'est un jeu de réflexion qui a pour but d'aligner avant son adversaire **3 symboles identiques** horizontalement, verticalement ou en diagonale. Chaque joueur à son propre symbole, une croix pour l'un, un cercle pour l'autre.
 
-Vous pouvez jouer à ce jeu avec la personne de **votre choix**, de façon **aléatoire**, ou avec **DraftBot**.
+Vous pouvez jouer à ce jeu avec la personne de **votre choix**, une personne **aléatoire**, ou avec **DraftBot**.
 
 ![Aperçu du jeu "Morpion" en mode "Normale"](../.gitbook/assets/games-fun-commands/morpion.png)
 
