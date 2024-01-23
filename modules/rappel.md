@@ -1,7 +1,7 @@
 ---
 description: >-
   Cette fonctionnalité vous permet grâce à DraftBot, de créer un rappel et ainsi
-  vous rappelez au bout d'un laps de temps en vous mentionnant.
+  vous rappelez au bout d'un laps de temps en vous mentionnant...
 ---
 
 # Rappel
