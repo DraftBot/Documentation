@@ -3,7 +3,7 @@ description: >-
   Vous voici sur la documentation de DraftBot. Retrouvez ici des conseils, des
   tutoriels et les réponses à vos questions. En cas de problème ou d'imprévu,
   n'hésitez pas à contacter le support.
-cover: .gitbook/assets/Banniere.png
+cover: .gitbook/assets/readme/banner.png
 coverY: 0
 ---
 
