@@ -1,8 +1,6 @@
 ---
 description: >-
-  Les salons vocaux temporaires offrent la possibilité à vos membres de créer des salons
-  vocaux temporaires qu'ils pourront personnaliser en filtrant l'accès de
-  celui-ci par exemple.
+  Les salons vocaux temporaires offrent la possibilité à vos membres de créer des salons qu'ils pourront personnaliser en filtrant l'accès de celui-ci par exemple.
 ---
 
 # Salons vocaux temporaires
@@ -52,10 +50,6 @@ Pour modifier un hub de salons vocaux temporaires, vous devrez accéder au menu 
 #### Activer/Désactiver un Hub
 
 Pour activer ou désactiver la création de salons temporaires, vous devrez cliquer sur le bouton <mark style="color:orange;">Activer le système</mark>. Vous verrez alors le menu se mettre à jour.
-
-{% hint style="info" %}
-Lorsqu'un hub est déjà activé, le bouton se nomme <mark style="color:orange;">Système activé</mark>.
-{% endhint %}
 
 #### Changer la catégorie des Salons Vocaux Temporaires
 
