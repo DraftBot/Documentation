@@ -9,11 +9,11 @@ description: >-
 
 ## Utilisation des salons vocaux temporaires
 
-Pour obtenir son salon vocal, il faut rejoindre le salon vocal "hub". Il s'agit du salon vocal permanent qui permet la création de votre salon vocal temporaire. Il se nomme par défaut `➕ Créer votre salon`.
+Pour obtenir son salon vocal, il vous faudra rejoindre le salon vocal "hub". Il s'agit du salon vocal permanent qui permet la création de votre salon vocal temporaire. Il se nomme par défaut `➕ Créer votre salon`.
 
-Lorsque vous créez un salon vocal temporaire, vous avez la possibilité de configurer votre salon (selon la configuration des salons faite par l'administrateur).
+Lorsque vous créerez un salon vocal temporaire, vous aurez la possibilité de configurer votre salon par le biais d'un message (option désactivable).
 
-Quand toutes les personnes auront quitté le salon vocal temporaire, ce dernier sera automatiquement supprimé par **DraftBot**.
+Lorsque le dernier membre présent dans le salon se déconnectera, ce dernier sera automatiquement supprimé par **DraftBot**.
 
 ## Configuration
 
@@ -24,34 +24,34 @@ Quand toutes les personnes auront quitté le salon vocal temporaire, ce dernier 
 
 ### Créer un hub de salons vocaux temporaires
 
-Pour activer les salons vocaux temporaires, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Créer un hub</mark>.
+Pour activer les salons vocaux temporaires, il vous suffira d'aller dans le menu <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Créer un hub</mark>.
 
-**DraftBot** vous demandera ensuite **la catégorie** ou seront stockés les salons vocaux.
+**DraftBot** vous demandera ensuite de choisir **la catégorie** où seront créés les salons vocaux.
 
 {% hint style="info" %}
-Les salons vocaux déjà existants dans cette catégorie peuvent être supprimés par DraftBot si vous ne les rendez pas permanents.
+Les salons vocaux déjà existants dans cette catégorie seront supprimés par DraftBot si vous ne les rendez pas permanents.
 {% endhint %}
 
 ### Supprimer un hub de salons vocaux temporaires
 
-Pour supprimer un hub de salons vocaux temporaires, il vous suffit d'aller dans le menu <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Supprimer un hub</mark>.
+Pour supprimer un hub de salons vocaux temporaires, il vous suffira d'aller dans le menu <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark> et de cliquer sur le bouton <mark style="color:orange;">Supprimer un hub</mark>.
 
 {% hint style="danger" %}
 
-Cette action est irréversible une fois le message de confirmation validé :
+Cette action sera irréversible une fois le message de confirmation validé :
 > Message en question : "Êtes-vous sûr de vouloir supprimer la seule catégorie de salons vocaux temporaires du serveur ?"
 
 {% endhint %}
 
 ### Modifier un hub de salons vocaux temporaires
 
-Pour modifier un hub de salons vocaux temporaires, vous devez accéder au menu en allant dans le système <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark>. Vous devez ensuite <mark style="color:orange;">Modifier un hub</mark>.
+Pour modifier un hub de salons vocaux temporaires, vous devrez accéder au menu en allant dans le système <mark style="color:orange;">Salons vocaux temporaires</mark> de la commande <mark style="color:orange;">/config</mark>. Vous devrez ensuite <mark style="color:orange;">Modifier un hub</mark>.
 
 ![Modification des Salons Vocaux Temporaires](../.gitbook/assets/privateroom/config/view_edit.png)
 
 #### Activer/Désactiver un Hub
 
-Pour activer ou désactiver des salons vocaux temporaires, vous devez cliquer sur le bouton <mark style="color:orange;">Activer le système</mark>. Vous verrez alors le menu se mettre à jour.
+Pour activer ou désactiver la création de salons temporaires, vous devrez cliquer sur le bouton <mark style="color:orange;">Activer le système</mark>. Vous verrez alors le menu se mettre à jour.
 
 {% hint style="info" %}
 Lorsqu'un hub est déjà activé, le bouton se nomme <mark style="color:orange;">Système activé</mark>.
@@ -59,11 +59,11 @@ Lorsqu'un hub est déjà activé, le bouton se nomme <mark style="color:orange;"
 
 #### Changer la catégorie des Salons Vocaux Temporaires
 
-Pour changer la catégorie des salons vocaux temporaires, il vous suffit de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. DraftBot demandera s'il faut créer une nouvelle catégorie ou attribuer une catégorie **déjà existante**.
+Pour changer la catégorie des salons vocaux temporaires, il vous suffira de cliquer sur le bouton <mark style="color:orange;">Catégorie</mark>. Vous devrez ensuite choisir de créer une nouvelle catégorie ou en sélectionner une existante.
 
 #### Changer le salon hub
 
-Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il suffit d'appuyer sur le bouton <mark style="color:orange;">Hub (salon)</mark>. Un message vous demandera alors <mark style="color:orange;">[l'identifiant du salon](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark>.
+Pour changer le salon vocal de redirection vers les salons temporaires, il suffira d'appuyer sur le bouton <mark style="color:orange;">Hub (salon)</mark>. Vous devrez ensuite indiquer <mark style="color:orange;">[l'identifiant du salon](https://docs.draftbot.fr/autres/recuperer-un-identifiant)</mark> de votre choix.
 
 #### Changer le nom par défaut des salons temporaires
 
@@ -71,29 +71,29 @@ Pour changer le salon vocal qui vous redirigera dans votre salon temporaire, il 
 Cette fonctionnalité est réservée aux <mark style="color:orange;">[✨ serveurs premiums](https://www.draftbot.fr/premium)</mark>.
 {% endhint %}
 
-Vous pouvez changer le nom par défaut des salons en appuyant sur le bouton <mark style="color:orange;">Nom des salons</mark> et en écrivant simplement le nom que vous voulez. Il est recommandé <mark style="color:orange;">d'utiliser une [variable](https://docs.draftbot.fr/modules/privateroom#liste-des-variables)</mark> afin de pouvoir distinguer 2 salons différents.
+Vous pourrez changer le nom par défaut des salons en appuyant sur le bouton <mark style="color:orange;">Nom des salons</mark> et en écrivant simplement le nom que vous voulez. Il est recommandé <mark style="color:orange;">d'utiliser une [variable](https://docs.draftbot.fr/modules/privateroom#liste-des-variables)</mark> afin de pouvoir distinguer 2 salons différents.
 
 #### Permissions par défaut des salons temporaires
 
-Vous pouvez changer les permissions par défaut des salons temporaires en appuyant sur le bouton <mark style="color:orange;">Permissions par défaut</mark>. Vous pourrez alors choisir entre les permissions du <mark style="color:orange;">salon vocal hub</mark> ou les <mark style="color:orange;">permissions de la catégorie</mark>.
+Vous pourrez choisir à partir de quelles permissions DraftBot devra se baser pour les dérogations par défaut des salons temporaires en appuyant sur le bouton <mark style="color:orange;">Permissions par défaut</mark> ce qui vous permettra de choisir entre les permissions du <mark style="color:orange;">salon vocal hub</mark> ou les <mark style="color:orange;">permissions de la catégorie</mark>.
 
 #### Définir les permissions du créateur du salon vocal
 
-Vous pouvez définir les permissions du créateur du salon vocal temporaire en appuyant sur le bouton <mark style="color:orange;">Permissions du créateur</mark>. Un sélecteur apparaîtra avec 4 options :
-- **Créer une invitation** : le créateur pourra créer des invitations qui amèneront dans son salon.
-- **Modifier le salon** : le créateur du salon peut changer les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membre, etc.</mark>
-- **Changer les permissions** : le créateur peut changer les permissions de son salon vocal, ce qui implique qu'il peut créer des dérogation de rôle, de membre, etc.
-- **Voix prioriaire** : le son de tous les participants sera diminué lorsque le créateur du salon parle. ⚠ - Cette fonction ne fonctionne que lorsque le créateur est en mode "Appuyer pour parler".
+Vous pourrez également définir les permissions du créateur du salon vocal en appuyant sur le bouton <mark style="color:orange;">Permissions du créateur</mark>. Un sélecteur apparaîtra avec les 4 options suivantes :
+- **Créer une invitation** : Permet au créateur de créer des invitations pour le salon vocal.
+- **Modifier le salon** : Donne la permission de modifier les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membres, etc.</mark>
+- **Changer les permissions** : Permet de changer l'ensemble des paramètres du salon. Le créateur pourra créer des dérogations et attribuer ou refuser des permissions aux membres et rôles de son choix.
+- **Voix prioritaire** : Le son de tous les participants sera diminué lorsque le créateur du salon parlera. ⚠ - Cette option ne fonctionne qu'en cas d'utilisation du mode "Appuyer pour parler".
 
 {% hint style="warning" %}
-Ces fonctionnalités peuvent être contournées par le configurateur de salon vocal. Veuillez donc penser à désactiver les options "sensibles" à la fois dans les permissions du salon et dans l'embed de configuration
+Certaines permissions plus classiques peuvent être contrôlées depuis l'embed de gestion du salon vocal. Veillez à désactiver les options que vous ne souhaitez pas laisser modifiables dans les permissions du salon **et** l'embed de configuration.
 {% endhint %}
 
 #### Définir la limite de membre
 
-Vous pouvez définir la limite de membres autorisés à rejoindre un salon vocal en appuyant sur le bouton <mark style="color:orange;">Limite de membre</mark>. Vous devrez ensuite indiquer une valeur entre 0 et 99 qui correspond au nombre de participants maximum. Veuillez noter que la valeur "0" désactive la limite.
+Vous pouvez définir la limite de membres autorisés à rejoindre un salon vocal en appuyant sur le bouton <mark style="color:orange;">Limite de membre</mark>. Vous devrez ensuite indiquer une valeur entre 0 et 99 qui correspond au nombre de participants maximum. Indiquer "0" comme limite revient à la désactiver.
 
-Par défaut la limite de membres est définie à <mark style="color:orange;">99 participants</mark>.
+Par défaut, la limite de membres est définie à <mark style="color:orange;">99 participants</mark>.
 
 {% hint style="warning" %}
 Veuillez également noter que la limite de membre peut être changée à tout moment par <mark style="color:orange;">le créateur du salon</mark> s'il possède la permission <mark style="color:orange;">Modifier le salon</mark>.
@@ -102,43 +102,43 @@ Veuillez également noter que la limite de membre peut être changée à tout mo
 #### Ajouter/Supprimer un salon permanent
 
 {% hint style="info" %}
-Par défaut, lorsque vos membres rejoignent un salon vocal dans la catégorie des salons vocaux temporaires et qu'ils le quittent ensuite, le salon se supprime. 
+Par défaut, lorsque le dernier membre quitte un salon vocal présent dans la catégorie des salons vocaux temporaires, il est instantanément supprimé.
 {% endhint %}
 
-Pour qu'un salon soit conservé dans la catégorie sans être supprimé une fois qu'il n'a plus de membres, il faut appuyer sur le bouton <mark style="color:orange;">Salons permanents</mark>. Un menu s'ouvrira alors et vous pourrez ajouter ou supprimer les salons vocaux permanents de votre choix.
+Pour qu'un salon soit conservé dans la catégorie même après déconnexion du dernier membre, il vous faudra appuyer sur le bouton <mark style="color:orange;">Salons permanents</mark>. Un menu s'ouvrira alors et vous permettra d'ajouter ou supprimer des salons vocaux qui seront marqués comme permanents.
 
 #### Activer/Désactiver l'embed de réglages
 
-Pour activer ou désactiver l'embed de réglages, il suffit d'appuyer sur le bouton <mark style="color:orange;">Embed de réglages activé</mark>. Suite à cela, le nom du bouton va changer en une autre variante :
+Pour activer ou désactiver l'embed de réglages, il vous suffira d'appuyer sur le bouton <mark style="color:orange;">Embed de réglages activé</mark>.
 - Embed de réglages activé ➜ Activer l'embed de réglages
 - Activer l'embed de réglages ➜ Embed de réglages activé
 
 #### Personnaliser les boutons de réglages
 
-Pour personnaliser les boutons de réglages, vous devez d'abord appuyer sur le bouton <mark style="color:orange;">Personnaliser les boutons de réglages</mark>. Ensuite, vous aurez accès à un sélecteur : cochez tous les boutons qui doivent apparaître dans l'embed.
+Pour personnaliser les boutons de réglages, vous devrez d'abord appuyer sur le bouton <mark style="color:orange;">Personnaliser les boutons de réglages</mark> qui vous amènera sur un sélecteur. Cochez toutes les options que vous souhaitez rendre disponibles dans l'embed de configuration du salon..
 
 {% hint style="info" %}
-Si des boutons sont déjà présents et que vous voulez en ajouter, vous devez les recocher afin de les inclure avec. 
+Si vous avez déjà configuré cette option et souhaitez y apporter des modifications, assurez-vous de sélectionner l'ensemble des options de votre choix y compris celles qui étaient déjà activées auparavant.
 {% endhint %}
 
 #### Configurer les rôles d'accès aux réglages
 
-Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration, il faut d'abord appuyer sur le bouton <mark style="color:orange;">Rôles d'accès aux réglages</mark>. Ensuite, quatre boutons apparaissent : ils varient en fonction de l'état du dernier bouton.
+Pour ajouter/supprimer des rôles qui auront accès à l'embed de configuration, il faudra appuyer sur le bouton <mark style="color:orange;">Rôles d'accès aux réglages</mark>. qui vous amènera sur un message composé des 4 boutons suivants, pouvant varier selon le type de liste de rôle choisi.
 <details>
 <summary>Restriction de rôles</summary>
 
-- **Ajouter des rôles interdits** : Ce bouton retire l'accès à l'embed aux rôles ajoutés.
-- **Supprimer des rôles interdits** : Ce bouton autorise des rôles à accéder à l'embed.
-- **Réinitialiser les rôles interdits** : Ce bouton permet d'effacer la configuration des rôles d'accès
-- **Restreindre à des rôles** : Ce bouton permet de changer d'état.
+- **Ajouter des rôles interdits** : Permet d'ajouter des rôles à la liste des rôles interdits d'utilisation de l'embed de configuration.
+- **Supprimer des rôles interdits** : Permet de supprimer des rôles de la liste des rôles interdits d'utilisation de l'embed de configuration.
+- **Réinitialiser les rôles interdits** : Permet de réinitialiser la liste des rôles interdits d'utilisation de l'embed de configuration.
+- **Restreindre à des rôles** : Ce bouton change le type de filtrage, permettant de marquer les rôles ajoutés à la liste comme rôles autorisés à l'utilisation l'embed de configuration du salon.
 </details>
 <details>
-<summary>Autorisation de rôle</summary>
+<summary>Autorisation de rôles</summary>
 
-- Ajouter des rôles autorisés : Ce bouton permet d'ajouter des rôles dans la liste des rôles autorisés.
-- Supprimer des rôles autorisés : Ce bouton permet de supprimer des rôles de la liste des rôles autorisés.
-- Réinitialiser les rôles autorisés : Ce bouton permet d'effacer la configuration des rôles d'accès.
-- Interdire à des rôles : Ce bouton permet de changer d'état.
+- Ajouter des rôles autorisés : Permet d'ajouter des rôles à la liste des rôles autorisés à l'utilisation de l'embed de configuration.
+- Supprimer des rôles autorisés : Permet de supprimer des rôles de la liste des rôles autorisés à l'utilisation de l'embed de configuration.
+- Réinitialiser les rôles autorisés : Permet de réinitialiser la liste des rôles autorisés à l'utilisation de l'embed de configuration.
+- Interdire à des rôles : Ce bouton change le type de filtrage, permettant de marquer les rôles ajoutés à la liste comme rôles interdits à l'utilisation l'embed de configuration du salon.
 </details>
 
 {% endtab %}
@@ -164,16 +164,16 @@ Lorsque vous venez de créer votre hub, ou bien lorsque vous cliquez sur le bout
 
 Pour définir quelle catégorie accueillera le système de salons vocaux temporaires, il y a deux options possibles :
 - Créer une catégorie : Vous devez cliquer sur le bouton "<mark style="color:orange;">Créer</mark>" et taper le nom de la catégorie.
-- Utiliser une catégorie existante : En cliquant sur le bouton "<mark style="color:orange;">Sélectionner</mark>", un selecteur apparaîtra et vous pourrez choisir la catégorie à utiliser
+- Utiliser une catégorie existante : En cliquant sur le bouton "<mark style="color:orange;">Sélectionner</mark>", un sélecteur apparaîtra et vous pourrez choisir la catégorie à utiliser.
 
 {% hint style="info" %}
-Nous vous recommendons de choisir une catégorie vierge afin d'éviter les problèmes de suppressions de salons permanents ainsi que le désordre qu'une grande quantité de salons peut provoquer.
+Nous vous recommandons de choisir une catégorie vierge afin d'éviter les problèmes de suppression de salons permanents ainsi que le désordre qu'une grande quantité de salons peut provoquer.
 {% endhint %}
 
 ### Changer le salon de création (Hub)
 
 Il y a à nouveau deux options pour définir un salon hub dans une catégorie :
-- Créer un salon : Vous devez cliquer sur le bouton "<mark style="color:orange;">Créer</mark>", indiquer un nom et <mark style="color:orange;">Draftbot</mark> se chargera de créer le salon avec les permissions adéquates
+- Créer un salon : Vous devez cliquer sur le bouton "<mark style="color:orange;">Créer</mark>", indiquer un nom et <mark style="color:orange;">Draftbot</mark> se chargera de créer le salon avec les permissions adéquates.
 - Utiliser un salon existant : Si votre salon est déjà prêt, vous pouvez cliquer sur le bouton "<mark style="color:orange;">Sélectionner</mark>" et indiquer quel salon utiliser.
 
 ### Changer le format des noms du salon
@@ -182,7 +182,7 @@ Il y a à nouveau deux options pour définir un salon hub dans une catégorie :
 Cette fonctionnalité est réservée aux <mark style="color:orange;">[✨ serveurs premiums](https://www.draftbot.fr/premium)</mark>.
 {% endhint %}
 
-Pour définir les noms de salons, vous devez juste remplacer le nom existant par celui que vous souhaitez.
+Pour définir les noms de salons, vous devez remplacer le nom existant par celui que vous souhaitez.
 Afin d'éviter des salons dit doublons, il est conseillé d'indiquer au moins une <mark style="color:orange;">[variable](https://docs.draftbot.fr/modules/privateroom#liste-des-variables)</mark>.
 
 ### Changer les permissions par défaut
@@ -220,7 +220,7 @@ Veuillez également noter que la limite de membre peut être changée à tout mo
 #### Définir l'accès au configurateur de salon
 
 Vous pouvez définir les accès à la configuration de 2 manières différentes :
-- En retirant l'accès par défaut à tous les rôles et à ajouter les rôles examptés.
+- En retirant l'accès par défaut à tous les rôles et à ajouter les rôles exemptés.
 - En donnant l'accès par défaut à tous les rôles sauf ceux listés.
 
 Il suffit simplement de cliquer sur "<mark style="color:orange;">Avec</mark>" pour la première option, ou bien "<mark style="color:orange;">Sans</mark>" pour la deuxième option.
@@ -255,33 +255,33 @@ Vous aurez une confirmation avant de supprimer votre hub (voir image ci-dessous)
 
 ## Utilisation du configurateur de salon
 
-Lorsque vous créez un vocal un embed apparaît dans le <mark style="color:orange;">salon textuel du vocal</mark>. Il contient toutes les permission de modération lié au salon vocal.
+Lorsque vous créez un vocal un embed apparaît dans le <mark style="color:orange;">salon textuel du vocal</mark>. Il contient toutes les permissions de modération liées au salon vocal.
 
 {% hint style="warning" %}
-Cet embed permet notamment d'utiliser toutes les permission de modération, et ce même si le membre n'a pas activé l'A2F (puisque l'utilisateur passe par le bot et non pas par son compte).
+Cet embed permet notamment d'utiliser toutes les permissions de modération, et ce même si le membre n'a pas activé l'A2F (puisque l'utilisateur passe par le bot et non pas par son compte).
 
 {% endhint %}
 
 
 ![Illustration du configurateur](../.gitbook/assets/privateroom/view_embed.png)
 
-Voici donc une liste détaillée de chaque fonction du configurateur :
+Voici donc une liste détaillée de chaque fonction de l'embed de configuration :
 
-- **Ouvert** : Cette fonction permet d'ouvrir le salon à tous les membres, exepté ceux de la <mark style="color:orange;">liste noire</mark>.
-- **Fermé** : Cette fonction vérouille le salon à tous les membres exceptés ceux inscrits dans la <mark style="color:orange;">liste blanche</mark>.
-- **Liste Blanche** : Cette fonction permet d'ajouter des membres qui seront <mark style="color:orange;">autorisé à rejoindre</mark> le salon en permanence.
+- **Ouvert** : Cette fonction permet d'ouvrir le salon à tous les membres, excepté ceux de la <mark style="color:orange;">liste noire</mark> et des dérogations par défaut.
+- **Fermé** : Cette fonction verrouille le salon à tous les membres, excepté ceux inscrits dans la <mark style="color:orange;">liste blanche</mark> et les dérogations par défaut.
+- **Liste Blanche** : Cette fonction permet d'ajouter des membres qui seront <mark style="color:orange;">autorisés à rejoindre</mark> le salon en permanence et ne seront pas impactés par les changements de permission (micro, vidéo & soundboards).
 
 {% hint style="info" %}
-Cette fonction permet notamment de contourner les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez.
+Cette fonction permet notamment de contourner les paramètres de verrouillage du salon vocal, donc faites attention à qui vous ajoutez.
 {% endhint %}
 
 - **Liste Noire** : Cette fonction permet d'ajouter des membres qui ne pourront <mark style="color:orange;">jamais rejoindre</mark> le salon vocal.
 
 {% hint style="info" %}
-Tout comme la fonction précédente, la liste noire contourne les paramètres de verouillage du salon vocal, donc faites attention à qui vous ajouterez dans cette liste.
+Tout comme la fonction précédente, la liste noire contourne les paramètres de verrouillage du salon vocal, donc faites attention à qui vous ajoutez dans cette liste.
 {% endhint %}
 
-- **Purge** : La purge permet de déconnecter tous les membres qui ne sont pas dans la liste blanche. Cette règle ne s'applique pas au propriétaire du salon du salon.
+- **Purge** : La purge permet de déconnecter tous les membres présents dans le salon à l'exception de ceux dans la liste blanche, du propriétaire du salon et des dérogations par défaut.
 
 
 - **Micro** : Cette fonction permet d'activer/désactiver le micro de tous les participants du salon vocal.
@@ -291,14 +291,14 @@ Tout comme la fonction précédente, la liste noire contourne les paramètres de
 - **Soundboard** : cette fonction permet d'activer/désactiver l'utilisation des soundboards pour tous les participants du salon vocal.
 
 {% hint style="warning" %}
-Les fonctions <mark style="color:orange;">micro, vidéo et soundboard</mark> s'appliquent à tous les membres hormis ceux ayant une dérogation spéciale ainsi qu'au propriétaire du salon.
+Les fonctions <mark style="color:orange;">micro, vidéo et soundboard</mark> s'appliquent à tous les membres hormis ceux ayant une dérogation spéciale, les membres de la liste blanche ainsi qu'au propriétaire du salon.
 {% endhint %}
 
 - **Transférer la propriété** : Cette fonction permet de transférer les droits de gestion du salon vocal à quelqu'un d'autre.
 
 {% hint style="danger" %}
 Un transfert de propriété dans un salon vocal est permanent.
-Veuillez noter également que vous perdrez l'accès au configurateur de <mark style="color:orange;">[salon vocal](https://docs.draftbot.fr/modules/privateroom#utilisation-du-configurateur-de-salon)</mark>.
+Notez que vous perdrez l'accès à l'embed de configuration du <mark style="color:orange;">[salon vocal](https://docs.draftbot.fr/modules/privateroom#utilisation-du-configurateur-de-salon)</mark>.
 {% endhint %}
 
 ## Informations supplémentaires
