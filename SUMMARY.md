@@ -3,13 +3,7 @@
 - [📍 Accueil et sommaire](README.md)
 - [Installation et réglages](installation.md)
 
-## Commandes préfix <a href="#prefix" id="prefix"></a>
-
-- DraftBot avec Préfix
-  - [Report](archives/report.md)
-  - [PrivateRoom](archives/privateroom.md)
-
-## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
+## Modules <a href="#modules" id="modules"></a>
 
 - [👋 Arrivées & départs](modules/arrivees-et-departs.md)
 - [📝 Règlement](modules/reglement.md)
@@ -32,6 +26,7 @@
 - [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
 - [🧿 Rôles-réactions](modules/roles-reactions.md)
+- [🚨 Signalements](modules/reports.md)
 - [💬 Gestion des messages](modules/gestion-des-messages.md)
 
 ## Autres
