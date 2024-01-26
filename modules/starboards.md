@@ -5,9 +5,9 @@ description: >-
 
 # ⭐ Starboards
 
-## Comment ça marche ? 
+## Comment ça marche ?
 
-Le système de starboard foncionne à base de réaction sous un message. Principalement, cela permet de faire des votes entre certains messages. Mais cela peut servir aussi à d'autres choses. Lorsqu'un message atteint un certain nombre de réaction, il est retranscrit par DraftBot, sous forme embed ou pas, dans un salon, créé au préalable ou choisit lors de la configuration.
+Le système de starboard met en avant les messages qui reçoivent un certain nombre de réactions. Un message populaire est automatiquement affiché par DraftBot dans un salon dédié, choisi ou créé lors de la configuration.
 
 
 ## Configuration du système 
@@ -30,7 +30,7 @@ Pour créer un starboard par commande, il suffit de faire la commande <mark styl
 
 ### Modifier un starboard
 
-Pour modifier un starboard, il faut d'abord faire la commande /config en sélectionnant Starboards. Puis, cliquez sur Modifier. Par la suite, DraftBot vous affichera une sorte de panel de configuration. Exemple ci dessous. Vous pouvez choisir si la représentation du message dans le salon soit dans un embed ou pas mais vous pouvez également chosir dans quel salon vous souhaitez qu'il s'y trouve.
+Pour modifier un starboard, lancez la commande <mark style="color:orange;">/config</mark>, sélectionnez "Starboards" et cliquez sur "Modifier". DraftBot affichera alors un panel de configuration.
 
 ![Explicaton visuelle](../.gitbook/assets/starboards/starboards-modify.png)
 
@@ -45,14 +45,14 @@ Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message appara
 <details>
 <summary>Liste des variables disponibles pour ce système</summary>
 
-Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps.Voici celles utilisables pour le système de starboard : 
+Les variables sont des morceaux de texte qui évoluent en fonction de la personne, du serveur, du salon ou encore du temps. Voici celles utilisables pour le système de starboard : 
  
-- `{user}` = Surnom du membre sur le serveur.
-- `{user.username}` = Pseudo du compte du membre.
-- `{user.globalname}` = Nom affiché du compte du membre.
-- `{emoji}` = Emoji du starboard.
-- `{emoji.count}` = Nombre de réactions.
-- `{message.url}` = Lien du message.
+- `{user}` ➜ Surnom du membre sur le serveur.
+- `{user.username}` ➜ Pseudo du compte du membre.
+- `{user.globalname}` ➜ Nom affiché du compte du membre.
+- `{emoji}` ➜ Emoji du starboard.
+- `{emoji.count}` ➜ Nombre de réactions.
+- `{message.url}` ➜ Lien vers le message.
 
 {% hint style="info" %}
 
@@ -65,7 +65,9 @@ La forme basique que DraftBot donne lors de la configuration est `{emoji} {emoji
 
 ### <mark style="color:red;">Supprimer un starboard</mark>
 
-Pour supprimer un starboard, il suffit de faire la commande /config toujours en sélectionnant Starboards. Enfin, il vous faudra cliquer sur Supprimer en rouge.
+Pour supprimer un starboard, faites la commande /config toujours en sélectionnant "Starboards", puis, cliquer sur "Supprimer" en rouge.
+
+
 
 ![Explicaton visuelle](../.gitbook/assets/starboards/starboards-delete.png)
 
@@ -77,13 +79,13 @@ Pour configurer le système via le [panel](https://www.draftbot.fr/dashboard/), 
 
 ### Créer un starboard
 
-Pour créer un starboard via le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, il faut vous rendre dans la catégorie Communautaire. Ensuite, déscendez dans la partie Starbaords et cliquez sur Créer un hub. Par la suite, DraftBot vous proposera une sorte de menu de configuration pour configurer votre premier starboard.
+Pour créer un starboard via le [panel](https://www.draftbot.fr/dashboard/), Veuillez vous rendre dans la catégorie "Communautaire". Ensuite, descendez dans la partie "Starboards" et cliquez sur "Créer un hub". Par la suite, DraftBot vous proposera une sorte de menu de configuration pour configurer votre premier starboard.
 
 ![Explicaton visuelle](../.gitbook/assets/starboards/starboards-create-2.png)
 
 {% hint style="info" %}
 
-Pour pouvoir créer jusqu'à 5 starboards et choisir l'émoji en question pour les réactions, il faut être ✨ <mark style="color:orange;">[premium](https://www.draftbot.fr/premium/)</mark>.
+Pour créer jusqu'à 5 starboards et choisir l'émoji associé aux réactions, le ✨ [premium](https://www.draftbot.fr/) est nécessaire.
 
 {% endhint %}
 
@@ -95,19 +97,19 @@ Pour modifier un starboard, il vous suffit de cliquer sur Modifier qui se trouve
 ![Explicaton visuelle](../.gitbook/assets/starboards/starboards-modify-2.png)
 
 {% hint style="info" %}
-Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message apparaisse dans le salon dédié à ce starboard.
+Vous avez la possibilité de définir un nombre minimum de réactions, compris entre 1 et 25, avant qu'un message n'apparaisse dans le salon dédié à ce starboard.
 
 {% endhint %}
 
 
 ### <mark style="color:red;">Supprimer un starboard</mark>
 
-Pour supprimer un starboard, cliquez sur le bouton supprimer qui se trouve également dans le <mark style="color:orange;">[panel](https://www.draftbot.fr/dashboard)</mark>, dans la catégorie Communautaire, dans la partie Staboards.
+Pour supprimer un starboard, cliquez sur le bouton "Supprimer", situé également sur le [panel](https://www.draftbot.fr/dashboard/), dans la catégorie "Communautaire", puis dans la partie "Starboards"."
 
 ![Explicaton visuelle](../.gitbook/assets/starboards/starboards-delete-2.png)
 
 {% hint style="info" %}
-Si vous le souhaitez, vous pouvez désactiver votre starboard tout en le conservant, il vous suffit juste de cliquer sur l'encoche à gauche du bouton Modifier.
+Si vous le souhaitez, vous avez la possibilité de désactiver votre starboard tout en le conservant. Il vous suffit simplement de décocher la case à gauche du bouton "Modifier".
 
 ![Explicaton visuelle](../.gitbook/assets/starboards/starboards-tips.png)
 
@@ -117,14 +119,14 @@ Si vous le souhaitez, vous pouvez désactiver votre starboard tout en le conserv
 <details>
 <summary>Liste des variables disponibles pour ce système</summary>
 
-Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps.Voici celles utilisables pour le système de starboard : 
+Les variables sont des morceaux de texte qui évoluent en fonction de la personne, du serveur, du salon ou encore du temps. Voici celles utilisables pour le système de starboard : 
  
-- `{user}` = Surnom du membre sur le serveur.
-- `{user.username}` = Pseudo du compte du membre.
-- `{user.globalname}` = Nom affiché du compte du membre.
-- `{emoji}` = Emoji du starboard.
-- `{emoji.count}` = Nombre de réactions.
-- `{message.url}` = Lien du message.
+- `{user}` ➜ Surnom du membre sur le serveur.
+- `{user.username}` ➜ Pseudo du compte du membre.
+- `{user.globalname}` ➜ Nom affiché du compte du membre.
+- `{emoji}` ➜ Emoji du starboard.
+- `{emoji.count}` ➜ Nombre de réactions.
+- `{message.url}` ➜ Lien vers le message.
 
 {% hint style="info" %}
 La forme basique que DraftBot donne lors de la configuration est "{emoji} {emoji.count} | {message.url}".
