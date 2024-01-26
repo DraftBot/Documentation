@@ -17,7 +17,7 @@ Le système de starboard met en avant les messages qui reçoivent un certain nom
 
 ### Créer un starboard
 
-Pour créer un starboard par commande, il suffit de faire la commande <mark style="color:orange;">/config</mark> en sélectionnant Starboards. Ensuite, cliquez sur Créer. De là, DrafBot vous posera plusieurs afin de configurer au mieux votre premier starboard. 
+Pour créer un starboard par commande, il suffit de faire la commande <mark style="color:orange;">/config</mark> en sélectionnant Starboards. Ensuite, cliquez sur Créer et de là, DrafBot vous posera plusieurs afin de configurer au mieux votre premier starboard. 
 
 {% hint style="info" %}
 
