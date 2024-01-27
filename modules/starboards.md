@@ -43,7 +43,7 @@ Vous pouvez définir entre 1 et 25 réactions minimum avant qu'un message appara
 {% endhint %}
 
 <details>
-<summary>Liste des variables disponibles pour ce système</summary>
+<summary>Variables disponibles</summary>
 
 Les variables sont des morceaux de texte qui évoluent en fonction de la personne, du serveur, du salon ou encore du temps. Voici celles utilisables pour le système de starboard : 
  
@@ -117,7 +117,7 @@ Si vous le souhaitez, vous avez la possibilité de désactiver votre starboard t
 
 
 <details>
-<summary>Liste des variables disponibles pour ce système</summary>
+<summary>Variables disponibles</summary>
 
 Les variables sont des morceaux de texte qui évoluent en fonction de la personne, du serveur, du salon ou encore du temps. Voici celles utilisables pour le système de starboard : 
  
