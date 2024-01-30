@@ -31,6 +31,7 @@
   - [Notifications sociales](prefix/prefixe/notifications-sociales.md)
   - [RoleReact](prefix/prefixe/rolereact.md)
   - [Rappel](prefix/prefixe/rappel.md)
+  
 
 ## Modules ➖⚠️ EN COURS DE REDACTION <a href="#modules" id="modules"></a>
 
@@ -55,6 +56,7 @@
 - [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
 - [🧿 Rôles-réactions](modules/roles-reactions.md)
+- [💬 Messages récurrents](modules/message_récurrent.md)
 
 ## Autres
 

@@ -15,5 +15,5 @@ Configurable depuis la commande <mark style="color:red;">/config</mark> ➜ Mess
 {% endtab %}
 {% tabs %}
 {% tab title="Via le panel" %}
-Une fois sur le <mark style="color:yellow;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Messages récurrents. <mark style="color:yellow;">Crée</mark>,<mark style="color:orange;">modifie</mark>,<mark style="color:red;">supprime</mark> tes messages récurrents.
+Une fois sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Messages récurrents. <mark style="color:yellow;">Crée</mark>,<mark style="color:orange;">modifie</mark>,<mark style="color:red;">supprime</mark> tes messages récurrents.
 {% endtab %}
