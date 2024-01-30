@@ -8,7 +8,7 @@ description: Suivez l'activité de vos membres grâce à la fonctionnalité de n
 
 Vous pouvez voir votre niveau, ainsi que celui des autres membres en indiquant leur pseudo dans l'argument "membre" avec <mark style="color:orange;">/niveau \[membre]</mark>.
 
-![Carte de niveau](../.gitbook/assets/niveau.png)
+![Carte de niveau](../.gitbook/assets/levels/niveau.png)
 
 {% hint style="info" %}
 Pour pouvoir obtenir de l'expérience et ainsi gagner en niveaux, il vous faut configurer <mark style="color:blue;">[__configurer__](modules/niveaux#configuration)</mark> le système de niveaux.
@@ -200,5 +200,5 @@ Il faut impérativement que le bot MEE6 soit sur votre serveur lors de la migrat
 Une fois avoir cliqué sur le bouton **Importer MEE6**, DraftBot vous posera une question pour que vous puissiez confirmer l'importation.
 
 {% hint style="success" %}
-L'importation des niveaux de MEE6 est faite ! 
+L'importation des niveaux de MEE6 est faite !
 {% endhint %}
