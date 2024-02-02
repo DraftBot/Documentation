@@ -28,6 +28,7 @@
 - [🧿 Rôles-réactions](modules/roles-reactions.md)
 - [🚨 Signalements](modules/reports.md)
 - [💬 Gestion des messages](modules/gestion-des-messages.md)
+- [📖 Messages récurrents](modules/message_récurrent.md)
 
 ## Autres
 
