@@ -17,7 +17,7 @@ Avant de commencer, voyons une petite différence subtile mais essentielle à la
 
 # Sanctions 
 
-### Note
+## Note
 
 Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
@@ -30,7 +30,7 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
 
-### Avertissement
+## Avertissement
 
 Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
@@ -48,7 +48,7 @@ Vous pourrez retirer un avertissement à un membre avec la commande <mark style=
 
 {% endhint %}
 
-### Mute
+## Mute
 
 Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>.\
 La durée d'un mute ne peut pas dépasser **28 jours**.
@@ -63,7 +63,7 @@ Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au sile
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour rendre muet un membre.
 {% endhint %}
 
-### Expulsion
+## Expulsion
 
 Le fait d'expulser un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le <mark style="color:orange;">[bannissement](moderation.md#bannissement)</mark>.
 
@@ -77,7 +77,7 @@ Vous pouvez expulser un membre de votre serveur avec la commande <mark style="co
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour expulser un membre.
 {% endhint %}
 
-### Bannissement
+## Bannissement
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#expulsion)</mark>.
 
@@ -96,23 +96,41 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débanni
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour bannir un membre.
 {% endhint %}
 
+# Gestion des sanctions
 
 ## Historique des sanctions
+
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
 Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
 
 ![Historique de sanctions d'un membre](../.gitbook/assets/moderation/history.png)
 
-## Gestion des sanctions
+## Retirer des sanctions
 
-Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer \[membre]</mark>.
+Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
-Il est également possible d'enlever toutes les sanctions à un membre d'un coup via <mark style="color:orange;">/adminreinitialiser sanctions membre \[membre]</mark>.\
-De même, si vous souhaitez enlever toutes les sanctions de tous les membres de votre serveur, vous pouvez utiliser <mark style="color:orange;">/adminreinitialiser sanctions serveur</mark>.
+Il est également possible de réinitialiser toutes les sanctions à un membre d'un coup via <mark style="color:orange;">/adminreinitialiser sanctions membre</mark>.\
+De même, si vous souhaitez retirer toutes les sanctions de tous les membres de votre serveur, vous pouvez utiliser <mark style="color:orange;">/adminreinitialiser sanctions serveur</mark>.
 
 {% hint style="warning" %}
-Les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">serveur</mark> sont irréversibles : impossible de redonner les sanctions aux membres du serveur si la commande a été faite et validée.
+Notez que les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">/adminreinitialiser sanctionsserveur</mark> sont irréversibles.
 {% endhint %}
+
+## Options de Confidentialité
+
+Grâce aux options de confidentialité, vous pourrez décider de masquer le nom de du modérateur ou les réponses aux commandes de modération.
+
+### Configuration
+
+{% tabs %}
+{% tab title="First Tab" %}
+Here is first tab content.
+{% endtab %}
+
+{% tab title="Second Tab" %}
+Here is second tab content.
+{% endtab %}
+{% endtabs %}
 
 # Sanctions prédéfinies
 
