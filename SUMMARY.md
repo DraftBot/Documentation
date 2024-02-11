@@ -11,6 +11,7 @@
 - [💰 Économie](modules/economie.md)
 - [🔎 Inventaires](modules/inventaire.md)
 - [🔨 Modération](modules/moderation.md)
+- [🛡️ Auto-Modération](modules/auto-moderation.md)
 - [🏷 Rôles automatiques](modules/roles-automatiques.md)
 - [💡 Suggestions](modules/suggestions.md)
 - [📥 Notifications sociales](modules/notifications-sociales.md)

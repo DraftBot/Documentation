@@ -6,18 +6,11 @@ description: >-
 
 # Modération
 
-**DraftBot** propose différents systèmes de modération automatique tel que l'auto-modération ou encore les auto-sanctions. Vous pouvez aussi effectuer des actions de modérations manuelles. Par exemple expulser un membre, l'avertir et bien plus encore ! Sans oublier le système de sanctions prédéfinies. 
+Les systèmes de modération de **DraftBot** sont là pour vous aidez dans la gestion de votre serveur. Ici, vous trouverez toutes les informations nécessaires à leurs utilisation. Des simples commandes modération aux sanctions prédéfinies ! 
 
-{% hint style="info" %}
-Avant de commencer, voyons une petite différence subtile mais essentielle à la compréhensions des différents systèmes :
+## Sanctions 
 
-- Une Sanction est une action humaine. (Par exemple bannir un utilisateur)
-- Une Infraction est une action faite par le bot. (Par exemple une auto-sanction)
-{% endhint %}
-
-# Sanctions 
-
-## Note
+### Note
 
 Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
@@ -30,9 +23,9 @@ Vous pourrez retirer une note à un membre avec la commande <mark style="color:o
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
 {% endhint %}
 
-## Avertissement
+### Avertissement
 
-Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir \[membre] \[raison]</mark>.\
+Vous pouvez avertir un membre avec la commande <mark style="color:orange;">/avertir</mark>.\
 Le membre recevra un message privé avec le motif de son avertissement.
 
 {% hint style="warning" %}
@@ -48,14 +41,14 @@ Vous pourrez retirer un avertissement à un membre avec la commande <mark style=
 
 {% endhint %}
 
-## Mute
+### Mute
 
-Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute \[membre] \[temps] \[raison]</mark>.\
+Vous pouvez réduire au silence un membre avec la commande <mark style="color:orange;">/mute</mark>.\
 La durée d'un mute ne peut pas dépasser **28 jours**.
 
 ![Rendre muet un membre](../.gitbook/assets/moderation/mute.png)
 
-Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au silence avec la commande <mark style="color:orange;">/demute \[membre]</mark>.
+Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au silence avec la commande <mark style="color:orange;">/demute</mark>.
 
 {% hint style="warning" %}
 **DraftBot** peut donner un mute à un membre uniquement si vous disposez de la permission "_Exclure temporairement des membres_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/mute</mark> sur votre serveur.
@@ -63,11 +56,11 @@ Vous pourrez, si vous le souhaitez, acquitter un membre de sa réduction au sile
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour rendre muet un membre.
 {% endhint %}
 
-## Expulsion
+### Expulsion
 
 Le fait d'expulser un membre fera quitter le membre du serveur, mais il pourra toujours revenir avec une autre invitation. Si vous souhaitez qu'il ne puisse pas revenir, consultez le <mark style="color:orange;">[bannissement](moderation.md#bannissement)</mark>.
 
-Vous pouvez expulser un membre de votre serveur avec la commande <mark style="color:orange;">/expulser \[membre] \[raison]</mark>.
+Vous pouvez expulser un membre de votre serveur avec la commande <mark style="color:orange;">/expulser</mark>.
 
 ![Expulsion d'un membre](../.gitbook/assets/moderation/kick.png)
 
@@ -77,18 +70,20 @@ Vous pouvez expulser un membre de votre serveur avec la commande <mark style="co
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour expulser un membre.
 {% endhint %}
 
-## Bannissement
+### Bannissement
 
 Le fait de bannir un membre fera quitter le membre du serveur et il ne pourra jamais y revenir. Vous pouvez également bannir temporairement le membre en question. Si vous souhaitez qu'il puisse revenir sur votre serveur, consultez l'<mark style="color:orange;">[expulsion](moderation.md#expulsion)</mark>.
 
-Vous pouvez bannir un membre avec la commande <mark style="color:orange;">/ban \[utilisateur] \[raison]</mark>. Deux options facultatives supplémentaires s'offrent à vous :
+Vous pouvez bannir un membre via la commande <mark style="color:orange;">/ban</mark>. 
+
+Après avoir choisit l'utilisateur et donné une raison, deux options facultatives supplémentaires s'offrent à vous :
 
 * <mark style="color:orange;">\[temps]</mark> pour définir un temps de bannissement
 * <mark style="color:orange;">\[messages\_supprimés]</mark> pour savoir depuis combien de temps les messages du membre doivent être supprimés (maximum 7 jours).
 
 ![Bannissement d'un utilisateur](../.gitbook/assets/moderation/ban.png)
 
-Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débannir avec la commande <mark style="color:orange;">/deban \[utilisateur]</mark> ou depuis l'onglet "_Bannissement_" de votre serveur Discord.
+Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débannir avec la commande <mark style="color:orange;">/deban</mark> ou depuis l'onglet "_Bannissement_" de votre serveur Discord.
 
 {% hint style="warning" %}
 **DraftBot** peut bannir un membre uniquement si vous disposez de la permission "_Bannir des membres_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/ban</mark> sur votre serveur.
@@ -96,9 +91,9 @@ Si vous souhaitez révoquer le bannissement d'un membre, vous pouvez le débanni
 **DraftBot** doit avoir son rôle au-dessus des autres rôles pour bannir un membre.
 {% endhint %}
 
-# Gestion des sanctions
+## Gestion des sanctions
 
-## Historique des sanctions
+### Historique des sanctions
 
 Vous pouvez voir toutes les sanctions de votre serveur avec <mark style="color:orange;">/sanctions lister</mark>.\
 Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'un membre avec <mark style="color:orange;">/sanctions lister \[utilisateur]</mark>.
@@ -176,70 +171,5 @@ Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="c
 {% endtab %}
 {% endtabs %}
 
-# Auto-modération
 
-Envie d'automatiser certains actes de modération tel que la censure des invitations discord ou du vocabulaire interdit ? Alors découvrez l'auto-modération de **DraftBot** !
-
-## Configuration 
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "Auto-Modération". Vous pourrez ensuite configurer les différents modules :
-
-![Menu de configuration de l'auto-modération](../.gitbook/assets/moderation/view.png)
-
-### Vocabulaire interdit
-
-En cliquant sur 
-
-
-
-{% endtab %}
-
-{% tab title="Depuis le panel" %}
-<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark> 
-
-Rendez-vous ensuite dans la rubrique "Modération" puis "Infractions".
-
-### Vocabulaire interdit
-
-En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
-
-Vous pourrez configurer les différents mots interdits.
-
-### Invitations Discord
-
-En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
-
-### Liens externes
-
-En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
-
-### Mentions excessives
-
-En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
-
-### Émojis excessifs
-
-En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
-
-
-### Spam messages
-
-En cliquant sur l'engrenage (⚙️) vous aurez accès à la configuration du système :
-
-{% endtab %}
-{% endtabs %}
-
-# Sanctions automatiques
-
-{% tabs %}
-{% tab title="Via la commande /config" %}
-Here is first tab content.
-{% endtab %}
-
-{% tab title="Via le panel" %}
-Here is second tab content.
-{% endtab %}
-{% endtabs %}
 
