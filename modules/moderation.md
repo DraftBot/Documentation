@@ -12,12 +12,10 @@ Les systèmes de modération de **DraftBot** sont là pour vous aidez dans la ge
 
 ### Note
 
-Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note \[utilisateur] \[note]</mark>.\
+Vous pouvez ajouter une note à un membre dans son historique de sanctions avec <mark style="color:orange;">/note</mark>.\
 Cela permet d'ajouter un commentaire à un membre, visible par les modérateurs, sans avertir le membre en message privé.
 
 ![Note donnée à un membre](../.gitbook/assets/moderation/note.png)
-
-Vous pourrez retirer une note à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
 **DraftBot** peut donner une note à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/note</mark> sur votre serveur.
@@ -34,7 +32,6 @@ Le membre recevra son avertissement par message privé uniquement s'il accepte l
 
 ![Avertissement donné à un membre](../.gitbook/assets/moderation/warn.png)
 
-Vous pourrez retirer un avertissement à un membre avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 {% hint style="warning" %}
 **DraftBot** peut donner un avertissement à un membre uniquement si vous disposez de la permission "_Gérer les messages_" ou que l'un de vos rôles peut utiliser la commande <mark style="color:orange;">/avertir</mark> sur votre serveur.
@@ -100,7 +97,7 @@ Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'
 
 ![Historique de sanctions d'un membre](../.gitbook/assets/moderation/history.png)
 
-## Retirer des sanctions
+### Retirer des sanctions
 
 Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
@@ -111,6 +108,8 @@ De même, si vous souhaitez retirer toutes les sanctions de tous les membres de 
 Notez que les commandes <mark style="color:orange;">/adminreinitialiser sanctions membre</mark> et <mark style="color:orange;">/adminreinitialiser sanctionsserveur</mark> sont irréversibles.
 {% endhint %}
 
+![](../.gitbook/assets/moderation/remove_sanction.png)
+
 ## Options de Confidentialité
 
 Grâce aux options de confidentialité, vous pourrez décider de masquer le nom de du modérateur ou les réponses aux commandes de modération.
@@ -118,21 +117,22 @@ Grâce aux options de confidentialité, vous pourrez décider de masquer le nom 
 ### Configuration
 
 {% tabs %}
-{% tab title="First Tab" %}
+{% tab title="Via la commande /config" %}
 Here is first tab content.
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Depuis le panel" %}
 Here is second tab content.
 {% endtab %}
 {% endtabs %}
 
 # Sanctions prédéfinies
 
-Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. Vous pourrez y décider de la sanction à appliquer ainsi que de la raison de celle-ci. Cela facilietera et réglementera les sanctions applicables par vos modérateurs.
+Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. 
+Vous pourrez y décider de la sanction à appliquer ainsi que de la raison de celle-ci. Cela facilietera et réglementera les sanctions applicables par vos modérateurs.
 
 {% hint style="info" %}
-Toutefois, vos modérateurs doivent posséder des permissions nécessaires pour effectuer la sanction souhaitée via <mark style="color:orange;">/mod</mark>.
+Vos modérateurs doivent posséder des permissions nécessaires pour effectuer la sanction souhaitée via <mark style="color:orange;">/mod</mark>.
 {% endhint %}
 
 ### Configuration
