@@ -151,8 +151,7 @@ Pour créer un hub, il suffit de cliquer sur le bouton "<mark style="color:orang
 
 Lorsque vous venez de créer votre hub, ou bien lorsque vous cliquez sur le bouton "<mark style="color:orange;">Editer</mark>" de votre hub, une série de paramètres apparaît. Vous trouverez dans cette catégorie chacun de ces paramètres détaillé de A à Z.
 
-![Modification de Hub (1/2)](../.gitbook/assets/privateroom/panel/view_edit1.png)
-![Modification de Hub (2/2)](../.gitbook/assets/privateroom/panel/view_edit2.png)
+![Modification de Hub](../.gitbook/assets/privateroom/panel/view_edit.png)
 
 ### Changer la catégorie des salons
 
@@ -223,7 +222,7 @@ Pour ajouter des rôles, il suffit de cliquer sur le bouton "<mark style="color:
 
 #### Définir les boutons de configurations
 
-Vous pouvez ajouter des boutons de configuration en appuyant sur le bouton "<mark style="color:orange;">**+**</mark>". 
+Vous pouvez ajouter des boutons de configuration en appuyant sur le bouton "<mark style="color:orange;">**+**</mark>".
 
 Vous pouvez supprimer des boutons de configuration en cliquant sur la <mark style="color:orange;">croix</mark> à côté de leur nom.
 
