@@ -77,6 +77,7 @@ Vous pourrez également définir les permissions du créateur du salon vocal en 
 - **Créer une invitation** : Permet au créateur de créer des invitations pour le salon vocal.
 - **Modifier le salon** : Donne la permission de modifier les paramètres du salon tels que <mark style="color:orange;">le nom, la limite de membres, etc.</mark>
 - **Changer les permissions** : Permet de changer l'ensemble des paramètres du salon. Le créateur pourra créer des dérogations et attribuer ou refuser des permissions aux membres et rôles de son choix.
+
 - **Voix prioritaire** : Le son de tous les participants sera diminué lorsque le créateur du salon parlera. ⚠ - Cette option ne fonctionne qu'en cas d'utilisation du mode "Appuyer pour parler".
 
 {% hint style="warning" %}
@@ -189,6 +190,13 @@ Vous pouvez attribuer certaine(s) permission(s) supplémentaire(s) au propriéta
 - **Créer une invitation :** Le propriétaire pourra créer des invitations menant à son salon vocal.
 - **Modifier le salon :** Le propriétaire pourra changer des paramètres tels que le nom ou la taille du salon.
 - **Changer les permissions :** Le propriétaire pourra changer les permissions des membres à l'intérieur de son salon vocal.
+
+{% hint style="danger" %}
+Veuillez noter qu'il s'agit d'une option sensible car elle influe sur toutes les autres permissions du salon.
+> Par défaut, elle est donc décochée et déconseillée pour les serveurs communautaires
+{% endhint %}
+
+
 - **Voix prioritaire :** Lorsque le propriétaire parlera, le volume des participants sera diminué si le salon est en "Appuyer pour parler".
 
 {% hint style="warning" %}
@@ -209,6 +217,9 @@ Pour définir la limite de membres, il suffit juste de sélectionner la valeur q
 Veuillez également noter que la limite de membre peut être changée à tout moment par <mark style="color:orange;">le créateur du salon</mark> s'il possède la permission <mark style="color:orange;">Modifier le salon</mark>.
 {% endhint %}
 
+#### Ajouter un rôle d'accès aux salons
+
+Vous pouvez définir un rôle que les membres du serveur devront avoir pour rejoindre un salon vocal temporaire. Un sélecteur vous permettra de choisir le rôle souhaité. Par défaut, le rôle d'accès est <mark style="color:orange;">@eveyone</mark>.
 
 #### Définir l'accès au configurateur de salon
 
