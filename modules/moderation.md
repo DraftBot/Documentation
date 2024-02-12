@@ -75,7 +75,7 @@ Vous pouvez bannir un membre via la commande <mark style="color:orange;">/ban</m
 
 Après avoir choisit l'utilisateur et donné une raison, deux options facultatives supplémentaires s'offrent à vous :
 
-* <mark style="color:orange;">\[temps]</mark> pour définir un temps de bannissement
+* <mark style="color:orange;">\[temps]</mark> pour définir une durée de bannissement
 * <mark style="color:orange;">\[messages\_supprimés]</mark> pour savoir depuis combien de temps les messages du membre doivent être supprimés (maximum 7 jours).
 
 ![Bannissement d'un utilisateur](../.gitbook/assets/moderation/ban.png)
@@ -102,6 +102,7 @@ Dans la même optique, vous pouvez retrouver la liste de toutes les sanctions d'
 Vous pouvez enlever une sanction à un membre de votre serveur avec la commande <mark style="color:orange;">/sanctions retirer</mark>.
 
 Il est également possible de réinitialiser toutes les sanctions à un membre d'un coup via <mark style="color:orange;">/adminreinitialiser sanctions membre</mark>.\
+
 De même, si vous souhaitez retirer toutes les sanctions de tous les membres de votre serveur, vous pouvez utiliser <mark style="color:orange;">/adminreinitialiser sanctions serveur</mark>.
 
 {% hint style="warning" %}
@@ -118,21 +119,33 @@ Grâce aux options de confidentialité, vous pourrez décider de masquer le nom 
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Here is first tab content.
+Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark style="color:orange;">/config</mark> puis appuyez sur "<mark style="color:blue;">Avancés</mark>".
+
+Vous aurez ensuite différents bouttons à votre disposition : 
+- Masquer le nom du modérateur en MP ➜ Le nom du modérateur ne sera pas visible par le membre dans le message reçu en message privés.
+- Cacher les réponses des commandes ➜ Lorsqu'un modérateur effectuera une commande de [modération](moderation.md#sanctions), le message indiquant cette sanction sera uniquement visible par le modérateur et non par l'ensemble des membres.
+
+![Menu de configuration des options de confidentialité](../.gitbook/assets/moderation/avanced_options.png)
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-Here is second tab content.
+<mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
+
+Une fois sur le panel de **DraftBot**, rendez-vous dans la rubrique modération et dans les options de confidentialité. Vous n'aurez plus qu'à activer les options voulues !
+
+![Configuration des options de confidentialité](../.gitbook/assets/moderation/dashboard_confidentiality_options.png)
+
+> ⚠️ Une fois fini, n'oubliez pas d'enregistrer vos modifications avec le bouton "Sauvegarder" en bas de la page.
 {% endtab %}
 {% endtabs %}
 
 # Sanctions prédéfinies
 
-Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande : <mark style="color:orange;">/mod</mark>. 
-Vous pourrez y décider de la sanction à appliquer ainsi que de la raison de celle-ci. Cela facilietera et réglementera les sanctions applicables par vos modérateurs.
+Une sanction prédéfinie est une sanction préconfigurée servant à centraliser différents actes de modération en une seule commande (<mark style="color:orange;">/mod</mark>). 
+Vous pourrez y décider de la sanction à appliquer ainsi que de la raison de celle-ci. Cela facilitera et réglementera les sanctions applicables par vos modérateurs.
 
 {% hint style="info" %}
-Vos modérateurs doivent posséder des permissions nécessaires pour effectuer la sanction souhaitée via <mark style="color:orange;">/mod</mark>.
+Vos modérateurs doivent posséder les permissions nécessaires pour effectuer les sanctions souhaitées via <mark style="color:orange;">/mod</mark>.
 {% endhint %}
 
 ### Configuration
@@ -143,7 +156,9 @@ Rendez-vous d'abord dans la catégorie "🔨 Modération" de la commande <mark s
 
 #### Création d'une sanction prédéfinie
 
-Pour créer une sanction prédéfinie, cliquez sur "Créer". Vous pourrez ensuite choisir la sanction à appliquer ainsi que la raison indiquée lors de l'utilisation de cette dernière. Vous aurez également la possibilité de définir un nom lors de la sélection de la sanction prédéfinie dans la commande <mark style="color:orange;">/mod</mark>.
+Pour créer une sanction prédéfinie, cliquez sur "Créer". Vous pourrez ensuite choisir la sanction à appliquer ainsi que la raison indiquée lors de l'utilisation de cette dernière. 
+
+Vous aurez également la possibilité de définir un nom lors de la sélection de la sanction prédéfinie dans la commande <mark style="color:orange;">/mod</mark>.
 
 
 #### Gestion d'une sanction prédéfinie existante
@@ -163,7 +178,9 @@ Notez que ces actions sont irréversibles, une fois effectuées, il vous sera im
 
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Rendez vous ensuite dans la rubrique modération puis cliquer sur <mark style="color:orange;">"Créer une sanction prédéfinie"</mark>. Vous pourrez ensuite choisir la sanction à appliquer ainsi que la raison indiquée lors de l'utilisation de cette dernière. Vous aurez également la possibilité de définir un nom lors de la sélection de la sanction prédéfinie dans la commande <mark style="color:orange;">/mod</mark>. Vous n'avez ensuite qu'à sauvegarder votre sanction et le tour est joué !
+Rendez vous d'abord dans la rubrique modération. 
+
+Cliquer ensuite sur <mark style="color:orange;">"Créer une sanction prédéfinie"</mark>. Vous pourrez ensuite choisir la sanction à appliquer ainsi que la raison indiquée lors de l'utilisation de cette dernière. Vous aurez également la possibilité de définir un nom lors de la sélection de la sanction prédéfinie dans la commande <mark style="color:orange;">/mod</mark>. Vous n'avez ensuite qu'à sauvegarder votre sanction et le tour est joué !
 
 ![Création d'une sanction prédéfinie](../.gitbook/assets/moderation/dashboard_creation_predefined_sanctions.png)
 
