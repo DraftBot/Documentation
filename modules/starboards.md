@@ -1,6 +1,6 @@
 ---
 description: >-
-  Mettez en avant les meilleurs messages de votre serveur dans un salon dédié en intéragissant avec un émoji.
+  Mettez en avant les meilleurs messages de votre serveur dans un salon dédié en interagissant avec un émoji.
 ---
 
 # ⭐ Starboards
