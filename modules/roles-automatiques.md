@@ -15,7 +15,7 @@ Veuillez d'abord vous rendre dans <mark style="color:orange;">/config</mark> ➜
 
 Pour ajouter un rôle automatique lorsqu'un membre rejoint votre serveur, cliquez sur "Ajouter".
 
-Si souhaitez retirer un rôle de cette liste, cliquez sur "Retirer".
+Si vous souhaitez retirer un rôle de cette liste, cliquez sur "Retirer".
 
 Pour retirer **tous** les rôles automatiques, cliquez sur "Réinitialiser".
 
