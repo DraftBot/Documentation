@@ -1,14 +1,13 @@
 ---
 description: >-
-  Des messages nuisibles sur votre serveur ? Alors toutes ces commandes de
-  DraftBot vont vous aider !
+  Débarrassez-vous facilement des messages nuisibles sur votre serveur ! Découvrez toutes les commandes de DraftBot qui vont vous aider et vous simplifier la vie!
 ---
 
 # Gestion des messages
 
 ### Supprimer des messages
 
-Vous pouvez effacer des messages avec la commande <mark style="color: #cd6e57;">/effacer messages \[nombre]</mark>. Cela supprimera alors le nombre de messages que vous aurez renseigné dans la slash commande.
+Vous pouvez effacer des messages avec la commande <mark style="color: #cd6e57;">/effacer messages \[nombre]</mark>. Cela supprime le nombre de messages renseigné dans la slash commande.
 
 Vous avez aussi 2 options à votre disposition :
 

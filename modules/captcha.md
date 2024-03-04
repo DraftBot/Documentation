@@ -1,7 +1,6 @@
 ---
 description: >-
-  Le système de captcha permet de protéger votre serveur d’éventuelles attaques
-  de robots qu'il pourrait subir.
+  Protégez votre serveur d’éventuelles attaques de robots qu'il pourrait subir grâce à notre système de captcha.
 ---
 
 # 🔒 Captcha

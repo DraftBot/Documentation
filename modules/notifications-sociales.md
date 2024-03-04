@@ -1,6 +1,6 @@
 ---
 description: >-
- Rendez publique votre activité sur les autres réseaux sociaux !
+ Rendez votre activité sur les autres réseaux sociaux publique aux membres de votre serveur pour fédérer votre communauté !
 ---
 # Notifications sociales
 
@@ -12,9 +12,9 @@ Ce module permet **d'afficher** un message lors de la **publication d'une vidéo
 
 ![Notification sociale YouTube](../.gitbook/assets/socialnotifs/view_youtube.png)
 
-L'annonce est entièrement **personnalisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur d'autres serveurs**, choisir la **couleur** de l'embed d'annonce (réservé aux <mark style="color:orange;"> [serveurs premiums ✨](https://www.draftbot.fr/premium)</mark>), ainsi que d'autres éléments visuels.
+L'annonce est entièrement **personnalisable**. Cela permet donc aux administrateurs de configurer **un rôle notifié**, activer **la publication sur d'autres serveurs** ainsi que d'autres éléments visuels. Il vous est possible d'avoir **une seule chaîne <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark>** en notification sociale.
 
-Il peut y avoir **une seule chaîne <mark style="color:orange;">[YouTube](https://www.youtube.com/)</mark> différente** pour les serveurs **non-premiums** contrairement aux serveurs premiums qui peuvent avoir jusqu'à 5 chaînes YouTube différentes actuellement.
+Optez pour un <mark style="color:orange;"> [premium ✨](https://www.draftbot.fr/premium)</mark> pour obtenir des avantages exclusifs. Choisissez la **couleur** de l'embed d'annonce et ajoutez jusqu'à 5 chaînes YouTube différentes !
 
 ### Twitch
 
@@ -96,11 +96,11 @@ Vous pouvez activer séparément tous les types de notifications sociales.
 {% tabs %}
 {% tab title="Configuration via le /config" %}
 
-Pour ajouter une annonce lors d'un évènement (publication de vidéo, post, notification de stream, etc...), il vous suffit d'effectuer la commande <mark style="color:orange;">/config système:Notifications Sociales</mark>. Vous aurez alors accès à l'onglet ci-dessous.
+Pour ajouter une annonce lors d'un évènement (publication de vidéo, post, notification de stream, etc...), il vous suffit d'effectuer la commande <mark style="color:orange;">/config système:Notifications Sociales</mark>. Vous avez alors accès à l'onglet ci-dessous.
 
 ![/config > Notifications Sociales](../.gitbook/assets/socialnotifs/view_socialnotifs_config.png)
 
-Il vous suffira de sélectionner la plateforme de votre choix et il n'y aura plus qu'à configurer à partir de la sélection guidée.
+Il vous suffit de sélectionner la plateforme de votre choix et d'ensuite configurer le tout à partir de la sélection guidée.
 
 {% endtab %}
 

@@ -1,12 +1,12 @@
 ---
-description: Besoin de recenser les actions faites sur votre serveur ? Les logs sont là pour vous !
+description: Recensez les actions faites sur votre serveur en toute simplicité avec les logs.
 ---
 
 # 🗃 Logs
 
 ## Les logs, c'est quoi ?
 
-Les logs sont un historique des actions faites sur votre serveur. Ils vous permettent de pouvoir retrouver une action qui vous intrigue ou bien de voir qui a fait quelle action.
+Les logs sont un historique des actions faites sur votre serveur. Ils permettent de pouvoir retrouver une action qui vous semble intriguante ou bien de voir qui a fait une action précise.
 
 Les logs sont des embeds qui sont envoyés non pas par **DraftBot**, mais par des webhooks. Un webhook vous permet d'envoyer un message avec une photo de profil, un nom et un contenu personnalisé.
 > ***DraftBot** gère ses propres webhooks et l'envoi des messages avec ses derniers. Si vous supprimez son webhook de logs, il le recréera automatiquement lors de l'envoi du prochain log.*
@@ -18,7 +18,7 @@ Les logs sont des embeds qui sont envoyés non pas par **DraftBot**, mais par de
 Vous pouvez configurer les logs avec la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Logs" du sélecteur.
 
 
-**DraftBot** vous affichera alors la configuration actuelle :
+**DraftBot** vous affiche alors la configuration actuelle :
 * *Salon par défaut* ➜ Salon dans lequel les logs seront envoyés si le salon n'a pas été paramétré individuellement pour chaque log.
 * *Couleur par défaut* ➜ Couleur des logs si la couleur n'a pas été paramétrée individuellement pour chaque log.
 * *Salons ignorés* ➜ Salons qui sont ignorés par les logs : vous n'aurez aucun log des actions qui sont faites dedans.
@@ -35,12 +35,12 @@ Ici sera affiché, pour chaque modules :
 {% endhint %}
 
 Sous ce message, retrouvez les boutons permettant de configurer les logs :
-* ***Activer le système*** / ***Système activé*** ➜ Pour activer ou désactiver le système de logs.
+* ***Activer le système*** / ***Système activé*** ➜ Active ou désactive le système de logs.
 * ***Salon par défaut*** ➜ Salon dans lequel les logs seront envoyés si le salon n'a pas été paramétré individuellement pour chaque log.
-* ***Modules*** ➜ Pour configurer individuellement chaque log.
-* ***Couleur par défaut*** ➜ Pour configurer la couleur des logs si la couleur n'a pas été paramétrée individuellement pour chaque log.
-* ***Ignorer des salons*** ➜ Pour configurer les salons qui seront ignorés par les logs : vous n'aurez aucun log des actions qui sont faites dedans.
-* ***Réinitialiser*** ➜ Pour réinitialiser toute la configuration des logs.
+* ***Modules*** ➜ Configure individuellement chaque log.
+* ***Couleur par défaut*** ➜ Configure la couleur des logs si la couleur n'a pas été paramétrée individuellement pour chaque log.
+* ***Ignorer des salons*** ➜ Configure les salons qui seront ignorés par les logs : vous n'aurez aucun log des actions qui sont faites dedans.
+* ***Réinitialiser*** ➜ Réinitialise toute la configuration des logs.
 
 {% hint style="warning" %}
 Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer votre configuration des logs de votre serveur.
@@ -105,9 +105,9 @@ Activez alors individuellement les logs que vous souhaitez mettre en place pour 
 ![Activation des modules de logs depuis le panel](../.gitbook/assets/logs/dashboard_configuration_modules_activate.png)
 
 Vous aurez alors la possibilité de configurer votre module :
-* Pour changer le salon d'envoi : ouvrez le menu déroulant et sélectionnez le salon voulu.
-* Pour changer la photo de profil du log, lors de l'envoi : cliquez sur le logo de **DraftBot**. ***(✨ premium)***
-* Pour changer la couleur du log, lors de l'envoi : cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(✨ premium)***
+* Pour changer le salon d'envoi : Ouvrez le menu déroulant et sélectionnez le salon voulu.
+* Pour changer la photo de profil du log, lors de l'envoi : Cliquez sur le logo de **DraftBot**. ***(✨ premium)***
+* Pour changer la couleur du log, lors de l'envoi : Cliquez sur la palette de peinture et sélectionnez la couleur voulue. ***(✨ premium)***
 
 ![Configuration d'un module de log depuis le panel](../.gitbook/assets/logs/dashboard_configuration_modules.png)
 
