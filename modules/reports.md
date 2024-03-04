@@ -1,7 +1,6 @@
 ---
 description: >-
-  Un utilisateur remarque un message ou des agissements inappropriés sur votre serveur ?
-  Permettez-lui de vous les signaler avec le système de signalement de DraftBot !
+  Permettez à vos utilisateurs de signalez les messages et agissements inappropriés sur votre serveur en quelques clics seulement !
 ---
 
 # 🚨 Signalements
@@ -10,14 +9,14 @@ description: >-
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Vous trouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark> :
+Retrouverez ci-dessous la configuration des signalements avec la commande <mark style="color:orange;">/config</mark> :
 
 ![Aperçu du système](../.gitbook/assets/report/config-report.png)
 
 Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 🚨 Signalements
 
-Voici les différents boutons ainsi que leurs utilités :
-- <mark style="color:blue;">"Activer le système"</mark> ➜ Permet d'activer ou désactiver le système.
+Voici les différents boutons ainsi que leur utilité :
+- <mark style="color:blue;">"Active le système"</mark> ➜ Permet d'activer ou désactiver le système.
 - "Activer la réaction 🚨" ➜ DraftBot réagira au message signalé avec la réaction "🚨".
 
 - "Activer l'ouverture d'un fil" ➜ Si activé, DraftBot ouvrira un fil pour les modérateurs lorsqu'un signalement sera envoyé. **_([✨ premium](https://draftbot.fr/premium))_**  
@@ -55,7 +54,7 @@ Votre message peut faire au maximum 1 200 caractères.
 {% tab title="Via le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de configuration qu'avec la commande <mark style="color:orange;">/config</mark> sur Discord.
+Sur le panel, sur une même page, retrouvez les mêmes possibilités de configuration qu'avec la commande <mark style="color:orange;">/config</mark> sur Discord.
 
 Pour configurer le système de signalements, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Signalements" sur le serveur de votre choix.
 
