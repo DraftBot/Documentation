@@ -13,9 +13,9 @@ Vous avez différentes possibilités d'obtenir un objet :
 - **Les récompenses de niveaux** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Niveaux](https://docs.draftbot.fr/modules/niveaux)" ou via le panel web.
 - **L'achat dans la boutique** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Économie](https://docs.draftbot.fr/modules/economie)" ou via le panel web.
 - **Les cadeaux d'anniversaires** : Configurable depuis la commande <mark style="color:orange;">/config</mark> ➜ "[Anniversaires](https://docs.draftbot.fr/modules/anniversaires)" ou via le panel web.
-- **Les concours (giveaway)** : Lorsqu'on utilise la commande <mark style="color:orange;">/concours créer item</mark>.
-- **Les échanges entre membres** : Avec la commande <mark style="color:orange;">/objet</mark>.
-- **Les commandes <mark style="color:orange;">/dropitem</mark> et <mark style="color:orange;">/objet drop</mark>** : Elles génèrent un message où vous devez être le plus rapide pour récupérer l'objet.
+- **Les concours (giveaway)** : Configurable depuis la commande <mark style="color:orange;">/concours créer item</mark>.
+- **Les échanges entre membres** : Configurable depuis la commande <mark style="color:orange;">/objet</mark>.
+- **Les commandes <mark style="color:orange;">/dropitem</mark> et <mark style="color:orange;">/objet drop</mark>** : Génèrent un message qui offre un objet à la personne la plus rapide à réagir.
 
 ## Gérer l'inventaire d'un membre
 
@@ -24,13 +24,13 @@ Avec l'aide de la commande <mark style="color:orange;">/admininventaire</mark>, 
 Plusieurs options s'offrent à vous :
 
 > <mark style="color:orange;">/admininventaire donner</mark> ➜ Ajouter un objet à l'inventaire d'un membre.\
-<mark style="color:orange;">/admininventaire retirer</mark> ➜ Retirer un objet à l'inventaire d'un membre.\
-<mark style="color:orange;">/admininventaire reset</mark> ➜ Vider en totalité l'inventaire d'un membre.\
-<mark style="color:orange;">/admininventaire reset serveur</mark> ➜ Réinitialiser l'inventaire de tous les membres du serveur.
+<mark style="color:orange;">/admininventaire retirer</mark> ➜ Retire un objet à l'inventaire d'un membre.\
+<mark style="color:orange;">/admininventaire reset</mark> ➜ Vide en totalité l'inventaire d'un membre.\
+<mark style="color:orange;">/admininventaire reset serveur</mark> ➜ Réinitialise l'inventaire de tous les membres du serveur.
 
 ## Afficher son inventaire
 
-Les membres du serveur peuvent accéder à tout moment à **leur propre inventaire** en utilisant la commande <mark style="color:orange;">/inventaire</mark>. Si le membre possède des objets, ils seront donc affichés, de même qu'il aura la possibilité de voir l'argent en sa possession grâce au système d'[économie](https://docs.draftbot.fr/modules/economie) de DraftBot.
+Les membres du serveur peuvent accéder à tout moment à **leur propre inventaire** en utilisant la commande <mark style="color:orange;">/inventaire</mark>. Si le membre possède des objets, ils seront donc affichés. De même il aura la possibilité de voir l'argent en sa possession grâce au système d'[économie](https://docs.draftbot.fr/modules/economie) de DraftBot.
 
 ![Aperçu de l'inventaire d'un membre](../.gitbook/assets/inventory/inventory.png)
 
@@ -40,11 +40,11 @@ Vous pouvez voir l'inventaire d'un autre membre en le **mentionnant** ou en util
 
 ## Échanger un objet
 
-Il y a quelques méthodes pour échanger un objet auprès d'un autre membre grâce à la commande <mark style="color:orange;">/objet</mark> et en **sélectionnant** le membre avec qui vous souhaitez effectuer l'échange :
+Il y a plusieurs méthodes pour échanger un objet avec un autre membre grâce à la commande <mark style="color:orange;">/objet</mark> et en **sélectionnant** le membre avec qui vous souhaitez effectuer l'échange :
 
-> <mark style="color:orange;">/objet donner</mark> ➜ Donner un objet à un membre.\
-<mark style="color:orange;">/objet vendre</mark> ➜ Vendre un objet à un membre.\
-<mark style="color:orange;">/objet échanger</mark> ➜ Échanger un objet à un membre.
+> <mark style="color:orange;">/objet donner</mark> ➜ Donne un objet à un membre.\
+<mark style="color:orange;">/objet vendre</mark> ➜ Vend un objet à un membre.\
+<mark style="color:orange;">/objet échanger</mark> ➜ Échange un objet à un membre.
 
 ## Les commandes /dropitem et /objet drop
 

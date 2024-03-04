@@ -88,7 +88,7 @@ La commande <mark style="color:orange;">/profil</mark> vous permet d'obtenir les
 ![Aperçu de la commande /profil](../.gitbook/assets/info-commands/profil.png)
 
 {% hint style="info" %}
-Vous pouvez ajouter une description sur votre profil avec la commande <mark style="color:orange;">/description</mark>.
+Vous pouvez ajouter une description sur votre profil grâce à la commande <mark style="color:orange;">/description</mark>.
 {% endhint %}
 
 {% hint style="info" %}

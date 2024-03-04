@@ -9,15 +9,14 @@ description: >-
 
 ## Création du règlement
 
-Pour commencez, vous allez devoir effectuer la commande <mark style="color:orange;">/reglement créer</mark>. **DraftBot** vous donnera ensuite la possibilité d'ajouter le rôle que vous souhaitez attribuer aux membres, une fois qu'ils ont pris connaissance du règlement et qu'ils ont cliqué sur le bouton "<mark style="color:green;">Accepter le règlement</mark>".
+Pour commencez, vous allez devoir effectuer la commande <mark style="color:orange;">/reglement créer</mark>. **DraftBot** vous donne ensuite la possibilité d'ajouter le rôle que vous souhaitez attribuer aux membres, une fois qu'ils ont pris connaissance du règlement et qu'ils ont cliqué sur le bouton "<mark style="color:green;">Accepter le règlement</mark>".
 
 
 ![Résultat de la commande /reglement créer](../.gitbook/assets/rules/rules-create.png)
 
 ## Ajouter des règles
 
-
-Maintenant que l'embed a été créé, vous aurez besoin d'ajouter des règles afin de conserver une bonne stabilité dans votre communauté. Pour cela, vous allez utiliser la commande <mark style="color:orange;">/reglement ajouter</mark>, DraftBot vous demandera : le message du règlement, le titre et la description de votre règle.
+Maintenant que l'embed est créé, vous avez besoin d'ajouter des règles afin de conserver une bonne stabilité dans votre communauté. Pour cela, utilisez la commande <mark style="color:orange;">/reglement ajouter</mark>, DraftBot vous demandera : le message du règlement, le titre et la description de votre règle.
 
 ![Aperçu de la commande /reglement créer](../.gitbook/assets/rules/rules-add-1.png)
 
@@ -29,7 +28,7 @@ Pour savoir comment récupérer un identifiant : [Cliquez ici !](../../autres/re
 ![Résultat d'ajout d'une règle](../.gitbook/assets/rules/rules-add-2.png)
 
 {% hint style="info" %}
-Lorsque l'ajout d'une règle est effectuée, **DraftBot** proposera deux choix : ajouter une autre règle ou de remettre à plus tard.
+Lorsque l'ajout d'une règle est effectuée, **DraftBot** propose deux choix : ajouter une autre règle ou remettre à plus tard.
 
 {% endhint %}
 
@@ -38,7 +37,7 @@ Lorsque l'ajout d'une règle est effectuée, **DraftBot** proposera deux choix :
 ## Modifier une règle
 
 
-Vous pouvez modifier vos règles à tout moment, que se soit pour faire une correction ou bien pour le rendre plus esthétique selon vos envies. Vous aurez besoin de la commande <mark style="color:orange;">/reglement modifier</mark>. La procédure n'est pas très différente de la commande <mark style="color:orange;">/reglement ajouter</mark>, juste qu'un nouveau champ apparaît : **"règle"**.
+Vous pouvez modifier vos règles à tout moment, que se soit pour faire une correction ou bien pour le rendre plus esthétique selon vos envies. Pour ce faire, utilisez la commande <mark style="color:orange;">/reglement modifier</mark>. La procédure est assez semblable à la commande <mark style="color:orange;">/reglement ajouter</mark>, à la différence qu'un nouveau champ apparaît : **"règle"**.
 
 
 Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
@@ -50,6 +49,6 @@ Ce champ vous permet de sélectionner **la règle** que vous souhaitez modifier.
 ## Retirer une règle
 
 
-Si une règle ne vous plaît pas et que vous souhaitez la retirer, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Vous aurez juste à récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
+Si vous souhaitez retirer une règle obsolète ou inutile, vous pouvez utiliser la commande <mark style="color:orange;">/reglement retirer</mark>. Il vous suffit alors de récupérer **l'identifiant** du message du règlement et sélectionner la **règle**.
 
 ![Aperçu de la commande /reglement retirer](../.gitbook/assets/rules/rules-remove.png)

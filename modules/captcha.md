@@ -10,7 +10,7 @@ description: >-
 
 Vous pouvez configurer le système de captcha sur votre serveur à l'aide de la commande <mark style="color:orange;">/config</mark>, en vous rendant ensuite dans l'onglet "Captcha" du sélecteur.
 
-Vous aurez alors le choix :
+Vous avez alors le choix :
 * D'activer ou non le captcha
 * Choisir entre 4 niveaux de sécurité (facile, moyen, complexe et très complexe)
 * Créer ou choisir le salon de vérification ou seront envoyés les captchas
@@ -25,8 +25,8 @@ La configuration du système de captcha n'est pas encore disponible sur le panel
 
 ## Utilisation du captcha
 
-Lorsqu'un nouveau membre rejoindra votre serveur Discord, un message apparaîtra dans le salon que vous avez défini pour le captcha.\
-Le membre devra alors réécrire les caractères sur l'image qui lui est destinée pour accéder au serveur.
+Une fois activé, lorsqu'un nouveau membre rejoind votre serveur Discord, un message apparaît dans le salon que vous avez défini pour le captcha.\
+Le membre doit alors réécrire les caractères sur l'image qui lui est destinée pour accéder au serveur.
 
 ![Message envoyé dans le salon dédié au captcha lorsqu'un membre rejoint le serveur](../../.gitbook/assets/captcha/view_arrival.png)
 

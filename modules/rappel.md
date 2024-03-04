@@ -1,7 +1,7 @@
 ---
 description: >-
   Cette fonctionnalité vous permet grâce à DraftBot, de créer un rappel et ainsi
-  vous rappelez au bout d'un laps de temps en vous mentionnant.
+  vous le rappeler au bout d'un laps de temps en vous mentionnant.
 ---
 
 # Rappel
@@ -24,7 +24,7 @@ Pour créer un rappel, vous devez effectuer la commande <mark style="color:orang
 
 ## Modifier un rappel
 
-Vous pouvez modifier un rappel à tout moment, même s'il est déjà en cours, avec l'aide de la commande <mark style="color:orange;">/rappel modifier</mark>. Vous n'aurez qu'à prendre le rappel que vous souhaitez modifier et de choisir une nouvelle raison, un nouveau temps en plus d'une autre destination.
+Vous pouvez modifier un rappel à tout moment, même s'il est déjà en cours, avec l'aide de la commande <mark style="color:orange;">/rappel modifier</mark>. VPour cela il vous suffit de prendre le rappel que vous souhaitez modifier, choisir une nouvelle raison, un nouveau temps et une autre destination.
 
 ## Supprimer un rappel
 
