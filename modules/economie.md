@@ -1,6 +1,6 @@
 ---
 description: >-
-  Envie d'égayer davantage la vie sur votre serveur ? Alors activez le système d'économie et laissez-vous guider par DraftBot !
+  Activez le système d'économie et laissez-vous guider par DraftBot afin d'égayer davantage la vie sur votre serveur!
 ---
 
 # 💰 Économie

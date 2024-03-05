@@ -1,6 +1,6 @@
 ---
 description: >-
-  Cette fonctionnalité vous permet grâce à DraftBot, de créer un rappel et ainsi
+  Organisez-vous grâce à DraftBot, il vous permet de créer un rappel et ainsi
   vous le rappeler au bout d'un laps de temps en vous mentionnant.
 ---
 

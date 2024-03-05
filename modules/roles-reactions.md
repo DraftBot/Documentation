@@ -1,8 +1,6 @@
 ---
 description: >-
-  Avec le système de rôles-réactions, vos membres peuvent facilement choisir des
-  rôles parmi une liste définie, que ce soit depuis un sélecteur, des boutons, ou
-  des réactions.
+  Explorez les possibilités avec le système de rôles-réactions, vos membres peuvent facilement choisir des rôles parmi une liste définie, que ce soit depuis un sélecteur, des boutons, ou des réactions.
 ---
 
 # 🔘 Rôles-réactions 

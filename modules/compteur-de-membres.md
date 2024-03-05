@@ -1,6 +1,6 @@
 ---
 description: >-
-  Cette fonctionnalité vous permet d'afficher le nombre de membres présents sur votre serveur.
+  Affichez le nombre de membres présents sur votre serveur et plus encore pour en savoir davantage sur vos statistiques.
 ---
 
 # Configuration
