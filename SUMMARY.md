@@ -17,7 +17,7 @@
 - [🗃 Logs](modules/logs.md)
 - [🔒 Captcha](modules/captcha.md)
 - [🎂 Anniversaires](modules/anniversaires.md)
-- [🔔 Messages récurents](modules/messages-r%C3%A9currents.md)
+- [🔔 Messages récurrents](modules/messages-r%C3%A9currents.md)
 - [🪄 Commandes personnalisées](modules/commandes-personnalisees.md)
 - [🧮 Compteur de membres](modules/compteur-de-membres.md)
 - [👀 Réactions de mots](modules/reactions-de-mots.md)
