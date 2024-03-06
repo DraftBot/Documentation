@@ -2,7 +2,7 @@
 description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec quelques fonctionnalités intéressantes !
 ---
 
-# ⏱️ Messages récurrents
+# 🔔 Messages récurrents
 
 ## Créer un message récurrent
 
@@ -13,5 +13,5 @@ Dexièmement, vous devez sélectionné entre deux types d'intervals pour l'envoi
 - Heure ciblé : Envoi du message à un jour et une heure ciblée.
 
 {% hint style="warning" %}
-Attention, les noms de c'est deux types changes sur la commande <mark style="color:orange;">/config</mark> ! Répétition 🟰 Relatif et Heure ciblé 🟰 ciblé.
+Attention, les noms de c'est deux types changes sur la commande <mark style="color:orange;">/config</mark>. Répétition 🟰 Relatif et Heure ciblé 🟰 ciblé.
 {% endhint %}
