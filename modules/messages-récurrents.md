@@ -6,12 +6,12 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 
 ## Créer un message récurrent
 
-Premièrement, que se soit sur le <mark style="color:blue;">[pannel de DraftBot](https://www.draftbot.fr/dashboard/)</mark> ou via la commmande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommé votre message !
+Premièrement, que ce soit sur le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/)</mark> ou via la commande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommer votre message !
 
-Dexièmement, vous devez sélectionné entre deux types d'intervals pour l'envoie "Répétition" ou "Heure ciblée".
-- Répétition : Envoi du message à une certaine récurrence.
-- Heure ciblé : Envoi du message à un jour et une heure ciblée.
+Deuxièmement, vous devez sélectionner entre deux types d'intervalles pour l'envoie **"Répétition"** ou **"Heure ciblée"**.
+- **Répétition** : Envoie du message à une certaine récurrence.
+- **Heure ciblée** : Envoie du message à un jour et une heure ciblée.
 
 {% hint style="warning" %}
-Attention, les noms de c'est deux types changes sur la commande <mark style="color:orange;">/config</mark>. Répétition 🟰 Relatif et Heure ciblé 🟰 ciblé.
+**Attention**, les noms de c'est deux types changes sur la commande <mark style="color:orange;">/config</mark>. **Répétition** 🟰 **Relatif** et **Heure ciblé** 🟰 **Ciblé**.
 {% endhint %}
