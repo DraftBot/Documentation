@@ -10,10 +10,10 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 
 - Deuxièmement, vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** ou **"Heure ciblée"**.
 
+{% hint style="info" %}
 ***Répétition/Relatif** : Envoie du message à une certaine récurrence.*
 ***Heure ciblée/Ciblé** : Envoie du message à un jour et une heure ciblée.*
 
-{% hint style="info" %}
 *L'heure est basée sur le fuseau horaire français.*
 {% endhint %}
 
