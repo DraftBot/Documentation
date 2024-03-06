@@ -9,7 +9,7 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 {% tab title="Via la commande /config" %}
 - Premièrement, via la commande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommer votre message !
 
-- Deuxièmement, vous devez sélectionner le type d'intervalle pour l'envoie. *([Voir la référance ici](#intervalle-denvoi))*
+- Deuxièmement, vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](messages-recurrents#intervalle-denvoi)</mark>)*
 
 - Troisièmement, vous pouvez sélectionner au choix des jours où le message récurrent pourrait être envoyé avec un menu déroulant.
 
