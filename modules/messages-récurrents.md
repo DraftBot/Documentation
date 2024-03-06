@@ -6,7 +6,7 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 
 ## Configurer votre message récurrents
 {% tabs %}
-{% tab title="Via la commande /config" %}
+{% tab title="Via la commande <mark style="color:orange;">/config</mark>" %}
 - Premièrement, via la commande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommer votre message !
 
 - Deuxièmement, vous devez sélectionner le type d'intervalle pour l'envoie.
@@ -32,4 +32,4 @@ Vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** o
 
 ## Message collant
 
-## Message dupliqué (*(Avantage premium ✨)*)
+## Message dupliqué *(Avantage premium ✨)*
