@@ -7,15 +7,15 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 ## Configurer votre message récurrents
 {% tabs %}
 {% tab title="Via la commande /config" %}
-- Premièrement, que ce soit sur le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/)</mark> ou via la commande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommer votre message !
+- Premièrement, via la commande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommer votre message !
 
 - Deuxièmement, vous devez sélectionner le type d'intervalle pour l'envoie.
 
 - Troisièmement, vous pouvez sélectionné au choix des jours ou le message récurrent pourrait être envoyé.
 {% endtab %}
 
-{% tabs %}
 {% tab title="Depuis le panel" %}
+WIP
 {% endtab %}
 {% endtabs %}
 
