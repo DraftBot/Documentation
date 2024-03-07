@@ -14,7 +14,7 @@ Via la commande <mark style="color:orange;">/config</mark>. La première chose �
 
 ## <mark style="color:blue;">Sélectionner l'intervalle d'envoie</mark>
 
-Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici]()</mark>)*
+Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](repeat-messages.md#intervalle-denvoi)</mark>)*
 
 ## <mark style="color:blue;">Heures/Jours d'envoie</mark>
 
