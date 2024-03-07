@@ -14,17 +14,17 @@ Via la commande <mark style="color:orange;">/config</mark>. La première chose �
 
 ## <mark style="color:blue;">Sélectionner l'intervalle d'envoie</mark>
 
-Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](repeat-messages.md#intervalle-denvoi)</mark>)*
+Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](repeat-messages#intervalle-denvoi)</mark>)*
 
 ## <mark style="color:blue;">Heures/Jours d'envoie</mark>
 
 Vous avez le choix de sélectionner les heures/jours où le message récurrent pourrait être envoyé avec un menu déroulant.
 
-![Menu déroulant](<../.gitbook/assets/recurring-messages/Screenshot 2024-03-06 161317.png>)
+![Menu déroulant](../.gitbook/assets/repeat-messages/menu-deroulant.png)
 
 ## <mark style="color:blue;">Créer votre message</mark>
 
-Vous êtes rendu à la création de votre message !
+Vous êtes rendu à la création de votre message ! Parcontre nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/user)</mark> pour accèder à plus de fonctionnalité.
 
 {% hint style="info" %}
 N'hésiter pas à utiliser le Markdown
