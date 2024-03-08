@@ -14,7 +14,7 @@ Via la commande <mark style="color:orange;">/config</mark>. La première chose �
 
 ## <mark style="color:blue;">Sélectionner l'intervalle d'envoie</mark>
 
-Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](repeat-messages#intervalle-denvoi)</mark>)*
+Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](#intervalle-denvoi)</mark>)*
 
 ## <mark style="color:blue;">Heures/Jours d'envoie</mark>
 
@@ -34,12 +34,19 @@ Nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot
 
 Par la suite, vous devrez sélectionné le salon dans lequel sera envoyé le message.
 
-fonction
+## <mark style="color:blue;">WIP</mark>
+
+- WIP fontion
 
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
-WIP
+
+## <mark style="color:blue;">L'interface du panel</mark>
+
+Le panel vous offres énormément de possibilité il est normal d'être quelque peut désorienter.
+
+![Panel](../.gitbook/assets/repeat-messages/dashboard-repeat-message.png)
 {% endtab %}
 {% endtabs %}
 
