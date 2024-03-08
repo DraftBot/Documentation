@@ -24,15 +24,17 @@ Vous avez le choix de sélectionner les heures/jours où le message récurrent p
 
 ## <mark style="color:blue;">Créer votre message</mark>
 
-Vous êtes rendu à la création de votre message ! Parcontre nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/user)</mark> pour accèder à plus de fonctionnalité.
+Vous êtes rendu à la création de votre message ! N'hésiter pas à utiliser le [Markdown](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
 
 {% hint style="info" %}
-N'hésiter pas à utiliser le Markdown
+Nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/user)</mark> pour accèder à plus de fonctionnalité.
 {% endhint %}
 
-salon
+## <mark style="color:blue;">Sélectionné le salon d'envoie</mark>
 
-cinquièmement
+Par la suite, vous devrez sélectionné le salon dans lequel sera envoyé le message.
+
+fonction
 
 {% endtab %}
 
@@ -56,6 +58,6 @@ Vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** o
 
 Permet que le message précédent soit supprimé lors du nouvel envoi.
 
-## Message dupliqué *(Avantage premium ✨)*
+## Message dupliqué *(Avantage <mark style="color:orange;">premium</mark> ✨)*
 
 Message collant est une option qui permet de forcer le ré-envoi du message même lorsqu'il n'y a pas eu de message depuis le dernier envoi.
