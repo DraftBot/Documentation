@@ -54,7 +54,7 @@ Le panel vous offres énormément de possibilité il est normal d'être quelque 
 
 ## <mark style="color:blue;">Paramètre du message</mark>
 
-- La première chose à faire sera de nommer votre message. Se nom est uniquement utilisée à des fins patrique et ne change absolument rien !
+- La première chose à faire sera de nommer votre message. Se nom est uniquement utilisée à des fins patrique et ne change absolument rien ! *(Maximum 30 caractère)*
 
 ![Nom du message](../.gitbook/assets/repeat-messages/message-name.png)
 
@@ -74,6 +74,8 @@ Le panel vous offres énormément de possibilité il est normal d'être quelque 
 {% endhint %}
 
 - Par la suite, vous avez le choix de sélectionner les jours où le message récurrent pourrait être envoyé avec des boutons.
+
+[Boutons](repeat-messages.md)
 
 ## <mark style="color:blue;">Votre message</mark>
 
