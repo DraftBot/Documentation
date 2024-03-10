@@ -75,7 +75,7 @@ Le panel vous offres énormément de possibilité il est normal d'être quelque 
 
 - Par la suite, vous avez le choix de sélectionner les jours où le message récurrent pourrait être envoyé avec des boutons.
 
-[Boutons](repeat-messages.md)
+![Boutons](repeat-messages.md)
 
 ## <mark style="color:blue;">Votre message</mark>
 
