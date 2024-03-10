@@ -4,13 +4,13 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 
 # 🔔 Messages récurrents
 
-## Configurer votre message récurrents
+## Configurer un message récurrent
 {% tabs %}
 {% tab title="Via la commande /config" %}
 
 ## <mark style="color:blue;">Nommer votre message</mark>
 
-Via la commande <mark style="color:orange;">/config</mark>. La première chose à faire sera de nommer votre message !
+La première chose à faire sera de nommer votre message ! Pour chaque question il suffira d'écrire sous le message de DraftBot pour y répondre. *(Si vous souhaitez annulé entrer ``"cancel"``)*
 
 ## <mark style="color:blue;">Sélectionner l'intervalle d'envoie</mark>
 
