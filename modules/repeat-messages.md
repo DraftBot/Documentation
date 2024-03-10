@@ -10,18 +10,17 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 
 ## <mark style="color:blue;">Nommer votre message</mark>
 
-La première chose à faire sera de nommer votre message ! Pour chaque question il suffira d'écrire sous le message de DraftBot pour y répondre. *(Si vous souhaitez annulé entrer ``"cancel"``)*
+La première chose à faire sera de nommer votre message *(Se nom est uniquement utilisée à des fins patrique et ne change absolument rien)* !
 
-## <mark style="color:blue;">Sélectionner l'intervalle d'envoie</mark>
-
-Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="color:blue;">[Voir la référance ici](repeat-messages#intervalle-denvoi)</mark>)*
-
-## <mark style="color:blue;">Heures/Jours d'envoie</mark>
+## <mark style="color:blue;">Instant d'envoi</mark>
+Pour la majorité des questions qui suit il suffira d'écrire sous le message de DraftBot pour y répondre. *(Si vous souhaitez annulé entrer <mark style="color:orange;">``"cancel"``</mark>)*
 
 - Vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** ou **"Heure ciblée"**.
 
 ***Répétition/Relatif** : Envoie du message à une certaine récurrence.*
 ***Heure ciblée/Ciblé** : Envoie du message à un jour et une heure ciblée.*
+
+- Entrez l'heure à la quelle vous souhaitez que le message soit envoyé.
 
 {% hint style="info" %}
 *L'heure est basée sur le fuseau horaire français.*
@@ -31,21 +30,17 @@ Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="colo
 
 ![Menu déroulant](../.gitbook/assets/repeat-messages/menu-deroulant.png)
 
-## <mark style="color:blue;">Créer votre message</mark>
+## <mark style="color:blue;">Votre message</mark>
 
-Vous êtes rendu à la création de votre message ! N'hésiter pas à utiliser le [Markdown](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
+- Vous êtes rendu à la création de votre message ! N'hésiter pas à utiliser le [Markdown](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/user)</mark> pour accèder à plus de fonctionnalité.
 {% endhint %}
 
-## <mark style="color:blue;">Sélectionné le salon d'envoie</mark>
+- Par la suite, vous devrez sélectionné le salon dans lequel sera envoyé le message.
 
-Par la suite, vous devrez sélectionné le salon dans lequel sera envoyé le message.
-
-## <mark style="color:blue;">WIP</mark>
-
-- WIP fontion
+- La dernière option vous permets de ne pas envoyé le message lorsqu'il est le dernier message du salon.
 
 {% endtab %}
 
