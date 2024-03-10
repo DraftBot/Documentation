@@ -84,10 +84,10 @@ Vous pouvez maintenant faire place à votre imagination pour créer votre messag
 {% endtab %}
 {% endtabs %}
 
-## Message collant
-
-Permet que le message précédent soit supprimé lors du nouvel envoi.
-
-## Message dupliqué *(Avantage <mark style="color:orange;">premium</mark> ✨)*
+## Message dupliqué
 
 Message dupliqué est une option qui permet de forcer le renvoi du message même lorsqu'il n'y a pas eu de message depuis le dernier envoi.
+
+## Message collant *(Avantage <mark style="color:orange;">premium</mark> ✨)*
+
+Permet que le message précédent soit supprimé lors du nouvel envoi.
