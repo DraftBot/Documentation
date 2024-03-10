@@ -52,20 +52,33 @@ Le panel vous offres énormément de possibilité il est normal d'être quelque 
 
 ![Panel](../.gitbook/assets/repeat-messages/dashboard-repeat-message.png)
 
-## Créer votre message
-nom 
+## <mark style="color:blue;">Paramètre du message</mark>
 
-salon
+- La première chose à faire sera de nommer votre message. Se nom est uniquement utilisée à des fins patrique et ne change absolument rien !
 
-## envoie
+![Nom du message](../.gitbook/assets/repeat-messages/message-name.png)
 
-intervall
+- Par la suite, vous devrez sélectionné le salon dans lequel sera envoyé le message via un menu déroulant.
 
-jours
+## <mark style="color:blue;">Instant d'envoi</mark>
 
-## embed
+- Vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** ou **"Heure ciblée"**.
 
-message
+***Répétition/Relatif** : Envoie du message à une certaine récurrence.*
+***Heure ciblée/Ciblé** : Envoie du message à un jour et une heure ciblée.*
+
+- Entrez l'heure à la quelle vous souhaitez que le message soit envoyé.
+
+{% hint style="info" %}
+*L'heure est basée sur le fuseau horaire français.*
+{% endhint %}
+
+- Par la suite, vous avez le choix de sélectionner les jours où le message récurrent pourrait être envoyé avec des boutons.
+
+## <mark style="color:blue;">Votre message</mark>
+
+Vous pouvez maintenant faire place à votre imagination pour créer votre message via le système création d'embed de Draftbot !
+
 {% endtab %}
 {% endtabs %}
 
