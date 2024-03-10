@@ -42,10 +42,6 @@ Nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot
 
 Si vous entez <mark style="color:orange;">"oui"</mark> le message sera envoyé dans le salon ou vous avez entré la commande sinon DraftBot vous demandera dans quelle salon vous souhaitez l'envoyé.
 
-## Message dupliqué *(Avantage <mark style="color:orange;">premium</mark> ✨)*
-
-Cette option vous permets de choisir si vous souhaité que le message soit renvoyé lorsqu'il est le dernier message du salon. 
-
 {% endtab %}
 
 {% tab title="Depuis le panel" %}
