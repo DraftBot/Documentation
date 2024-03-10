@@ -55,6 +55,21 @@ Cette option vous permets de choisir si vous souhaité que le message soit renvo
 Le panel vous offres énormément de possibilité il est normal d'être quelque peut désorienter.
 
 ![Panel](../.gitbook/assets/repeat-messages/dashboard-repeat-message.png)
+
+## Créer votre message
+nom 
+
+salon
+
+## envoie
+
+intervall
+
+jours
+
+## embed
+
+message
 {% endtab %}
 {% endtabs %}
 
