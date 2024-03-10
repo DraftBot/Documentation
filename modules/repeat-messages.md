@@ -34,7 +34,7 @@ Pour la majorité des questions qui suit il suffira d'écrire sous le message de
 
 - Vous êtes rendu à la création de votre message ! N'hésiter pas à utiliser le [Markdown](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot](https://www.draftbot.fr/dashboard/user)</mark> pour accèder à plus de fonctionnalité.
 {% endhint %}
 
