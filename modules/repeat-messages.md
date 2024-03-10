@@ -18,7 +18,16 @@ Vous devez sélectionner le type d'intervalle pour l'envoie. *(<mark style="colo
 
 ## <mark style="color:blue;">Heures/Jours d'envoie</mark>
 
-Vous avez le choix de sélectionner les heures/jours où le message récurrent pourrait être envoyé avec un menu déroulant.
+- Vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** ou **"Heure ciblée"**.
+
+***Répétition/Relatif** : Envoie du message à une certaine récurrence.*
+***Heure ciblée/Ciblé** : Envoie du message à un jour et une heure ciblée.*
+
+{% hint style="info" %}
+*L'heure est basée sur le fuseau horaire français.*
+{% endhint %}
+
+- Par la suite, vous avez le choix de sélectionner les jours où le message récurrent pourrait être envoyé avec un menu déroulant.
 
 ![Menu déroulant](../.gitbook/assets/repeat-messages/menu-deroulant.png)
 
@@ -49,17 +58,6 @@ Le panel vous offres énormément de possibilité il est normal d'être quelque 
 ![Panel](../.gitbook/assets/repeat-messages/dashboard-repeat-message.png)
 {% endtab %}
 {% endtabs %}
-
-## Intervalle d'envoi
-
-Vous devez sélectionner le type d'intervalle pour l'envoie **"Répétition"** ou **"Heure ciblée"**.
-
-***Répétition/Relatif** : Envoie du message à une certaine récurrence.*
-***Heure ciblée/Ciblé** : Envoie du message à un jour et une heure ciblée.*
-
-{% hint style="info" %}
-*L'heure est basée sur le fuseau horaire français.*
-{% endhint %}
 
 ## Message collant
 
