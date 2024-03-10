@@ -10,7 +10,7 @@ description: Avec DraftBot, vous pouvez envoyer des messages récurrents avec qu
 
 ## <mark style="color:blue;">Nommer votre message</mark>
 
-La première chose à faire sera de nommer votre message *(Se nom est uniquement utilisée à des fins patrique et ne change absolument rien)* !
+La première chose à faire sera de nommer votre message. Se nom est uniquement utilisée à des fins patrique et ne change absolument rien !
 
 ## <mark style="color:blue;">Instant d'envoi</mark>
 Pour la majorité des questions qui suit il suffira d'écrire sous le message de DraftBot pour y répondre. *(Si vous souhaitez annulé entrer <mark style="color:orange;">``"cancel"``</mark>)*
@@ -40,7 +40,11 @@ Nous vous conseillons d'utiliser le <mark style="color:blue;">[panel de DraftBot
 
 - Par la suite, vous devrez sélectionné le salon dans lequel sera envoyé le message.
 
-- La dernière option vous permets de ne pas envoyé le message lorsqu'il est le dernier message du salon.
+Si vous entez <mark style="color:orange;">"oui"</mark> le message sera envoyé dans le salon ou vous avez entré la commande sinon DraftBot vous demandera dans quelle salon vous souhaitez l'envoyé.
+
+## Message dupliqué *(Avantage <mark style="color:orange;">premium</mark> ✨)*
+
+Cette option vous permets de choisir si vous souhaité que le message soit renvoyé lorsqu'il est le dernier message du salon. 
 
 {% endtab %}
 
@@ -60,4 +64,4 @@ Permet que le message précédent soit supprimé lors du nouvel envoi.
 
 ## Message dupliqué *(Avantage <mark style="color:orange;">premium</mark> ✨)*
 
-Message collant est une option qui permet de forcer le ré-envoi du message même lorsqu'il n'y a pas eu de message depuis le dernier envoi.
+Message dupliqué est une option qui permet de forcer le renvoi du message même lorsqu'il n'y a pas eu de message depuis le dernier envoi.
