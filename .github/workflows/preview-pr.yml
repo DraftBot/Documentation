@@ -29,15 +29,11 @@ jobs:
           node-version: 20.9.0
           check-latest: true
 
-      - name: Get yarn cache directory path 🛠
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
       - name: Cache node_modules 📦
         uses: actions/cache@v3
         id: yarn-cache
         with:
-            path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
+            path: ~/.yarn
             key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
             restore-keys: |
                 ${{ runner.os }}-yarn-
@@ -49,6 +45,12 @@ jobs:
           token: ${{ secrets.DOC_PREVIEW_PAT }}
           path: 'Doc-Preview'
           fetch-depth: 0
+
+      - name: Determine Most Changed Markdown File
+        id: most-changed
+        run: |
+          MOST_CHANGED_FILE=$(git log --format=format: --name-only --diff-filter=A | grep '\.md$' | sort | uniq -c | sort -rn | head -1 | awk '{print $2}')
+          echo "::set-output name=most_changed_file::$MOST_CHANGED_FILE"
 
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
@@ -64,7 +66,7 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         working-directory: Doc-Preview
-        run: yarn install
+        run: yarn install --cache-folder ~/.yarn
 
       - name: Build Documentation Preview 🪜
         working-directory: Doc-Preview
@@ -73,15 +75,15 @@ jobs:
       - name: Upload artifact 📦
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./Doc-Preview/.output/public
           name: 'github-pages'
+          path: Doc-Preview/.output/public
 
   deploy:
     needs: build
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}/docs/pr-${{ github.event.pull_request.number }}
+      url: ${{ steps.deployment.outputs.page_url }}/docs/pr-${{ github.event.pull_request.number }}/${{ steps.most-changed.outputs.most_changed_file }}
 
     runs-on: ubuntu-latest
     steps:
