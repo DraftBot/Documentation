@@ -38,6 +38,13 @@ jobs:
             restore-keys: |
                 ${{ runner.os }}-yarn-
 
+      - name: Run script to detect most modified file
+        id: detect_file
+        run: |
+          chmod +x ./.github/workflows/detect_most_modified_file.sh
+          most_modified_file_path=$(./.github/workflows/detect_most_modified_file.sh)
+          echo "::set-output name=most_modified_file_path::$most_modified_file_path"
+
       - name: Checkout Doc-Preview Repo 🔄
         uses: actions/checkout@v2
         with:
@@ -45,14 +52,6 @@ jobs:
           token: ${{ secrets.DOC_PREVIEW_PAT }}
           path: 'Doc-Preview'
           fetch-depth: 0
-
-      - name: Run script to detect most modified file
-        id: detect_file
-        working-directory: Documentation
-        run: |
-          chmod +x ./.github/workflows/detect_most_modified_file.sh
-          most_modified_file_path=$(./.github/workflows/detect_most_modified_file.sh)
-          echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
