@@ -40,21 +40,25 @@ jobs:
 
       - name: Get common ancestor commit
         id: common_ancestor
+        working-directory: Documentation
         run: |
           common_commit=$(git merge-base HEAD ${{ github.event.pull_request.base.sha }})
           echo "::set-output name=common_commit::$common_commit"
 
       - name: Get PR commits
         id: pr_commits
+        working-directory: Documentation
         run: |
           pr_commits=$(git rev-list ${{ steps.common_ancestor.outputs.common_commit }}..HEAD)
           echo "::set-output name=commits::$pr_commits"
 
       - name: Show PR commits
+        working-directory: Documentation
         run: |
           echo "Commits: ${{ steps.pr_commits.outputs.commits }}"
 
       - name: Git diff
+        working-directory: Documentation
         run: git diff ${{ steps.pr_commits.outputs.commits }}
 
       - name: Run script to detect most modified file
