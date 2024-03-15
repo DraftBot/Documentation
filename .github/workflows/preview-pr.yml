@@ -97,12 +97,13 @@ jobs:
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
           PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
-          ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
-          mkdir -p Doc-Preview/$ASSETS_PATH
-          cp -r Documentatiion/.assets/ Doc-Preview/$ASSETS_PATH
           PR_PATH="content/docs/pr-$PR_NUMBER"
+          ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
           mkdir -p Doc-Preview/$PR_PATH
+          mkdir -p Doc-Preview/$ASSETS_PATH
+          ls -la Documentation/$PR_PATH
           cp -r Documentation/* Doc-Preview/$PR_PATH
+          cp -r Documentatiion/.assets/ Doc-Preview/$ASSETS_PATH
 
       # - name: Commit and Push Changes 📇
       #   run: |
