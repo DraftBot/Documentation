@@ -46,30 +46,12 @@ jobs:
           path: 'Doc-Preview'
           fetch-depth: 0
 
-      - name: Obtention des fichiers modifiés
-        id: get_changed_files
-        run: echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})"
-
-      - name: Analyse des fichiers modifiés
-        id: analyze_files
+      - name: Run script to detect most modified file
+        id: detect_file
         run: |
-          files=$(echo "${{ steps.get_changed_files.outputs.files }}")
-          IFS=$'\n' read -r -a file_list <<< "$files"
-          max_changes=0
-          most_changed_file=""
-          for file in "${file_list[@]}"; do
-            changes=$(git diff --shortstat ${{ github.event.before }} ${{ github.sha }} -- "$file" | grep -E "files? changed" | awk '{print $1}')
-            if [[ $changes -gt $max_changes ]]; then
-              max_changes=$changes
-              most_changed_file=$file
-            fi
-          done
-          echo "::set-output name=most_changed_file::$most_changed_file"
-          echo "::set-output name=max_changes::$max_changes"
-
-      - name: Affichage du fichier le plus modifié
-        run: |
-          echo "Le fichier le plus modifié est ${{ steps.analyze_files.outputs.most_changed_file }} avec ${{ steps.analyze_files.outputs.max_changes }} changements."
+          chmod +x detect_most_modified_file.sh
+          most_modified_file_path=$(./detect_most_modified_file.sh)
+          echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
@@ -102,7 +84,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}docs/pr-${{ github.event.pull_request.number }}/${{ steps.most-changed.outputs.most_changed_file }}
+      url: ${{ steps.deployment.outputs.page_url }}docs/pr-${{ github.event.pull_request.number }}/${{ steps.detect_file.outputs.most_modified_file_path }}
 
     runs-on: ubuntu-latest
     steps:
