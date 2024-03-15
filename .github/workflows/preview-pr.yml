@@ -112,19 +112,18 @@ jobs:
       #     git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
       #     git push origin gh-pages
 
-      - name: Change directory to Doc-Preview 📂
-        run: cd Doc-Preview
-
       - name: Install dependencies 👨🏻‍💻
+        working-directory: Doc-Preview
         run: yarn install
 
       - name: Build Documentation Preview 🪜
+        working-directory: Doc-Preview
         run: npx nuxt build --preset github_pages
 
       - name: Upload artifact 📦
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./.output/public
+          path: ./Doc-Preview/.output/public
 
   deploy:
     needs: build
