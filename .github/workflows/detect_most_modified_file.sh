@@ -1,16 +1,14 @@
 #!/bin/bash
 
+base_ref=$1
 current_branch=$(git rev-parse --abbrev-ref HEAD)
-diff_output=$(git diff --name-only origin/main "$current_branch")
-if [ -z "$diff_output" ]; then
-  echo "Aucun fichier modifié trouvé dans le diff entre 'main' et la branche actuelle."
-  exit 0
-fi
+base_sha=$(git rev-parse origin/$base_ref)
+diff_output=$(git diff --name-only "$base_sha" "$current_branch")
 
 most_modified_file=""
 max_modifications=0
 for file in $diff_output; do
-  modifications=$(git diff --numstat origin/main "$current_branch" -- $file | awk '{print $1+$2}')
+  modifications=$(git diff --numstat "$base_sha" "$current_branch" -- $file | awk '{print $1+$2}')
   if [ $modifications -gt $max_modifications ]; then
     max_modifications=$modifications
     most_modified_file=$file
