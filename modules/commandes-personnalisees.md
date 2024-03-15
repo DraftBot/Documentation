@@ -1,5 +1,5 @@
 ---
-description: Avec DraftBot, vous avez la possibilité de créer vos propres commandes !
+description: Créez vos propres commandes entièrement personnalisables avec l'aide de DraftBot !
 ---
 
 # 🪄 Commandes personnalisées

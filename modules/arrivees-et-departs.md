@@ -10,14 +10,14 @@ description: >-
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 👋
+Commencez d'abord par vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 👋
 Arrivées & départs ➜ "<mark style="color:blue;">Message de bienvenue</mark>".
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
-- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message de bienvenue sera envoyé.
+- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définit le salon où le message de bienvenue sera envoyé.
 
-- "Message personnalisé" ➜ Définir le message qui sera envoyé dans le message de bienvenue.
+- "Message personnalisé" ➜ Définit le texte du message de bienvenue.
 
 <details>
 <summary>Variables</summary>
@@ -40,7 +40,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 </details>
 
 {% hint style="warning" %}
-Votre message doit faire au maximum 1 200 caractères.
+Votre message doit faire un maximum de 1 200 caractères.
 {% endhint %}
 
 - "Mentionner le membre" ➜ Une fois cette option activée, le membre sera mentionné dans le message de bienvenue.
@@ -49,13 +49,13 @@ Votre message doit faire au maximum 1 200 caractères.
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celle par défaut qui rendra l'image transparente (avec le bouton "<mark style="color:red;">Aucune</mark>").
 
-Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
+Grâce à l'abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>, vous pouvez avoir une couleur personnalisée.
 
 ![Menu de sélection de la couleur de fond](../../.gitbook/assets/welcome/configuration-welcome-color.png)
 
 {% endhint %}
 
-- "Couleur" ➜ Définir la couleur de la barre latérale de votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Couleur" ➜ Définit la couleur de la barre latérale de votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
 - "Image" ➜ Permet d'ajouter une image de fond à votre message de bienvenue. **_([✨ premium](https://draftbot.fr/premium))_**
 
 {% hint style="info" %}
@@ -66,9 +66,9 @@ Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
 
 {% endtab %}
 {% tab title="Via le panel" %}
-Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Arrivées & départs.
+Débutez en vous rendant sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Arrivées & départs.
 
-Vous devez ensuite activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
+Vous devez ensuite activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, cliquez à nouveau sur ce même bouton.
 
 ![Activer le système de bienvenue](../../.gitbook/assets/welcome/dashboard-welcome-enable.png)
 
@@ -83,14 +83,14 @@ Vous devez ensuite activer le système en cliquant sur le bouton d'activation du
 
 {% tabs %}
 {% tab title="Via la commande /config" %}
-Veuillez d'abord vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 👋
+Commencez par vous rendre dans la commande <mark style="color:orange;">/config</mark> ➜ 👋
 Arrivées & départs ➜ "<mark style="color:blue;">Message d'au revoir</mark>".
 
 Voici les différents boutons ainsi que leurs utilités :
 - "Activer le système" ➜ Permet d'activer ou désactiver le système.
-- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définir le salon où le message d'au revoir sera envoyé.
+- "<mark style="color:blue;">Salon d'envoi</mark>" ➜ Définit le salon où le message d'au revoir sera envoyé.
 
-- "Message personnalisé" ➜ Définir le message qui sera envoyé dans le message de bienvenue.
+- "Message personnalisé" ➜ Définit le texte du message de bienvenue.
 
 <details>
 <summary>Variables</summary>
@@ -114,7 +114,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 </details>
 
 {% hint style="warning" %}
-Votre message doit faire au maximum 1 200 caractères.
+Votre message doit faire un maximum de 1 200 caractères.
 {% endhint %}
 
 - "Couleur de fond" ➜ Permet de modifier la couleur de fond du message d'au revoir.
@@ -122,13 +122,13 @@ Votre message doit faire au maximum 1 200 caractères.
 {% hint style="info" %}
 Vous avez le choix entre trois couleurs ainsi que celle par défaut (avec le bouton "<mark style="color:red;">Aucune</mark>"). 
 
-Si vous souhaitez avoir une couleur personnalisée, vous devez souscrire à un abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>.
+Grâce à l'abonnement <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>, vous pouvez avoir une couleur personnalisée.
 
 ![Menu configuration couleur de fond](../../.gitbook/assets/welcome/configuration-goodbye-color.png)
 
 {% endhint %}
 
-- "Couleur" ➜ Définir la couleur de la barre latérale de votre message d'au revoir. **_([✨ premium](https://draftbot.fr/premium))_**
+- "Couleur" ➜ Définit la couleur de la barre latérale de votre message d'au revoir. **_([✨ premium](https://draftbot.fr/premium))_**
 - "Image" ➜ Permet d'ajouter une image de fond à votre message d'au revoir. **_([✨ premium](https://draftbot.fr/premium))_**
 
 {% hint style="info" %}
@@ -139,9 +139,9 @@ Les dimensions optimales de l'image sont de 1 000 x 300 pixels.
 
 {% endtab %}
 {% tab title="Depuis le panel" %}
-Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard)</mark> ➜ Arrivées & départs.
+Rendez-vous sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard)</mark> ➜ Arrivées & départs.
 
-Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, recliquez sur ce même bouton.
+Vous devez d'abord activer le système en cliquant sur le bouton d'activation du module. Si vous voulez le désactiver, cliquez à nouveau sur ce même bouton.
 
 ![Activer le système messages d'au revoir](../../.gitbook/assets/welcome/dashboard-goodbye-enable.png)
 

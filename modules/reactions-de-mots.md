@@ -12,7 +12,7 @@ Le système de réactions de mots fait réagir **DraftBot** à des messages qui 
 ![Aperçu du système](../.gitbook/assets/wordreact/view_wordreact.jpg)
 
 {% hint style="info" %}
-Le bot ne réagira que lorsque le mot est en **début de phrase**.
+Le bot réagit uniquement lorsque le mot est en **début de phrase**.
 {% endhint %}
 
 ## Configuration
@@ -25,10 +25,10 @@ Le bot ne réagira que lorsque le mot est en **début de phrase**.
 
 ### Activer le système de réactions de mots
 
-Pour activer le système de réactions de mots, il faudra aller dans le système "👀 Réactions de mots" puis cliquer sur "Activer le système".
+Pour activer le système de réactions de mots, il faut aller dans le système "👀 Réactions de mots" puis cliquer sur "Activer le système".
 
 {% hint style="info" %}
-Pour désactiver le système, il suffira d'effectuer la même procédure : cliquer sur le bouton "Activer le système" qui sera devenu "Désactiver le système".
+Pour désactiver le système, il suffira d'effectuer la même procédure : cliquer sur le bouton "Activer le système" qui devient "Désactiver le système".
 {% endhint %}
 
 ### Ajouter des réactions de mots
@@ -43,15 +43,15 @@ Il n'est pas possible d'ajouter un émoji provenant d'un autre serveur.
 
 ### Supprimer des réactions de mots
 
-Si vous souhaitez supprimer une réaction en particulier, il vous suffira de cliquer sur le bouton "Retirer". Un sélecteur s'affichera et vous permettra de choisir la réaction de mot à supprimer.
+Si vous souhaitez supprimer une réaction en particulier, il vous suffit de cliquer sur le bouton "Retirer". Un sélecteur s'affichera et vous permettra de choisir la réaction de mot à supprimer.
 
 ### Lister les réactions de mots
 
-Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mots. Vous aurez alors une liste avec toutes vos réactions de mots.
+Vous pouvez voir les réactions de mots sur votre serveur depuis l'onglet de configuration des réactions de mots. Vous avez alors une liste avec toutes vos réactions de mots.
 
 ### Réinitialiser le système
 
-Si vous souhaitez supprimer **toutes** les réactions de mots, il suffira d'appuyer sur le bouton <mark style="color:red;">"Réinitialiser"</mark>.
+Si vous souhaitez supprimer **toutes** les réactions de mots, il suffit d'appuyer sur le bouton <mark style="color:red;">"Réinitialiser"</mark>.
 
 {% hint style="danger" %}
 Une réinitialisation est irréversible ! Une fois effectuée, elle remettra les trois réactions de mots par défaut, à savoir : "hey", "coucou" et "salut" avec la réaction "👋".
@@ -95,7 +95,7 @@ La suppression est irréversible, cela dit une validation de la suppression sera
 
 ## Informations supplémentaires
 
-Si vous ne possédez pas le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>, vous serez limité à 10 réactions de mots. En possédant le premium de **DraftBot**, vous pourrez créer des réactions de mots de manière illimitée.
+Repoussez les limites avec le <mark style="color:blue;">[premium](https://draftbot.fr/premium)</mark>. Passez de 10 réactions de mots maximum à un nombre illimité en possédant le premium de **DraftBot**.
 
 
 Vous pouvez regarder le <mark style="color:blue;">[comparatif entre version gratuite et premium](https://www.draftbot.fr/premium#diff)</mark> ici.

@@ -1,5 +1,5 @@
 ---
-description: Suivez l'activité de vos membres grâce à la fonctionnalité de niveaux.
+description: Suivez l'activité de vos membres grâce à la fonctionnalité de niveaux et créez un véritable esprit de communauté.
 ---
 
 # 📉 Niveaux
@@ -56,18 +56,18 @@ _Retrouvez le détail de configuration de chacun de ces boutons ci-dessous._
 {% tab title="Via la commande /config" %}
 
 - _**Activer le système**_ ➜ Permet d'activer ou désactiver le système.
-- _**Activer l'xp en vocal**_ ➜ Une fois activé, les membres pourront gagner de l'expérience en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") _**(✨ premium)**_.
-- _**Niveau maximum**_ ➜ Permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint _**(✨ premium)**_.
-- _**Couleur**_ ➜ Paramétrer une couleur pour tout le système d'économie _**(✨ premium)**_.
-- _**Ratio d'xp**_ ➜ Définir le nombre d'expérience gagnée par message.
-- _**Rôles / Salons sans gain d'xp**_ ➜ Permet de ne pas donner d'expérience à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon.
-- _**Rôles / Salons boosters**_ ➜ Permet de donner plus d'expérience à un membre s'il possède un certain rôle ou si il envoie son message dans un certain salon.
+- _**Activer l'xp en vocal**_ ➜ Une fois activé, les membres pourront gagner de l'expérience en vocal (conditions : être plus de deux humains dans le salon vocal ; le salon vocal ne doit pas être paramétré comme "AFK") <mark style="color:orange;"> [premium ✨](https://www.draftbot.fr/premium)</mark>_.
+- _**Niveau maximum**_ ➜ Permet de fixer un niveau maximal ne pouvant pas être dépassé par les membres une fois atteint <mark style="color:orange;"> [premium ✨](https://www.draftbot.fr/premium)</mark>.
+- _**Couleur**_ ➜ Paramètre une couleur pour tout le système d'économie <mark style="color:orange;"> [premium ✨](https://www.draftbot.fr/premium)</mark>.
+- _**Ratio d'xp**_ ➜ Définit le nombre d'expérience gagnée par message.
+- _**Rôles / Salons sans gain d'xp**_ ➜ Permet de ne pas donner d'expérience à un membre s'il possède un certain rôle ou s'il envoie son message dans un certain salon.
+- _**Rôles / Salons boosters**_ ➜ Permet de donner plus d'expérience à un membre s'il possède un certain rôle ou s'il envoie son message dans un certain salon.
 - _**Activer le reset des niveaux lors du départ**_ ➜ Une fois activé, les membres perdront toute leur expérience s'ils quittent le serveur.
-- _**Activer les longs messages comptent double xp**_ ➜ Une fois activé, les longs messages gagneront plus d'expérience qu'à la normale.
-- _**Activer le gain d'xp dans les threads**_ ➜ Permet de gagner ou non de l'expérience dans les threads du serveur.
+- _**Activer les longs messages comptent double xp**_ ➜ Une fois activé, les longs messages feront gagner plus d'expérience qu'à la normale.
+- _**Activer le gain d'xp dans les threads**_ ➜ Permet de gagner ou non de l'expérience dans les fils du serveur.
 
 {% hint style="warning" %}
-Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'expérience que pour les messages ayant été envoyés 30 secondes après le message précédent du membre.
+Afin de ne pas encourager le "farm d'xp", **DraftBot** donne de l'expérience exclusivement aux messages ayant été envoyés 30 secondes après le message précédent du membre.
 {% endhint %}
 
 ![Message de configuration des niveaux](../.gitbook/assets/levels/view_levels.png)
@@ -76,7 +76,7 @@ Afin de ne pas encourager le "farm d'xp", **DraftBot** ne donne de l'expérience
 {% tab title="Via le panel" %}
 <mark style="color:blue;">[Accéder au panel de **DraftBot**](https://draftbot.fr/dashboard)</mark>
 
-Sur le panel, vous retrouverez sur une même page, les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
+Sur le panel, sur une même page, retrouvez les mêmes possibilités de configuration qu'avec les commandes Slash sur Discord.
 
 Pour configurer le système de niveau, accédez au panel via le lien ci-dessus et rendez-vous dans la catégorie "Niveaux" sur le serveur de votre choix.
 
@@ -94,10 +94,10 @@ Pour créer une récompense, rendez-vous dans la catégorie "Niveaux" de la comm
 
 Une fois fait, vous aurez accès au menu de création de récompenses :
 
-- _**Créer**_ ➜ Créer une nouvelle récompense.
-- _**Modifier**_ ➜ Modifier une récompense existante.
-- _**Supprimer**_ ➜ Supprimer une récompense existante.
-- _**Réinitialiser**_ ➜ Supprimer toutes les récompenses du serveur.
+- _**Créer**_ ➜ Crée une nouvelle récompense.
+- _**Modifier**_ ➜ Modifie une récompense existante.
+- _**Supprimer**_ ➜ Supprime une récompense existante.
+- _**Réinitialiser**_ ➜ Supprime toutes les récompenses du serveur.
 
 {% hint style="warning" %}
 Le bouton "Réinitialiser" est irréversible : impossible d'annuler l'action et de recréer les récompenses du serveur.
@@ -161,9 +161,9 @@ Pour créer une annonce de nouveau niveau, rendez-vous dans la catégorie "Nivea
 
 Vous avez ensuite la possibilité de :
 
-- _**Activer les annonces**_ ➜ Activer le système d'annonce de récompenses gagnées.
-- _**Salon**_ ➜ Choisir le salon dans lequel les annonces de récompenses gagnées seront envoyées.
-- _**Message personnalisé**_ ➜ Changer le message par défaut envoyé lors d'une récompense gagnée.
+- _**Activer les annonces**_ ➜ Active le système d'annonce de récompenses gagnées.
+- _**Salon**_ ➜ Choisit le salon dans lequel les annonces de récompenses gagnées seront envoyées.
+- _**Message personnalisé**_ ➜ Change le message par défaut envoyé lors d'une récompense gagnée.
 
 ![Configuration annonce d'une récompense gagnée](../.gitbook/assets/levels/announcement_config_new_reward.png)
 {% endtab %}

@@ -27,8 +27,8 @@ Il faut que l'option "Notification lors du changement de statut" soit <mark styl
 Pour soumettre une suggestion, il faut vous rendre dans le [menu des suggestions](suggestions.md#menu-des-suggestions) (<mark style="color:orange;">/suggest</mark>) puis cliquer sur le bouton "<mark style="color:blue;">Envoyer une nouvelle suggestion</mark>".
 
 **DraftBot** vous ouvrira ensuite un pop-up où vous pourrez renseigner :
-* Titre ➜ Le titre à donner à votre suggestion. Il permettra aussi de la référencer dans le [menu des suggestions](suggestions.md#menu-des-suggestions).
-* Description ➜ La description de votre suggestion, où vous pourrez détailler votre suggestion pour mieux l'expliquer aux autres membres.
+* Titre ➜ Le titre à donner à votre suggestion. Il permet aussi de la référencer dans le [menu des suggestions](suggestions.md#menu-des-suggestions).
+* Description ➜ La description de votre suggestion, où vous pouvez détailler votre suggestion pour mieux l'expliquer aux autres membres.
 
 {% hint style="info" %}
 Pour ajouter une image d'illustration à votre suggestion, vous devez avoir activé <mark style="color:blue;">[la demande de confirmation](suggestions.md#confirmation)</mark> lors de la configuration.
@@ -39,7 +39,7 @@ Vous aurez alors un bouton pour ajouter une image lors de cette confirmation.
 
 ### Commenter une suggestion
 
-**DraftBot** vous laisse la possibilité de commenter vos suggestions, c'est-à-dire que vous pourrez, si vous avez oublié une information lors de la publication de cette dernière, ajouter un commentaire en cliquant sur "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" dans le [menu des suggestions](suggestions.md#menu-des-suggestions).
+**DraftBot** vous laisse la possibilité de commenter vos suggestions. C'est-à-dire que vous pourrez, si vous avez oublié une information lors de la publication de cette dernière, ajouter un commentaire en cliquant sur "<mark style="color:blue;">Ajouter un commentaire sur l'une de ces suggestions</mark>" dans le [menu des suggestions](suggestions.md#menu-des-suggestions).
 
 {% hint style="info" %}
 Il faut que l'option "<mark style="color:blue;">[commentaire après publication](suggestions.md#membres)</mark>" soit activée. 
@@ -47,7 +47,7 @@ Il faut que l'option "<mark style="color:blue;">[commentaire après publication]
 
 ### Gérer une suggestion
 
-Vous avez la possibilité de gérer les suggestions, **DraftBot** vous présentera ces différentes propositions qui sont d'**accepter**, de **refuser** ou de **prévoir** une suggestion.\
+Vous avez la possibilité de gérer les suggestions, **DraftBot** dispose de plusieurs propositions qui sont d'**accepter**, de **refuser** ou de **prévoir** une suggestion.\
 Découvrez ci-dessous les manipulations à suivre :
 
 {% hint stype="info" %}
@@ -92,10 +92,10 @@ Vous avez aussi la possibilité de faire un clic droit (sur ordinateur) ou d'app
 
 Vous vous rendez compte que vous avez fait une erreur ? Vous pouvez toujours repasser une suggestion en attente via la commande <mark style="color:orange;">/suggestmod attente</mark>.
 
-Il est également possible de repasser par le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer votre suggestion. Vous aurez ensuite à saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message de la suggestion.
+Il est également possible de repasser par le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer la suggestion concernée. Vous aurez ensuite à saisir l'<mark style="color:blue;">[identifiant](https://docs.draftbot.fr/autres/recuperer-un-identifiant#message)</mark> du message de la suggestion.
 
 {% hint style="info" %}
-Vous avez aussi la possibilité de repasser une suggestion en attente ou en changer la raison en passant depuis le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer votre suggestion.
+Vous avez aussi la possibilité de repasser une suggestion en attente ou en changer la raison en passant depuis le menu "Applications" puis de sélectionner la nouvelle manière dont vous souhaitez classer la suggestion.
 {% endhint %}
 
 ## Configuration
@@ -107,34 +107,34 @@ Vous avez aussi la possibilité de repasser une suggestion en attente ou en chan
 
 * "<mark style="color:blue;">Activer le système</mark>" ➜ Permet d'activer ou désactiver le système.
 * "<mark style="color:blue;">Salon de réception</mark>" ➜ Sert à définir le salon où seront envoyées les suggestions.
-* "Mention" ➜ Paramétrer un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+* "Mention" ➜ Paramètre un rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
 * "Couleur en fonction des votes" ➜ Une fois cette option activée, **DraftBot** changera la couleur de l'embed en fonction du pourcentage de vote pour ou contre.
 
 {% hint stype="info" %}
-Si vous êtes souscrit à un abonnement <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pourrez choisir les couleurs du dégradé, en cliquant sur "✨ Dégradé personnalisé".
+Si vous avez souscrit à un abonnement <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pourrez choisir les couleurs du dégradé, en cliquant sur "✨ Dégradé personnalisé".
 {% endhint %}
 
 ### Réactions 
 
-En cliquant sur le bouton "Réactions", vous aurez accès à ce menu :
+En cliquant sur le bouton "Réactions", vous avez accès à ce menu :
 
 * "Activer le retrait des réactions après traitement" ➜ Une fois la suggestion <mark style="color:blue;">[traitée](suggestions.md#gerer-une-suggestion)</mark>, **DraftBot** retirera les réactions sous la suggestion.
-* "Vote favorable" ➜ Définir l'émoji sous la suggestion pour donner un avis positif.
-* "Vote neutre" ➜ Paramétrer l'émoji sous la suggestion pour de donner un avis neutre.
+* "Vote favorable" ➜ Définit l'émoji sous la suggestion pour donner un avis positif.
+* "Vote neutre" ➜ Paramètre l'émoji sous la suggestion pour de donner un avis neutre.
 
 {% hint stype="info" %}
 Vous pouvez également ne pas définir de vote neutre en cliquant sur "Vote neutre" puis <mark style="color:red;">"Non"</mark>.
 {% endhint %}
 
-* "Vote défavorable" ➜ Permet de définir l'émoji sous la suggestion pour de donner un avis négatif.
+* "Vote défavorable" ➜ Permet de définir l'émoji sous la suggestion pour donner un avis négatif.
 
 ![Configurer les réactions](../.gitbook/assets/suggestions/set_suggestion_reactions.png)
 
 ### Confirmation
 
-En cliquant sur le bouton "Confirmation", vous aurez accès à ce menu :
+En cliquant sur le bouton "Confirmation", vous avez accès à ce menu :
 
-* "Activer la confirmation avant envoi" ➜ Cette option sert à ce que le membre puisse modifier sa suggestion s'il se rend compte qu'il a fait une erreur ou à ajouter une image avant de l'envoyer.
+* "Activer la confirmation avant envoi" ➜ Cette option permet que le membre puisse modifier sa suggestion s'il se rend compte qu'il a fait une erreur. De plus, cela sert à ajouter une image avant d'envoyer définitivement la suggestion en cas d'oubli.
 
 {% hint style="warning" %}
 Si cette option n'est pas activée, il vous sera impossible d'ajouter une image à vos suggestions.
@@ -142,7 +142,7 @@ Si cette option n'est pas activée, il vous sera impossible d'ajouter une image 
 
 ![Message de confirmation lors de l'envoi d'une suggestion](../.gitbook/assets/suggestions/suggestion_confirmation.png)
 
-* "Message de confirmation après envoi" ➜ Vous pouvez définir un message personnalisé qui sera envoyé lorsqu'un membre enverra une nouvelle suggestion.
+* "Message de confirmation après envoi" ➜ Vous pouvez définir un message personnalisé qui sera envoyé lorsqu'un membre envoi une nouvelle suggestion.
 
 {% hint style="info" %}
 Cette option n'est pas désactivable, si vous décidez de ne pas la personnaliser, voici le message qui sera envoyé :
@@ -154,7 +154,7 @@ Cette option n'est pas désactivable, si vous décidez de ne pas la personnalise
 
 ### Tri des suggestions
 
-En cliquant sur le bouton "Tri des suggestions", vous aurez accès à ce menu :
+En cliquant sur le bouton "Tri des suggestions", vous avez accès à ce menu :
 
 * "Activer le tri des suggestions" ➜ Sert à activer / désactiver le tri des suggestions.
 * "Masquer le nom du modérateur" ➜ Cette option sert à masquer le nom de la personne qui aura [géré la suggestion](suggestions.md#gerer-une-suggestion).
@@ -162,27 +162,27 @@ En cliquant sur le bouton "Tri des suggestions", vous aurez accès à ce menu :
 
 ![Menu de configuration des notifications lors du changement de statut](../.gitbook/assets/suggestions/set_suggestion_notification.png)
 
-* "<mark style="color:red;">Désactiver</mark>" ➜ Désactiver le système de notifications lors du changement de statut.
+* "<mark style="color:red;">Désactiver</mark>" ➜ Désactive le système de notifications lors du changement de statut.
 * "<mark style="color:blue;">Mention activée par défaut</mark>" ➜ Une fois cette option activée, les membres seront notifié lors du changement de statut.
-* "Mention désactivée par défaut" ➜ Une fois cette option activée, les membres ne seront pas notifiés lors du changement de statut.
+* "Mention désactivée par défaut" ➜ Une fois cette option désactivée, les membres ne seront pas notifiés lors du changement de statut.
 
 {% hint style="info" %}
-Pour les deux dernières options citées ci-dessus, il sera possible pour vos membres de modifier le paramètre par défaut en passant par "<mark style="color:orange;">/suggest</mark>" puis "Me notifier en cas de changement de statut".
+Pour les deux dernières options citées ci-dessus, il est possible pour vos membres de modifier le paramètre par défaut en passant par "<mark style="color:orange;">/suggest</mark>" puis "Me notifier en cas de changement de statut".
 {% endhint %}
 
-* "<mark style="color:blue;">Définir le fil des suggestions acceptées</mark>" ➜ Une fois le fil défini, toutes les suggestions acceptées se rendront automatiquement dans ce fil.
-* "<mark style="color:blue;">Définir le fil des suggestions refusée</mark>" ➜ Une fois le fil défini, toutes les suggestions refusées se rendront automatiquement dans ce fil.
+* "<mark style="color:blue;">Définit le fil des suggestions acceptées</mark>" ➜ Une fois le fil défini, toutes les suggestions acceptées se rendront automatiquement dans ce fil.
+* "<mark style="color:blue;">Définit le fil des suggestions refusée</mark>" ➜ Une fois le fil défini, toutes les suggestions refusées se rendront automatiquement dans ce fil.
 
 ![Configurer le tri des suggestions](../.gitbook/assets/suggestions/set_suggestion_sorting.png)
 
 ### Membres
 
-En cliquant sur le bouton "Membres", vous aurez accès à ce menu :
+En cliquant sur le bouton "Membres", vous avez accès à ce menu :
 
-* "Limiter les suggestions en attente" ➜ Grâce à ce bouton, vous pouvez décider de limiter le nombre de suggestion que vos membres pourront envoyer. 
+* "Limiter les suggestions en attente" ➜ Grâce à ce bouton, vous pouvez décider de limiter le nombre de suggestion que vos membres peuvent envoyer (sans compter les suggestions acceptées, refusées ou prévues). 
 
 {% hint style="info" %}
-Le nombre de suggestions en simultané peut être compris de **1** à **10**.
+Le nombre de suggestions en simultané peut être compris entre **1** et **10**.
 
 Une fois la suggestion [traitée](suggestions.md#gerer-une-suggestion), elle ne sera plus comptabilisée dans le nombre de suggestions simultanées par membre. 
 
@@ -192,10 +192,10 @@ Une fois la suggestion [traitée](suggestions.md#gerer-une-suggestion), elle ne 
 
 ### ✨ Fils de discussions automatiques
 
-En cliquant sur le bouton "✨ Fils de discussions automatiques", vous aurez accès à ce menu :
+En cliquant sur le bouton "✨ Fils de discussions automatiques", vous avez accès à ce menu :
 
 * "Activer l'ouverture d'un fil" ➜ Une fois cette option activée, **DraftBot** ouvrira un fil sous chaque suggestion soumise.
-* "Modifier le nom du fil" ➜ Vous pourrez modifier le nom du fil qui s'ouvrira sous chaque suggestion.
+* "Modifier le nom du fil" ➜ Vous pouvez modifier le nom du fil qui s'ouvrira sous chaque suggestion.
 
 {% hint style="info" %}
 Vous pouvez mettre différentes variables dans le nom du fil :
@@ -207,7 +207,7 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 - `{user}` ➜ Mention du membre
 - `{user.id}` ➜ Identifiant du membre
 - `{user.username}` ➜ Pseudo du membre
-- `{user.nickname}` ➜ Surnom ou pseudo du membre
+- `{user.nickname}` ➜ Surnom du membre (en l'absence de surnom, affiche le pseudo)
 - `{server}` ➜ Nom du serveur
 - `{server.id}` ➜ Identifiant du serveur
 - `{server.name}` ➜ Nom du serveur
@@ -225,29 +225,29 @@ Les variables sont des bouts de texte qui évoluent suivant la personne, le serv
 {% tab title="Via le panel" %}
 Veuillez d'abord vous rendre sur le <mark style="color:blue;">[panel de **DraftBot**](https://draftbot.fr/dashboard/)</mark> ➜ Suggestions.
 
-Si vous n'avez pas encore configuré le système, vous tomberez sur cette page :  
+Si vous n'avez pas encore configuré le système, vous atterirez sur cette page :  
 
 ![Premier menu lorsque l'on configure le système](../.gitbook/assets/suggestions/dashboard_suggestion.png)
 
-En cliquant sur "Configurer en quelques secondes", vous tomberez sur ce pop-up : 
+En cliquant sur "Configurer en quelques secondes", vous obtiendrez ce pop-up : 
 
 ![Configurer la structure du système de suggestions](../.gitbook/assets/suggestions/dashboard_set_structure.png)
 
-Vous pourrez y configurer la structure de votre système :
+Vous pouvez y configurer la structure de votre système :
 
-* "Salon des suggestions" ➜ Paramétrer le salon dans lequel seront envoyées les suggestions.
+* "Salon des suggestions" ➜ Paramétre le salon dans lequel seront envoyées les suggestions.
 
 {% hint style="info" %}
-La différence entre l'onglet "Créer" et "Sélectionner" est que dans le premier onglet, vous choisirez le nom du salon que **DraftBot** créera et dans le deuxième, vous choisirez un salon déjà créé.  
+La différence entre l'onglet "Créer" et "Sélectionner" est que dans le premier onglet, vous choisissez le nom du salon que **DraftBot** va créer spécifiquement et dans le deuxième, vous choisissez un salon déjà existant sur votre serveur.  
 {% endhint %}
 
-* "Suggestions par membre" ➜ Vous pourrez y limiter le nombre de suggestion <mark style="color:blue;">[non-traitée](suggestions.md#gerer-une-suggestion)</mark> par membre.
-* "Rôle à mentionner" ➜ Paramétrer le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
+* "Suggestions par membre" ➜ Vous pouvez y limiter le nombre de suggestion <mark style="color:blue;">[non-traitée](suggestions.md#gerer-une-suggestion)</mark> par membre.
+* "Rôle à mentionner" ➜ Paramétre le rôle qui sera mentionné lors de l'envoi d'une nouvelle suggestion.
 * "Modération des suggestions" ➜ Une fois cette option activée, les suggestions pourront être [refusées, acceptées ou prévues](suggestions.md#gerer-une-suggestion).
 
-Une fois cela fait, d'autres options de configuration s'offriront à vous :
+Une fois cela fait, d'autres options de configuration s'offrent à vous :
 
-* "Message de confirmation d'une suggestion" ➜ Configurer le message qui s'enverra automatiquement lorsqu'un membre enverra une nouvelle suggestion.
+* "Message de confirmation d'une suggestion" ➜ Configure le message qui s'envoie automatiquement lorsqu'un membre enverra une nouvelle suggestion.
 
 {% hint style="info" %}
 Cette option n'est pas désactivable, si vous décidez de ne pas la personnaliser, voici le message qui sera envoyé :
@@ -255,13 +255,13 @@ Cette option n'est pas désactivable, si vous décidez de ne pas la personnalise
 > Merci de votre suggestion. Elle a été ajoutée aux suggestions du serveur !
 {% endhint %}
 
-* "Réactions" ➜ Paramétrer les différentes réactions pour donner un avis positif, neutre ou négatif.
+* "Réactions" ➜ Paramètre les différentes réactions pour donner un avis positif, neutre ou négatif.
 
 {% hint style="info" %}
 Le vote "neutre" peut être retiré des réactions.
 {% endhint %}
 
-* "Demande de confirmation" ➜ Une fois la suggestion envoyée, **DraftBot** proposera une dernière fois au membre de pouvoir modifier sa suggestion ou encore y ajouter une image.
+* "Demande de confirmation" ➜ Une fois la suggestion envoyée, **DraftBot** proposera une dernière fois au membre de pouvoir modifier sa suggestion ou encore d'y ajouter une image.
 
 {% hint style="warning" %}
 Si cette option n'est pas activée, il vous sera impossible d'ajouter une image à vos suggestions.
@@ -270,10 +270,10 @@ Si cette option n'est pas activée, il vous sera impossible d'ajouter une image 
 * "Variation de la couleur" ➜ Suivant le pourcentage de votes pour ou contre, la couleur variera.
 
 {% hint style="info" %}
-Pour les utilisateurs <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pourrez décider des couleurs.
+Pour les utilisateurs <mark style="color:pink;">[premium](https://draftbot.fr/premium)</mark>, vous pouvez décider des couleurs de variation.
 {% endhint %}
 
-* "Ouverture automatique d'un fil de discussion" (✨) ➜ Paramétrer l'ouverture automatique d'un fil lorsqu'une nouvelle suggestion est envoyée.
+* "Ouverture automatique d'un fil de discussion" (✨) ➜ Paramètre l'ouverture automatique d'un fil lorsqu'une nouvelle suggestion est envoyée.
 
 {% hint style="info" %}
 Vous pouvez mettre différentes variables dans le nom du fil :

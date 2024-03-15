@@ -17,11 +17,11 @@ La variable `raison` bien que facultative, peut être rendue obligatoire par les
 Les administrateurs et modérateurs de tickets disposent des commandes suivantes permettant un contrôle supplémentaire sur les accès aux tickets :
 
 * <mark style="color:orange;">/ticketmod ouvrir </mark> ➜ Permet d'ouvrir un ticket pour un membre dans un objectif de contact privé.
-* <mark style="color:orange;">/ticketmod ajouter </mark> ➜ Permet d'autoriser l'accès au contenu du ticket à un membre quelconque.
+* <mark style="color:orange;">/ticketmod ajouter </mark> ➜ Permet d'ajouter un membre au ticket et de lui donner accès au contenu de ce dernier.
 * <mark style="color:orange;">/ticketmod retirer </mark> ➜ Permet de retirer l'accès au contenu du ticket à un membre.
 
 ### Salon de réception
-Le salon de réception des tickets permet de recevoir les demandes de tickets des membres, qu'elles soient réalisées via l'utilisation de la commande <mark style="color:orange;">/ticket</mark> ou bien via un **message d'ouverture**.
+Le salon de réception des tickets permet de recevoir les demandes de tickets des membres. Les demandes peuvent être réalisées via un **message d'ouverture** disponible sur le salon de votre choix ou bien via l'utilisation de la commande <mark style="color:orange;">/ticket</mark> (la commande peut être entrée depuis un salon autre disposant des permission d'utiliser les commandes de l'application).
 
 {% hint style="info" %}
 La réception des demandes de tickets dans ce salon nécessite obligatoirement que les ouvertures de demandes soient configurées en mode **Manuel**.
@@ -96,7 +96,7 @@ Sur le panel, dans la catégorie **Communautaire**, vous retrouverez sur la part
 Le message d'ouverture permet aux membres de sélectionner une raison d'ouverture prédéfinie à partir d'un bouton ou sélecteur pour demander un ticket. Il peut être utilisé comme alternative ou complément de la commande <mark style="color:orange;">/ticket</mark>.
 Lors de sa première configuration, depuis la commande <mark style="color:orange;">/config</mark> dans la section **Tickets** puis en cliquant sur "Message d'ouverture", vous devrez sélectionner le type de message d'ouverture souhaité :
 
-* **Bouton** ➜ Une seule raison d'ouverture qui se présentera sur le texte du bouton sera configurable via ce mode.
+* **Bouton** ➜ Une seule raison d'ouverture sélectionnable sera configurée via ce mode. Indiquez les différentes raisons possibles avec les textes des boutons.
 
 * **Sélecteur** ➜ Ce mode permet d'ajouter plusieurs raisons d'ouverture de tickets. En suivant les instructions et questions posées par le bot, vous aurez la possibilité de personnaliser le nom des raisons, leurs émojis associés et descriptions.
 

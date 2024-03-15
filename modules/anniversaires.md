@@ -1,12 +1,12 @@
 ---
-description: Avec DraftBot, vous pouvez renseigner votre date d'anniversaire et être informé des prochains à venir !
+description: Renseignez votre date d'anniversaire et soyez informé des prochains à venir grâce à Draftbot !
 ---
 
 # 🎂 Anniversaires
 
 ## Votre anniversaire
 
-Vous pouvez définir votre anniversaire via <mark style="color:blue;">[le panel de Draftbot](https://www.draftbot.fr)</mark> ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffira de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
+Vous pouvez définir votre anniversaire via <mark style="color:blue;">[le panel de Draftbot](https://www.draftbot.fr)</mark> ou avec la commande <mark style="color:orange;">/anniversaire définir \[date] </mark>. Il vous suffit de mettre dans l'argument <mark style="color:orange;">\[date]</mark> votre date d'anniversaire. 
 
 ![Exemple de commande d'anniversaire](../.gitbook/assets/birthday/command_review.png)
 
@@ -57,30 +57,23 @@ Lorsque vous voulez paramétrer le message d'anniversaire, vous pouvez choisir e
 
 
 <details>
+<summary>Variables</summary>
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans le message personnalisé d'anniversaire par DraftBot.
 
-<summary>Variables disponibles</summary>
-
-Membre :
-
-- `{user}` ou `{​users}` ➜ Mention d'un ou plusieurs membres
-
-Serveur :
-
-- `{​server}` ou `{​server.name}` ➜ Nom du serveur
-- `{​server.id}` ➜ Identifiant du serveur
-- `{​server.membercount}` ➜ Nombre de membres sur le serveur
-
-Salon  :
-
+- `{user}` ➜ Mention du membre
+- `{user.id}` ➜ Identifiant du membre
+- `{user.username}` ➜ Pseudo du membre
+- `{user.nickname}` ➜ Surnom du membre (en l'absence de surnom, affiche le pseudo)
+- `{server}` ➜ Nom du serveur
+- `{server.id}` ➜ Identifiant du serveur
+- `{server.name}` ➜ Nom du serveur
+- `{server.membercount}` ➜ Nombre de membres sur le serveur
 - `{​channel}` ➜ Mentions du salon
 - `{​channel.id}` ➜ Identifiant du salon
 - `{​channel.name}` ➜ Nom du salon
-
-Temps :
-
-- `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
-- `{​time}` ➜ Heure actuelle (HH:MM)
-- `{​timestamp}` ➜ Timestamp actuel en secondes
+- `{date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{time}` ➜ Heure actuelle (HH:MM)
+- `{timestamp}` ➜ Timestamp actuel en secondes
 </details>
 {% endhint %}
 
@@ -151,14 +144,14 @@ Comme vous le voyez sous vos yeux, vous avez accès aux fonctionnalités suivant
 
 ## <mark style="color:blue;">Message d'annonce</mark>
 
-Lorsque l'option est activée, vous avez accès à des options de personnalisation ainsi que d'une prévisualisation. Dans les points ci-dessous, se trouvent des descriptions concernant les options personnalisables.
+Lorsque l'option est activée, vous avez accès à des options de personnalisation ainsi qu'à la prévisualisation. Découvrez les options personnalisables plus en détail :
 
-- Avec la première option "Salon", vous pouvez choisir le salon dans lequel le bot enverra l'annonce d'anniversaire.
-- Avec l'aide de la deuxième option "Heure d'envoi", vous pouvez définir l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
-- Grâce à la troisième option "Mention", vous pouvez décider de mentionner un rôle dans le message d'annonce.
-- Pour finir, avec le bouton "Rôles autorisés/interdits", vous autorisez/bloquez l'annonce d'un anniversaire à tous les membres qui possède au moins un des rôles autorisés ou interdits.
+- Avec la première option "Salon", choisissez le salon dans lequel le bot enverra l'annonce d'anniversaire.
+- Avec l'aide de la deuxième option "Heure d'envoi", définissez l'heure à laquelle le message d'annonce d'anniversaire sera envoyé dans le salon que vous aurez défini au préalable. 
+- Grâce à la troisième option "Mention", mentionnez un rôle dans le message d'annonce.
+- Pour finir, avec le bouton "Rôles autorisés/interdits", autorisez/bloquez l'annonce d'un anniversaire à tous les membres qui possède au moins un des rôles autorisés ou interdits.
 
-N'oubliez pas que vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
+Vous pouvez cliquer sur les boutons interdits/autorisés pour bien définir la fonctionnalité que vous souhaitez utiliser.
 
 ![Aperçu des boutons autorisés / interdits](../.gitbook/assets/birthday/birthday_config_role_access.png)
 
@@ -169,53 +162,46 @@ Lorsque vous voulez paramétrer le message d'anniversaire, vous pouvez choisir e
 
 
 <details>
+<summary>Variables</summary>
+Les variables sont des bouts de texte qui évoluent suivant la personne, le serveur, le salon ou encore le temps. Voici celles utilisables dans le message personnalisé d'anniversaire par DraftBot.
 
-<summary>Variables disponibles</summary>
-
-Membre :
-
-- `{user}` ou `{​users}` ➜ Mention d'un ou plusieurs membres
-
-Serveur :
-
-- `{​server}` ou `{​server.name}` ➜ Nom du serveur
-- `{​server.id}` ➜ Identifiant du serveur
-- `{​server.membercount}` ➜ Nombre de membres sur le serveur
-
-Salon  :
-
+- `{user}` ➜ Mention du membre
+- `{user.id}` ➜ Identifiant du membre
+- `{user.username}` ➜ Pseudo du membre
+- `{user.nickname}` ➜ Surnom du membre (en l'absence de surnom, affiche le pseudo)
+- `{server}` ➜ Nom du serveur
+- `{server.id}` ➜ Identifiant du serveur
+- `{server.name}` ➜ Nom du serveur
+- `{server.membercount}` ➜ Nombre de membres sur le serveur
 - `{​channel}` ➜ Mentions du salon
 - `{​channel.id}` ➜ Identifiant du salon
 - `{​channel.name}` ➜ Nom du salon
-
-Temps :
-
-- `{​date}` ➜ Date actuelle (JJ/MM/AAAA)
-- `{​time}` ➜ Heure actuelle (HH:MM)
-- `{​timestamp}` ➜ Timestamp actuel en secondes
+- `{date}` ➜ Date actuelle (JJ/MM/AAAA)
+- `{time}` ➜ Heure actuelle (HH:MM)
+- `{timestamp}` ➜ Timestamp actuel en secondes
 </details>
 {% endhint %}
 
 ## <mark style="color:blue;">Rôle temporaire</mark>
 
-Avec l'option <mark style="color:blue;">"Rôle temporaire"</mark>, vous pouvez gérer le fait d'un membre recevra un rôle exclusif uniquement le jour de son anniversaire.
+Avec l'option <mark style="color:blue;">"Rôle temporaire"</mark>, vous pouvez gérer le fait d'un membre reçoive un rôle exclusif uniquement le jour de son anniversaire.
 
-- Grâce à l'option "Rôle temporaire", vous pouvez choisir un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
-- Avec le bouton "Rôles autorisés/interdits", vous pouvez activer/désactiver la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisé/interdit.
+- Grâce à l'option "Rôle temporaire", choisissez un rôle temporaire qui mettra en avant le membre qui fêtera son anniversaire. Celui-ci conservera temporairement le rôle jusqu'à la fin de la journée.
+- Avec le bouton "Rôles autorisés/interdits", activez/désactivez la possibilité qu'un membre récupère le rôle temporaire le jour de son anniversaire grâce à un rôle autorisé/interdit.
 
 ## <mark style="color:blue;">Cadeaux d'anniversaire</mark>
 
 Proposez une magnifique surprise à vos membres le jour de leur anniversaire ! Ils seront sûrement ravis par votre générosité !
 
-En cliquant sur le bouton "Créer", vous pouvez choisir entre les quatre options dans le menu déroulant pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire :
+En cliquant sur le bouton "Créer", faites votre choix parmi les quatre options dans le menu déroulant pour créer une récompense ou un cadeau à offrir à vos membres qui fêteront leur anniversaire :
 
 Dans le menu déroulant, vous avez accès à plusieurs options, vous pouvez lire leurs explications ci-dessous :
 
-- La première option du menu déroulant "Expérience", vous pouvez donner de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark> en cadeau à un membre.
+- La première option du menu déroulant "Expérience", donnez de l'<mark style="color:blue;">[expérience](https://docs.draftbot.fr/modules/niveaux)</mark> en cadeau à un membre.
     
-- Avec la deuxième option du menu déroulant "Monnaie", vous permet de donner de l'argent au membre qui fêtera son anniversaire. Vous pouvez vous référer au <mark style="color:blue;">[système d'économie](economie.md)</mark> au système d'économie.
-- Grâce à la troisième option "Objet d'inventaire", vous pouvez donner un <mark style="color:blue;">[objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
-- La dernière option "Personnalisés", vous permet d'envoyer un message privé à la personne qui fête son anniversaire, cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
+- Avec la deuxième option du menu déroulant "Monnaie", donnez de l'argent au membre qui fêtera son anniversaire. Vous pouvez vous référer au <mark style="color:blue;">[système d'économie](economie.md)</mark> au système d'économie.
+- Grâce à la troisième option "Objet d'inventaire", donnez un <mark style="color:blue;">[objet d'inventaire](https://docs.draftbot.fr/modules/economie#objets-dinventaire)</mark> à la personne qui fête son anniversaire.  
+- La dernière option "Personnalisés", envoyez un message privé à la personne qui fête son anniversaire. Cette fonctionnalité est pratique si par exemple, vous souhaitez lui offrir un Nitro ou alors juste lui écrire un petit message.
 
 ## <mark style="color:blue;">Annonces personnalisées *(Avantage premium ✨)*</mark>
 
