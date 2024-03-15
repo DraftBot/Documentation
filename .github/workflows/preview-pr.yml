@@ -5,7 +5,6 @@ on:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
 
-# make sure only one workflow runs at the same time
 concurrency:
   group: "preview"
   cancel-in-progress: false
@@ -19,49 +18,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      # - name: Create Check Run 🔍
-      #   id: create_check
-      #   uses: actions/github-script@v5
-      #   with:
-      #     github-token: ${{secrets.GITHUB_TOKEN}}
-      #     script: |
-      #       const response = await github.rest.checks.create({
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         name: 'Documentation Preview Deployment',
-      #         head_sha: context.payload.pull_request.head.sha,
-      #         status: 'in_progress',
-      #         started_at: new Date(),
-      #       });
-      #       return {
-      #         id: response.data.id
-      #       };
-
-
-      # - name: Update Check Run with Preview URL 📬
-      #   if: always()
-      #   uses: actions/github-script@v5
-      #   with:
-      #     github-token: ${{secrets.GITHUB_TOKEN}}
-      #     script: |
-      #       const prNumber = context.payload.pull_request.number;
-      #       const previewUrl = `https://draftbot.github.io/Doc-preview/docs/PR-${prNumber}/`;
-      #       const checkRunId = ${{ steps.create_check.outputs.result.id }};
-
-      #       await github.rest.checks.update({
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         check_run_id: checkRunId,
-      #         completed_at: new Date(),
-      #         status: 'completed',
-      #         conclusion: 'success',
-      #         output: {
-      #           title: 'Preview Deployment Completed',
-      #           summary: 'The documentation preview has been successfully deployed.',
-      #           text: `[Preview URL](${previewUrl})`
-      #         }
-      #       });
-
       - name: Checkout Documentation Repo 🛎
         uses: actions/checkout@v2
         with:
@@ -98,19 +54,13 @@ jobs:
         run: |
           PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
           PR_PATH="content/docs/pr-$PR_NUMBER"
+          ASSETS_PATH="public/images/pr-$PR_NUMBER"
+          rm -rf Doc-Preview/$PR_PATH
+          rm -rf oc-Preview/$ASSETS_PATH
           mkdir -p Doc-Preview/$PR_PATH
-          cp -r Documentation/* Doc-Preview/$PR_PATH
-          ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
           mkdir -p Doc-Preview/$ASSETS_PATH
+          cp -r Documentation/* Doc-Preview/$PR_PATH
           cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
-
-      # - name: Commit and Push Changes 📇
-      #   run: |
-      #     git config user.name "github-actions"
-      #     git config user.email "github-actions@github.com"
-      #     git add .
-      #     git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
-      #     git push origin gh-pages
 
       - name: Install dependencies 👨🏻‍💻
         working-directory: Doc-Preview
@@ -131,7 +81,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}/docs/pr-${{ github.event.pull_request.number }}
 
     runs-on: ubuntu-latest
     steps:
