@@ -124,6 +124,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           path: ./Doc-Preview/.output/public
+          name: 'github-pages'
 
   deploy:
     needs: build
