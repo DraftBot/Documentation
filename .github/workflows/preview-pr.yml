@@ -51,7 +51,8 @@ jobs:
           echo "::set-output name=commits::$pr_commits"
 
       - name: Show PR commits
-        run: echo "Commits: ${{ steps.pr_commits.outputs.commits }}"
+        run: |
+          echo "Commits: ${{ steps.pr_commits.outputs.commits }}"
 
       - name: Git diff
         run: git diff ${{ steps.pr_commits.outputs.commits }}
