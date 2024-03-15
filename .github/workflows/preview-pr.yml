@@ -50,13 +50,15 @@ jobs:
         id: most-changed
         working-directory: Documentation
         run: |
-          if git rev-parse HEAD^ >/dev/null 2>&1; then
-            git diff --name-only HEAD^ HEAD > changed_files.txt
-          else
-            git diff --name-only HEAD~1 HEAD > changed_files.txt
-          fi
+          git fetch origin pull/${{ github.event.pull_request.number }}/head:pr_head
+          last_commit=$(git rev-parse pr_head)
+          git diff --name-only $last_commit^ $last_commit > changed_files.txt
           cat changed_files.txt | grep ".md" > md_files.txt
-          echo "::set-output name=most_changed_file::$(head -n 1 md_files.txt)"
+          if [ -s md_files.txt ]; then
+            echo "::set-output name=most_changed_file::$(head -n 1 md_files.txt)"
+          else
+            echo "::set-output name=most_changed_file::"
+          fi
 
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
