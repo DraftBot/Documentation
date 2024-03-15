@@ -103,7 +103,6 @@ jobs:
           ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
           mkdir -p Doc-Preview/$ASSETS_PATH
           cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
-          cd Doc-Preview
 
       # - name: Commit and Push Changes 📇
       #   run: |
@@ -112,6 +111,9 @@ jobs:
       #     git add .
       #     git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
       #     git push origin gh-pages
+
+      - name: Change directory to Doc-Preview 📂
+        run: cd Doc-Preview
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn install
