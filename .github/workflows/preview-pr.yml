@@ -46,11 +46,12 @@ jobs:
           path: 'Doc-Preview'
           fetch-depth: 0
 
-      - name: Determine Most Changed Markdown File
+      - name: Determine most changed file
         id: most-changed
         run: |
-          MOST_CHANGED_FILE=$(git log --format=format: --name-only --diff-filter=A | grep '\.md$' | sort | uniq -c | sort -rn | head -1 | awk '{print $2}')
-          echo "::set-output name=most_changed_file::$MOST_CHANGED_FILE"
+          git diff --name-only HEAD^ HEAD > changed_files.txt
+          cat changed_files.txt | grep ".md" > md_files.txt
+          echo "::set-output name=most_changed_file::$(head -n 1 md_files.txt)"
 
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
@@ -83,7 +84,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}/docs/pr-${{ github.event.pull_request.number }}/${{ steps.most-changed.outputs.most_changed_file }}
+      url: ${{ steps.deployment.outputs.page_url }}docs/pr-${{ github.event.pull_request.number }}/${{ steps.most-changed.outputs.most_changed_file }}
 
     runs-on: ubuntu-latest
     steps:
