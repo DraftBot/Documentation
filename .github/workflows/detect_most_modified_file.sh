@@ -2,7 +2,7 @@
 
 base_ref=$1
 current_branch=$(git rev-parse --abbrev-ref HEAD)
-base_sha=$(git rev-parse origin/$base_ref)
+base_sha=$(git rev-parse remotes/origin/$base_ref)
 diff_output=$(git diff --name-only "$base_sha" "$current_branch")
 
 most_modified_file=""
