@@ -15,7 +15,7 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build-and-preview:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Documentation Repo 🛎
