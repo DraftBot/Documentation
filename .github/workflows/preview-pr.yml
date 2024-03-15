@@ -103,10 +103,10 @@ jobs:
           ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
           mkdir -p Doc-Preview/$ASSETS_PATH
           cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
+          cd Doc-Preview
 
       # - name: Commit and Push Changes 📇
       #   run: |
-      #     cd Doc-Preview
       #     git config user.name "github-actions"
       #     git config user.email "github-actions@github.com"
       #     git add .
