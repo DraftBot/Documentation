@@ -98,12 +98,11 @@ jobs:
         run: |
           PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
           PR_PATH="content/docs/pr-$PR_NUMBER"
-          ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
           mkdir -p Doc-Preview/$PR_PATH
-          mkdir -p Doc-Preview/$ASSETS_PATH
           cp -r Documentation/* Doc-Preview/$PR_PATH
-          ls -la Doc-Preview/$PR_PATH
-          mv Doc-Preview/$PR_PATH/.assets/ Doc-Preview/$ASSETS_PATH
+          ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
+          mkdir -p Doc-Preview/$ASSETS_PATH
+          cp -r Documentatiion/.assets/ Doc-Preview/$ASSETS_PATH
 
       # - name: Commit and Push Changes 📇
       #   run: |
