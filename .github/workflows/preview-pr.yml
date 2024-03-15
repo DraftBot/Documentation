@@ -102,7 +102,7 @@ jobs:
           mkdir -p Doc-Preview/$PR_PATH
           mkdir -p Doc-Preview/$ASSETS_PATH
           cp -r Documentation/* Doc-Preview/$PR_PATH/
-          mv -r Doc-Preview/$PR_PATH/.assets/ Doc-Preview/$ASSETS_PATH/.assets/
+          mv Doc-Preview/$PR_PATH/.assets/ Doc-Preview/$ASSETS_PATH/.assets/
 
       # - name: Commit and Push Changes 📇
       #   run: |
