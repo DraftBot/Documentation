@@ -52,10 +52,9 @@ jobs:
         run: |
           git fetch origin pull/${{ github.event.pull_request.number }}/head:pr_head
           last_commit=$(git rev-parse pr_head)
-          git diff --name-only $last_commit^ $last_commit > changed_files.txt
-          cat changed_files.txt | grep ".md" > md_files.txt
-          if [ -s md_files.txt ]; then
-            echo "::set-output name=most_changed_file::$(head -n 1 md_files.txt)"
+          md_files=$(git diff --name-only $last_commit^ $last_commit | grep ".md")
+          if [ -n "$md_files" ]; then
+            echo "::set-output name=most_changed_file::$(echo "$md_files" | head -n 1)"
           else
             echo "::set-output name=most_changed_file::"
           fi
