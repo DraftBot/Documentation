@@ -50,7 +50,7 @@ jobs:
         id: detect_file
         working-directory: Documentation
         run: |
-          chmod +x detect_most_modified_file.sh
+          chmod +x ./.github/workflows/detect_most_modified_file.sh
           most_modified_file_path=$(./.github/workflows/detect_most_modified_file.sh)
           echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
