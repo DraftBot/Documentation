@@ -46,18 +46,30 @@ jobs:
           path: 'Doc-Preview'
           fetch-depth: 0
 
-      - name: Determine most changed file
-        id: most-changed
-        working-directory: Documentation
+      - name: Obtention des fichiers modifiés
+        id: get_changed_files
+        run: echo "::set-output name=files::$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})"
+
+      - name: Analyse des fichiers modifiés
+        id: analyze_files
         run: |
-          git checkout -B pr_head FETCH_HEAD
-          last_commit=$(git rev-parse pr_head)
-          md_files=$(git diff --name-only $last_commit^ $last_commit | grep ".md")
-          if [ -n "$md_files" ]; then
-            echo "::set-output name=most_changed_file::$(echo "$md_files" | head -n 1)"
-          else
-            echo "::set-output name=most_changed_file::"
-          fi
+          files=$(echo "${{ steps.get_changed_files.outputs.files }}")
+          IFS=$'\n' read -r -a file_list <<< "$files"
+          max_changes=0
+          most_changed_file=""
+          for file in "${file_list[@]}"; do
+            changes=$(git diff --shortstat ${{ github.event.before }} ${{ github.sha }} -- "$file" | grep -E "files? changed" | awk '{print $1}')
+            if [[ $changes -gt $max_changes ]]; then
+              max_changes=$changes
+              most_changed_file=$file
+            fi
+          done
+          echo "::set-output name=most_changed_file::$most_changed_file"
+          echo "::set-output name=max_changes::$max_changes"
+
+      - name: Affichage du fichier le plus modifié
+        run: |
+          echo "Le fichier le plus modifié est ${{ steps.analyze_files.outputs.most_changed_file }} avec ${{ steps.analyze_files.outputs.max_changes }} changements."
 
       - name: Create PR Specific Directory and Copy Documentation 📂
         run: |
