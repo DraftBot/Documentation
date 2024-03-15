@@ -25,6 +25,7 @@
 - [❕ Commandes d'informations](modules/commandes-informations.md)
 - [🎉 Commandes de jeux & fun](modules/commandes-jeux-fun.md)
 - [⏰ Rappel](modules/rappel.md)
+- [⭐ Starboards](modules/starboards.md)
 - [🧿 Rôles-réactions](modules/roles-reactions.md)
 - [🚨 Signalements](modules/reports.md)
 - [💬 Gestion des messages](modules/gestion-des-messages.md)
