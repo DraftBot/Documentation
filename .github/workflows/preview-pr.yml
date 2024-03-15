@@ -48,12 +48,9 @@ jobs:
 
       - name: Determine most changed file
         id: most-changed
+        working-directory: Documentation
         run: |
-          if git show-ref --quiet --verify "refs/heads/$GITHUB_BASE_REF"; then
-            git diff --name-only HEAD^ HEAD > changed_files.txt
-          else
-            git diff --name-only HEAD~1 HEAD > changed_files.txt
-          fi
+          git diff --name-only HEAD^ HEAD > changed_files.txt
           cat changed_files.txt | grep ".md" > md_files.txt
           echo "::set-output name=most_changed_file::$(head -n 1 md_files.txt)"
 
