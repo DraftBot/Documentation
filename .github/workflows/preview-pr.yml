@@ -101,7 +101,7 @@ jobs:
           ASSETS_PATH="public/images/pr-$PR_NUMBER/.assets"
           mkdir -p Doc-Preview/$PR_PATH
           mkdir -p Doc-Preview/$ASSETS_PATH
-          ls -la Documentation/$PR_PATH
+          ls -la Documentation/
           cp -r Documentation/* Doc-Preview/$PR_PATH
           cp -r Documentatiion/.assets/ Doc-Preview/$ASSETS_PATH
 
