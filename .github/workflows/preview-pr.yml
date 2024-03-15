@@ -1,0 +1,92 @@
+name: Document Preview Deployment
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+  workflow_dispatch:
+
+concurrency:
+  group: "preview"
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Documentation Repo 🛎
+        uses: actions/checkout@v2
+        with:
+          path: 'Documentation'
+          fetch-depth: 0
+
+      - name: Setup node env 🏗
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.9.0
+          check-latest: true
+
+      - name: Cache node_modules 📦
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+            path: ~/.yarn
+            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+            restore-keys: |
+                ${{ runner.os }}-yarn-
+
+      - name: Run script to detect most modified file
+        id: detect_file
+        working-directory: Documentation
+        run: |
+          chmod +x ./.github/workflows/detect_most_modified_file.sh
+          most_modified_file_path=$(./.github/workflows/detect_most_modified_file.sh ${{ github.base_ref }})
+          echo "::set-output name=most_modified_file_path::$most_modified_file_path"
+
+      - name: Checkout Doc-Preview Repo 🔄
+        uses: actions/checkout@v2
+        with:
+          repository: 'DraftBot/Doc-preview'
+          token: ${{ secrets.DOC_PREVIEW_PAT }}
+          path: 'Doc-Preview'
+          fetch-depth: 0
+
+      - name: Create PR Specific Directory and Copy Documentation 📂
+        run: |
+          PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
+          PR_PATH="content/docs/pr-$PR_NUMBER"
+          ASSETS_PATH="public/images/pr-$PR_NUMBER"
+          rm -rf Doc-Preview/$PR_PATH
+          rm -rf oc-Preview/$ASSETS_PATH
+          mkdir -p Doc-Preview/$PR_PATH
+          mkdir -p Doc-Preview/$ASSETS_PATH
+          cp -r Documentation/* Doc-Preview/$PR_PATH
+          cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
+
+      - name: Install dependencies 👨🏻‍💻
+        working-directory: Doc-Preview
+        run: yarn install --cache-folder ~/.yarn
+
+      - name: Build Documentation Preview 🪜
+        working-directory: Doc-Preview
+        run: npx nuxt build --preset github_pages
+
+      - name: Upload artifact 📦
+        uses: actions/upload-pages-artifact@v3
+        with:
+          name: 'github-pages'
+          path: Doc-Preview/.output/public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          preview: true
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}docs/pr-${{ github.event.pull_request.number }}/${{ steps.detect_file.outputs.most_modified_file_path }}
