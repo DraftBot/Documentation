@@ -50,7 +50,7 @@ jobs:
         id: most-changed
         working-directory: Documentation
         run: |
-          git fetch origin pull/${{ github.event.pull_request.number }}/head:pr_head
+          git checkout -B pr_head FETCH_HEAD
           last_commit=$(git rev-parse pr_head)
           md_files=$(git diff --name-only $last_commit^ $last_commit | grep ".md")
           if [ -n "$md_files" ]; then
