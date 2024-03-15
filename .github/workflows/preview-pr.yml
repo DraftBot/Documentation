@@ -23,6 +23,7 @@ jobs:
         with:
           path: 'Documentation'
           fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup node env 🏗
         uses: actions/setup-node@v4
