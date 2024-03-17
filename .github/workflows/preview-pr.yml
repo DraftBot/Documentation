@@ -47,7 +47,6 @@ jobs:
           node-version: 20
           check-latest: true
           cache: "yarn"
-          cache-dependency-path: Doc-preview/yarn.lock
 
       - name: Install dependencies
         working-directory: Doc-Preview
