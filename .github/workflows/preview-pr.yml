@@ -19,26 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Documentation Repo 🛎
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: 'Documentation'
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup node env 🏗
+      - name: Setup node env
         uses: actions/setup-node@v4
         with:
-          node-version: 20.9.0
-          check-latest: true
+          node-version: 20
+          cache: "yarn"
 
-      - name: Cache node_modules 📦
-        uses: actions/cache@v3
-        id: yarn-cache
-        with:
-            path: ~/.yarn
-            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-            restore-keys: |
-                ${{ runner.os }}-yarn-
+      - name: Install dependencies
+        working-directory: Doc-Preview
+        run: yarn install --cache-folder ~/.yarn
 
       - name: Run script to detect most modified file
         id: detect_file
@@ -48,7 +43,7 @@ jobs:
           most_modified_file_path=$(./.github/workflows/detect_most_modified_file.sh ${{ github.base_ref }})
           echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
-      - name: Checkout Doc-Preview Repo 🔄
+      - name: Checkout Doc-Preview Repo
         uses: actions/checkout@v2
         with:
           repository: 'DraftBot/Doc-preview'
@@ -56,7 +51,7 @@ jobs:
           path: 'Doc-Preview'
           fetch-depth: 0
 
-      - name: Create PR Specific Directory and Copy Documentation 📂
+      - name: Create PR Specific Directory and Copy Documentation
         run: |
           PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
           PR_PATH="content/docs/pr-$PR_NUMBER"
@@ -68,15 +63,11 @@ jobs:
           cp -r Documentation/* Doc-Preview/$PR_PATH
           cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
 
-      - name: Install dependencies 👨🏻‍💻
-        working-directory: Doc-Preview
-        run: yarn install --cache-folder ~/.yarn
-
-      - name: Build Documentation Preview 🪜
+      - name: Build Documentation Preview
         working-directory: Doc-Preview
         run: npx nuxt build --preset github_pages
 
-      - name: Upload artifact 📦
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           name: 'github-pages'
