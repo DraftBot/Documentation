@@ -25,16 +25,6 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup node env
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: "yarn"
-
-      - name: Install dependencies
-        working-directory: Doc-Preview
-        run: yarn install --cache-folder ~/.yarn
-
       - name: Run script to detect most modified file
         id: detect_file
         working-directory: Documentation
@@ -44,12 +34,24 @@ jobs:
           echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
       - name: Checkout Doc-Preview Repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           repository: 'DraftBot/Doc-preview'
           token: ${{ secrets.DOC_PREVIEW_PAT }}
           path: 'Doc-Preview'
           fetch-depth: 0
+
+      - name: Setup node env
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          check-latest: true
+          cache: "yarn"
+          cache-dependency-path: Doc-preview/yarn.lock
+
+      - name: Install dependencies
+        working-directory: Doc-Preview
+        run: yarn install --immutable --cache-folder ~/.yarn
 
       - name: Create PR Specific Directory and Copy Documentation
         run: |
