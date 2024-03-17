@@ -20,8 +20,9 @@ jobs:
           node-version: 20
 
       - name: markdownlint-cli
-        uses: nosborn/github-action-markdown-cli@v3.3.0
+        uses: DavidAnson/markdownlint-cli2-action@v15
         with:
-          files: .
+          globs: '**/*.md'
+          fix: true
 
       - uses: autofix-ci/action@d3e591514b99d0fca6779455ff8338516663f7cc
