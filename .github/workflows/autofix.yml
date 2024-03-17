@@ -20,6 +20,6 @@ jobs:
           node-version: 20
 
       - name: Lint
-        run: npx markdownlint --fix "**/*.md"
+        run: npx markdownlint-cli --fix "**/*.md"
 
       - uses: autofix-ci/action@d3e591514b99d0fca6779455ff8338516663f7cc
