@@ -19,7 +19,9 @@ jobs:
         with:
           node-version: 20
 
-      - name: Lint
-        run: npx markdownlint-cli --fix "**/*.md"
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v3.3.0
+        with:
+          files: .
 
       - uses: autofix-ci/action@d3e591514b99d0fca6779455ff8338516663f7cc
