@@ -29,8 +29,8 @@ jobs:
         id: detect_file
         working-directory: Documentation
         run: |
-          chmod +x ./.github/workflows/detect_most_modified_file.sh
-          most_modified_file_path=$(./.github/workflows/detect_most_modified_file.sh ${{ github.base_ref }})
+          chmod +x ./.github/detect_most_modified_file.sh
+          most_modified_file_path=$(./.github/detect_most_modified_file.sh ${{ github.base_ref }})
           echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
       - name: Checkout Doc-Preview Repo

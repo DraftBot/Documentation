@@ -10,7 +10,7 @@ permissions:
   contents: read
 
 jobs:
-  docs:
+  markdownlint:
     runs-on: ubuntu-latest
 
     steps:
