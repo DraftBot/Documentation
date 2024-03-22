@@ -79,6 +79,7 @@ jobs:
             git config user.email "github-actions@github.com"
             git add .
             git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
+            git push
 
       - name: Install dependencies
         working-directory: Doc-Preview
