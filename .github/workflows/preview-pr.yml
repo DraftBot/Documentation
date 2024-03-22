@@ -72,6 +72,18 @@ jobs:
           cp -r Documentation/* Doc-Preview/$PR_PATH
           cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
 
+      - name: Commit and Push Changes
+        working-directory: Doc-Preview
+        run: |
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add .
+            git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
+
+      - name: Install dependencies
+        working-directory: Doc-Preview
+        run: yarn install --cache-folder ~/.yarn
+
       - name: Build Documentation Preview
         working-directory: Doc-Preview
         run: npx nuxt build --preset github_pages
