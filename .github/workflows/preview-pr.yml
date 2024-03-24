@@ -66,7 +66,7 @@ jobs:
           PR_PATH="content/docs/pr-$PR_NUMBER"
           ASSETS_PATH="public/images/pr-$PR_NUMBER"
           rm -rf Doc-Preview/$PR_PATH
-          rm -rf oc-Preview/$ASSETS_PATH
+          rm -rf Doc-Preview/$ASSETS_PATH
           mkdir -p Doc-Preview/$PR_PATH
           mkdir -p Doc-Preview/$ASSETS_PATH
           cp -r Documentation/* Doc-Preview/$PR_PATH
