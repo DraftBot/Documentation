@@ -5,7 +5,6 @@ on:
     types: [opened, synchronize, reopened]
   workflow_dispatch:
 
-# make sure only one workflow runs at the same time
 concurrency:
   group: "preview"
   cancel-in-progress: false
@@ -16,125 +15,92 @@ permissions:
   id-token: write
 
 jobs:
-  build:
+  build-and-preview:
     runs-on: ubuntu-latest
     steps:
-      # - name: Create Check Run 🔍
-      #   id: create_check
-      #   uses: actions/github-script@v5
-      #   with:
-      #     github-token: ${{secrets.GITHUB_TOKEN}}
-      #     script: |
-      #       const response = await github.rest.checks.create({
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         name: 'Documentation Preview Deployment',
-      #         head_sha: context.payload.pull_request.head.sha,
-      #         status: 'in_progress',
-      #         started_at: new Date(),
-      #       });
-      #       return {
-      #         id: response.data.id
-      #       };
-
-
-      # - name: Update Check Run with Preview URL 📬
-      #   if: always()
-      #   uses: actions/github-script@v5
-      #   with:
-      #     github-token: ${{secrets.GITHUB_TOKEN}}
-      #     script: |
-      #       const prNumber = context.payload.pull_request.number;
-      #       const previewUrl = `https://draftbot.github.io/Doc-preview/docs/PR-${prNumber}/`;
-      #       const checkRunId = ${{ steps.create_check.outputs.result.id }};
-
-      #       await github.rest.checks.update({
-      #         owner: context.repo.owner,
-      #         repo: context.repo.repo,
-      #         check_run_id: checkRunId,
-      #         completed_at: new Date(),
-      #         status: 'completed',
-      #         conclusion: 'success',
-      #         output: {
-      #           title: 'Preview Deployment Completed',
-      #           summary: 'The documentation preview has been successfully deployed.',
-      #           text: `[Preview URL](${previewUrl})`
-      #         }
-      #       });
-
       - name: Checkout Documentation Repo 🛎
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           path: 'Documentation'
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup node env 🏗
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20.9.0
-          check-latest: true
+      - name: Run script to detect most modified file
+        id: detect_file
+        working-directory: Documentation
+        run: |
+          chmod +x ./.github/detect_most_modified_file.sh
+          most_modified_file_path=$(./.github/detect_most_modified_file.sh ${{ github.base_ref }})
+          echo "::set-output name=most_modified_file_path::$most_modified_file_path"
 
-      - name: Get yarn cache directory path 🛠
-        id: yarn-cache-dir-path
-        run: echo "::set-output name=dir::$(yarn cache dir)"
-
-      - name: Cache node_modules 📦
-        uses: actions/cache@v3
-        id: yarn-cache
-        with:
-            path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-            restore-keys: |
-                ${{ runner.os }}-yarn-
-
-      - name: Checkout Doc-Preview Repo 🔄
-        uses: actions/checkout@v2
+      - name: Checkout Doc-Preview Repo
+        uses: actions/checkout@v4
         with:
           repository: 'DraftBot/Doc-preview'
           token: ${{ secrets.DOC_PREVIEW_PAT }}
           path: 'Doc-Preview'
           fetch-depth: 0
 
-      - name: Create PR Specific Directory and Copy Documentation 📂
+      - name: Setup node env
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          check-latest: true
+
+      - name: Cache node_modules
+        uses: actions/cache@v3
+        id: yarn-cache
+        with:
+            path: ~/.yarn
+            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+            restore-keys: |
+                ${{ runner.os }}-yarn-
+
+      - name: Install dependencies
+        working-directory: Doc-Preview
+        run: yarn install --immutable --cache-folder ~/.yarn
+
+      - name: Create PR Specific Directory and Copy Documentation
         run: |
           PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
-          PR_PATH="/content/docs/pr-$PR_NUMBER"
-          ASSETS_PATH="/public/images/pr-$PR_NUMBER"
+          PR_PATH="content/docs/pr-$PR_NUMBER"
+          ASSETS_PATH="public/images/pr-$PR_NUMBER"
+          rm -rf Doc-Preview/$PR_PATH
+          rm -rf oc-Preview/$ASSETS_PATH
           mkdir -p Doc-Preview/$PR_PATH
           mkdir -p Doc-Preview/$ASSETS_PATH
-          cp -r Documentation/* Doc-Preview/$PR_PATH/
-          mv Doc-Preview/$PR_PATH/.assets/ Doc-Preview/$ASSETS_PATH/.assets/
+          cp -r Documentation/* Doc-Preview/$PR_PATH
+          cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
 
-      # - name: Commit and Push Changes 📇
-      #   run: |
-      #     cd Doc-Preview
-      #     git config user.name "github-actions"
-      #     git config user.email "github-actions@github.com"
-      #     git add .
-      #     git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
-      #     git push origin gh-pages
+      - name: Commit and Push Changes
+        working-directory: Doc-Preview
+        run: |
+            git config user.name "github-actions"
+            git config user.email "github-actions@github.com"
+            git add .
+            git commit -m "Deploying preview for PR ${{ github.event.pull_request.number }}" -a || echo "No changes to commit."
+            git push
 
-      - name: Install dependencies 👨🏻‍💻
-        run: yarn install
+      - name: Install dependencies
+        working-directory: Doc-Preview
+        run: yarn install --cache-folder ~/.yarn
 
-      - name: Build Documentation Preview 🪜
+      - name: Build Documentation Preview
+        working-directory: Doc-Preview
         run: npx nuxt build --preset github_pages
 
-      - name: Upload artifact 📦
-        uses: actions/upload-pages-artifact@v1
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.output/public
+          name: 'github-pages'
+          path: Doc-Preview/.output/public
 
-  deploy:
-    needs: build
-
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
         with:
           preview: true
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}docs/pr-${{ github.event.pull_request.number }}/${{ steps.detect_file.outputs.most_modified_file_path }}
