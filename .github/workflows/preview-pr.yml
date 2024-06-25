@@ -64,13 +64,18 @@ jobs:
         run: |
           PR_NUMBER=$(echo ${{ github.event.pull_request.number }})
           PR_PATH="content/docs/pr-$PR_NUMBER"
-          ASSETS_PATH="public/images/pr-$PR_NUMBER"
+          OLD_ASSETS_PATH="public/images/pr-$PR_NUMBER"
           rm -rf Doc-Preview/$PR_PATH
-          rm -rf Doc-Preview/$ASSETS_PATH
+          rm -rf Doc-Preview/$OLD_ASSETS_PATH
           mkdir -p Doc-Preview/$PR_PATH
-          mkdir -p Doc-Preview/$ASSETS_PATH
+
+          # For compatibility with the old assets
+          if [ -d Documentation/.assets ]; then
+            mkdir -p Doc-Preview/$OLD_ASSETS_PATH
+            cp -r Documentation/.assets/ Doc-Preview/$OLD_ASSETS_PATH
+          fi
+
           cp -r Documentation/* Doc-Preview/$PR_PATH
-          cp -r Documentation/.assets/ Doc-Preview/$ASSETS_PATH
 
       - name: Commit and Push Changes
         working-directory: Doc-Preview
