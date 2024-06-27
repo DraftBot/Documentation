@@ -1,0 +1,24 @@
+name: Production Doc update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        port: ${{ secrets.SSH_PORT }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
+        passphrase: ${{ secrets.SSH_PASSPHRASE }}
+        script_stop: true
+        script: |
+          cd /home/deploy/Production/web
+          git pull origin main
+          yarn build
+          yarn start
