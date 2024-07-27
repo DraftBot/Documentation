@@ -26,5 +26,5 @@ jobs:
           script: |
             cd /home/deploy/Production/web
             git pull origin master
-            yarn build
-            yarn start
+            /usr/bin/yarn build
+            /usr/bin/yarn start
