@@ -25,6 +25,6 @@ jobs:
           script_stop: true
           script: |
             cd /home/deploy/Production/web
-            git pull origin main
+            git pull origin master
             yarn build
             yarn start
