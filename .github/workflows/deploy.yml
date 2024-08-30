@@ -24,6 +24,7 @@ jobs:
           passphrase: ${{ secrets.SSH_PASSPHRASE }}
           script_stop: true
           script: |
+            source ~/.zshrc
             cd /home/deploy/Production/web
             git pull origin master
             yarn build
