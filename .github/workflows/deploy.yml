@@ -27,5 +27,5 @@ jobs:
             source ~/.zshrc
             cd /home/deploy/Production/web
             git pull origin master
-            yarn build
+            yarn build:doc
             yarn start
