@@ -19,3 +19,5 @@ MD031: false
 MD007: false
 MD041: false
 MD023: false
+# Inconsistent with tabs
+MD051: false
