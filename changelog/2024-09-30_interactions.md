@@ -1,7 +1,9 @@
 ---
 title: Découvrez les interactions de messages !
 date: 2024-08-18
+version: 5.6.0
 slug: /messages
+image: /interactions.png
 ---
 
 Gérez vos messages comme jamais auparavant et profitez d'un système d'interactions de rôles amélioré !
