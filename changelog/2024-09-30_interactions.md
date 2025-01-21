@@ -6,14 +6,12 @@ slug: /messages
 image: /interactions.png
 ---
 
-Gérez vos messages comme jamais auparavant et profitez d'un système d'interactions de rôles amélioré !
+La page "Embeds" devient "Messages", plus simple et plus claire ! Le système d'interactions de rôles a aussi été complètement repensé, avec un sélecteur beaucoup plus intuitif.
 
-Renforcez votre message avec des actions de boutons et sélecteurs.
+Et ce n’est pas tout ! Vous pouvez désormais sauvegarder encore plus de messages : 5 pour les utilisateurs gratuits et 100 pour les utilisateurs Premium. Un bon boost pour vos créations !
 
-Créez des messages éphémères visibles uniquement par l'utilisateur, tout en ajoutant ou retirant des rôles.
+Les **brouillons** et la **duplication** de messages ont également été améliorés pour vous rendre la vie encore plus facile.
 
-Ouvrez des tickets avec des motifs personnalisés, ou laissez les utilisateurs choisir !
+**📩 Actions de Messages** : Vous pouvez désormais ajouter des actions interactives à vos messages. Ça veut dire quoi ? Par exemple, vous pouvez créer des messages éphémères (qui disparaissent après avoir été vus), ouvrir des tickets avec des motifs prédéfinis ou personnalisés, attribuer plusieurs rôles à la fois, et même vendre des articles de votre boutique économique directement via des boutons.
 
-Définissez des conditions de participation sur l’expérience, l’argent, et les objets d'inventaire pour chaque action.
-
-Engagez vos membres avec des messages d’accueil enchanteurs, une FAQ simplifiée et des boutiques dynamiques.
+Vous pouvez aussi ajouter des **conditions de participation**, comme le niveau d’XP, les montants d’argent, les rôles requis, ou encore les objets en inventaire nécessaires.
