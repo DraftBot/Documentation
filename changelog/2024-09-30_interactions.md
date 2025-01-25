@@ -3,7 +3,7 @@ title: Découvrez les interactions de messages !
 date: 2024-08-18
 version: 5.6.0
 slug: /messages
-image: /interactions.png
+image: interactions.png
 ---
 
 La page "Embeds" devient "Messages", plus simple et plus claire ! Le système d'interactions de rôles a aussi été complètement repensé, avec un sélecteur beaucoup plus intuitif.
