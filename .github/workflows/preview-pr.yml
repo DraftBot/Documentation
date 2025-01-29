@@ -43,6 +43,8 @@ jobs:
 
       - name: Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          version: $(cat Doc-Preview/package.json | jq -r '.packageManager | split("@")[1]')
 
       - name: Setup node env
         uses: actions/setup-node@v4
