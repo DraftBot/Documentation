@@ -49,6 +49,7 @@ jobs:
       - name: Setup node env
         uses: actions/setup-node@v4
         with:
+          cache-dependency-path: Doc-Preview/pnpm-lock.yaml
           node-version: 20
           cache: 'pnpm'
 
