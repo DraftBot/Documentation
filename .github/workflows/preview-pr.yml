@@ -41,24 +41,14 @@ jobs:
           path: 'Doc-Preview'
           fetch-depth: 0
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
       - name: Setup node env
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          check-latest: true
-
-      - name: Cache node_modules
-        uses: actions/cache@v4
-        id: yarn-cache
-        with:
-            path: ~/.yarn
-            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-            restore-keys: |
-                ${{ runner.os }}-yarn-
-
-      - name: Install dependencies
-        working-directory: Doc-Preview
-        run: yarn install --immutable --cache-folder ~/.yarn
+          cache: 'pnpm'
 
       - name: Create PR Specific Directory and Copy Documentation
         run: |
@@ -99,11 +89,11 @@ jobs:
 
       - name: Install dependencies
         working-directory: Doc-Preview
-        run: yarn install --cache-folder ~/.yarn
+        run: pnpm install --frozen-lockfile
 
       - name: Build Documentation Preview
         working-directory: Doc-Preview
-        run: npx nuxt build --preset github_pages
+        run: pnpm build:pages
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
