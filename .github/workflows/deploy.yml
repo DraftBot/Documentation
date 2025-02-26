@@ -1,0 +1,31 @@
+name: Production Doc update
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: production
+      url: https://www.draftbot.fr/docs
+
+    steps:
+      - uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          port: ${{ secrets.SSH_PORT }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          passphrase: ${{ secrets.SSH_PASSPHRASE }}
+          script_stop: true
+          script: |
+            source ~/.zshrc
+            cd /home/deploy/Production/web
+            git pull origin master
+            pnpm build:doc
+            pnpm start
