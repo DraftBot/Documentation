@@ -14,6 +14,7 @@ jobs:
       name: production
       url: https://www.draftbot.fr/docs
 
+    if: github.repository_owner == 'draftbot'
     steps:
       - uses: appleboy/ssh-action@v1.0.3
         with:
