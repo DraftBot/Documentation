@@ -28,5 +28,5 @@ jobs:
             source ~/.zshrc
             cd /home/deploy/Production/web
             git pull origin master
-            pnpm build:doc > /dev/null
+            pnpm build:doc
             pnpm start
