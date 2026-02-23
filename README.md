@@ -8,4 +8,4 @@ Toute aide est la bienvenue, si vous souhaitez nous aider à améliorer la docum
 
 ### Licence
 
-© 2025 DraftBot. Tous droits réservés.
+© 2026 DraftBot. Tous droits réservés.
