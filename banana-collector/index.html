@@ -25,6 +25,7 @@
       <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
       <button class="tab-btn" data-tab="pub">📺 Pub</button>
       <button class="tab-btn" data-tab="minijeux">🎮 Mini-jeux</button>
+      <button class="tab-btn" data-tab="combat">⚔️ Combat</button>
       <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
     </nav>
 
@@ -130,9 +131,32 @@
         </div>
       </section>
 
+      <section id="tab-combat" class="tab-panel">
+        <h2>⚔️ L'Arène des Ananas</h2>
+        <p class="shop-hint">Choisis ta banane championne et affronte les ananas. L'attaque et la défense dépendent de la rareté de ta banane.</p>
+
+        <div class="pve-picker">
+          <span class="pve-picker-label">Ta championne :</span>
+          <div id="pve-banana-select" class="pve-banana-select"></div>
+        </div>
+
+        <div class="pve-vs">
+          <div class="pve-fighter" id="pve-player-fighter"></div>
+          <div class="pve-vs-mark" id="pve-vs-mark">⚔️</div>
+          <div class="pve-fighter" id="pve-enemy-fighter"></div>
+        </div>
+
+        <button id="pve-fight-btn" class="btn harvest-btn">⚔️ Attaquer</button>
+        <div id="pve-result" class="pve-result hidden"></div>
+
+        <p class="pve-stage-label">Progression dans l'arène :</p>
+        <div class="pve-stage-list" id="pve-stage-list"></div>
+      </section>
+
       <section id="tab-stats" class="tab-panel">
         <h2>Statistiques</h2>
         <div id="stats-content"></div>
+        <div id="achievements-content"></div>
         <button id="reset-btn" class="btn danger reset-btn">🗑️ Réinitialiser la sauvegarde</button>
       </section>
     </main>
