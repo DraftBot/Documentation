@@ -62,29 +62,111 @@ function valueFor(rarity, indexInRarity) {
 const BANANA_DEFS = [
   // ---- Commune (12) ----
   { name: "Banane classique", rarity: "commune", emoji: "🍌" },
-  { name: "Banane verte", rarity: "commune", emoji: "🍌" },
-  { name: "Petite banane", rarity: "commune", emoji: "🍌" },
-  { name: "Banane mûre", rarity: "commune", emoji: "🍌" },
-  { name: "Banane du petit-déjeuner", rarity: "commune", emoji: "🍌" },
+  {
+    name: "Banane verte", rarity: "commune", emoji: "🍌",
+    deco: { filter: "hue-rotate(70deg) saturate(1.25) brightness(0.98)" },
+  },
+  { name: "Petite banane", rarity: "commune", emoji: "🍌", deco: { scale: 0.72 } },
+  {
+    name: "Banane mûre", rarity: "commune", emoji: "🍌",
+    deco: {
+      filter: "sepia(0.5) saturate(1.3) brightness(0.9)",
+      accessories: [
+        { style: "left:30%; top:55%; width:10%; height:10%; background:#5c3b1e; border-radius:50%; opacity:.7;" },
+        { style: "right:28%; top:38%; width:8%; height:8%; background:#5c3b1e; border-radius:50%; opacity:.6;" },
+      ],
+    },
+  },
+  {
+    name: "Banane du petit-déjeuner", rarity: "commune", emoji: "🍌",
+    deco: { accessories: [{ cls: "text", text: "☀️", style: "top:-14%; right:-10%; font-size:.5em;" }] },
+  },
   { name: "Banane toute simple", rarity: "commune", emoji: "🍌" },
-  { name: "Banane du marché", rarity: "commune", emoji: "🍌" },
-  { name: "Banane bio", rarity: "commune", emoji: "🍌" },
-  { name: "Banane de poche", rarity: "commune", emoji: "🍌" },
-  { name: "Banane du goûter", rarity: "commune", emoji: "🍌" },
+  {
+    name: "Banane du marché", rarity: "commune", emoji: "🍌",
+    deco: { accessories: [{ style: "left:70%; top:60%; width:26%; height:18%; background:#e8c88a; border:1px solid #a9873f; border-radius:2px; transform:rotate(18deg);" }] },
+  },
+  {
+    name: "Banane bio", rarity: "commune", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.1)",
+      accessories: [{ style: "left:44%; width:16%; top:-16%; height:14%; background:#4cc26b; clip-path:polygon(0 50%,100% 0,100% 100%);" }],
+    },
+  },
+  {
+    name: "Banane de poche", rarity: "commune", emoji: "🍌",
+    deco: { scale: 0.8, containerStyle: "border:2px dashed #b98b3e; border-radius:14px;" },
+  },
+  {
+    name: "Banane du goûter", rarity: "commune", emoji: "🍌",
+    deco: { accessories: [{ cls: "text", text: "🕓", style: "bottom:-12%; left:-12%; font-size:.42em;" }] },
+  },
   { name: "Banane basique", rarity: "commune", emoji: "🍌" },
-  { name: "Banane du dimanche", rarity: "commune", emoji: "🍌" },
+  {
+    name: "Banane du dimanche", rarity: "commune", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:44%; top:-14%; width:5%; height:14%; background:#c81d25; border-radius:1px;" },
+        { style: "left:36%; top:-10%; width:9%; height:9%; background:#c81d25; clip-path:polygon(100% 0,0 50%,100% 100%);" },
+        { style: "right:36%; top:-10%; width:9%; height:9%; background:#c81d25; clip-path:polygon(0 0,100% 50%,0 100%);" },
+      ],
+    },
+  },
 
   // ---- Peu commune (10) ----
-  { name: "Banane tachetée", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane rouge", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane plantain", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane torsadée", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane à pois", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane XXL junior", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane parfumée", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane croquante", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane sucrée", rarity: "peu_commune", emoji: "🍌" },
-  { name: "Banane rayée", rarity: "peu_commune", emoji: "🍌" },
+  {
+    name: "Banane tachetée", rarity: "peu_commune", emoji: "🍌",
+    deco: {
+      filter: "sepia(0.15)",
+      accessories: [
+        { style: "left:32%; top:34%; width:9%; height:9%; background:#6b4a23; border-radius:50%; opacity:.65;" },
+        { style: "left:55%; top:52%; width:7%; height:7%; background:#6b4a23; border-radius:50%; opacity:.6;" },
+        { style: "left:42%; top:65%; width:8%; height:8%; background:#6b4a23; border-radius:50%; opacity:.55;" },
+      ],
+    },
+  },
+  {
+    name: "Banane rouge", rarity: "peu_commune", emoji: "🍌",
+    deco: { filter: "hue-rotate(-48deg) saturate(1.6) brightness(0.95) drop-shadow(0 0 3px rgba(255,70,70,.35))" },
+  },
+  {
+    name: "Banane plantain", rarity: "peu_commune", emoji: "🍌",
+    deco: { filter: "sepia(0.35) hue-rotate(25deg) saturate(0.9) brightness(0.92)" },
+  },
+  { name: "Banane torsadée", rarity: "peu_commune", emoji: "🍌", deco: { transform: "rotate(22deg)" } },
+  {
+    name: "Banane à pois", rarity: "peu_commune", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:30%; top:32%; width:8%; height:8%; background:#fff; border:1px solid #d7b23a; border-radius:50%;" },
+        { style: "left:58%; top:44%; width:7%; height:7%; background:#fff; border:1px solid #d7b23a; border-radius:50%;" },
+        { style: "left:40%; top:60%; width:7%; height:7%; background:#fff; border:1px solid #d7b23a; border-radius:50%;" },
+      ],
+    },
+  },
+  { name: "Banane XXL junior", rarity: "peu_commune", emoji: "🍌", deco: { scale: 1.16 } },
+  {
+    name: "Banane parfumée", rarity: "peu_commune", emoji: "🍌",
+    deco: { accessories: [{ cls: "text", text: "🌸", style: "top:-14%; left:-12%; font-size:.48em;" }] },
+  },
+  {
+    name: "Banane croquante", rarity: "peu_commune", emoji: "🍌",
+    deco: { accessories: [{ cls: "text", text: "💥", style: "top:-10%; right:-10%; font-size:.46em;" }] },
+  },
+  {
+    name: "Banane sucrée", rarity: "peu_commune", emoji: "🍌",
+    deco: { filter: "brightness(1.05)", accessories: [{ cls: "text", text: "✨", style: "top:-12%; right:-10%; font-size:.46em;" }] },
+  },
+  {
+    name: "Banane rayée", rarity: "peu_commune", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:15%; right:35%; top:30%; height:8%; background:#c9992f; opacity:.55; border-radius:2px; transform:rotate(-25deg);" },
+        { style: "left:25%; right:25%; top:48%; height:8%; background:#c9992f; opacity:.55; border-radius:2px; transform:rotate(-25deg);" },
+        { style: "left:35%; right:15%; top:66%; height:8%; background:#c9992f; opacity:.55; border-radius:2px; transform:rotate(-25deg);" },
+      ],
+    },
+  },
 
   // ---- Rare (10) ----
   {
@@ -394,7 +476,6 @@ const BANANAS = (() => {
       deco: def.deco || null,
       secret: def.rarity === "secrete",
       value: valueFor(def.rarity, idxInRarity),
-      hue: (i * 41 + 17) % 360, // pour la variété visuelle des bananes communes/peu communes
     };
   });
 })();

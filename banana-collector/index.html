@@ -24,6 +24,7 @@
       <button class="tab-btn" data-tab="collection">📖 Collection</button>
       <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
       <button class="tab-btn" data-tab="pub">📺 Pub</button>
+      <button class="tab-btn" data-tab="minijeux">🎮 Mini-jeux</button>
       <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
     </nav>
 
@@ -72,6 +73,55 @@
         <button id="watch-ad-btn" class="btn watch-ad-btn">🎬 Regarder une pub (+300 🪙)</button>
         <p id="ad-quota" class="ad-quota"></p>
         <p class="privacy-link"><a href="privacy.html">Politique de confidentialité & publicités</a></p>
+      </section>
+
+      <section id="tab-minijeux" class="tab-panel">
+        <div id="minigames-menu" class="game-menu">
+          <h2>🎮 Mini-jeux</h2>
+          <button class="game-card" id="open-catch-game" data-game="catch">
+            <span class="game-card-icon">🍌</span>
+            <span class="game-card-body">
+              <span class="game-card-title">Attrape les bananes</span>
+              <span class="game-card-desc">30 secondes pour attraper un maximum de bananes fraîches, sans toucher les pourries.</span>
+              <span class="game-card-best" id="catch-best-label"></span>
+            </span>
+          </button>
+          <button class="game-card" id="open-wheel-game" data-game="wheel">
+            <span class="game-card-icon">🎡</span>
+            <span class="game-card-body">
+              <span class="game-card-title">Roue quotidienne</span>
+              <span class="game-card-desc">Un tour gratuit par jour pour gagner un bonus de pièces.</span>
+              <span class="game-card-best" id="wheel-status-label"></span>
+            </span>
+          </button>
+        </div>
+
+        <div id="minigame-catch" class="game-view hidden">
+          <button class="btn game-back-btn" data-back>← Retour</button>
+          <h2>🍌 Attrape les bananes</h2>
+          <div class="catch-hud">
+            <span id="catch-timer">⏱️ 30s</span>
+            <span id="catch-score">⭐ 0</span>
+          </div>
+          <div id="catch-area" class="catch-area">
+            <div id="catch-start-overlay" class="catch-start-overlay">
+              <p class="catch-instructions">Clique sur les bananes 🍌 qui tombent, évite les pourries !</p>
+              <button id="catch-start-btn" class="btn harvest-btn">▶️ Démarrer</button>
+            </div>
+            <div id="catch-result" class="catch-result hidden"></div>
+          </div>
+        </div>
+
+        <div id="minigame-wheel" class="game-view hidden">
+          <button class="btn game-back-btn" data-back>← Retour</button>
+          <h2>🎡 Roue de la fortune</h2>
+          <div class="wheel-wrap">
+            <div class="wheel-pointer">▼</div>
+            <div id="wheel-disc" class="wheel-disc"></div>
+          </div>
+          <button id="wheel-spin-btn" class="btn harvest-btn">🎡 Tourner la roue</button>
+          <p id="wheel-status" class="ad-quota"></p>
+        </div>
       </section>
 
       <section id="tab-stats" class="tab-panel">

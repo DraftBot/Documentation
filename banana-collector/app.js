@@ -61,6 +61,8 @@ function defaultState() {
     mythicCount: 0,
     rarestId: null,
     ads: { watchedToday: 0, lastResetDate: null },
+    wheel: { lastSpinDate: null },
+    catchGame: { bestScore: 0, bestCoins: 0 },
   };
 }
 
@@ -248,6 +250,59 @@ function grantAdReward() {
   state.ads.watchedToday += 1;
   state.coins += AD_REWARD;
   saveState();
+}
+
+/* ---------------- Mini-jeu : Roue de la fortune quotidienne ---------------- */
+
+// Un tirage gratuit par jour. Chaque prix correspond à un secteur de 60°
+// sur la roue (6 secteurs), dans cet ordre, en partant du haut et dans le
+// sens horaire — voir WHEEL_PRIZES[i].angle dans ui.js pour l'alignement visuel.
+const WHEEL_PRIZES = [
+  { coins: 50, weight: 30 },
+  { coins: 100, weight: 25 },
+  { coins: 150, weight: 20 },
+  { coins: 300, weight: 15 },
+  { coins: 500, weight: 7 },
+  { coins: 1000, weight: 3 },
+];
+
+function canSpinWheelToday() {
+  return state.wheel.lastSpinDate !== todayKey();
+}
+
+function pickWheelPrizeIndex() {
+  const total = WHEEL_PRIZES.reduce((s, p) => s + p.weight, 0);
+  let roll = Math.random() * total;
+  for (let i = 0; i < WHEEL_PRIZES.length; i++) {
+    if (roll < WHEEL_PRIZES[i].weight) return i;
+    roll -= WHEEL_PRIZES[i].weight;
+  }
+  return 0;
+}
+
+function spinWheel() {
+  if (!canSpinWheelToday()) return { ok: false, reason: "deja_tourne" };
+  const index = pickWheelPrizeIndex();
+  const prize = WHEEL_PRIZES[index];
+  state.wheel.lastSpinDate = todayKey();
+  state.coins += prize.coins;
+  saveState();
+  return { ok: true, index, coins: prize.coins };
+}
+
+/* ---------------- Mini-jeu : Attrape les bananes ---------------- */
+
+const CATCH_GAME_DURATION_MS = 30000;
+const CATCH_GOOD_COINS = 4;
+const CATCH_ROTTEN_PENALTY = 6;
+
+function awardCatchGameResult(goodCaught, rottenCaught) {
+  const coinsEarned = Math.max(0, goodCaught * CATCH_GOOD_COINS - rottenCaught * CATCH_ROTTEN_PENALTY);
+  state.coins += coinsEarned;
+  if (goodCaught > state.catchGame.bestScore) state.catchGame.bestScore = goodCaught;
+  if (coinsEarned > state.catchGame.bestCoins) state.catchGame.bestCoins = coinsEarned;
+  saveState();
+  return coinsEarned;
 }
 
 /* ---------------- Réinitialisation ---------------- */
