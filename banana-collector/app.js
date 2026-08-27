@@ -60,6 +60,7 @@ function defaultState() {
     lastBananaId: null,
     mythicCount: 0,
     rarestId: null,
+    ads: { watchedToday: 0, lastResetDate: null },
   };
 }
 
@@ -207,6 +208,46 @@ function buyUpgrade(id) {
   state.upgrades[id] = level + 1;
   saveState();
   return { ok: true };
+}
+
+/* ---------------- Publicité récompensée ----------------
+   Emplacement d'intégration pour une vraie régie publicitaire.
+   Aujourd'hui : aucune requête réseau, juste une simulation de
+   chargement + une récompense garantie, limitée par jour.
+
+   Pour brancher une vraie pub plus tard :
+   - Web  : Google AdSense (bannière classique dans l'onglet, ou un
+            format "récompensé" via Ad Manager) — remplacer le corps
+            de watchAd() par le chargement/l'affichage du format choisi
+            et n'appeler grantAdReward() que dans son callback de succès.
+   - Mobile (Capacitor) : plugin @capacitor-community/admob,
+            RewardedAd.load() puis .show(), et grantAdReward() dans
+            l'écouteur "onUserEarnedReward" de ce SDK.
+   -------------------------------------------------------- */
+
+const AD_REWARD = 50;
+const MAX_ADS_PER_DAY = 5;
+
+function todayKey() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function refreshAdQuota() {
+  if (state.ads.lastResetDate !== todayKey()) {
+    state.ads.watchedToday = 0;
+    state.ads.lastResetDate = todayKey();
+  }
+}
+
+function adsRemainingToday() {
+  refreshAdQuota();
+  return Math.max(MAX_ADS_PER_DAY - state.ads.watchedToday, 0);
+}
+
+function grantAdReward() {
+  state.ads.watchedToday += 1;
+  state.coins += AD_REWARD;
+  saveState();
 }
 
 /* ---------------- Réinitialisation ---------------- */

@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     progressBarFill: document.getElementById("progress-bar-fill"),
     progressLabel: document.getElementById("progress-label"),
     shopList: document.getElementById("shop-list"),
+    watchAdBtn: document.getElementById("watch-ad-btn"),
+    adQuota: document.getElementById("ad-quota"),
     statsPanel: document.getElementById("stats-content"),
     overlay: document.getElementById("overlay"),
     overlayContent: document.getElementById("overlay-content"),
@@ -33,6 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
     els.tabPanels.forEach((p) => p.classList.toggle("active", p.id === `tab-${name}`));
     if (name === "collection") renderCollection();
     if (name === "boutique") renderShop();
+    if (name === "pub") renderAdTab();
     if (name === "stats") renderStats();
   }
 
@@ -245,6 +248,36 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
+
+  /* ---------------- Publicité récompensée ---------------- */
+
+  let adPlaying = false;
+
+  function renderAdTab() {
+    const remaining = adsRemainingToday();
+    els.adQuota.textContent = remaining > 0
+      ? `${remaining} / ${MAX_ADS_PER_DAY} pubs disponibles aujourd'hui`
+      : "Plus de pub disponible aujourd'hui — reviens demain !";
+    els.watchAdBtn.disabled = adPlaying || remaining <= 0;
+    els.watchAdBtn.textContent = "🎬 Regarder une pub (+50 🪙)";
+  }
+
+  els.watchAdBtn.addEventListener("click", () => {
+    if (adPlaying || adsRemainingToday() <= 0) return;
+    adPlaying = true;
+    els.watchAdBtn.disabled = true;
+    els.watchAdBtn.textContent = "⏳ Chargement de la pub...";
+
+    // Simulation du délai de chargement/visionnage d'une pub réelle.
+    setTimeout(() => {
+      grantAdReward();
+      renderHeader();
+      adPlaying = false;
+      renderAdTab();
+      spawnConfetti(16);
+      showBanner("🎉 MERCI D'AVOIR REGARDÉ !", { emoji: "🪙", name: `+${AD_REWARD} pièces` }, 1600);
+    }, 1500);
+  });
 
   /* ---------------- Statistiques ---------------- */
 
