@@ -39,18 +39,26 @@ function isLegendaryOrAbove(key) {
 // Valeur en pièces générée de façon déterministe selon la rareté et la position dans la rareté
 function valueFor(rarity, indexInRarity) {
   const table = {
-    commune: [2, 3, 2, 4, 3, 4, 2, 3, 4, 2, 3, 4],
-    peu_commune: [6, 8, 9, 7, 10, 9, 8, 10, 8, 9],
-    rare: [15, 18, 20, 22, 17, 19, 21, 18, 17, 23],
-    epique: [40, 44, 48, 52, 42, 46, 50, 54],
-    legendaire: [120, 132, 144, 156, 128, 140],
-    mythique: [400, 480, 600, 720],
-    secrete: [2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 4000],
+    commune: [3, 5, 3, 6, 5, 6, 3, 5, 6, 3, 5, 6],
+    peu_commune: [10, 13, 14, 11, 16, 14, 13, 16, 13, 14],
+    rare: [24, 29, 32, 35, 27, 30, 34, 29, 27, 37],
+    epique: [64, 70, 77, 83, 67, 74, 80, 86],
+    legendaire: [190, 210, 230, 250, 205, 225],
+    mythique: [640, 770, 960, 1150],
+    secrete: [3200, 3500, 3800, 4200, 4500, 4800, 5100, 5400, 5800, 6400],
   };
   return table[rarity][indexInRarity] || 10;
 }
 
-// Chaque entrée : { name, rarity, emoji }
+/* ------------------------------------------------------------
+   Décorations : au lieu de coller un second emoji à côté de la
+   banane (ex. 🍌🥷), chaque accessoire est dessiné en CSS et
+   posé DIRECTEMENT sur le glyphe 🍌, pour un visuel fusionné —
+   une seule banane qui porte un bandeau, un chapeau, une cape...
+   Voir bananaIconHTML() dans ui.js pour le rendu.
+   ------------------------------------------------------------ */
+
+// Chaque entrée : { name, rarity, emoji, deco? }
 const BANANA_DEFS = [
   // ---- Commune (12) ----
   { name: "Banane classique", rarity: "commune", emoji: "🍌" },
@@ -79,52 +87,297 @@ const BANANA_DEFS = [
   { name: "Banane rayée", rarity: "peu_commune", emoji: "🍌" },
 
   // ---- Rare (10) ----
-  { name: "Banane géante", rarity: "rare", emoji: "🍌🐘" },
-  { name: "Banane glacée", rarity: "rare", emoji: "🍌❄️" },
-  { name: "Banane en flammes", rarity: "rare", emoji: "🍌🔥" },
-  { name: "Banane ninja", rarity: "rare", emoji: "🍌🥷" },
-  { name: "Banane robotique", rarity: "rare", emoji: "🍌🤖" },
-  { name: "Banane cristal", rarity: "rare", emoji: "🍌🔮" },
-  { name: "Banane électrique", rarity: "rare", emoji: "🍌⚡" },
-  { name: "Banane musclée", rarity: "rare", emoji: "🍌💪" },
-  { name: "Banane pirate", rarity: "rare", emoji: "🍌🏴‍☠️" },
-  { name: "Banane vampire", rarity: "rare", emoji: "🍌🧛" },
+  {
+    name: "Banane géante", rarity: "rare", emoji: "🍌",
+    deco: { filter: "drop-shadow(0 4px 2px rgba(0,0,0,.35))", scale: 1.22 },
+  },
+  {
+    name: "Banane glacée", rarity: "rare", emoji: "🍌",
+    deco: { filter: "hue-rotate(150deg) saturate(1.3) brightness(1.05) drop-shadow(0 0 4px #8fd8ff)" },
+  },
+  {
+    name: "Banane en flammes", rarity: "rare", emoji: "🍌",
+    deco: { filter: "hue-rotate(-25deg) saturate(1.6) drop-shadow(0 0 5px #ff5a1f)" },
+  },
+  {
+    name: "Banane ninja", rarity: "rare", emoji: "🍌",
+    deco: {
+      filter: "brightness(0.97)",
+      accessories: [
+        { style: "left:10%; right:10%; top:32%; height:16%; background:#1a1a1a; border-radius:2px; transform:rotate(-6deg);" },
+        { style: "right:6%; top:34%; width:10%; height:10%; background:#1a1a1a; clip-path:polygon(0 0,100% 30%,60% 100%); transform:rotate(-6deg);" },
+      ],
+    },
+  },
+  {
+    name: "Banane robotique", rarity: "rare", emoji: "🍌",
+    deco: {
+      filter: "saturate(0.7) brightness(1.05)",
+      accessories: [
+        { style: "left:12%; right:12%; top:34%; height:14%; background:linear-gradient(90deg,#9fb4c7,#5b6b78); border-radius:2px;" },
+        { style: "left:48%; width:4%; top:0%; height:16%; background:#5b6b78; border-radius:2px;" },
+        { style: "left:44%; width:12%; height:12%; top:-8%; background:#ff5a5a; border-radius:50%;" },
+      ],
+    },
+  },
+  {
+    name: "Banane cristal", rarity: "rare", emoji: "🍌",
+    deco: { filter: "hue-rotate(180deg) saturate(1.4) brightness(1.15) drop-shadow(0 0 5px #c9a8ff)" },
+  },
+  {
+    name: "Banane électrique", rarity: "rare", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.5) brightness(1.2) drop-shadow(0 0 5px #fff176)",
+      accessories: [{ cls: "text", text: "⚡", style: "top:-8%; right:-10%; font-size:0.85em;" }],
+    },
+  },
+  {
+    name: "Banane musclée", rarity: "rare", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.1) brightness(0.98)",
+      accessories: [
+        { style: "left:-10%; top:38%; width:22%; height:22%; background:#d9a066; border-radius:50%;" },
+        { style: "right:-10%; top:38%; width:22%; height:22%; background:#d9a066; border-radius:50%;" },
+      ],
+    },
+  },
+  {
+    name: "Banane pirate", rarity: "rare", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:20%; right:20%; top:-10%; height:26%; background:#2a2a2a; clip-path:polygon(50% 0,0 100%,100% 100%);" },
+        { style: "left:30%; top:36%; width:22%; height:22%; background:#111; border-radius:50%;" },
+      ],
+    },
+  },
+  {
+    name: "Banane vampire", rarity: "rare", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.1) brightness(0.9)",
+      accessories: [
+        { style: "left:5%; right:5%; bottom:-6%; height:16%; background:#7a0f1f; border-radius:0 0 6px 6px;" },
+        { style: "left:40%; bottom:20%; width:9%; height:14%; background:#fff; clip-path:polygon(0 0,100% 0,50% 100%);" },
+        { style: "left:52%; bottom:20%; width:9%; height:14%; background:#fff; clip-path:polygon(0 0,100% 0,50% 100%);" },
+      ],
+    },
+  },
 
   // ---- Épique (8) ----
-  { name: "Banane dorée", rarity: "epique", emoji: "🍌🥇" },
-  { name: "Banane diamant", rarity: "epique", emoji: "🍌💎" },
-  { name: "Banane royale", rarity: "epique", emoji: "🍌👑" },
-  { name: "Banane magique", rarity: "epique", emoji: "🍌🪄" },
-  { name: "Banane galactique", rarity: "epique", emoji: "🍌🌌" },
-  { name: "Banane licorne", rarity: "epique", emoji: "🍌🦄" },
-  { name: "Banane samouraï", rarity: "epique", emoji: "🍌⚔️" },
-  { name: "Banane phénix", rarity: "epique", emoji: "🍌🦅" },
+  {
+    name: "Banane dorée", rarity: "epique", emoji: "🍌",
+    deco: { filter: "sepia(0.6) saturate(2) hue-rotate(-10deg) brightness(1.1) drop-shadow(0 0 5px #ffdb70)" },
+  },
+  {
+    name: "Banane diamant", rarity: "epique", emoji: "🍌",
+    deco: { filter: "hue-rotate(190deg) saturate(0.5) brightness(1.3) drop-shadow(0 0 6px #d8f3ff)" },
+  },
+  {
+    name: "Banane royale", rarity: "epique", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:16%; right:16%; top:-8%; height:12%; background:#ffd23f; border-radius:2px;" },
+        { style: "left:38%; right:38%; top:-18%; height:14%; background:#ffd23f; clip-path:polygon(50% 0,0 100%,100% 100%);" },
+      ],
+    },
+  },
+  {
+    name: "Banane magique", rarity: "epique", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.1)",
+      accessories: [
+        { style: "left:28%; right:28%; top:-24%; height:34%; background:#7a3fc4; clip-path:polygon(50% 0,10% 100%,90% 100%);" },
+        { cls: "text", text: "✨", style: "top:-24%; left:56%; font-size:0.5em;" },
+      ],
+    },
+  },
+  {
+    name: "Banane galactique", rarity: "epique", emoji: "🍌",
+    deco: { filter: "hue-rotate(220deg) saturate(1.3) brightness(0.9) drop-shadow(0 0 6px #8a6bff)" },
+  },
+  {
+    name: "Banane licorne", rarity: "epique", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.2) brightness(1.05)",
+      accessories: [{ style: "left:42%; width:16%; top:-16%; height:20%; background:linear-gradient(180deg,#ffd6f5,#c9a8ff); clip-path:polygon(50% 0,20% 100%,80% 100%);" }],
+    },
+  },
+  {
+    name: "Banane samouraï", rarity: "epique", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:8%; right:8%; top:30%; height:15%; background:#fff; border:2px solid #c81d25; border-radius:2px; transform:rotate(-6deg);" },
+        { style: "left:46%; top:32%; width:12%; height:12%; background:#c81d25; border-radius:50%;" },
+      ],
+    },
+  },
+  {
+    name: "Banane phénix", rarity: "epique", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.3) drop-shadow(0 0 5px #ff9a4d)",
+      accessories: [
+        { style: "left:-16%; top:28%; width:20%; height:30%; background:#ff7a1a; clip-path:polygon(100% 0,0 50%,100% 100%);" },
+        { style: "right:-16%; top:28%; width:20%; height:30%; background:#ff7a1a; clip-path:polygon(0 0,100% 50%,0 100%);" },
+      ],
+    },
+  },
 
   // ---- Légendaire (6) ----
-  { name: "Banane radioactive", rarity: "legendaire", emoji: "🍌☢️" },
-  { name: "Banane fantôme", rarity: "legendaire", emoji: "🍌👻" },
-  { name: "Banane du chaos", rarity: "legendaire", emoji: "🍌🌀" },
-  { name: "Banane céleste", rarity: "legendaire", emoji: "🍌🌟" },
-  { name: "Banane des dieux", rarity: "legendaire", emoji: "🍌🏛️" },
-  { name: "Banane éternelle", rarity: "legendaire", emoji: "🍌⏳" },
+  {
+    name: "Banane radioactive", rarity: "legendaire", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.4) brightness(1.05) drop-shadow(0 0 6px #9cff5a)",
+      accessories: [{ cls: "text", text: "☢️", style: "bottom:-10%; right:-10%; font-size:0.75em;" }],
+    },
+  },
+  {
+    name: "Banane fantôme", rarity: "legendaire", emoji: "🍌",
+    deco: { filter: "saturate(0.3) brightness(1.3) opacity(0.75) drop-shadow(0 0 6px #cfd8ff)" },
+  },
+  {
+    name: "Banane du chaos", rarity: "legendaire", emoji: "🍌",
+    deco: { filter: "hue-rotate(300deg) saturate(1.6) contrast(1.2) drop-shadow(0 0 6px #ff4dd8)", transform: "skewX(-6deg) rotate(4deg)" },
+  },
+  {
+    name: "Banane céleste", rarity: "legendaire", emoji: "🍌",
+    deco: {
+      filter: "saturate(0.7) brightness(1.3) drop-shadow(0 0 7px #fff3c4)",
+      accessories: [{ style: "left:20%; right:20%; top:-20%; height:16%; border:3px solid #ffe9a8; border-radius:50%; background:transparent;" }],
+    },
+  },
+  {
+    name: "Banane des dieux", rarity: "legendaire", emoji: "🍌",
+    deco: {
+      filter: "brightness(1.15) drop-shadow(0 0 6px #fff3c4)",
+      accessories: [
+        { style: "left:16%; right:16%; top:-8%; height:12%; background:#fff6d0; border-radius:2px;" },
+        { style: "left:38%; right:38%; top:-18%; height:14%; background:#fff6d0; clip-path:polygon(50% 0,0 100%,100% 100%);" },
+      ],
+    },
+  },
+  {
+    name: "Banane éternelle", rarity: "legendaire", emoji: "🍌",
+    deco: {
+      filter: "sepia(0.4) saturate(1.1) brightness(0.95) drop-shadow(0 0 5px #e0c98a)",
+      accessories: [{ style: "left:10%; right:10%; top:38%; height:20%; border:2px solid rgba(224,201,138,.8); border-radius:50%; background:transparent;" }],
+    },
+  },
 
   // ---- Mythique (4) ----
-  { name: "Banane arc-en-ciel", rarity: "mythique", emoji: "🍌🌈" },
-  { name: "Banane cosmique", rarity: "mythique", emoji: "🍌☄️" },
-  { name: "Banane quantique", rarity: "mythique", emoji: "🍌⚛️" },
-  { name: "Banane originelle", rarity: "mythique", emoji: "🍌🌱" },
+  {
+    name: "Banane arc-en-ciel", rarity: "mythique", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.6) drop-shadow(0 0 8px #ff9fd0)",
+      glyphClass: "anim-rainbow",
+    },
+  },
+  {
+    name: "Banane cosmique", rarity: "mythique", emoji: "🍌",
+    deco: {
+      filter: "hue-rotate(230deg) saturate(1.3) brightness(0.95) drop-shadow(0 0 8px #8a6bff)",
+      accessories: [
+        { style: "left:6%; top:10%; width:9%; height:9%; background:#fff; border-radius:50%; box-shadow:0 0 4px #fff;" },
+        { style: "right:10%; bottom:12%; width:7%; height:7%; background:#fff; border-radius:50%; box-shadow:0 0 4px #fff;" },
+      ],
+    },
+  },
+  {
+    name: "Banane quantique", rarity: "mythique", emoji: "🍌",
+    deco: {
+      filter: "hue-rotate(160deg) saturate(1.2) drop-shadow(0 0 8px #6fe0ff)",
+      accessories: [{ style: "inset:-10%; border:2px dashed #6fe0ff; border-radius:50%; background:transparent;" }],
+    },
+  },
+  {
+    name: "Banane originelle", rarity: "mythique", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.1) brightness(0.98)",
+      accessories: [
+        { style: "left:48%; width:4%; top:-12%; height:14%; background:#2f9e58; border-radius:2px;" },
+        { style: "left:44%; width:16%; top:-18%; height:14%; background:#4cc26b; clip-path:polygon(0 50%,100% 0,100% 100%);" },
+      ],
+    },
+  },
 
   // ---- Secrète (10) — variantes bonus, ultra rares ----
-  { name: "Banane qui parle", rarity: "secrete", emoji: "🍌💬" },
-  { name: "Banane du futur", rarity: "secrete", emoji: "🍌🚀" },
-  { name: "Banane clonée", rarity: "secrete", emoji: "🍌🍌" },
-  { name: "Banane à l'envers", rarity: "secrete", emoji: "🙃🍌" },
-  { name: "Banane philosophe", rarity: "secrete", emoji: "🍌🤔" },
-  { name: "Banane invisible", rarity: "secrete", emoji: "🍌👀" },
-  { name: "Banane présidentielle", rarity: "secrete", emoji: "🍌🎩" },
-  { name: "Banane multivers", rarity: "secrete", emoji: "🍌🔀" },
-  { name: "Banane ultime", rarity: "secrete", emoji: "🍌🏆" },
-  { name: "Banane infinie", rarity: "secrete", emoji: "🍌♾️" },
+  {
+    name: "Banane qui parle", rarity: "secrete", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "right:-32%; top:-14%; width:48%; height:32%; background:#fff; border:2px solid #333; border-radius:8px;" },
+        { style: "right:-4%; top:12%; width:10%; height:10%; background:#fff; border-bottom:2px solid #333; border-right:2px solid #333; clip-path:polygon(0 0,100% 0,0 100%);" },
+      ],
+    },
+  },
+  {
+    name: "Banane du futur", rarity: "secrete", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.2) brightness(1.05)",
+      accessories: [
+        { style: "left:12%; right:12%; top:34%; height:14%; background:linear-gradient(90deg,#5ff0ff,#1ab8d6); border-radius:2px;" },
+        { style: "left:48%; width:4%; top:0%; height:16%; background:#1ab8d6; border-radius:2px;" },
+        { style: "left:44%; width:12%; height:12%; top:-8%; background:#5ff0ff; border-radius:50%;" },
+      ],
+    },
+  },
+  {
+    name: "Banane clonée", rarity: "secrete", emoji: "🍌",
+    deco: {
+      duplicates: [{ transform: "translate(18%,-10%) rotate(10deg)", opacity: 0.85 }],
+    },
+  },
+  {
+    name: "Banane à l'envers", rarity: "secrete", emoji: "🍌",
+    deco: { transform: "rotate(180deg)" },
+  },
+  {
+    name: "Banane philosophe", rarity: "secrete", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:14%; top:34%; width:20%; height:20%; border:2px solid #333; border-radius:50%; background:rgba(255,255,255,.35);" },
+        { style: "right:14%; top:34%; width:20%; height:20%; border:2px solid #333; border-radius:50%; background:rgba(255,255,255,.35);" },
+        { style: "left:44%; width:12%; top:41%; height:3%; background:#333;" },
+        { style: "left:36%; width:28%; top:54%; height:6%; background:#4a3520; border-radius:4px;" },
+      ],
+    },
+  },
+  {
+    name: "Banane invisible", rarity: "secrete", emoji: "🍌",
+    deco: { filter: "opacity(0.3)", containerStyle: "border:2px dashed rgba(80,60,10,.4); border-radius:50%;" },
+  },
+  {
+    name: "Banane présidentielle", rarity: "secrete", emoji: "🍌",
+    deco: {
+      accessories: [
+        { style: "left:18%; right:18%; top:-10%; height:8%; background:#1a1a1a; border-radius:2px;" },
+        { style: "left:30%; right:30%; top:-26%; height:18%; background:#1a1a1a; border-radius:2px 2px 0 0;" },
+        { style: "left:38%; bottom:-6%; width:10%; height:10%; background:#c81d25; clip-path:polygon(0 0,100% 50%,0 100%);" },
+        { style: "right:38%; bottom:-6%; width:10%; height:10%; background:#c81d25; clip-path:polygon(100% 0,0 50%,100% 100%);" },
+      ],
+    },
+  },
+  {
+    name: "Banane multivers", rarity: "secrete", emoji: "🍌",
+    deco: {
+      duplicates: [
+        { transform: "translate(-16%,-8%) rotate(-12deg)", opacity: 0.35, filter: "hue-rotate(120deg)" },
+        { transform: "translate(16%,8%) rotate(12deg)", opacity: 0.35, filter: "hue-rotate(240deg)" },
+      ],
+    },
+  },
+  {
+    name: "Banane ultime", rarity: "secrete", emoji: "🍌",
+    deco: {
+      filter: "drop-shadow(0 0 5px #ffd23f)",
+      accessories: [{ cls: "text", text: "🏆", style: "top:-14%; right:-14%; font-size:0.6em;" }],
+    },
+  },
+  {
+    name: "Banane infinie", rarity: "secrete", emoji: "🍌",
+    deco: {
+      filter: "saturate(1.2) drop-shadow(0 0 5px #ffe37a)",
+      accessories: [{ cls: "text", text: "♾️", style: "bottom:-10%; right:-12%; font-size:0.6em;" }],
+    },
+  },
 ];
 
 // Construction de la table finale avec id, valeur, index dans la rareté, etc.
@@ -138,6 +391,7 @@ const BANANAS = (() => {
       name: def.name,
       rarity: def.rarity,
       emoji: def.emoji,
+      deco: def.deco || null,
       secret: def.rarity === "secrete",
       value: valueFor(def.rarity, idxInRarity),
       hue: (i * 41 + 17) % 360, // pour la variété visuelle des bananes communes/peu communes

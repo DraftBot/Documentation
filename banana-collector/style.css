@@ -165,6 +165,50 @@ body {
 
 .banana-emoji.silhouette { filter: brightness(0.15); opacity: 0.5; }
 
+/* --- Icône banane fusionnée (glyphe + accessoires) --- */
+
+.banana-icon {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  --icon-size: 2.4rem;
+  width: var(--icon-size);
+  height: var(--icon-size);
+  margin: 0 auto 6px;
+}
+
+.banana-icon-glyph {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--icon-size);
+  line-height: 1;
+}
+
+.deco { position: absolute; pointer-events: none; }
+
+.deco-text {
+  font-size: calc(var(--icon-size) * 0.4);
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes hueSpin {
+  from { filter: saturate(1.6) drop-shadow(0 0 8px #ff9fd0) hue-rotate(0deg); }
+  to { filter: saturate(1.6) drop-shadow(0 0 8px #ff9fd0) hue-rotate(360deg); }
+}
+
+.anim-rainbow { animation: hueSpin 3s linear infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-rainbow { animation: none; }
+}
+
 .banana-name {
   font-weight: 700;
   font-size: 0.92rem;
@@ -393,7 +437,7 @@ body {
 }
 @keyframes rainbow { from { background-position: 0% 0; } to { background-position: 300% 0; } }
 
-.epic-emoji { font-size: 4rem; margin: 10px 0; }
+.epic-emoji { margin: 10px 0; display: flex; justify-content: center; }
 .epic-sub { font-weight: 700; max-width: 320px; margin: 0 auto 10px; }
 .epic-name { font-size: 1.1rem; font-style: italic; margin-bottom: 16px; }
 .epic-close { margin-top: 6px; }
