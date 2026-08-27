@@ -66,6 +66,18 @@ body {
 }
 .mute-btn.muted { opacity: 0.55; }
 
+.account-btn {
+  border: none;
+  background: var(--card-bg);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+.account-btn.linked { background: var(--accent); color: #2b1a00; }
+
 /* --- Onglets --- */
 
 .tabs {
@@ -1026,6 +1038,69 @@ body {
   justify-content: center;
   margin-top: 16px;
 }
+
+/* --- Modal compte --- */
+
+.account-modal-box { position: relative; max-width: 380px; text-align: left; }
+
+.modal-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #7a6224;
+  padding: 4px;
+  line-height: 1;
+}
+
+.account-form h3 { margin: 0 0 12px; text-align: center; }
+
+.account-field { margin-bottom: 12px; }
+.account-field label { display: block; font-weight: 700; font-size: 0.85rem; margin-bottom: 4px; }
+.account-field input {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 2px solid #f0dfa8;
+  font-size: 0.95rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+.account-field input:focus { outline: none; border-color: var(--accent-dark); }
+
+.account-warning {
+  font-size: 0.78rem;
+  color: #9c5b0b;
+  background: #fff3d6;
+  border-radius: 10px;
+  padding: 8px 10px;
+  margin-bottom: 14px;
+}
+
+.account-error {
+  font-size: 0.82rem;
+  color: var(--danger);
+  margin: -4px 0 12px;
+  min-height: 1em;
+}
+
+.account-form-actions { display: flex; flex-direction: column; gap: 8px; margin-top: 4px; }
+.account-switch-mode {
+  background: none;
+  border: none;
+  color: #7a6224;
+  font-size: 0.82rem;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.account-logged-in { text-align: center; }
+.account-logged-in .account-username { font-size: 1.2rem; font-weight: 800; margin-bottom: 4px; }
+.account-logged-in .account-hint { font-size: 0.82rem; color: #5c4a1a; margin-bottom: 16px; }
 
 /* --- Responsive --- */
 

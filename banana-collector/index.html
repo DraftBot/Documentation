@@ -17,6 +17,7 @@
         <span id="stat-collection">Collection : 0 / 100</span>
         <span id="stat-coins">🪙 Pièces : 0</span>
         <button id="mute-btn" class="mute-btn" title="Couper/activer le son">🔊</button>
+        <button id="account-btn" class="account-btn">👤 Compte</button>
       </div>
     </header>
 
@@ -184,11 +185,20 @@
     </div>
   </div>
 
+  <div id="account-modal" class="modal hidden">
+    <div class="modal-box account-modal-box">
+      <button id="account-modal-close" class="modal-close-btn" aria-label="Fermer">✕</button>
+      <div id="account-modal-content"></div>
+    </div>
+  </div>
+
   <div id="toast-layer" class="toast-layer"></div>
 
   <script src="data.js"></script>
   <script src="app.js"></script>
   <script src="sounds.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+  <script src="cloud.js"></script>
   <script src="ui.js"></script>
 </body>
 </html>
