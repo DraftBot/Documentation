@@ -73,6 +73,24 @@ const UPGRADES = [
     priceMult: 1.9,
     maxLevel: 3,
   },
+  {
+    id: "strategie",
+    name: "🎯 Stratège de combat",
+    desc: "+4% de chance de victoire dans l'Arène par niveau",
+    targets: [],
+    basePrice: 2200,
+    priceMult: 1.8,
+    maxLevel: 5,
+  },
+  {
+    id: "questbonus",
+    name: "📜 Quête bonus",
+    desc: "+1 quête quotidienne disponible par niveau",
+    targets: [],
+    basePrice: 3500,
+    priceMult: 2.3,
+    maxLevel: 2,
+  },
 ];
 
 function defaultState() {
@@ -84,7 +102,7 @@ function defaultState() {
     discovered: [], // bananaId[]
     pityRare: 0,
     pityLegendary: 0,
-    upgrades: { panier: 0, detecteur: 0, dore: 0, cosmique: 0, auto: 0, multiplicateur: 0, pubplus: 0 },
+    upgrades: { panier: 0, detecteur: 0, dore: 0, cosmique: 0, auto: 0, multiplicateur: 0, pubplus: 0, strategie: 0, questbonus: 0 },
     lastBananaId: null,
     mythicCount: 0,
     rarestId: null,
@@ -94,6 +112,8 @@ function defaultState() {
     streak: { count: 0, lastLoginDate: null },
     achievements: { unlocked: [] },
     pve: { stage: 0, wins: 0, losses: 0 },
+    quests: { date: null, assigned: [], progress: {}, completed: [] },
+    settings: { muted: false },
   };
 }
 
@@ -232,6 +252,9 @@ function rollBanana() {
     state.rarestId = banana.id;
   }
 
+  bumpQuestProgress("rolls");
+  if (isRareOrAbove(rarity)) bumpQuestProgress("rarePlus");
+
   saveState();
   return { banana, isNew, rarity, coinsEarned };
 }
@@ -252,6 +275,7 @@ function buyUpgrade(id) {
   if (state.coins < price) return { ok: false, reason: "pauvre" };
   state.coins -= price;
   state.upgrades[id] = level + 1;
+  bumpQuestProgress("upgradesBought");
   saveState();
   return { ok: true };
 }
@@ -297,6 +321,7 @@ function adsRemainingToday() {
 function grantAdReward() {
   state.ads.watchedToday += 1;
   const coinsEarned = grantCoins(AD_REWARD);
+  bumpQuestProgress("ads");
   saveState();
   return coinsEarned;
 }
@@ -335,6 +360,7 @@ function spinWheel() {
   const prize = WHEEL_PRIZES[index];
   state.wheel.lastSpinDate = todayKey();
   const coinsEarned = grantCoins(prize.coins);
+  bumpQuestProgress("wheel");
   saveState();
   return { ok: true, index, coins: coinsEarned };
 }
@@ -358,6 +384,7 @@ function awardCatchGameResult(goodCaught, rottenCaught) {
   const coinsEarned = grantCoins(rawCoins);
   if (goodCaught > state.catchGame.bestScore) state.catchGame.bestScore = goodCaught;
   if (coinsEarned > state.catchGame.bestCoins) state.catchGame.bestCoins = coinsEarned;
+  bumpQuestProgress("catchRounds");
   saveState();
   return coinsEarned;
 }
@@ -380,6 +407,83 @@ function processDailyStreak() {
   return { streak: state.streak.count, coinsEarned };
 }
 
+/* ---------------- Quêtes quotidiennes ---------------- */
+
+// Bassin de quêtes possibles. Chaque jour, un tirage sans répétition en
+// sélectionne quelques-unes (3 de base, plus avec l'amélioration "Quête
+// bonus"). La progression ("key") est comptée en continu dans
+// state.quests.progress et remise à zéro chaque nouveau jour.
+const QUEST_POOL = [
+  { id: "harvest5", desc: "Récolte 5 bananes", need: 5, reward: 80, key: "rolls" },
+  { id: "harvest15", desc: "Récolte 15 bananes", need: 15, reward: 200, key: "rolls" },
+  { id: "watchAd", desc: "Regarde 1 pub", need: 1, reward: 120, key: "ads" },
+  { id: "spinWheel", desc: "Tourne la roue quotidienne", need: 1, reward: 100, key: "wheel" },
+  { id: "win1Fight", desc: "Gagne 1 combat dans l'Arène", need: 1, reward: 150, key: "wins" },
+  { id: "win3Fight", desc: "Gagne 3 combats dans l'Arène", need: 3, reward: 350, key: "wins" },
+  { id: "catchRound", desc: "Termine un round d'Attrape les bananes", need: 1, reward: 130, key: "catchRounds" },
+  { id: "rarePlus", desc: "Obtiens une banane rare ou mieux", need: 1, reward: 180, key: "rarePlus" },
+  { id: "buyUpgrade", desc: "Achète une amélioration en boutique", need: 1, reward: 150, key: "upgradesBought" },
+];
+
+function questCountToday() {
+  return 3 + (state.upgrades.questbonus || 0);
+}
+
+// Vérifie si on a changé de jour depuis le dernier tirage de quêtes et, si
+// oui, en tire un nouveau lot au hasard sans répétition.
+function refreshQuestsIfNewDay() {
+  const today = todayKey();
+  if (state.quests.date === today) return;
+  state.quests.date = today;
+  state.quests.progress = {};
+  state.quests.completed = [];
+  const pool = QUEST_POOL.slice();
+  const assigned = [];
+  const count = Math.min(questCountToday(), pool.length);
+  for (let i = 0; i < count; i++) {
+    const idx = Math.floor(Math.random() * pool.length);
+    assigned.push(pool.splice(idx, 1)[0].id);
+  }
+  state.quests.assigned = assigned;
+}
+
+function bumpQuestProgress(key, amount = 1) {
+  refreshQuestsIfNewDay();
+  state.quests.progress[key] = (state.quests.progress[key] || 0) + amount;
+}
+
+function questsForToday() {
+  refreshQuestsIfNewDay();
+  return state.quests.assigned
+    .map((id) => QUEST_POOL.find((q) => q.id === id))
+    .filter(Boolean)
+    .map((quest) => ({
+      ...quest,
+      progress: Math.min(state.quests.progress[quest.key] || 0, quest.need),
+      done: state.quests.completed.includes(quest.id),
+    }));
+}
+
+// Évalue les quêtes du jour, crédite les récompenses des quêtes tout juste
+// terminées et retourne leur liste (pour affichage de toasts).
+function checkQuests() {
+  refreshQuestsIfNewDay();
+  const completedNow = [];
+  for (const qid of state.quests.assigned) {
+    if (state.quests.completed.includes(qid)) continue;
+    const quest = QUEST_POOL.find((q) => q.id === qid);
+    if (!quest) continue;
+    const progress = state.quests.progress[quest.key] || 0;
+    if (progress >= quest.need) {
+      state.quests.completed.push(qid);
+      grantCoins(quest.reward);
+      completedNow.push(quest);
+    }
+  }
+  if (completedNow.length > 0) saveState();
+  return completedNow;
+}
+
 /* ---------------- Succès ---------------- */
 
 const ACHIEVEMENTS = [
@@ -400,7 +504,8 @@ const ACHIEVEMENTS = [
   { id: "streak_7", icon: "🔥", name: "Semaine parfaite", desc: "Connecte-toi 7 jours d'affilée", reward: 500, check: (s) => s.streak.count >= 7 },
   { id: "shop_maxed", icon: "🛒", name: "Boutique dévalisée", desc: "Monte une amélioration à son niveau maximum", reward: 300, check: (s) => UPGRADES.some((u) => (s.upgrades[u.id] || 0) >= u.maxLevel) },
   { id: "pve_first_win", icon: "⚔️", name: "Premier combat", desc: "Remporte ta première victoire contre un ananas", reward: 100, check: (s) => s.pve.wins >= 1 },
-  { id: "pve_king", icon: "🏆", name: "Vainqueur du Roi Ananas", desc: "Bats le Roi Ananas, le boss final de l'arène", reward: 1500, check: (s) => s.pve.stage >= PINEAPPLE_ENEMIES.length - 1 },
+  { id: "pve_ananas_king", icon: "🍍", name: "Vainqueur du Roi Ananas", desc: "Bats le Roi Ananas et ouvre la voie vers les autres familles de fruits", reward: 800, check: (s) => s.pve.stage >= 5 },
+  { id: "pve_king", icon: "🏆", name: "Empereur vaincu", desc: "Bats l'Empereur Fruit du Dragon, le boss final de l'arène à 60 niveaux", reward: 5000, check: (s) => s.pve.stage >= FRUIT_ENEMIES.length - 1 },
 ];
 
 // Évalue tous les succès, débloque les nouveaux, crédite leur récompense.
@@ -443,34 +548,72 @@ function bananaCombatStats(banana) {
   };
 }
 
-const PINEAPPLE_ENEMIES = [
-  { name: "Ananas basique", emoji: "🍍", atk: 6, def: 5, reward: 15, scale: 1 },
-  { name: "Ananas piquant", emoji: "🍍", atk: 12, def: 9, reward: 35, scale: 1.15 },
-  { name: "Ananas doré", emoji: "🍍", atk: 22, def: 18, reward: 80, scale: 1.3 },
-  { name: "Ananas de fer", emoji: "🍍", atk: 35, def: 30, reward: 160, scale: 1.45 },
-  { name: "Ananas légendaire", emoji: "🍍", atk: 55, def: 45, reward: 350, scale: 1.6 },
-  { name: "Roi Ananas", emoji: "🍍", atk: 80, def: 65, reward: 800, scale: 1.9 },
+// L'arène compte 10 familles de fruits, 6 niveaux chacune (60 au total).
+// Les ananas (famille 0) gardent leurs stats historiques ; chaque famille
+// suivante est strictement plus forte que la précédente — la première Pomme
+// (stade 6) dépasse déjà le Roi Ananas (stade 5).
+const FRUIT_FAMILIES = [
+  { emoji: "🍍", label: "Ananas", names: ["Ananas basique", "Ananas piquant", "Ananas doré", "Ananas de fer", "Ananas légendaire", "Roi Ananas"] },
+  { emoji: "🍎", label: "Pomme", names: ["Pomme sauvage", "Pomme acide", "Pomme dorée", "Pomme de fer", "Pomme légendaire", "Reine Pomme"] },
+  { emoji: "🍊", label: "Clémentine", names: ["Clémentine sauvage", "Clémentine acide", "Clémentine dorée", "Clémentine de fer", "Clémentine légendaire", "Reine Clémentine"] },
+  { emoji: "🍐", label: "Poire", names: ["Poire sauvage", "Poire acide", "Poire dorée", "Poire de fer", "Poire légendaire", "Reine Poire"] },
+  { emoji: "🍓", label: "Fraise", names: ["Fraise sauvage", "Fraise acide", "Fraise dorée", "Fraise de fer", "Fraise légendaire", "Reine Fraise"] },
+  { emoji: "🍇", label: "Raisin", names: ["Raisin sauvage", "Raisin acide", "Raisin doré", "Raisin de fer", "Raisin légendaire", "Roi Raisin"] },
+  { emoji: "🍉", label: "Pastèque", names: ["Pastèque sauvage", "Pastèque acide", "Pastèque dorée", "Pastèque de fer", "Pastèque légendaire", "Reine Pastèque"] },
+  { emoji: "🥝", label: "Kiwi", names: ["Kiwi sauvage", "Kiwi acide", "Kiwi doré", "Kiwi de fer", "Kiwi légendaire", "Roi Kiwi"] },
+  { emoji: "🥭", label: "Mangue", names: ["Mangue sauvage", "Mangue acide", "Mangue dorée", "Mangue de fer", "Mangue légendaire", "Reine Mangue"] },
+  { emoji: "🍈", label: "Fruit du Dragon", names: ["Fruit du Dragon endormi", "Fruit du Dragon enragé", "Fruit du Dragon doré", "Fruit du Dragon de fer", "Fruit du Dragon légendaire", "Empereur Fruit du Dragon"] },
 ];
 
-// Un ananas déjà battu reste jouable (pour refarmer des pièces), mais on ne
-// peut pas défier un ananas plus loin que celui juste après le dernier battu.
+const PINEAPPLE_BASE_STATS = [
+  { atk: 6, def: 5, reward: 15 },
+  { atk: 12, def: 9, reward: 35 },
+  { atk: 22, def: 18, reward: 80 },
+  { atk: 35, def: 30, reward: 160 },
+  { atk: 55, def: 45, reward: 350 },
+  { atk: 80, def: 65, reward: 800 },
+];
+
+const FRUIT_ENEMIES = (() => {
+  const list = [];
+  FRUIT_FAMILIES.forEach((family, f) => {
+    family.names.forEach((name, l) => {
+      const stage = f * 6 + l;
+      let atk, def, reward;
+      if (stage < 6) {
+        ({ atk, def, reward } = PINEAPPLE_BASE_STATS[stage]);
+      } else {
+        const t = stage - 5; // 1..54, progression exponentielle jusqu'au boss final
+        atk = Math.round(80 * Math.pow(37.5, t / 54));
+        def = Math.round(65 * Math.pow(33.85, t / 54));
+        reward = Math.round(800 * Math.pow(150, t / 54));
+      }
+      list.push({ name, emoji: family.emoji, family: f, familyLabel: family.label, atk, def, reward });
+    });
+  });
+  return list;
+})();
+
+// Un ennemi déjà battu reste jouable (pour refarmer des pièces), mais on ne
+// peut pas défier un ennemi plus loin que celui juste après le dernier battu.
 function maxPlayablePveStage() {
-  return Math.min(state.pve.stage + 1, PINEAPPLE_ENEMIES.length - 1);
+  return Math.min(state.pve.stage + 1, FRUIT_ENEMIES.length - 1);
 }
 
 // Résout un combat en un coup : la chance de victoire dépend du rapport
 // attaque-vs-défense dans les deux sens, avec toujours une petite marge de
 // hasard (jamais 100% garanti, jamais totalement impossible).
-function fightPineapple(bananaId, stageIndex) {
+function fightFruitEnemy(bananaId, stageIndex) {
   const banana = BANANAS_BY_ID[bananaId];
   if (!banana || !state.discovered.includes(bananaId)) return { ok: false, reason: "banane_inconnue" };
   if (stageIndex < 0 || stageIndex > maxPlayablePveStage()) return { ok: false, reason: "stage_verrouille" };
 
-  const enemy = PINEAPPLE_ENEMIES[stageIndex];
+  const enemy = FRUIT_ENEMIES[stageIndex];
   const playerStats = bananaCombatStats(banana);
   const atkRatio = playerStats.atk / (playerStats.atk + enemy.atk);
   const defRatio = playerStats.def / (playerStats.def + enemy.def);
-  const winChance = Math.min(0.95, Math.max(0.05, atkRatio * 0.5 + defRatio * 0.5));
+  const strategyBonus = (state.upgrades.strategie || 0) * 0.04;
+  const winChance = Math.min(0.95, Math.max(0.05, atkRatio * 0.5 + defRatio * 0.5 + strategyBonus));
   const won = Math.random() < winChance;
 
   let coinsEarned;
@@ -478,6 +621,7 @@ function fightPineapple(bananaId, stageIndex) {
   if (won) {
     coinsEarned = grantCoins(enemy.reward);
     state.pve.wins += 1;
+    bumpQuestProgress("wins");
     if (stageAdvanced) state.pve.stage = stageIndex;
   } else {
     coinsEarned = grantCoins(Math.round(enemy.reward * 0.2));
