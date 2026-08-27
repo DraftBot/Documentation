@@ -112,6 +112,14 @@ function buildResult(
     "demo-dataset": `Estimation calculée à partir du jeu de données de démonstration (${sampleSize} ` +
       `échantillon(s)). Ces chiffres sont fictifs et ne reflètent pas le marché réel.`,
   };
+  if (source.startsWith("dvf-")) {
+    const year = source.replace("dvf-", "");
+    methodologyBySource[source] =
+      `Estimation calculée à partir de ${sampleSize} transaction(s) immobilière(s) réellement ` +
+      `enregistrée(s) en ${year} sur cette commune (source : DVF, Demandes de Valeurs Foncières, ` +
+      `data.gouv.fr/DGFiP — vente déjà conclue, pas une annonce en cours). Ne sont retenues que les ` +
+      `mutations portant sur un seul logement avec surface connue, pour éviter de fausser le prix au m².`;
+  }
 
   return {
     sufficientData: true,

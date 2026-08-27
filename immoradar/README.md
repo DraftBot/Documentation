@@ -202,6 +202,32 @@ fourni. Le détail de ce qui manque pour chaque source est visible dans
 `/admin` et `/donnees`, et documenté dans
 `src/lib/connectors/registry.ts`.
 
+## Statistiques de prix nationales (DVF)
+
+L'analyse de prix (§13) peut s'appuyer sur **DVF** (Demandes de Valeurs
+Foncières, DGFiP/Etalab) : les transactions immobilières réellement
+enregistrées sur tout le territoire français, en open data, gratuites et
+sans clé. C'est un historique de **ventes déjà conclues**, pas des annonces
+en cours — ça rend l'estimation de prix fiable partout en France, mais ça
+n'ajoute pas de nouveaux logements dans les résultats de recherche (voir
+[Sources immobilières](#sources-immobilières) pour ça).
+
+Import déclenché manuellement, département par département (fichiers
+volumineux) :
+
+```bash
+curl -X POST https://votre-site.vercel.app/api/admin/dvf-import \
+  -H "x-seed-secret: $SEED_SECRET" \
+  -H "Content-Type: application/json" \
+  -d '{"department": "25", "year": 2023}'
+```
+
+Méthodologie : seules les mutations "Vente" ne portant que sur un seul
+logement (Maison ou Appartement) avec une surface bâtie connue sont
+retenues, pour éviter que le prix total d'une transaction multi-lots
+(logement + cave + parking...) ne fausse le prix au m². Codes département :
+`src/lib/dvf.ts` (`ALL_FRENCH_DEPARTMENTS`).
+
 ## Ajouter une nouvelle source immobilière
 
 1. Créez `src/lib/connectors/monSourceConnector.ts` qui implémente
