@@ -42,6 +42,14 @@ document.addEventListener("DOMContentLoaded", () => {
     wheelDisc: document.getElementById("wheel-disc"),
     wheelSpinBtn: document.getElementById("wheel-spin-btn"),
     wheelStatus: document.getElementById("wheel-status"),
+    achievementsPanel: document.getElementById("achievements-content"),
+    pveBananaSelect: document.getElementById("pve-banana-select"),
+    pvePlayerFighter: document.getElementById("pve-player-fighter"),
+    pveEnemyFighter: document.getElementById("pve-enemy-fighter"),
+    pveVsMark: document.getElementById("pve-vs-mark"),
+    pveFightBtn: document.getElementById("pve-fight-btn"),
+    pveResult: document.getElementById("pve-result"),
+    pveStageList: document.getElementById("pve-stage-list"),
   };
 
   /* ---------------- Onglets ---------------- */
@@ -53,7 +61,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "boutique") renderShop();
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
-    if (name === "stats") renderStats();
+    if (name === "combat") renderPveTab();
+    if (name === "stats") { renderStats(); renderAchievements(); }
   }
 
   els.tabButtons.forEach((btn) => {
@@ -117,16 +126,23 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let busy = false;
 
-  function bananaCardHTML(banana, count, isNew) {
+  // Carte "héros" utilisée uniquement pour la dernière banane récoltée —
+  // en grand, avec une lueur de fond, distincte des petites cartes compactes
+  // de la grille de collection.
+  function bananaCardHTML(banana, count, isNew, coinsEarned) {
     const rarity = RARITIES[banana.rarity];
+    const displayCoins = coinsEarned != null ? coinsEarned : banana.value;
     return `
-      <div class="banana-card rarity-${banana.rarity} ${isNew ? "is-new" : ""}" style="--rarity-color:${rarity.color}; --rarity-glow:${rarity.glow};">
+      <div class="harvest-reveal-card rarity-${banana.rarity} ${isNew ? "is-new" : ""}" style="--rarity-color:${rarity.color}; --rarity-glow:${rarity.glow};">
         ${isNew ? '<div class="new-badge">NOUVELLE BANANE !</div>' : ""}
-        ${bananaIconHTML(banana)}
-        <div class="banana-name">${banana.name}</div>
-        <div class="banana-rarity">${rarity.label}</div>
-        <div class="banana-value">🪙 ${banana.value}</div>
-        <div class="banana-count">x${count}</div>
+        <div class="harvest-reveal-glow"></div>
+        ${bananaIconHTML(banana, 5.5)}
+        <div class="harvest-reveal-name">${banana.name}</div>
+        <div class="harvest-reveal-rarity-pill">${rarity.label}</div>
+        <div class="harvest-reveal-meta">
+          <span>🪙 +${displayCoins}</span>
+          <span>x${count}</span>
+        </div>
       </div>
     `;
   }
@@ -137,11 +153,11 @@ document.addEventListener("DOMContentLoaded", () => {
     els.harvestBtn.disabled = true;
 
     const result = rollBanana();
-    const { banana, isNew, rarity } = result;
+    const { banana, isNew, rarity, coinsEarned } = result;
 
     renderHeader();
-    els.lastBanana.innerHTML = bananaCardHTML(banana, state.counts[banana.id], isNew);
-    const card = els.lastBanana.querySelector(".banana-card");
+    els.lastBanana.innerHTML = bananaCardHTML(banana, state.counts[banana.id], isNew, coinsEarned);
+    const card = els.lastBanana.querySelector(".harvest-reveal-card");
     card.classList.add("pop-in");
 
     if (isRareOrAbove(rarity)) {
@@ -155,6 +171,12 @@ document.addEventListener("DOMContentLoaded", () => {
       showEpicOverlay(banana, rarity);
     } else if (isNew) {
       spawnConfetti(10);
+    }
+
+    const unlocked = checkAchievements();
+    if (unlocked.length > 0) {
+      renderHeader();
+      showAchievementToasts(unlocked);
     }
 
     const cooldown = rarity === "mythique" || rarity === "secrete" ? 300 : 350;
@@ -192,6 +214,15 @@ document.addEventListener("DOMContentLoaded", () => {
       banner.classList.remove("show");
       setTimeout(() => banner.remove(), 400);
     }, duration);
+  }
+
+  function showAchievementToasts(achievements) {
+    achievements.forEach((ach, i) => {
+      setTimeout(() => {
+        showBanner("🏆 SUCCÈS DÉBLOQUÉ !", { emoji: ach.icon, name: `${ach.name} (+${ach.reward} 🪙)` }, 2200);
+        spawnConfetti(15);
+      }, i * 900);
+    });
   }
 
   function showEpicOverlay(banana, rarity) {
@@ -304,6 +335,12 @@ document.addEventListener("DOMContentLoaded", () => {
         if (res.ok) {
           renderHeader();
           renderShop();
+          updateAutoHarvestTimer();
+          const unlocked = checkAchievements();
+          if (unlocked.length > 0) {
+            renderHeader();
+            showAchievementToasts(unlocked);
+          }
         }
       });
     });
@@ -316,7 +353,7 @@ document.addEventListener("DOMContentLoaded", () => {
   function renderAdTab() {
     const remaining = adsRemainingToday();
     els.adQuota.textContent = remaining > 0
-      ? `${remaining} / ${MAX_ADS_PER_DAY} pubs disponibles aujourd'hui`
+      ? `${remaining} / ${maxAdsPerDay()} pubs disponibles aujourd'hui`
       : "Plus de pub disponible aujourd'hui — reviens demain !";
     els.watchAdBtn.disabled = adPlaying || remaining <= 0;
     els.watchAdBtn.textContent = `🎬 Regarder une pub (+${AD_REWARD} 🪙)`;
@@ -330,12 +367,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Simulation du délai de chargement/visionnage d'une pub réelle.
     setTimeout(() => {
-      grantAdReward();
+      const coinsEarned = grantAdReward();
       renderHeader();
       adPlaying = false;
       renderAdTab();
       spawnConfetti(16);
-      showBanner("🎉 MERCI D'AVOIR REGARDÉ !", { emoji: "🪙", name: `+${AD_REWARD} pièces` }, 1600);
+      showBanner("🎉 MERCI D'AVOIR REGARDÉ !", { emoji: "🪙", name: `+${coinsEarned} pièces` }, 1600);
+      const unlocked = checkAchievements();
+      if (unlocked.length > 0) {
+        renderHeader();
+        showAchievementToasts(unlocked);
+      }
     }, 1500);
   });
 
@@ -510,6 +552,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (good >= 6) spawnConfetti(20);
     catchState = null;
     renderMinigamesMenu();
+
+    const unlocked = checkAchievements();
+    if (unlocked.length > 0) {
+      renderHeader();
+      showAchievementToasts(unlocked);
+    }
   }
 
   /* ---------------- Mini-jeu : Roue de la fortune ---------------- */
@@ -566,10 +614,171 @@ document.addEventListener("DOMContentLoaded", () => {
         { emoji: "🪙", name: `+${result.coins} pièces` },
         2000
       );
+      const unlocked = checkAchievements();
+      if (unlocked.length > 0) {
+        renderHeader();
+        showAchievementToasts(unlocked);
+      }
     }, 4100);
   });
 
+  /* ---------------- Combat : l'Arène des Ananas ---------------- */
+
+  let pveSelectedBananaId = null;
+  let pveSelectedStage = 0;
+  let pveFighting = false;
+
+  function pveDiscoveredBananasSorted() {
+    return state.discovered
+      .map((id) => BANANAS_BY_ID[id])
+      .sort((a, b) => rarityIndex(b.rarity) - rarityIndex(a.rarity) || b.value - a.value);
+  }
+
+  function renderPveBananaSelect() {
+    const owned = pveDiscoveredBananasSorted();
+    if (owned.length === 0) {
+      els.pveBananaSelect.innerHTML = `<p class="secret-hint">Récolte au moins une banane avant de combattre !</p>`;
+      pveSelectedBananaId = null;
+      return;
+    }
+    if (!pveSelectedBananaId || !owned.some((b) => b.id === pveSelectedBananaId)) {
+      pveSelectedBananaId = owned[0].id;
+    }
+    els.pveBananaSelect.innerHTML = owned.map((b) => {
+      const stats = bananaCombatStats(b);
+      const selected = b.id === pveSelectedBananaId;
+      return `
+        <button class="pve-banana-option ${selected ? "selected" : ""}" data-id="${b.id}" title="${b.name}">
+          ${bananaIconHTML(b, 2)}
+          <span class="pve-banana-stats">⚔️${stats.atk} 🛡️${stats.def}</span>
+        </button>
+      `;
+    }).join("");
+    els.pveBananaSelect.querySelectorAll(".pve-banana-option").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        pveSelectedBananaId = Number(btn.dataset.id);
+        renderPveBananaSelect();
+        renderPveFighters();
+      });
+    });
+  }
+
+  const PVE_STAGE_GLOWS = ["#8bd17c", "#e0c341", "#d4a017", "#9aa5ad", "#c76b98", "#ffd23f"];
+
+  function renderPveFighters() {
+    const enemy = PINEAPPLE_ENEMIES[pveSelectedStage];
+    const locked = pveSelectedStage > maxPlayablePveStage();
+    const playerBanana = pveSelectedBananaId ? BANANAS_BY_ID[pveSelectedBananaId] : null;
+    const playerStats = playerBanana ? bananaCombatStats(playerBanana) : null;
+
+    els.pvePlayerFighter.innerHTML = playerBanana ? `
+      ${bananaIconHTML(playerBanana, 3.4)}
+      <div class="pve-fighter-name">${playerBanana.name}</div>
+      <div class="pve-fighter-stats">⚔️ ${playerStats.atk} · 🛡️ ${playerStats.def}</div>
+    ` : `<div class="pve-fighter-empty">Choisis une banane</div>`;
+
+    els.pveEnemyFighter.innerHTML = `
+      <div class="pve-enemy-icon" style="font-size:${2.4 + pveSelectedStage * 0.35}rem; filter:drop-shadow(0 0 10px ${PVE_STAGE_GLOWS[pveSelectedStage]});">${enemy.emoji}</div>
+      <div class="pve-fighter-name">${enemy.name}${locked ? " 🔒" : ""}</div>
+      <div class="pve-fighter-stats">⚔️ ${enemy.atk} · 🛡️ ${enemy.def} · 🪙 ${enemy.reward}</div>
+    `;
+
+    els.pveFightBtn.disabled = pveFighting || !playerBanana || locked;
+    els.pveFightBtn.textContent = locked ? "🔒 Bats l'ananas précédent d'abord" : "⚔️ Attaquer";
+  }
+
+  function renderPveStageList() {
+    els.pveStageList.innerHTML = PINEAPPLE_ENEMIES.map((enemy, i) => {
+      const beaten = i <= state.pve.stage;
+      const playable = i <= maxPlayablePveStage();
+      const selected = i === pveSelectedStage;
+      return `
+        <button class="pve-stage-chip ${selected ? "selected" : ""} ${!playable ? "locked" : ""}" data-stage="${i}" ${!playable ? "disabled" : ""}>
+          <span>${playable ? enemy.emoji : "🔒"}</span>
+          ${beaten ? '<span class="pve-stage-check">✅</span>' : ""}
+        </button>
+      `;
+    }).join("");
+    els.pveStageList.querySelectorAll(".pve-stage-chip").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        pveSelectedStage = Number(btn.dataset.stage);
+        renderPveStageList();
+        renderPveFighters();
+        els.pveResult.classList.add("hidden");
+      });
+    });
+  }
+
+  function renderPveTab() {
+    if (pveSelectedStage > maxPlayablePveStage()) pveSelectedStage = maxPlayablePveStage();
+    renderPveBananaSelect();
+    renderPveStageList();
+    renderPveFighters();
+    els.pveResult.classList.add("hidden");
+  }
+
+  els.pveFightBtn.addEventListener("click", () => {
+    if (pveFighting || !pveSelectedBananaId) return;
+    pveFighting = true;
+    els.pveFightBtn.disabled = true;
+    els.pveResult.classList.add("hidden");
+    els.pveVsMark.classList.add("clash");
+
+    setTimeout(() => {
+      els.pveVsMark.classList.remove("clash");
+      const result = fightPineapple(pveSelectedBananaId, pveSelectedStage);
+      pveFighting = false;
+
+      if (!result.ok) {
+        renderPveFighters();
+        return;
+      }
+
+      renderHeader();
+      els.pveResult.innerHTML = `
+        <div class="pve-result-title">${result.won ? "🎉 Victoire !" : "💥 Défaite..."}</div>
+        <div class="pve-result-line">${result.won ? "Ta banane triomphe de l'ananas !" : "L'ananas était trop coriace cette fois — courage vaincu quand même récompensé."}</div>
+        <div class="pve-result-coins">🪙 +${result.coinsEarned}</div>
+        ${result.stageAdvanced ? '<div class="pve-result-line">🔓 Ananas suivant débloqué !</div>' : ""}
+      `;
+      els.pveResult.classList.remove("hidden");
+
+      if (result.won) spawnConfetti(result.stageAdvanced ? 25 : 12);
+
+      const unlocked = checkAchievements();
+      if (unlocked.length > 0) {
+        renderHeader();
+        showAchievementToasts(unlocked);
+      }
+
+      renderPveStageList();
+      renderPveFighters();
+    }, 650);
+  });
+
   /* ---------------- Statistiques ---------------- */
+
+  function renderAchievements() {
+    const unlockedCount = state.achievements.unlocked.length;
+    const badges = ACHIEVEMENTS.map((ach) => {
+      const unlocked = state.achievements.unlocked.includes(ach.id);
+      return `
+        <div class="achievement-badge ${unlocked ? "unlocked" : "locked"}">
+          <div class="achievement-icon">${unlocked ? ach.icon : "🔒"}</div>
+          <div class="achievement-info">
+            <div class="achievement-name">${unlocked ? ach.name : "???"}</div>
+            <div class="achievement-desc">${unlocked ? ach.desc : "Succès verrouillé"}</div>
+          </div>
+          ${unlocked ? `<div class="achievement-reward">+${ach.reward}🪙</div>` : ""}
+        </div>
+      `;
+    }).join("");
+
+    els.achievementsPanel.innerHTML = `
+      <h2 class="achievements-heading">🏆 Succès <span class="achievements-count">${unlockedCount} / ${ACHIEVEMENTS.length}</span></h2>
+      <div class="achievements-list">${badges}</div>
+    `;
+  }
 
   function renderStats() {
     const discoveredNormal = state.discovered.filter((id) => !BANANAS_BY_ID[id].secret).length;
@@ -589,6 +798,21 @@ document.addEventListener("DOMContentLoaded", () => {
     `;
   }
 
+  /* ---------------- Récolteur automatique ---------------- */
+
+  let autoHarvestTimer = null;
+
+  function updateAutoHarvestTimer() {
+    clearInterval(autoHarvestTimer);
+    const level = state.upgrades.auto || 0;
+    if (level <= 0) return;
+    const upgrade = UPGRADES.find((u) => u.id === "auto");
+    const interval = upgrade.intervalsMs[level - 1];
+    autoHarvestTimer = setInterval(() => {
+      if (!busy) harvest();
+    }, interval);
+  }
+
   /* ---------------- Réinitialisation ---------------- */
 
   els.resetBtn.addEventListener("click", () => {
@@ -601,11 +825,15 @@ document.addEventListener("DOMContentLoaded", () => {
     resetSave();
     els.confirmModal.classList.add("hidden");
     els.lastBanana.innerHTML = `<p class="empty-hint">Clique sur le bouton pour récolter ta première banane !</p>`;
+    updateAutoHarvestTimer();
+    pveSelectedBananaId = null;
+    pveSelectedStage = 0;
     renderHeader();
     renderCollection();
     renderShop();
     renderMinigamesMenu();
     renderStats();
+    renderAchievements();
   });
 
   /* ---------------- Démarrage ---------------- */
@@ -618,4 +846,20 @@ document.addEventListener("DOMContentLoaded", () => {
     els.lastBanana.innerHTML = `<p class="empty-hint">Clique sur le bouton pour récolter ta première banane !</p>`;
   }
   renderCollection();
+  updateAutoHarvestTimer();
+
+  const streakResult = processDailyStreak();
+  if (streakResult) {
+    renderHeader();
+    setTimeout(() => {
+      showBanner(`🔥 JOUR ${streakResult.streak} !`, { emoji: "🪙", name: `+${streakResult.coinsEarned} pièces de connexion` }, 2200);
+      spawnConfetti(12);
+    }, 500);
+  }
+
+  const unlockedAtStart = checkAchievements();
+  if (unlockedAtStart.length > 0) {
+    renderHeader();
+    showAchievementToasts(unlockedAtStart);
+  }
 });
