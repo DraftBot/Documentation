@@ -45,6 +45,10 @@ document.addEventListener("DOMContentLoaded", () => {
     wheelSpinBtn: document.getElementById("wheel-spin-btn"),
     wheelStatus: document.getElementById("wheel-status"),
     achievementsPanel: document.getElementById("achievements-content"),
+    accountBtn: document.getElementById("account-btn"),
+    accountModal: document.getElementById("account-modal"),
+    accountModalContent: document.getElementById("account-modal-content"),
+    accountModalClose: document.getElementById("account-modal-close"),
     pveBananaSelect: document.getElementById("pve-banana-select"),
     pvePlayerFighter: document.getElementById("pve-player-fighter"),
     pveEnemyFighter: document.getElementById("pve-enemy-fighter"),
@@ -922,6 +926,122 @@ document.addEventListener("DOMContentLoaded", () => {
     }, interval);
   }
 
+  /* ---------------- Compte cloud (Marché / Arène PVP) ---------------- */
+
+  let accountMode = "login"; // "login" | "signup"
+
+  function updateAccountBtn() {
+    if (CLOUD.available && CLOUD.isLinked()) {
+      els.accountBtn.textContent = `👤 ${CLOUD.currentUsername()}`;
+      els.accountBtn.classList.add("linked");
+    } else {
+      els.accountBtn.textContent = "👤 Compte";
+      els.accountBtn.classList.remove("linked");
+    }
+  }
+
+  function closeAccountModal() {
+    els.accountModal.classList.add("hidden");
+  }
+
+  function renderAccountModal() {
+    if (!CLOUD.available) {
+      els.accountModalContent.innerHTML = `
+        <div class="account-form">
+          <h3>👤 Compte</h3>
+          <p class="account-hint">Le service de compte est momentanément indisponible (connexion réseau). Le jeu solo continue de fonctionner normalement — réessaie plus tard pour le Marché et l'Arène PVP.</p>
+        </div>
+      `;
+      return;
+    }
+
+    if (CLOUD.isLinked()) {
+      els.accountModalContent.innerHTML = `
+        <div class="account-logged-in">
+          <div class="account-username">👤 ${CLOUD.currentUsername()}</div>
+          <div class="account-hint">Connecté — le Marché et l'Arène PVP sont disponibles.</div>
+          <button id="account-signout-btn" class="btn danger">Déconnexion</button>
+        </div>
+      `;
+      els.accountModalContent.querySelector("#account-signout-btn").addEventListener("click", async () => {
+        await CLOUD.signOut();
+        updateAccountBtn();
+        renderAccountModal();
+      });
+      return;
+    }
+
+    const isSignup = accountMode === "signup";
+    els.accountModalContent.innerHTML = `
+      <div class="account-form">
+        <h3>${isSignup ? "Créer un compte" : "Connexion"}</h3>
+        ${isSignup ? `<p class="account-warning">⚠️ Pas d'email associé à ce compte : si tu oublies ton mot de passe, il ne pourra pas être récupéré. Note-le bien quelque part !</p>` : ""}
+        <div class="account-field">
+          <label for="account-username-input">Pseudo</label>
+          <input id="account-username-input" type="text" autocomplete="username" maxlength="20" placeholder="3 à 20 caractères, lettres/chiffres/_" />
+        </div>
+        <div class="account-field">
+          <label for="account-password-input">Mot de passe</label>
+          <input id="account-password-input" type="password" autocomplete="${isSignup ? "new-password" : "current-password"}" />
+        </div>
+        <div class="account-error" id="account-error"></div>
+        <div class="account-form-actions">
+          <button id="account-submit-btn" class="btn harvest-btn">${isSignup ? "Créer mon compte" : "Se connecter"}</button>
+          <button class="account-switch-mode" id="account-switch-mode-btn">${isSignup ? "J'ai déjà un compte" : "Créer un compte"}</button>
+        </div>
+      </div>
+    `;
+
+    const errorEl = els.accountModalContent.querySelector("#account-error");
+    els.accountModalContent.querySelector("#account-switch-mode-btn").addEventListener("click", () => {
+      accountMode = isSignup ? "login" : "signup";
+      renderAccountModal();
+    });
+
+    els.accountModalContent.querySelector("#account-submit-btn").addEventListener("click", async () => {
+      const username = els.accountModalContent.querySelector("#account-username-input").value.trim().toLowerCase();
+      const password = els.accountModalContent.querySelector("#account-password-input").value;
+      errorEl.textContent = "";
+
+      if (!CLOUD.isValidUsername(username)) {
+        errorEl.textContent = "Pseudo invalide (3 à 20 caractères : lettres minuscules, chiffres, _).";
+        return;
+      }
+      if (password.length < 6) {
+        errorEl.textContent = "Mot de passe trop court (6 caractères minimum).";
+        return;
+      }
+
+      const submitBtn = els.accountModalContent.querySelector("#account-submit-btn");
+      submitBtn.disabled = true;
+      submitBtn.textContent = "⏳ ...";
+
+      const result = isSignup ? await CLOUD.signUp(username, password) : await CLOUD.signIn(username, password);
+
+      if (!result.ok) {
+        errorEl.textContent = result.reason || "Une erreur est survenue.";
+        submitBtn.disabled = false;
+        submitBtn.textContent = isSignup ? "Créer mon compte" : "Se connecter";
+        return;
+      }
+
+      SFX.buy();
+      updateAccountBtn();
+      renderAccountModal();
+      renderHeader();
+    });
+  }
+
+  els.accountBtn.addEventListener("click", () => {
+    accountMode = "login";
+    renderAccountModal();
+    els.accountModal.classList.remove("hidden");
+  });
+  els.accountModalClose.addEventListener("click", closeAccountModal);
+  els.accountModal.addEventListener("click", (e) => {
+    if (e.target === els.accountModal) closeAccountModal();
+  });
+
   /* ---------------- Son ---------------- */
 
   function renderMuteBtn() {
@@ -994,4 +1114,14 @@ document.addEventListener("DOMContentLoaded", () => {
     renderHeader();
     showAchievementToasts(unlockedAtStart, false);
   }
+
+  updateAccountBtn();
+  // Vérifie une session cloud existante (déjà connecté précédemment) en
+  // arrière-plan, sans jamais bloquer le rendu initial du jeu solo.
+  CLOUD.init().then(() => {
+    updateAccountBtn();
+    renderHeader();
+  }).catch(() => {
+    // Hors ligne / service indisponible au démarrage : jeu solo inchangé.
+  });
 });

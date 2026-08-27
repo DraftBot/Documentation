@@ -114,6 +114,9 @@ function defaultState() {
     pve: { stage: 0, wins: 0, losses: 0 },
     quests: { date: null, assigned: [], progress: {}, completed: [] },
     settings: { muted: false },
+    // Compte cloud (Marché / Arène PVP), opt-in — voir cloud.js. Le jeu solo
+    // n'y touche jamais et continue de fonctionner 100% hors ligne sans lui.
+    cloud: { linked: false, lastLedgerId: 0 },
   };
 }
 
