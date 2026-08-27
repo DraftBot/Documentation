@@ -1,0 +1,46 @@
+name: Deploy Banana Collector to GitHub Pages
+
+# Déploie uniquement le dossier banana-collector/ sur GitHub Pages.
+# N'interfère pas avec le pipeline de documentation existant (Doc-preview).
+#
+# Étape manuelle à faire UNE FOIS dans GitHub, avant que ce workflow
+# puisse publier quoi que ce soit :
+#   Settings > Pages > Build and deployment > Source = "GitHub Actions"
+
+on:
+  push:
+    branches: ["main"]
+    paths:
+      - "banana-collector/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "banana-collector-pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload banana-collector/ as Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: banana-collector
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

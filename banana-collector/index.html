@@ -21,6 +21,7 @@
       <button class="tab-btn active" data-tab="accueil">🏠 Accueil</button>
       <button class="tab-btn" data-tab="collection">📖 Collection</button>
       <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
+      <button class="tab-btn" data-tab="pub">📺 Pub</button>
       <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
     </nav>
 
@@ -48,6 +49,26 @@
         <h2>Boutique</h2>
         <p class="shop-hint">Dépense tes pièces pour améliorer tes chances d'obtenir des bananes rares !</p>
         <div id="shop-list" class="shop-list"></div>
+      </section>
+
+      <section id="tab-pub" class="tab-panel">
+        <h2>📺 Publicité</h2>
+        <p class="shop-hint">Regarde une pub pour gagner des pièces gratuitement, en plus de la récolte.</p>
+
+        <!--
+          Emplacement d'intégration publicitaire.
+          Web  : remplacer ce bloc par une unité Google AdSense
+                 (<ins class="adsbygoogle" ...>) une fois le compte validé.
+          Mobile (app Capacitor) : afficher ici une bannière AdMob native
+                 via @capacitor-community/admob.
+        -->
+        <div class="ad-slot">
+          <div class="ad-slot-label">Espace publicitaire</div>
+          <div class="ad-slot-sub">Bannière AdSense / AdMob — à activer avec un compte annonceur</div>
+        </div>
+
+        <button id="watch-ad-btn" class="btn watch-ad-btn">🎬 Regarder une pub (+50 🪙)</button>
+        <p id="ad-quota" class="ad-quota"></p>
       </section>
 
       <section id="tab-stats" class="tab-panel">

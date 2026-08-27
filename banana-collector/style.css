@@ -284,6 +284,46 @@ body {
 
 .reset-btn { margin-top: 24px; }
 
+/* --- Publicité --- */
+
+.ad-slot {
+  border: 2px dashed #d8c383;
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.5);
+  padding: 34px 16px;
+  text-align: center;
+  margin: 6px 0 20px;
+}
+
+.ad-slot-label {
+  font-weight: 800;
+  color: #7a6224;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.ad-slot-sub {
+  font-size: 0.8rem;
+  color: #9c874f;
+  margin-top: 6px;
+}
+
+.watch-ad-btn {
+  display: block;
+  width: min(100%, 340px);
+  margin: 0 auto;
+  padding: 14px 20px;
+  font-size: 1rem;
+}
+
+.ad-quota {
+  text-align: center;
+  color: #7a6224;
+  font-size: 0.85rem;
+  margin-top: 10px;
+}
+
 /* --- Statistiques --- */
 
 .stats-grid {

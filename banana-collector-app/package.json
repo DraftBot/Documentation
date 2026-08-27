@@ -1,0 +1,22 @@
+{
+  "name": "banana-collector-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enveloppe Capacitor pour publier Banana Collector sur iOS et Android à partir du même code web (../banana-collector).",
+  "scripts": {
+    "cap:add:android": "cap add android",
+    "cap:add:ios": "cap add ios",
+    "cap:sync": "cap sync",
+    "cap:open:android": "cap open android",
+    "cap:open:ios": "cap open ios",
+    "cap:run:android": "cap run android"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/ios": "^6.1.2"
+  }
+}

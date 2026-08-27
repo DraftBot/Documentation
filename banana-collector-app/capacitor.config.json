@@ -1,0 +1,9 @@
+{
+  "appId": "com.bananacollector.app",
+  "appName": "Banana Collector",
+  "webDir": "../banana-collector",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
