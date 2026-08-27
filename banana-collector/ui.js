@@ -107,8 +107,13 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       if (deco.accessories) {
         decoHTML = deco.accessories.map((a) => {
-          const cls = a.cls === "text" ? "deco deco-text" : "deco";
-          return `<span class="${cls}" style="${a.style}">${a.text || ""}</span>`;
+          if (a.type === "text") {
+            return `<span class="deco deco-text" style="${a.style || ""}">${a.text || ""}</span>`;
+          }
+          const colorVars = a.colors
+            ? `--deco-color-a:${a.colors[0]}; --deco-color-b:${a.colors[1]};`
+            : `--deco-color-a:${a.color || "#999"}; --deco-color-b:${a.color || "#999"};`;
+          return `<span class="deco deco-${a.type}" style="${colorVars} ${a.style || ""}"></span>`;
         }).join("");
       }
     }

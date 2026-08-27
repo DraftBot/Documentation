@@ -292,6 +292,53 @@ body {
   justify-content: center;
 }
 
+/* --- Catalogue de formes d'accessoires ---
+   Chaque forme a un dégradé + une ombre intégrés, pour éviter tout
+   effet de rectangle plat ou de trait brut : `--deco-color-a/-b`
+   (définies en inline par bananaIconHTML) pilotent la teinte. */
+
+.deco-band {
+  border-radius: 5px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.18)),
+    linear-gradient(180deg, var(--deco-color-a), var(--deco-color-b));
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.deco-orb {
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.7), rgba(0, 0, 0, 0.15) 75%),
+    linear-gradient(180deg, var(--deco-color-a), var(--deco-color-b));
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.deco-ring {
+  border-radius: 50%;
+  border: 2px solid var(--deco-color-a);
+  background: rgba(255, 255, 255, 0.22);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), inset 0 0 4px rgba(255, 255, 255, 0.4);
+}
+
+.deco-peak-up, .deco-peak-down, .deco-peak-out-left, .deco-peak-out-right {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.15)),
+    linear-gradient(180deg, var(--deco-color-a), var(--deco-color-b));
+  filter: drop-shadow(0 1px 1.5px rgba(0, 0, 0, 0.35));
+}
+
+.deco-peak-up { clip-path: polygon(50% 0, 0 100%, 100% 100%); }
+.deco-peak-down { clip-path: polygon(0 0, 100% 0, 50% 100%); }
+.deco-peak-out-left { clip-path: polygon(100% 0, 0 50%, 100% 100%); }
+.deco-peak-out-right { clip-path: polygon(0 0, 100% 50%, 0 100%); }
+
+.deco-bubble {
+  border-radius: 10px;
+  background: linear-gradient(180deg, #fff, #f2f2f2);
+  border: 2px solid #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+
 @keyframes hueSpin {
   from { filter: saturate(1.6) drop-shadow(0 0 8px #ff9fd0) hue-rotate(0deg); }
   to { filter: saturate(1.6) drop-shadow(0 0 8px #ff9fd0) hue-rotate(360deg); }
