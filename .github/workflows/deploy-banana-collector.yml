@@ -36,6 +36,9 @@ jobs:
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
+      - name: Stamp cache-busting version into index.html
+        run: sed -i "s/__CACHEBUST__/${{ github.sha }}/g" banana-collector/index.html
+
       - name: Upload banana-collector/ as Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
