@@ -39,13 +39,13 @@ function isLegendaryOrAbove(key) {
 // Valeur en pièces générée de façon déterministe selon la rareté et la position dans la rareté
 function valueFor(rarity, indexInRarity) {
   const table = {
-    commune: [5, 6, 5, 7, 6, 8, 5, 6, 7, 5, 6, 8],
-    peu_commune: [15, 18, 20, 16, 22, 19, 17, 21, 18, 20],
-    rare: [40, 45, 50, 55, 42, 48, 52, 46, 44, 58],
-    epique: [100, 110, 120, 130, 105, 115, 125, 135],
-    legendaire: [300, 330, 360, 390, 320, 350],
-    mythique: [1000, 1200, 1500, 1800],
-    secrete: [5000, 5500, 6000, 6500, 7000, 7500, 8000, 8500, 9000, 10000],
+    commune: [2, 3, 2, 4, 3, 4, 2, 3, 4, 2, 3, 4],
+    peu_commune: [6, 8, 9, 7, 10, 9, 8, 10, 8, 9],
+    rare: [15, 18, 20, 22, 17, 19, 21, 18, 17, 23],
+    epique: [40, 44, 48, 52, 42, 46, 50, 54],
+    legendaire: [120, 132, 144, 156, 128, 140],
+    mythique: [400, 480, 600, 720],
+    secrete: [2000, 2200, 2400, 2600, 2800, 3000, 3200, 3400, 3600, 4000],
   };
   return table[rarity][indexInRarity] || 10;
 }
