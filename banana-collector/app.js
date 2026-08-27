@@ -11,8 +11,8 @@ const UPGRADES = [
     desc: "+5% de chance d'obtenir une banane peu commune",
     targets: ["peu_commune"],
     bonusPerLevel: 5,
-    basePrice: 50,
-    priceMult: 1.6,
+    basePrice: 150,
+    priceMult: 1.65,
     maxLevel: 10,
   },
   {
@@ -21,8 +21,8 @@ const UPGRADES = [
     desc: "+5% de chance d'obtenir une banane rare",
     targets: ["rare"],
     bonusPerLevel: 5,
-    basePrice: 150,
-    priceMult: 1.7,
+    basePrice: 450,
+    priceMult: 1.75,
     maxLevel: 10,
   },
   {
@@ -31,8 +31,8 @@ const UPGRADES = [
     desc: "+5% de chance d'obtenir une banane épique",
     targets: ["epique"],
     bonusPerLevel: 5,
-    basePrice: 400,
-    priceMult: 1.8,
+    basePrice: 1200,
+    priceMult: 1.85,
     maxLevel: 10,
   },
   {
@@ -41,8 +41,8 @@ const UPGRADES = [
     desc: "+2% de chance d'obtenir une banane légendaire ou mythique",
     targets: ["legendaire", "mythique"],
     bonusPerLevel: 2,
-    basePrice: 1000,
-    priceMult: 2,
+    basePrice: 3000,
+    priceMult: 2.1,
     maxLevel: 10,
   },
 ];
@@ -225,7 +225,7 @@ function buyUpgrade(id) {
             l'écouteur "onUserEarnedReward" de ce SDK.
    -------------------------------------------------------- */
 
-const AD_REWARD = 50;
+const AD_REWARD = 300;
 const MAX_ADS_PER_DAY = 5;
 
 function todayKey() {

@@ -259,7 +259,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ? `${remaining} / ${MAX_ADS_PER_DAY} pubs disponibles aujourd'hui`
       : "Plus de pub disponible aujourd'hui — reviens demain !";
     els.watchAdBtn.disabled = adPlaying || remaining <= 0;
-    els.watchAdBtn.textContent = "🎬 Regarder une pub (+50 🪙)";
+    els.watchAdBtn.textContent = `🎬 Regarder une pub (+${AD_REWARD} 🪙)`;
   }
 
   els.watchAdBtn.addEventListener("click", () => {
