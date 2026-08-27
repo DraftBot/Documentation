@@ -292,7 +292,15 @@ function spinWheel() {
 
 /* ---------------- Mini-jeu : Attrape les bananes ---------------- */
 
-const CATCH_GAME_DURATION_MS = 30000;
+// 3 niveaux joués à la suite dans un même round, chacun plus rapide et plus
+// difficile que le précédent (chute plus rapide, bananes plus fréquentes,
+// plus de bananes pourries à éviter).
+const CATCH_LEVEL_DURATION_MS = 10000;
+const CATCH_LEVELS = [
+  { spawnDelay: 780, fallMin: 2.6, fallMax: 3.4, rottenChance: 0.15, label: "C'est parti !" },
+  { spawnDelay: 560, fallMin: 2.0, fallMax: 2.7, rottenChance: 0.22, label: "Ça accélère !" },
+  { spawnDelay: 380, fallMin: 1.5, fallMax: 2.1, rottenChance: 0.3, label: "Vitesse maximale !" },
+];
 const CATCH_GOOD_COINS = 4;
 const CATCH_ROTTEN_PENALTY = 6;
 

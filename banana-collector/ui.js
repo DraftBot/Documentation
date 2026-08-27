@@ -384,11 +384,17 @@ document.addEventListener("DOMContentLoaded", () => {
     },
   };
 
+  function setCatchLevelBackground(levelIndex) {
+    els.catchArea.classList.remove("level-1", "level-2", "level-3");
+    els.catchArea.classList.add(`level-${levelIndex + 1}`);
+  }
+
   function resetCatchGameView() {
     els.catchStartOverlay.classList.remove("hidden");
     els.catchResult.classList.add("hidden");
     els.catchArea.querySelectorAll(".catch-item").forEach((el) => el.remove());
-    els.catchTimer.textContent = "⏱️ 30s";
+    setCatchLevelBackground(0);
+    els.catchTimer.textContent = `⏱️ Niveau 1 — ${CATCH_LEVEL_DURATION_MS / 1000}s`;
     els.catchScore.textContent = "⭐ 0";
   }
 
@@ -401,8 +407,8 @@ document.addEventListener("DOMContentLoaded", () => {
     catchState = null;
   }
 
-  function spawnCatchItem() {
-    const isRotten = Math.random() < 0.22;
+  function spawnCatchItem(levelConfig) {
+    const isRotten = Math.random() < levelConfig.rottenChance;
     const item = document.createElement("div");
     item.className = "catch-item";
     item.style.left = `${5 + Math.random() * 85}%`;
@@ -410,7 +416,7 @@ document.addEventListener("DOMContentLoaded", () => {
     els.catchArea.appendChild(item);
 
     const areaHeight = els.catchArea.clientHeight;
-    const fallDuration = 2.4 + Math.random() * 1.4;
+    const fallDuration = levelConfig.fallMin + Math.random() * (levelConfig.fallMax - levelConfig.fallMin);
     requestAnimationFrame(() => {
       item.style.transitionDuration = `${fallDuration}s`;
       item.style.top = `${areaHeight + 20}px`;
@@ -437,31 +443,46 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function startCatchLevel(levelIndex) {
+    if (!catchState) return;
+    catchState.level = levelIndex;
+    const levelConfig = CATCH_LEVELS[levelIndex];
+    setCatchLevelBackground(levelIndex);
+    showBanner(`🌴 NIVEAU ${levelIndex + 1} !`, { emoji: "🐒", name: levelConfig.label }, 1100);
+
+    const scheduleSpawn = () => {
+      catchState.spawnTimer = setTimeout(() => {
+        if (!catchState || !catchState.running) return;
+        spawnCatchItem(levelConfig);
+        scheduleSpawn();
+      }, levelConfig.spawnDelay);
+    };
+    scheduleSpawn();
+
+    const levelStart = Date.now();
+    catchState.tickTimer = setInterval(() => {
+      const remaining = Math.max(0, CATCH_LEVEL_DURATION_MS - (Date.now() - levelStart));
+      els.catchTimer.textContent = `⏱️ Niveau ${levelIndex + 1} — ${Math.ceil(remaining / 1000)}s`;
+    }, 200);
+
+    catchState.endTimer = setTimeout(() => {
+      clearTimeout(catchState.spawnTimer);
+      clearInterval(catchState.tickTimer);
+      els.catchArea.querySelectorAll(".catch-item").forEach((el) => el.remove());
+      if (levelIndex < CATCH_LEVELS.length - 1) {
+        startCatchLevel(levelIndex + 1);
+      } else {
+        endCatchGame();
+      }
+    }, CATCH_LEVEL_DURATION_MS);
+  }
+
   els.catchStartBtn.addEventListener("click", () => {
     stopCatchGame();
     els.catchStartOverlay.classList.add("hidden");
     els.catchResult.classList.add("hidden");
-
-    catchState = { good: 0, rotten: 0, running: true, spawnTimer: null, tickTimer: null, endTimer: null };
-
-    let spawnDelay = 700;
-    const scheduleSpawn = () => {
-      catchState.spawnTimer = setTimeout(() => {
-        if (!catchState || !catchState.running) return;
-        spawnCatchItem();
-        spawnDelay = Math.max(340, spawnDelay - 8);
-        scheduleSpawn();
-      }, spawnDelay);
-    };
-    scheduleSpawn();
-
-    const startTime = Date.now();
-    catchState.tickTimer = setInterval(() => {
-      const remaining = Math.max(0, CATCH_GAME_DURATION_MS - (Date.now() - startTime));
-      els.catchTimer.textContent = `⏱️ ${Math.ceil(remaining / 1000)}s`;
-    }, 200);
-
-    catchState.endTimer = setTimeout(endCatchGame, CATCH_GAME_DURATION_MS);
+    catchState = { good: 0, rotten: 0, running: true, level: 0, spawnTimer: null, tickTimer: null, endTimer: null };
+    startCatchLevel(0);
   });
 
   function endCatchGame() {
@@ -476,7 +497,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderHeader();
 
     els.catchResult.innerHTML = `
-      <div class="catch-result-title">🏁 Round terminé !</div>
+      <div class="catch-result-title">🏁 Les 3 niveaux sont terminés !</div>
       <div class="catch-result-line">${good} bananes attrapées, ${rotten} pourries touchées</div>
       <div class="catch-result-coins">🪙 +${coinsEarned}</div>
       <button class="btn harvest-btn" id="catch-replay-btn">🔁 Rejouer</button>
@@ -495,6 +516,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const WHEEL_SEGMENT_CENTER_ANGLES = [30, 90, 150, 210, 270, 330];
   let wheelSpinning = false;
+
+  function renderWheelLabels() {
+    els.wheelDisc.innerHTML = WHEEL_PRIZES.map((prize, i) => {
+      // Le pivot est ancré en haut et grandit vers le bas (top:50%; height:38%),
+      // donc à rotation nulle il pointe déjà vers 6h (180°) — d'où le -180
+      // pour que l'angle du secteur (0° = 12h, sens horaire) soit respecté.
+      const pivotAngle = WHEEL_SEGMENT_CENTER_ANGLES[i] - 180;
+      return `
+        <div class="wheel-label-pivot" style="transform: rotate(${pivotAngle}deg);">
+          <span class="wheel-label" style="transform: translate(-50%, -50%) rotate(${-pivotAngle}deg);">${prize.coins}</span>
+        </div>
+      `;
+    }).join("");
+  }
+  renderWheelLabels();
 
   function renderWheelView() {
     const canSpin = canSpinWheelToday();
