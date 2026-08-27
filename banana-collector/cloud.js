@@ -72,6 +72,10 @@ const CLOUD = (() => {
     cloud.linked = true;
     saveState();
     await pullLedger();
+    // Pousse tout de suite (pas de débounce) : un compte fraîchement créé n'a
+    // encore rien poussé côté serveur, il faut que solde/inventaire soient à
+    // jour avant que le joueur tente d'acheter/vendre/attaquer juste après.
+    await pushAll();
     return { ok: true };
   }
 
@@ -88,6 +92,9 @@ const CLOUD = (() => {
     cloud.linked = true;
     saveState();
     await pullLedger();
+    // Voir signUp() : on pousse tout de suite pour ne jamais laisser un solde
+    // ou un inventaire périmé côté serveur juste après une connexion.
+    await pushAll();
     return { ok: true };
   }
 
@@ -346,6 +353,10 @@ const CLOUD = (() => {
       saveState();
       try {
         await pullLedger();
+        // Voir signUp() : un joueur qui revient a pu jouer en solo hors
+        // ligne depuis sa dernière visite — pousse tout de suite pour que
+        // Marché/PVP voient son vrai solde/inventaire sans attendre.
+        await pushAll();
       } catch (e) {
         // Hors ligne au démarrage : le jeu solo continue normalement,
         // on retentera au prochain déclencheur réseau.

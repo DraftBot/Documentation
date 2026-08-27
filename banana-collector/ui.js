@@ -534,7 +534,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
   async function renderMarketMyListings() {
     els.marketMyListings.innerHTML = `<p class="secret-hint">Chargement...</p>`;
-    const listings = await CLOUD.fetchMyListings();
+    // Les annonces annulées sont retirées de l'affichage pour de bon (elles
+    // n'apportent rien une fois annulées et allongeraient la liste inutilement).
+    const listings = (await CLOUD.fetchMyListings()).filter((l) => l.status !== "cancelled");
     if (listings.length === 0) {
       els.marketMyListings.innerHTML = `<p class="secret-hint">Tu n'as pas encore d'annonce.</p>`;
       return;
@@ -576,7 +578,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  function renderMarketTab() {
+  async function renderMarketTab() {
     if (!CLOUD.available || !CLOUD.isLinked()) {
       els.marketLocked.classList.remove("hidden");
       els.marketContent.classList.add("hidden");
@@ -584,6 +586,10 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     els.marketLocked.classList.add("hidden");
     els.marketContent.classList.remove("hidden");
+    // Pousse tout de suite avant d'agir : évite un faux "solde insuffisant"
+    // si une action locale récente n'a pas encore eu le temps d'être
+    // synchronisée avec le serveur.
+    await CLOUD.pushAll();
     showMarketView(marketView);
   }
 
@@ -1276,6 +1282,11 @@ document.addEventListener("DOMContentLoaded", () => {
     els.pvpAttackResult.classList.add("hidden");
     pvpOpponent = null;
     renderPvpOpponent();
+
+    // Pousse tout de suite avant d'agir : évite qu'une équipe ne puisse pas
+    // être sauvegardée parce que l'inventaire local n'a pas encore été
+    // synchronisé côté serveur.
+    await CLOUD.pushAll();
 
     await renderPvpReports();
 
