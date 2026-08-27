@@ -424,11 +424,31 @@ body {
   width: 100%;
   height: 380px;
   border-radius: var(--radius);
-  background: linear-gradient(180deg, #fffef4, #fff1c2);
   border: 3px solid var(--accent);
   overflow: hidden;
   box-shadow: var(--shadow);
+  transition: background 0.6s ease;
 }
+
+/* Fond de jungle : chaque niveau assombrit un peu plus le décor,
+   pour appuyer visuellement la montée en difficulté. */
+.catch-area.level-1 { background: linear-gradient(180deg, #dff2c8 0%, #a8d98a 35%, #6fb35a 70%, #4f9646 100%); }
+.catch-area.level-2 { background: linear-gradient(180deg, #a8d98a 0%, #5fa64c 40%, #3c7d38 75%, #2c5f2a 100%); }
+.catch-area.level-3 { background: linear-gradient(180deg, #3c7d38 0%, #245023 45%, #163116 80%, #0c1f0c 100%); }
+
+.catch-jungle-deco {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.catch-jungle-deco span {
+  position: absolute;
+  opacity: 0.35;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 
 .catch-start-overlay,
 .catch-result {
@@ -492,6 +512,28 @@ body {
     #4caf50 300deg 360deg
   );
   transition: transform 4s cubic-bezier(0.15, 0.7, 0.2, 1);
+  position: relative;
+}
+
+.wheel-label-pivot {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 0;
+  height: 38%;
+  transform-origin: top center;
+}
+
+.wheel-label {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: inline-block;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.45);
+  white-space: nowrap;
 }
 
 /* --- Statistiques --- */

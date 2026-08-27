@@ -82,7 +82,7 @@
             <span class="game-card-icon">🍌</span>
             <span class="game-card-body">
               <span class="game-card-title">Attrape les bananes</span>
-              <span class="game-card-desc">30 secondes pour attraper un maximum de bananes fraîches, sans toucher les pourries.</span>
+              <span class="game-card-desc">3 niveaux dans la jungle, chacun plus rapide que le précédent. Attrape un maximum de bananes fraîches, sans toucher les pourries.</span>
               <span class="game-card-best" id="catch-best-label"></span>
             </span>
           </button>
@@ -100,12 +100,18 @@
           <button class="btn game-back-btn" data-back>← Retour</button>
           <h2>🍌 Attrape les bananes</h2>
           <div class="catch-hud">
-            <span id="catch-timer">⏱️ 30s</span>
+            <span id="catch-timer">⏱️ Niveau 1 — 10s</span>
             <span id="catch-score">⭐ 0</span>
           </div>
-          <div id="catch-area" class="catch-area">
+          <div id="catch-area" class="catch-area level-1">
+            <div class="catch-jungle-deco" aria-hidden="true">
+              <span style="top:-6%; left:-8%; font-size:4.6rem; transform:rotate(-15deg);">🌿</span>
+              <span style="top:-4%; right:-10%; font-size:5.2rem; transform:rotate(20deg) scaleX(-1);">🌿</span>
+              <span style="bottom:-8%; left:-6%; font-size:4rem; transform:rotate(12deg);">🍃</span>
+              <span style="bottom:-10%; right:-4%; font-size:4.6rem; transform:rotate(-25deg) scaleX(-1);">🌿</span>
+            </div>
             <div id="catch-start-overlay" class="catch-start-overlay">
-              <p class="catch-instructions">Clique sur les bananes 🍌 qui tombent, évite les pourries !</p>
+              <p class="catch-instructions">3 niveaux, de plus en plus rapides. Clique sur les bananes 🍌 qui tombent, évite les pourries !</p>
               <button id="catch-start-btn" class="btn harvest-btn">▶️ Démarrer</button>
             </div>
             <div id="catch-result" class="catch-result hidden"></div>
