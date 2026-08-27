@@ -62,6 +62,21 @@ document.addEventListener("DOMContentLoaded", () => {
     marketSellSubmitBtn: document.getElementById("market-sell-submit-btn"),
     marketSellError: document.getElementById("market-sell-error"),
     marketMyListings: document.getElementById("market-my-listings"),
+    combatTabSolo: document.getElementById("combat-tab-solo"),
+    combatTabPvp: document.getElementById("combat-tab-pvp"),
+    combatSoloView: document.getElementById("combat-solo-view"),
+    combatPvpView: document.getElementById("combat-pvp-view"),
+    pvpLocked: document.getElementById("pvp-locked"),
+    pvpContent: document.getElementById("pvp-content"),
+    pvpReports: document.getElementById("pvp-reports"),
+    pvpTeamPicker: document.getElementById("pvp-team-picker"),
+    pvpTeamCount: document.getElementById("pvp-team-count"),
+    pvpSaveTeamBtn: document.getElementById("pvp-save-team-btn"),
+    pvpTeamError: document.getElementById("pvp-team-error"),
+    pvpFindBtn: document.getElementById("pvp-find-btn"),
+    pvpOpponentCard: document.getElementById("pvp-opponent-card"),
+    pvpAttackBtn: document.getElementById("pvp-attack-btn"),
+    pvpAttackResult: document.getElementById("pvp-attack-result"),
     pveBananaSelect: document.getElementById("pve-banana-select"),
     pvePlayerFighter: document.getElementById("pve-player-fighter"),
     pveEnemyFighter: document.getElementById("pve-enemy-fighter"),
@@ -82,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "marche") renderMarketTab();
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
-    if (name === "combat") renderPveTab();
+    if (name === "combat") showCombatView(combatView);
     if (name === "stats") { renderStats(); renderAchievements(); }
   }
 
@@ -1079,6 +1094,196 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 650);
   });
 
+  /* ---------------- Combat : sous-onglets Solo / PVP ---------------- */
+
+  let combatView = "solo"; // "solo" | "pvp"
+
+  function showCombatView(view) {
+    combatView = view;
+    els.combatTabSolo.classList.toggle("active", view === "solo");
+    els.combatTabPvp.classList.toggle("active", view === "pvp");
+    els.combatSoloView.classList.toggle("hidden", view !== "solo");
+    els.combatPvpView.classList.toggle("hidden", view !== "pvp");
+    if (view === "solo") {
+      renderPveTab();
+    } else {
+      renderPvpTab();
+    }
+  }
+
+  els.combatTabSolo.addEventListener("click", () => showCombatView("solo"));
+  els.combatTabPvp.addEventListener("click", () => showCombatView("pvp"));
+
+  /* ---------------- Arène PVP ---------------- */
+
+  let pvpSelectedTeam = [];
+  let pvpOpponent = null;
+
+  function pvpOwnedBananas() {
+    return state.discovered
+      .map((id) => BANANAS_BY_ID[id])
+      .filter((b) => (state.counts[b.id] || 0) > 0)
+      .sort((a, b) => rarityIndex(b.rarity) - rarityIndex(a.rarity) || b.value - a.value);
+  }
+
+  function renderPvpTeamPicker() {
+    const owned = pvpOwnedBananas();
+    if (owned.length === 0) {
+      els.pvpTeamPicker.innerHTML = `<p class="secret-hint">Récolte des bananes avant de composer une équipe !</p>`;
+      els.pvpTeamCount.textContent = "";
+      return;
+    }
+    els.pvpTeamPicker.innerHTML = owned.map((b) => {
+      const selected = pvpSelectedTeam.includes(b.id);
+      const stats = bananaCombatStats(b);
+      return `
+        <button class="pve-banana-option ${selected ? "selected" : ""}" data-id="${b.id}" title="${b.name}">
+          ${bananaIconHTML(b, 2)}
+          <span class="pve-banana-stats">⚔️${stats.atk} 🛡️${stats.def}</span>
+        </button>
+      `;
+    }).join("");
+    els.pvpTeamCount.textContent = `${pvpSelectedTeam.length} / 5 sélectionnées`;
+    els.pvpTeamPicker.querySelectorAll(".pve-banana-option").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const id = Number(btn.dataset.id);
+        const idx = pvpSelectedTeam.indexOf(id);
+        if (idx >= 0) {
+          pvpSelectedTeam.splice(idx, 1);
+        } else if (pvpSelectedTeam.length < 5) {
+          pvpSelectedTeam.push(id);
+        }
+        renderPvpTeamPicker();
+      });
+    });
+  }
+
+  els.pvpSaveTeamBtn.addEventListener("click", async () => {
+    els.pvpTeamError.textContent = "";
+    if (pvpSelectedTeam.length !== 5) {
+      els.pvpTeamError.textContent = "Choisis exactement 5 bananes.";
+      return;
+    }
+    els.pvpSaveTeamBtn.disabled = true;
+    els.pvpSaveTeamBtn.textContent = "⏳...";
+    const result = await CLOUD.setDefenseTeam(pvpSelectedTeam);
+    els.pvpSaveTeamBtn.disabled = false;
+    els.pvpSaveTeamBtn.textContent = "Sauvegarder l'équipe";
+    if (!result.ok) {
+      els.pvpTeamError.textContent = result.reason || "Impossible de sauvegarder l'équipe.";
+      return;
+    }
+    SFX.buy();
+    showBanner("✅ ÉQUIPE SAUVEGARDÉE !", { emoji: "🛡️", name: "Elle te défend même hors ligne" }, 1800);
+  });
+
+  async function renderPvpReports() {
+    const reports = await CLOUD.fetchUnseenCombatReports();
+    if (reports.length === 0) {
+      els.pvpReports.innerHTML = "";
+      return;
+    }
+    const won = reports.filter((r) => r.defender_delta > 0);
+    const lost = reports.filter((r) => r.defender_delta <= 0);
+    els.pvpReports.innerHTML = `
+      <h3>📜 Pendant ton absence</h3>
+      ${reports.map((r) => `
+        <div class="pvp-report-card ${r.defender_delta > 0 ? "" : "lost"}">
+          <div class="pvp-report-title">${r.defender_delta > 0 ? "🛡️ Défense réussie !" : "💥 Tu as été attaqué"}</div>
+          <div class="pvp-report-line">${r.attackerUsername} — ${r.defender_delta > 0 ? `tu as récupéré ${r.defender_delta}` : `tu as perdu ${Math.abs(r.defender_delta)}`} 🪙</div>
+        </div>
+      `).join("")}
+    `;
+    if (won.length > 0 || lost.length > 0) {
+      renderHeader();
+    }
+    CLOUD.markCombatLogSeen(reports.map((r) => r.id));
+  }
+
+  function renderPvpOpponent() {
+    if (!pvpOpponent) {
+      els.pvpOpponentCard.classList.add("hidden");
+      els.pvpAttackBtn.classList.add("hidden");
+      return;
+    }
+    els.pvpOpponentCard.classList.remove("hidden");
+    els.pvpAttackBtn.classList.remove("hidden");
+    els.pvpOpponentCard.innerHTML = `
+      <div class="pvp-opponent-name">👤 ${pvpOpponent.username}</div>
+      <div class="pvp-opponent-power">Puissance totale : ${pvpOpponent.power}</div>
+    `;
+  }
+
+  els.pvpFindBtn.addEventListener("click", async () => {
+    els.pvpFindBtn.disabled = true;
+    els.pvpFindBtn.textContent = "⏳...";
+    els.pvpAttackResult.classList.add("hidden");
+    const result = await CLOUD.findOpponent();
+    els.pvpFindBtn.disabled = false;
+    els.pvpFindBtn.textContent = "🔍 Trouver un adversaire";
+    if (!result.ok) {
+      pvpOpponent = null;
+      renderPvpOpponent();
+      showBanner("😕 PAS D'ADVERSAIRE", { emoji: "🔍", name: result.reason === "pas_equipe" ? "Sauvegarde d'abord ton équipe" : "Réessaie plus tard" }, 1800);
+      return;
+    }
+    pvpOpponent = { defenderId: result.defenderId, username: result.username, power: result.power };
+    renderPvpOpponent();
+  });
+
+  els.pvpAttackBtn.addEventListener("click", async () => {
+    if (!pvpOpponent) return;
+    els.pvpAttackBtn.disabled = true;
+    els.pvpAttackBtn.textContent = "⏳...";
+    const result = await CLOUD.attackPlayer(pvpOpponent.defenderId);
+    els.pvpAttackBtn.disabled = false;
+    els.pvpAttackBtn.textContent = "⚔️ Attaquer";
+
+    if (!result.ok) {
+      showBanner("❌ Attaque impossible", { emoji: "🚫", name: result.reason || "Erreur" }, 1800);
+      return;
+    }
+
+    SFX[result.won ? "win" : "lose"]();
+    state.coins += result.attackerDelta;
+    saveState();
+    renderHeader();
+    els.pvpAttackResult.innerHTML = `
+      <div class="pve-result-title">${result.won ? "🎉 Victoire !" : "💥 Défaite..."}</div>
+      <div class="pve-result-line">${result.won ? `Tu voles ${result.attackerDelta} 🪙 à ${pvpOpponent.username} !` : `Tu perds ${Math.abs(result.attackerDelta)} 🪙 face à ${pvpOpponent.username}.`}</div>
+    `;
+    els.pvpAttackResult.classList.remove("hidden");
+    if (result.won) spawnConfetti(20);
+    pvpOpponent = null;
+    renderPvpOpponent();
+
+    const unlocked = checkAchievements();
+    if (unlocked.length > 0) {
+      renderHeader();
+      showAchievementToasts(unlocked);
+    }
+    CLOUD.scheduleSync();
+  });
+
+  async function renderPvpTab() {
+    if (!CLOUD.available || !CLOUD.isLinked()) {
+      els.pvpLocked.classList.remove("hidden");
+      els.pvpContent.classList.add("hidden");
+      return;
+    }
+    els.pvpLocked.classList.add("hidden");
+    els.pvpContent.classList.remove("hidden");
+    els.pvpAttackResult.classList.add("hidden");
+    pvpOpponent = null;
+    renderPvpOpponent();
+
+    await renderPvpReports();
+
+    const savedTeam = await CLOUD.fetchMyDefenseTeam();
+    pvpSelectedTeam = savedTeam ? savedTeam.slice() : [];
+    renderPvpTeamPicker();
+  }
+
   /* ---------------- Statistiques ---------------- */
 
   function renderAchievements() {
@@ -1178,6 +1383,7 @@ document.addEventListener("DOMContentLoaded", () => {
         updateAccountBtn();
         renderAccountModal();
         renderMarketTab();
+        renderPvpTab();
       });
       return;
     }
@@ -1241,6 +1447,7 @@ document.addEventListener("DOMContentLoaded", () => {
       renderAccountModal();
       renderHeader();
       renderMarketTab();
+      renderPvpTab();
     });
   }
 

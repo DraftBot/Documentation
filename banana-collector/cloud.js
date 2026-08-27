@@ -243,6 +243,77 @@ const CLOUD = (() => {
     return { ok: true, newCoins: data && data[0] ? Number(data[0].new_coins) : null };
   }
 
+  /* ---------------- Arène PVP ---------------- */
+
+  async function setDefenseTeam(bananaIds) {
+    if (!supabase) return unavailable;
+    const { error } = await supabase.rpc("set_defense_team", { p_banana_ids: bananaIds });
+    if (error) return { ok: false, reason: error.message };
+    return { ok: true };
+  }
+
+  async function fetchMyDefenseTeam() {
+    if (!supabase || !isLinked() || !cachedUserId) return null;
+    const { data, error } = await supabase
+      .from("defense_teams")
+      .select("banana_ids")
+      .eq("player_id", cachedUserId)
+      .maybeSingle();
+    return error || !data ? null : data.banana_ids;
+  }
+
+  async function findOpponent() {
+    if (!supabase) return unavailable;
+    const { data, error } = await supabase.rpc("find_opponent");
+    if (error) return { ok: false, reason: error.message };
+    if (!data || data.length === 0) return { ok: false, reason: "aucun_adversaire" };
+    const row = data[0];
+    return { ok: true, defenderId: row.defender_id, username: row.username, power: row.power };
+  }
+
+  async function attackPlayer(defenderId) {
+    if (!supabase) return unavailable;
+    const { data, error } = await supabase.rpc("attack_player", { p_defender_id: defenderId });
+    if (error) return { ok: false, reason: error.message };
+    if (!data || data.length === 0) return { ok: false, reason: "erreur_inconnue" };
+    const row = data[0];
+    return {
+      ok: true,
+      won: row.won,
+      attackerDelta: Number(row.attacker_delta),
+      defenderDelta: Number(row.defender_delta),
+      attackerPower: row.attacker_power,
+      defenderPower: row.defender_power,
+    };
+  }
+
+  // Combats reçus (en tant que défenseur) pas encore consultés — flux
+  // "pendant ton absence" affiché à l'ouverture de l'onglet PVP.
+  async function fetchUnseenCombatReports() {
+    if (!supabase || !isLinked() || !cachedUserId) return [];
+    const { data, error } = await supabase
+      .from("combat_log")
+      .select("id, attacker_id, attacker_win, defender_delta, created_at")
+      .eq("defender_id", cachedUserId)
+      .eq("seen_by_defender", false)
+      .order("created_at", { ascending: true })
+      .limit(50);
+    if (error || !data || data.length === 0) return [];
+
+    const attackerIds = [...new Set(data.map((r) => r.attacker_id))];
+    let usernames = {};
+    if (attackerIds.length > 0) {
+      const { data: profiles } = await supabase.from("public_profiles").select("id, username").in("id", attackerIds);
+      if (profiles) usernames = Object.fromEntries(profiles.map((p) => [p.id, p.username]));
+    }
+    return data.map((r) => ({ ...r, attackerUsername: usernames[r.attacker_id] || "?" }));
+  }
+
+  async function markCombatLogSeen(ids) {
+    if (!supabase || ids.length === 0) return;
+    await supabase.rpc("mark_combat_log_seen", { p_ids: ids });
+  }
+
   // Synchronisation débounced : appelée librement par le reste du jeu à
   // chaque action pertinente (achat, vente, fin de combat...) sans jamais
   // ralentir l'action elle-même — la requête réseau part quelques secondes
@@ -303,6 +374,12 @@ const CLOUD = (() => {
     createListing,
     cancelListing,
     buyListing,
+    setDefenseTeam,
+    fetchMyDefenseTeam,
+    findOpponent,
+    attackPlayer,
+    fetchUnseenCombatReports,
+    markCombatLogSeen,
     init,
   };
 })();
