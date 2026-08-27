@@ -324,6 +324,16 @@ body {
   margin-top: 10px;
 }
 
+.privacy-link {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.privacy-link a {
+  color: #b5680b;
+  font-size: 0.8rem;
+}
+
 /* --- Statistiques --- */
 
 .stats-grid {
