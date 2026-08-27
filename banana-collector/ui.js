@@ -16,6 +16,8 @@ document.addEventListener("DOMContentLoaded", () => {
     progressBarFill: document.getElementById("progress-bar-fill"),
     progressLabel: document.getElementById("progress-label"),
     shopList: document.getElementById("shop-list"),
+    questsList: document.getElementById("quests-list"),
+    muteBtn: document.getElementById("mute-btn"),
     watchAdBtn: document.getElementById("watch-ad-btn"),
     adQuota: document.getElementById("ad-quota"),
     statsPanel: document.getElementById("stats-content"),
@@ -59,6 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
     els.tabPanels.forEach((p) => p.classList.toggle("active", p.id === `tab-${name}`));
     if (name === "collection") renderCollection();
     if (name === "boutique") renderShop();
+    if (name === "quetes") renderQuests();
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
     if (name === "combat") renderPveTab();
@@ -160,6 +163,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const result = rollBanana();
     const { banana, isNew, rarity, coinsEarned } = result;
 
+    if (rarity === "mythique" || rarity === "secrete") SFX.harvestMythic();
+    else if (rarity === "legendaire" || rarity === "epique") SFX.harvestEpic();
+    else if (rarity === "rare") SFX.harvestRare();
+    else SFX.harvestCommon();
+
     renderHeader();
     els.lastBanana.innerHTML = bananaCardHTML(banana, state.counts[banana.id], isNew, coinsEarned);
     const card = els.lastBanana.querySelector(".harvest-reveal-card");
@@ -182,6 +190,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (unlocked.length > 0) {
       renderHeader();
       showAchievementToasts(unlocked);
+    }
+    const questsDone = checkQuests();
+    if (questsDone.length > 0) {
+      renderHeader();
+      showQuestToasts(questsDone);
     }
 
     const cooldown = rarity === "mythique" || rarity === "secrete" ? 300 : 350;
@@ -221,11 +234,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }, duration);
   }
 
-  function showAchievementToasts(achievements) {
+  // playSound=false est utilisé au démarrage (succès déjà acquis détectés
+  // au chargement) : un son n'est jamais déclenché sans geste préalable de
+  // l'utilisateur, pour respecter la politique de lecture audio auto des
+  // navigateurs.
+  function showAchievementToasts(achievements, playSound = true) {
     achievements.forEach((ach, i) => {
       setTimeout(() => {
+        if (playSound) SFX.achievement();
         showBanner("🏆 SUCCÈS DÉBLOQUÉ !", { emoji: ach.icon, name: `${ach.name} (+${ach.reward} 🪙)` }, 2200);
         spawnConfetti(15);
+      }, i * 900);
+    });
+  }
+
+  function showQuestToasts(quests, playSound = true) {
+    quests.forEach((quest, i) => {
+      setTimeout(() => {
+        if (playSound) SFX.quest();
+        showBanner("📜 QUÊTE TERMINÉE !", { emoji: "📜", name: `${quest.desc} (+${quest.reward} 🪙)` }, 2200);
+        spawnConfetti(12);
       }, i * 900);
     });
   }
@@ -338,6 +366,7 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.addEventListener("click", () => {
         const res = buyUpgrade(btn.dataset.id);
         if (res.ok) {
+          SFX.buy();
           renderHeader();
           renderShop();
           updateAutoHarvestTimer();
@@ -346,9 +375,33 @@ document.addEventListener("DOMContentLoaded", () => {
             renderHeader();
             showAchievementToasts(unlocked);
           }
+          const questsDone = checkQuests();
+          if (questsDone.length > 0) {
+            renderHeader();
+            showQuestToasts(questsDone);
+          }
         }
       });
     });
+  }
+
+  /* ---------------- Quêtes quotidiennes ---------------- */
+
+  function renderQuests() {
+    const quests = questsForToday();
+    els.questsList.innerHTML = quests.map((quest) => {
+      const pct = Math.round((quest.progress / quest.need) * 100);
+      return `
+        <div class="quest-item ${quest.done ? "done" : ""}">
+          <div class="quest-item-top">
+            <span class="quest-item-desc">${quest.done ? "✅ " : ""}${quest.desc}</span>
+            <span class="quest-item-reward">🪙 +${quest.reward}</span>
+          </div>
+          <div class="quest-progress-bar"><div class="quest-progress-fill" style="width:${pct}%;"></div></div>
+          <div class="quest-item-count">${quest.progress} / ${quest.need}</div>
+        </div>
+      `;
+    }).join("");
   }
 
   /* ---------------- Publicité récompensée ---------------- */
@@ -373,6 +426,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Simulation du délai de chargement/visionnage d'une pub réelle.
     setTimeout(() => {
       const coinsEarned = grantAdReward();
+      SFX.coin();
       renderHeader();
       adPlaying = false;
       renderAdTab();
@@ -382,6 +436,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (unlocked.length > 0) {
         renderHeader();
         showAchievementToasts(unlocked);
+      }
+      const questsDone = checkQuests();
+      if (questsDone.length > 0) {
+        renderHeader();
+        showQuestToasts(questsDone);
       }
     }, 1500);
   });
@@ -479,9 +538,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (isRotten) {
         catchState.rotten += 1;
         item.style.filter = "brightness(0.5) saturate(0)";
+        SFX.lose();
       } else {
         catchState.good += 1;
         spawnConfetti(3);
+        SFX.click();
       }
       item.style.transform = "scale(1.4)";
       item.style.opacity = "0";
@@ -563,6 +624,11 @@ document.addEventListener("DOMContentLoaded", () => {
       renderHeader();
       showAchievementToasts(unlocked);
     }
+    const questsDone = checkQuests();
+    if (questsDone.length > 0) {
+      renderHeader();
+      showQuestToasts(questsDone);
+    }
   }
 
   /* ---------------- Mini-jeu : Roue de la fortune ---------------- */
@@ -610,6 +676,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
       wheelSpinning = false;
+      SFX.coin();
       renderHeader();
       renderWheelView();
       renderMinigamesMenu();
@@ -623,6 +690,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (unlocked.length > 0) {
         renderHeader();
         showAchievementToasts(unlocked);
+      }
+      const questsDone = checkQuests();
+      if (questsDone.length > 0) {
+        renderHeader();
+        showQuestToasts(questsDone);
       }
     }, 4100);
   });
@@ -668,13 +740,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const PVE_STAGE_GLOWS = ["#8bd17c", "#e0c341", "#d4a017", "#9aa5ad", "#c76b98", "#ffd23f"];
+  // Lueur de l'ennemi : une teinte par famille de fruit (10 familles réparties
+  // sur le cercle chromatique), qui s'intensifie légèrement à mesure qu'on
+  // avance dans les 6 niveaux de la famille.
+  function pveStageGlow(stageIndex) {
+    const family = Math.floor(stageIndex / 6);
+    const levelInFamily = stageIndex % 6;
+    const hue = (family * 36) % 360;
+    const light = 58 - levelInFamily * 4;
+    return `hsl(${hue}, 70%, ${light}%)`;
+  }
 
   function renderPveFighters() {
-    const enemy = PINEAPPLE_ENEMIES[pveSelectedStage];
+    const enemy = FRUIT_ENEMIES[pveSelectedStage];
+    const family = Math.floor(pveSelectedStage / 6);
+    const levelInFamily = pveSelectedStage % 6;
     const locked = pveSelectedStage > maxPlayablePveStage();
     const playerBanana = pveSelectedBananaId ? BANANAS_BY_ID[pveSelectedBananaId] : null;
     const playerStats = playerBanana ? bananaCombatStats(playerBanana) : null;
+    const enemySize = 2.6 + family * 0.15 + levelInFamily * 0.12;
 
     els.pvePlayerFighter.innerHTML = playerBanana ? `
       ${bananaIconHTML(playerBanana, 3.4)}
@@ -683,27 +767,41 @@ document.addEventListener("DOMContentLoaded", () => {
     ` : `<div class="pve-fighter-empty">Choisis une banane</div>`;
 
     els.pveEnemyFighter.innerHTML = `
-      <div class="pve-enemy-icon" style="font-size:${2.4 + pveSelectedStage * 0.35}rem; filter:drop-shadow(0 0 10px ${PVE_STAGE_GLOWS[pveSelectedStage]});">${enemy.emoji}</div>
+      <div class="pve-enemy-icon" style="font-size:${enemySize}rem; filter:drop-shadow(0 0 10px ${pveStageGlow(pveSelectedStage)});">${enemy.emoji}</div>
       <div class="pve-fighter-name">${enemy.name}${locked ? " 🔒" : ""}</div>
       <div class="pve-fighter-stats">⚔️ ${enemy.atk} · 🛡️ ${enemy.def} · 🪙 ${enemy.reward}</div>
+      <div class="pve-fighter-stats">Niveau ${pveSelectedStage + 1} / ${FRUIT_ENEMIES.length}</div>
     `;
 
     els.pveFightBtn.disabled = pveFighting || !playerBanana || locked;
-    els.pveFightBtn.textContent = locked ? "🔒 Bats l'ananas précédent d'abord" : "⚔️ Attaquer";
+    els.pveFightBtn.textContent = locked ? "🔒 Bats l'ennemi précédent d'abord" : "⚔️ Attaquer";
   }
 
+  // Les 60 niveaux sont regroupés par famille de fruit (10 groupes de 6),
+  // avec un en-tête par famille, plutôt qu'une seule rangée de 60 puces.
   function renderPveStageList() {
-    els.pveStageList.innerHTML = PINEAPPLE_ENEMIES.map((enemy, i) => {
-      const beaten = i <= state.pve.stage;
-      const playable = i <= maxPlayablePveStage();
-      const selected = i === pveSelectedStage;
+    const groupsHTML = FRUIT_FAMILIES.map((family, f) => {
+      const chips = FRUIT_ENEMIES.slice(f * 6, f * 6 + 6).map((enemy, li) => {
+        const i = f * 6 + li;
+        const beaten = i <= state.pve.stage;
+        const playable = i <= maxPlayablePveStage();
+        const selected = i === pveSelectedStage;
+        return `
+          <button class="pve-stage-chip ${selected ? "selected" : ""} ${!playable ? "locked" : ""}" data-stage="${i}" ${!playable ? "disabled" : ""}>
+            <span>${playable ? enemy.emoji : "🔒"}</span>
+            ${beaten ? '<span class="pve-stage-check">✅</span>' : ""}
+          </button>
+        `;
+      }).join("");
       return `
-        <button class="pve-stage-chip ${selected ? "selected" : ""} ${!playable ? "locked" : ""}" data-stage="${i}" ${!playable ? "disabled" : ""}>
-          <span>${playable ? enemy.emoji : "🔒"}</span>
-          ${beaten ? '<span class="pve-stage-check">✅</span>' : ""}
-        </button>
+        <div class="pve-stage-group">
+          <div class="pve-stage-group-label">${family.emoji} ${family.label}</div>
+          <div class="pve-stage-list">${chips}</div>
+        </div>
       `;
     }).join("");
+
+    els.pveStageList.innerHTML = `<div class="pve-stage-groups">${groupsHTML}</div>`;
     els.pveStageList.querySelectorAll(".pve-stage-chip").forEach((btn) => {
       btn.addEventListener("click", () => {
         pveSelectedStage = Number(btn.dataset.stage);
@@ -731,7 +829,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     setTimeout(() => {
       els.pveVsMark.classList.remove("clash");
-      const result = fightPineapple(pveSelectedBananaId, pveSelectedStage);
+      const result = fightFruitEnemy(pveSelectedBananaId, pveSelectedStage);
       pveFighting = false;
 
       if (!result.ok) {
@@ -739,12 +837,13 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
       }
 
+      SFX[result.won ? "win" : "lose"]();
       renderHeader();
       els.pveResult.innerHTML = `
         <div class="pve-result-title">${result.won ? "🎉 Victoire !" : "💥 Défaite..."}</div>
-        <div class="pve-result-line">${result.won ? "Ta banane triomphe de l'ananas !" : "L'ananas était trop coriace cette fois — courage vaincu quand même récompensé."}</div>
+        <div class="pve-result-line">${result.won ? "Ta banane triomphe de l'ennemi !" : "L'ennemi était trop coriace cette fois — courage vaincu quand même récompensé."}</div>
         <div class="pve-result-coins">🪙 +${result.coinsEarned}</div>
-        ${result.stageAdvanced ? '<div class="pve-result-line">🔓 Ananas suivant débloqué !</div>' : ""}
+        ${result.stageAdvanced ? '<div class="pve-result-line">🔓 Ennemi suivant débloqué !</div>' : ""}
       `;
       els.pveResult.classList.remove("hidden");
 
@@ -754,6 +853,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (unlocked.length > 0) {
         renderHeader();
         showAchievementToasts(unlocked);
+      }
+      const questsDone = checkQuests();
+      if (questsDone.length > 0) {
+        renderHeader();
+        showQuestToasts(questsDone);
       }
 
       renderPveStageList();
@@ -818,6 +922,21 @@ document.addEventListener("DOMContentLoaded", () => {
     }, interval);
   }
 
+  /* ---------------- Son ---------------- */
+
+  function renderMuteBtn() {
+    const muted = !!(state.settings && state.settings.muted);
+    els.muteBtn.textContent = muted ? "🔇" : "🔊";
+    els.muteBtn.classList.toggle("muted", muted);
+  }
+
+  els.muteBtn.addEventListener("click", () => {
+    state.settings.muted = !state.settings.muted;
+    saveState();
+    renderMuteBtn();
+    if (!state.settings.muted) SFX.click();
+  });
+
   /* ---------------- Réinitialisation ---------------- */
 
   els.resetBtn.addEventListener("click", () => {
@@ -836,6 +955,8 @@ document.addEventListener("DOMContentLoaded", () => {
     renderHeader();
     renderCollection();
     renderShop();
+    renderQuests();
+    renderMuteBtn();
     renderMinigamesMenu();
     renderStats();
     renderAchievements();
@@ -844,6 +965,7 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------------- Démarrage ---------------- */
 
   renderHeader();
+  renderMuteBtn();
   if (state.lastBananaId) {
     const banana = BANANAS_BY_ID[state.lastBananaId];
     els.lastBanana.innerHTML = bananaCardHTML(banana, state.counts[banana.id], false);
@@ -852,7 +974,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   renderCollection();
   updateAutoHarvestTimer();
+  refreshQuestsIfNewDay();
+  saveState();
 
+  // Aucun son n'est joué pour les toasts affichés ici : ils apparaissent au
+  // chargement de la page, avant tout geste de l'utilisateur, ce que les
+  // navigateurs interdisent pour la lecture audio.
   const streakResult = processDailyStreak();
   if (streakResult) {
     renderHeader();
@@ -865,6 +992,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const unlockedAtStart = checkAchievements();
   if (unlockedAtStart.length > 0) {
     renderHeader();
-    showAchievementToasts(unlockedAtStart);
+    showAchievementToasts(unlockedAtStart, false);
   }
 });

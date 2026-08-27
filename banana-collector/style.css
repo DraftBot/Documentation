@@ -53,6 +53,19 @@ body {
   box-shadow: var(--shadow);
 }
 
+.mute-btn {
+  border: none;
+  background: var(--card-bg);
+  border-radius: 999px;
+  width: 2.2rem;
+  height: 2.2rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  line-height: 1;
+}
+.mute-btn.muted { opacity: 0.55; }
+
 /* --- Onglets --- */
 
 .tabs {
@@ -451,6 +464,47 @@ body {
 .shop-item-level { font-weight: 400; font-size: 0.8rem; color: #7a6224; margin-left: 6px; }
 .shop-item-desc { font-size: 0.85rem; color: #5c4a1a; margin-top: 2px; }
 
+/* --- Quêtes quotidiennes --- */
+
+.quests-list { display: flex; flex-direction: column; gap: 12px; margin-top: 12px; }
+
+.quest-item {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  box-shadow: var(--shadow);
+}
+
+.quest-item.done { opacity: 0.65; }
+
+.quest-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-weight: 700;
+}
+
+.quest-item-desc { flex: 1; }
+.quest-item-reward { font-weight: 800; color: var(--accent-dark); white-space: nowrap; }
+
+.quest-progress-bar {
+  height: 10px;
+  border-radius: 999px;
+  background: #f0e2b6;
+  overflow: hidden;
+  margin-top: 8px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.quest-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffd23f, #ff5da2);
+  transition: width 0.4s ease;
+}
+
+.quest-item-count { font-size: 0.78rem; color: #7a6224; margin-top: 4px; }
+
 /* --- Boutons génériques --- */
 
 .btn {
@@ -825,6 +879,19 @@ body {
 .pve-result-coins { font-size: 1.2rem; font-weight: 800; color: var(--accent-dark); margin-top: 6px; }
 
 .pve-stage-label { font-weight: 700; margin: 22px 0 8px; }
+
+.pve-stage-groups {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.pve-stage-group-label {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #7a6224;
+  margin-bottom: 6px;
+}
 
 .pve-stage-list {
   display: flex;

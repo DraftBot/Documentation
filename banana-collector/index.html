@@ -16,6 +16,7 @@
       <div class="stats-bar">
         <span id="stat-collection">Collection : 0 / 100</span>
         <span id="stat-coins">🪙 Pièces : 0</span>
+        <button id="mute-btn" class="mute-btn" title="Couper/activer le son">🔊</button>
       </div>
     </header>
 
@@ -23,6 +24,7 @@
       <button class="tab-btn active" data-tab="accueil">🏠 Accueil</button>
       <button class="tab-btn" data-tab="collection">📖 Collection</button>
       <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
+      <button class="tab-btn" data-tab="quetes">📜 Quêtes</button>
       <button class="tab-btn" data-tab="pub">📺 Pub</button>
       <button class="tab-btn" data-tab="minijeux">🎮 Mini-jeux</button>
       <button class="tab-btn" data-tab="combat">⚔️ Combat</button>
@@ -53,6 +55,12 @@
         <h2>Boutique</h2>
         <p class="shop-hint">Dépense tes pièces pour améliorer tes chances d'obtenir des bananes rares !</p>
         <div id="shop-list" class="shop-list"></div>
+      </section>
+
+      <section id="tab-quetes" class="tab-panel">
+        <h2>📜 Quêtes du jour</h2>
+        <p class="shop-hint">Un nouveau lot de quêtes t'attend chaque jour. Termine-les pour gagner des pièces bonus !</p>
+        <div id="quests-list" class="quests-list"></div>
       </section>
 
       <section id="tab-pub" class="tab-panel">
@@ -132,8 +140,8 @@
       </section>
 
       <section id="tab-combat" class="tab-panel">
-        <h2>⚔️ L'Arène des Ananas</h2>
-        <p class="shop-hint">Choisis ta banane championne et affronte les ananas. L'attaque et la défense dépendent de la rareté de ta banane.</p>
+        <h2>⚔️ L'Arène des Fruits</h2>
+        <p class="shop-hint">Choisis ta banane championne et affronte 60 niveaux répartis en 10 familles de fruits, de plus en plus fortes. L'attaque et la défense dépendent de la rareté de ta banane.</p>
 
         <div class="pve-picker">
           <span class="pve-picker-label">Ta championne :</span>
@@ -180,6 +188,7 @@
 
   <script src="data.js"></script>
   <script src="app.js"></script>
+  <script src="sounds.js"></script>
   <script src="ui.js"></script>
 </body>
 </html>
