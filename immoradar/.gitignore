@@ -27,3 +27,5 @@ next-env.d.ts
 
 # prisma
 /prisma/migrations/**/migration.sql.bak
+.vercel
+.env*
