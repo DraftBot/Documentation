@@ -1,8 +1,11 @@
-// Géocodage via Nominatim (OpenStreetMap) — gratuit, sans clé API, mais
-// soumis à une politique d'usage raisonnable (voir .env.example). Pour un
-// usage à fort trafic, remplacer par une instance self-hosted ou un
-// fournisseur commercial (Geoapify, LocationIQ...) en gardant la même
-// interface `geocode()` / `reverseGeocode()`.
+// Géocodage via l'API Adresse (Base Adresse Nationale, data.gouv.fr) —
+// service officiel du gouvernement français, gratuit, sans clé, spécialisé
+// sur la France. Choisi à la place de Nominatim/OpenStreetMap car ce
+// dernier bloque (403) les requêtes venant d'IP partagées d'hébergeurs
+// cloud (Vercel, AWS Lambda...), ce qui le rend inutilisable en production
+// depuis une fonction serverless. Pour un usage hors France ou à très fort
+// trafic, remplacer par un fournisseur commercial (Geoapify, LocationIQ...)
+// en gardant la même interface `geocode()`.
 
 export interface GeocodeResult {
   label: string;
@@ -13,59 +16,52 @@ export interface GeocodeResult {
   type: "city" | "postcode" | "address" | "neighbourhood" | "other";
 }
 
-const BASE_URL = process.env.NOMINATIM_BASE_URL ?? "https://nominatim.openstreetmap.org";
-const USER_AGENT = process.env.NOMINATIM_USER_AGENT ?? "ImmoRadar/0.1 (dev)";
+const BASE_URL = process.env.BAN_BASE_URL ?? "https://api-adresse.data.gouv.fr";
 
 export async function geocode(query: string, limit = 5): Promise<GeocodeResult[]> {
   if (!query || query.trim().length < 2) return [];
-  const url = new URL(`${BASE_URL}/search`);
+  const url = new URL(`${BASE_URL}/search/`);
   url.searchParams.set("q", query);
-  url.searchParams.set("format", "jsonv2");
-  url.searchParams.set("addressdetails", "1");
   url.searchParams.set("limit", String(limit));
-  url.searchParams.set("countrycodes", "fr");
 
   const res = await fetch(url.toString(), {
-    headers: { "User-Agent": USER_AGENT, "Accept-Language": "fr" },
-    // Nominatim usage policy: pas de cache agressif requis côté client,
-    // mais on évite les appels redondants avec un court cache Next.js.
     next: { revalidate: 3600 },
   });
   if (!res.ok) {
     throw new Error(`Échec du géocodage (${res.status})`);
   }
-  const data = (await res.json()) as Array<{
-    display_name: string;
-    lat: string;
-    lon: string;
-    addresstype?: string;
-    address?: { city?: string; town?: string; village?: string; postcode?: string };
-  }>;
+  const data = (await res.json()) as {
+    features: Array<{
+      geometry: { coordinates: [number, number] };
+      properties: {
+        label: string;
+        city?: string;
+        postcode?: string;
+        type?: string;
+      };
+    }>;
+  };
 
-  return data.map((d) => ({
-    label: d.display_name,
-    latitude: parseFloat(d.lat),
-    longitude: parseFloat(d.lon),
-    city: d.address?.city ?? d.address?.town ?? d.address?.village,
-    postalCode: d.address?.postcode,
-    type: mapType(d.addresstype),
+  return data.features.map((f) => ({
+    label: f.properties.label,
+    longitude: f.geometry.coordinates[0],
+    latitude: f.geometry.coordinates[1],
+    city: f.properties.city,
+    postalCode: f.properties.postcode,
+    type: mapType(f.properties.type),
   }));
 }
 
-function mapType(addresstype?: string): GeocodeResult["type"] {
-  switch (addresstype) {
-    case "city":
-    case "town":
-    case "village":
+function mapType(type?: string): GeocodeResult["type"] {
+  switch (type) {
+    case "municipality":
       return "city";
-    case "postcode":
-      return "postcode";
-    case "neighbourhood":
-    case "suburb":
+    case "locality":
       return "neighbourhood";
-    case "house":
-    case "building":
+    case "housenumber":
       return "address";
+    case "street":
+      return "other";
     default:
       return "other";
   }

@@ -71,7 +71,7 @@ fabriquer un chiffre.
 | ORM | Prisma | Migrations versionnées, typage bout en bout |
 | Authentification | NextAuth (credentials + bcrypt) | Simple, auto-hébergeable, pas de dépendance tierce obligatoire |
 | Carte | Leaflet + OpenStreetMap | Gratuit, sans clé API, personnalisable |
-| Géocodage | Nominatim (OSM) | Gratuit, sans clé, suffisant pour démarrer |
+| Géocodage | API Adresse (BAN, data.gouv.fr) | Gratuit, sans clé, officiel France, fonctionne depuis un hébergeur cloud |
 | Points d'intérêt | Overpass API (OSM) | Données réelles de quartier, gratuites |
 | Validation | Zod | Validation stricte des entrées API |
 
@@ -143,7 +143,7 @@ Résumé :
 | --- | --- | --- |
 | `DATABASE_URL` | ✅ | l'application ne démarre pas |
 | `NEXTAUTH_SECRET`, `NEXTAUTH_URL` | ✅ | authentification impossible |
-| `NOMINATIM_BASE_URL`, `NOMINATIM_USER_AGENT` | déjà fonctionnel par défaut | — |
+| `BAN_BASE_URL` | déjà fonctionnel par défaut | — |
 | `OVERPASS_BASE_URL` | déjà fonctionnel par défaut | — |
 | `ANTHROPIC_API_KEY` | optionnel | recherche en langage naturel en mode « règles » (fonctionnel, moins précis) |
 | `ORS_API_KEY` | optionnel | module « Temps de trajet » affiche « non configuré » |
@@ -242,7 +242,7 @@ Cron, GitHub Actions cron...) vers `POST /api/cron/alerts` avec l'en-tête
 - Aucune source immobilière réelle n'est connectée (voir ci-dessus) —
   l'architecture est prête, l'activation nécessite des accès contractuels
   que ce projet ne peut pas obtenir de façon autonome.
-- Le géocodage (Nominatim) et l'analyse de quartier (Overpass) utilisent
+- Le géocodage (API Adresse) et l'analyse de quartier (Overpass) utilisent
   des instances publiques gratuites, soumises à une politique d'usage
   raisonnable et parfois à des indisponibilités temporaires (l'application
   le signale explicitement plutôt que d'afficher une donnée fausse).
