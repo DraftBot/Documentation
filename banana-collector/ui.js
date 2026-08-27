@@ -154,6 +154,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
+    if (banana.image) {
+      return `
+        <div class="banana-icon" style="${sizeStyle} ${containerStyle}">
+          <img class="banana-icon-img" src="${banana.image}" alt="${banana.name}" loading="lazy" />
+        </div>
+      `;
+    }
+
     return `
       <div class="banana-icon" style="${sizeStyle} ${containerStyle}">
         <span class="banana-icon-glyph ${glyphClass}" style="filter:${filter}; transform:${transform};">${banana.emoji}</span>
@@ -258,7 +266,8 @@ document.addEventListener("DOMContentLoaded", () => {
   function showBanner(title, banana, duration) {
     const banner = document.createElement("div");
     banner.className = "rare-banner";
-    banner.innerHTML = `<span class="rare-banner-title">${title}</span><span class="rare-banner-name">${banana.emoji} ${banana.name}</span>`;
+    const bannerGlyph = banana.image ? `<img class="inline-banana-icon" src="${banana.image}" alt="" />` : banana.emoji;
+    banner.innerHTML = `<span class="rare-banner-title">${title}</span><span class="rare-banner-name">${bannerGlyph} ${banana.name}</span>`;
     els.toastLayer.appendChild(banner);
     requestAnimationFrame(() => banner.classList.add("show"));
     setTimeout(() => {
@@ -1329,7 +1338,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="stats-grid">
         <div class="stat-box"><div class="stat-num">${state.totalRolls}</div><div class="stat-label">Bananes récoltées</div></div>
         <div class="stat-box"><div class="stat-num">${discoveredNormal + discoveredSecret}</div><div class="stat-label">Bananes différentes découvertes</div></div>
-        <div class="stat-box"><div class="stat-num">${rarest ? `${rarest.emoji} ${rarest.name}` : "—"}</div><div class="stat-label">Banane la plus rare obtenue</div></div>
+        <div class="stat-box"><div class="stat-num">${rarest ? `${rarest.image ? `<img class="inline-banana-icon" src="${rarest.image}" alt="" />` : rarest.emoji} ${rarest.name}` : "—"}</div><div class="stat-label">Banane la plus rare obtenue</div></div>
         <div class="stat-box"><div class="stat-num">${state.mythicCount}</div><div class="stat-label">Bananes mythiques obtenues</div></div>
         <div class="stat-box"><div class="stat-num">${state.clicks}</div><div class="stat-label">Nombre de clics</div></div>
         <div class="stat-box"><div class="stat-num">${pct}%</div><div class="stat-label">Collection complétée</div></div>
