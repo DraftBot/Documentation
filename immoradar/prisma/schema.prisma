@@ -1,0 +1,382 @@
+// ImmoRadar — schéma de données
+// Voir README.md § Architecture pour le détail des relations.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ───────────────────────────── Utilisateurs ─────────────────────────────
+
+model User {
+  id            String   @id @default(cuid())
+  email         String   @unique
+  name          String?
+  passwordHash  String
+  role          UserRole @default(USER)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  consentedAt   DateTime? // horodatage du consentement RGPD (CGU + cookies)
+
+  savedSearches SavedSearch[]
+  favorites     Favorite[]
+  alerts        Alert[]
+  notes         Note[]
+  comparisons   ComparisonSet[]
+
+  @@map("users")
+}
+
+enum UserRole {
+  USER
+  ADMIN
+}
+
+// ───────────────────────────── Recherches ───────────────────────────────
+
+// Une recherche exécutée (anonyme ou liée à un utilisateur), utilisée pour
+// les statistiques admin et comme base d'une SavedSearch / Alert.
+model Search {
+  id            String   @id @default(cuid())
+  userId        String?
+  locationLabel String
+  latitude      Float
+  longitude     Float
+  radiusKm      Float
+  filters       Json // FilterSet sérialisé (voir src/types/listing.ts)
+  createdAt     DateTime @default(now())
+
+  @@index([createdAt])
+  @@map("searches")
+}
+
+model SavedSearch {
+  id            String   @id @default(cuid())
+  userId        String
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name          String
+  locationLabel String
+  latitude      Float
+  longitude     Float
+  radiusKm      Float
+  filters       Json
+  weights       Json
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  alert Alert?
+
+  @@map("saved_searches")
+}
+
+model Alert {
+  id             String    @id @default(cuid())
+  userId         String
+  user           User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  savedSearchId  String    @unique
+  savedSearch    SavedSearch @relation(fields: [savedSearchId], references: [id], onDelete: Cascade)
+  channel        AlertChannel @default(EMAIL)
+  active         Boolean   @default(true)
+  lastCheckedAt  DateTime?
+  lastNotifiedAt DateTime?
+  createdAt      DateTime  @default(now())
+
+  @@map("alerts")
+}
+
+enum AlertChannel {
+  EMAIL
+  WEB_PUSH
+  MOBILE_PUSH // réservé pour une future app mobile
+}
+
+// ───────────────────────────── Annonces ─────────────────────────────────
+
+model Listing {
+  id                String   @id @default(cuid())
+  // Groupe de doublons : plusieurs Listing (une par source) peuvent partager
+  // le même dedupGroupId lorsqu'ils représentent le même logement réel.
+  dedupGroupId      String
+  isDemo            Boolean  @default(false)
+
+  title             String
+  description       String?  @db.Text
+  transactionType   TransactionType @default(RENT)
+  propertyType      PropertyType
+
+  price             Float // loyer ou prix de vente
+  charges           Float?
+  chargesIncluded   Boolean  @default(false)
+
+  surface            Float
+  rooms              Int?
+  bedrooms           Int?
+  floor              Int?
+  totalFloors        Int?
+  isTopFloor         Boolean  @default(false)
+  isGroundFloor      Boolean  @default(false)
+  constructionYear   Int?
+
+  energyRating          EnergyRating?
+  greenhouseGasRating   EnergyRating?
+  heatingType           String?
+  kitchenType           String?
+  furnished             Boolean?
+
+  address           String?
+  city              String
+  postalCode        String?
+  latitude          Float
+  longitude         Float
+
+  availableFrom     DateTime?
+  publishedAt       DateTime?
+  updatedAt         DateTime @updatedAt
+  createdAt         DateTime @default(now())
+
+  images            ListingImage[]
+  amenities         ListingAmenity[]
+  sources           ListingSource[]
+  favorites         Favorite[]
+  notes             Note[]
+  comparisonItems   ComparisonItem[]
+
+  @@index([city])
+  @@index([latitude, longitude])
+  @@index([dedupGroupId])
+  @@index([propertyType, transactionType])
+  @@map("listings")
+}
+
+enum TransactionType {
+  RENT
+  BUY
+}
+
+enum PropertyType {
+  APARTMENT
+  HOUSE
+  STUDIO
+  DUPLEX
+  LOFT
+  OTHER
+}
+
+enum EnergyRating {
+  A
+  B
+  C
+  D
+  E
+  F
+  G
+  NA
+}
+
+model ListingImage {
+  id        String  @id @default(cuid())
+  listingId String
+  listing   Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  // On stocke la référence (URL) de l'image plutôt que son contenu, cf. §11.
+  url       String
+  position  Int     @default(0)
+  alt       String?
+
+  @@map("listing_images")
+}
+
+model Amenity {
+  id    String @id @default(cuid())
+  key   String @unique // ex: "balcony", "garage" — voir src/lib/amenities.ts
+  label String
+  icon  String?
+
+  listings ListingAmenity[]
+
+  @@map("amenities")
+}
+
+model ListingAmenity {
+  listingId String
+  listing   Listing @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  amenityId String
+  amenity   Amenity @relation(fields: [amenityId], references: [id], onDelete: Cascade)
+
+  @@id([listingId, amenityId])
+  @@map("listing_amenities")
+}
+
+// Instance d'une annonce sur une source précise (Leboncoin, SeLoger, ...).
+// Un même logement réel = un dedupGroupId sur Listing, mais chaque
+// ListingSource garde la trace de l'annonce d'origine par plateforme afin
+// de proposer plusieurs liens ("disponible sur 3 sources").
+model ListingSource {
+  id             String    @id @default(cuid())
+  listingId      String
+  listing        Listing   @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  sourceName     String // "demo" | "leboncoin" | "seloger" | "bienici" | "pap" | "logicimmo" | ...
+  sourceUrl      String
+  externalId     String?
+  contactId      String?
+  contact        Contact?  @relation(fields: [contactId], references: [id])
+  rawSourceData  Json?
+  fetchedAt      DateTime  @default(now())
+
+  @@unique([sourceName, externalId])
+  @@index([listingId])
+  @@map("listing_sources")
+}
+
+model Contact {
+  id            String   @id @default(cuid())
+  agencyName    String?
+  phone         String?
+  contactFormUrl String?
+  isPrivateOwner Boolean @default(false)
+
+  listingSources ListingSource[]
+
+  @@map("contacts")
+}
+
+// ───────────────────────────── Localisation ──────────────────────────────
+
+// Zones géographiques mises en cache (utilisées pour les pages SEO
+// /location-appartement-<ville> et pour les statistiques de prix).
+model Location {
+  id         String  @id @default(cuid())
+  slug       String  @unique
+  city       String
+  postalCode String?
+  latitude   Float
+  longitude  Float
+
+  priceStatistics PriceStatistic[]
+
+  @@map("locations")
+}
+
+// Statistiques de prix au m² par secteur / type de bien, utilisées par le
+// module d'analyse du prix. Alimentées par les données de démonstration ou,
+// en production, par un jeu de données public (DVF) ou les annonces elles-
+// mêmes agrégées. Ne jamais inventer une statistique manquante : l'API
+// renvoie explicitement "insufficient_data" si aucune ligne ne correspond.
+model PriceStatistic {
+  id              String       @id @default(cuid())
+  locationId      String
+  location        Location     @relation(fields: [locationId], references: [id], onDelete: Cascade)
+  propertyType    PropertyType
+  transactionType TransactionType
+  sampleSize      Int
+  pricePerSqmMin  Float
+  pricePerSqmAvg  Float
+  pricePerSqmMax  Float
+  source          String // ex: "demo-dataset", "dvf-2025", "listings-aggregate"
+  computedAt      DateTime @default(now())
+
+  @@unique([locationId, propertyType, transactionType])
+  @@map("price_statistics")
+}
+
+// Points d'intérêt (commerces, écoles, santé, transport, loisirs) utilisés
+// pour l'analyse de quartier. Alimentés par Overpass API (OpenStreetMap) ou
+// mis en cache localement pour limiter les appels externes.
+model PointOfInterest {
+  id        String   @id @default(cuid())
+  category  PoiCategory
+  name      String
+  latitude  Float
+  longitude Float
+  source    String   @default("overpass")
+  fetchedAt DateTime @default(now())
+
+  @@index([category])
+  @@index([latitude, longitude])
+  @@map("points_of_interest")
+}
+
+enum PoiCategory {
+  GROCERY
+  SHOP
+  HEALTH
+  EDUCATION
+  TRANSPORT
+  FOOD
+  LEISURE
+}
+
+// ───────────────────────────── Utilisateur / logements ──────────────────
+
+model Favorite {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  listingId String
+  listing   Listing  @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, listingId])
+  @@map("favorites")
+}
+
+model Note {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  listingId String
+  listing   Listing  @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  content   String   @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, listingId])
+  @@map("notes")
+}
+
+model ComparisonSet {
+  id        String           @id @default(cuid())
+  userId    String
+  user      User             @relation(fields: [userId], references: [id], onDelete: Cascade)
+  name      String           @default("Comparaison")
+  createdAt DateTime         @default(now())
+  items     ComparisonItem[]
+
+  @@map("comparison_sets")
+}
+
+model ComparisonItem {
+  comparisonSetId String
+  comparisonSet   ComparisonSet @relation(fields: [comparisonSetId], references: [id], onDelete: Cascade)
+  listingId       String
+  listing         Listing       @relation(fields: [listingId], references: [id], onDelete: Cascade)
+  addedAt         DateTime      @default(now())
+
+  @@id([comparisonSetId, listingId])
+  @@map("comparison_items")
+}
+
+// ───────────────────────────── Administration ────────────────────────────
+
+// État des connecteurs de sources, affiché dans /admin.
+model ConnectorStatus {
+  id           String   @id @default(cuid())
+  sourceName   String   @unique
+  status       ConnectorState @default(PENDING)
+  lastSyncAt   DateTime?
+  lastError    String?
+  listingCount Int      @default(0)
+  notes        String?  @db.Text
+
+  @@map("connector_statuses")
+}
+
+enum ConnectorState {
+  ACTIVE   // 🟢 connecté et fonctionnel
+  ERROR    // 🟠 erreur de synchronisation
+  DISABLED // 🔴 désactivé
+  PENDING  // en attente de clé/accès API
+}
