@@ -1,0 +1,47 @@
+name: Synchronisation des traductions
+
+on:
+  push:
+    branches: [main]
+    paths: ['docs/fr/**']
+  workflow_dispatch:
+
+concurrency:
+  group: translations
+  # Annuler une traduction en cours laisserait une branche orpheline a mi-chemin.
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      # Requis meme sans github_token : l'action s'authentifie comme la Claude GitHub App.
+      id-token: write
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          # Sans cela, checkout laisse le jeton automatique dans .git/config et
+          # le push partirait sous l'identite github-actions[bot] : GitHub ne
+          # declenche aucun workflow sur ces commits, donc checks.yml ne
+          # tournerait pas sur la pull request produite ici.
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - id: stale
+        run: node scripts/check-translations.mjs --github-output
+
+      - if: steps.stale.outputs.pages != ''
+        # Ne pas ajouter github_token : GitHub ne declenche aucun workflow sur les
+        # commits signes par GITHUB_TOKEN, donc checks.yml ne tournerait pas sur la
+        # pull request produite ici.
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: "/traduire ${{ steps.stale.outputs.pages }}"
+          claude_args: |
+            --model claude-opus-5
+            --max-turns 40

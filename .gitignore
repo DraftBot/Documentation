@@ -1,0 +1,7 @@
+# Espace de travail des sessions d'implémentation assistée
+.superpowers/
+plans/
+specs/
+
+# Preferences locales de Claude Code, propres a chaque poste
+.claude/settings.local.json
