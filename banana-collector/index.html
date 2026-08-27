@@ -26,6 +26,7 @@
       <button class="tab-btn" data-tab="collection">📖 Collection</button>
       <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
       <button class="tab-btn" data-tab="quetes">📜 Quêtes</button>
+      <button class="tab-btn" data-tab="marche">🏪 Marché</button>
       <button class="tab-btn" data-tab="pub">📺 Pub</button>
       <button class="tab-btn" data-tab="minijeux">🎮 Mini-jeux</button>
       <button class="tab-btn" data-tab="combat">⚔️ Combat</button>
@@ -62,6 +63,33 @@
         <h2>📜 Quêtes du jour</h2>
         <p class="shop-hint">Un nouveau lot de quêtes t'attend chaque jour. Termine-les pour gagner des pièces bonus !</p>
         <div id="quests-list" class="quests-list"></div>
+      </section>
+
+      <section id="tab-marche" class="tab-panel">
+        <h2>🏪 Marché</h2>
+        <p class="shop-hint">Vends tes doublons contre des pièces, achète ceux des autres joueurs.</p>
+        <div id="market-locked" class="secret-hint hidden">🔒 Connecte-toi (bouton "👤 Compte" en haut de la page) pour accéder au Marché.</div>
+        <div id="market-content" class="hidden">
+          <div class="market-subtabs">
+            <button class="market-subtab-btn active" id="market-tab-buy" data-marketview="buy">🛍️ Acheter</button>
+            <button class="market-subtab-btn" id="market-tab-sell" data-marketview="sell">🏷️ Mes annonces</button>
+          </div>
+          <div id="market-buy-view" class="market-view">
+            <div id="market-listings" class="market-listings"></div>
+          </div>
+          <div id="market-sell-view" class="market-view hidden">
+            <div class="market-sell-form">
+              <div id="market-sell-picker" class="market-sell-picker"></div>
+              <div class="market-sell-inputs">
+                <input id="market-sell-quantity" type="number" min="1" placeholder="Quantité" />
+                <input id="market-sell-price" type="number" min="1" placeholder="Prix / unité 🪙" />
+                <button id="market-sell-submit-btn" class="btn harvest-btn">Mettre en vente</button>
+              </div>
+              <div class="account-error" id="market-sell-error"></div>
+            </div>
+            <div id="market-my-listings" class="market-listings"></div>
+          </div>
+        </div>
       </section>
 
       <section id="tab-pub" class="tab-panel">

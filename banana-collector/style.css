@@ -454,6 +454,92 @@ body {
 .secret-section { margin-top: 30px; }
 .secret-hint { font-style: italic; color: #6b5a30; }
 
+/* --- Marché --- */
+
+.market-subtabs { display: flex; gap: 8px; margin: 14px 0; }
+
+.market-subtab-btn {
+  border: none;
+  background: rgba(255, 255, 255, 0.6);
+  color: var(--text);
+  font-weight: 700;
+  padding: 8px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.market-subtab-btn.active { background: var(--accent); color: #2b1a00; box-shadow: var(--shadow); }
+
+.market-view.hidden { display: none; }
+
+.market-listings {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.market-listing-card {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 12px 10px;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.market-listing-seller { font-size: 0.75rem; color: #7a6224; margin-top: 4px; }
+.market-listing-qty { font-size: 0.8rem; color: #5c4a1a; margin-top: 2px; }
+.market-listing-price { font-weight: 800; color: var(--accent-dark); margin-top: 6px; }
+.market-listing-status { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; margin-top: 4px; }
+.market-listing-status.sold { color: #4caf50; }
+.market-listing-status.cancelled { color: #9c874f; }
+
+.market-buy-btn, .market-cancel-btn { margin-top: 8px; width: 100%; font-size: 0.82rem; padding: 8px 10px; }
+
+.market-sell-form {
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+  margin-bottom: 16px;
+}
+
+.market-sell-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 12px;
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.market-sell-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: #fff6d5;
+  border: 2px solid #f0dfa8;
+  border-radius: 12px;
+  padding: 6px 8px;
+  cursor: pointer;
+  font-family: inherit;
+}
+.market-sell-option.selected { border-color: var(--accent-dark); box-shadow: 0 0 0 2px var(--accent); }
+.market-sell-option-count { font-size: 0.68rem; font-weight: 700; color: #5c4a1a; }
+
+.market-sell-inputs { display: flex; gap: 8px; flex-wrap: wrap; }
+.market-sell-inputs input {
+  flex: 1;
+  min-width: 100px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 2px solid #f0dfa8;
+  font-family: inherit;
+  font-size: 0.9rem;
+}
+.market-sell-inputs .btn { flex-basis: 100%; }
+
 /* --- Boutique --- */
 
 .shop-hint { color: #6b5a30; }

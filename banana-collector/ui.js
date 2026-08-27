@@ -49,6 +49,19 @@ document.addEventListener("DOMContentLoaded", () => {
     accountModal: document.getElementById("account-modal"),
     accountModalContent: document.getElementById("account-modal-content"),
     accountModalClose: document.getElementById("account-modal-close"),
+    marketLocked: document.getElementById("market-locked"),
+    marketContent: document.getElementById("market-content"),
+    marketTabBuy: document.getElementById("market-tab-buy"),
+    marketTabSell: document.getElementById("market-tab-sell"),
+    marketBuyView: document.getElementById("market-buy-view"),
+    marketSellView: document.getElementById("market-sell-view"),
+    marketListings: document.getElementById("market-listings"),
+    marketSellPicker: document.getElementById("market-sell-picker"),
+    marketSellQuantity: document.getElementById("market-sell-quantity"),
+    marketSellPrice: document.getElementById("market-sell-price"),
+    marketSellSubmitBtn: document.getElementById("market-sell-submit-btn"),
+    marketSellError: document.getElementById("market-sell-error"),
+    marketMyListings: document.getElementById("market-my-listings"),
     pveBananaSelect: document.getElementById("pve-banana-select"),
     pvePlayerFighter: document.getElementById("pve-player-fighter"),
     pveEnemyFighter: document.getElementById("pve-enemy-fighter"),
@@ -66,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "collection") renderCollection();
     if (name === "boutique") renderShop();
     if (name === "quetes") renderQuests();
+    if (name === "marche") renderMarketTab();
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
     if (name === "combat") renderPveTab();
@@ -407,6 +421,202 @@ document.addEventListener("DOMContentLoaded", () => {
       `;
     }).join("");
   }
+
+  /* ---------------- Marché ---------------- */
+
+  let marketView = "buy"; // "buy" | "sell"
+  let marketSelectedBananaId = null;
+
+  function sellableBananas() {
+    return state.discovered
+      .map((id) => BANANAS_BY_ID[id])
+      .filter((b) => (state.counts[b.id] || 0) > 0)
+      .sort((a, b) => rarityIndex(b.rarity) - rarityIndex(a.rarity) || b.value - a.value);
+  }
+
+  function renderMarketSellPicker() {
+    const owned = sellableBananas();
+    if (owned.length === 0) {
+      els.marketSellPicker.innerHTML = `<p class="secret-hint">Récolte des bananes avant de pouvoir en vendre !</p>`;
+      marketSelectedBananaId = null;
+      return;
+    }
+    if (!marketSelectedBananaId || !owned.some((b) => b.id === marketSelectedBananaId)) {
+      marketSelectedBananaId = owned[0].id;
+    }
+    els.marketSellPicker.innerHTML = owned.map((b) => {
+      const selected = b.id === marketSelectedBananaId;
+      return `
+        <button class="market-sell-option ${selected ? "selected" : ""}" data-id="${b.id}" title="${b.name}">
+          ${bananaIconHTML(b, 2)}
+          <span class="market-sell-option-count">x${state.counts[b.id] || 0}</span>
+        </button>
+      `;
+    }).join("");
+    els.marketSellPicker.querySelectorAll(".market-sell-option").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        marketSelectedBananaId = Number(btn.dataset.id);
+        renderMarketSellPicker();
+      });
+    });
+  }
+
+  function marketListingCardHTML(listing, mode) {
+    const banana = BANANAS_BY_ID[listing.banana_id];
+    if (!banana) return "";
+    const rarity = RARITIES[banana.rarity];
+    const total = listing.quantity * listing.unit_price;
+    const statusLabel = listing.status === "active" ? "En vente" : listing.status === "sold" ? "Vendue" : "Annulée";
+    return `
+      <div class="market-listing-card rarity-${banana.rarity}" style="--rarity-color:${rarity.color}; --rarity-glow:${rarity.glow};">
+        ${bananaIconHTML(banana, 2.2)}
+        <div class="banana-name">${banana.name}</div>
+        ${mode === "buy" ? `<div class="market-listing-seller">par ${listing.sellerUsername}</div>` : ""}
+        <div class="market-listing-qty">x${listing.quantity}</div>
+        <div class="market-listing-price">🪙 ${listing.unit_price} / unité</div>
+        ${mode === "sell" ? `<div class="market-listing-status ${listing.status}">${statusLabel}</div>` : ""}
+        ${mode === "buy" ? `<button class="btn market-buy-btn" data-listing="${listing.id}" data-qty="${listing.quantity}" data-banana="${listing.banana_id}">🪙 Acheter tout (${total})</button>` : ""}
+        ${mode === "sell" && listing.status === "active" ? `<button class="btn danger market-cancel-btn" data-listing="${listing.id}">Annuler</button>` : ""}
+      </div>
+    `;
+  }
+
+  async function renderMarketBuyView() {
+    els.marketListings.innerHTML = `<p class="secret-hint">Chargement...</p>`;
+    const listings = await CLOUD.fetchActiveListings();
+    const others = listings.filter((l) => l.seller_id !== CLOUD.currentUserId());
+    if (others.length === 0) {
+      els.marketListings.innerHTML = `<p class="secret-hint">Aucune annonce pour le moment. Reviens plus tard !</p>`;
+      return;
+    }
+    els.marketListings.innerHTML = others.map((l) => marketListingCardHTML(l, "buy")).join("");
+    els.marketListings.querySelectorAll(".market-buy-btn").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        btn.disabled = true;
+        btn.textContent = "⏳...";
+        const listingId = btn.dataset.listing;
+        const qty = Number(btn.dataset.qty);
+        const bananaId = Number(btn.dataset.banana);
+        const result = await CLOUD.buyListing(listingId, qty);
+        if (!result.ok) {
+          showBanner("❌ Achat impossible", { emoji: "🚫", name: result.reason || "Erreur" }, 1800);
+          renderMarketBuyView();
+          return;
+        }
+        state.counts[bananaId] = (state.counts[bananaId] || 0) + qty;
+        if (!state.discovered.includes(bananaId)) state.discovered.push(bananaId);
+        if (result.newCoins != null) state.coins = result.newCoins;
+        saveState();
+        SFX.buy();
+        renderHeader();
+        spawnConfetti(10);
+        showBanner("🛍️ ACHAT RÉUSSI !", { emoji: "🪙", name: `${BANANAS_BY_ID[bananaId].name} x${qty}` }, 1800);
+        CLOUD.scheduleSync();
+        renderMarketBuyView();
+      });
+    });
+  }
+
+  async function renderMarketMyListings() {
+    els.marketMyListings.innerHTML = `<p class="secret-hint">Chargement...</p>`;
+    const listings = await CLOUD.fetchMyListings();
+    if (listings.length === 0) {
+      els.marketMyListings.innerHTML = `<p class="secret-hint">Tu n'as pas encore d'annonce.</p>`;
+      return;
+    }
+    els.marketMyListings.innerHTML = listings.map((l) => marketListingCardHTML(l, "sell")).join("");
+    els.marketMyListings.querySelectorAll(".market-cancel-btn").forEach((btn) => {
+      btn.addEventListener("click", async () => {
+        btn.disabled = true;
+        const listingId = btn.dataset.listing;
+        const listing = listings.find((l) => l.id === listingId);
+        const result = await CLOUD.cancelListing(listingId);
+        if (!result.ok) {
+          showBanner("❌ Impossible d'annuler", { emoji: "🚫", name: result.reason || "Erreur" }, 1800);
+          btn.disabled = false;
+          return;
+        }
+        if (listing) {
+          state.counts[listing.banana_id] = (state.counts[listing.banana_id] || 0) + listing.quantity;
+          saveState();
+        }
+        renderMarketSellPicker();
+        renderMarketMyListings();
+        CLOUD.scheduleSync();
+      });
+    });
+  }
+
+  function showMarketView(view) {
+    marketView = view;
+    els.marketTabBuy.classList.toggle("active", view === "buy");
+    els.marketTabSell.classList.toggle("active", view === "sell");
+    els.marketBuyView.classList.toggle("hidden", view !== "buy");
+    els.marketSellView.classList.toggle("hidden", view !== "sell");
+    if (view === "buy") {
+      renderMarketBuyView();
+    } else {
+      renderMarketSellPicker();
+      renderMarketMyListings();
+    }
+  }
+
+  function renderMarketTab() {
+    if (!CLOUD.available || !CLOUD.isLinked()) {
+      els.marketLocked.classList.remove("hidden");
+      els.marketContent.classList.add("hidden");
+      return;
+    }
+    els.marketLocked.classList.add("hidden");
+    els.marketContent.classList.remove("hidden");
+    showMarketView(marketView);
+  }
+
+  els.marketTabBuy.addEventListener("click", () => showMarketView("buy"));
+  els.marketTabSell.addEventListener("click", () => showMarketView("sell"));
+
+  els.marketSellSubmitBtn.addEventListener("click", async () => {
+    els.marketSellError.textContent = "";
+    if (!marketSelectedBananaId) {
+      els.marketSellError.textContent = "Choisis une banane à vendre.";
+      return;
+    }
+    const quantity = Math.floor(Number(els.marketSellQuantity.value));
+    const price = Math.floor(Number(els.marketSellPrice.value));
+    const owned = state.counts[marketSelectedBananaId] || 0;
+    if (!quantity || quantity <= 0) {
+      els.marketSellError.textContent = "Quantité invalide.";
+      return;
+    }
+    if (quantity > owned) {
+      els.marketSellError.textContent = `Tu n'as que ${owned} exemplaire(s).`;
+      return;
+    }
+    if (!price || price <= 0) {
+      els.marketSellError.textContent = "Prix invalide.";
+      return;
+    }
+
+    els.marketSellSubmitBtn.disabled = true;
+    els.marketSellSubmitBtn.textContent = "⏳...";
+    const result = await CLOUD.createListing(marketSelectedBananaId, quantity, price);
+    els.marketSellSubmitBtn.disabled = false;
+    els.marketSellSubmitBtn.textContent = "Mettre en vente";
+
+    if (!result.ok) {
+      els.marketSellError.textContent = result.reason || "Impossible de créer l'annonce.";
+      return;
+    }
+
+    state.counts[marketSelectedBananaId] -= quantity;
+    saveState();
+    SFX.buy();
+    els.marketSellQuantity.value = "";
+    els.marketSellPrice.value = "";
+    renderMarketSellPicker();
+    renderMarketMyListings();
+    CLOUD.scheduleSync();
+  });
 
   /* ---------------- Publicité récompensée ---------------- */
 
@@ -967,6 +1177,7 @@ document.addEventListener("DOMContentLoaded", () => {
         await CLOUD.signOut();
         updateAccountBtn();
         renderAccountModal();
+        renderMarketTab();
       });
       return;
     }
@@ -1029,6 +1240,7 @@ document.addEventListener("DOMContentLoaded", () => {
       updateAccountBtn();
       renderAccountModal();
       renderHeader();
+      renderMarketTab();
     });
   }
 
