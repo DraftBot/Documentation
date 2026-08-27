@@ -73,17 +73,23 @@ function valueFor(rarity, indexInRarity) {
    Voir bananaIconHTML() dans ui.js pour le rendu.
    ------------------------------------------------------------ */
 
-// Chaque entrée : { name, rarity, emoji, deco? }
+// Chaque entrée : { id, name, rarity, emoji, deco? }
+// `id` est figé pour toujours : le Marché et l'Arène PVP (base de données
+// externe Supabase) stockent des références à ces ids. Règle définitive à
+// partir de maintenant : on n'ajoute qu'à LA FIN avec un id = max actuel + 1,
+// on ne réordonne jamais, on ne supprime jamais et on ne réutilise jamais un
+// id existant — sinon les annonces du marché, les équipes de défense et
+// l'historique de combat des joueurs se retrouveraient désynchronisés.
 const BANANA_DEFS = [
   // ================= Commune (24) =================
-  { name: "Banane classique", rarity: "commune", emoji: "🍌" },
+  { id: 1, name: "Banane classique", rarity: "commune", emoji: "🍌" },
   {
-    name: "Banane verte", rarity: "commune", emoji: "🍌",
+    id: 2, name: "Banane verte", rarity: "commune", emoji: "🍌",
     deco: { filter: "hue-rotate(70deg) saturate(1.25) brightness(0.98)" },
   },
-  { name: "Petite banane", rarity: "commune", emoji: "🍌", deco: { scale: 0.72 } },
+  { id: 3, name: "Petite banane", rarity: "commune", emoji: "🍌", deco: { scale: 0.72 } },
   {
-    name: "Banane mûre", rarity: "commune", emoji: "🍌",
+    id: 4, name: "Banane mûre", rarity: "commune", emoji: "🍌",
     deco: {
       filter: "sepia(0.5) saturate(1.3) brightness(0.9)",
       accessories: [
@@ -93,32 +99,32 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane du petit-déjeuner", rarity: "commune", emoji: "🍌",
+    id: 5, name: "Banane du petit-déjeuner", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "☀️", style: "top:-14%; right:-10%; font-size:.5em;" }] },
   },
-  { name: "Banane toute simple", rarity: "commune", emoji: "🍌" },
+  { id: 6, name: "Banane toute simple", rarity: "commune", emoji: "🍌" },
   {
-    name: "Banane du marché", rarity: "commune", emoji: "🍌",
+    id: 7, name: "Banane du marché", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "band", color: "#e8c88a", style: "left:70%; top:60%; width:26%; height:18%; transform:rotate(18deg);" }] },
   },
   {
-    name: "Banane bio", rarity: "commune", emoji: "🍌",
+    id: 8, name: "Banane bio", rarity: "commune", emoji: "🍌",
     deco: {
       filter: "saturate(1.1)",
       accessories: [{ type: "peak-out-left", colors: ["#7ee08a", "#4cc26b"], style: "left:44%; width:16%; top:-16%; height:14%;" }],
     },
   },
   {
-    name: "Banane de poche", rarity: "commune", emoji: "🍌",
+    id: 9, name: "Banane de poche", rarity: "commune", emoji: "🍌",
     deco: { scale: 0.8, containerStyle: "border:2px dashed #b98b3e; border-radius:14px; box-shadow: inset 0 0 6px rgba(185,139,62,.25);" },
   },
   {
-    name: "Banane du goûter", rarity: "commune", emoji: "🍌",
+    id: 10, name: "Banane du goûter", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🕓", style: "bottom:-12%; left:-12%; font-size:.42em;" }] },
   },
-  { name: "Banane basique", rarity: "commune", emoji: "🍌" },
+  { id: 11, name: "Banane basique", rarity: "commune", emoji: "🍌" },
   {
-    name: "Banane du dimanche", rarity: "commune", emoji: "🍌",
+    id: 12, name: "Banane du dimanche", rarity: "commune", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#c81d25", style: "left:44%; top:-14%; width:5%; height:14%;" },
@@ -128,57 +134,57 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane du dodo", rarity: "commune", emoji: "🍌",
+    id: 13, name: "Banane du dodo", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "😴", style: "top:-12%; right:-10%; font-size:.46em;" }] },
   },
   {
-    name: "Banane câline", rarity: "commune", emoji: "🍌",
+    id: 14, name: "Banane câline", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🧡", style: "top:-12%; left:-10%; font-size:.42em;" }] },
   },
   {
-    name: "Banane voyageuse", rarity: "commune", emoji: "🍌",
+    id: 15, name: "Banane voyageuse", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🧭", style: "bottom:-10%; right:-10%; font-size:.46em;" }] },
   },
   {
-    name: "Banane studieuse", rarity: "commune", emoji: "🍌",
+    id: 16, name: "Banane studieuse", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🎓", style: "top:-14%; left:-8%; font-size:.48em;" }] },
   },
   {
-    name: "Banane sportive", rarity: "commune", emoji: "🍌",
+    id: 17, name: "Banane sportive", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "⚽", style: "bottom:-10%; left:-10%; font-size:.44em;" }] },
   },
   {
-    name: "Banane musicienne", rarity: "commune", emoji: "🍌",
+    id: 18, name: "Banane musicienne", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🎵", style: "top:-12%; right:-8%; font-size:.46em;" }] },
   },
   {
-    name: "Banane artiste", rarity: "commune", emoji: "🍌",
+    id: 19, name: "Banane artiste", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🎨", style: "bottom:-10%; right:-12%; font-size:.46em;" }] },
   },
   {
-    name: "Banane pressée", rarity: "commune", emoji: "🍌",
+    id: 20, name: "Banane pressée", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "💨", style: "left:-14%; top:40%; font-size:.5em;" }] },
   },
   {
-    name: "Banane curieuse", rarity: "commune", emoji: "🍌",
+    id: 21, name: "Banane curieuse", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🔍", style: "top:-10%; right:-12%; font-size:.46em;" }] },
   },
   {
-    name: "Banane bricoleuse", rarity: "commune", emoji: "🍌",
+    id: 22, name: "Banane bricoleuse", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🔧", style: "bottom:-8%; left:-12%; font-size:.44em;" }] },
   },
   {
-    name: "Banane gourmande", rarity: "commune", emoji: "🍌",
+    id: 23, name: "Banane gourmande", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🍴", style: "bottom:-10%; right:-10%; font-size:.44em;" }] },
   },
   {
-    name: "Banane rêveuse", rarity: "commune", emoji: "🍌",
+    id: 24, name: "Banane rêveuse", rarity: "commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "☁️", style: "top:-14%; left:-10%; font-size:.5em;" }] },
   },
 
   // ================= Peu commune (20) =================
   {
-    name: "Banane tachetée", rarity: "peu_commune", emoji: "🍌",
+    id: 25, name: "Banane tachetée", rarity: "peu_commune", emoji: "🍌",
     deco: {
       filter: "sepia(0.15)",
       accessories: [
@@ -189,16 +195,16 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane rouge", rarity: "peu_commune", emoji: "🍌",
+    id: 26, name: "Banane rouge", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "hue-rotate(-48deg) saturate(1.6) brightness(0.95) drop-shadow(0 0 3px rgba(255,70,70,.35))" },
   },
   {
-    name: "Banane plantain", rarity: "peu_commune", emoji: "🍌",
+    id: 27, name: "Banane plantain", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "sepia(0.35) hue-rotate(25deg) saturate(0.9) brightness(0.92)" },
   },
-  { name: "Banane torsadée", rarity: "peu_commune", emoji: "🍌", deco: { transform: "rotate(22deg)" } },
+  { id: 28, name: "Banane torsadée", rarity: "peu_commune", emoji: "🍌", deco: { transform: "rotate(22deg)" } },
   {
-    name: "Banane à pois", rarity: "peu_commune", emoji: "🍌",
+    id: 29, name: "Banane à pois", rarity: "peu_commune", emoji: "🍌",
     deco: {
       accessories: [
         { type: "orb", color: "#fff8e6", style: "left:30%; top:32%; width:8%; height:8%; border:1px solid #d7b23a;" },
@@ -207,21 +213,21 @@ const BANANA_DEFS = [
       ],
     },
   },
-  { name: "Banane XXL junior", rarity: "peu_commune", emoji: "🍌", deco: { scale: 1.16 } },
+  { id: 30, name: "Banane XXL junior", rarity: "peu_commune", emoji: "🍌", deco: { scale: 1.16 } },
   {
-    name: "Banane parfumée", rarity: "peu_commune", emoji: "🍌",
+    id: 31, name: "Banane parfumée", rarity: "peu_commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🌸", style: "top:-14%; left:-12%; font-size:.48em;" }] },
   },
   {
-    name: "Banane croquante", rarity: "peu_commune", emoji: "🍌",
+    id: 32, name: "Banane croquante", rarity: "peu_commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "💥", style: "top:-10%; right:-10%; font-size:.46em;" }] },
   },
   {
-    name: "Banane sucrée", rarity: "peu_commune", emoji: "🍌",
+    id: 33, name: "Banane sucrée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "brightness(1.05)", accessories: [{ type: "text", text: "✨", style: "top:-12%; right:-10%; font-size:.46em;" }] },
   },
   {
-    name: "Banane rayée", rarity: "peu_commune", emoji: "🍌",
+    id: 34, name: "Banane rayée", rarity: "peu_commune", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#c9992f", style: "left:15%; right:35%; top:30%; height:8%; opacity:.6; transform:rotate(-25deg);" },
@@ -231,39 +237,39 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane caramélisée", rarity: "peu_commune", emoji: "🍌",
+    id: 35, name: "Banane caramélisée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "sepia(0.55) saturate(1.6) brightness(0.95)" },
   },
   {
-    name: "Banane givrée", rarity: "peu_commune", emoji: "🍌",
+    id: 36, name: "Banane givrée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "hue-rotate(120deg) saturate(0.9) brightness(1.1)" },
   },
   {
-    name: "Banane fumée", rarity: "peu_commune", emoji: "🍌",
+    id: 37, name: "Banane fumée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "saturate(0.25) brightness(0.85) contrast(1.05)" },
   },
   {
-    name: "Banane épicée", rarity: "peu_commune", emoji: "🍌",
+    id: 38, name: "Banane épicée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "hue-rotate(-30deg) saturate(1.5)", accessories: [{ type: "text", text: "🌶️", style: "top:-10%; right:-10%; font-size:.46em;" }] },
   },
   {
-    name: "Banane salée", rarity: "peu_commune", emoji: "🍌",
+    id: 39, name: "Banane salée", rarity: "peu_commune", emoji: "🍌",
     deco: { accessories: [{ type: "text", text: "🧂", style: "top:-12%; left:-10%; font-size:.46em;" }] },
   },
   {
-    name: "Banane acidulée", rarity: "peu_commune", emoji: "🍌",
+    id: 40, name: "Banane acidulée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "hue-rotate(35deg) saturate(1.4)", accessories: [{ type: "text", text: "🍋", style: "bottom:-10%; right:-10%; font-size:.44em;" }] },
   },
   {
-    name: "Banane veloutée", rarity: "peu_commune", emoji: "🍌",
+    id: 41, name: "Banane veloutée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "hue-rotate(260deg) saturate(0.7) brightness(1.05)" },
   },
   {
-    name: "Banane pailletée", rarity: "peu_commune", emoji: "🍌",
+    id: 42, name: "Banane pailletée", rarity: "peu_commune", emoji: "🍌",
     deco: { filter: "brightness(1.15) saturate(1.3) drop-shadow(0 0 3px #fff3c4)", accessories: [{ type: "text", text: "✨", style: "top:-12%; right:-8%; font-size:.46em;" }] },
   },
   {
-    name: "Banane arlequin", rarity: "peu_commune", emoji: "🍌",
+    id: 43, name: "Banane arlequin", rarity: "peu_commune", emoji: "🍌",
     deco: {
       accessories: [
         { type: "orb", color: "#e63946", style: "left:28%; top:30%; width:8%; height:8%;" },
@@ -274,7 +280,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane zébrée", rarity: "peu_commune", emoji: "🍌",
+    id: 44, name: "Banane zébrée", rarity: "peu_commune", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#1a1a1a", style: "left:15%; right:35%; top:28%; height:9%; transform:rotate(-20deg);" },
@@ -286,19 +292,19 @@ const BANANA_DEFS = [
 
   // ================= Rare (20) =================
   {
-    name: "Banane géante", rarity: "rare", emoji: "🍌",
+    id: 45, name: "Banane géante", rarity: "rare", emoji: "🍌",
     deco: { filter: "drop-shadow(0 4px 2px rgba(0,0,0,.35))", scale: 1.22 },
   },
   {
-    name: "Banane glacée", rarity: "rare", emoji: "🍌",
+    id: 46, name: "Banane glacée", rarity: "rare", emoji: "🍌",
     deco: { filter: "hue-rotate(150deg) saturate(1.3) brightness(1.05) drop-shadow(0 0 4px #8fd8ff)" },
   },
   {
-    name: "Banane en flammes", rarity: "rare", emoji: "🍌",
+    id: 47, name: "Banane en flammes", rarity: "rare", emoji: "🍌",
     deco: { filter: "hue-rotate(-25deg) saturate(1.6) drop-shadow(0 0 5px #ff5a1f)" },
   },
   {
-    name: "Banane ninja", rarity: "rare", emoji: "🍌",
+    id: 48, name: "Banane ninja", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "brightness(0.97)",
       accessories: [
@@ -308,7 +314,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane robotique", rarity: "rare", emoji: "🍌",
+    id: 49, name: "Banane robotique", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "saturate(0.7) brightness(1.05)",
       accessories: [
@@ -319,18 +325,18 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane cristal", rarity: "rare", emoji: "🍌",
+    id: 50, name: "Banane cristal", rarity: "rare", emoji: "🍌",
     deco: { filter: "hue-rotate(180deg) saturate(1.4) brightness(1.15) drop-shadow(0 0 5px #c9a8ff)" },
   },
   {
-    name: "Banane électrique", rarity: "rare", emoji: "🍌",
+    id: 51, name: "Banane électrique", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "saturate(1.5) brightness(1.2) drop-shadow(0 0 5px #fff176)",
       accessories: [{ type: "text", text: "⚡", style: "top:-8%; right:-10%; font-size:0.85em;" }],
     },
   },
   {
-    name: "Banane musclée", rarity: "rare", emoji: "🍌",
+    id: 52, name: "Banane musclée", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "saturate(1.1) brightness(0.98)",
       accessories: [
@@ -340,7 +346,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane pirate", rarity: "rare", emoji: "🍌",
+    id: 53, name: "Banane pirate", rarity: "rare", emoji: "🍌",
     deco: {
       accessories: [
         { type: "peak-up", color: "#2a2a2a", style: "left:20%; right:20%; top:-10%; height:26%;" },
@@ -349,7 +355,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane vampire", rarity: "rare", emoji: "🍌",
+    id: 54, name: "Banane vampire", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "saturate(1.1) brightness(0.9)",
       accessories: [
@@ -360,7 +366,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane chevalier", rarity: "rare", emoji: "🍌",
+    id: 55, name: "Banane chevalier", rarity: "rare", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#8a95a5", style: "left:10%; right:10%; top:32%; height:16%;" },
@@ -369,15 +375,15 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane sorcière", rarity: "rare", emoji: "🍌",
+    id: 56, name: "Banane sorcière", rarity: "rare", emoji: "🍌",
     deco: { accessories: [{ type: "peak-up", color: "#3a2a52", style: "left:26%; right:26%; top:-26%; height:36%;" }] },
   },
   {
-    name: "Banane bûcheron", rarity: "rare", emoji: "🍌",
+    id: 57, name: "Banane bûcheron", rarity: "rare", emoji: "🍌",
     deco: { accessories: [{ type: "band", color: "#b3312c", style: "left:8%; right:8%; top:30%; height:16%;" }] },
   },
   {
-    name: "Banane cow-boy", rarity: "rare", emoji: "🍌",
+    id: 58, name: "Banane cow-boy", rarity: "rare", emoji: "🍌",
     deco: {
       accessories: [
         { type: "peak-up", color: "#8a5a2b", style: "left:16%; right:16%; top:-14%; height:22%;" },
@@ -386,7 +392,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane astronaute", rarity: "rare", emoji: "🍌",
+    id: 59, name: "Banane astronaute", rarity: "rare", emoji: "🍌",
     deco: {
       accessories: [
         { type: "ring", color: "#dff3ff", style: "left:14%; right:14%; top:16%; height:60%;" },
@@ -395,7 +401,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane clown", rarity: "rare", emoji: "🍌",
+    id: 60, name: "Banane clown", rarity: "rare", emoji: "🍌",
     deco: {
       accessories: [
         { type: "orb", color: "#e63946", style: "left:40%; top:48%; width:18%; height:18%;" },
@@ -405,7 +411,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane momie", rarity: "rare", emoji: "🍌",
+    id: 61, name: "Banane momie", rarity: "rare", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#e9e2cf", style: "left:8%; right:8%; top:20%; height:10%; transform:rotate(-8deg);" },
@@ -415,21 +421,21 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane zombie", rarity: "rare", emoji: "🍌",
+    id: 62, name: "Banane zombie", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "hue-rotate(70deg) saturate(1.3) brightness(0.85)",
       accessories: [{ type: "band", color: "#c9c2a8", style: "left:20%; top:44%; width:26%; height:9%; transform:rotate(-15deg);" }],
     },
   },
   {
-    name: "Banane requin", rarity: "rare", emoji: "🍌",
+    id: 63, name: "Banane requin", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "saturate(0.6) brightness(1.05)",
       accessories: [{ type: "peak-up", color: "#8a97a3", style: "left:38%; right:38%; top:-16%; height:22%;" }],
     },
   },
   {
-    name: "Banane extraterrestre", rarity: "rare", emoji: "🍌",
+    id: 64, name: "Banane extraterrestre", rarity: "rare", emoji: "🍌",
     deco: {
       filter: "hue-rotate(100deg) saturate(1.2) brightness(1.05)",
       accessories: [
@@ -441,15 +447,15 @@ const BANANA_DEFS = [
 
   // ================= Épique (16) =================
   {
-    name: "Banane dorée", rarity: "epique", emoji: "🍌",
+    id: 65, name: "Banane dorée", rarity: "epique", emoji: "🍌",
     deco: { filter: "sepia(0.6) saturate(2) hue-rotate(-10deg) brightness(1.1) drop-shadow(0 0 5px #ffdb70)" },
   },
   {
-    name: "Banane diamant", rarity: "epique", emoji: "🍌",
+    id: 66, name: "Banane diamant", rarity: "epique", emoji: "🍌",
     deco: { filter: "hue-rotate(190deg) saturate(0.5) brightness(1.3) drop-shadow(0 0 6px #d8f3ff)" },
   },
   {
-    name: "Banane royale", rarity: "epique", emoji: "🍌",
+    id: 67, name: "Banane royale", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#ffd23f", style: "left:16%; right:16%; top:-8%; height:12%;" },
@@ -458,7 +464,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane magique", rarity: "epique", emoji: "🍌",
+    id: 68, name: "Banane magique", rarity: "epique", emoji: "🍌",
     deco: {
       filter: "saturate(1.1)",
       accessories: [
@@ -468,18 +474,18 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane galactique", rarity: "epique", emoji: "🍌",
+    id: 69, name: "Banane galactique", rarity: "epique", emoji: "🍌",
     deco: { filter: "hue-rotate(220deg) saturate(1.3) brightness(0.9) drop-shadow(0 0 6px #8a6bff)" },
   },
   {
-    name: "Banane licorne", rarity: "epique", emoji: "🍌",
+    id: 70, name: "Banane licorne", rarity: "epique", emoji: "🍌",
     deco: {
       filter: "saturate(1.2) brightness(1.05)",
       accessories: [{ type: "peak-up", colors: ["#ffd6f5", "#c9a8ff"], style: "left:42%; width:16%; top:-16%; height:20%;" }],
     },
   },
   {
-    name: "Banane samouraï", rarity: "epique", emoji: "🍌",
+    id: 71, name: "Banane samouraï", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#f5f0e6", style: "left:8%; right:8%; top:30%; height:15%; transform:rotate(-6deg);" },
@@ -488,7 +494,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane phénix", rarity: "epique", emoji: "🍌",
+    id: 72, name: "Banane phénix", rarity: "epique", emoji: "🍌",
     deco: {
       filter: "saturate(1.3) drop-shadow(0 0 5px #ff9a4d)",
       accessories: [
@@ -498,7 +504,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane impératrice", rarity: "epique", emoji: "🍌",
+    id: 73, name: "Banane impératrice", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#c9a8ff", style: "left:16%; right:16%; top:-8%; height:12%;" },
@@ -508,7 +514,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane dragon", rarity: "epique", emoji: "🍌",
+    id: 74, name: "Banane dragon", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "peak-out-left", colors: ["#ffb84d", "#c81d25"], style: "left:-16%; top:26%; width:22%; height:32%;" },
@@ -518,7 +524,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane sirène", rarity: "epique", emoji: "🍌",
+    id: 75, name: "Banane sirène", rarity: "epique", emoji: "🍌",
     deco: {
       filter: "hue-rotate(150deg) saturate(1.2)",
       accessories: [
@@ -528,7 +534,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane ronin", rarity: "epique", emoji: "🍌",
+    id: 76, name: "Banane ronin", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#3a5a8a", style: "left:8%; right:8%; top:30%; height:15%; transform:rotate(-6deg);" },
@@ -537,7 +543,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane archange", rarity: "epique", emoji: "🍌",
+    id: 77, name: "Banane archange", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "ring", color: "#ffe9a8", style: "left:22%; right:22%; top:-22%; height:18%;" },
@@ -547,7 +553,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane pharaon", rarity: "epique", emoji: "🍌",
+    id: 78, name: "Banane pharaon", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#ffd23f", style: "left:14%; right:14%; top:-10%; height:14%;" },
@@ -556,7 +562,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane gardienne", rarity: "epique", emoji: "🍌",
+    id: 79, name: "Banane gardienne", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#9fb4c7", style: "left:10%; right:10%; top:28%; height:14%;" },
@@ -565,7 +571,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane samouraï d'or", rarity: "epique", emoji: "🍌",
+    id: 80, name: "Banane samouraï d'or", rarity: "epique", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#ffd23f", style: "left:8%; right:8%; top:30%; height:15%; transform:rotate(-6deg);" },
@@ -576,29 +582,29 @@ const BANANA_DEFS = [
 
   // ================= Légendaire (12) =================
   {
-    name: "Banane radioactive", rarity: "legendaire", emoji: "🍌",
+    id: 81, name: "Banane radioactive", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "saturate(1.4) brightness(1.05) drop-shadow(0 0 6px #9cff5a)",
       accessories: [{ type: "text", text: "☢️", style: "bottom:-10%; right:-10%; font-size:0.75em;" }],
     },
   },
   {
-    name: "Banane fantôme", rarity: "legendaire", emoji: "🍌",
+    id: 82, name: "Banane fantôme", rarity: "legendaire", emoji: "🍌",
     deco: { filter: "saturate(0.3) brightness(1.3) opacity(0.75) drop-shadow(0 0 6px #cfd8ff)" },
   },
   {
-    name: "Banane du chaos", rarity: "legendaire", emoji: "🍌",
+    id: 83, name: "Banane du chaos", rarity: "legendaire", emoji: "🍌",
     deco: { filter: "hue-rotate(300deg) saturate(1.6) contrast(1.2) drop-shadow(0 0 6px #ff4dd8)", transform: "skewX(-6deg) rotate(4deg)" },
   },
   {
-    name: "Banane céleste", rarity: "legendaire", emoji: "🍌",
+    id: 84, name: "Banane céleste", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "saturate(0.7) brightness(1.3) drop-shadow(0 0 7px #fff3c4)",
       accessories: [{ type: "ring", color: "#ffe9a8", style: "left:20%; right:20%; top:-20%; height:16%;" }],
     },
   },
   {
-    name: "Banane des dieux", rarity: "legendaire", emoji: "🍌",
+    id: 85, name: "Banane des dieux", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "brightness(1.15) drop-shadow(0 0 6px #fff3c4)",
       accessories: [
@@ -608,14 +614,14 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane éternelle", rarity: "legendaire", emoji: "🍌",
+    id: 86, name: "Banane éternelle", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "sepia(0.4) saturate(1.1) brightness(0.95) drop-shadow(0 0 5px #e0c98a)",
       accessories: [{ type: "ring", color: "#e0c98a", style: "left:10%; right:10%; top:38%; height:20%;" }],
     },
   },
   {
-    name: "Banane titan", rarity: "legendaire", emoji: "🍌",
+    id: 87, name: "Banane titan", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "drop-shadow(0 5px 3px rgba(0,0,0,.4))",
       scale: 1.3,
@@ -623,7 +629,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane phénix noir", rarity: "legendaire", emoji: "🍌",
+    id: 88, name: "Banane phénix noir", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "saturate(1.2) drop-shadow(0 0 6px #8a5ac8)",
       accessories: [
@@ -633,11 +639,11 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane kraken", rarity: "legendaire", emoji: "🍌",
+    id: 89, name: "Banane kraken", rarity: "legendaire", emoji: "🍌",
     deco: { filter: "hue-rotate(200deg) saturate(1.4) brightness(0.85) drop-shadow(0 0 6px #4a2f8a)" },
   },
   {
-    name: "Banane valkyrie", rarity: "legendaire", emoji: "🍌",
+    id: 90, name: "Banane valkyrie", rarity: "legendaire", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#c7cdd3", style: "left:14%; right:14%; top:-8%; height:14%;" },
@@ -647,7 +653,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane démoniaque", rarity: "legendaire", emoji: "🍌",
+    id: 91, name: "Banane démoniaque", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "hue-rotate(-30deg) saturate(1.5) brightness(0.85) drop-shadow(0 0 6px #c81d25)",
       accessories: [
@@ -657,7 +663,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane divine", rarity: "legendaire", emoji: "🍌",
+    id: 92, name: "Banane divine", rarity: "legendaire", emoji: "🍌",
     deco: {
       filter: "brightness(1.2) saturate(0.8) drop-shadow(0 0 8px #fff3c4)",
       accessories: [{ type: "ring", color: "#fff3c4", style: "left:14%; right:14%; top:-24%; height:20%;" }],
@@ -666,14 +672,14 @@ const BANANA_DEFS = [
 
   // ================= Mythique (8) =================
   {
-    name: "Banane arc-en-ciel", rarity: "mythique", emoji: "🍌",
+    id: 93, name: "Banane arc-en-ciel", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "saturate(1.6) drop-shadow(0 0 8px #ff9fd0)",
       glyphClass: "anim-rainbow",
     },
   },
   {
-    name: "Banane cosmique", rarity: "mythique", emoji: "🍌",
+    id: 94, name: "Banane cosmique", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "hue-rotate(230deg) saturate(1.3) brightness(0.95) drop-shadow(0 0 8px #8a6bff)",
       accessories: [
@@ -683,14 +689,14 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane quantique", rarity: "mythique", emoji: "🍌",
+    id: 95, name: "Banane quantique", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "hue-rotate(160deg) saturate(1.2) drop-shadow(0 0 8px #6fe0ff)",
       accessories: [{ type: "ring", color: "#6fe0ff", style: "inset:-10%;" }],
     },
   },
   {
-    name: "Banane originelle", rarity: "mythique", emoji: "🍌",
+    id: 96, name: "Banane originelle", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "saturate(1.1) brightness(0.98)",
       accessories: [
@@ -700,7 +706,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane du big bang", rarity: "mythique", emoji: "🍌",
+    id: 97, name: "Banane du big bang", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "saturate(1.6) brightness(1.1) drop-shadow(0 0 9px #ffd23f)",
       accessories: [
@@ -710,7 +716,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane dimensionnelle", rarity: "mythique", emoji: "🍌",
+    id: 98, name: "Banane dimensionnelle", rarity: "mythique", emoji: "🍌",
     deco: {
       duplicates: [
         { transform: "translate(-14%,-10%) rotate(-10deg)", opacity: 0.4, filter: "hue-rotate(90deg)" },
@@ -720,14 +726,14 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane éternité", rarity: "mythique", emoji: "🍌",
+    id: 99, name: "Banane éternité", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "brightness(1.15) saturate(0.9) drop-shadow(0 0 8px #fff3c4)",
       accessories: [{ type: "ring", color: "#fff3c4", style: "left:6%; right:6%; top:22%; height:56%;" }],
     },
   },
   {
-    name: "Banane créatrice", rarity: "mythique", emoji: "🍌",
+    id: 100, name: "Banane créatrice", rarity: "mythique", emoji: "🍌",
     deco: {
       filter: "brightness(1.15) saturate(1.1) drop-shadow(0 0 8px #ffd23f)",
       accessories: [
@@ -739,13 +745,13 @@ const BANANA_DEFS = [
 
   // ================= Secrète (10) — variantes bonus, ultra rares =================
   {
-    name: "Banane qui parle", rarity: "secrete", emoji: "🍌",
+    id: 101, name: "Banane qui parle", rarity: "secrete", emoji: "🍌",
     deco: {
       accessories: [{ type: "bubble", style: "right:-32%; top:-14%; width:48%; height:32%;" }],
     },
   },
   {
-    name: "Banane du futur", rarity: "secrete", emoji: "🍌",
+    id: 102, name: "Banane du futur", rarity: "secrete", emoji: "🍌",
     deco: {
       filter: "saturate(1.2) brightness(1.05)",
       accessories: [
@@ -756,17 +762,17 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane clonée", rarity: "secrete", emoji: "🍌",
+    id: 103, name: "Banane clonée", rarity: "secrete", emoji: "🍌",
     deco: {
       duplicates: [{ transform: "translate(18%,-10%) rotate(10deg)", opacity: 0.85 }],
     },
   },
   {
-    name: "Banane à l'envers", rarity: "secrete", emoji: "🍌",
+    id: 104, name: "Banane à l'envers", rarity: "secrete", emoji: "🍌",
     deco: { transform: "rotate(180deg)" },
   },
   {
-    name: "Banane philosophe", rarity: "secrete", emoji: "🍌",
+    id: 105, name: "Banane philosophe", rarity: "secrete", emoji: "🍌",
     deco: {
       accessories: [
         { type: "ring", color: "#333", style: "left:14%; top:34%; width:20%; height:20%; background:rgba(255,255,255,.35);" },
@@ -777,11 +783,11 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane invisible", rarity: "secrete", emoji: "🍌",
+    id: 106, name: "Banane invisible", rarity: "secrete", emoji: "🍌",
     deco: { filter: "opacity(0.3)", containerStyle: "border:2px dashed rgba(80,60,10,.4); border-radius:50%;" },
   },
   {
-    name: "Banane présidentielle", rarity: "secrete", emoji: "🍌",
+    id: 107, name: "Banane présidentielle", rarity: "secrete", emoji: "🍌",
     deco: {
       accessories: [
         { type: "band", color: "#1a1a1a", style: "left:18%; right:18%; top:-10%; height:8%;" },
@@ -792,7 +798,7 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane multivers", rarity: "secrete", emoji: "🍌",
+    id: 108, name: "Banane multivers", rarity: "secrete", emoji: "🍌",
     deco: {
       duplicates: [
         { transform: "translate(-16%,-8%) rotate(-12deg)", opacity: 0.35, filter: "hue-rotate(120deg)" },
@@ -801,14 +807,14 @@ const BANANA_DEFS = [
     },
   },
   {
-    name: "Banane ultime", rarity: "secrete", emoji: "🍌",
+    id: 109, name: "Banane ultime", rarity: "secrete", emoji: "🍌",
     deco: {
       filter: "drop-shadow(0 0 5px #ffd23f)",
       accessories: [{ type: "text", text: "🏆", style: "top:-14%; right:-14%; font-size:0.6em;" }],
     },
   },
   {
-    name: "Banane infinie", rarity: "secrete", emoji: "🍌",
+    id: 110, name: "Banane infinie", rarity: "secrete", emoji: "🍌",
     deco: {
       filter: "saturate(1.2) drop-shadow(0 0 5px #ffe37a)",
       accessories: [{ type: "text", text: "♾️", style: "bottom:-10%; right:-12%; font-size:0.6em;" }],
@@ -819,11 +825,17 @@ const BANANA_DEFS = [
 // Construction de la table finale avec id, valeur, index dans la rareté, etc.
 const BANANAS = (() => {
   const countersByRarity = {};
+  const seenIds = new Set();
   return BANANA_DEFS.map((def, i) => {
     const idxInRarity = countersByRarity[def.rarity] || 0;
     countersByRarity[def.rarity] = idxInRarity + 1;
+    // L'id explicite (figé, voir commentaire au-dessus de BANANA_DEFS) est la
+    // source de vérité ; le repli sur la position ne devrait plus jamais servir.
+    const id = def.id ?? i + 1;
+    if (seenIds.has(id)) console.warn(`Id de banane en doublon détecté : ${id}`);
+    seenIds.add(id);
     return {
-      id: i + 1,
+      id,
       name: def.name,
       rarity: def.rarity,
       emoji: def.emoji,
