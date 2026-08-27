@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+  <title>🍌 Banana Collector</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍌</text></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <h1>🍌 BANANA COLLECTOR</h1>
+      <div class="stats-bar">
+        <span id="stat-collection">Collection : 0 / 50</span>
+        <span id="stat-coins">🪙 Pièces : 0</span>
+      </div>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" data-tab="accueil">🏠 Accueil</button>
+      <button class="tab-btn" data-tab="collection">📖 Collection</button>
+      <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
+      <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
+    </nav>
+
+    <main>
+      <section id="tab-accueil" class="tab-panel active">
+        <button id="harvest-btn" class="harvest-btn">🍌 RÉCOLTER UNE BANANE</button>
+        <div id="last-banana" class="last-banana-zone"></div>
+      </section>
+
+      <section id="tab-collection" class="tab-panel">
+        <h2>Ma collection</h2>
+        <div class="progress-wrap">
+          <span id="progress-label">Collection : 0 / 50</span>
+          <div class="progress-bar"><div id="progress-bar-fill" class="progress-bar-fill"></div></div>
+        </div>
+        <div id="collection-grid" class="banana-grid"></div>
+
+        <div id="secret-section" class="secret-section">
+          <h2>🕵️ Bananes secrètes <span id="secret-count">0 / 10</span></h2>
+          <div id="secret-grid" class="banana-grid"></div>
+        </div>
+      </section>
+
+      <section id="tab-boutique" class="tab-panel">
+        <h2>Boutique</h2>
+        <p class="shop-hint">Dépense tes pièces pour améliorer tes chances d'obtenir des bananes rares !</p>
+        <div id="shop-list" class="shop-list"></div>
+      </section>
+
+      <section id="tab-stats" class="tab-panel">
+        <h2>Statistiques</h2>
+        <div id="stats-content"></div>
+        <button id="reset-btn" class="btn danger reset-btn">🗑️ Réinitialiser la sauvegarde</button>
+      </section>
+    </main>
+  </div>
+
+  <div id="overlay" class="overlay hidden">
+    <div id="overlay-content" class="overlay-content"></div>
+  </div>
+
+  <div id="confirm-modal" class="modal hidden">
+    <div class="modal-box">
+      <p>Es-tu sûr de vouloir réinitialiser toute ta progression ? Cette action est <strong>irréversible</strong>.</p>
+      <div class="modal-actions">
+        <button id="confirm-yes" class="btn danger">Oui, tout supprimer</button>
+        <button id="confirm-no" class="btn">Annuler</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast-layer" class="toast-layer"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script src="ui.js"></script>
+</body>
+</html>
