@@ -169,25 +169,58 @@
       </section>
 
       <section id="tab-combat" class="tab-panel">
-        <h2>⚔️ L'Arène des Fruits</h2>
-        <p class="shop-hint">Choisis ta banane championne et affronte 60 niveaux répartis en 10 familles de fruits, de plus en plus fortes. L'attaque et la défense dépendent de la rareté de ta banane.</p>
-
-        <div class="pve-picker">
-          <span class="pve-picker-label">Ta championne :</span>
-          <div id="pve-banana-select" class="pve-banana-select"></div>
+        <div class="market-subtabs">
+          <button class="market-subtab-btn active" id="combat-tab-solo" data-combatview="solo">🍍 Arène solo</button>
+          <button class="market-subtab-btn" id="combat-tab-pvp" data-combatview="pvp">🆚 PVP</button>
         </div>
 
-        <div class="pve-vs">
-          <div class="pve-fighter" id="pve-player-fighter"></div>
-          <div class="pve-vs-mark" id="pve-vs-mark">⚔️</div>
-          <div class="pve-fighter" id="pve-enemy-fighter"></div>
+        <div id="combat-solo-view">
+          <h2>⚔️ L'Arène des Fruits</h2>
+          <p class="shop-hint">Choisis ta banane championne et affronte 60 niveaux répartis en 10 familles de fruits, de plus en plus fortes. L'attaque et la défense dépendent de la rareté de ta banane.</p>
+
+          <div class="pve-picker">
+            <span class="pve-picker-label">Ta championne :</span>
+            <div id="pve-banana-select" class="pve-banana-select"></div>
+          </div>
+
+          <div class="pve-vs">
+            <div class="pve-fighter" id="pve-player-fighter"></div>
+            <div class="pve-vs-mark" id="pve-vs-mark">⚔️</div>
+            <div class="pve-fighter" id="pve-enemy-fighter"></div>
+          </div>
+
+          <button id="pve-fight-btn" class="btn harvest-btn">⚔️ Attaquer</button>
+          <div id="pve-result" class="pve-result hidden"></div>
+
+          <p class="pve-stage-label">Progression dans l'arène :</p>
+          <div class="pve-stage-list" id="pve-stage-list"></div>
         </div>
 
-        <button id="pve-fight-btn" class="btn harvest-btn">⚔️ Attaquer</button>
-        <div id="pve-result" class="pve-result hidden"></div>
+        <div id="combat-pvp-view" class="hidden">
+          <h2>🆚 Arène PVP</h2>
+          <p class="shop-hint">Choisis une équipe de 5 bananes qui te défendra même hors ligne. Cette même équipe sert aussi à attaquer les autres joueurs. Victoire : tu voles 15% des pièces de l'adversaire. Défaite : tu perds 20% de tes pièces (dont 8% récupérés par le défenseur).</p>
+          <div id="pvp-locked" class="secret-hint hidden">🔒 Connecte-toi (bouton "👤 Compte" en haut de la page) pour accéder à l'Arène PVP.</div>
 
-        <p class="pve-stage-label">Progression dans l'arène :</p>
-        <div class="pve-stage-list" id="pve-stage-list"></div>
+          <div id="pvp-content" class="hidden">
+            <div id="pvp-reports"></div>
+
+            <h3>Ton équipe (défense + attaque)</h3>
+            <div id="pvp-team-picker" class="pve-banana-select"></div>
+            <div class="pvp-team-actions">
+              <span id="pvp-team-count" class="pvp-team-count"></span>
+              <button id="pvp-save-team-btn" class="btn harvest-btn">Sauvegarder l'équipe</button>
+            </div>
+            <div class="account-error" id="pvp-team-error"></div>
+
+            <h3>Attaquer</h3>
+            <div id="pvp-opponent-zone">
+              <button id="pvp-find-btn" class="btn">🔍 Trouver un adversaire</button>
+              <div id="pvp-opponent-card" class="pvp-opponent-card hidden"></div>
+              <button id="pvp-attack-btn" class="btn danger hidden">⚔️ Attaquer</button>
+            </div>
+            <div id="pvp-attack-result" class="pve-result hidden"></div>
+          </div>
+        </div>
       </section>
 
       <section id="tab-stats" class="tab-panel">
