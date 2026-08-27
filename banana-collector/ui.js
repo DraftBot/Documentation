@@ -51,17 +51,63 @@ document.addEventListener("DOMContentLoaded", () => {
     els.statCoins.textContent = `🪙 Pièces : ${state.coins}`;
   }
 
+  /* ---------------- Icône banane (fusion glyphe + accessoires) ---------------- */
+
+  // Construit une seule banane visuellement cohérente : le glyphe 🍌 reçoit un
+  // filtre CSS (teinte/lueur) et, si besoin, de petits accessoires (bandeau,
+  // chapeau, cape...) posés directement dessus — jamais un second emoji à côté.
+  function bananaIconHTML(banana, sizeRem) {
+    const deco = banana.deco;
+    const sizeStyle = sizeRem ? `--icon-size:${sizeRem}rem;` : "";
+
+    let filter = "";
+    let transform = "";
+    let glyphClass = "";
+    let containerStyle = "";
+    let extraGlyphs = "";
+    let decoHTML = "";
+
+    if (deco) {
+      filter = deco.filter || "";
+      transform = deco.transform || "";
+      glyphClass = deco.glyphClass || "";
+      containerStyle = deco.containerStyle || "";
+      if (deco.scale) transform += ` scale(${deco.scale})`;
+
+      if (deco.duplicates) {
+        extraGlyphs = deco.duplicates.map((d) => `
+          <span class="banana-icon-glyph" style="transform:${d.transform || ""}; opacity:${d.opacity ?? 1}; filter:${d.filter || ""};">${banana.emoji}</span>
+        `).join("");
+      }
+      if (deco.accessories) {
+        decoHTML = deco.accessories.map((a) => {
+          const cls = a.cls === "text" ? "deco deco-text" : "deco";
+          return `<span class="${cls}" style="${a.style}">${a.text || ""}</span>`;
+        }).join("");
+      }
+    } else if (banana.rarity === "commune" || banana.rarity === "peu_commune") {
+      filter = `hue-rotate(${banana.hue}deg)`;
+    }
+
+    return `
+      <div class="banana-icon" style="${sizeStyle} ${containerStyle}">
+        <span class="banana-icon-glyph ${glyphClass}" style="filter:${filter}; transform:${transform};">${banana.emoji}</span>
+        ${extraGlyphs}
+        ${decoHTML}
+      </div>
+    `;
+  }
+
   /* ---------------- Récolte ---------------- */
 
   let busy = false;
 
   function bananaCardHTML(banana, count, isNew) {
     const rarity = RARITIES[banana.rarity];
-    const hueStyle = banana.rarity === "commune" || banana.rarity === "peu_commune" ? `filter: hue-rotate(${banana.hue}deg);` : "";
     return `
       <div class="banana-card rarity-${banana.rarity} ${isNew ? "is-new" : ""}" style="--rarity-color:${rarity.color}; --rarity-glow:${rarity.glow};">
         ${isNew ? '<div class="new-badge">NOUVELLE BANANE !</div>' : ""}
-        <div class="banana-emoji" style="${hueStyle}">${banana.emoji}</div>
+        ${bananaIconHTML(banana)}
         <div class="banana-name">${banana.name}</div>
         <div class="banana-rarity">${rarity.label}</div>
         <div class="banana-value">🪙 ${banana.value}</div>
@@ -139,7 +185,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="epic-lines">
         <div class="epic-sparkles">✨✨✨</div>
         <div class="epic-title">${label}</div>
-        <div class="epic-emoji">${banana.emoji}</div>
+        <div class="epic-emoji">${bananaIconHTML(banana, 4)}</div>
         <div class="epic-sub">TU AS TROUVÉ UNE BANANE EXTRÊMEMENT RARE !</div>
         <div class="epic-name">${banana.name}</div>
         <div class="epic-sparkles">✨✨✨</div>
@@ -183,10 +229,9 @@ document.addEventListener("DOMContentLoaded", () => {
         `;
       }
       const rarity = RARITIES[banana.rarity];
-      const hueStyle = banana.rarity === "commune" || banana.rarity === "peu_commune" ? `filter: hue-rotate(${banana.hue}deg);` : "";
       return `
         <div class="banana-card rarity-${banana.rarity}" style="--rarity-color:${rarity.color}; --rarity-glow:${rarity.glow};">
-          <div class="banana-emoji" style="${hueStyle}">${banana.emoji}</div>
+          ${bananaIconHTML(banana)}
           <div class="banana-name">${banana.name}</div>
           <div class="banana-rarity">${rarity.label}</div>
           <div class="banana-value">🪙 ${banana.value}</div>
@@ -206,7 +251,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const rarity = RARITIES[banana.rarity];
         return `
           <div class="banana-card rarity-${banana.rarity}" style="--rarity-color:${rarity.color}; --rarity-glow:${rarity.glow};">
-            <div class="banana-emoji">${banana.emoji}</div>
+            ${bananaIconHTML(banana)}
             <div class="banana-name">${banana.name}</div>
             <div class="banana-rarity">${rarity.label}</div>
             <div class="banana-value">🪙 ${banana.value}</div>
