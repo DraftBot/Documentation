@@ -24,6 +24,7 @@ const CLOUD = (() => {
   const unavailable = { ok: false, reason: "supabase_indisponible" };
 
   let cachedUsername = null;
+  let cachedUserId = null;
   let pushTimer = null;
   let lastPushedBananasSnapshot = null;
 
@@ -66,6 +67,7 @@ const CLOUD = (() => {
       return { ok: false, reason: "confirmation_email_requise" };
     }
     cachedUsername = username.toLowerCase();
+    cachedUserId = data.session.user.id;
     const cloud = ensureCloudState();
     cloud.linked = true;
     saveState();
@@ -75,12 +77,13 @@ const CLOUD = (() => {
 
   async function signIn(username, password) {
     if (!supabase) return unavailable;
-    const { error } = await supabase.auth.signInWithPassword({
+    const { data, error } = await supabase.auth.signInWithPassword({
       email: usernameToEmail(username),
       password,
     });
     if (error) return { ok: false, reason: error.message };
     cachedUsername = username.toLowerCase();
+    cachedUserId = data.session.user.id;
     const cloud = ensureCloudState();
     cloud.linked = true;
     saveState();
@@ -92,6 +95,7 @@ const CLOUD = (() => {
     if (!supabase) return;
     await supabase.auth.signOut();
     cachedUsername = null;
+    cachedUserId = null;
     const cloud = ensureCloudState();
     cloud.linked = false;
     saveState();
@@ -99,6 +103,10 @@ const CLOUD = (() => {
 
   function isLinked() {
     return ensureCloudState().linked === true;
+  }
+
+  function currentUserId() {
+    return cachedUserId;
   }
 
   function currentUsername() {
@@ -172,6 +180,69 @@ const CLOUD = (() => {
     await Promise.all([pushBalance(), pushBananas()]);
   }
 
+  /* ---------------- Marché ---------------- */
+
+  // Annonces actives de tout le monde, avec le pseudo du vendeur récupéré
+  // séparément via la vue publique (pas de embedding PostgREST sur une vue).
+  async function fetchActiveListings() {
+    if (!supabase) return [];
+    const { data: listings, error } = await supabase
+      .from("listings")
+      .select("id, seller_id, banana_id, quantity, unit_price, created_at")
+      .eq("status", "active")
+      .order("created_at", { ascending: false })
+      .limit(200);
+    if (error || !listings) return [];
+
+    const sellerIds = [...new Set(listings.map((l) => l.seller_id))];
+    let usernames = {};
+    if (sellerIds.length > 0) {
+      const { data: profiles } = await supabase.from("public_profiles").select("id, username").in("id", sellerIds);
+      if (profiles) usernames = Object.fromEntries(profiles.map((p) => [p.id, p.username]));
+    }
+    return listings.map((l) => ({ ...l, sellerUsername: usernames[l.seller_id] || "?" }));
+  }
+
+  // Historique complet (actives/vendues/annulées) du joueur connecté.
+  async function fetchMyListings() {
+    if (!supabase || !isLinked() || !cachedUserId) return [];
+    const { data, error } = await supabase
+      .from("listings")
+      .select("id, banana_id, quantity, unit_price, status, created_at")
+      .eq("seller_id", cachedUserId)
+      .order("created_at", { ascending: false })
+      .limit(100);
+    return error || !data ? [] : data;
+  }
+
+  async function createListing(bananaId, quantity, unitPrice) {
+    if (!supabase) return unavailable;
+    const { data, error } = await supabase.rpc("create_listing", {
+      p_banana_id: bananaId,
+      p_quantity: quantity,
+      p_unit_price: unitPrice,
+    });
+    if (error) return { ok: false, reason: error.message };
+    return { ok: true, listingId: data };
+  }
+
+  async function cancelListing(listingId) {
+    if (!supabase) return unavailable;
+    const { error } = await supabase.rpc("cancel_listing", { p_listing_id: listingId });
+    if (error) return { ok: false, reason: error.message };
+    return { ok: true };
+  }
+
+  async function buyListing(listingId, quantityWanted) {
+    if (!supabase) return unavailable;
+    const { data, error } = await supabase.rpc("buy_listing", {
+      p_listing_id: listingId,
+      p_quantity_wanted: quantityWanted,
+    });
+    if (error) return { ok: false, reason: error.message };
+    return { ok: true, newCoins: data && data[0] ? Number(data[0].new_coins) : null };
+  }
+
   // Synchronisation débounced : appelée librement par le reste du jeu à
   // chaque action pertinente (achat, vente, fin de combat...) sans jamais
   // ralentir l'action elle-même — la requête réseau part quelques secondes
@@ -198,6 +269,7 @@ const CLOUD = (() => {
     if (data.session) {
       const meta = data.session.user.user_metadata || {};
       cachedUsername = (meta.username || "").toLowerCase() || null;
+      cachedUserId = data.session.user.id;
       const cloud = ensureCloudState();
       cloud.linked = true;
       saveState();
@@ -220,11 +292,17 @@ const CLOUD = (() => {
     signOut,
     isLinked,
     currentUsername,
+    currentUserId,
     pullLedger,
     pushBalance,
     pushBananas,
     pushAll,
     scheduleSync,
+    fetchActiveListings,
+    fetchMyListings,
+    createListing,
+    cancelListing,
+    buyListing,
     init,
   };
 })();
