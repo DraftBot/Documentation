@@ -26,6 +26,22 @@ document.addEventListener("DOMContentLoaded", () => {
     confirmYes: document.getElementById("confirm-yes"),
     confirmNo: document.getElementById("confirm-no"),
     toastLayer: document.getElementById("toast-layer"),
+    minigamesMenu: document.getElementById("minigames-menu"),
+    openCatchGame: document.getElementById("open-catch-game"),
+    openWheelGame: document.getElementById("open-wheel-game"),
+    catchBestLabel: document.getElementById("catch-best-label"),
+    wheelStatusLabel: document.getElementById("wheel-status-label"),
+    minigameCatch: document.getElementById("minigame-catch"),
+    catchTimer: document.getElementById("catch-timer"),
+    catchScore: document.getElementById("catch-score"),
+    catchArea: document.getElementById("catch-area"),
+    catchStartOverlay: document.getElementById("catch-start-overlay"),
+    catchStartBtn: document.getElementById("catch-start-btn"),
+    catchResult: document.getElementById("catch-result"),
+    minigameWheel: document.getElementById("minigame-wheel"),
+    wheelDisc: document.getElementById("wheel-disc"),
+    wheelSpinBtn: document.getElementById("wheel-spin-btn"),
+    wheelStatus: document.getElementById("wheel-status"),
   };
 
   /* ---------------- Onglets ---------------- */
@@ -36,6 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "collection") renderCollection();
     if (name === "boutique") renderShop();
     if (name === "pub") renderAdTab();
+    if (name === "minijeux") showMinigamesMenu();
     if (name === "stats") renderStats();
   }
 
@@ -85,8 +102,6 @@ document.addEventListener("DOMContentLoaded", () => {
           return `<span class="${cls}" style="${a.style}">${a.text || ""}</span>`;
         }).join("");
       }
-    } else if (banana.rarity === "commune" || banana.rarity === "peu_commune") {
-      filter = `hue-rotate(${banana.hue}deg)`;
     }
 
     return `
@@ -324,6 +339,200 @@ document.addEventListener("DOMContentLoaded", () => {
     }, 1500);
   });
 
+  /* ---------------- Mini-jeux : menu ---------------- */
+
+  function showMinigameView(view) {
+    els.minigamesMenu.classList.toggle("hidden", view !== "menu");
+    els.minigameCatch.classList.toggle("hidden", view !== "catch");
+    els.minigameWheel.classList.toggle("hidden", view !== "wheel");
+  }
+
+  function renderMinigamesMenu() {
+    els.catchBestLabel.textContent = state.catchGame.bestScore > 0
+      ? `🏆 Record : ${state.catchGame.bestScore} bananes`
+      : "Pas encore joué";
+    els.wheelStatusLabel.textContent = canSpinWheelToday() ? "🎁 Tour disponible !" : "✅ Déjà tourné aujourd'hui";
+  }
+
+  function showMinigamesMenu() {
+    stopCatchGame();
+    showMinigameView("menu");
+    renderMinigamesMenu();
+  }
+
+  els.openCatchGame.addEventListener("click", () => {
+    showMinigameView("catch");
+    resetCatchGameView();
+  });
+  els.openWheelGame.addEventListener("click", () => {
+    showMinigameView("wheel");
+    renderWheelView();
+  });
+  document.querySelectorAll("[data-back]").forEach((btn) => {
+    btn.addEventListener("click", showMinigamesMenu);
+  });
+
+  /* ---------------- Mini-jeu : Attrape les bananes ---------------- */
+
+  let catchState = null;
+
+  const ROTTEN_BANANA_VISUAL = {
+    emoji: "🍌",
+    deco: {
+      filter: "sepia(0.7) saturate(0.35) brightness(0.55) hue-rotate(-15deg)",
+      accessories: [{ cls: "text", text: "🪰", style: "top:-10%; right:-14%; font-size:.55em;" }],
+    },
+  };
+
+  function resetCatchGameView() {
+    els.catchStartOverlay.classList.remove("hidden");
+    els.catchResult.classList.add("hidden");
+    els.catchArea.querySelectorAll(".catch-item").forEach((el) => el.remove());
+    els.catchTimer.textContent = "⏱️ 30s";
+    els.catchScore.textContent = "⭐ 0";
+  }
+
+  function stopCatchGame() {
+    if (!catchState) return;
+    clearTimeout(catchState.spawnTimer);
+    clearInterval(catchState.tickTimer);
+    clearTimeout(catchState.endTimer);
+    els.catchArea.querySelectorAll(".catch-item").forEach((el) => el.remove());
+    catchState = null;
+  }
+
+  function spawnCatchItem() {
+    const isRotten = Math.random() < 0.22;
+    const item = document.createElement("div");
+    item.className = "catch-item";
+    item.style.left = `${5 + Math.random() * 85}%`;
+    item.innerHTML = bananaIconHTML(isRotten ? ROTTEN_BANANA_VISUAL : { emoji: "🍌", deco: null });
+    els.catchArea.appendChild(item);
+
+    const areaHeight = els.catchArea.clientHeight;
+    const fallDuration = 2.4 + Math.random() * 1.4;
+    requestAnimationFrame(() => {
+      item.style.transitionDuration = `${fallDuration}s`;
+      item.style.top = `${areaHeight + 20}px`;
+    });
+
+    const missTimer = setTimeout(() => item.remove(), fallDuration * 1000 + 50);
+
+    item.addEventListener("click", () => {
+      if (!catchState || !catchState.running) return;
+      clearTimeout(missTimer);
+      item.style.pointerEvents = "none";
+      item.style.transition = "transform .15s ease, opacity .15s ease";
+      if (isRotten) {
+        catchState.rotten += 1;
+        item.style.filter = "brightness(0.5) saturate(0)";
+      } else {
+        catchState.good += 1;
+        spawnConfetti(3);
+      }
+      item.style.transform = "scale(1.4)";
+      item.style.opacity = "0";
+      els.catchScore.textContent = `⭐ ${catchState.good}`;
+      setTimeout(() => item.remove(), 160);
+    });
+  }
+
+  els.catchStartBtn.addEventListener("click", () => {
+    stopCatchGame();
+    els.catchStartOverlay.classList.add("hidden");
+    els.catchResult.classList.add("hidden");
+
+    catchState = { good: 0, rotten: 0, running: true, spawnTimer: null, tickTimer: null, endTimer: null };
+
+    let spawnDelay = 700;
+    const scheduleSpawn = () => {
+      catchState.spawnTimer = setTimeout(() => {
+        if (!catchState || !catchState.running) return;
+        spawnCatchItem();
+        spawnDelay = Math.max(340, spawnDelay - 8);
+        scheduleSpawn();
+      }, spawnDelay);
+    };
+    scheduleSpawn();
+
+    const startTime = Date.now();
+    catchState.tickTimer = setInterval(() => {
+      const remaining = Math.max(0, CATCH_GAME_DURATION_MS - (Date.now() - startTime));
+      els.catchTimer.textContent = `⏱️ ${Math.ceil(remaining / 1000)}s`;
+    }, 200);
+
+    catchState.endTimer = setTimeout(endCatchGame, CATCH_GAME_DURATION_MS);
+  });
+
+  function endCatchGame() {
+    if (!catchState) return;
+    catchState.running = false;
+    clearTimeout(catchState.spawnTimer);
+    clearInterval(catchState.tickTimer);
+    els.catchArea.querySelectorAll(".catch-item").forEach((el) => el.remove());
+
+    const { good, rotten } = catchState;
+    const coinsEarned = awardCatchGameResult(good, rotten);
+    renderHeader();
+
+    els.catchResult.innerHTML = `
+      <div class="catch-result-title">🏁 Round terminé !</div>
+      <div class="catch-result-line">${good} bananes attrapées, ${rotten} pourries touchées</div>
+      <div class="catch-result-coins">🪙 +${coinsEarned}</div>
+      <button class="btn harvest-btn" id="catch-replay-btn">🔁 Rejouer</button>
+    `;
+    els.catchResult.classList.remove("hidden");
+    els.catchResult.querySelector("#catch-replay-btn").addEventListener("click", () => {
+      els.catchStartBtn.click();
+    });
+
+    if (good >= 6) spawnConfetti(20);
+    catchState = null;
+    renderMinigamesMenu();
+  }
+
+  /* ---------------- Mini-jeu : Roue de la fortune ---------------- */
+
+  const WHEEL_SEGMENT_CENTER_ANGLES = [30, 90, 150, 210, 270, 330];
+  let wheelSpinning = false;
+
+  function renderWheelView() {
+    const canSpin = canSpinWheelToday();
+    els.wheelSpinBtn.disabled = wheelSpinning || !canSpin;
+    els.wheelSpinBtn.textContent = canSpin ? "🎡 Tourner la roue" : "✅ Déjà tourné aujourd'hui";
+    els.wheelStatus.textContent = canSpin
+      ? "Un tour gratuit par jour."
+      : "Reviens demain pour un nouveau tour !";
+  }
+
+  els.wheelSpinBtn.addEventListener("click", () => {
+    if (wheelSpinning || !canSpinWheelToday()) return;
+    const result = spinWheel();
+    if (!result.ok) {
+      renderWheelView();
+      return;
+    }
+
+    wheelSpinning = true;
+    els.wheelSpinBtn.disabled = true;
+    const centerAngle = WHEEL_SEGMENT_CENTER_ANGLES[result.index];
+    const targetRotation = 360 * 5 + (360 - centerAngle);
+    els.wheelDisc.style.transform = `rotate(${targetRotation}deg)`;
+
+    setTimeout(() => {
+      wheelSpinning = false;
+      renderHeader();
+      renderWheelView();
+      renderMinigamesMenu();
+      spawnConfetti(result.coins >= 500 ? 30 : 14);
+      showBanner(
+        result.coins >= 500 ? "🎉 GROS LOT ! 🎉" : "🎁 BONUS DU JOUR !",
+        { emoji: "🪙", name: `+${result.coins} pièces` },
+        2000
+      );
+    }, 4100);
+  });
+
   /* ---------------- Statistiques ---------------- */
 
   function renderStats() {
@@ -359,6 +568,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderHeader();
     renderCollection();
     renderShop();
+    renderMinigamesMenu();
     renderStats();
   });
 

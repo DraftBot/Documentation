@@ -378,6 +378,122 @@ body {
   font-size: 0.8rem;
 }
 
+.hidden { display: none !important; }
+
+/* --- Mini-jeux : menu --- */
+
+.game-menu { display: flex; flex-direction: column; gap: 14px; }
+
+.game-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+  background: var(--card-bg);
+  border: 2px solid #f0dfa8;
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  font-family: inherit;
+  transition: transform 0.15s ease;
+}
+.game-card:hover { transform: translateY(-2px); }
+
+.game-card-icon { font-size: 2.2rem; line-height: 1; flex-shrink: 0; }
+.game-card-body { display: flex; flex-direction: column; gap: 3px; }
+.game-card-title { font-weight: 800; font-size: 1.05rem; }
+.game-card-desc { font-size: 0.85rem; color: #5c4a1a; }
+.game-card-best { font-size: 0.8rem; font-weight: 700; color: var(--accent-dark); }
+
+.game-back-btn { margin-bottom: 14px; }
+
+/* --- Mini-jeu : Attrape les bananes --- */
+
+.catch-hud {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.catch-area {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: var(--radius);
+  background: linear-gradient(180deg, #fffef4, #fff1c2);
+  border: 3px solid var(--accent);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.catch-start-overlay,
+.catch-result {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  background: rgba(255, 246, 213, 0.92);
+  text-align: center;
+  padding: 20px;
+}
+
+.catch-instructions { color: #5c4a1a; max-width: 240px; }
+
+.catch-result-title { font-size: 1.3rem; font-weight: 800; }
+.catch-result-line { font-size: 0.95rem; color: #5c4a1a; }
+.catch-result-coins { font-size: 1.4rem; font-weight: 800; color: var(--accent-dark); }
+
+.catch-item {
+  position: absolute;
+  top: -50px;
+  cursor: pointer;
+  transition: top linear;
+  user-select: none;
+}
+
+/* --- Mini-jeu : Roue de la fortune --- */
+
+.wheel-wrap {
+  position: relative;
+  width: min(240px, 70vw);
+  aspect-ratio: 1;
+  margin: 10px auto 20px;
+}
+
+.wheel-pointer {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.6rem;
+  color: var(--accent-dark);
+  z-index: 2;
+}
+
+.wheel-disc {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  box-shadow: var(--shadow), 0 0 0 3px var(--accent-dark);
+  background: conic-gradient(
+    #ffd23f 0deg 60deg,
+    #ff9f1c 60deg 120deg,
+    #ff5da2 120deg 180deg,
+    #9c27b0 180deg 240deg,
+    #2196f3 240deg 300deg,
+    #4caf50 300deg 360deg
+  );
+  transition: transform 4s cubic-bezier(0.15, 0.7, 0.2, 1);
+}
+
 /* --- Statistiques --- */
 
 .stats-grid {
