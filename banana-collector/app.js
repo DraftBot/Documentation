@@ -127,11 +127,25 @@ function loadState() {
     const raw = localStorage.getItem(SAVE_KEY);
     if (!raw) return defaultState();
     const parsed = JSON.parse(raw);
-    return Object.assign(defaultState(), parsed);
+    return sanitizeState(Object.assign(defaultState(), parsed));
   } catch (e) {
     console.warn("Sauvegarde illisible, réinitialisation.", e);
     return defaultState();
   }
+}
+
+// Retire toute référence à un id de banane retiré du jeu depuis la dernière
+// sauvegarde (BANANAS_BY_ID[id] serait undefined) — sans ça, la moindre
+// bannière/carte/tri qui lit banana.rarity ou banana.secret plante et casse
+// tout l'affichage pour les joueurs ayant déjà collecté cette banane.
+function sanitizeState(s) {
+  s.discovered = s.discovered.filter((id) => BANANAS_BY_ID[id]);
+  for (const id of Object.keys(s.counts)) {
+    if (!BANANAS_BY_ID[id]) delete s.counts[id];
+  }
+  if (s.lastBananaId != null && !BANANAS_BY_ID[s.lastBananaId]) s.lastBananaId = null;
+  if (s.rarestId != null && !BANANAS_BY_ID[s.rarestId]) s.rarestId = null;
+  return s;
 }
 
 function saveState() {
