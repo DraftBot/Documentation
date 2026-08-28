@@ -216,6 +216,7 @@ document.addEventListener("DOMContentLoaded", () => {
     else SFX.harvestCommon();
 
     renderHeader();
+    CLOUD.scheduleSync();
     els.lastBanana.innerHTML = bananaCardHTML(banana, state.counts[banana.id], isNew, coinsEarned);
     const card = els.lastBanana.querySelector(".harvest-reveal-card");
     card.classList.add("pop-in");
