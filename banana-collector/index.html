@@ -30,6 +30,7 @@
       <button class="tab-btn" data-tab="pub">📺 Pub</button>
       <button class="tab-btn" data-tab="minijeux">🎮 Mini-jeux</button>
       <button class="tab-btn" data-tab="combat">⚔️ Combat</button>
+      <button class="tab-btn" data-tab="classement">🏆 Classement</button>
       <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
     </nav>
 
@@ -205,7 +206,7 @@
             <div id="pvp-reports"></div>
 
             <h3>Ton équipe (défense + attaque)</h3>
-            <div id="pvp-team-picker" class="pve-banana-select"></div>
+            <div id="pvp-team-picker" class="pvp-team-slots"></div>
             <div class="pvp-team-actions">
               <span id="pvp-team-count" class="pvp-team-count"></span>
               <button id="pvp-save-team-btn" class="btn harvest-btn">Sauvegarder l'équipe</button>
@@ -221,6 +222,19 @@
             <div id="pvp-attack-result" class="pve-result hidden"></div>
           </div>
         </div>
+      </section>
+
+      <section id="tab-classement" class="tab-panel">
+        <h2>🏆 Classement</h2>
+        <p class="shop-hint">Comparaison entre joueurs ayant un compte cloud (bouton "👤 Compte" en haut de la page).</p>
+
+        <div class="market-subtabs">
+          <button class="market-subtab-btn active" id="leaderboard-tab-collection" data-leaderboardview="collection">📖 Collection</button>
+          <button class="market-subtab-btn" id="leaderboard-tab-pvp" data-leaderboardview="pvp">🆚 Arène PVP</button>
+          <button class="market-subtab-btn" id="leaderboard-tab-pve" data-leaderboardview="pve">🍍 Combats IA</button>
+        </div>
+
+        <div id="leaderboard-content"></div>
       </section>
 
       <section id="tab-stats" class="tab-panel">

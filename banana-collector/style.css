@@ -1041,6 +1041,36 @@ body {
 
 .pve-banana-option.pvp-locked-slot { opacity: 0.4; cursor: not-allowed; }
 
+.pvp-team-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pvp-slot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pvp-slot-label {
+  font-weight: 700;
+  color: #5c4a1a;
+  min-width: 110px;
+}
+
+.pvp-slot-select {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 2px solid #f0dfa8;
+  border-radius: 12px;
+  background: var(--card-bg);
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: inherit;
+}
+
 .pvp-opponent-card {
   background: var(--card-bg);
   border-radius: var(--radius);
@@ -1063,6 +1093,38 @@ body {
 .pvp-report-card.lost { border-left-color: var(--danger); }
 .pvp-report-title { font-weight: 800; }
 .pvp-report-line { font-size: 0.85rem; color: #5c4a1a; margin-top: 2px; }
+
+/* --- Classement --- */
+
+.leaderboard-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  padding: 10px 12px;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+.leaderboard-table thead th {
+  background: #f0dfa8;
+  font-weight: 800;
+  color: #5c4a1a;
+}
+
+.leaderboard-table tbody tr:nth-child(even) { background: rgba(0, 0, 0, 0.03); }
+
+.leaderboard-table tbody tr.leaderboard-me {
+  background: #fff6d5;
+  box-shadow: inset 0 0 0 2px var(--accent);
+  font-weight: 700;
+}
 
 /* --- Overlay épique / mythique --- */
 

@@ -1,6 +1,6 @@
 /* ============================================================
    Banana Collector — Données du jeu
-   Raretés, table de bananes (105 normales + 10 secrètes)
+   Raretés, table de bananes (100 normales + 5 secrètes)
    ============================================================ */
 
 // Ordre du plus commun au plus rare (utilisé pour comparer les raretés)
@@ -43,9 +43,9 @@ function valueFor(rarity, indexInRarity) {
     peu_commune: [10, 13, 14, 11, 16, 14, 13, 16, 13, 14, 11, 15, 12, 16, 10, 14, 12, 15, 11, 13],
     rare: [24, 29, 32, 35, 27, 30, 34, 29, 27, 37, 26, 33, 28, 36, 25, 31, 29, 34, 27, 32],
     epique: [64, 70, 77, 83, 67, 74, 80, 86, 68, 75, 82, 66, 72, 79, 85, 69, 76, 84, 71, 65],
-    legendaire: [190, 210, 230, 250, 205, 225, 200, 220, 240, 195, 215, 235],
-    mythique: [640, 770, 960, 1150, 700, 860, 1020, 1100],
-    secrete: [3200, 3500, 3800, 4200, 4500, 4800, 5100, 5400, 5800, 6400],
+    legendaire: [190, 210, 230, 250, 205, 225, 200, 220, 240, 195],
+    mythique: [640, 770, 960, 1150, 700],
+    secrete: [3200, 3500, 3800, 4200, 4500],
   };
   return table[rarity][indexInRarity] || 10;
 }
@@ -580,7 +580,7 @@ const BANANA_DEFS = [
     },
   },
 
-  // ================= Légendaire (12) =================
+  // ================= Légendaire (10) =================
   {
     id: 81, name: "Banane radioactive", rarity: "legendaire", image: "images/banana_81.png", emoji: "🍌",
     deco: {
@@ -652,25 +652,8 @@ const BANANA_DEFS = [
       ],
     },
   },
-  {
-    id: 91, name: "Banane démoniaque", rarity: "legendaire", emoji: "🍌",
-    deco: {
-      filter: "hue-rotate(-30deg) saturate(1.5) brightness(0.85) drop-shadow(0 0 6px #c81d25)",
-      accessories: [
-        { type: "peak-up", color: "#c81d25", style: "left:22%; top:-14%; width:14%; height:16%; transform:rotate(-20deg);" },
-        { type: "peak-up", color: "#c81d25", style: "right:22%; top:-14%; width:14%; height:16%; transform:rotate(20deg);" },
-      ],
-    },
-  },
-  {
-    id: 92, name: "Banane divine", rarity: "legendaire", emoji: "🍌",
-    deco: {
-      filter: "brightness(1.2) saturate(0.8) drop-shadow(0 0 8px #fff3c4)",
-      accessories: [{ type: "ring", color: "#fff3c4", style: "left:14%; right:14%; top:-24%; height:20%;" }],
-    },
-  },
 
-  // ================= Mythique (8) =================
+  // ================= Mythique (5) =================
   {
     id: 93, name: "Banane arc-en-ciel", rarity: "mythique", image: "images/banana_93.png", emoji: "🍌",
     deco: {
@@ -715,35 +698,8 @@ const BANANA_DEFS = [
       ],
     },
   },
-  {
-    id: 98, name: "Banane dimensionnelle", rarity: "mythique", emoji: "🍌",
-    deco: {
-      duplicates: [
-        { transform: "translate(-14%,-10%) rotate(-10deg)", opacity: 0.4, filter: "hue-rotate(90deg)" },
-        { transform: "translate(14%,10%) rotate(10deg)", opacity: 0.4, filter: "hue-rotate(200deg)" },
-        { transform: "translate(0,-16%) rotate(0deg)", opacity: 0.3, filter: "hue-rotate(300deg)" },
-      ],
-    },
-  },
-  {
-    id: 99, name: "Banane éternité", rarity: "mythique", emoji: "🍌",
-    deco: {
-      filter: "brightness(1.15) saturate(0.9) drop-shadow(0 0 8px #fff3c4)",
-      accessories: [{ type: "ring", color: "#fff3c4", style: "left:6%; right:6%; top:22%; height:56%;" }],
-    },
-  },
-  {
-    id: 100, name: "Banane créatrice", rarity: "mythique", emoji: "🍌",
-    deco: {
-      filter: "brightness(1.15) saturate(1.1) drop-shadow(0 0 8px #ffd23f)",
-      accessories: [
-        { type: "ring", color: "#ffd23f", style: "left:16%; right:16%; top:-20%; height:18%;" },
-        { type: "band", color: "#ffd23f", style: "left:20%; right:20%; top:-6%; height:10%;" },
-      ],
-    },
-  },
 
-  // ================= Secrète (10) — variantes bonus, ultra rares =================
+  // ================= Secrète (5) — variantes bonus, ultra rares =================
   {
     id: 101, name: "Banane agent secret", rarity: "secrete", image: "images/banana_101.png", emoji: "🍌",
     deco: {
@@ -780,44 +736,6 @@ const BANANA_DEFS = [
         { type: "band", color: "#333", style: "left:44%; width:12%; top:41%; height:3%;" },
         { type: "band", color: "#4a3520", style: "left:36%; width:28%; top:54%; height:6%;" },
       ],
-    },
-  },
-  {
-    id: 106, name: "Banane invisible", rarity: "secrete", emoji: "🍌",
-    deco: { filter: "opacity(0.3)", containerStyle: "border:2px dashed rgba(80,60,10,.4); border-radius:50%;" },
-  },
-  {
-    id: 107, name: "Banane présidentielle", rarity: "secrete", emoji: "🍌",
-    deco: {
-      accessories: [
-        { type: "band", color: "#1a1a1a", style: "left:18%; right:18%; top:-10%; height:8%;" },
-        { type: "band", color: "#1a1a1a", style: "left:30%; right:30%; top:-26%; height:18%;" },
-        { type: "peak-out-right", color: "#c81d25", style: "left:38%; bottom:-6%; width:10%; height:10%;" },
-        { type: "peak-out-left", color: "#c81d25", style: "right:38%; bottom:-6%; width:10%; height:10%;" },
-      ],
-    },
-  },
-  {
-    id: 108, name: "Banane multivers", rarity: "secrete", emoji: "🍌",
-    deco: {
-      duplicates: [
-        { transform: "translate(-16%,-8%) rotate(-12deg)", opacity: 0.35, filter: "hue-rotate(120deg)" },
-        { transform: "translate(16%,8%) rotate(12deg)", opacity: 0.35, filter: "hue-rotate(240deg)" },
-      ],
-    },
-  },
-  {
-    id: 109, name: "Banane ultime", rarity: "secrete", emoji: "🍌",
-    deco: {
-      filter: "drop-shadow(0 0 5px #ffd23f)",
-      accessories: [{ type: "text", text: "🏆", style: "top:-14%; right:-14%; font-size:0.6em;" }],
-    },
-  },
-  {
-    id: 110, name: "Banane infinie", rarity: "secrete", emoji: "🍌",
-    deco: {
-      filter: "saturate(1.2) drop-shadow(0 0 5px #ffe37a)",
-      accessories: [{ type: "text", text: "♾️", style: "bottom:-10%; right:-12%; font-size:0.6em;" }],
     },
   },
   {
@@ -872,4 +790,4 @@ const NORMAL_BANANAS = BANANAS.filter((b) => !b.secret);
 const SECRET_BANANAS = BANANAS.filter((b) => b.secret);
 
 const TOTAL_NORMAL = NORMAL_BANANAS.length; // 100
-const TOTAL_SECRET = SECRET_BANANAS.length; // 10
+const TOTAL_SECRET = SECRET_BANANAS.length; // 5

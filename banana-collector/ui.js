@@ -84,6 +84,10 @@ document.addEventListener("DOMContentLoaded", () => {
     pveFightBtn: document.getElementById("pve-fight-btn"),
     pveResult: document.getElementById("pve-result"),
     pveStageList: document.getElementById("pve-stage-list"),
+    leaderboardTabCollection: document.getElementById("leaderboard-tab-collection"),
+    leaderboardTabPvp: document.getElementById("leaderboard-tab-pvp"),
+    leaderboardTabPve: document.getElementById("leaderboard-tab-pve"),
+    leaderboardContent: document.getElementById("leaderboard-content"),
   };
 
   /* ---------------- Onglets ---------------- */
@@ -98,6 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
     if (name === "combat") showCombatView(combatView);
+    if (name === "classement") showLeaderboardView(leaderboardView);
     if (name === "stats") { renderStats(); renderAchievements(); }
   }
 
@@ -1013,7 +1018,7 @@ document.addEventListener("DOMContentLoaded", () => {
     els.pveEnemyFighter.innerHTML = `
       <div class="pve-enemy-icon" style="font-size:${enemySize}rem; filter:drop-shadow(0 0 10px ${pveStageGlow(pveSelectedStage)});">${enemy.emoji}</div>
       <div class="pve-fighter-name">${enemy.name}${locked ? " 🔒" : ""}</div>
-      <div class="pve-fighter-stats">⚔️ ${enemy.atk} · 🛡️ ${enemy.def} · 🪙 ${enemy.reward}</div>
+      <div class="pve-fighter-stats">⚔️ ${enemy.atk} · 🛡️ ${enemy.def} · 🪙 ${Math.round(enemy.reward * 0.75)}</div>
       <div class="pve-fighter-stats">Niveau ${pveSelectedStage + 1} / ${FRUIT_ENEMIES.length}</div>
     `;
 
@@ -1083,6 +1088,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       SFX[result.won ? "win" : "lose"]();
       renderHeader();
+      CLOUD.scheduleSync();
       els.pveResult.innerHTML = `
         <div class="pve-result-title">${result.won ? "🎉 Victoire !" : "💥 Défaite..."}</div>
         <div class="pve-result-line">${result.won ? "Ta banane triomphe de l'ennemi !" : "L'ennemi était trop coriace cette fois — courage vaincu quand même récompensé."}</div>
@@ -1131,7 +1137,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------------- Arène PVP ---------------- */
 
-  let pvpSelectedTeam = [];
+  let pvpSelectedTeam = Array(5).fill(null);
   let pvpOpponent = null;
 
   function pvpOwnedBananas() {
@@ -1148,26 +1154,30 @@ document.addEventListener("DOMContentLoaded", () => {
       els.pvpTeamCount.textContent = "";
       return;
     }
-    els.pvpTeamPicker.innerHTML = owned.map((b) => {
-      const selected = pvpSelectedTeam.includes(b.id);
-      const stats = bananaCombatStats(b);
+    // Retire de l'équipe les bananes qu'on ne possède plus.
+    pvpSelectedTeam = pvpSelectedTeam.map((id) => (id != null && owned.some((b) => b.id === id) ? id : null));
+
+    els.pvpTeamPicker.innerHTML = pvpSelectedTeam.map((currentId, slot) => {
+      const options = owned.map((b) => {
+        const usedElsewhere = pvpSelectedTeam.includes(b.id) && currentId !== b.id;
+        const stats = bananaCombatStats(b);
+        return `<option value="${b.id}" ${b.id === currentId ? "selected" : ""} ${usedElsewhere ? "disabled" : ""}>${b.name} — ⚔️${stats.atk} 🛡️${stats.def}</option>`;
+      }).join("");
       return `
-        <button class="pve-banana-option ${selected ? "selected" : ""}" data-id="${b.id}" title="${b.name}">
-          ${bananaIconHTML(b, 2)}
-          <span class="pve-banana-stats">⚔️${stats.atk} 🛡️${stats.def}</span>
-        </button>
+        <div class="pvp-slot">
+          <label class="pvp-slot-label">Combattant ${slot + 1}</label>
+          <select class="pvp-slot-select" data-slot="${slot}">
+            <option value="">— Vide —</option>
+            ${options}
+          </select>
+        </div>
       `;
     }).join("");
-    els.pvpTeamCount.textContent = `${pvpSelectedTeam.length} / 5 sélectionnées`;
-    els.pvpTeamPicker.querySelectorAll(".pve-banana-option").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const id = Number(btn.dataset.id);
-        const idx = pvpSelectedTeam.indexOf(id);
-        if (idx >= 0) {
-          pvpSelectedTeam.splice(idx, 1);
-        } else if (pvpSelectedTeam.length < 5) {
-          pvpSelectedTeam.push(id);
-        }
+    els.pvpTeamCount.textContent = `${pvpSelectedTeam.filter((id) => id != null).length} / 5 sélectionnées`;
+    els.pvpTeamPicker.querySelectorAll(".pvp-slot-select").forEach((select) => {
+      select.addEventListener("change", () => {
+        const slot = Number(select.dataset.slot);
+        pvpSelectedTeam[slot] = select.value ? Number(select.value) : null;
         renderPvpTeamPicker();
       });
     });
@@ -1175,13 +1185,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   els.pvpSaveTeamBtn.addEventListener("click", async () => {
     els.pvpTeamError.textContent = "";
-    if (pvpSelectedTeam.length !== 5) {
+    const team = pvpSelectedTeam.filter((id) => id != null);
+    if (team.length !== 5) {
       els.pvpTeamError.textContent = "Choisis exactement 5 bananes.";
       return;
     }
     els.pvpSaveTeamBtn.disabled = true;
     els.pvpSaveTeamBtn.textContent = "⏳...";
-    const result = await CLOUD.setDefenseTeam(pvpSelectedTeam);
+    const result = await CLOUD.setDefenseTeam(team);
     els.pvpSaveTeamBtn.disabled = false;
     els.pvpSaveTeamBtn.textContent = "Sauvegarder l'équipe";
     if (!result.ok) {
@@ -1300,7 +1311,8 @@ document.addEventListener("DOMContentLoaded", () => {
     await renderPvpReports();
 
     const savedTeam = await CLOUD.fetchMyDefenseTeam();
-    pvpSelectedTeam = savedTeam ? savedTeam.slice() : [];
+    pvpSelectedTeam = Array(5).fill(null);
+    (savedTeam || []).forEach((id, i) => { pvpSelectedTeam[i] = id; });
     renderPvpTeamPicker();
   }
 
@@ -1359,6 +1371,78 @@ document.addEventListener("DOMContentLoaded", () => {
     autoHarvestTimer = setInterval(() => {
       if (!busy) harvest();
     }, interval);
+  }
+
+  /* ---------------- Classement ---------------- */
+
+  let leaderboardView = "collection"; // "collection" | "pvp" | "pve"
+
+  const LEADERBOARD_CONFIGS = {
+    collection: {
+      sort: (a, b) => b.collection_count - a.collection_count,
+      columns: [{ label: "Bananes", value: (r) => `${r.collection_count} / ${TOTAL_NORMAL + TOTAL_SECRET}` }],
+    },
+    pvp: {
+      sort: (a, b) => (b.pvp_wins - b.pvp_losses) - (a.pvp_wins - a.pvp_losses) || b.pvp_wins - a.pvp_wins,
+      columns: [
+        { label: "Victoires", value: (r) => r.pvp_wins },
+        { label: "Défaites", value: (r) => r.pvp_losses },
+      ],
+    },
+    pve: {
+      sort: (a, b) => b.pve_stage - a.pve_stage || b.pve_wins - a.pve_wins,
+      columns: [
+        { label: "Niveau", value: (r) => `${r.pve_stage + 1} / ${FRUIT_ENEMIES.length}` },
+        { label: "Victoires", value: (r) => r.pve_wins },
+        { label: "Défaites", value: (r) => r.pve_losses },
+      ],
+    },
+  };
+
+  function showLeaderboardView(view) {
+    leaderboardView = view;
+    els.leaderboardTabCollection.classList.toggle("active", view === "collection");
+    els.leaderboardTabPvp.classList.toggle("active", view === "pvp");
+    els.leaderboardTabPve.classList.toggle("active", view === "pve");
+    renderLeaderboard();
+  }
+
+  els.leaderboardTabCollection.addEventListener("click", () => showLeaderboardView("collection"));
+  els.leaderboardTabPvp.addEventListener("click", () => showLeaderboardView("pvp"));
+  els.leaderboardTabPve.addEventListener("click", () => showLeaderboardView("pve"));
+
+  async function renderLeaderboard() {
+    els.leaderboardContent.innerHTML = `<p class="secret-hint">Chargement du classement...</p>`;
+    const rows = await CLOUD.fetchLeaderboard();
+    if (rows.length === 0) {
+      els.leaderboardContent.innerHTML = `<p class="secret-hint">Aucun joueur avec un compte cloud pour l'instant.</p>`;
+      return;
+    }
+
+    const cfg = LEADERBOARD_CONFIGS[leaderboardView];
+    const sorted = rows.slice().sort(cfg.sort);
+    const myUsername = CLOUD.currentUsername();
+
+    els.leaderboardContent.innerHTML = `
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Joueur</th>
+            ${cfg.columns.map((c) => `<th>${c.label}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${sorted.map((r, i) => `
+            <tr class="${r.username === myUsername ? "leaderboard-me" : ""}">
+              <td>${i + 1}</td>
+              <td>${r.username}</td>
+              ${cfg.columns.map((c) => `<td>${c.value(r)}</td>`).join("")}
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
   }
 
   /* ---------------- Compte cloud (Marché / Arène PVP) ---------------- */

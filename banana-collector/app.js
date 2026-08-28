@@ -621,13 +621,14 @@ function fightFruitEnemy(bananaId, stageIndex) {
 
   let coinsEarned;
   const stageAdvanced = won && stageIndex === state.pve.stage + 1;
+  const winReward = Math.round(enemy.reward * 0.75);
   if (won) {
-    coinsEarned = grantCoins(enemy.reward);
+    coinsEarned = grantCoins(winReward);
     state.pve.wins += 1;
     bumpQuestProgress("wins");
     if (stageAdvanced) state.pve.stage = stageIndex;
   } else {
-    coinsEarned = grantCoins(Math.round(enemy.reward * 0.2));
+    coinsEarned = grantCoins(Math.round(winReward * 0.08));
     state.pve.losses += 1;
   }
   saveState();
