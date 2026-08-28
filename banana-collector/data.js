@@ -204,7 +204,7 @@ const BANANA_DEFS = [
   },
   { id: 28, name: "Banane cycliste", rarity: "peu_commune", image: "images/banana_28.png", emoji: "🍌", deco: { transform: "rotate(22deg)" } },
   {
-    id: 29, name: "Banane léopard", rarity: "peu_commune", image: "images/banana_29.png", emoji: "🍌",
+    id: 29, name: "Banane pelée", rarity: "peu_commune", image: "images/banana_29.png", emoji: "🍌",
     deco: {
       accessories: [
         { type: "orb", color: "#fff8e6", style: "left:30%; top:32%; width:8%; height:8%; border:1px solid #d7b23a;" },
