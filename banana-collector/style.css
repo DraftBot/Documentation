@@ -1041,6 +1041,36 @@ body {
 
 .pve-banana-option.pvp-locked-slot { opacity: 0.4; cursor: not-allowed; }
 
+.pvp-team-slots {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.pvp-slot {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.pvp-slot-label {
+  font-weight: 700;
+  color: #5c4a1a;
+  min-width: 110px;
+}
+
+.pvp-slot-select {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 2px solid #f0dfa8;
+  border-radius: 12px;
+  background: var(--card-bg);
+  font-family: inherit;
+  font-size: 0.9rem;
+  color: inherit;
+}
+
 .pvp-opponent-card {
   background: var(--card-bg);
   border-radius: var(--radius);

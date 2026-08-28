@@ -1131,7 +1131,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   /* ---------------- Arène PVP ---------------- */
 
-  let pvpSelectedTeam = [];
+  let pvpSelectedTeam = Array(5).fill(null);
   let pvpOpponent = null;
 
   function pvpOwnedBananas() {
@@ -1148,26 +1148,30 @@ document.addEventListener("DOMContentLoaded", () => {
       els.pvpTeamCount.textContent = "";
       return;
     }
-    els.pvpTeamPicker.innerHTML = owned.map((b) => {
-      const selected = pvpSelectedTeam.includes(b.id);
-      const stats = bananaCombatStats(b);
+    // Retire de l'équipe les bananes qu'on ne possède plus.
+    pvpSelectedTeam = pvpSelectedTeam.map((id) => (id != null && owned.some((b) => b.id === id) ? id : null));
+
+    els.pvpTeamPicker.innerHTML = pvpSelectedTeam.map((currentId, slot) => {
+      const options = owned.map((b) => {
+        const usedElsewhere = pvpSelectedTeam.includes(b.id) && currentId !== b.id;
+        const stats = bananaCombatStats(b);
+        return `<option value="${b.id}" ${b.id === currentId ? "selected" : ""} ${usedElsewhere ? "disabled" : ""}>${b.name} — ⚔️${stats.atk} 🛡️${stats.def}</option>`;
+      }).join("");
       return `
-        <button class="pve-banana-option ${selected ? "selected" : ""}" data-id="${b.id}" title="${b.name}">
-          ${bananaIconHTML(b, 2)}
-          <span class="pve-banana-stats">⚔️${stats.atk} 🛡️${stats.def}</span>
-        </button>
+        <div class="pvp-slot">
+          <label class="pvp-slot-label">Combattant ${slot + 1}</label>
+          <select class="pvp-slot-select" data-slot="${slot}">
+            <option value="">— Vide —</option>
+            ${options}
+          </select>
+        </div>
       `;
     }).join("");
-    els.pvpTeamCount.textContent = `${pvpSelectedTeam.length} / 5 sélectionnées`;
-    els.pvpTeamPicker.querySelectorAll(".pve-banana-option").forEach((btn) => {
-      btn.addEventListener("click", () => {
-        const id = Number(btn.dataset.id);
-        const idx = pvpSelectedTeam.indexOf(id);
-        if (idx >= 0) {
-          pvpSelectedTeam.splice(idx, 1);
-        } else if (pvpSelectedTeam.length < 5) {
-          pvpSelectedTeam.push(id);
-        }
+    els.pvpTeamCount.textContent = `${pvpSelectedTeam.filter((id) => id != null).length} / 5 sélectionnées`;
+    els.pvpTeamPicker.querySelectorAll(".pvp-slot-select").forEach((select) => {
+      select.addEventListener("change", () => {
+        const slot = Number(select.dataset.slot);
+        pvpSelectedTeam[slot] = select.value ? Number(select.value) : null;
         renderPvpTeamPicker();
       });
     });
@@ -1175,13 +1179,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   els.pvpSaveTeamBtn.addEventListener("click", async () => {
     els.pvpTeamError.textContent = "";
-    if (pvpSelectedTeam.length !== 5) {
+    const team = pvpSelectedTeam.filter((id) => id != null);
+    if (team.length !== 5) {
       els.pvpTeamError.textContent = "Choisis exactement 5 bananes.";
       return;
     }
     els.pvpSaveTeamBtn.disabled = true;
     els.pvpSaveTeamBtn.textContent = "⏳...";
-    const result = await CLOUD.setDefenseTeam(pvpSelectedTeam);
+    const result = await CLOUD.setDefenseTeam(team);
     els.pvpSaveTeamBtn.disabled = false;
     els.pvpSaveTeamBtn.textContent = "Sauvegarder l'équipe";
     if (!result.ok) {
@@ -1300,7 +1305,8 @@ document.addEventListener("DOMContentLoaded", () => {
     await renderPvpReports();
 
     const savedTeam = await CLOUD.fetchMyDefenseTeam();
-    pvpSelectedTeam = savedTeam ? savedTeam.slice() : [];
+    pvpSelectedTeam = Array(5).fill(null);
+    (savedTeam || []).forEach((id, i) => { pvpSelectedTeam[i] = id; });
     renderPvpTeamPicker();
   }
 
