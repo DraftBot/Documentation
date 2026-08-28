@@ -183,8 +183,34 @@ const CLOUD = (() => {
     if (!error) lastPushedBananasSnapshot = snapshotKey;
   }
 
+  // Pousse (écrase) la progression PVE locale — même logique que
+  // pushBananas : l'état local est la source de vérité, jamais additif.
+  let lastPushedPveSnapshot = null;
+  async function pushPve() {
+    if (!isLinked()) return;
+    const snapshotKey = JSON.stringify(state.pve);
+    if (snapshotKey === lastPushedPveSnapshot) return;
+
+    const { error } = await supabase.rpc("sync_local_pve", {
+      p_stage: state.pve.stage,
+      p_wins: state.pve.wins,
+      p_losses: state.pve.losses,
+    });
+    if (!error) lastPushedPveSnapshot = snapshotKey;
+  }
+
   async function pushAll() {
-    await Promise.all([pushBalance(), pushBananas()]);
+    await Promise.all([pushBalance(), pushBananas(), pushPve()]);
+  }
+
+  /* ---------------- Classement ---------------- */
+
+  // Lecture publique (pas besoin de compte pour consulter) : agrège
+  // collection/PVP/PVE de tous les joueurs ayant un compte cloud.
+  async function fetchLeaderboard() {
+    if (!supabase) return [];
+    const { data, error } = await supabase.rpc("get_leaderboard");
+    return error || !data ? [] : data;
   }
 
   /* ---------------- Marché ---------------- */
@@ -378,8 +404,10 @@ const CLOUD = (() => {
     pullLedger,
     pushBalance,
     pushBananas,
+    pushPve,
     pushAll,
     scheduleSync,
+    fetchLeaderboard,
     fetchActiveListings,
     fetchMyListings,
     createListing,

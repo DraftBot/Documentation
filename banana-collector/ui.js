@@ -84,6 +84,10 @@ document.addEventListener("DOMContentLoaded", () => {
     pveFightBtn: document.getElementById("pve-fight-btn"),
     pveResult: document.getElementById("pve-result"),
     pveStageList: document.getElementById("pve-stage-list"),
+    leaderboardTabCollection: document.getElementById("leaderboard-tab-collection"),
+    leaderboardTabPvp: document.getElementById("leaderboard-tab-pvp"),
+    leaderboardTabPve: document.getElementById("leaderboard-tab-pve"),
+    leaderboardContent: document.getElementById("leaderboard-content"),
   };
 
   /* ---------------- Onglets ---------------- */
@@ -98,6 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
     if (name === "combat") showCombatView(combatView);
+    if (name === "classement") showLeaderboardView(leaderboardView);
     if (name === "stats") { renderStats(); renderAchievements(); }
   }
 
@@ -1083,6 +1088,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       SFX[result.won ? "win" : "lose"]();
       renderHeader();
+      CLOUD.scheduleSync();
       els.pveResult.innerHTML = `
         <div class="pve-result-title">${result.won ? "🎉 Victoire !" : "💥 Défaite..."}</div>
         <div class="pve-result-line">${result.won ? "Ta banane triomphe de l'ennemi !" : "L'ennemi était trop coriace cette fois — courage vaincu quand même récompensé."}</div>
@@ -1365,6 +1371,78 @@ document.addEventListener("DOMContentLoaded", () => {
     autoHarvestTimer = setInterval(() => {
       if (!busy) harvest();
     }, interval);
+  }
+
+  /* ---------------- Classement ---------------- */
+
+  let leaderboardView = "collection"; // "collection" | "pvp" | "pve"
+
+  const LEADERBOARD_CONFIGS = {
+    collection: {
+      sort: (a, b) => b.collection_count - a.collection_count,
+      columns: [{ label: "Bananes", value: (r) => `${r.collection_count} / ${TOTAL_NORMAL + TOTAL_SECRET}` }],
+    },
+    pvp: {
+      sort: (a, b) => (b.pvp_wins - b.pvp_losses) - (a.pvp_wins - a.pvp_losses) || b.pvp_wins - a.pvp_wins,
+      columns: [
+        { label: "Victoires", value: (r) => r.pvp_wins },
+        { label: "Défaites", value: (r) => r.pvp_losses },
+      ],
+    },
+    pve: {
+      sort: (a, b) => b.pve_stage - a.pve_stage || b.pve_wins - a.pve_wins,
+      columns: [
+        { label: "Niveau", value: (r) => `${r.pve_stage + 1} / ${FRUIT_ENEMIES.length}` },
+        { label: "Victoires", value: (r) => r.pve_wins },
+        { label: "Défaites", value: (r) => r.pve_losses },
+      ],
+    },
+  };
+
+  function showLeaderboardView(view) {
+    leaderboardView = view;
+    els.leaderboardTabCollection.classList.toggle("active", view === "collection");
+    els.leaderboardTabPvp.classList.toggle("active", view === "pvp");
+    els.leaderboardTabPve.classList.toggle("active", view === "pve");
+    renderLeaderboard();
+  }
+
+  els.leaderboardTabCollection.addEventListener("click", () => showLeaderboardView("collection"));
+  els.leaderboardTabPvp.addEventListener("click", () => showLeaderboardView("pvp"));
+  els.leaderboardTabPve.addEventListener("click", () => showLeaderboardView("pve"));
+
+  async function renderLeaderboard() {
+    els.leaderboardContent.innerHTML = `<p class="secret-hint">Chargement du classement...</p>`;
+    const rows = await CLOUD.fetchLeaderboard();
+    if (rows.length === 0) {
+      els.leaderboardContent.innerHTML = `<p class="secret-hint">Aucun joueur avec un compte cloud pour l'instant.</p>`;
+      return;
+    }
+
+    const cfg = LEADERBOARD_CONFIGS[leaderboardView];
+    const sorted = rows.slice().sort(cfg.sort);
+    const myUsername = CLOUD.currentUsername();
+
+    els.leaderboardContent.innerHTML = `
+      <table class="leaderboard-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Joueur</th>
+            ${cfg.columns.map((c) => `<th>${c.label}</th>`).join("")}
+          </tr>
+        </thead>
+        <tbody>
+          ${sorted.map((r, i) => `
+            <tr class="${r.username === myUsername ? "leaderboard-me" : ""}">
+              <td>${i + 1}</td>
+              <td>${r.username}</td>
+              ${cfg.columns.map((c) => `<td>${c.value(r)}</td>`).join("")}
+            </tr>
+          `).join("")}
+        </tbody>
+      </table>
+    `;
   }
 
   /* ---------------- Compte cloud (Marché / Arène PVP) ---------------- */
