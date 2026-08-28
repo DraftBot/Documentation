@@ -203,6 +203,20 @@ const CLOUD = (() => {
     await Promise.all([pushBalance(), pushBananas(), pushPve()]);
   }
 
+  // Le bouton "Réinitialiser la sauvegarde" ne touchait que le local — un
+  // compte cloud lié gardait son ancien solde/inventaire/PVE en base, ce qui
+  // laissait le classement figé sur les anciennes stats après un reset.
+  async function resetCloudProgress() {
+    if (!isLinked()) return;
+    const { data, error } = await supabase.rpc("reset_cloud_progress");
+    if (error) return;
+    const cloud = ensureCloudState();
+    cloud.lastLedgerId = (data && data[0] && data[0].max_ledger_id) || 0;
+    saveState();
+    lastPushedBananasSnapshot = null;
+    lastPushedPveSnapshot = null;
+  }
+
   /* ---------------- Classement ---------------- */
 
   // Lecture publique (pas besoin de compte pour consulter) : agrège
@@ -406,6 +420,7 @@ const CLOUD = (() => {
     pushBananas,
     pushPve,
     pushAll,
+    resetCloudProgress,
     scheduleSync,
     fetchLeaderboard,
     fetchActiveListings,

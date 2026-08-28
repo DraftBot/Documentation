@@ -102,7 +102,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (name === "pub") renderAdTab();
     if (name === "minijeux") showMinigamesMenu();
     if (name === "combat") showCombatView(combatView);
-    if (name === "classement") showLeaderboardView(leaderboardView);
+    if (name === "classement") { showLeaderboardView(leaderboardView); startLeaderboardPolling(); }
+    else stopLeaderboardPolling();
     if (name === "stats") { renderStats(); renderAchievements(); }
   }
 
@@ -1376,11 +1377,16 @@ document.addEventListener("DOMContentLoaded", () => {
   /* ---------------- Classement ---------------- */
 
   let leaderboardView = "collection"; // "collection" | "pvp" | "pve"
+  let leaderboardPollTimer = null;
+  const LEADERBOARD_POLL_MS = 15000;
 
   const LEADERBOARD_CONFIGS = {
     collection: {
-      sort: (a, b) => b.collection_count - a.collection_count,
-      columns: [{ label: "Bananes", value: (r) => `${r.collection_count} / ${TOTAL_NORMAL + TOTAL_SECRET}` }],
+      sort: (a, b) => (b.collection_count + b.secret_count) - (a.collection_count + a.secret_count),
+      columns: [
+        { label: "Bananes", value: (r) => `${r.collection_count} / ${TOTAL_NORMAL}` },
+        { label: "Secrètes", value: (r) => `${r.secret_count} / ${TOTAL_SECRET}` },
+      ],
     },
     pvp: {
       sort: (a, b) => (b.pvp_wins - b.pvp_losses) - (a.pvp_wins - a.pvp_losses) || b.pvp_wins - a.pvp_wins,
@@ -1411,8 +1417,22 @@ document.addEventListener("DOMContentLoaded", () => {
   els.leaderboardTabPvp.addEventListener("click", () => showLeaderboardView("pvp"));
   els.leaderboardTabPve.addEventListener("click", () => showLeaderboardView("pve"));
 
+  function startLeaderboardPolling() {
+    stopLeaderboardPolling();
+    leaderboardPollTimer = setInterval(renderLeaderboard, LEADERBOARD_POLL_MS);
+  }
+
+  function stopLeaderboardPolling() {
+    clearInterval(leaderboardPollTimer);
+    leaderboardPollTimer = null;
+  }
+
   async function renderLeaderboard() {
-    els.leaderboardContent.innerHTML = `<p class="secret-hint">Chargement du classement...</p>`;
+    // Pas de flash "Chargement..." sur les rafraîchissements auto : seulement
+    // au tout premier affichage, quand il n'y a encore aucun tableau.
+    if (!els.leaderboardContent.querySelector("table")) {
+      els.leaderboardContent.innerHTML = `<p class="secret-hint">Chargement du classement...</p>`;
+    }
     const rows = await CLOUD.fetchLeaderboard();
     if (rows.length === 0) {
       els.leaderboardContent.innerHTML = `<p class="secret-hint">Aucun joueur avec un compte cloud pour l'instant.</p>`;
@@ -1589,6 +1609,7 @@ document.addEventListener("DOMContentLoaded", () => {
     els.confirmModal.classList.add("hidden");
   });
   els.confirmYes.addEventListener("click", () => {
+    if (CLOUD.isLinked()) CLOUD.resetCloudProgress().catch(() => {});
     resetSave();
     els.confirmModal.classList.add("hidden");
     els.lastBanana.innerHTML = `<p class="empty-hint">Clique sur le bouton pour récolter ta première banane !</p>`;
