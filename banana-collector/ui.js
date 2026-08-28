@@ -88,23 +88,85 @@ document.addEventListener("DOMContentLoaded", () => {
     leaderboardTabPvp: document.getElementById("leaderboard-tab-pvp"),
     leaderboardTabPve: document.getElementById("leaderboard-tab-pve"),
     leaderboardContent: document.getElementById("leaderboard-content"),
+    progressionTabCollection: document.getElementById("progression-tab-collection"),
+    progressionTabQuetes: document.getElementById("progression-tab-quetes"),
+    progressionTabMinijeux: document.getElementById("progression-tab-minijeux"),
+    progressionCollectionView: document.getElementById("progression-collection-view"),
+    progressionQuetesView: document.getElementById("progression-quetes-view"),
+    progressionMinijeuxView: document.getElementById("progression-minijeux-view"),
+    economieTabBoutique: document.getElementById("economie-tab-boutique"),
+    economieTabMarche: document.getElementById("economie-tab-marche"),
+    economieTabPub: document.getElementById("economie-tab-pub"),
+    economieBoutiqueView: document.getElementById("economie-boutique-view"),
+    economieMarcheView: document.getElementById("economie-marche-view"),
+    economiePubView: document.getElementById("economie-pub-view"),
+    bilanTabClassement: document.getElementById("bilan-tab-classement"),
+    bilanTabStats: document.getElementById("bilan-tab-stats"),
+    bilanClassementView: document.getElementById("bilan-classement-view"),
+    bilanStatsView: document.getElementById("bilan-stats-view"),
   };
 
   /* ---------------- Onglets ---------------- */
 
+  let progressionView = "collection"; // "collection" | "quetes" | "minijeux"
+  let economieView = "boutique"; // "boutique" | "marche" | "pub"
+  let bilanView = "classement"; // "classement" | "stats"
+
+  function showProgressionView(view) {
+    progressionView = view;
+    els.progressionTabCollection.classList.toggle("active", view === "collection");
+    els.progressionTabQuetes.classList.toggle("active", view === "quetes");
+    els.progressionTabMinijeux.classList.toggle("active", view === "minijeux");
+    els.progressionCollectionView.classList.toggle("hidden", view !== "collection");
+    els.progressionQuetesView.classList.toggle("hidden", view !== "quetes");
+    els.progressionMinijeuxView.classList.toggle("hidden", view !== "minijeux");
+    if (view === "collection") renderCollection();
+    if (view === "quetes") renderQuests();
+    if (view === "minijeux") showMinigamesMenu();
+  }
+
+  els.progressionTabCollection.addEventListener("click", () => showProgressionView("collection"));
+  els.progressionTabQuetes.addEventListener("click", () => showProgressionView("quetes"));
+  els.progressionTabMinijeux.addEventListener("click", () => showProgressionView("minijeux"));
+
+  function showEconomieView(view) {
+    economieView = view;
+    els.economieTabBoutique.classList.toggle("active", view === "boutique");
+    els.economieTabMarche.classList.toggle("active", view === "marche");
+    els.economieTabPub.classList.toggle("active", view === "pub");
+    els.economieBoutiqueView.classList.toggle("hidden", view !== "boutique");
+    els.economieMarcheView.classList.toggle("hidden", view !== "marche");
+    els.economiePubView.classList.toggle("hidden", view !== "pub");
+    if (view === "boutique") renderShop();
+    if (view === "marche") renderMarketTab();
+    if (view === "pub") renderAdTab();
+  }
+
+  els.economieTabBoutique.addEventListener("click", () => showEconomieView("boutique"));
+  els.economieTabMarche.addEventListener("click", () => showEconomieView("marche"));
+  els.economieTabPub.addEventListener("click", () => showEconomieView("pub"));
+
+  function showBilanView(view) {
+    bilanView = view;
+    els.bilanTabClassement.classList.toggle("active", view === "classement");
+    els.bilanTabStats.classList.toggle("active", view === "stats");
+    els.bilanClassementView.classList.toggle("hidden", view !== "classement");
+    els.bilanStatsView.classList.toggle("hidden", view !== "stats");
+    if (view === "classement") { showLeaderboardView(leaderboardView); startLeaderboardPolling(); }
+    else { stopLeaderboardPolling(); renderStats(); renderAchievements(); }
+  }
+
+  els.bilanTabClassement.addEventListener("click", () => showBilanView("classement"));
+  els.bilanTabStats.addEventListener("click", () => showBilanView("stats"));
+
   function showTab(name) {
     els.tabButtons.forEach((b) => b.classList.toggle("active", b.dataset.tab === name));
     els.tabPanels.forEach((p) => p.classList.toggle("active", p.id === `tab-${name}`));
-    if (name === "collection") renderCollection();
-    if (name === "boutique") renderShop();
-    if (name === "quetes") renderQuests();
-    if (name === "marche") renderMarketTab();
-    if (name === "pub") renderAdTab();
-    if (name === "minijeux") showMinigamesMenu();
+    if (name === "progression") showProgressionView(progressionView);
+    if (name === "economie") showEconomieView(economieView);
     if (name === "combat") showCombatView(combatView);
-    if (name === "classement") { showLeaderboardView(leaderboardView); startLeaderboardPolling(); }
+    if (name === "bilan") showBilanView(bilanView);
     else stopLeaderboardPolling();
-    if (name === "stats") { renderStats(); renderAchievements(); }
   }
 
   els.tabButtons.forEach((btn) => {

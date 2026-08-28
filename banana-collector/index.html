@@ -22,16 +22,11 @@
     </header>
 
     <nav class="tabs">
-      <button class="tab-btn active" data-tab="accueil">🏠 Accueil</button>
-      <button class="tab-btn" data-tab="collection">📖 Collection</button>
-      <button class="tab-btn" data-tab="boutique">🛒 Boutique</button>
-      <button class="tab-btn" data-tab="quetes">📜 Quêtes</button>
-      <button class="tab-btn" data-tab="marche">🏪 Marché</button>
-      <button class="tab-btn" data-tab="pub">📺 Pub</button>
-      <button class="tab-btn" data-tab="minijeux">🎮 Mini-jeux</button>
+      <button class="tab-btn active" data-tab="accueil">🎲 Tirage</button>
+      <button class="tab-btn" data-tab="progression">🗂️ Progression</button>
+      <button class="tab-btn" data-tab="economie">💰 Économie</button>
       <button class="tab-btn" data-tab="combat">⚔️ Combat</button>
-      <button class="tab-btn" data-tab="classement">🏆 Classement</button>
-      <button class="tab-btn" data-tab="stats">📊 Statistiques</button>
+      <button class="tab-btn" data-tab="bilan">📋 Bilan</button>
     </nav>
 
     <main>
@@ -40,132 +35,148 @@
         <div id="last-banana" class="last-banana-zone"></div>
       </section>
 
-      <section id="tab-collection" class="tab-panel">
-        <h2>Ma collection</h2>
-        <div class="progress-wrap">
-          <span id="progress-label">Collection : 0 / 100</span>
-          <div class="progress-bar"><div id="progress-bar-fill" class="progress-bar-fill"></div></div>
+      <section id="tab-progression" class="tab-panel">
+        <div class="market-subtabs">
+          <button class="market-subtab-btn active" id="progression-tab-collection" data-progressionview="collection">📖 Collection</button>
+          <button class="market-subtab-btn" id="progression-tab-quetes" data-progressionview="quetes">📜 Quêtes</button>
+          <button class="market-subtab-btn" id="progression-tab-minijeux" data-progressionview="minijeux">🎮 Mini-jeux</button>
         </div>
-        <div id="collection-grid" class="banana-grid"></div>
 
-        <div id="secret-section" class="secret-section">
-          <h2>🕵️ Bananes secrètes <span id="secret-count">0 / 10</span></h2>
-          <div id="secret-grid" class="banana-grid"></div>
+        <div id="progression-collection-view">
+          <h2>Ma collection</h2>
+          <div class="progress-wrap">
+            <span id="progress-label">Collection : 0 / 100</span>
+            <div class="progress-bar"><div id="progress-bar-fill" class="progress-bar-fill"></div></div>
+          </div>
+          <div id="collection-grid" class="banana-grid"></div>
+
+          <div id="secret-section" class="secret-section">
+            <h2>🕵️ Bananes secrètes <span id="secret-count">0 / 10</span></h2>
+            <div id="secret-grid" class="banana-grid"></div>
+          </div>
         </div>
-      </section>
 
-      <section id="tab-boutique" class="tab-panel">
-        <h2>Boutique</h2>
-        <p class="shop-hint">Dépense tes pièces pour améliorer tes chances d'obtenir des bananes rares !</p>
-        <div id="shop-list" class="shop-list"></div>
-      </section>
+        <div id="progression-quetes-view" class="hidden">
+          <h2>📜 Quêtes du jour</h2>
+          <p class="shop-hint">Un nouveau lot de quêtes t'attend chaque jour. Termine-les pour gagner des pièces bonus !</p>
+          <div id="quests-list" class="quests-list"></div>
+        </div>
 
-      <section id="tab-quetes" class="tab-panel">
-        <h2>📜 Quêtes du jour</h2>
-        <p class="shop-hint">Un nouveau lot de quêtes t'attend chaque jour. Termine-les pour gagner des pièces bonus !</p>
-        <div id="quests-list" class="quests-list"></div>
-      </section>
-
-      <section id="tab-marche" class="tab-panel">
-        <h2>🏪 Marché</h2>
-        <p class="shop-hint">Vends tes doublons contre des pièces, achète ceux des autres joueurs.</p>
-        <div id="market-locked" class="secret-hint hidden">🔒 Connecte-toi (bouton "👤 Compte" en haut de la page) pour accéder au Marché.</div>
-        <div id="market-content" class="hidden">
-          <div class="market-subtabs">
-            <button class="market-subtab-btn active" id="market-tab-buy" data-marketview="buy">🛍️ Acheter</button>
-            <button class="market-subtab-btn" id="market-tab-sell" data-marketview="sell">🏷️ Mes annonces</button>
+        <div id="progression-minijeux-view" class="hidden">
+          <div id="minigames-menu" class="game-menu">
+            <h2>🎮 Mini-jeux</h2>
+            <button class="game-card" id="open-catch-game" data-game="catch">
+              <span class="game-card-icon">🍌</span>
+              <span class="game-card-body">
+                <span class="game-card-title">Attrape les bananes</span>
+                <span class="game-card-desc">3 niveaux dans la jungle, chacun plus rapide que le précédent. Attrape un maximum de bananes fraîches, sans toucher les pourries.</span>
+                <span class="game-card-best" id="catch-best-label"></span>
+              </span>
+            </button>
+            <button class="game-card" id="open-wheel-game" data-game="wheel">
+              <span class="game-card-icon">🎡</span>
+              <span class="game-card-body">
+                <span class="game-card-title">Roue quotidienne</span>
+                <span class="game-card-desc">Un tour gratuit par jour pour gagner un bonus de pièces.</span>
+                <span class="game-card-best" id="wheel-status-label"></span>
+              </span>
+            </button>
           </div>
-          <div id="market-buy-view" class="market-view">
-            <div id="market-listings" class="market-listings"></div>
-          </div>
-          <div id="market-sell-view" class="market-view hidden">
-            <div class="market-sell-form">
-              <div id="market-sell-picker" class="market-sell-picker"></div>
-              <div class="market-sell-inputs">
-                <input id="market-sell-quantity" type="number" min="1" placeholder="Quantité" />
-                <input id="market-sell-price" type="number" min="1" placeholder="Prix / unité 🪙" />
-                <button id="market-sell-submit-btn" class="btn harvest-btn">Mettre en vente</button>
+
+          <div id="minigame-catch" class="game-view hidden">
+            <button class="btn game-back-btn" data-back>← Retour</button>
+            <h2>🍌 Attrape les bananes</h2>
+            <div class="catch-hud">
+              <span id="catch-timer">⏱️ Niveau 1 — 10s</span>
+              <span id="catch-score">⭐ 0</span>
+            </div>
+            <div id="catch-area" class="catch-area level-1">
+              <div class="catch-jungle-deco" aria-hidden="true">
+                <span style="top:-6%; left:-8%; font-size:4.6rem; transform:rotate(-15deg);">🌿</span>
+                <span style="top:-4%; right:-10%; font-size:5.2rem; transform:rotate(20deg) scaleX(-1);">🌿</span>
+                <span style="bottom:-8%; left:-6%; font-size:4rem; transform:rotate(12deg);">🍃</span>
+                <span style="bottom:-10%; right:-4%; font-size:4.6rem; transform:rotate(-25deg) scaleX(-1);">🌿</span>
               </div>
-              <div class="account-error" id="market-sell-error"></div>
+              <div id="catch-start-overlay" class="catch-start-overlay">
+                <p class="catch-instructions">3 niveaux, de plus en plus rapides. Clique sur les bananes 🍌 qui tombent, évite les pourries !</p>
+                <button id="catch-start-btn" class="btn harvest-btn">▶️ Démarrer</button>
+              </div>
+              <div id="catch-result" class="catch-result hidden"></div>
             </div>
-            <div id="market-my-listings" class="market-listings"></div>
+          </div>
+
+          <div id="minigame-wheel" class="game-view hidden">
+            <button class="btn game-back-btn" data-back>← Retour</button>
+            <h2>🎡 Roue de la fortune</h2>
+            <div class="wheel-wrap">
+              <div class="wheel-pointer">▼</div>
+              <div id="wheel-disc" class="wheel-disc"></div>
+            </div>
+            <button id="wheel-spin-btn" class="btn harvest-btn">🎡 Tourner la roue</button>
+            <p id="wheel-status" class="ad-quota"></p>
           </div>
         </div>
       </section>
 
-      <section id="tab-pub" class="tab-panel">
-        <h2>📺 Publicité</h2>
-        <p class="shop-hint">Regarde une pub pour gagner des pièces gratuitement, en plus de la récolte.</p>
-
-        <!--
-          Emplacement d'intégration publicitaire.
-          Web  : remplacer ce bloc par une unité Google AdSense
-                 (<ins class="adsbygoogle" ...>) une fois le compte validé.
-          Mobile (app Capacitor) : afficher ici une bannière AdMob native
-                 via @capacitor-community/admob.
-        -->
-        <div class="ad-slot">
-          <div class="ad-slot-label">Espace publicitaire</div>
-          <div class="ad-slot-sub">Bannière AdSense / AdMob — à activer avec un compte annonceur</div>
+      <section id="tab-economie" class="tab-panel">
+        <div class="market-subtabs">
+          <button class="market-subtab-btn active" id="economie-tab-boutique" data-economieview="boutique">🛒 Boutique</button>
+          <button class="market-subtab-btn" id="economie-tab-marche" data-economieview="marche">🏪 Marché</button>
+          <button class="market-subtab-btn" id="economie-tab-pub" data-economieview="pub">📺 Pub</button>
         </div>
 
-        <button id="watch-ad-btn" class="btn watch-ad-btn">🎬 Regarder une pub (+300 🪙)</button>
-        <p id="ad-quota" class="ad-quota"></p>
-        <p class="privacy-link"><a href="privacy.html">Politique de confidentialité & publicités</a></p>
-      </section>
-
-      <section id="tab-minijeux" class="tab-panel">
-        <div id="minigames-menu" class="game-menu">
-          <h2>🎮 Mini-jeux</h2>
-          <button class="game-card" id="open-catch-game" data-game="catch">
-            <span class="game-card-icon">🍌</span>
-            <span class="game-card-body">
-              <span class="game-card-title">Attrape les bananes</span>
-              <span class="game-card-desc">3 niveaux dans la jungle, chacun plus rapide que le précédent. Attrape un maximum de bananes fraîches, sans toucher les pourries.</span>
-              <span class="game-card-best" id="catch-best-label"></span>
-            </span>
-          </button>
-          <button class="game-card" id="open-wheel-game" data-game="wheel">
-            <span class="game-card-icon">🎡</span>
-            <span class="game-card-body">
-              <span class="game-card-title">Roue quotidienne</span>
-              <span class="game-card-desc">Un tour gratuit par jour pour gagner un bonus de pièces.</span>
-              <span class="game-card-best" id="wheel-status-label"></span>
-            </span>
-          </button>
+        <div id="economie-boutique-view">
+          <h2>Boutique</h2>
+          <p class="shop-hint">Dépense tes pièces pour améliorer tes chances d'obtenir des bananes rares !</p>
+          <div id="shop-list" class="shop-list"></div>
         </div>
 
-        <div id="minigame-catch" class="game-view hidden">
-          <button class="btn game-back-btn" data-back>← Retour</button>
-          <h2>🍌 Attrape les bananes</h2>
-          <div class="catch-hud">
-            <span id="catch-timer">⏱️ Niveau 1 — 10s</span>
-            <span id="catch-score">⭐ 0</span>
-          </div>
-          <div id="catch-area" class="catch-area level-1">
-            <div class="catch-jungle-deco" aria-hidden="true">
-              <span style="top:-6%; left:-8%; font-size:4.6rem; transform:rotate(-15deg);">🌿</span>
-              <span style="top:-4%; right:-10%; font-size:5.2rem; transform:rotate(20deg) scaleX(-1);">🌿</span>
-              <span style="bottom:-8%; left:-6%; font-size:4rem; transform:rotate(12deg);">🍃</span>
-              <span style="bottom:-10%; right:-4%; font-size:4.6rem; transform:rotate(-25deg) scaleX(-1);">🌿</span>
+        <div id="economie-marche-view" class="hidden">
+          <h2>🏪 Marché</h2>
+          <p class="shop-hint">Vends tes doublons contre des pièces, achète ceux des autres joueurs.</p>
+          <div id="market-locked" class="secret-hint hidden">🔒 Connecte-toi (bouton "👤 Compte" en haut de la page) pour accéder au Marché.</div>
+          <div id="market-content" class="hidden">
+            <div class="market-subtabs">
+              <button class="market-subtab-btn active" id="market-tab-buy" data-marketview="buy">🛍️ Acheter</button>
+              <button class="market-subtab-btn" id="market-tab-sell" data-marketview="sell">🏷️ Mes annonces</button>
             </div>
-            <div id="catch-start-overlay" class="catch-start-overlay">
-              <p class="catch-instructions">3 niveaux, de plus en plus rapides. Clique sur les bananes 🍌 qui tombent, évite les pourries !</p>
-              <button id="catch-start-btn" class="btn harvest-btn">▶️ Démarrer</button>
+            <div id="market-buy-view" class="market-view">
+              <div id="market-listings" class="market-listings"></div>
             </div>
-            <div id="catch-result" class="catch-result hidden"></div>
+            <div id="market-sell-view" class="market-view hidden">
+              <div class="market-sell-form">
+                <div id="market-sell-picker" class="market-sell-picker"></div>
+                <div class="market-sell-inputs">
+                  <input id="market-sell-quantity" type="number" min="1" placeholder="Quantité" />
+                  <input id="market-sell-price" type="number" min="1" placeholder="Prix / unité 🪙" />
+                  <button id="market-sell-submit-btn" class="btn harvest-btn">Mettre en vente</button>
+                </div>
+                <div class="account-error" id="market-sell-error"></div>
+              </div>
+              <div id="market-my-listings" class="market-listings"></div>
+            </div>
           </div>
         </div>
 
-        <div id="minigame-wheel" class="game-view hidden">
-          <button class="btn game-back-btn" data-back>← Retour</button>
-          <h2>🎡 Roue de la fortune</h2>
-          <div class="wheel-wrap">
-            <div class="wheel-pointer">▼</div>
-            <div id="wheel-disc" class="wheel-disc"></div>
+        <div id="economie-pub-view" class="hidden">
+          <h2>📺 Publicité</h2>
+          <p class="shop-hint">Regarde une pub pour gagner des pièces gratuitement, en plus de la récolte.</p>
+
+          <!--
+            Emplacement d'intégration publicitaire.
+            Web  : remplacer ce bloc par une unité Google AdSense
+                   (<ins class="adsbygoogle" ...>) une fois le compte validé.
+            Mobile (app Capacitor) : afficher ici une bannière AdMob native
+                   via @capacitor-community/admob.
+          -->
+          <div class="ad-slot">
+            <div class="ad-slot-label">Espace publicitaire</div>
+            <div class="ad-slot-sub">Bannière AdSense / AdMob — à activer avec un compte annonceur</div>
           </div>
-          <button id="wheel-spin-btn" class="btn harvest-btn">🎡 Tourner la roue</button>
-          <p id="wheel-status" class="ad-quota"></p>
+
+          <button id="watch-ad-btn" class="btn watch-ad-btn">🎬 Regarder une pub (+300 🪙)</button>
+          <p id="ad-quota" class="ad-quota"></p>
+          <p class="privacy-link"><a href="privacy.html">Politique de confidentialité & publicités</a></p>
         </div>
       </section>
 
@@ -224,24 +235,31 @@
         </div>
       </section>
 
-      <section id="tab-classement" class="tab-panel">
-        <h2>🏆 Classement</h2>
-        <p class="shop-hint">Comparaison entre joueurs ayant un compte cloud (bouton "👤 Compte" en haut de la page).</p>
-
+      <section id="tab-bilan" class="tab-panel">
         <div class="market-subtabs">
-          <button class="market-subtab-btn active" id="leaderboard-tab-collection" data-leaderboardview="collection">📖 Collection</button>
-          <button class="market-subtab-btn" id="leaderboard-tab-pvp" data-leaderboardview="pvp">🆚 Arène PVP</button>
-          <button class="market-subtab-btn" id="leaderboard-tab-pve" data-leaderboardview="pve">🍍 Combats IA</button>
+          <button class="market-subtab-btn active" id="bilan-tab-classement" data-bilanview="classement">🏆 Classement</button>
+          <button class="market-subtab-btn" id="bilan-tab-stats" data-bilanview="stats">📊 Statistiques</button>
         </div>
 
-        <div id="leaderboard-content"></div>
-      </section>
+        <div id="bilan-classement-view">
+          <h2>🏆 Classement</h2>
+          <p class="shop-hint">Comparaison entre joueurs ayant un compte cloud (bouton "👤 Compte" en haut de la page).</p>
 
-      <section id="tab-stats" class="tab-panel">
-        <h2>Statistiques</h2>
-        <div id="stats-content"></div>
-        <div id="achievements-content"></div>
-        <button id="reset-btn" class="btn danger reset-btn">🗑️ Réinitialiser la sauvegarde</button>
+          <div class="market-subtabs">
+            <button class="market-subtab-btn active" id="leaderboard-tab-collection" data-leaderboardview="collection">📖 Collection</button>
+            <button class="market-subtab-btn" id="leaderboard-tab-pvp" data-leaderboardview="pvp">🆚 Arène PVP</button>
+            <button class="market-subtab-btn" id="leaderboard-tab-pve" data-leaderboardview="pve">🍍 Combats IA</button>
+          </div>
+
+          <div id="leaderboard-content"></div>
+        </div>
+
+        <div id="bilan-stats-view" class="hidden">
+          <h2>Statistiques</h2>
+          <div id="stats-content"></div>
+          <div id="achievements-content"></div>
+          <button id="reset-btn" class="btn danger reset-btn">🗑️ Réinitialiser la sauvegarde</button>
+        </div>
       </section>
     </main>
   </div>
