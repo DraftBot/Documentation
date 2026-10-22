@@ -101,7 +101,7 @@ minimisent la difficulté pour le lecteur.
 ## Frontmatter
 
 - `slug` : le chemin d'URL anglais. Il doit commencer par le `slug` du
-  `_dir.yml` du dossier parent, privé de son suffixe `/_dir`.
+  `.navigation.yml` du dossier parent, privé de son suffixe `/.navigation`.
 - `sourceHash` : le SHA-256 du fichier français traduit. L'obtenir par
   `node scripts/content-hash.mjs docs/fr/<chemin>`.
 - `sourceCommit` : le SHA du commit courant (`git rev-parse HEAD`).
