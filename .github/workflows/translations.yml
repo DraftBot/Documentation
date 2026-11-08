@@ -19,6 +19,8 @@ jobs:
       pull-requests: write
       # Requis meme sans github_token : l'action s'authentifie comme la Claude GitHub App.
       id-token: write
+      # Pour relancer ce workflow en workflow_dispatch (voir plus bas).
+      actions: write
     steps:
       - uses: actions/checkout@v6
         with:
@@ -34,7 +36,14 @@ jobs:
       - id: stale
         run: node scripts/check-translations.mjs --github-output
 
-      - if: steps.stale.outputs.pages != ''
+      # claude-code-action refuse l'evenement push : on relance ce workflow en
+      # workflow_dispatch, que GITHUB_TOKEN a le droit de declencher.
+      - if: github.event_name == 'push' && steps.stale.outputs.pages != ''
+        run: gh workflow run translations.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - if: github.event_name != 'push' && steps.stale.outputs.pages != ''
         # Ne pas ajouter github_token : GitHub ne declenche aucun workflow sur les
         # commits signes par GITHUB_TOKEN, donc checks.yml ne tournerait pas sur la
         # pull request produite ici.
