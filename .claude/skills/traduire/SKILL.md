@@ -1,7 +1,7 @@
 ---
 name: traduire
 description: Traduit ou met à jour les pages anglaises de la documentation DraftBot à partir des sources françaises. Prend en argument une liste de chemins de fichiers français, séparés par des espaces.
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash(git:*), Bash(gh pr create:*), Bash(node scripts/check-translations.mjs:*), Bash(node scripts/check-links.mjs:*), Bash(node scripts/content-hash.mjs:*)
+allowed-tools: Read, Write, Edit, Glob, Grep, Bash(git:*), Bash(gh pr create:*), Bash(node scripts/check-translations.mjs:*), Bash(node scripts/check-links.mjs:*), Bash(node scripts/content-hash.mjs:*), Bash(cp:*)
 ---
 
 Tu mets à jour la documentation anglaise de DraftBot à partir de la version
@@ -94,9 +94,11 @@ minimisent la difficulté pour le lecteur.
 - Les noms de commandes Discord (`/config`, `/premium activer`) : utilise la
   forme anglaise réelle du bot, vérifiée dans le glossaire.
 - Les émojis personnalisés (`<:icon_premium:1096140508625125417>`).
-- Les chemins d'assets : reprends ceux du fichier français, sauf si une
-  capture anglaise existe au même chemin sous le dossier `assets/` de la
-  catégorie anglaise.
+- Les chemins d'assets : reprends ceux du fichier français. Un chemin
+  relatif (`./assets/…`) pointe alors vers `docs/en/assets/` : si l'image
+  n'y existe pas encore, copie-la depuis `docs/fr/assets/` au même chemin
+  (`cp`), sinon `check-links.mjs` échoue. Une capture anglaise déjà présente
+  à ce chemin est conservée.
 
 ## Frontmatter
 

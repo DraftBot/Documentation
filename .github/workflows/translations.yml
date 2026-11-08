@@ -29,6 +29,9 @@ jobs:
           # declenche aucun workflow sur ces commits, donc checks.yml ne
           # tournerait pas sur la pull request produite ici.
           persist-credentials: false
+          # Historique complet : le skill compare la source francaise a celle
+          # du sourceCommit de chaque page anglaise (git show).
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
@@ -56,4 +59,4 @@ jobs:
           claude_args: |
             --model claude-opus-5
             --max-turns 150
-            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(git:*),Bash(gh pr create:*),Bash(node scripts/check-translations.mjs:*),Bash(node scripts/check-links.mjs:*),Bash(node scripts/content-hash.mjs:*)"
+            --allowedTools "Read,Write,Edit,Glob,Grep,Bash(git:*),Bash(gh pr create:*),Bash(node scripts/check-translations.mjs:*),Bash(node scripts/check-links.mjs:*),Bash(node scripts/content-hash.mjs:*),Bash(cp:*)"
