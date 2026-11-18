@@ -62,8 +62,8 @@ export async function findIssues(docsDir) {
 
   const dirSlugs = new Map()
   for (const page of [...source, ...target]) {
-    if (page.relPath.endsWith('_dir.yml') && page.data.slug) {
-      dirSlugs.set(dirname(page.absPath), page.data.slug.replace(/\/_dir$/, ''))
+    if (page.relPath.endsWith('.navigation.yml') && page.data.slug) {
+      dirSlugs.set(dirname(page.absPath), page.data.slug.replace(/\/\.navigation$/, ''))
     }
   }
 
@@ -81,7 +81,7 @@ export async function findIssues(docsDir) {
         continue
       }
       const parentSlug = dirSlugs.get(dirname(page.absPath))
-      // Le _dir.yml racine a pour slug "/_dir", donc un parentSlug vide : la
+      // Le .navigation.yml racine a pour slug "/.navigation", donc un parentSlug vide : la
       // comparaison se reduit alors au "/" initial, qu'un slug racine malforme
       // n'a pas. Tester la presence de la cle et non sa verite, sinon ce cas
       // sort de la verification.
@@ -102,9 +102,9 @@ export async function findIssues(docsDir) {
   }
 
   for (const page of source) {
-    if (page.relPath.endsWith('_dir.yml')) continue
+    if (page.relPath.endsWith('.navigation.yml')) continue
     // Le frontmatter est parse en chaines : `translate: false` arrive en "false".
-    // Un _dir.yml qui la porte ne couvre que lui-meme, aucune cascade n'existe
+    // Un .navigation.yml qui la porte ne couvre que lui-meme, aucune cascade n'existe
     // ici : la cle doit etre posee sur chaque page a exclure.
     if (page.data.translate?.trim() === 'false') continue
     const translated = byRelPath.get(page.relPath)
